@@ -5,7 +5,7 @@ This is summod, a dominions 4 overhaul mod, and it is a work in progress.  For d
 
 The changelog starts on the next page, around line 15.  At the moment it is more readable in "raw" or here: https://docs.google.com/document/d/10xPz7ZKUhR3avOCwbAr7XKdt5wMmJbEm4J-WNHyQ160/edit#heading=h.dztyhnmwhhzn
 
-Thanks to:      Lambert_S, Ohlmann, Amuys, Johannes, Algulod, llamabeast, Zonk, Sy, Cruxador, Iceland, Torgoni, Malakal, Fungalreason, AN_, Maerlande, Earcaraxe, Eustachy, Yakri, PyroICF, Kate Micucci, EAlb, various anons, and anyone else I've forgotten.
+Thanks to:      LambertS, Moggers, Ohlmann, Amuys, Johannes, Algulod, llamabeast, Zonk, Sy, Cruxador, Iceland, Torgoni, Malakal, Fungalreason, AN, Maerlande, Earcaraxe, Eustachy, Yakri, PyroICF, Kate Micucci, EAlb, various anons, and anyone else I've forgotten.
 
 What is the purpose of this mod?    
 The mod's purpose is a general "gameplay improvement mod." This primarily involves increasing gameplay variety. While balance is involved in this, it is not the only consideration.  The changes to the generic section can be quite conservative, but certain nations with severe underlying flaws, such as LA Pythium (coming soon!), receive comprehensive rebuilds.
