@@ -969,52 +969,37 @@ The Slaughterhouse: Provides supply, summons some extra foulspawn
 
 Surveyed armor, made changes
 
-Full Ring Mail +1 def, -1 rescost 
-(Logrians) 
+Full Ring Mail +1 def, -1 rescost (Logrians) 
 
 Chain Hauberk +1 def
 
-Full Chain Mail +1 def - 
-LA Man, MA Man, LA Agartha, MA MArignon *
+Full Chain Mail +1 def - LA Man, MA Man, LA Agartha, MA MArignon *
 
-Plate cuirass +1 def, -1 enc 
-(LA Pythium, LA Pangaea LA Ulm, LA/MA Marignon, LA Caelum (two units), LA Ragha (one unit), Therodos (Korybants -increase enc, drop defense), MA Pelagia (one unit), MA/LA Arco 
+Plate cuirass +1 def, -1 enc (LA Pythium, LA Pangaea LA Ulm, LA/MA Marignon, LA Caelum (two units), LA Ragha (one unit), Therodos (Korybants -increase enc, drop defense), MA Pelagia (one unit), MA/LA Arco 
 
-Plate Hauberk +2 def, -2 enc 
-(LA Pythium, Abysia, MA Machaka, LA Marignon, Ghandarvas, MA/LA Arco)**
+Plate Hauberk +2 def, -2 enc (LA Pythium, Abysia, MA Machaka, LA Marignon, Ghandarvas, MA/LA Arco)**
 
-Full Plate Mail -2 enc, +1 def 
-(LA Agartha (lots), MA/LA Marignon (Royal Guard), MA Machaka (Black Hunters).
+Full Plate Mail -2 enc, +1 def (LA Agartha (lots), MA/LA Marignon (Royal Guard), MA Machaka (Black Hunters).
 
-Full Chain Ulm +1 def  
-(MA Ulm) 
+Full Chain Ulm +1 def  (MA Ulm) 
 
-Full Plate Ulm +1 def, 
-(MA Ulm) 
+Full Plate Ulm +1 def, (MA Ulm) 
 
-Bronze Cuirass +1 Def, -1 Enc
- (Therodos, MA Pangaea, MA Pelagia)
+Bronze Cuirass +1 Def, -1 Enc (Therodos, MA Pangaea, MA Pelagia)
 
-Bronze Hauberk -2 enc 
-(MA Pan, Pelagia, Oceania, EA Arco, LA Gath)
+Bronze Hauberk -2 enc (MA Pan, Pelagia, Oceania, EA Arco, LA Gath)
 
-Spider Armor +1 def, -1 enc, -6 rescost
- (Machaka)
+Spider Armor +1 def, -1 enc, -6 rescost (Machaka)
 
-Ashigaru Armor +1 def, -1 enc 
-(Shinyu, Yomi, slightly Jomon)*
+Ashigaru Armor +1 def, -1 enc (Shinyu, Yomi, slightly Jomon)*
 
-Samurai Armor +1 def, -1 enc 
-(Jomon, Shinyu ? Yomi)*
+Samurai Armor +1 def, -1 enc (Jomon, Shinyu ? Yomi)*
 
-Heavy Samurai Armor +1 def, -1 enc
- (Jomon, Yomi)*
+Heavy Samurai Armor +1 def, -1 enc (Jomon, Yomi)*
 
-Basalt Armor -2 Enc, -5 rescost 
-(EA Atlantis)
+Basalt Armor -2 Enc, -5 rescost (EA Atlantis)
 
-Hoplon +1 enc
-	(This fully offsets the benefits Therodos gets from the cuirass changes).
+Hoplon +1 enc	(This fully offsets the benefits Therodos gets from the cuirass changes).
 
 Jingasa rcost 2->1
 
@@ -1115,11 +1100,10 @@ Various amphibious indies given non-ferric equipment
 #### National Changes
 
 ##### Early Age
-Note:  Some of these changes WILL spillover into other ages where units and spells are shared.
+
 ###### Arcoscephale, Golden Era
 
 ###### Ermor, New Faith
-
 Equites 5 gold discount
 
 equites sacred shroud 5 gold discount
@@ -1127,11 +1111,9 @@ equites sacred shroud 5 gold discount
 ###### Ulm, Enigma of Steel
 
 ###### Marverni, Time of Druids
-
 Eponi 5 gold discount, addition of a hoof attack
 
 ###### Sauromatia, Amazon Queens
-
 Lancer, Raider, Sauromatian Lancer, Sauromatian Raider - 3 gold discount
 
 Cataphract - 5 gold discount
@@ -1153,7 +1135,6 @@ Hydra Hatchling 35->28 gold
 ###### T'ien Ch'i, Spring and Autumn
 
 ###### Machaka, Lion Kings
-
 Machaka Warriors Foreign Recruit, 8 gold
 
 machaka militia foreign recruit
@@ -1173,7 +1154,6 @@ Spider Rider 	Size 4	Goldcost -15
 Great Spider changes from MA Machaka (Size 4, 8 MR, 20 goldcost, 17 strength)
 
 ###### Mictlan, Reign of Blood
-
 sun warriors cost 18->15; Hp 12->13; Strength 10->11
 
 Tlahuelpuchi cost 25->50->33
@@ -1183,7 +1163,6 @@ Pathreq B2->B2D2
 Civateteo pathreq B2D2->B2, douse 1
 
 ###### Abysia, Children of Flame
-
 Anathemant Dragon - +0,5ESDB
 
 right on the cusp of oldage
@@ -1229,7 +1208,6 @@ Summon Valkyries, 7 -> 10 valks summoned (Also benefits EA/MA Vanheim)
 ###### Niefelheim, Sons of Winter
 
 ###### Kailasa, Rise of the Ape Kings
-
 ghukuya generals not str
 
 Bandar Warriors, 18g -> 17g, Att 11 -> 12
@@ -1287,7 +1265,7 @@ horites throw rocks, -2 cost
 ###### Berytos, The Phoenix Empire
 
 ###### Xibalba, Vigil of the Sun
-bats are minimum 2 resources to recruit, 
+Lances replaced with Stone lances, which are non-iron and +1 resource
 
 7 gold bats now cost 8
 
@@ -1354,8 +1332,11 @@ Marignon can convert these sites into S1 sites by sufficient preaching with an i
 ###### Sceleria, The Reformed Empire
 
 ###### Pythium, Emerald Empire
+Angel of Fury cost->25 pearls, self-blesses, damage reflection
 
-Refer to MA Marignon for angel changes.
+Angelic Host S5->S4F1, 50->40 pearls
+
+Heavely Choir ->S5F3, 88 pearls, choir angels now get an anti-undead ranged attack
 
 Serpent Cataphract/Serpent Lord 15 gold discount
 
@@ -1569,6 +1550,12 @@ Gandharva 18->15 pearls
 
 Apasaras: Weak ranged attack 
 
+Summon Dakini: 50->66 Bloodslaves (Applies to Lanka, BL, Patala)
+
+Samanishada 35 -> 30 slaves; pathlevel 0-2
+
+Sandhyabalas 3 -> 4 summoned
+
 ###### Shinuyama, Land of the Bakemono
 Kappa Shaman UW Recruitable
 
@@ -1677,8 +1664,18 @@ Black Templar 20 gold discount
 Hochmeister 15 gold discount
 
 ###### Marignon, Conquerors of the Sea
+Angel of Fury cost->25 pearls, self-blesses, damage reflection
+
+Angelic Host S5->S4F1, 50->40 pearls
+
+Heavely Choir ->S5F3, 88 pearls, choir angels now get an anti-undead ranged attack
 
 ###### Mictlan, Blood and Rain
+sun warriors cost 18->15; Hp 12->13; Strength 10->11
+
+Tlahuelpuchi cost 25-33 Pathreq B2->B2D2
+
+Civateteo pathreq B2D2->B2, douse 1
 
 ###### T'ien Ch'i, Barbarian Kings
 
@@ -1686,6 +1683,32 @@ Hochmeister 15 gold discount
 Samurai Cav 15 gold discount
 
 Mounted Commanders 10 gold discount
+
+Gozu-Mezu ->5 gems
+
+Summon Ko Oni effects ->7++
+
+Summon Ao Oni  ->4 gems
+
+Summon Aka Oni ->4 gems
+
+Summon Oni -> 12->7 gems
+
+Summon Kuro Oni 10->6 gems, 4->4+ effects
+
+Oni General  Research 6->5, 20->14 gems
+
+Dai Oni 45->35 gems, research 8->7
+
+Karusu Tengu research 5, 10 gems, 10+ effects
+
+Konoha Tengu research level 2
+
+Dai Tengu 55->40 gems
+
+Nushi 25->20 gems
+
+Kitsune 30->23 gems
 
 ###### Agartha, Ktonian Dead
 
@@ -1734,9 +1757,17 @@ Gandharva 18->15 pearls
 
 Apasaras: Weak ranged attack granted
 
+Summon Dakini: 50->66 Bloodslaves 
+
+Samanishada 35 -> 30 slaves; pathlevel 0-2
+
+Sandhyabalas 3 -> 4 summoned
+
 ###### Gath, Last of the Giants
 ###### Ragha, Dual Kingdom
 ###### Xibalba, Return of the Zotz
+Beastbats 1.44 siege defense from 2.44.
+
 ###### Atlantis, Frozen Sea
 
 ###### R'lyeh, Dreamlands
