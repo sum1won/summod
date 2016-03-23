@@ -1432,10 +1432,10 @@ Mounted Commanders 10 gold discount
 ###### MidgÃÂ¥rd, Age of Men
 ###### UtgÃÂ¥rd, Well of Urd
 ###### Bogarus, Age of Heroes
-Grid Druzhina 5 gold discount
-Malaia Druzhina 10 gold discount
-Styag 10 gold discount
-Black Hood 10 gold discount
+#Grid Druzhina 5 gold discount
+#Malaia Druzhina 10 gold discount
+#Styag 10 gold discount
+#Black Hood 10 gold discount
 ###### Patala, Reign of the Nagas
 ###### Gath, Last of the Giants
 ###### Ragha, Dual Kingdom
