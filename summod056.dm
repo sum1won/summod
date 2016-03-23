@@ -7091,23 +7091,6 @@
 #gcost 10011
 #end
 
-#selectmonster 1190 --priest king
-#clearmagic
-#magicskill 6 2
-#magicskill 8 3
-#custommagic 27520 10
-#end
-#selectmonster 1191 --Rain Priest
-#custommagic 16640 10
-#end
-
-#selectmonster 1192 --Sun Priest
-#custommagic 16640 10
-#end
-
-#selectmonster 1193 --Moon Priest
-#custommagic 16640 10
-#end
 
 ---------Abysia
 #selectnation 45
