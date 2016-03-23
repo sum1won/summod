@@ -1,4 +1,5 @@
 
+
 # summod
 This is summod, a dominions 4 overhaul mod, and it is a work in progress.  For discussion: http://z7.invisionfree.com/Dom3mods/index.php?showtopic=2764 
 
@@ -48,9 +49,89 @@ Table of Contents
  4. [Indie Changes](#indie-changes)
 5. [National Changes](#national-changes)
  1. [Early Age](#early-age)
+  1. [Arcoscephale, Golden Era](arcoscephale golden era)
+  2. [Ermor, New Faith](ermor new faith)
+  3. [Ulm, Enigma of Steel](ulm enigma of steel)
+  4. [Marverni, Time of Druids](marverni time of druids)
+  5. [Sauromatia, Amazon Queens](sauromatia amazon queens)
+  6. [T'ien Ch'i, Spring and Autumn](t'ien ch'i spring and autumn)
+  7. [Machaka, Lion Kings](machaka lion kings)
+  8. [Mictlan, Reign of Blood](mictlan reign of blood)
+  9. [Abysia, Children of Flame](abysia children of flame)
+  10. [Caelum, Eagle Kings](caelum eagle kings)
+  11. [C'tis, Lizard Kings](c'tis lizard kings)
+  12. [Pangaea, Age of Revelry](pangaea age of revelry)
+  13. [Agartha, Pale Ones](agartha pale ones)
+  14. [Tir na n'Og, Land of the Ever Young](tir na n'og land of the ever young)
+  15. [Fomoria, The Cursed Ones](fomoria the cursed ones)
+  16. [Vanheim, Age of Vanir](vanheim age of vanir)
+  17. [Helheim, Dusk and Death](helheim dusk and death)
+  18. [Niefelheim, Sons of Winter](niefelheim sons of winter)
+  19. [Kailasa, Rise of the Ape Kings](kailasa rise of the ape kings)
+  20. [Lanka, Land of Demons](lanka land of demons)
+  21. [Yomi, Oni Kings](yomi oni kings)
+  22. [Hinnom, Sons of the Fallen](hinnom sons of the fallen)
+  23. [Ur, The First City](ur the first city)
+  24. [Berytos, The Phoenix Empire](berytos the phoenix empire)
+  25. [Xibalba, Vigil of the Sun](xibalba vigil of the sun)
+  26. [Atlantis, Emergence of the Deep Ones](atlantis emergence of the deep ones)
+  27. [R'lyeh, Time of Aboleths](r'lyeh time of aboleths)
+  28. [Pelagia, Pearl Kings](pelagia pearl kings)
+  29. [Oceania, Coming of the Capricorns](oceania coming of the capricorns)
+  30. [Therodos, Telkhine Spectre](therodos telkhine spectre)
  2. [Middle Age](#middle-age)
+  1. [ Arcoscephale, The Old Kingdom](  arcoscephale, the old kingdom)
+  2. [Ermor, Ashen Empire](ermor, ashen empire)
+  3. [Sceleria, The Reformed Empire](sceleria, the reformed empire)
+  4. [Pythium, Emerald Empire](pythium, emerald empire)
+  5. [Man, Tower of Avalon](man, tower of avalon)
+  6. [Eriu, Last of the Tuatha](eriu, last of the tuatha)
+  7. [Ulm, Forges of Ulm](ulm, forges of ulm)
+  8. [Marignon, Fiery Justice](marignon, fiery justice)
+  9. [Mictlan, Reign of the Lawgiver](mictlan, reign of the lawgiver)
+  10. [T'ien Ch'i, Imperial Bureaucracy](t'ien ch'i, imperial bureaucracy)
+  11. [Machaka, Reign of Sorcerors](machaka, reign of sorcerors)
+  12. [Agartha, Golem Cult](agartha, golem cult)
+  13. [Abysia, Blood and Fire](abysia, blood and fire)
+  14. [Caelum, Reign of the Seraphim](caelum, reign of the seraphim)
+  15. [C'tis, Miasma](c'tis, miasma)
+  16. [Pangaea, Age of Bronze](pangaea, age of bronze)
+  17. [Asphodel, Carrion Woods](asphodel, carrion woods)
+  18. [Vanheim, Arrival of Man](vanheim, arrival of man)
+  19. [Jotunheim, Iron Woods](jotunheim, iron woods)
+  20. [Vanarus, Land of the Chuds](vanarus, land of the chuds)
+  21. [Bandar Log, Land of the Apes](bandar log, land of the apes)
+  22. [Shinuyama, Land of the Bakemono](shinuyama, land of the bakemono)
+  23. [Ashdod, Reign of the Anakim](ashdod, reign of the anakim)
+  25. [Nazca, Kingdom of the Sun](nazca, kingdom of the sun)
+  26. [Xibalba, Flooded Caves](xibalba, flooded caves)
+  27. [Atlantis, Kings of the Deep](atlantis, kings of the deep)
+  28. [R'lyeh, Fallen Star](r'lyeh, fallen star)
+  29. [Pelagia, Triton Kings](pelagia, triton kings)
+  30. [Oceania, Mermidons](oceania, mermidons)
  3. [Late Age](#late-age)
-
+  1. [Arcoscephale, Sibylline Guidance](  arcoscephale, sibylline guidance)
+  2. [Pythium, Serpent Cult](pythium, serpent cult)
+  3. [Lemuria, Soul Gates](lemuria, soul gates)
+  4. [Man, Towers of Chelms](man, towers of chelms)
+  5. [Ulm, Black Forest](ulm, black forest)
+  6. [Marignon, Conquerors of the Sea](marignon, conquerors of the sea)
+  7. [Mictlan, Blood and Rain](mictlan, blood and rain)
+  8. [T'ien Ch'i, Barbarian Kings](t'ien ch'i, barbarian kings)
+  8. [Jomon, Human Daimyos](jomon, human daimyos)
+  9. [Agartha, Ktonian Dead](agartha, ktonian dead)
+  10. [Abysia, Blood of Humans](abysia, blood of humans)
+  11. [Caelum, Return of the Raptors 73  C'tis, Desert Tombs](caelum, return of the raptors 73  c'tis, desert tombs)
+  12. [Pangaea, New Era](pangaea, new era)
+  13. [Midgrd, Age of Men](midgrd, age of men)
+  14. [Utgrd, Well of Urd](utgrd, well of urd)
+  15. [Bogarus, Age of Heroes](bogarus, age of heroes)
+  16. [Patala, Reign of the Nagas](patala, reign of the nagas)
+  17. [Gath, Last of the Giants](gath, last of the giants)
+  18. [Ragha, Dual Kingdom](ragha, dual kingdom)
+  19. [Xibalba, Return of the Zotz](xibalba, return of the zotz)
+  20. [Atlantis, Frozen Sea](atlantis, frozen sea)
+  21. [R'lyeh, Dreamlands](r'lyeh, dreamlands)
 ******************************************************
 
 #### Magic Items
@@ -1345,8 +1426,8 @@ Mounted Commanders 10 gold discount
 ###### Caelum, Return of the Raptors
 ###### C'tis, Desert Tombs
 ###### Pangaea, New Era
-###### MidgÃ¥rd, Age of Men
-###### UtgÃ¥rd, Well of Urd
+###### MidgÃÂ¥rd, Age of Men
+###### UtgÃÂ¥rd, Well of Urd
 ###### Bogarus, Age of Heroes
 Grid Druzhina 5 gold discount
 Malaia Druzhina 10 gold discount
