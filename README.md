@@ -996,7 +996,7 @@ Bronzed Falchion
 
 Bronzed Kryss
 
-Indie changes
+##### Indie changes
 
 Barbarians no longer look like Skwisgaar.  They now wield axes.
 
