@@ -33,14 +33,14 @@ Table of Contents
  4. [Misc Spells](#misc-spells)
  5. [Battlemagic](#battlemagic)
 3. [Summon Spells](#summon-spells)
- 1. [Fire Summons](#fire-summons)
- 2. [Earth Summons](#earth-summons)
- 3. [Air Summons](#air-summons)
- 4. [Water Summons](#water-summons)
- 5. [Astral Summons](#astral-summons)
- 6. [Death Summons](#death-summons)
- 7. [Nature Summons](#nature-summons)
- 8. [Blood Summons](#blood-summons)
+ 1. [Fire](#fire)
+ 2. [Earth](#earth)
+ 3. [Air](#air)
+ 4. [Water](#water)
+ 5. [Astral](#astral)
+ 6. [Death](#death)
+ 7. [Nature](#nature)
+ 8. [Blood](#blood)
 4. [General Changes](#general-changes)
  1. [Scales](#scales)
  2. [Armor Changes](#armor-changes)
@@ -550,7 +550,7 @@ Army of Rats Alt9->Alt8; 6 gems->4,
 
 #### Summon Spells
 
-##### Fire Summons
+##### Fire
 
 Flame Spirit - Generates 1F/month
 
