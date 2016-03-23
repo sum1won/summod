@@ -24,26 +24,46 @@ RANGES USED:   Units 6300-6999;  Weapons 1400-1500;  Armor 750-780;  Sites 1800-
 Changelog
 
 Table of Contents
+
 I. MAGIC ITEMS
+
 I.8 ARTIFACTS
+
 II. Non summon spells.
+
 II.1 SITESEARCH SPELLS
+
 II.2 DOMES
+
 II.3 GLOBALS
+
 II.4 MISC SPELLS
+
 II.5 Battlemagic
+
 III. SUMMON SPELL/STAT CHANGES
+
 IV. General Changes
+
 IV.1 Scales:
+
 IV.2 Armor changes
+
 IV.3 Weapons
+
 IV.4 Indie changes
+
 V. NATIONAL CHANGES
+
 V.1 EA Nations
+
 V.2 MA Nations
+
 V.3 LA Nations
+
 V.4 Misc Changes to nations with Cavalry
 
+******************************************************
 
 I. MAGIC ITEMS  							 
 
