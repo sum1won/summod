@@ -1,31 +1,36 @@
 # summod
-This is summod, a dom4 overhaul mod, and it is a work in progress.  
+This is summod, a dominions 4 overhaul mod, and it is a work in progress.  For discussion: http://z7.invisionfree.com/Dom3mods/index.php?showtopic=2764 
 
-This is the primary thread:  http://z7.invisionfree.com/Dom3mods/index.php?showtopic=2764
-
-The changelog starts on the next page, around line 25.  At the moment it is more readable in "raw" or here: https://docs.google.com/document/d/10xPz7ZKUhR3avOCwbAr7XKdt5wMmJbEm4J-WNHyQ160/edit#heading=h.dztyhnmwhhzn
+The changelog starts on the next page, around line 15.  At the moment it is more readable in "raw" or here: https://docs.google.com/document/d/10xPz7ZKUhR3avOCwbAr7XKdt5wMmJbEm4J-WNHyQ160/edit#heading=h.dztyhnmwhhzn
 
 Thanks to:      Lambert_S, Ohlmann, Amuys, Johannes, Algulod, llamabeast, Zonk, Sy, Cruxador, Iceland, Torgoni, Malakal, Fungalreason, AN_, Maerlande, Earcaraxe, Eustachy, Yakri, PyroICF, Kate Micucci, EAlb, various anons, and anyone else I've forgotten.
 
 What is the purpose of this mod?    
-The mod's purpose is a general "gameplay improvement mod." This primarily involves increasing gameplay variety. While balance is involved in this, it is not the only consideration. It will be split into two parts: "generic" changes and "national" changes. Generic changes have been implemented already, so the next major part of the mod will focus on national changes.
-
-What type of changes I can expect from this mod?    
-Changes are far-reaching, but the generic section focuses primarily on buffing what I believe to be underused or underpowered parts of the game - especially summons and forging. On a handful of occasions particularly good abilities are nerfed to open up room for other things.  Changes based on input from various players and examination and adaptation of different mods. The "design doc" is essentially a compilation and comparison of different mods to different features of the game, coupled with some commentary from different players (ongoing commentary welcome). This will take a much more by-the-gut approach. The goal for this mod involves some balance, but will mostly attempt to increase tactical variety primarily by buffing (or nerfing select functions of dominant all-purpose tools to open up niches).
-
-How is this mod being designed?     
-I started by examining the various major mods and balance discussions, and tagging whatever ideas I find compelling. I then roll them into a googledoc, add some commentary, and start asking people for feedback. I've found that while individuals may occasionally have bad ideas, putting them all in the same place is a good way of generating better ideas. For national balance, I started with this same method, but am using winrates as a starting point. I've also taken to examining the source material for ideas. For example, MA Man has several obvious goals and influences. First, romantic stories of arthurian chivalry, the Aes Sedai from Wheel of Time, and a splash of robinhood to add some stealth-play. Currently, they're only really good at the latter, and have lack-luster mages to boot, so I improved their knights and cavalry, improved mage paths slightly, and then gave them a pair of spells, one of which is a ritual influenced by Bonding from the Wheel of Time.
-
-National changes    
-The starting point for national changes is winrates. Generally, nations with an exceptionally high winrate (likely defined as ~2.5X the average) will receive some sort of nerf, and nations with a low winrate will receive a buff (likely defined as 1 or fewer wins, and possibly nations with over 40 games and 2 or fewer wins.) Note that this probably won’t apply to LA, where gameplay is currently dominated by the existence of Ragha, which wins games at >6X the average rate. Some nations will receive new mechanics in the process.
+The mod's purpose is a general "gameplay improvement mod." This primarily involves increasing gameplay variety. While balance is involved in this, it is not the only consideration.  The changes to the generic section can be quite conservative, but certain nations with severe underlying flaws, such as LA Pythium (coming soon!), receive comprehensive rebuilds.
 
 RANGES USED:   Units 6300-6999;  Weapons 1400-1500;  Armor 750-780;  Sites 1800-1850;  Nametypes   ; Montag 1300-1320;  Item 700-799;  Spell; restrictitem 1100-1150;  Nations;  mercenary; event; Sprites: 118
+
 ****************************************************************************************************************
+
 Changelog
 
 Table of Contents
 
 I. MAGIC ITEMS
+
+I.1 Onehanded Weapons
+
+I.2 Shields
+
+I.3 Twohanded Weapons
+
+I.4 Armor
+
+I.5 Helmets
+
+I.6 Boots
+
+I.7 Miscellaneous Items
 
 I.8 ARTIFACTS
 
@@ -42,6 +47,22 @@ II.4 MISC SPELLS
 II.5 Battlemagic
 
 III. SUMMON SPELL/STAT CHANGES
+
+III.1 Fire Summons
+
+III.2 Earth Summons
+
+III.3 Air Summons
+
+III.4 Water Summons
+
+III.5 Astral Summons
+
+III.6 Death Summons
+
+III.7 Nature Summons
+
+III.8 Blood Summons
 
 IV. General Changes
 
