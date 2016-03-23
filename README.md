@@ -49,7 +49,7 @@ Table of Contents
  4. [Indie Changes](#indie-changes)
 5. [National Changes](#national-changes)
  1. [Early Age](#early-age)
-   * [Arcoscephale, Golden Era](arcoscephale golden era)
+   * [Arcoscephale, Golden Era](arcoscephale-golden-era)
    * [Ermor, New Faith](ermor new faith)
    * [Ulm, Enigma of Steel](ulm enigma of steel)
    * [Marverni, Time of Druids](marverni time of druids)
