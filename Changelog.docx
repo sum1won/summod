@@ -3,71 +3,38 @@ Changelog
 Table of Contents
 
 I. MAGIC ITEMS
-
 I.1 Onehanded Weapons
-
 I.2 Shields
-
 I.3 Twohanded Weapons
-
 I.4 Armor
-
 I.5 Helmets
-
 I.6 Boots
-
 I.7 Miscellaneous Items
-
 I.8 ARTIFACTS
-
 II. Non summon spells.
-
 II.1 SITESEARCH SPELLS
-
 II.2 DOMES
-
 II.3 GLOBALS
-
 II.4 MISC SPELLS
-
 II.5 Battlemagic
-
 III. SUMMON SPELL/STAT CHANGES
-
 III.1 Fire Summons
-
 III.2 Earth Summons
-
 III.3 Air Summons
-
 III.4 Water Summons
-
 III.5 Astral Summons
-
 III.6 Death Summons
-
 III.7 Nature Summons
-
 III.8 Blood Summons
-
 IV. General Changes
-
 IV.1 Scales:
-
 IV.2 Armor changes
-
 IV.3 Weapons
-
 IV.4 Indie changes
-
 V. NATIONAL CHANGES
-
 V.1 EA Nations
-
 V.2 MA Nations
-
 V.3 LA Nations
-
 V.4 Misc Changes to nations with Cavalry
 
 ******************************************************
@@ -75,391 +42,209 @@ V.4 Misc Changes to nations with Cavalry
 I. MAGIC ITEMS  							 
 
 I.1 One-Handed Weapons
-
 Axe of Hate-> N1
-
 Bane Blade - Fear 1
-
 Demon Whip -- +20 demonic leadership
-
 Dragon Sceptre -> Const 4
-
 Duskdagger Bleeding, Slashing, +2 damage, +2 attack
-
 ElfBane: dispels glamour
-
 Evening Star - 2 attacks
-
 Enchanted Sword MR +1
-
 Enchanted Spear MR +1
-
 Faithful - e1s1->S1
-
 Fire Bola -> 3X bolas
-
 Fire Brand	Primary damage decreased to 8
-
 Fire Sword FR 3
-
 Frost Brand	Primary damage decreased to 6, att->2
-
 Heartfinder Sword - B3 -> B2
-
 Hunter’s Knife #bleed
-
 Ice Sword CR 3
-
 Knife of Damned: Increase damage, horror mark on hit
-
 Lightning Spear AoE 3 dam 2 shock, const 6, lr 5
-
 Main Gauche of Parrying - 4->6 def
-
 Rat Tail -> Beastmaster 2
-
 Rod of Phoenix F4->F3
-
 Sceptre of Authority Leadership 25->50
-
 Shadow Brand - D2E1 -> D1E1; Primary damage decreased to 8
-
 Smasher - E2 -> E1
-
 Snek Bladder Stick?  aoe 4->5
-
 Star of Heroes  two attacks
-
 Star of Thraldom - fetters aoe 1 -> 4
-
 Summer Sword - N2E1 -> N1E1
-
 Sword of Swiftness - +Def 4->1, autocasts quickness, const 6
-
 Thunder Whip - aoe stun
-
 Vine Whip - N2 -> N1, const 2, aoe1
-
 Wand of Wildfire F3->F2
 
 I.2 SHIELDS
-
 Charcoal Shield E1F1
-
 Enchanted shield MR 1
-
 Golden Hoplon F1 
-
 Lantern Shield, Parry D1F1
-
 Lead Shield MR 5, Parry 7
-
 Lucky Coin S1, parry 6
-
 Scultata Voltranus uses a modified shockwave
-
 Shield of Accursed S2b1->s1b1, tainted 5, autocasts a range 10, low precision horror mark
-
 Shield of Valor: Insp. 1
-
 Totem Shield -> Autocasts a healing spell
-
 Weightless Tower Shield A1
-
 Weightless Kite Shield A1, reduced parry/prot to normal kite shield levels, but with no encumbrance
 
 I.3 Twohanded Weapons
-
 Bane Blade Fear 1, dmg 12
-
 Banefire Crossbow - Drop to const 4 instead ,24 ammo
-
 Bow of War -  level 4 , ammo 24, dmg->13
-
 Bow of Botulf -> Ammo 24
-
 Carmine Cleaver F1E1, Fireshield 10
-
 Doom Glaive Decay difficult to resist
-
 Enchanted Pike +1 MR
-
 Ethereal Xbow -> 24 ammo
-
 Gate Cleaver 	+10 gems, const 4
-
 Gloves of the Gladiator - n1, dam 5, def 3
-
 Golden Arbalest - 4 attacks ammo 24
-
 Halberd of Might - +10 Strength
-
 Hammer of the Mountains - +att
-
 Hell Sword B3F2 -> B2F1, dmg 15
-
 Ice Pebble Staff - W2
-
 Implementor Axe -> Fear 10, Dmg 16
-
 Ivory Bow - D3A1 -> D1A1, dmg 18, att 5, ammo 24
-
 Just Man’s Cross - prec 10 ammo 24
-
 Longbow of Accuracy -> Ammo 24
-
 Midget Masher - AoE1, damage 13 -> 0
-
 Moon Blade S1->S2, Ethereal
-
 Piercer E1, ammo 24
-
 Standard of the Damned - D4 -> D3, 100 undead leadership
-
 Staff of Corrosion W1F1
-
 Staff of Elemental Mastery Range boost->2
-
 Staff of Flame Focus -> Range boost 4
-
 Staff of Storms A4, 25 gems
-
 Skull Standard Inspirational 1
-
 Thunder Bow AoE Strength dmg, ammo 24
-
 Vine Bow->Aoe Entangle
-
 Vision’s Foe ammo 24
-
 Wraith Sword D4 -> D2, Fear, Dam->13
-
 Wavebreaker W3, autocasts watershield, allows casting of waterstrike
 
 I.4 HEADGEAR
-
 Crown of Command magicleadership 50 undeadleadership 50
-
 Helmet of Heroes Command +50
-
 Iron Face - 4E -> 3E
-
 Mistletoe Garland - twist fate, const 4
-
 Spirit Helmet - +5 shockres
-
 Spirit Mask D1N1
-
 Wraith Crown - D6 -> D4
 
 I.5 ARMOR
-
 Berserker Pelt  +3 strength +3 attack -3 defense
-
 Blacksteel Full Plate Enc4 -> Enc3
-
 Blue dragon Scale Mail W2->W1
-
 Bone Armor D5 -> D4
-
 Brightmail Haubergeon - Awe, Const 6, lowered stats
-
 Chain Mail of Displacement, gives mirror image in combat
-
 Direwolf Pelt +3 att/def bonus
-
 Enchanted Armor +1 MR
-
 Green Dragon Scale N2->N1
-
 Hydra Skin Armor - Prot 12 -> 15 ; fire vulnerability 5
-
 Jade Armor - 2W1E -> 1W1E
-
 Lightweight Scale Mail - Const2 -> Const0
-
 Marble Armor - Prot 16 -> 19
-
 Red Dragon Scale Mail F2-> F1; FR15->10
-
 Robe of Invulnerability D4-> D2
-
 Silver Hauberk A2E1 -> A1E1
-
 Weightless Scale Mail - A2 -> A1
 
 I.6 BOOTS
-
 Brimstone Boots provide limited reinvigoration
-
 Chi Boots att 1->2
 
 I.7 MISC
-
 Arcane Lens (Range +2)
-
 Acorn Necklace N1E1->N1
-
 Amulet of Fish W1
-
 Amulet of breathing A1
-
 Amulet of Missile Protection A2->A1
-
 Astral Serpent -> N1
-
 Barkskin Amulet N2->N1
-
 Barrel of Air A4, const 2, 150 points
-
 Bear Claw Talisman E1, const 2
-
 Blood Pendant Range 2
-
 Bracers of Protection - Def +2 -> +3, Prot +2 -> +3
-
 Cauldron of Elven Halls -> A2
-
 Cat charm n2->n1
-
 Catseye Amulet 100 darkvision; D1
-
 Champions Skull Insp 1, D2->D1
-
 Copper Arm - E3F1 -> E2F1, forgebonus 1
-
 Elixir of Life N1F1
-
 Enormous Cauldron -> moved to const 0, supply 120
-
 Eye Pendant D3E3->D3E2, patrolbonus 20, diseasehealer 3
-
 Enchanted mirror A2->A1
-
 Gossamer Cloth -> A1N1, const 0, hides 50
-
 Imp Familiar +10 undead leadership
-
 Lycantropos Amulet - #heal, -pathboost
-
 Manuel of Water Breathing N3, const 4, 200 points
-
 Miraculous Cure-All Disease-Healer 5
-
 Mirror of False Impressions-> A4->A2
-
 Pebble Pouch Range Strength/3->Strength, nratt 3
-
 Pendant of Luck -> Twist Fate
-
 Pills of Water Breathing, A1, const 6, 80 points
-
 Ring of Warning -> Patrol 25
-
 Sea King Goblet, W2, const 4, 150 points
-
 Skull talisman research requirement 0->2
-
 Slave Matrix - E1S1 -> S1
-
 Stone Idol - E2S2 -> E1S1
-
 Stone Bird - + attacks
-
 Stone Sphere - S2E1 -> S1E1
-
 Wall Shaker 2A req
-
 Water Lens + range
-
 Woundfend Amulet E1S1->S1
 
 I.8 ARTIFACTS
-
 Amon Hotep - F6S5 -> F5S5
-
 Atlas of Creation - E5S5 -> E5S4
-
 Boots of Antaeus - E5N1 -> E3N1
-
 Carcator  inspiring researcher 1
-
 Draupnir - E5 -> E4
-
 Fenris Pelt - N4 -> N3
-
 Gate Stone - E8S8 -> E7S7
-
 Hammer of Forge Lord -25% forgebonus
-
 Nethgul - S3W2 -> S2W2
-
 Sun Slayer - D6 -> D5
-
 Tempest - A6 -> A5
-
 The Ark - F6S6 -> F5S5
-
 Horror Harmonica - S6D4 -> S5D3
-
 Crossbreeding Manual - B3N3 -> B2N2
-
 Staff from the Sun - S5F1 -> S4F1
-
 Summit - E6 -> E4, +3 att, +3 def, armor piercing
-
 Unquenched Sword - F7 -> F5; Casts living Fire
-
 Wondrous Box - N5 -> N3
-
 Aseftik's Armor - 4 -> 3 enc, E4 -> E3
-
 Monolith Armor E5 -> E4, reinvigoration 6
-
 Percival Pocket Knight - E2N1 -> E1N1, +5 hp, +2 att, +2 def, +2 str
-
 Holger The Head - E1D1 -> E1, +luck
-
 Harvest Blade - B3N1 -> B2N1, fear 5 -> fear 15
 
 II. Non-summon SPELLS
 
 II.1 SITESEARCH SPELLS
-
 Acashic Knowledge - Conj 6 -> 5, 25 -> 20 gems
-
 Dark Knowledge - 4 -> 3 gems
-
 Arcane Probing - 3 -> 2 gems
-
 Auspex - range 2 -> 3
- 
-II.2DOMES
 
+II.2 DOMES
 Dome of Arcane Warding - 10 -> 6 gems, lvl 4
-
 Dome of Flaming Death - 8 -> 5 gems, lvl 4 -> 5
-
 Dome of Corruption - 20 -> 13 slaves, lvl 4 -> 5
-
 Dome of Solid Air - 20 -> 12 gems, lvl 5
-
 Frost Dome - W4, 15 -> 8 gems, lvl 5 -> 4
-
 Forest Dome - 10 -> 8 gems, lvl 5
 
 II.3 GLOBALS
-
 Strands of Arcane Power - Evo 9 -> 8
-
 Mechanical Militia - 80 -> 60 gems, research 9->5
-
 Riches from Beneath -  40 gems, 4E req
-
 Ghost Ship Armada - 60 -> 40 gems
-
 Second Sun - 80 -> 50 gems, pathrec 6, research 6
-
 Fata Morgana - 90 -> 60 gems -- Pathrec 6
 
 Astral Corruption - 166 -> 222 gems; Research level 9
