@@ -31,11 +31,11 @@ Table of Contents
  2. [Domes](#domes)
  3. [Globals](#globals)
  4. [Misc Spells](#misc-spells)
- 5. [Battlemagic](#battlemagic
+ 5. [Battlemagic](#battlemagic)
 3. [Summon Spells](#summon-spells)
  1. [Fire Summons](#fire-summons)
  2. [Earth Summons](#earth-summons)
- 3. [Air Summons](#air-summons0
+ 3. [Air Summons](#air-summons)
  4. [Water Summons](#water-summons)
  5. [Astral Summons](#astral-summons)
  6. [Death Summons](#death-summons)
@@ -46,7 +46,7 @@ Table of Contents
  2. [Armor Changes](#armor-changes)
  3. [Weapons](#weapons)
  4. [Indie Changes](#indie-changes)
-5. [National Changes](#national-chnages)
+5. [National Changes](#national-changes)
  1. [Early Age](#early-age)
  2. [Middle Age](#middle-age)
  3. [Late Age](#late-age)
@@ -1030,7 +1030,7 @@ Amphibious poptypes now provide better troops and shamans.
 
 Various amphibious indies given non-ferric equipment
 
-#### NATIONAL CHANGES
+#### National Changes
 
 ##### Early Age
 Note:  Some of these changes WILL spillover into other ages where units and spells are shared.
