@@ -1,5 +1,5 @@
 # summod
-This is summod's changelog, and it is a work in progress.  At the moment it is more readable in "raw" or here:
+This is the/a summod changelog, and it is a work in progress.  At the moment it is more readable in "raw" or here:
 https://docs.google.com/document/d/10xPz7ZKUhR3avOCwbAr7XKdt5wMmJbEm4J-WNHyQ160/edit#heading=h.dztyhnmwhhzn
 
 This is the primary thread, although discussion cna be found elsewhere.
