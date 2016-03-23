@@ -50,7 +50,7 @@ Table of Contents
  1. [Early Age](#early-age)
  2. [Middle Age](#middle-age)
  3. [Late Age](#late-age)
- 4. [Misc Changes to Nations With Cavalry](#misc-changes-to-nations-with-cavary)
+ 4. [Misc Changes to Nations With Cavalry](#misc-changes-to-nations-with-cavalry)
 
 ******************************************************
 
