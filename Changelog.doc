@@ -246,152 +246,82 @@ Riches from Beneath -  40 gems, 4E req
 Ghost Ship Armada - 60 -> 40 gems
 Second Sun - 80 -> 50 gems, pathrec 6, research 6
 Fata Morgana - 90 -> 60 gems -- Pathrec 6
-
 Astral Corruption - 166 -> 222 gems; Research level 9
-
 Looming Hell - Drop research level--50 slavecost, path level 7
-
 Guardians of the Deep - 60 -> 40 gems, Conj 8 -> 6
-
 Lure of the Deep 70-> 50 gemcost Research 8->7
-
 Purgatory  60 -> 50 gemcost, Research 7->6
-
 TKO Research 7, Paths 4/2
-
 Celestial Rainbow Path 5/3, gemcost 60
-
 Wrath of Sea -2 research, -20 gemcost
-
 Blessing of Thetis at research 7
-
 Forge of the ancients->research 7, 50 gems
-
 Burden of Time research 6->7
   
 II.4 MISC SPELLS
-
 Gift of Reason - 20 -> 14 gems
-
 Divine Name - 25 -> 16 gems
-
 Acashic Record - 10 -> 5 gems
-
 Breath of the Desert change to F/D crosspaths
-
 Dragon Master -lvl 8 -> 5, 30 -> 14 gems
 
 II.5 Battlemagic
-
 Battlefield fire booster
-
 Bonds of Fire research level 1
-
 Prison of Fire research level 3
-
 Rain of Stones costs 2 gems
-
 Numbness reduce research to 2
-
 Quickness Scales
-
 Earthmight: Scales, lower caster requirement
-
 Iron Warriors: Scales, but only to single targets
-
 Iron Will Scales
-
 Gift of Flight Scales
-
 Scaling version of Tangle Vines at research 3
-
 Enlarge: Scales
-
 Mossbody Scales
-
 Cheat Fate Scales
-
 Wooden Warriors Scales
-
 Army of Giants Scales
-
 Berserkers Scales	
-
 Touch of Madness : Lower research level, range 1
-
 Sulphur Haze, castable UW
-
 Rust Mist, castable UW
-
 Ice Strike castable UW
-
 Siren Blessing (new spell) A3, ench3, remove amphibian penalty, slight buff
-
 Gulf Stream (new spell) F3, Ench 5, imitates friendly currents
-
 Confusion -> Increase AoE/Scaling
-
 Weakness -> AoE1/Scaling
-
 Enfeeble -> AoE 6->10, scaling
-
 Unraveling - S6-> S5; 6 pearls -> 4
-
 Bonemelter-> Range 20>25
-
 Sailor’s Death AoE1-> 1 target, 3+ effects
-
 Curse of the Desert -> AoE 5-> AoE 5+
-
 Astral Bolt-> Damage 10+->10++
-
 All midlevel resists now scale
-
 Spirit curse horror marks
-
 Army of Rats Alt9->Alt8; 6 gems->4, 
 
 III. SUMMON SPELL/STAT CHANGES
 
 III.1 Fire
-
 Flame Spirit - Generates 1F/month
-
 Summer Lions prot 7, summon 7+
-
 Terracotta Army 16+++, armed with pikes; TC gets a national version
-
 Fire Drake  7 gems -> 5
 
 III.2 Earth
- 
 Clockwork Soldiers 8 -> 6 gems Reinvigoration -15 -> -10 Prot 18 -> 20 AP 10 -> 12 Castable UW
+Clockwork Horrors Reinvigoration -15 -> -12; Castable UW
 
-Clockwork Horrors
-Reinvigoration -15 -> -12
-Castable UW
+Crusher Stone Fist -> 2 Stone Fists 10 gems Siege 30 Castable UW
 
-Crusher
-Stone Fist -> 2 Stone Fists
-Crusher 10 gems
-Siege 30
-Castable UW
+Cave drake 1 gem cheaper
 
-Cave drake
-gem cheaper
+Enliven Statues 20 -> 15 gems
 
-Enliven Statues
-20 -> 15 gems
+Fall bears Bite attack added; Prot 10; 2 more per summon
 
-Fall bears
-Bite attack added 
-Prot 10 
-2 more per summon
-
-Hidden in Cave
-75 -> 55 gems
- poor amphibian
-Castable UW
+Hidden in Cave ; 75 -> 55 gems;  poor amphibian; Castable UW
 
 Hidden in Sand
 75 -> 55 gems
