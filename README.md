@@ -1,3 +1,4 @@
+
 # summod
 This is summod, a dominions 4 overhaul mod, and it is a work in progress.  For discussion: http://z7.invisionfree.com/Dom3mods/index.php?showtopic=2764 
 
@@ -16,79 +17,46 @@ Changelog
 
 Table of Contents
 
-I. MAGIC ITEMS
-
-I.1 Onehanded Weapons
-
-I.2 Shields
-
-I.3 Twohanded Weapons
-
-I.4 Armor
-
-I.5 Helmets
-
-I.6 Boots
-
-I.7 Miscellaneous Items
-
-I.8 ARTIFACTS
-
-II. Non summon spells.
-
-II.1 SITESEARCH SPELLS
-
-II.2 DOMES
-
-II.3 GLOBALS
-
-II.4 MISC SPELLS
-
-II.5 Battlemagic
-
-III. SUMMON SPELL/STAT CHANGES
-
-III.1 Fire Summons
-
-III.2 Earth Summons
-
-III.3 Air Summons
-
-III.4 Water Summons
-
-III.5 Astral Summons
-
-III.6 Death Summons
-
-III.7 Nature Summons
-
-III.8 Blood Summons
-
-IV. General Changes
-
-IV.1 Scales:
-
-IV.2 Armor changes
-
-IV.3 Weapons
-
-IV.4 Indie changes
-
-V. NATIONAL CHANGES
-
-V.1 EA Nations
-
-V.2 MA Nations
-
-V.3 LA Nations
-
-V.4 Misc Changes to nations with Cavalry
+1. [Magic Items](#magic-items)
+ 1. [Onehanded Weapons](#onehanded-weapons)
+ 2. [Shields](#shields)
+ 3. [Twohanded Weapons](#twohanded-weapons)
+ 4. [Armour](#armor)
+ 5. [Helmets] (#helmets)
+ 6. [Boots](#boots)
+ 7. [Miscellaneous Items](#miscellaneous-items)
+ 8. [Artifacts](#artifacts)
+2. [Non Summon Spells](#non-summon-spells)
+ 1. [Sitesearch Spells](#sitesearch-spells)
+ 2. [Domes](#domes)
+ 3. [Globals](#globals)
+ 4. [Misc Spells](#misc-spells)
+ 5. [Battlemagic](#battlemagic
+3. [Summon Spells](#summon-spells)
+ 1. [Fire Summons](#fire-summons)
+ 2. [Earth Summons](#earth-summons)
+ 3. [Air Summons](#air-summons0
+ 4. [Water Summons](#water-summons)
+ 5. [Astral Summons](#astral-summons)
+ 6. [Death Summons](#death-summons)
+ 7. [Nature Summons](#nature-summons)
+ 8. [Blood Summons](#blood-summons)
+4. [General Changes](#general-changes)
+ 1. [Scales](#scales)
+ 2. [Armor Changes](#armor-changes)
+ 3. [Weapons](#weapons)
+ 4. [Indie Changes](#indie-changes)
+5. [National Changes](#national-chnages)
+ 1. [Early Age](#early-age)
+ 2. [Middle Age](#middle-age)
+ 3. [Late Age](#late-age)
+ 4. [Misc Changes to Nations With Cavalry](#misc-changes-to-nations-with-cavary)
 
 ******************************************************
 
-I. MAGIC ITEMS  							 
+#### Magic Items
 
-I.1 One-Handed Weapons
+##### Onehanded Weapons
 
 Axe of Hate-> N1
 
@@ -120,7 +88,7 @@ Frost Brand	Primary damage decreased to 6, att->2
 
 Heartfinder Sword - B3 -> B2
 
-Hunter’s Knife #bleed
+Hunter?s Knife #bleed
 
 Ice Sword CR 3
 
@@ -156,7 +124,7 @@ Vine Whip - N2 -> N1, const 2, aoe1
 
 Wand of Wildfire F3->F2
 
-I.2 SHIELDS
+##### Shields
 
 Charcoal Shield E1F1
 
@@ -182,7 +150,7 @@ Weightless Tower Shield A1
 
 Weightless Kite Shield A1, reduced parry/prot to normal kite shield levels, but with no encumbrance
 
-I.3 Twohanded Weapons
+##### Twohanded Weapons
 
 Bane Blade Fear 1, dmg 12
 
@@ -218,7 +186,7 @@ Implementor Axe -> Fear 10, Dmg 16
 
 Ivory Bow - D3A1 -> D1A1, dmg 18, att 5, ammo 24
 
-Just Man’s Cross - prec 10 ammo 24
+Just Man?s Cross - prec 10 ammo 24
 
 Longbow of Accuracy -> Ammo 24
 
@@ -244,13 +212,13 @@ Thunder Bow AoE Strength dmg, ammo 24
 
 Vine Bow->Aoe Entangle
 
-Vision’s Foe ammo 24
+Vision?s Foe ammo 24
 
 Wraith Sword D4 -> D2, Fear, Dam->13
 
 Wavebreaker W3, autocasts watershield, allows casting of waterstrike
 
-I.4 HEADGEAR
+##### Helmets
 
 Crown of Command magicleadership 50 undeadleadership 50
 
@@ -266,7 +234,7 @@ Spirit Mask D1N1
 
 Wraith Crown - D6 -> D4
 
-I.5 ARMOR
+##### Armor
 
 Berserker Pelt  +3 strength +3 attack -3 defense
 
@@ -302,13 +270,13 @@ Silver Hauberk A2E1 -> A1E1
 
 Weightless Scale Mail - A2 -> A1
 
-I.6 BOOTS
+##### Boots
 
 Brimstone Boots provide limited reinvigoration
 
 Chi Boots att 1->2
 
-I.7 MISC
+##### Miscellaneous Items
 
 Arcane Lens (Range +2)
 
@@ -388,7 +356,7 @@ Water Lens + range
 
 Woundfend Amulet E1S1->S1
 
-I.8 ARTIFACTS
+##### Artifacts
 
 Amon Hotep - F6S5 -> F5S5
 
@@ -436,9 +404,9 @@ Holger The Head - E1D1 -> E1, +luck
 
 Harvest Blade - B3N1 -> B2N1, fear 5 -> fear 15
 
-II. Non-summon SPELLS
+#### Non-summon Spells
 
-II.1 SITESEARCH SPELLS
+##### Sitesearch Spells
 
 Acashic Knowledge - Conj 6 -> 5, 25 -> 20 gems
 
@@ -448,7 +416,7 @@ Arcane Probing - 3 -> 2 gems
 
 Auspex - range 2 -> 3
  
-II.2DOMES
+##### Domes
 
 Dome of Arcane Warding - 10 -> 6 gems, lvl 4
 
@@ -462,7 +430,7 @@ Frost Dome - W4, 15 -> 8 gems, lvl 5 -> 4
 
 Forest Dome - 10 -> 8 gems, lvl 5
 
-II.3 GLOBALS
+##### Globals
 
 Strands of Arcane Power - Evo 9 -> 8
 
@@ -498,7 +466,7 @@ Forge of the ancients->research 7, 50 gems
 
 Burden of Time research 6->7
   
-II.4 MISC SPELLS
+##### Misc Spells
 
 Gift of Reason - 20 -> 14 gems
 
@@ -510,7 +478,7 @@ Breath of the Desert change to F/D crosspaths
 
 Dragon Master -lvl 8 -> 5, 30 -> 14 gems
 
-II.5 Battlemagic
+##### Battlemagic
 
 Battlefield fire booster
 
@@ -568,7 +536,7 @@ Unraveling - S6-> S5; 6 pearls -> 4
 
 Bonemelter-> Range 20>25
 
-Sailor’s Death AoE1-> 1 target, 3+ effects
+Sailor?s Death AoE1-> 1 target, 3+ effects
 
 Curse of the Desert -> AoE 5-> AoE 5+
 
@@ -580,9 +548,9 @@ Spirit curse horror marks
 
 Army of Rats Alt9->Alt8; 6 gems->4, 
 
-III. SUMMON SPELL/STAT CHANGES
+#### Summon Spells
 
-III.1 Fire
+##### Fire Summons
 
 Flame Spirit - Generates 1F/month
 
@@ -592,7 +560,7 @@ Terracotta Army 16+++, armed with pikes; TC gets a national version
 
 Fire Drake  7 gems -> 5
 
-III.2 Earth
+##### Earth
  
 Clockwork Soldiers 8 -> 6 gems Reinvigoration -15 -> -10 Prot 18 -> 20 AP 10 -> 12 Castable UW
 
@@ -641,11 +609,11 @@ Siege Golem
 research 9->7
 Castable UW
 
-Troll King’s Court 55->45 gems
+Troll King?s Court 55->45 gems
 (Contact) Trolls
 15 -> 10 gems
 
-III.3 Air
+##### Air
 
 Amphiptere
 Prec 12
@@ -668,7 +636,7 @@ Size 5 -> 4
 Prot 12 -> 13
 Talon
 
-III.4 Water
+##### Water
 
 Catoblepas
 15 ->10 gems
@@ -714,7 +682,7 @@ Amount and cost increased 2X, hp 16, prot 4
 Yetis
 12 gems from 15
 
-III.5 Astral
+##### Astral
 
 Abomination
 25 -> 15 gems
@@ -738,7 +706,7 @@ Juggernaut
 Telestic Animation
 Can transport itself to an adjacent province for the first month of its existence, after which it reverts to an immobile form.
 
-III.6 Death
+##### Death
 
 Arouse Hunger
 9+++ >12+++ ghouls
@@ -784,7 +752,7 @@ Ziz
 D3A2->D3A1
 Biggest problem with Ziz is that your mages have better things to do than summon large birds one at a time.
 
-III.7 Nature
+##### Nature
 
 Ambush of Tigers
 scales to 12++, tigers stealthy
@@ -852,7 +820,7 @@ Make it a commander, noleader
 Level 6 unique
 buffs: (Heal, prot 20, enc 2, weapon resist).  Has an attack that can swallow enemies.
 
-III.8 Blood
+##### Blood
 
 Bind Succubus
 44 gems
@@ -884,18 +852,18 @@ Given Flick barbs, precision 10, 3X summonspeed
 Serpent Fiend
 +3 att, +4 strength, 3X summon speed
 
-IV. General Changes
+#### General Changes
 
-IV.1 Scales:  
+##### Scales:  
 Growth/Death: Income 3%->2% per scale
 
 Ohlmann - both excellent in short term gold, and excellent in long term gold. Production is a bit weak, because it don't give much money and resources become weaker quite fast. I also think that sloth 3 is not punitive enough
 
 Maerlande -  I think growth is too obvious if you want money. If I remember correctly, Calahan used +2% for growth and gave production the other percent in his version of CBM for serious competition. I think that makes quite a difference to put a bit more decision between these two. Right now, I find growth is almost always a better choice.
 
-sum1won: I’m including this discussion since I expect this is the biggest change in the mod.  I’d also note that I modeled income and total gold from growth and order, and the comparison suggests that growth is significantly better over the long term, and nearly as good over the short term.  The largest difference in gold is around turn 8-15 (varies depending on how aggressive expansion is) and never really rises above ~5% of income/total gold.  Largest difference I saw was a few hundred gold.
+sum1won: I?m including this discussion since I expect this is the biggest change in the mod.  I?d also note that I modeled income and total gold from growth and order, and the comparison suggests that growth is significantly better over the long term, and nearly as good over the short term.  The largest difference in gold is around turn 8-15 (varies depending on how aggressive expansion is) and never really rises above ~5% of income/total gold.  Largest difference I saw was a few hundred gold.
 
-IV.2 Sites
+##### Sites
 
 Steel ovens level 0->1
 
@@ -915,7 +883,7 @@ Flesh Eaters Isle: Summons 4 ghouls instead of one
 
 The Slaughterhouse: Provides supply, summons some extra foulspawn
 
-IV.3 Armor changes
+##### Armor changes
 
 Surveyed armor, made changes
 
@@ -955,7 +923,7 @@ Ashigaru Armor +1 def, -1 enc
 (Shinyu, Yomi, slightly Jomon)*
 
 Samurai Armor +1 def, -1 enc 
-(Jomon, Shinyu … Yomi)*
+(Jomon, Shinyu ? Yomi)*
 
 Heavy Samurai Armor +1 def, -1 enc
  (Jomon, Yomi)*
@@ -990,7 +958,7 @@ adds Laminated scale mail
 
 Adds treated scale hauberk
 
-IV.4 Weapons
+##### Weapons
 
 Mace - 5 dmg -> 6 dmg (Nazca, Marignon, Bandar Log/Patala/Kailasa/Lanka, Mictlan)
 
@@ -1062,9 +1030,9 @@ Amphibious poptypes now provide better troops and shamans.
 
 Various amphibious indies given non-ferric equipment
 
-V. NATIONAL CHANGES
+#### NATIONAL CHANGES
 
-V.1 EA NATIONS
+##### Early Age
 Note:  Some of these changes WILL spillover into other ages where units and spells are shared.
 
 Lanka
@@ -1079,7 +1047,7 @@ Samanishada 35 -> 30 slaves; pathlevel 0-2
 
 Sandhyabalas 3 -> 4 summoned
 
-Lanka’s indie priests have 2.5X upkeep costs.  Will not display until turn after recruitment.  Indie flavor text changed to reflect this.
+Lanka?s indie priests have 2.5X upkeep costs.  Will not display until turn after recruitment.  Indie flavor text changed to reflect this.
 
 EA Xibalba 
 
@@ -1114,11 +1082,11 @@ Anathement salamander
 Annointed of Rhuax 
 	Random chance moved to 0.5 from 0.1
 
-Addition of “Childen of Rhuax” spell - Abysian version of Rhuax pact, requiring F4E1.
+Addition of ?Childen of Rhuax? spell - Abysian version of Rhuax pact, requiring F4E1.
 
 Summon scorpion man now summons a commander, costs 10 gems, has torso  credit to  johannes
 
-Addition “abysian crossbreeding” (abysian themed version of the crossbreeding spell.)  
+Addition ?abysian crossbreeding? (abysian themed version of the crossbreeding spell.)  
 
 GoRing Demonspawn results in either a misbred commander (if they have afflictions), a blood hunter, or an assassin.
 
@@ -1242,7 +1210,7 @@ Tlahuelpuchi cost 25->50->33
 Pathreq B2->B2D2
 Civateteo pathreq B2D2->B2, douse 1
 
-MA Nations
+##### Middle Age
 MA Ermor
 Ermor receives a D1 site that spawns in land (not water provinces) they control with high dominion and low population, and reduced cap income. 
 50% more for all forts.  
@@ -1334,7 +1302,7 @@ Konoha Tengu research level 2
 Dai Tengu 55->40 gems
 Nushi 25->20 gems
 Kitsune 30->20 gems
-New Ritual “Hide Heart” (D2F2, 16 gems, research 5) produces a “Ritual Assistant” that, when alone with a Sorceror on a mountain that isn’t already occupied, generates a hidden heart and makes the sorceror immortal.  However, if the heart is destroyed, the sorceror dies.
+New Ritual ?Hide Heart? (D2F2, 16 gems, research 5) produces a ?Ritual Assistant? that, when alone with a Sorceror on a mountain that isn?t already occupied, generates a hidden heart and makes the sorceror immortal.  However, if the heart is destroyed, the sorceror dies.
 MA Xibalba
 Jungle Muuch mm2
 Darts ammo 4->6
@@ -1381,7 +1349,7 @@ Tlahuelpuchi cost 25->50->33
 Pathreq B2->B2D2
 Civateteo pathreq B2D2->B2, douse 1
 Sun Warriors + 1 strength, +1 hp, -3 goldcost
-LA Nations
+##### Late Age
 LA Rlyeh 
 spawns occasional S1 sites on templed coastal provinces with sufficiently high dominion
 All freespawn is 0 upkeep
@@ -1393,7 +1361,7 @@ Pays 50% more for all forts, but recruits from fortera 2
 Starts with a D2 mage; 
 acolytes D1H1-> D1H1(DS)
 
-Misc Changes to nations with Cavalry
+##### Misc Changes to Nations With Cavalry
 Marveni 
 Eponi 5 gold discount, addition of a hoof attack
 EA Ermor
