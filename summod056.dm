@@ -185,7 +185,6 @@
 #rcost 1  --from 2
 #end
 
-)
 #selectarmor 132 --kabuto
 #rcost 3 --from 4
 #end
