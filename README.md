@@ -1035,7 +1035,7 @@ Various amphibious indies given non-ferric equipment
 ##### Early Age
 Note:  Some of these changes WILL spillover into other ages where units and spells are shared.
 
-Lanka
+###### Lanka
 
 Bandar Warriors, 18g -> 17g, Att 11 -> 12 (note: Bandar changes are there because bandar are   being universally changed)
 
@@ -1049,7 +1049,7 @@ Sandhyabalas 3 -> 4 summoned
 
 Lanka?s indie priests have 2.5X upkeep costs.  Will not display until turn after recruitment.  Indie flavor text changed to reflect this.
 
-EA Xibalba 
+###### Xibalba 
 
 bats are minimum 2 resources to recruit, 
 
@@ -1061,13 +1061,13 @@ Ah nakom and Onaqui now produce more unrest
 
 Beastbats are -1 siegedefense (For total siegedefense of 1.44 each instead of 2.44 each).
 
-Mictlan
+###### Mictlan
 
 Tlahuelpuchi cost 25->50
 
 sun warriors cost 18->15; Hp 12->13; Strength 10->11
 
-Abysia
+###### Abysia
 
 Anathemant Dragon - +0,5ESDB
 
@@ -1090,7 +1090,7 @@ Addition ?abysian crossbreeding? (abysian themed version of the crossbreeding sp
 
 GoRing Demonspawn results in either a misbred commander (if they have afflictions), a blood hunter, or an assassin.
 
-Helheim
+###### Helheim
 
 Helkarl - +110%AD magic, normal leadership (195 total cost).
 
@@ -1102,77 +1102,45 @@ New spell: Bind Draugar.  Conj 7,  30 gems, 15++, D4A1,
 
 Summon Valkyries, 7 -> 10 valks summoned (Also benefits EA/MA Vanheim)
 
-Hinnom
-
+###### Hinnom
 Kohen: douse 1, basecost -10, leadership 80->40  effective cost 225
-
 Melqarts no longer caponly
-
 General discount in basecost for all units with popkill.
-
 horites throw rocks, -2 cost
-
 Kailasa
-
 ghukuya generals not str
-
 Bandar Warriors, 18g -> 17g, Att 11 -> 12
-
 Bandar Archers - elite statline
-
 Bandar Archer, 18g -> 17g   
-
 Yavana Archers carry falchions
-
 Yavanas 40->35 gold
-
 Yakshas awe 2
-
 Guhyakas: Javelins 
-
 Summon changes: (apply to Kailasa, Bandar Log, Patala)
-
 Devata 40 gems, S2->S3, HP 28->40 Str +2 Att +1 Def +1 Prc +2, +30 magical leadership
 		Autocasts an animal-only antimagic
-
 Devala 40 gems; S3->S4, Autocasts Celestial Music
-
 Rudra 45 gems, HP 32->48, STR +3, Def+2, Prot+2, Att +2, Prec +2, autospell wrathful skies
-
 Gandharva 18->15 pearls
 
-EA Machaka
-
+###### Machaka
 (cheaper, more accessible light infantry; improved machaka spear)
-
 Machaka Warriors Foreign Recruit, 8 gold
-
 machaka militia foreign recruit
-
 Machaka Chief Foreign Recruit (40 gold)
-
 Pygmy Warriors Forest Recruitable
-
 Spider clan Archers cheaper
-
 Spider clan Warriors have furs
-
 Spider clan Sorcerer not STR
-
 Spider Rider 
 	Size 4
 	Goldcost -15
-
 Great Spider changes from MA Machaka (Size 4, 8 MR, 20 goldcost, 17 strength)
 
-Sauromatia
-
+###### Sauromatia
 Lancer, Raider, Sauromatian Lancer, Sauromatian Raider - 3 gold discount
-
 Cataphract - 5 gold discount
-
 Androphag -- 20 gold discount
-
 Oioropata -- 10 gold discount
 WarriorPriestess, warrior queen - 20 gold discount
 Manflayer 15 gold discount
@@ -1180,20 +1148,23 @@ Warrior Sorceress random changed to WNB, leadership reduced by 40, autocalc pric
 Hydra 250->180 gold
 Hydra Hatchling 35->28 gold
 Underwater EA Nations
-Atlantis
+
+###### Atlantis
 New Coastal Shambler Mage -- Relatively expensive for W1, 1 WSFE ,5SFE
-Rlyeh
+
+###### Rlyeh
 Aboleth and Mindlord cost decrease, extra misc slot
 Mindlord given an extra W/S random
 Androdai discounted, random changed to EWD from EWSD
 Androleth discounted to 40 gold
 Merman Slaves, lobo guard, slave mage recruitable on land
 Given a mass-forge spell to produce airbreathing amulet
-EA Pelagia
+
+###### Pelagia
 Sideraspists slightly improved.  
 Given a mass-forge spell to produce airbreathing amulets
 
-EA Oceania
+###### Oceania
 Minotaurs given Gore.
 Therodos 
 *provisional changes*
@@ -1205,19 +1176,19 @@ Old STR battlemage available in coastal forts.  Sailing, holy, W2A1 (1.1 FWAD).
 Swordsmen (Mermen, Human, and Tritons) recruitable in underwater and coastal forts
 Global that increases popkill/death scales in Therodos territory, produces sacred freespawn, and has a chance at generating sites that produce water gems.
 
-EA Mictlan
+###### Mictlan
 Tlahuelpuchi cost 25->50->33
 Pathreq B2->B2D2
 Civateteo pathreq B2D2->B2, douse 1
 
 ##### Middle Age
-MA Ermor
+###### Ermor
 Ermor receives a D1 site that spawns in land (not water provinces) they control with high dominion and low population, and reduced cap income. 
 50% more for all forts.  
 Starts at Cold1
 Dusk Elders are slightly more resistant to magic duel
 Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor
-MA Marignon:
+###### Marignon:
 Angel of Fury cost->25 pearls, self-blesses, damage reflection
 Angelic Host S5->S4F1, 50->40 pearls
 Heavely Choir ->S5F3, 88 pearls, choir angels now get an anti-undead ranged attack
@@ -1229,7 +1200,8 @@ Knight of the Chalice  - 10 gold discount
 Paladin - 20 gold discount
 High inquistor- not str, 0.2 S
 Members of the inquisition (nonwitchfinders) can pillage in friendly provinces (with population) to generate flagellants.  More flagellants are generated the higher the rank of the inquisitor.  Higher dominion and the presence of a temple also provide bonuses.
-MA Pythium
+
+###### Pythium
 Refer to MA Marignon for angel changes.
 MA Bandar Log
 All Vanara Units -1 gold
@@ -1241,11 +1213,13 @@ Nagas 20->15 gems
 Nagaraja 30->25 gems
 Devata 40 gems, #onebattlespell an animal-only antimagic
 Asrapas get a weak ranged weapon
-MA Caelum
+
+###### Caelum
 Spire Horn Archers (128) get a composite bow instead of a shortbow
 Ice Bow does 9->11 damage
 New Monster: Ice Enchanter.  W2 with an FSD random and a AWS random
-MA Machaka
+
+###### Machaka
 Starting army is 20/20
 Pygmies are forestrec
 Witchdoctors are forestrec, 100 gold, -5 researchbonus, and N (FED)(EDN)from 80 gold FDN
@@ -1264,7 +1238,8 @@ Mounted nonsacred spider riders are 15 gold cheaper and size 4, and wield lances
 Hunter Spiders (Black spiders) now have a fear weapon
 	Spider form has MR 5->10 and strength 16->18, and upkeep 0->50
 Hoplites are 14->13 gold
-MA TC
+
+###### TC
 Conscription: 
 Eunuchs foreignrec.  They can summon montag conscripts. Conscripts are militia-stat versions of the 3 footmen and the archer (ratio 1:1:1:2).
   On reaching 24 exp, conscripts either desert or become regular units via expshape.
@@ -1280,7 +1255,8 @@ Celestial Servent 2 gems
 Internal Alchemy 2 gems
 Thousand Year Ginseng 2 gems
 Terracotta warriors summons national versions of terracotta troops.
-MA Shinyu
+
+###### Shinyu
 Kappa Shaman UW Recruitable
 Size 2 Bakemono slaves
 Shuten-Doji Taskmaster 2
@@ -1303,7 +1279,8 @@ Dai Tengu 55->40 gems
 Nushi 25->20 gems
 Kitsune 30->20 gems
 New Ritual ?Hide Heart? (D2F2, 16 gems, research 5) produces a ?Ritual Assistant? that, when alone with a Sorceror on a mountain that isn?t already occupied, generates a hidden heart and makes the sorceror immortal.  However, if the heart is destroyed, the sorceror dies.
-MA Xibalba
+
+###### Xibalba
 Jungle Muuch mm2
 Darts ammo 4->6
 Muuch Warrior (Bronze): +1 morale, attack, defense, +4 gold
@@ -1314,7 +1291,7 @@ Obsidian Warrior 26->22 gcost
 muuch kahal paths 
 W2E1D1(WEDN)-> W1E1D1 (WD) (WEDN) or (WED)(WDN)
 
-MA Man
+###### Man
 Knight 45->35 gold
 Avalon knight 65->50 gold
 Knight commander -10 gold
@@ -1341,19 +1318,22 @@ Mother of Avalon paths N(AN)(AN).2(WE)->N2A1(WE).25(N)
 Crone paths improved (ANWE)->(AN)(WE)
 Bonding Wardens is a common event; bonds a warden to a mother as a 1batstartsummon
 New Item: Rowan Staff.  MA Man only, usable by mothers and Crones. N2A2, +2 pen, +2 precision, allows 5 fatigue casting of Bewitchment.
-MA Asphodel
+
+###### Asphodel
 Spawns occasional N1 sites on sufficiently decayed templed forest provinces
 
-MA Mictlan
+###### Mictlan
 Tlahuelpuchi cost 25->50->33
 Pathreq B2->B2D2
 Civateteo pathreq B2D2->B2, douse 1
 Sun Warriors + 1 strength, +1 hp, -3 goldcost
+
 ##### Late Age
 LA Rlyeh 
 spawns occasional S1 sites on templed coastal provinces with sufficiently high dominion
 All freespawn is 0 upkeep
-LA Lemuria
+
+###### Lemuria
 Spectrals weapons are now hardmrnegates.  
 Receive a D1 site that spawns in land (not water provinces) they control with high dominion and  .	low population, and reduced cap income.  
 Prefers cold 1
@@ -1362,34 +1342,35 @@ Starts with a D2 mage;
 acolytes D1H1-> D1H1(DS)
 
 ##### Misc Changes to Nations With Cavalry
-Marveni 
+
+###### EA Marveni 
 Eponi 5 gold discount, addition of a hoof attack
-EA Ermor
+###### EA Ermor
 Equites 5 gold discount
 equites sacred shroud 5 gold discount
 
-MA Pythium
+###### MA Pythium
 Serpent Cataphract/Serpent Lord 15 gold discount
 
-MA Ulm
+###### MA Ulm
 Black Lord 10 gold discount
 Black Knight 10 gold discount
 
-LA Arco
+###### LA Arco
 Agema Commander 5 gold discount
 Agema Companion 5 gold discount
-LA Pythium
+###### LA Pythium
 Serpent Lord 15 gold discount
 Serpent Cataphract 15 gold discount
-LA Man
+###### LA Man
 Tower Knight 10 gold discount
-LA Ulm
+###### LA Ulm
 Black Templar 20 gold discount
 Hochmeister 15 gold discount
-LA Jomon
+###### LA Jomon
 Samurai Cav 15 gold discount
 Mounted Commanders 10 gold discount
-LA Bogarus
+###### LA Bogarus
 Grid Druzhina 5 gold discount
 Malaia Druzhina 10 gold discount
 Styag 10 gold discount
