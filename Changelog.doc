@@ -33,10 +33,91 @@ IV.3 Weapons
 IV.4 Indie changes
 V. NATIONAL CHANGES
 V.1 EA Nations
+	Arcoscephale, Golden Era
+	Ermor, New Faith
+	Ulm, Enigma of Steel
+	Marverni, Time of Druids
+	Sauromatia, Amazon Queens
+	T'ien Ch'i, Spring and Autumn
+	Machaka, Lion Kings
+	Mictlan, Reign of Blood
+	Abysia, Children of Flame
+	Caelum, Eagle Kings
+	C'tis, Lizard Kings
+	Pangaea, Age of Revelry
+	Agartha, Pale Ones
+	Tir na n'Og, Land of the Ever Young
+	Fomoria, The Cursed Ones
+	Vanheim, Age of Vanir
+	Helheim, Dusk and Death
+	Niefelheim, Sons of Winter
+	Kailasa, Rise of the Ape Kings
+	Lanka, Land of Demons
+	Yomi, Oni Kings
+	Hinnom, Sons of the Fallen
+	Ur, The First City
+	Berytos, The Phoenix Empire
+	Xibalba, Vigil of the Sun
+	Atlantis, Emergence of the Deep Ones
+	R'lyeh, Time of Aboleths
+	Pelagia, Pearl Kings
+	Oceania, Coming of the Capricorns
+	Therodos, Telkhine Spectre
 V.2 MA Nations
+	Arcoscephale, The Old Kingdom
+	Ermor, Ashen Empire
+	Sceleria, The Reformed Empire
+	Pythium, Emerald Empire
+	Man, Tower of Avalon
+	Eriu, Last of the Tuatha
+	Ulm, Forges of Ulm
+	Marignon, Fiery Justice
+	Mictlan, Reign of the Lawgiver
+	T'ien Ch'i, Imperial Bureaucracy
+	Machaka, Reign of Sorcerors
+	Agartha, Golem Cult
+	Abysia, Blood and Fire
+	Caelum, Reign of the Seraphim
+	C'tis, Miasma
+	Pangaea, Age of Bronze
+	Asphodel, Carrion Woods
+	Vanheim, Arrival of Man
+	Jotunheim, Iron Woods
+	Vanarus, Land of the Chuds
+	Bandar Log, Land of the Apes
+	Shinuyama, Land of the Bakemono
+	Ashdod, Reign of the Anakim
+	Nazca, Kingdom of the Sun
+	Xibalba, Flooded Caves
+	Atlantis, Kings of the Deep
+	R'lyeh, Fallen Star
+	Pelagia, Triton Kings
+	Oceania, Mermidons
 V.3 LA Nations
-V.4 Misc Changes to nations with Cavalry
-
+	Arcoscephale, Sibylline Guidance
+	Pythium, Serpent Cult
+	Lemuria, Soul Gates
+	Man, Towers of Chelms
+	Ulm, Black Forest
+	Marignon, Conquerors of the Sea
+	Mictlan, Blood and Rain
+	T'ien Ch'i, Barbarian Kings
+	Jomon, Human Daimyos
+	Agartha, Ktonian Dead
+	Abysia, Blood of Humans
+	Caelum, Return of the Raptors
+	C'tis, Desert Tombs
+	Pangaea, New Era
+	Midgrd, Age of Men
+	Utgard, Well of Urd
+	Bogarus, Age of Heroes
+	Patala, Reign of the Nagas
+	Gath, Last of the Giants
+	Ragha, Dual Kingdom
+	Xibalba, Return of the Zotz
+	Atlantis, Frozen Sea
+	R'lyeh, Dreamlands
+	
 ******************************************************
 
 I. MAGIC ITEMS  							 
@@ -312,455 +393,180 @@ Fire Drake  7 gems -> 5
 III.2 Earth
 Clockwork Soldiers 8 -> 6 gems Reinvigoration -15 -> -10 Prot 18 -> 20 AP 10 -> 12 Castable UW
 Clockwork Horrors Reinvigoration -15 -> -12; Castable UW
-
 Crusher Stone Fist -> 2 Stone Fists 10 gems Siege 30 Castable UW
-
 Cave drake 1 gem cheaper
-
 Enliven Statues 20 -> 15 gems
-
 Fall bears Bite attack added; Prot 10; 2 more per summon
-
 Hidden in Cave ; 75 -> 55 gems;  poor amphibian; Castable UW
-
-Hidden in Sand
-75 -> 55 gems
-poor amphibian
-
-Iron Dragon 
-noleader
-commander
-20 gems
-
-Mechanical Men
-10+2/level -> 12+2/level per summoning
-Castable UW
-prot 19
-
-Siege Golem
-10 gems from 20
-research 9->7
-Castable UW
-
-Troll King’s Court 55->45 gems
-(Contact) Trolls
-15 -> 10 gems
+Hidden in Sand 75 -> 55 gems; poor amphibian
+Iron Dragon noleader commander 20 gems
+Mechanical Men: 10+2/level -> 12+2/level per summoning; Castable UW; prot 19
+Siege Golem: 10 gems from 20; research 9->7; Castable UW
+Troll King’s Court 55->45 gems 
+(Contact) Trolls; 15 -> 10 gems
 
 III.3 Air
-
-Amphiptere
-Prec 12
-5 gems->4
-
-Draconians
-45 -> 40 gems
-Talons attack added
-Prot 9 -> 12
-
-Spring Hawks
-+50% gemcost, 5+-> 10++ hawks
-prot 2
-
-Watcher
-Can be transported to an adjacent province for the first month it exists, after which it becomes immobile.
-
-Wyvern
-Size 5 -> 4
-Prot 12 -> 13
-Talon
+Amphiptere; Prec 12; 5 gems->4
+Draconians; 45 -> 40 gems; Talons attack added; Prot 9 -> 12
+Spring Hawks; +50% gemcost, 5+-> 10++ hawks; prot 2
+Watcher; Can be transported to an adjacent province for the first month it exists, after which it becomes immobile.
+Wyvern; Size 5 -> 4; Prot 12 -> 13; Talon
 
 III.4 Water
-
-Catoblepas
-15 ->10 gems
-
-Claymen
-5 gems-> 10, 16+++ per summon
-
-Gelatinous Cube
-+2 AP -> 6 AP
-recuperation
-4 gems->3
-
-Hidden in snow
-75 -> 55 gems
- poor amphibian
-
-Kokythiad
-40 -> 35 gems
-35 gems
-
-Naiad
-35 -> 30 gems
-30 gems
-
-Naiad Warriors
-30 -> 20 gems
-20 gems
-
-Ice Drake
-5 gems from 7
-
-Sea King's Court
-55 -> 50 gems
-
-Sea Trolls
-15 -> 10 gems
-Fist -> 2x Claw
-claw
-
-Winter Wolves (* increase amount and cost x2)
-Amount and cost increased 2X, hp 16, prot 4
-
-Yetis
-12 gems from 15
+Catoblepas; 15 ->10 gems
+Claymen 5 gems-> 10, 16+++ per summon
+Gelatinous Cube; +2 AP -> 6 AP; recuperation; 4 gems->3
+Hidden in snow: 75 -> 55 gems;  poor amphibian
+Kokythiad: 40 -> 35 gems
+Naiad; 35 -> 30 gems
+Naiad Warriors; 30 -> 20 gems
+Ice Drake  5 gems from 7
+Sea King's Court: 55 -> 50 gems
+Sea Trolls; 15 -> 10 gems; Fist -> Claw
+Winter Wolves (* increase amount and cost x2) Amount and cost increased 2X, hp 16, prot 4
+Yetis 12 gems from 15
 
 III.5 Astral
-
-Abomination
-25 -> 15 gems
-
-Eater of the Dead
-50 pearls->25
-Very low fire and shock res added
-Pierceresist
-Acid Shield at three highest levels
-Slimer at two highest levels
-Plague at the highest level
-Reduced Summon Reqs
-Conj 8->Conj 7
-
-Ether gate
-90 -> 65 gems
-
-Juggernaut
-25 gems -> 10
-
-Telestic Animation
-Can transport itself to an adjacent province for the first month of its existence, after which it reverts to an immobile form.
+Abomination; 25 -> 15 gems
+Eater of the Dead 50 pearls->25; Very low fire and shock res added; Pierceresist; Acid Shield at three highest levels; Slimer at two highest levels; Plague at the highest level; Reduced Summon Reqs; Conj 8->Conj 7
+Ether gate; 90 -> 65 gems
+Juggernaut  25 gems -> 10
+Telestic Animation: Can transport itself to an adjacent province for the first month of its existence, after which it reverts to an immobile form.
 
 III.6 Death
-
-Arouse Hunger
-9+++ >12+++ ghouls
-
-Bane
-23 hp -> 25 hp
-6 gems
-
-Behemoth
-10->8 gems
-
-Create Revenant
-Castable UW
-
+Arouse Hunger  9+++ >12+++ ghouls
+Bane: 23 hp -> 25 hp; 6 gems
+Behemoth:  10->8 gems
+Create Revenant  Castable UW
 Leviathan 12->10 gems, landap 4->6
-
-Pale Rider
-Castable UW
-
-Poison Golem
-35 -> 25 gems
-pierce, slash resist
-att->11
-Fear
-Banefireshield 10
-Mapmovement teleportation
-
-Reanimation
-5 gems for 10 skeletons->1 gem for 4 skeletons
-
-Reanimate Archers
-scales, casts faster
-Banefire bows are AP
-
-Spirit Mastery
-scales faster, more  spirits
-
-Revive Wights
-20 gems-> 12
-poor amphibian
- 
-Ziz
-D3A2->D3A1
-Biggest problem with Ziz is that your mages have better things to do than summon large birds one at a time.
+Pale Rider Castable UW
+Poison Golem 35 -> 25 gems pierce, slash resist; att->11; Fear; Banefireshield 10; Mapmovement teleportation
+Reanimation; 5 gems for 10 skeletons->1 gem for 4 skeletons
+Reanimate Archers; scales, casts faster; Banefire bows are AP
+Spirit Mastery scales faster, more  spirits
+Revive Wights: 20 gems-> 12; poor amphibian
+Ziz: D3A2->D3A1; Biggest problem with Ziz is that your mages have better things to do than summon large birds one at a time.
 
 III.7 Nature
-
-Ambush of Tigers
-scales to 12++, tigers stealthy
-
-Animal Horde
-25 -> 18 gems
-
-(Summon) Animals
-10>8 gems
-
-Call of the wild
-Werewolf 20 -> 25 hp
-
-Construct Manikin
-12 -> 20 gems
-16++++ scale rate
-(doubled mage-efficiency, increased base amount, scale rate constant, gem cost slightly reduced
-
-Construct Mandragora
-10 -> 8 gems
-
-Forest Giant
-Grab and Swallow weapon added
-
-Forest Troll Tribe 2220
-Contact Forest Trolls 2219
-10->7 gems 695
-stealthy
-
-Lamia Queen
-25 -> 20 gems
-Contact Lamias
-N3->N2
-
-Lumber Construct
-5 -> 4 gems
-Siege 10
-
-Manticore
-Flick barbs damage changed from 10 nostrength to -10 strength so buffs help?
-
-Kithaironic Lion
-	Casting requirements reduced, doubled mage turn efficiency
-
-Pride of Lions
-10++ -> 13+++ lions
-
-Sleeper
-Sacred
-
-Sloth of Bears
-Claw -> Bite, claw
-
-Swamp Drake
-8-> 5 cost
-
-Vine Men
-3 -> 5 men
-
-Vine Ogres
-2 -> 3 ogres
-
-Tarrasque
-Make it a commander, noleader
-Level 6 unique
-buffs: (Heal, prot 20, enc 2, weapon resist).  Has an attack that can swallow enemies.
+Ambush of Tigers; scales to 12++, tigers stealthy;
+Animal Horde 25 -> 18 gems
+(Summon) Animals 10>8 gems
+Call of the wild: Werewolf 20 -> 25 hp
+Construct Manikin: 12 -> 20 gems; 16++++ scale rate; (doubled mage-efficiency, increased base amount, scale rate constant, gem cost slightly reduced
+Construct Mandragora: 10 -> 8 gems
+Forest Giant Grab and Swallow weapon added
+Forest Troll Tribe: stealthy
+Contact Forest Trolls:10->7 gems stealthy
+Lamia Queen 25 -> 20 gems
+Contact Lamias N3->N2
+Lumber Construct 5 -> 4 gems; Siege 10
+Manticore; Flick barbs damage changed from 10 nostrength to -10 strength so buffs help?
+Kithaironic Lion: Casting requirements reduced, doubled mage turn efficiency
+Pride of Lions; 10++ -> 13+++ lions
+Sleeper; Sacred
+Sloth of Bears; Claw -> Bite, claw
+Swamp Drake; 8-> 5 cost
+Vine Men; 3 -> 5 men
+Vine Ogres 2 -> 3 ogres
+Tarrasque Make it a commander, noleader Level 6 unique buffs: (Heal, prot 20, enc 2, weapon resist).  Has an attack that can swallow enemies.
 
 III.8 Blood
-
-Bind Succubus
-44 gems
-
-Blood Rite
-summons 3->7
-
-Cross Breeding
-15 -> 12 slaves
-
-Improved Cross Breeding
-20 -> 16 slaves
-
-Dark Vines
-summons 5 at 30 slaves
-
-Devil
-Fire shield 6
-
-Plague of Locusts
-heretic 1->2
-
-Ritual of Five Gates
-28-> 25
-
-Spine Devil
-Given Flick barbs, precision 10, 3X summonspeed
-
-Serpent Fiend
-+3 att, +4 strength, 3X summon speed
+Bind Succubus: 66->44 gems
+Blood Rite summons: 3->7 vampires
+Cross Breeding: 15 -> 12 slaves
+Improved Cross Breeding: 20 -> 16 slaves
+Dark Vines: summons 5 at 30 slaves
+Devil Fire: shield 6
+Plague of Locusts: heretic 1->2
+Ritual of Five Gates 28-> 25
+Spine Devil Given Flick barbs, precision 10, 3X summonspeed, 11 slave cost
+Serpent Fiend +3 att, +4 strength, 3X summon speed
 
 IV. General Changes
-
-IV.1 Scales:  
-Growth/Death: Income 3%->2% per scale
-
+IV.1 Scales:  Growth/Death: Income 3%->2% per scale
 Ohlmann - both excellent in short term gold, and excellent in long term gold. Production is a bit weak, because it don't give much money and resources become weaker quite fast. I also think that sloth 3 is not punitive enough
-
 Maerlande -  I think growth is too obvious if you want money. If I remember correctly, Calahan used +2% for growth and gave production the other percent in his version of CBM for serious competition. I think that makes quite a difference to put a bit more decision between these two. Right now, I find growth is almost always a better choice.
-
 sum1won: I’m including this discussion since I expect this is the biggest change in the mod.  I’d also note that I modeled income and total gold from growth and order, and the comparison suggests that growth is significantly better over the long term, and nearly as good over the short term.  The largest difference in gold is around turn 8-15 (varies depending on how aggressive expansion is) and never really rises above ~5% of income/total gold.  Largest difference I saw was a few hundred gold.
 
 IV.2 Sites
-
 Steel ovens level 0->1
-
 Cedar pillar level 0->1
-
 Well of Pestilence rarity swapped with bonedoor tower
-
 Ancient ruin summons 5 various bugs
-
 Farm of Plenty rarity increased
-
 Caveman cave gives resources
-
 Animal Cemetary: Summons 4 carrion beasts instead of two
-
 Flesh Eaters Isle: Summons 4 ghouls instead of one
-
 The Slaughterhouse: Provides supply, summons some extra foulspawn
 
 IV.3 Armor changes
 
 Surveyed armor, made changes
-
-Full Ring Mail +1 def, -1 rescost 
-(Logrians) 
-
+Full Ring Mail +1 def, -1 rescos	 (Logrians) 
 Chain Hauberk +1 def
-
-Full Chain Mail +1 def - 
-LA Man, MA Man, LA Agartha, MA MArignon *
-
-Plate cuirass +1 def, -1 enc 
-(LA Pythium, LA Pangaea LA Ulm, LA/MA Marignon, LA Caelum (two units), LA Ragha (one unit), Therodos (Korybants -increase enc, drop defense), MA Pelagia (one unit), MA/LA Arco 
-
-Plate Hauberk +2 def, -2 enc 
-(LA Pythium, Abysia, MA Machaka, LA Marignon, Ghandarvas, MA/LA Arco)**
-
-Full Plate Mail -2 enc, +1 def 
-(LA Agartha (lots), MA/LA Marignon (Royal Guard), MA Machaka (Black Hunters).
-
-Full Chain Ulm +1 def  
-(MA Ulm) 
-
-Full Plate Ulm +1 def, 
-(MA Ulm) 
-
-Bronze Cuirass +1 Def, -1 Enc
- (Therodos, MA Pangaea, MA Pelagia)
-
-Bronze Hauberk -2 enc 
-(MA Pan, Pelagia, Oceania, EA Arco, LA Gath)
-
-Spider Armor +1 def, -1 enc, -6 rescost
- (Machaka)
-
-Ashigaru Armor +1 def, -1 enc 
-(Shinyu, Yomi, slightly Jomon)*
-
-Samurai Armor +1 def, -1 enc 
-(Jomon, Shinyu … Yomi)*
-
-Heavy Samurai Armor +1 def, -1 enc
- (Jomon, Yomi)*
-
-Basalt Armor -2 Enc, -5 rescost 
-(EA Atlantis)
-
-Hoplon +1 enc
-	(This fully offsets the benefits Therodos gets from the cuirass changes).
-
+Full Chain Mail +1 def - 	LA Man, MA Man, LA Agartha, MA MArignon *
+Plate cuirass +1 def, -1 enc  (LA Pythium, LA Pangaea LA Ulm, LA/MA Marignon, LA Caelum (two units), LA Ragha (one unit), Therodos (Korybants -increase enc, drop defense), MA Pelagia (one unit), MA/LA Arco 
+Plate Hauberk +2 def, -2 enc  (LA Pythium, Abysia, MA Machaka, LA Marignon, Ghandarvas, MA/LA Arco)**
+Full Plate Mail -2 enc, +1 def (LA Agartha (lots), MA/LA Marignon (Royal Guard), MA Machaka (Black Hunters).
+Full Chain Ulm +1 def  (MA Ulm) 
+Full Plate Ulm +1 def, (MA Ulm) 
+Bronze Cuirass +1 Def, -1 Enc (Therodos, MA Pangaea, MA Pelagia)
+Bronze Hauberk -2 enc (MA Pan, Pelagia, Oceania, EA Arco, LA Gath)
+Spider Armor +1 def, -1 enc, -6 rescost (Machaka)
+Ashigaru Armor +1 def, -1 enc (Shinyu, Yomi, slightly Jomon)*
+Samurai Armor +1 def, -1 enc (Jomon, Shinyu … Yomi)*
+Heavy Samurai Armor +1 def, -1 enc (Jomon, Yomi)*
+Basalt Armor -2 Enc, -5 rescost (EA Atlantis)
+Hoplon +1 enc	(This fully offsets the benefits Therodos gets from the cuirass changes).
 Jingasa rcost 2->1
-
 Coral cuirass +2 prot, -1 enc, +3 rescost (MA, LA Atlantis)?
-
 Coral Hauberk +2 prot, +1 def, -1 enc, +5 rescost (EA Pelagia, MA, LA Atlantis)?
-
 Coral Barding +5 prot, +8 res (Oceania Aphroi)?
-
 Turtle Shell Armor +1 prot (EA Pelagia, EA/MA Oceania)?
-
 Turtle Shell Barding +1 prot (Oceania Icthycentaurs)?
-
 Ichtytaur Barding (MA Oceania, heavy version)?*
-
 Centaur Barding (Bronze) (+1 prot -1 enc) MA Pan 
-
 Centaur Barding (Iron) (+1 prot -1 enc) LA Pan 
-
 Res cost reduction for Amber equipment (MA Pelagia, indies)
-
 adds Laminated scale mail
-
 Adds treated scale hauberk
 
 IV.4 Weapons
-
 Mace - 5 dmg -> 6 dmg (Nazca, Marignon, Bandar Log/Patala/Kailasa/Lanka, Mictlan)
-
 Hammer - 7 dmg -> 8 dmg (MA Ulm, Claymen)
-
 Maul dmg 9->10  (MA Ulm)
-
 Machaka Spear - 3 res -> 2 res, -1 -> 0 Atk (EA/MA Machaka)
-
 Chakram - 2 -> 5 ammo (Bandar Log, Patala)
-
 Throw Spines changed to strength-10 damage
-
 Obsidian Clubsword -> Damage 5, att 1
-
 Yari rcost 1->2
-
 Wakizashi rcost 4->2
-
 Added nonrust equipment from nonrust mod:
+Adds Laminated glaive
+Adds Laminated Yari
+Adds noniron Spear
+Adds noniron Knife
+Adds noniron Bronze Glaive
+Adds noniron Trident
+Adds noniron Bronzed Falchion
+Adds noniron Bronzed Kryss
 
-Laminated glaive
-
-Laminated Yari
-
-Spear
-
-Knife
-
-Bronze Glaive
-
-Trident
-
-Bronzed Falchion
-
-Bronzed Kryss
-
-Indie changes
-
+IV.5 Indie changes
 Barbarians no longer look like Skwisgaar.  They now wield axes.
-
 Hoburg crossbows are now 9g
-
 Heavy Cav (Indie) 19, 20, 21-- Dropped cost to 25
-
 Knight, (indie)22  cost35->30
-
 Light Cav (Indie) 24, 25, 26 -> Dropped cost to 15; javelin light cav get light lances
-
 Horse Tribe Chief/Brother (55->45)
-
 Imperial Commander  2117 65->55
-
 Horse Tribe Cav  Cost 25->15
-
 Horse Brother 25->15
-
 Jade Maiden 370  50 -> 45
-
 Nightmare  369 85 -> 70
-
 Cataphract 1187 30 - 35
-
 Hog Knights Rsize 2->1
-
 Ichtyid, triton, merman, Frog Clan poptypes now provide indie scouts
-
 Amphibious poptypes now provide better troops and shamans.
-
 Various amphibious indies given non-ferric equipment
 
 V. NATIONAL CHANGES
@@ -768,552 +574,304 @@ V. NATIONAL CHANGES
 V.1 EA NATIONS
 Note:  Some of these changes WILL spillover into other ages where units and spells are shared.
 
-Lanka
-
+EA Lanka
 Bandar Warriors, 18g -> 17g, Att 11 -> 12 (note: Bandar changes are there because bandar are   being universally changed)
-
 Bandar Archer, 18g -> 17g   
-
 Summon Dakini: 50->66 Bloodslaves (Applies to Lanka, BL, Patala)
-
 Samanishada 35 -> 30 slaves; pathlevel 0-2
-
 Sandhyabalas 3 -> 4 summoned
-
 Lanka’s indie priests have 2.5X upkeep costs.  Will not display until turn after recruitment.  Indie flavor text changed to reflect this.
 
 EA Xibalba 
-
 bats are minimum 2 resources to recruit, 
-
 7 gold bats now cost 8
-
 Ah nakom are 75 gold from 70
-
 Ah nakom and Onaqui now produce more unrest
-
 Beastbats are -1 siegedefense (For total siegedefense of 1.44 each instead of 2.44 each).
 
-Mictlan
-
-Tlahuelpuchi cost 25->50
-
+EA Mictlan
+Tlahuelpuchi cost 25->33, B2 req-> D2B2
+Civateteveo douse 1, D2B2 req-> B2
 sun warriors cost 18->15; Hp 12->13; Strength 10->11
 
 Abysia
-
-Anathemant Dragon - +0,5ESDB
-
-right on the cusp of oldage
-
-20 gold cheaper
-
-Anathement salamander
-	0.1 ESDB
-	20 gold cheaper
-
-Annointed of Rhuax 
-	Random chance moved to 0.5 from 0.1
-
+Anathemant Dragon - +0,5ESDB right on the cusp of oldage 20 gold cheaper
+Anathement salamander 	0.1 ESDB	20 gold cheaper
+Annointed of Rhuax 	Random chance moved to 0.5 from 0.1
 Addition of “Childen of Rhuax” spell - Abysian version of Rhuax pact, requiring F4E1.
-
 Summon scorpion man now summons a commander, costs 10 gems, has torso  credit to  johannes
-
 Addition “abysian crossbreeding” (abysian themed version of the crossbreeding spell.)  
-
 GoRing Demonspawn results in either a misbred commander (if they have afflictions), a blood hunter, or an assassin.
 
 Helheim
-
 Helkarl - +110%AD magic, normal leadership (195 total cost).
-
-Summons:
-
 Helheim summons stronger Draugar than other nations. 
-
 New spell: Bind Draugar.  Conj 7,  30 gems, 15++, D4A1,
-
 Summon Valkyries, 7 -> 10 valks summoned (Also benefits EA/MA Vanheim)
 
 Hinnom
-
 Kohen: douse 1, basecost -10, leadership 80->40  effective cost 225
-
 Melqarts no longer caponly
-
 General discount in basecost for all units with popkill.
-
 horites throw rocks, -2 cost
 
 Kailasa
-
 ghukuya generals not str
-
 Bandar Warriors, 18g -> 17g, Att 11 -> 12
-
 Bandar Archers - elite statline
-
 Bandar Archer, 18g -> 17g   
-
 Yavana Archers carry falchions
-
 Yavanas 40->35 gold
-
 Yakshas awe 2
-
 Guhyakas: Javelins 
-
 Summon changes: (apply to Kailasa, Bandar Log, Patala)
-
-Devata 40 gems, S2->S3, HP 28->40 Str +2 Att +1 Def +1 Prc +2, +30 magical leadership
-		Autocasts an animal-only antimagic
-
+Devata 40 gems, S2->S3, HP 28->40 Str +2 Att +1 Def +1 Prc +2, +30 magical leadership	Autocasts an animal-only antimagic
 Devala 40 gems; S3->S4, Autocasts Celestial Music
-
 Rudra 45 gems, HP 32->48, STR +3, Def+2, Prot+2, Att +2, Prec +2, autospell wrathful skies
-
 Gandharva 18->15 pearls
+Apasaras: Weak anti-undead ranged attack
 
 EA Machaka
-
-(cheaper, more accessible light infantry; improved machaka spear)
-
 Machaka Warriors Foreign Recruit, 8 gold
-
 machaka militia foreign recruit
-
 Machaka Chief Foreign Recruit (40 gold)
-
 Pygmy Warriors Forest Recruitable
-
-Spider clan Archers cheaper
-
+Spider clan Archers 15->12 gold
 Spider clan Warriors have furs
-
 Spider clan Sorcerer not STR
-
-Spider Rider 
-	Size 4
-	Goldcost -15
-
+Spider Rider 	Size 4	Goldcost -15
 Great Spider changes from MA Machaka (Size 4, 8 MR, 20 goldcost, 17 strength)
 
 Sauromatia
-
 Lancer, Raider, Sauromatian Lancer, Sauromatian Raider - 3 gold discount
-
 Cataphract - 5 gold discount
-
 Androphag -- 20 gold discount
-
 Oioropata -- 10 gold discount
-
 WarriorPriestess, warrior queen - 20 gold discount
-
 Manflayer 15 gold discount
-
 Warrior Sorceress random changed to WNB, leadership reduced by 40, autocalc price discounted to 150
-
 Hydra 250->180 gold
-
 Hydra Hatchling 35->28 gold
 
-Underwater EA Nations
-
-Atlantis
-
-New Coastal Shambler Mage -- Relatively expensive for W1, 1 WSFE ,5SFE
-
-Rlyeh
-
-Aboleth and Mindlord cost decrease, extra misc slot
-
-Mindlord given an extra W/S random
-
-Androdai discounted, random changed to EWD from EWSD
-
-Androleth discounted to 40 gold
-
-Merman Slaves, lobo guard, slave mage recruitable on land
-
-Given a mass-forge spell to produce airbreathing amulet
-
-EA Pelagia
-
-Sideraspists slightly improved.  
-
-Given a mass-forge spell to produce airbreathing amulets
-
-EA Oceania
-
-Minotaurs given Gore.
-
-Therodos 
-
-*provisional changes*
-
-Popkill scales with growth/death scales.  Still ~0.5 at G0, but ~0.8 at D3 and ~0.2 at G3
-
-Sacreds are reclimit 2 at D3, reclimit 4 at D1, reclimit 6 at G1, and reclimit 8 at G3
-
-Sacreds get an extra attack
-
-Addition of Undead Melia.  Taking death scales automatically provides it, with a small chance per fort of spawning additional undead melia.  This scales with dominion and death scales.  
-
-Old STR battlemage available in coastal forts.  Sailing, holy, W2A1 (1.1 FWAD).
-
-Swordsmen (Mermen, Human, and Tritons) recruitable in underwater and coastal forts
-
-Global that increases popkill/death scales in Therodos territory, produces sacred freespawn, and has a chance at generating sites that produce water gems.
-
-EA Mictlan
-
-Tlahuelpuchi cost 25->50->33
-
-Pathreq B2->B2D2
-
-Civateteo pathreq B2D2->B2, douse 1
-
-MA Nations
-
-MA Ermor
-
-Ermor receives a D1 site that spawns in land (not water provinces) they control with high dominion and low population, and reduced cap income. 
-
-50% more for all forts.  
-
-Starts at Cold1
-
-Dusk Elders are slightly more resistant to magic duel
-
-Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor
-
-MA Marignon:
-
-Angel of Fury cost->25 pearls, self-blesses, damage reflection
-
-Angelic Host S5->S4F1, 50->40 pearls
-
-Heavely Choir ->S5F3, 88 pearls, choir angels now get an anti-undead ranged attack
-
-Man at Arms 1 gold discount
-
-Flagellant 1 gold discount
-
-Witchhunter 10 gold discount, 0.1 FAES random
-
-Royal Guard - 10 gold discount
-
-Knight of the Chalice  - 10 gold discount
-
-Paladin - 20 gold discount
-
-High inquistor- not str, 0.2 S
-
-Members of the inquisition (nonwitchfinders) can pillage in friendly provinces (with population) to generate flagellants.  More flagellants are generated the higher the rank of the inquisitor.  Higher dominion and the presence of a temple also provide bonuses.
-
-MA Pythium
-
-Refer to MA Marignon for angel changes.
-
-MA Bandar Log
-
-All Vanara Units -1 gold
-
-White Ones -5 gold
-
-Bandar Archers -1 gold
-
-Royal Swordsmen -4 gold, +1 atk
-
-Bandar Warriors -1 gold, +1 atk
-
-Nagas 20->15 gems
-
-Nagaraja 30->25 gems
-
-Devata 40 gems, #onebattlespell an animal-only antimagic
-
-Asrapas get a weak ranged weapon
-
-MA Caelum
-
-Spire Horn Archers (128) get a composite bow instead of a shortbow
-
-Ice Bow does 9->11 damage
-
-New Monster: Ice Enchanter.  W2 with an FSD random and a AWS random
-
-MA Machaka
-
-Starting army is 20/20
-
-Pygmies are forestrec
-
-Witchdoctors are forestrec, 100 gold, -5 researchbonus, and N (FED)(EDN)from 80 gold FDN
-
-Sorcerors are 195->180 gold, FDN2 (EDF) 0.25N from FDN2 1.1(EDNF)
-
-Sorceresses are 85->90 gold, 0.1->0.4 FEDN
-
-Machaka Archers are 9 gold
-
-Machaka Warriors are 9 gold, the ones without javelins wear furs
-
-Machaka Warriors and Chiefs are Foreignrec
-
-Voices of the Lord are 115->90 gold, STR, and Foreignrec
-
-Eyes of the Lord are 90->80 STR and Foreignrec
-
-Ears of the Lord are 65->50 gold and Foreignrec
-
-Bane Spiders are 80 gold and have +1 strength, +1 attack, +2 defense
-
-Spider Warriors have +1 defense, 25->20 gold, and have dagger->poison dagger
-
-Nonsacred spiders are now size 4, have higher strength and MR, and cost upkeep. 
-
-Mounted nonsacred spider riders are 15 gold cheaper and size 4, and wield lances
-
-Hunter Spiders (Black spiders) now have a fear weapon;	Spider form has MR 5->10 and strength 16->18, and upkeep 0->50
-
-Hoplites are 14->13 gold
-
-MA TC
-
-Conscription: 
-
-Eunuchs foreignrec.  They can summon montag conscripts. Conscripts are militia-stat versions of the 3 footmen and the archer (ratio 1:1:1:2).  On reaching 24 exp, conscripts either desert or become regular units via expshape.
-
-Masters of the Way W (WS) from W (WSAF)
-
-Celestial Master MM2
-
-Celestial Servant 3->2 gems
-
-Horsemen, 5 gold discount
-
-Heavy Horsemen, 5 gold discount
-
-Imperial Horsemen 10 gold dicount
-
-Redguard Springpower 25, 10 gold discount
-
-Prince General H1 Springpower 25, 10 gold discount
-
-Internal Alchemy 2 gems
-
-Thousand Year Ginseng 2 gems
-
-Terracotta warriors summons national versions of terracotta troops.
-
-MA Shinyu
-
-Kappa Shaman UW Recruitable
-
-Size 2 Bakemono slaves
-
-Shuten-Doji Taskmaster 2
-
-Bakemono General Inspiration 1
-
-Bakemono Shaman get 0.2 F, 0.2 E, 0.2 D randoms
-
-Dai Bakemono 30->25 gold
-
-Dai Bakemono without sword +1 attack
-
-Underwater Fort-rec kappa mage for 55 gold
-
-Gozu-Mezu ->5 gems
-
-Summon Ko Oni effects ->7++
-
-Summon Ao Oni  ->4 gems
-
-Summon Aka Oni ->4 gems
-
-Summon Oni -> 12->7 gems
-
-Summon Kuro Oni 10->6 gems, 4->4+ effects
-
-Oni General  Research 6->5, 20->14 gems
-
-Dai Oni 45->30 gems, research 8->7
-
-Karusu Tengu research 5, 10 gems, 10+ effects
-
-Konoha Tengu research level 2
-
-Dai Tengu 55->40 gems
-
-Nushi 25->20 gems
-
-Kitsune 30->20 gems
-
-New Ritual “Hide Heart” (D2F2, 16 gems, research 5) produces a “Ritual Assistant” that, when alone with a Sorceror on a mountain that isn’t already occupied, generates a hidden heart and makes the sorceror immortal.  However, if the heart is destroyed, the sorceror dies.
-
-MA Xibalba
-
-Jungle Muuch mm2
-
-Darts ammo 4->6
-
-Muuch Warrior (Bronze): +1 morale, attack, defense, +4 gold
-
-Theme: Stun-poison (sacreds)
-
-Red Muuch not cap limited
-
-Poison Dart stun damage increased to 50 (same as blowpipe)
-
-Obsidian Warrior 26->22 gcost
-
-muuch kahal paths 
-
-W2E1D1(WEDN)-> W1E1D1 (WD) (WEDN) or (WED)(WDN)
-
-MA Man
-
-Knight 45->35 gold
-
-Avalon knight 65->50 gold
-
-Knight commander -10 gold
-
-New Knight Commander of Ulm
-
-Round Table Implementation (Knights of Avalon and Knight Commanders can turn into Knights of the Round Table).
-
-Knights of Avalon are recruitable in sufficiently magical forted forests
-
-Logrian Cav ->20 gold
-
-Warden mm2
-
-Lord warden mm2, H1
-
-Logrian 12->11 gold
-
-Long spear chain mail cuirass->hauberk
-
-New Spell: n1a1 "Bewitchment" Aoe1+ confusion effect range 25 fatigue 20 ench 5
-
-Man gets transformation at 5 gems
-
-Man gets a Hex spell that is essentially a small-aoe polymorph.  N2, Alt 7, 1 gem, aoe 3+
-
-Slumber spell added.  Battlefield wide 30++++ fatigue damage mr negates spell.  Evo 8, N4, 1 gem.
-
-4 Buffs:
-
-W1N2: Incantantion of Morgan: Aoe 5, Research 6 alt liquid body, weapons of sharpness
-
-N3H1: Aegis of Niniane: Aoe 5, Resarch 5 ench Mossbody/Elemental Resistance
-
-A2N2: Cloak Of Ygraine: Luck + Twist Fate, research 3 alt, Aoe 5
-
-E1N2: Fortification of Isolde: Legions of Steel, Weapons of Sharpness, Aoe 5, Research 3 ench
-
-Mother of Avalon paths N(AN)(AN).2(WE)->N2A1(WE).25(N)
-
-Crone paths improved (ANWE)->(AN)(WE)
-
-Bonding Wardens is a common event; bonds a warden to a mother as a 1batstartsummon
-
-New Item: Rowan Staff.  MA Man only, usable by mothers and Crones. N2A2, +2 pen, +2 precision, allows 5 fatigue casting of Bewitchment.
-
-MA Asphodel
-
-Spawns occasional N1 sites on sufficiently decayed templed forest provinces
-
-MA Mictlan
-
-Tlahuelpuchi cost 25->33 Pathreq B2->B2D2
-
-Civateteo pathreq B2D2->B2, douse 1
-
-Sun Warriors + 1 strength, +1 hp, -3 goldcost
-
-LA Nations
-
-LA Rlyeh 
-
-spawns occasional S1 sites on templed coastal provinces with sufficiently high dominion
-
-All freespawn is 0 upkeep
-
-LA Lemuria
-
-Spectrals weapons are now hardmrnegates.  
-
-Receive a D1 site that spawns in land (not water provinces) they control with high dominion and  .	low population, and reduced cap income.  
-
-Prefers cold 1
-
-Pays 50% more for all forts, but recruits from fortera 2
-
-Starts with a D2 mage; 
-
-acolytes D1H1-> D1H1(DS)
-
-Misc Changes to nations with Cavalry
 
 Marveni 
-
 Eponi 5 gold discount, addition of a hoof attack
 
 EA Ermor
-
 Equites 5 gold discount
-
 equites sacred shroud 5 gold discount
 
+Underwater EA Nations
+Atlantis
+New Coastal Shambler Mage -- Relatively expensive for W1, 1 WSFE ,5SFE
+
+Rlyeh
+Aboleth and Mindlord cost decrease, extra misc slot
+Mindlord given an extra W/S random
+Androdai discounted, random changed to EWD from EWSD
+Androleth discounted to 40 gold
+Merman Slaves, lobo guard, slave mage recruitable on land
+Given a mass-forge spell to produce airbreathing amulet
+
+EA Pelagia
+Sideraspists slightly improved.  
+Given a mass-forge spell to produce airbreathing amulets
+
+EA Oceania
+Minotaurs given Gore.
+
+Therodos 
+Popkill scales with growth/death scales.  Still ~0.5 at G0, but ~0.8 at D3 and ~0.2 at G3
+Sacreds are reclimit 2 at D3, reclimit 4 at D1, reclimit 6 at G1, and reclimit 8 at G3
+Sacreds get an extra attack
+Addition of Undead Melia.  Taking death scales automatically provides it, with a small chance per fort of spawning additional undead melia.  This scales with dominion and death scales.  
+Old STR battlemage available in coastal forts.  Sailing, holy, W2A1 (1.1 FWAD).
+Swordsmen (Mermen, Human, and Tritons) recruitable in underwater and coastal forts
+Global that increases popkill/death scales in Therodos territory, produces sacred freespawn, and has a chance at generating sites that produce water gems.
+
+
+V.2 MA Nations
+
+MA Ermor
+50% more for all forts.  
+Starts at Cold1
+Dusk Elders are slightly more resistant to magic duel
+Ermor receives a D1 site that spawns in land (not water provinces) they control with high dominion and low population, and reduced cap income. 
+Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor
+
+MA Marignon:
+Angel of Fury cost->25 pearls, self-blesses, damage reflection
+Angelic Host S5->S4F1, 50->40 pearls
+Heavely Choir ->S5F3, 88 pearls, choir angels now get an anti-undead ranged attack
+Man at Arms 1 gold discount
+Flagellant 1 gold discount
+Witchhunter 10 gold discount, 0.1 FAES random
+Royal Guard - 10 gold discount
+Knight of the Chalice  - 10 gold discount
+Paladin - 20 gold discount
+High inquistor- not str, 0.2 S
+Members of the inquisition (nonwitchfinders) can pillage in friendly provinces (with population) to generate flagellants.  More flagellants are generated the higher the rank of the inquisitor.  Higher dominion and the presence of a temple also provide bonuses.
+
 MA Pythium
+Refer to MA Marignon for angel changes.
+Serpent Cataphract, Serpent Lord discounted
 
-Serpent Cataphract/Serpent Lord 15 gold discount
+MA Bandar Log
+All Vanara Units -1 gold
+White Ones -5 gold
+Bandar Archers -1 gold
+Royal Swordsmen -4 gold, +1 atk
+Bandar Warriors -1 gold, +1 atk
+Nagas 20->15 gems
+Nagaraja 30->25 gems
+Devata 40 gems, #onebattlespell an animal-only antimagic
+Asrapas get a weak ranged weapon
 
-MA Ulm
+MA Caelum
+Spire Horn Archers (128) get a composite bow instead of a shortbow
+Ice Bow does 9->11 damage
+New Monster: Ice Enchanter.  W2 with an FSD random and a AWS random
 
-Black Lord 10 gold discount
+MA Machaka
+Starting army is 20/20
+Pygmies are forestrec
+Witchdoctors are forestrec, 100 gold, -5 researchbonus, and N (FED)(EDN)from 80 gold FDN
+Sorcerors are 195->180 gold, FDN2 (EDF) 0.25N from FDN2 1.1(EDNF)
+Sorceresses are 85->90 gold, 0.1->0.4 FEDN
+Machaka Archers are 9 gold
+Machaka Warriors are 9 gold, the ones without javelins wear furs
+Machaka Warriors and Chiefs are Foreignrec
+Voices of the Lord are 115->90 gold, STR, and Foreignrec
+Eyes of the Lord are 90->80 STR and Foreignrec
+Ears of the Lord are 65->50 gold and Foreignrec
+Bane Spiders are 80 gold and have +1 strength, +1 attack, +2 defense
+Spider Warriors have +1 defense, 25->20 gold, and have dagger->poison dagger
+Nonsacred spiders are now size 4, have higher strength and MR, and cost upkeep. 
+Mounted nonsacred spider riders are 15 gold cheaper and size 4, and wield lances
+Hunter Spiders (Black spiders) now have a fear weapon;	Spider form has MR 5->10 and strength 16->18, and upkeep 0->50
+Hoplites are 14->13 gold
 
-Black Knight 10 gold discount
+MA TC
+Conscription: Eunuchs foreignrec.  They can summon montag conscripts. Conscripts are militia-stat versions of the 3 footmen and the archer (ratio 1:1:1:2).  On reaching 24 exp, conscripts either desert or become regular units via expshape.
+Masters of the Way W (WS) from W (WSAF)
+Celestial Master MM2
+Celestial Servant 3->2 gems
+Horsemen, 5 gold discount
+Heavy Horsemen, 5 gold discount
+Imperial Horsemen 10 gold dicount
+Redguard Springpower 25, 10 gold discount
+Prince General H1 Springpower 25, 10 gold discount
+Internal Alchemy 2 gems
+Thousand Year Ginseng 2 gems
+Terracotta warriors summons national versions of terracotta troops.
+
+MA Shinyu
+Kappa Shaman UW Recruitable
+Size 2 Bakemono slaves
+Shuten-Doji Taskmaster 2
+Bakemono General Inspiration 1
+Bakemono Shaman get 0.2 F, 0.2 E, 0.2 D randoms
+Dai Bakemono 30->25 gold
+Dai Bakemono without sword +1 attack
+Underwater Fort-rec kappa mage for 55 gold
+Gozu-Mezu ->5 gems
+Summon Ko Oni effects ->7++
+Summon Ao Oni  ->4 gems
+Summon Aka Oni ->4 gems
+Summon Oni -> 12->7 gems
+Summon Kuro Oni 10->6 gems, 4->4+ effects
+Oni General  Research 6->5, 20->14 gems
+Dai Oni 45->30 gems, research 8->7
+Karusu Tengu research 5, 10 gems, 10+ effects
+Konoha Tengu research level 2
+Dai Tengu 55->40 gems
+Nushi 25->20 gems
+Kitsune 30->20 gems
+New Ritual “Hide Heart” (D2F2, 16 gems, research 5) produces a “Ritual Assistant” that, when alone with a Sorceror on a mountain that isn’t already occupied, generates a hidden heart and makes the sorceror immortal.  However, if the heart is destroyed, the sorceror dies.
+
+MA Xibalba
+Jungle Muuch mm2
+Darts ammo 4->6
+Muuch Warrior (Bronze): +1 morale, attack, defense, +4 gold
+Red Muuch not cap limited
+Poison Dart stun damage increased to 50 (same as blowpipe)
+Obsidian Warrior 26->22 gcost
+muuch kahal paths W2E1D1(WEDN)-> W1E1D1 (WD) (WEDN) or (WED)(WDN)
+
+MA Man
+Knight 45->35 gold
+Avalon knight 65->50 gold
+Knight commander -10 gold
+New Knight Commander of Man
+Round Table Implementation (Knights of Avalon and Knight Commanders can turn into Knights of the Round Table).
+Knights of Avalon are recruitable in sufficiently magical forted forests
+Logrian Cav ->20 gold
+Warden mm2
+Lord warden mm2, H1
+Logrian 12->11 gold
+Long spear chain mail cuirass->hauberk
+New Spell: n1a1 "Bewitchment" Aoe1+ confusion effect range 25 fatigue 20 ench 5
+Man gets transformation at 5 gems
+Man gets a Hex spell that is essentially a small-aoe polymorph.  N2, Alt 7, 1 gem, aoe 3+
+Slumber spell added.  Battlefield wide 30++++ fatigue damage mr negates spell.  Evo 8, N4, 1 gem.
+W1N2: Incantantion of Morgan: Aoe 5, Research 6 alt liquid body, weapons of sharpness
+N3H1: Aegis of Niniane: Aoe 5, Resarch 5 ench Mossbody/Elemental Resistance
+A2N2: Cloak Of Ygraine: Luck + Twist Fate, research 3 alt, Aoe 5
+E1N2: Fortification of Isolde: Legions of Steel, Weapons of Sharpness, Aoe 5, Research 3 ench
+Mother of Avalon paths N(AN)(AN).2(WE)->N2A1(WE).25(N)
+Crone paths improved (ANWE)->(AN)(WE)
+Bonding Wardens is a common event; bonds a warden to a mother as a 1batstartsummon
+New Item: Rowan Staff.  MA Man only, usable by mothers and Crones. N2A2, +2 pen, +2 precision, allows 5 fatigue casting of Bewitchment.
+
+MA Asphodel
+Spawns occasional N1 sites on sufficiently decayed templed forest provinces
+
+MA Mictlan
+Tlahuelpuchi cost 25->33 Pathreq B2->B2D2
+Civateteo pathreq B2D2->B2, douse 1
+Sun Warriors + 1 strength, +1 hp, -3 goldcost
+
+v.3 LA Nations
+
+LA Rlyeh 
+Spawns occasional S1 sites on templed coastal provinces with sufficiently high dominion
+All freespawn is 0 upkeep
+
+LA Lemuria
+Spectrals weapons are now hardmrnegates.  
+Receive a D1 site that spawns in land (not water provinces) they control with high dominion and  .	low population, and reduced cap income.  
+Prefers cold 1
+Pays 50% more for all forts, but recruits from fortera 2
+Starts with a D2 mage; 
+acolytes D1H1-> D1H1(DS)
 
 LA Arco
-
 Agema Commander 5 gold discount
-
 Agema Companion 5 gold discount
 
 LA Pythium
-
 Serpent Lord 15 gold discount
-
 Serpent Cataphract 15 gold discount
 
 LA Man
-
 Tower Knight 10 gold discount
 
 LA Ulm
-
 Black Templar 20 gold discount
-
 Hochmeister 15 gold discount
 
 LA Jomon
-
 Samurai Cav 10 gold discount
-
 Mounted Commanders 10 gold discount
 
 LA Bogarus
-
 Grid Druzhina 5 gold discount
-
 Malaia Druzhina 10 gold discount
-
 Styag 10 gold discount
-
 Black Hood 10 gold discount
+
+
+
+
+
+
