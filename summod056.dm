@@ -3226,7 +3226,7 @@
 #nreff 1
 #fatiguecost 2500
 #path 0 5
-#path 1 3
+#path 1 5
 #pathlevel 0 4
 #pathlevel 1 2
 #end
