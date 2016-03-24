@@ -2342,7 +2342,6 @@
 --Transformation
 #selectspell 598
 #fatiguecost 800
-#notfornation 37
 #end
 
 
@@ -6709,7 +6708,6 @@
 #fixedresearch 4
 #end
 
-
 #newmonster 6343
 #copystats 152
 #spr1 "./summod/bonded_1.tga"
@@ -6753,6 +6751,10 @@
 #restricted 37
 #end
 
+#selectspell 598 --transformation
+#fatiguecost 800
+#notfornation 37
+#end
 
 #newspell
 #copyspell 887
