@@ -185,7 +185,6 @@
 #rcost 1  --from 2
 #end
 
-)
 #selectarmor 132 --kabuto
 #rcost 3 --from 4
 #end
@@ -6759,15 +6758,25 @@
 #end
 
 
-
-
------------Testing---------
+#newspell
+#copyspell 887
+#name "Slumber"
+#aoe 666
+#school 2
+#researchlevel 0-- 8
+#pathlevel 0 4
+#fatiguecost 100
+#damage 5010
+#restricted 37
+#descr "With this spell, a powerful witch makes all living units unnaturally tired."
+#end
 
 #newspell
 #copyspell 152
 #name "Base of Courage"
 #school -1
 #range 2
+#spec 140738030141568
 #end
 
 
@@ -6903,7 +6912,7 @@
 #pen 2
 #restricted 37
 #restricteditem 1102
-#spell "Confundo"
+#spell "Bewitchment"
 #end
 
 -------Xibalba
@@ -7052,8 +7061,27 @@
 #end
 
 #selectspell 340 --tlahuelpuchi
-#fatiguecost 5000
+#path 0 7
+#path 0 2
+#path 1 5
+#pathlevel 1 2
 #end
+
+#selectmonster 1558--tlahuelpuchi
+#noleader
+#end
+
+#selectspell  338  --summon civatetevo
+#path 0 7
+#pathlevel 0 2
+#path 1 5
+#pathlevel 1 0
+#end
+
+#selectmonster 1422 --civatetevo
+#douse 1
+#end
+
 
 #selectmonster 725 --sun warrior
 #hp 13
@@ -7062,23 +7090,6 @@
 #gcost 10011
 #end
 
-#selectmonster 1190 --priest king
-#clearmagic
-#magicskill 6 2
-#magicskill 8 3
-#custommagic 27520 10
-#end
-#selectmonster 1191 --Rain Priest
-#custommagic 16640 10
-#end
-
-#selectmonster 1192 --Sun Priest
-#custommagic 16640 10
-#end
-
-#selectmonster 1193 --Moon Priest
-#custommagic 16640 10
-#end
 
 ---------Abysia
 #selectnation 45
