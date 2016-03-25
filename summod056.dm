@@ -8421,546 +8421,6 @@
 #incscale 3
 #end
 
-#newweapon 1424
-#name "claw"
-#dmg 4
-#slash
-#nratt 1
-#end
-
-#newmonster 6470
-#copystats 2850
-#clearmagic
-#clearspec
-#startdom 0
-#homerealm 0
-#name "Door which should not be opened"
-#descr "Only with the arrival of the dreamers could more than small scraps be mined from the asteroid, its twisting geometry only navigable by those who were awake in the reality it truly occupied. The excavated chunks of starstone are always shaped like this, straining against our reality with all their being. To say they have a mind is untrue, but they are not mindless, they even fill the minds of some of the lobotomised R'lyian slaves and have an entourage that's closer to how most beings have armour and swords."
-#fixedname "Gate of the Void"
-#gcost 0
-#rcost 0
-#size 6
-#str 15
-#slashres
-#bluntres
-#piercers
-#inanimate
-#neednoteat
-#hp 166
-#prot 26
-#ap 2
-#mapmove 1
-#att 5
-#def 0
-#prec 10
-#enc 0
-#mr 22
-#mor 50
-#blind
-#voidsanity 30
-#userestricteditem 1103
-#amphibian
-#stonebeing
-#magicbeing
-#itemslots 28672
-#holy
-#float
-#startage -1
-#maxage 666666
-#poisonres 25
-#darkvision 100
-#firstshape 6480
-#noleader
-#noundeadleader
-#okmagicleader
-#magicskill 4 10
-#magicboost 53 -5
-#magicboost 5 -3
-#bonusspells 1
-#voidret 100
-#researchbonus -50
-#end
-
-+1 shambler thrall 1
-
-#newmonster 6471
-#name "Door which should not be opened"
-#descr "Only with the arrival of the dreamers could more than small scraps be mined from the asteroid, its twisting geometry only navigable by those who were awake in the reality it truly occupied. The excavated chunks of starstone are always shaped like this, straining against our reality with all their being. To say they have a mind is untrue, but they are not mindless, they even fill the minds of some of the lobotomised R'lyian slaves and have an entourage that's closer to how most beings have armour and swords."
-#fixedname "Gate of the Void"
-#gcost 0
-#rcost 0
-#size 6
-#str 16
-#neednoteat
-#hp 190
-#shrinkhp 166
-#prot 8
-#ap 4
-#mapmove 1
-#weapon 29
-#att 9
-#def 4
-#prec 10
-#enc 2
-#mr 22
-#mor 50
-#blind
-#voidsanity 30
-#userestricteditem 1103
-#amphibian
-#stonebeing
-#magicbeing
-#itemslots 28672
-#holy
-#startage -1
-#maxage 666666
-#darkvision 100
-#firstshape 6480
-#noleader
-#noundeadleader
-#okmagicleader
-#magicskill 4 10
-#magicboost 53 -5
-#magicboost 5 -3
-#bonusspells 1
-#voidret 100
-#researchbonus -50
-#end
-
-+1 shambler thrall 2
-
-#newmonster 6472
-#name "Door which should not be opened"
-#descr "Only with the arrival of the dreamers could more than small scraps be mined from the asteroid, its twisting geometry only navigable by those who were awake in the reality it truly occupied. The excavated chunks of starstone are always shaped like this, straining against our reality with all their being. To say they have a mind is untrue, but they are not mindless, they even fill the minds of some of the lobotomised R'lyian slaves and have an entourage that's closer to how most beings have armour and swords."
-#fixedname "Gate of the Void"
-#gcost 0
-#rcost 0
-#size 6
-#str 16
-#neednoteat
-#hp 214
-#shrinkhp 190
-#prot 8
-#ap 6
-#mapmove 1
-#weapon 29
-#weapon 29
-#att 9
-#def 4
-#prec 10
-#enc 2
-#mr 22
-#mor 50
-#blind
-#voidsanity 30
-#userestricteditem 1103
-#amphibian
-#stonebeing
-#magicbeing
-#itemslots 28672
-#holy
-#startage -1
-#maxage 666666
-#darkvision 100
-#firstshape 6480
-#noleader
-#noundeadleader
-#okmagicleader
-#magicskill 4 10
-#magicboost 53 -5
-#magicboost 5 -3
-#bonusspells 1
-#voidret 100
-#researchbonus -50
-#end
-
-+1 shambler thrall 3
-
-#newmonster 6473
-#name "Door which should not be opened"
-#descr "Only with the arrival of the dreamers could more than small scraps be mined from the asteroid, its twisting geometry only navigable by those who were awake in the reality it truly occupied. The excavated chunks of starstone are always shaped like this, straining against our reality with all their being. To say they have a mind is untrue, but they are not mindless, they even fill the minds of some of the lobotomised R'lyian slaves and have an entourage that's closer to how most beings have armour and swords."
-#fixedname "Gate of the Void"
-#gcost 0
-#rcost 0
-#size 6
-#str 16
-#neednoteat
-#hp 238
-#shrinkhp 214
-#prot 8
-#ap 8
-#mapmove 1
-#weapon 29
-#weapon 29
-#weapon 29
-#att 9
-#def 4
-#prec 10
-#enc 2
-#mr 22
-#mor 50
-#blind
-#voidsanity 30
-#userestricteditem 1103
-#amphibian
-#stonebeing
-#magicbeing
-#itemslots 28672
-#holy
-#startage -1
-#maxage 666666
-#darkvision 100
-#firstshape 6480
-#noleader
-#noundeadleader
-#okmagicleader
-#magicskill 4 10
-#magicboost 53 -5
-#magicboost 5 -3
-#bonusspells 1
-#voidret 100
-#researchbonus -50
-#end
-
-+1 shambler thrall 4
-
-#newmonster 6474
-#name "Door which should not be opened"
-#descr "Only with the arrival of the dreamers could more than small scraps be mined from the asteroid, its twisting geometry only navigable by those who were awake in the reality it truly occupied. The excavated chunks of starstone are always shaped like this, straining against our reality with all their being. To say they have a mind is untrue, but they are not mindless, they even fill the minds of some of the lobotomised R'lyian slaves and have an entourage that's closer to how most beings have armour and swords."
-#fixedname "Gate of the Void"
-#gcost 0
-#rcost 0
-#size 6
-#str 16
-#neednoteat
-#hp 262
-#shrinkhp 238
-#prot 8
-#ap 10
-#mapmove 1
-#weapon 29
-#weapon 29
-#weapon 29
-#weapon 29
-#att 9
-#def 4
-#prec 10
-#enc 2
-#mr 22
-#mor 50
-#blind
-#voidsanity 30
-#userestricteditem 1103
-#amphibian
-#stonebeing
-#magicbeing
-#itemslots 28672
-#holy
-#startage -1
-#maxage 666666
-#darkvision 100
-#firstshape 6480
-#noleader
-#noundeadleader
-#okmagicleader
-#magicskill 4 10
-#magicboost 53 -5
-#magicboost 5 -3
-#bonusspells 1
-#voidret 100
-#researchbonus -50
-#end
-
-+1 Lobo guard 1
-
-#newmonster 6475
-#name "Door which should not be opened"
-#descr "Only with the arrival of the dreamers could more than small scraps be mined from the asteroid, its twisting geometry only navigable by those who were awake in the reality it truly occupied. The excavated chunks of starstone are always shaped like this, straining against our reality with all their being. To say they have a mind is untrue, but they are not mindless, they even fill the minds of some of the lobotomised R'lyian slaves and have an entourage that's closer to how most beings have armour and swords."
-#fixedname "Gate of the Void"
-#gcost 0
-#rcost 0
-#size 6
-#str 12
-#neednoteat
-#hp 275
-#shrinkhp 262
-#prot 8
-#ap 11
-#mapmove 1
-#weapon 1424
-#weapon 1424
-#weapon 1424
-#weapon 1424
-#weapon 29
-#att 9
-#def 4
-#prec 10
-#enc 2
-#mr 22
-#mor 50
-#blind
-#voidsanity 30
-#userestricteditem 1103
-#amphibian
-#stonebeing
-#magicbeing
-#itemslots 28672
-#holy
-#startage -1
-#maxage 666666
-#darkvision 100
-#firstshape 6480
-#noleader
-#noundeadleader
-#okmagicleader
-#magicskill 4 10
-#magicboost 53 -5
-#magicboost 5 -3
-#bonusspells 1
-#voidret 100
-#researchbonus -50
-#end
-
-+1 Lobo guard 2
-
-#newmonster 6476
-#name "Door which should not be opened"
-#descr "Only with the arrival of the dreamers could more than small scraps be mined from the asteroid, its twisting geometry only navigable by those who were awake in the reality it truly occupied. The excavated chunks of starstone are always shaped like this, straining against our reality with all their being. To say they have a mind is untrue, but they are not mindless, they even fill the minds of some of the lobotomised R'lyian slaves and have an entourage that's closer to how most beings have armour and swords."
-#fixedname "Gate of the Void"
-#gcost 0
-#rcost 0
-#size 6
-#str 12
-#neednoteat
-#hp 288
-#shrinkhp 275
-#prot 8
-#ap 11
-#mapmove 1
-#weapon 1424
-#weapon 1424
-#weapon 1424
-#weapon 1424
-#weapon 29
-#weapon 29
-#att 9
-#def 4
-#prec 10
-#enc 2
-#mr 22
-#mor 50
-#blind
-#voidsanity 30
-#userestricteditem 1103
-#amphibian
-#stonebeing
-#magicbeing
-#itemslots 28672
-#holy
-#startage -1
-#maxage 666666
-#darkvision 100
-#firstshape 6480
-#noleader
-#noundeadleader
-#okmagicleader
-#magicskill 4 10
-#magicboost 53 -5
-#magicboost 5 -3
-#bonusspells 1
-#voidret 100
-#researchbonus -50
-#end
-
-+1 Lobo guard 3
-
-#newmonster 6477
-#name "Door which should not be opened"
-#descr "Only with the arrival of the dreamers could more than small scraps be mined from the asteroid, its twisting geometry only navigable by those who were awake in the reality it truly occupied. The excavated chunks of starstone are always shaped like this, straining against our reality with all their being. To say they have a mind is untrue, but they are not mindless, they even fill the minds of some of the lobotomised R'lyian slaves and have an entourage that's closer to how most beings have armour and swords."
-#fixedname "Gate of the Void"
-#gcost 0
-#rcost 0
-#size 6
-#str 12
-#neednoteat
-#hp 301
-#shrinkhp 288
-#prot 8
-#ap 11
-#mapmove 1
-#weapon 1424
-#weapon 1424
-#weapon 1424
-#weapon 1424
-#weapon 29
-#weapon 29
-#weapon 29
-#att 9
-#def 4
-#prec 10
-#enc 2
-#mr 22
-#mor 50
-#blind
-#voidsanity 30
-#userestricteditem 1103
-#amphibian
-#stonebeing
-#magicbeing
-#itemslots 28672
-#holy
-#startage -1
-#maxage 666666
-#darkvision 100
-#firstshape 6480
-#noleader
-#noundeadleader
-#okmagicleader
-#magicskill 4 10
-#magicboost 53 -5
-#magicboost 5 -3
-#bonusspells 1
-#voidret 100
-#researchbonus -50
-#end
-
-+1 Lobo guard 4
-
-#newmonster 6478
-#name "Door which should not be opened"
-#descr "Only with the arrival of the dreamers could more than small scraps be mined from the asteroid, its twisting geometry only navigable by those who were awake in the reality it truly occupied. The excavated chunks of starstone are always shaped like this, straining against our reality with all their being. To say they have a mind is untrue, but they are not mindless, they even fill the minds of some of the lobotomised R'lyian slaves and have an entourage that's closer to how most beings have armour and swords."
-#fixedname "Gate of the Void"
-#gcost 0
-#rcost 0
-#size 6
-#str 12
-#neednoteat
-#hp 314
-#shrinkhp 301
-#prot 8
-#ap 11
-#mapmove 1
-#weapon 1424
-#weapon 1424
-#weapon 1424
-#weapon 1424
-#weapon 29
-#weapon 29
-#weapon 29
-#weapon 29
-#att 9
-#def 4
-#prec 10
-#enc 2
-#mr 22
-#mor 50
-#blind
-#voidsanity 30
-#userestricteditem 1103
-#amphibian
-#stonebeing
-#magicbeing
-#itemslots 28672
-#holy
-#startage -1
-#maxage 666666
-#darkvision 100
-#firstshape 6480
-#noleader
-#noundeadleader
-#okmagicleader
-#magicskill 4 10
-#magicboost 53 -5
-#magicboost 5 -3
-#bonusspells 1
-#voidret 100
-#researchbonus -50
-#end
-
-+1 Lobo guard 5
-
-#newmonster 6479
-#name "Door which should not be opened"
-#descr "Only with the arrival of the dreamers could more than small scraps be mined from the asteroid, its twisting geometry only navigable by those who were awake in the reality it truly occupied. The excavated chunks of starstone are always shaped like this, straining against our reality with all their being. To say they have a mind is untrue, but they are not mindless, they even fill the minds of some of the lobotomised R'lyian slaves and have an entourage that's closer to how most beings have armour and swords."
-#fixedname "Gate of the Void"
-#gcost 0
-#rcost 0
-#size 6
-#str 12
-#neednoteat
-#hp 327
-#shrinkhp 314
-#prot 8
-#ap 11
-#mapmove 1
-#weapon 1424
-#weapon 1424
-#weapon 1424
-#weapon 1424
-#weapon 29
-#weapon 29
-#weapon 29
-#weapon 29
-#weapon 29
-#att 9
-#def 4
-#prec 10
-#enc 2
-#mr 22
-#mor 50
-#blind
-#voidsanity 30
-#userestricteditem 1103
-#amphibian
-#stonebeing
-#magicbeing
-#itemslots 28672
-#holy
-#startage -1
-#maxage 666666
-#darkvision 100
-#firstshape 6480
-#noleader
-#noundeadleader
-#okmagicleader
-#magicskill 4 10
-#magicboost 53 -5
-#magicboost 5 -3
-#bonusspells 1
-#voidret 100
-#researchbonus -50
-#end
-
-+1 Lobo guard 6
-
-#newmonster 6480
-#name "Door which should not be opened"
-#descr "Only with the arrival of the dreamers could more than small scraps be mined from the asteroid, its twisting geometry only navigable by those who were awake in the reality it truly occupied. The excavated chunks of starstone are always shaped like this, straining against our reality with all their being. To say they have a mind is untrue, but they are not mindless, they even fill the minds of some of the lobotomised R'lyian slaves and have an entourage that's closer to how most beings have armour and swords."
-#fixedname "Gate of the Void"
-#cleanshape
-#gcost 480
-#gold 16
-#rcost 600
-#size 6
-#str 12
-#neednoteat
-#hp 340
-#shrinkhp 327
-#prot 8
-#ap 11
-#mapmove 1
-#weapon 1424
-#weapon 1424
-#weapon 1424
-#weapon 1424
-#weapon 29
-#weapon 29
-#weapon 29
-#weapon 29
-#weapon 29
-#att 9
-#def 4
-#prec 10
 #enc 2
 #mr 22
 #mor 50
@@ -8978,9 +8438,8 @@
 #noleader
 #noundeadleader
 #okmagicleader
-#magicskill 4 10
+#magicskill 4 8
 #magicboost 53 -5
-#magicboost 5 -3
 #bonusspells 1
 #voidret 100
 #researchbonus -50
@@ -8989,28 +8448,53 @@
 #newevent
 #id 6116
 #req_targitem 702
-#req_targmnr 6480
+#req_targmnr 6470
 #nation -2
 #msg "Then from the farthermost regions of remoteness, the sound softly glided into existence. It was infinitely faint, subtly vibrant, and unmistakably musical, but held a quality of surpassing wildness which made its impact feel like a delicate torture of my whole body. I felt sensations like those one feels when accidentally scratching ground glass.[The Void Gate]"
 #nolog
-#newsite -1
-#killcom 6480
+#addsite -1
+#killcom 6470
 #end
 
 #newspell
 #name "Flung wide"
 #descr "Meanwhile the luminosity increased, waned again, then assumed a pale, outre colour or blend of colours which I could neither place nor describe."
+#school -1
+#path 0 -1
+#pathlevel 0
 #effect 10042
+#provrange 1
 #damage 6116
+#nowatertrace 1
+#nolandtrace 1
+#onlygeodst 2052
+#spec 310378496
+#end
+
+#newspell
+#name "Assume"
+#descr "I have harnessed the shadows that stride from world to world to sow death and madness"
+#school -1
+#path 0 -1
+#pathlevel 0
+#aoe 1
+#effect 28
+#nreff 3
+#spec 8392848
+#damage 999
 #end
 
 #newspell
 #name "Outpour"
-#descr "I have harnessed the shadows that stride from world to world to sow death and madness"
-#aoe 1
-#effect 28
-#spec 4240
-#damage 999
+#descr "You think those floundering things wiped out the servants? Fool, they are harmless! But the servants are gone, aren't they?"
+#school -1
+#path 0 -1
+#pathlevel 0
+#nreff 2
+#effect 31
+#damage -1307
+#spec 8388608
+#nextspell "Assume"
 #end
 
 #newspell
@@ -9019,13 +8503,18 @@
 #school -1
 #path 0 -1
 #pathlevel 0
-#aoe 662
-#effect 31
-#damage -1307
+#effect 11
+#range 100
+#precision -400
+#nreff 2
+#damage 68719476736
+#spec 8388608
+#flightspr 10095
 #nextspell "Outpour"
 #end
 
 #selectitem 702
+#copyspr 326
 #constlevel 6
 #mainpath 4
 #mainlevel 6
@@ -9034,6 +8523,7 @@
 #name "A key which knows no lock"
 #descr "A perplexing device to all those not attuned to the void, but those who do see what it truly can be know what it itself cannot."
 #autospell "Ajar"
+#autospellrepeat 2
 #spell "Flung wide"
 #restricteditem 1103
 #end
@@ -9119,4 +8609,3 @@
 #end
 
 #end
-
