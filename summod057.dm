@@ -1,6 +1,6 @@
-#modname "Summod 0.56"
+#modname "Summod 0.57"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.56
+#version 0.57
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -53,10 +53,6 @@
 #selectarmor 9
 #def 0
 #enc 1
-#end
-#selectarmor 209 --hoplon -- this change offsets the plate cuirass and bronze cuirass benefits to therodos
-#def 2
-#enc 2
 #end
 
 -- Plate Hauberk -- LA Pythium, Abysia, MA Machaka, LA Marignon, Ghandarvas, MA/LA Arco)
@@ -2346,7 +2342,6 @@
 --Transformation
 #selectspell 598
 #fatiguecost 800
-#notfornation 37
 #end
 
 
@@ -4270,7 +4265,7 @@
 #onebattlespell 363
 #end
 
-#selectspell 335 --gandharva
+#selectspell 355 --gandharva
 #fatiguecost 1500
 #end
 
@@ -6713,7 +6708,6 @@
 #fixedresearch 4
 #end
 
-
 #newmonster 6343
 #copystats 152
 #spr1 "./summod/bonded_1.tga"
@@ -6757,6 +6751,10 @@
 #restricted 37
 #end
 
+#selectspell 598 --transformation
+#fatiguecost 800
+#notfornation 37
+#end
 
 #newspell
 #copyspell 887
