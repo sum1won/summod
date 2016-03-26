@@ -427,17 +427,6 @@
 #name "Bronze Battleaxe"
 #end
 
-#newweapon 1406
-#rcost 4
-#name "Bronze Glaive"
-#dmg 10
-#att -1
-#def 1
-#len 4
-#nratt 1
-#pierce
-#slash
-#end
 
 #newweapon 1407
 #name "Bronzed Falchion"
@@ -1062,10 +1051,6 @@
 #weapon 1405 --bronze battleaxe
 #end
 
-#selectmonster 1462 --cavernguard
-#clearweapons --glaive
-#weapon 1406 --bronze glaive
-#end
 
 #selectmonster 2490 -- ea pale one ancient wet
 #clearweapons -- spear
@@ -1107,15 +1092,6 @@
 #weapon 1402 --uwspear 
 #end 
 
-#selectmonster 1501-- cavern wight
-#clearweapons -- glaive
-#weapon 1406 --bronze glaive 
-#end 
-
-#selectmonster 1462-- ea cavern guard
-#clearweapons -- glaive
-#weapon 1406 --bronze glaive 
-#end 
 
 #selectmonster 1638-- ea/ma wet one captain
 #clearweapons -- trident
@@ -1127,10 +1103,6 @@
 #weapon 1403 --Trident
 #end 
 
-#selectmonster 1772-- ea olm spawn
-#clearweapons -- glaive
-#weapon 1406 --bronze glaive
-#end 
 
 --- Muuch ---
 
@@ -1181,12 +1153,6 @@
 #end
 
 --- LA Mictlan ---
-
-#selectmonster 1423 --rain warrior
-#clearweapons --glaive 
-#weapon 1406 --bronze glaive
-#end
-
 #selectmonster  1421 --rain priest
 #clearweapons --dagger
 #weapon 1404 --knife
