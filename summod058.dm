@@ -1,6 +1,6 @@
-#modname "Summod 0.57"
+#modname "Summod 0.58"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.57
+#version 0.58
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -7060,7 +7060,7 @@
 
 #selectspell 340 --tlahuelpuchi
 #path 0 7
-#path 0 2
+#pathlevevel 0 2
 #path 1 5
 #pathlevel 1 2
 #end
