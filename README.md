@@ -1674,9 +1674,29 @@ Civateteo pathreq B2D2->B2, douse 1
 ###### T'ien Ch'i, Barbarian Kings
 
 ###### Jomon, Human Daimyos
-Samurai Cav 15 gold discount
+Ashigaru Archer added (As Ashigaru is to Bandit: 8 gold, not stealthy)
 
-Mounted Commanders 10 gold discount
+Samurai, Samurai archer 10 hp
+
+Aka-Oni Samurai 15->14 gold
+
+Samurai Cav 40->30 gold, Longbow
+
+Sohei, Yamabushi 26 gold -> 21
+
+Mounted Gokenin, Hatamoto Longbow
+
+Fivefold path monks: 1.00->1.20 randoms
+
+meditation sign: 20+5/level fatigue reduction
+
+earth-touching sign: range scales
+
+welcome sign: range scales
+
+Courage sign: Aoe 2++->4++
+
+Tatsu 200% randoms->300%, 19 gems->25
 
 Gozu-Mezu ->5 gems
 
@@ -1705,6 +1725,7 @@ Nushi 25->20 gems
 Kitsune 30->23 gems
 
 ###### Agartha, Ktonian Dead
+Blindlord; 30 gold discount, insp1, goodleader->okleader
 
 ###### Abysia, Blood of Humans
 Addition of ?Childen of Rhuax? spell - Abysian version of Rhuax pact, requiring F4E1.

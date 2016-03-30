@@ -5346,10 +5346,10 @@
 #name "Conscript Footman"
 #copystats 794
 #copyspr 794
-#montag 1304 
+#montag 1304
 #mapmove 1
 #gcost 10007
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years.  After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #spr1 "./summod/conpike_1.tga"
 #spr2 "./summod/conpike_2.tga"
 #mor 8
@@ -5369,15 +5369,16 @@
 #def 8
 #prec 8
 #gcost 10007
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years.  After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#firstshape -1310
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #end
 
 #newmonster 6335
 #name "Conscript Footman"
 #copystats 795 #copyspr 795
-#montag 1304 
+#montag 1304
 #gcost 10007
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years.  After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #mapmove 1
 #spr1 "./summod/conglaive_1.tga"
 #spr2 "./summod/conglaive_2.tga"
@@ -5398,16 +5399,16 @@
 #def 8
 #prec 8
 #gcost 10007
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years.  After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#firstshape -1311
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #end
-
 
 #newmonster 6337
 #name "Conscript Footman"
 #copystats 796 #copyspr 796
-#montag 1304 
+#montag 1304
 #gcost 10007
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years.  After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #mapmove 1
 #spr1 "./summod/conshield_1.tga"
 #spr2 "./summod/conshield_2.tga"
@@ -5428,15 +5429,16 @@
 #def 8
 #prec 8
 #gcost 10007
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years.  After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#firstshape -1312
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #end
 
 #newmonster 6339
 #name "Conscript Archer"
 #copystats 797 #copyspr 797
-#montag 1304 
+#montag 1304
 #gcost 10007
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years.  After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #spr1 "./summod/conarcher_1.tga"
 #spr2 "./summod/conarcher_2.tga"
 #mor 8
@@ -5456,15 +5458,16 @@
 #def 8
 #prec 8
 #gcost 10007
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years.  After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#firstshape -1313
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #end
 
 #newmonster 6341
 #name "Conscript Archer"
 #copystats 797
-#montag 1304 
+#montag 1304
 #gcost 10007
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years.  After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #mapmove 1
 #spr1 "./summod/conarcher_1.tga"
 #spr2 "./summod/conarcher_2.tga"
@@ -5475,76 +5478,57 @@
 #firstshape 6339
 #end
 
-#selectmonster 805 --eunuch
-#makemonsters1 -1304
+#newmonster 6491
+#hp 1
+#name "dead"
+#descr "If you have one of these shit has gone FAR south"
+#landdamage 100
+#uwdamage 100
+#montag 1310
 #end
 
-#selectmonster 789 --heavy hossman
-#gcost 10010
-#end
-#selectmonster 790 --imperial hossman
-#gcost 10015
-#end
-#selectmonster 791 --red guard
-#gcost 10022
-#springpower 25
-#end
-#selectmonster 793 --prince general
-#gcost 10040
-#springpower 25
-#magicskill 8 1
+#newmonster 6492
+#hp 1
+#name "dead"
+#descr "If you have one of these shit has gone FAR south"
+#landdamage 100
+#uwdamage 100
+#montag 1311
 #end
 
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6338 #killmon 6338 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6338 #killmon 6338 #1unit 796 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #1unit 797 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6334 #killmon 6334 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6334 #killmon 6334 #1unit 794 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6336 #killmon 6336 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6336 #killmon 6336 #1unit 795 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #1unit 797 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6338 #killmon 6338 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6338 #killmon 6338 #1unit 796 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #1unit 797 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6334 #killmon 6334 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6334 #killmon 6334 #1unit 794 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6336 #killmon 6336 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6336 #killmon 6336 #1unit 795 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #1unit 797 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6338 #killmon 6338 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6338 #killmon 6338 #1unit 796 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #1unit 797 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6334 #killmon 6334 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6334 #killmon 6334 #1unit 794 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6336 #killmon 6336 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6336 #killmon 6336 #1unit 795 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #1unit 797 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6338 #killmon 6338 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6338 #killmon 6338 #1unit 796 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #1unit 797 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6334 #killmon 6334 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6334 #killmon 6334 #1unit 794 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6336 #killmon 6336 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6336 #killmon 6336 #1unit 795 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #1unit 797 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6338 #killmon 6338 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6338 #killmon 6338 #1unit 796 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #1unit 797 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6334 #killmon 6334 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6334 #killmon 6334 #1unit 794 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6336 #killmon 6336 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6336 #killmon 6336 #1unit 795 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #req_rare 70 #end
-#newevent #rarity 5 #nation -2 #notext #nolog #msg "desert mechanic" #req_monster 6340 #killmon 6340 #1unit 797 #end
+#newmonster 6493
+#hp 1
+#name "dead"
+#descr "If you have one of these shit has gone FAR south"
+#landdamage 100
+#uwdamage 100
+#montag 1312
+#end
+
+#newmonster 6494
+#hp 1
+#name "dead"
+#descr "If you have one of these shit has gone FAR south"
+#landdamage 100
+#uwdamage 100
+#montag 1313
+#end
+
+#selectmonster 794
+#montag 1310
+#end
+
+#selectmonster 795
+#montag 1311
+#end
+
+#selectmonster 796
+#montag 1312
+#end
+
+#selectmonster 797
+#montag 1313
+#end
 
 --------Machaka
 #selectnation 43
