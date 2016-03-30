@@ -493,7 +493,7 @@
 
 #newweapon 1415
 #name "Light Stone Lance"
-#rcost 1
+#rcost 2
 #charge
 #pierce
 #dmg 3
@@ -3585,17 +3585,6 @@
 #nolog
 #notext
 #end
-#newevent ---Bribe
-#rarity 5
-#nation -2
-#req_fornation 62
-#req_monster 240
-#req_targmnr 240
-#transform 6351
-#msg "Priest bribed"
-#nolog
-#notext
-#end
 
 --- Xibalba
 #selectnation 31 --xibalba
@@ -6237,14 +6226,13 @@
 #rarity 5  #req_fort 0 #nation -2 #notext #nolog  #req_site 1 #req_unmagic 1
 #removesite 1813 
 #end
-#newevent  #msg "Nofort. [Forest Glade]." 
-#rarity 5  #req_fort 0 #nation -2 #notext #nolog  #req_site 1
+#newevent  #msg "Nomagic. [Forest Glade]." 
+#rarity 5  #req_unmagic 1 #nation -2 #notext #nolog  #req_site 1
 #removesite 1813 
 #end
 #newevent #msg "Enemy. [Forest Glade]." 
 #rarity 5 #req_notnation 37 #nation -2 #notext #nolog  #req_site 1 #removesite 1813 
 #end
-
 
 #newmonster 6452 --(Knight Commander)
 #copystats 57
@@ -6285,17 +6273,6 @@
 #transform 6457
 #end
 
-#newevent
-#rarity -1
-#nation -2
-#req_fornation 37
-#req_targmnr 6469
-#msg "This questing knight has found some treasure!"
-#gold 10
-#req_fort 0
-#addequip 1
-#req_unique 2
-#end
 
 #newevent --4--
 #rarity 5
@@ -6307,17 +6284,7 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6458
 #end
-#newevent
-#rarity -1
-#nation -2
-#req_fornation 37
-#req_targmnr 6458
-#msg "This questing knight has found some treasure!"
-#gold 10
-#req_fort 0
-#addequip 1
-#req_unique 2
-#end
+
 #newevent
 #rarity -1
 #nation -2
@@ -6329,6 +6296,7 @@
 #addequip 1
 #req_unique 2
 #end
+
 #newevent --5--
 #rarity 5
 #req_fornation 37
@@ -6350,17 +6318,7 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6460
 #end
-#newevent
-#rarity -1
-#nation -2
-#req_fornation 37
-#req_targmnr 6460
-#msg "This questing knight has found some treasure!"
-#gold 10
-#req_fort 0
-#addequip 1
-#req_unique 2
-#end
+
 #newevent --7--
 #rarity 5
 #req_fornation 37
@@ -6371,17 +6329,7 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6461
 #end
-#newevent
-#rarity -1
-#nation -2
-#req_fornation 37
-#req_targmnr 6461
-#msg "This questing knight has found some treasure!"
-#gold 10
-#req_fort 0
-#addequip 1
-#req_unique 2
-#end
+
 #newevent --8--
 #rarity 5
 #req_fornation 37
@@ -6391,18 +6339,8 @@
 #nolog
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6462
-#end
-#newevent
-#rarity -1
-#nation -2
-#req_fornation 37
-#req_targmnr 6462
-#msg "This questing knight has found some treasure!"
-#gold 10
-#req_fort 0
-#addequip 1
-#req_unique 2
-#end
+#end 
+
 #newevent --9--
 #rarity 5
 #req_fornation 37
@@ -6413,17 +6351,7 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6463
 #end
-#newevent
-#rarity -1
-#nation -2
-#req_fornation 37
-#req_targmnr 6463
-#msg "This questing knight has found some treasure!"
-#gold 10
-#req_fort 0
-#addequip 1
-#req_unique 2
-#end
+
 #newevent --10--
 #rarity 5
 #req_fornation 37
@@ -6434,17 +6362,7 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6464
 #end
-#newevent
-#rarity -1
-#nation -2
-#req_fornation 37
-#req_targmnr 6464
-#msg "This questing knight has found some treasure!"
-#gold 10
-#req_fort 0
-#addequip 1
-#req_unique 2
-#end
+
 #newevent --11--
 #rarity 5
 #req_fornation 37
@@ -6454,18 +6372,8 @@
 #nolog
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6465
-#end
-#newevent
-#rarity -1
-#nation -2
-#req_fornation 37
-#req_targmnr 6465
-#msg "This questing knight has found some treasure!"
-#gold 10
-#req_fort 0
-#addequip 1
-#req_unique 2
-#end
+#end 
+
 #newevent --12--
 #rarity 5
 #req_fornation 37
@@ -6476,17 +6384,7 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6466
 #end
-#newevent
-#rarity -1
-#nation -2
-#req_fornation 37
-#req_targmnr 6466
-#msg "This questing knight has found some treasure!"
-#gold 10
-#req_fort 0
-#addequip 1
-#req_unique 2
-#end
+
 #newevent --13--
 #rarity 5
 #req_fornation 37
@@ -6497,17 +6395,8 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6467
 #end
-#newevent
-#rarity -1
-#nation -2
-#req_fornation 37
-#req_targmnr 6467
-#msg "This questing knight has found some treasure!"
-#gold 10
-#req_fort 0
-#addequip 1
-#req_unique 2
-#end
+
+
 #newevent --14--
 #rarity 5
 #req_fornation 37
@@ -6518,17 +6407,8 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6468
 #end
-#newevent
-#rarity -1
-#nation -2
-#req_fornation 37
-#req_targmnr 6468
-#msg "This questing knight has found some treasure!"
-#gold 10
-#req_fort 0
-#addequip 1
-#req_unique 2
-#end
+
+
 #newevent --3--
 #rarity 5
 #req_fornation 37
@@ -8313,23 +8193,6 @@
 #removesite 1809  
 #end
 
-#newevent 
-#msg "Overlapremoval [Sunken Orchestra]" 
-#req_owncapital 1 
-#rarity 5 
-#nation -2 
-#req_fornation 95 
-#notext 
-#nolog  
-#req_site 1
-#removesite 1807  
-#end
-
-#newevent #msg "Telkhinis6.[Sunken Orchestra]." #req_owncapital 1 #rarity 5 #nation -2 #req_fornation 95 #notext #nolog  #req_site 1 #removesite 1808  #end
-
-#newevent #msg "Telkhinis6. [Sunken Odeon]." #req_owncapital 1 #rarity 5 #nation -2 #req_fornation 95 #notext #nolog  #req_site 1 #removesite 1807  #end
-
-
 
 #newevent 
 #msg "Nofort. [Sunken Agora]." 
@@ -8407,10 +8270,6 @@
 #newevent #req_site 1 #msg "Odeon. [Odeon]."  #rarity 5 #req_notnation 95  #nation -2 #notext #nolog #req_site 1   #removesite 1810 #end
 #newevent #req_site 1 #msg "Orchestra. [Orchestra]."  #rarity 5 #req_notnation 95  #nation -2 #notext #nolog #req_site 1   #removesite 1811 #end
 
-
-#newevent #msg "Orchestra. [Orchestra]." #rarity 5 #nation -2 #msg "Removed" #nolog #req_site 1 #removesite 1812 #end
-#newevent #msg "Orchestra. [Orchestra]." #rarity 5 #nation -2  #msg "Removed" #nolog #req_site 1 #removesite 1810 #end
-#newevent #msg "Odeon. [Odeon]." #rarity 5 #nation -2  #msg "Removed" #nolog #req_site 1 #removesite 1812 #end
 ---- Telkhine Poison
 #selectmonster 2873
 #incscale 3
