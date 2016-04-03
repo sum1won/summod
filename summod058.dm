@@ -1379,7 +1379,7 @@
 #end
 
 #selectitem 50 --sword of swiftness
-#autospell "quicken self"
+#autospell "Quicken Self"
 #end
 #selectweapon 106
 #def 1
@@ -1670,7 +1670,7 @@
 #selectitem 158 ---crown of command
 #magiccommand 50
 #undcommand 50
-#descr "With this crown, a commaner can lead more men than ever before.  The commander will also be able to command magical and undead beings."
+#descr "With this crown, a commander can lead more men than ever before.  The commander will also be able to command magical and undead beings."
 #end
 
 #selectitem 156 --helmet of heroes
@@ -1734,11 +1734,11 @@
 #selectitem 188 --brightmail armor
 #awe 1
 #constlevel 6
-#descr "A silvery haubergon enchanted to be especially light and durable, it "
+#descr "A silvery haubergon enchanted to be especially light and durable, it's awesome."
 #end
 
 #selectitem 186 --chain mail of displacement
-#autospell "mirror image"
+#autospell "Mirror Image"
 #descr "The wearer of this full set of chainmail will have his image displaced by a couple of feet.  This makes it very hard for his opponents to hit him in combat. Successfully striking the wearer will make him easier to hit."
 #end
 
@@ -1758,7 +1758,7 @@
 
 #selectitem 203 --hydraskin armor
 #fireres -5
-#descr "Armor made from the skin of a hydra, it gives total poison immunity and grants the wearer the regenerative powers of the hydra, but is vulnerable to fire."
+#descr "Armour made from the skin of a hydra, it gives total poison immunity and grants the wearer the regenerative powers of the hydra, but is vulnerable to fire."
 #end
 #selectarmor 43
 #prot 15
@@ -5054,9 +5054,6 @@
 
 #selectspell 176 --internal alchemy
 #fatiguecost 200
-#restricted 10
-#restricted 42
-#restricted 67
 #end
 #selectspell 175 --thousand year ginseng
 #fatiguecost 200
