@@ -1179,6 +1179,9 @@ GoRing Demonspawn results in either a misbred commander (if they have affliction
 
 ###### C'tis, Lizard Kings
 
+Serpent Dancers carry stronger weapons
+Shaman Prophetshape gets a small magicboost
+
 ###### Pangaea, Age of Revelry
 
 ###### Agartha, Pale Ones
@@ -1506,6 +1509,8 @@ Ice Bow does 9->11 damage
 New Monster: Ice Enchanter.  W2 with an FSD random and a AWS random
 
 ###### C'tis, Miasma
+
+Shaman Prophetshape gets a small magicboost
 
 ###### Pangaea, Age of Bronze
 
