@@ -280,14 +280,16 @@
 #end
 
 #newspell
+#name "Current Command"
 #copyspell 779
 #name "Current Command"
+#school -1
 #nextspell 1077
 #descr "Shields the wielder from harm while friendly currents aid his allies."
 #end
 #selectitem 78 --wavebreaker
 #autospell "Current Command"
-#spell "water strike"
+#spell "Water Strike"
 #descr "The wielder of this trident will be able to command the currents of the sea. They will aid his friends, keep him from harm, allow him to breathe underwater, and strike his enemies at his command.  When used during battle, the Wave Breaker strikes with incredible speed."
 #end
 
@@ -3176,7 +3178,7 @@
 #firstshape 6306
 #end
 #selectspell 910
-#effect 21
+#effect 10021
 #damage 6307
 #spec 8388608
 #descr "The mage crafts a statue and places a golden plate inscribed with divine names in its head.  The statue is thus animated by divine power and will speak the will of the pretender god.  The statue has great priestly powers, but is only capable of locomotion for its first month of existence."
@@ -4026,6 +4028,11 @@
 #att 2
 #def 3
 #secondaryeffect 51
+#end
+
+#selectmonster 321
+#magicboost 4 1
+#magicboost 6 1
 #end
 
 
