@@ -1122,9 +1122,9 @@ Manflayer 15 gold discount
 
 Warrior Sorceress random changed to WNB, leadership reduced by 40, autocalc price discounted to 150
 
-Hydra 250->180 gold
+Hydra 250->180 gold, recuperation
 
-Hydra Hatchling 35->28 gold
+Hydra Hatchling 35->28 gold, recuperation
 
 ###### T'ien Ch'i, Spring and Autumn
 
