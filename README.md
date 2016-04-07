@@ -1122,9 +1122,9 @@ Manflayer 15 gold discount
 
 Warrior Sorceress random changed to WNB, leadership reduced by 40, autocalc price discounted to 150
 
-Hydra 250->180 gold
+Hydra 250->180 gold, recuperation
 
-Hydra Hatchling 35->28 gold
+Hydra Hatchling 35->28 gold, recuperation
 
 ###### T'ien Ch'i, Spring and Autumn
 
@@ -1178,6 +1178,9 @@ GoRing Demonspawn results in either a misbred commander (if they have affliction
 ###### Caelum, Eagle Kings
 
 ###### C'tis, Lizard Kings
+
+Serpent Dancers carry stronger weapons
+Shaman Prophetshape gets a small magicboost
 
 ###### Pangaea, Age of Revelry
 
@@ -1506,6 +1509,8 @@ Ice Bow does 9->11 damage
 New Monster: Ice Enchanter.  W2 with an FSD random and a AWS random
 
 ###### C'tis, Miasma
+
+Shaman Prophetshape gets a small magicboost
 
 ###### Pangaea, Age of Bronze
 
