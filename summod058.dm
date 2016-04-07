@@ -450,13 +450,14 @@
 #end
 
 #newweapon 1408 --areashock
-#name "areashock"
+#name "Lightning Wave"
 #nostr
 #shock
 #magic
 #dmg 2
 #aoe 3
 #nratt 1
+#armornegating
 #end
 
 #newweapon 1409
