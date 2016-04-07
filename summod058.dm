@@ -280,14 +280,16 @@
 #end
 
 #newspell
+#name "Current Command"
 #copyspell 779
 #name "Current Command"
+#school -1
 #nextspell 1077
 #descr "Shields the wielder from harm while friendly currents aid his allies."
 #end
 #selectitem 78 --wavebreaker
 #autospell "Current Command"
-#spell "water strike"
+#spell "Water Strike"
 #descr "The wielder of this trident will be able to command the currents of the sea. They will aid his friends, keep him from harm, allow him to breathe underwater, and strike his enemies at his command.  When used during battle, the Wave Breaker strikes with incredible speed."
 #end
 
@@ -448,13 +450,14 @@
 #end
 
 #newweapon 1408 --areashock
-#name "areashock"
+#name "Lightning Wave"
 #nostr
 #shock
 #magic
 #dmg 2
 #aoe 3
 #nratt 1
+#armornegating
 #end
 
 #newweapon 1409
@@ -1379,7 +1382,7 @@
 #end
 
 #selectitem 50 --sword of swiftness
-#autospell "quicken self"
+#autospell "Quicken Self"
 #end
 #selectweapon 106
 #def 1
@@ -1670,7 +1673,7 @@
 #selectitem 158 ---crown of command
 #magiccommand 50
 #undcommand 50
-#descr "With this crown, a commaner can lead more men than ever before.  The commander will also be able to command magical and undead beings."
+#descr "With this crown, a commander can lead more men than ever before.  The commander will also be able to command magical and undead beings."
 #end
 
 #selectitem 156 --helmet of heroes
@@ -1734,11 +1737,11 @@
 #selectitem 188 --brightmail armor
 #awe 1
 #constlevel 6
-#descr "A silvery haubergon enchanted to be especially light and durable, it "
+#descr "A silvery haubergon enchanted to be especially light and durable, it's awesome."
 #end
 
 #selectitem 186 --chain mail of displacement
-#autospell "mirror image"
+#autospell "Mirror Image"
 #descr "The wearer of this full set of chainmail will have his image displaced by a couple of feet.  This makes it very hard for his opponents to hit him in combat. Successfully striking the wearer will make him easier to hit."
 #end
 
@@ -1758,7 +1761,7 @@
 
 #selectitem 203 --hydraskin armor
 #fireres -5
-#descr "Armor made from the skin of a hydra, it gives total poison immunity and grants the wearer the regenerative powers of the hydra, but is vulnerable to fire."
+#descr "Armour made from the skin of a hydra, it gives total poison immunity and grants the wearer the regenerative powers of the hydra, but is vulnerable to fire."
 #end
 #selectarmor 43
 #prot 15
@@ -3176,7 +3179,7 @@
 #firstshape 6306
 #end
 #selectspell 910
-#effect 21
+#effect 10021
 #damage 6307
 #spec 8388608
 #descr "The mage crafts a statue and places a golden plate inscribed with divine names in its head.  The statue is thus animated by divine power and will speak the will of the pretender god.  The statue has great priestly powers, but is only capable of locomotion for its first month of existence."
@@ -4028,6 +4031,11 @@
 #secondaryeffect 51
 #end
 
+#selectmonster 321
+#magicboost 4 1
+#magicboost 6 1
+#end
+
 
 ---Helheim
 
@@ -4383,27 +4391,41 @@
 
 #selectmonster 1831 --hydra
 #gcost 180
+#heal
 #end
 #selectmonster 1832--hydra
 #gcost 180
+#firstshape 1831
+#heal
 #end
 #selectmonster 1833--hydra
 #gcost 180
+#firstshape 1831
+#heal
 #end
 #selectmonster 1834--hydra
 #gcost 180
+#firstshape 1831
+#heal
 #end
 #selectmonster 1835--hydra
 #gcost 180
+#firstshape 1831
+#heal
 #end
 #selectmonster 1840--hydra hatchling
 #gcost 28
+#heal
 #end
 #selectmonster 1841--hydra hatchling
 #gcost 28
+#firstshape 1840
+#heal
 #end
 #selectmonster 1842--hydra hatchling
 #gcost 28
+#firstshape 1840
+#heal
 #end
 
 ---EA UW--
@@ -5054,9 +5076,6 @@
 
 #selectspell 176 --internal alchemy
 #fatiguecost 200
-#restricted 10
-#restricted 42
-#restricted 67
 #end
 #selectspell 175 --thousand year ginseng
 #fatiguecost 200
