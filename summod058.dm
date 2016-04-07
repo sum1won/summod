@@ -4391,27 +4391,41 @@
 
 #selectmonster 1831 --hydra
 #gcost 180
+#heal
 #end
 #selectmonster 1832--hydra
 #gcost 180
+#firstshape 1831
+#heal
 #end
 #selectmonster 1833--hydra
 #gcost 180
+#firstshape 1831
+#heal
 #end
 #selectmonster 1834--hydra
 #gcost 180
+#firstshape 1831
+#heal
 #end
 #selectmonster 1835--hydra
 #gcost 180
+#firstshape 1831
+#heal
 #end
 #selectmonster 1840--hydra hatchling
 #gcost 28
+#heal
 #end
 #selectmonster 1841--hydra hatchling
 #gcost 28
+#firstshape 1840
+#heal
 #end
 #selectmonster 1842--hydra hatchling
 #gcost 28
+#firstshape 1840
+#heal
 #end
 
 ---EA UW--
