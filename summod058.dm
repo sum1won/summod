@@ -2876,6 +2876,7 @@
 #pathlevel 0 3
 #pathlevel 1 2
 #effect 10089
+#damage 994
 #end
 #selectmonster 994
 #shockres 5
@@ -3139,6 +3140,7 @@
 #selectspell 748 -- Tarrasque  -5 Gemcost, summon as a commander instead of a unit, improved stats
 #fatiguecost 2000
 #effect 10089
+#damage 925
 #researchlevel 6
 #end
 #selectmonster 925
@@ -3162,6 +3164,7 @@
 #shockres 2
 #descr "The Tarrasque is an ancient, poison-breathing dragon of tremendous size.  It has been reawakened by some mad mage who hopes that it will aid him in battle.  The tarrasque regenerates wounds, has an incredibly thick hide, devours those it attacks.  The simplest way to defeat the Tarrasque is to summon it to your side."
 #end
+
 ---Blood
 #selectspell 993 --blood rite
 #nreff 7
