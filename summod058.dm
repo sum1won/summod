@@ -3214,56 +3214,22 @@
 #fatiguecost 1000
 #end
 
-#newspell 
-#copyspell 767
-#researchlevel 9
-#name "Construct Poison Golem"
+#selectspell 767
 #effect 10021
-#damage 1099
-#spec 8388608
-#nreff 1
 #fatiguecost 2500
 #path 0 5
 #path 1 3
 #pathlevel 0 4
 #pathlevel 1 2
 #end
-#selectspell 767
-#clear
-#name "poisongolemtransform"
-#effect 54
-#damage 6300
-#spec 8404992
-#end
 
-#newmonster 6300
-#copystats 1099
-#name "Poison Golem"
-#firstshape 1099
-#clearspec
-#pooramphibian
-#magicbeing
-#mor 50
-#inanimate
-#neednoteat
-#fireres 15
-#poisonres 25
+#selectmonster 1099
 #banefireshield 10
 #fear 10
 #leper 10
 #maxage 3000
 #pierceres
 #slashres
-#end
-
-#selectmonster 1099
-#teleport
-#onebattlespell 767
-#descr "A poison golem is a metal giant made of dark alloys from the underworld. The poison golem is made for a single purpose, destruction, and its mere presence is harmful to the living. The very land in which it stays will slowly wither and die, and it is surrounded by sickly green flames of the underworld.  Due to the nature of its construction, it can travel great distances through the underworld over the course of a month, though this ability acts too slowly to be used in combat."
-#att 11
-#pierceres
-#slashres
-#mapmove 4
 #end
 
 #selectspell 817 -- Pale Riders
