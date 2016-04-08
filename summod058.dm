@@ -2869,7 +2869,8 @@
 ---Astral
 #selectspell 744 --Abomination
 #fatiguecost 1500
-#en
+#end
+
 #selectspell 737 --eater of the dead
 #researchlevel 6 --testfix
 #fatiguecost 2500  --testfix
