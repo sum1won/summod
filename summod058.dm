@@ -1327,11 +1327,9 @@
 #selectweapon 242 --hunter's knife
 #secondaryeffect 1413
 #end
-
 #selectitem 3 --ice sword
 #coldres 3
 #end
-
 #selectitem 43 --lightningspear
 #mainlevel 2
 #constlevel 6
@@ -1340,110 +1338,87 @@
 #selectweapon 278 --lightningspear
 #secondaryeffect 1408 --areashock
 #end
-
-
 #selectweapon 99 --main gauche parrying
 #def 6
 #end
-
 #selectitem 65--rat tail
 #beastmaster 2
 #end
-
 #selectitem 69 -- rod of phoenix
 #mainlevel 3
 #end
-
 #selectitem 14 --sceptre of authority
 #command 50
 #end
-
 #selectweapon 395 --shadowbrand
 #dmg 8
 #end
 #selectitem 83
 #mainlevel 1
 #end
-
 #selectitem 21 --smasher
 #mainlevel 1
 #end
-
 #selectweapon 61 --snake bladder
 #aoe 5
 #end
-
 #selectweapon 219 --falsefetters for star of thralldom
 #aoe 5
 #end
-
 #selectweapon 173 --star of heroes
 #nratt 2
 #end
-
 #selectitem 50 --sword of swiftness
 #autospell "Quicken Self"
 #end
 #selectweapon 106
 #def 1
 #end
-
 #selectitem 67 --summer sword
 #mainlevel 1
 #constlevel 6
 #supplybonus 200
 #end
-
 #selectweapon 208--thunderwhip
 #dmg 12
 #secondaryeffect 411
 #end
-
 #selectitem 64 --vinewhip
 #constlevel 2
 #mainlevel 1
 #end
-
 #selectitem 40 --wand of wildfire
 #mainlevel 2
 #end
-
 --- Shields ---
 #selectitem 137 --charcoal shield
 #mainlevel 1
 #end
-
 #selectitem 128 --enchanted shield
 #mr 1
 #end
-
 #selectitem 136 --goldenhoplon
 #mainlevel 1
 #fireres 10
 #end
-
 #selectitem 144 --lanternshield
 #mainlevel 1
 #end
-
 #selectarmor 42 --leadshield
 #def 7
 #enc 2
 #end
-
 #selectitem 138 --luckyshield
 #mainlevel 1
 #end
 #selectarmor 67
 #def 6
 #end
-
 #selectitem 143 --scultata voltranus
 #autospell "Shockwave"
 #autospellrepeat 1
 #descr "This formidable tower shieldis enchanted with Earth to make it strong.  On its surface is an enchanted symbol that will shock nearby enemies.  The wielder is partially protected from lightning.  Tower shields cannot be used by mounted troops."
 #end
-
 #selectitem 139
 #autospell "Horror Taint"
 #autospellrepeat 1
@@ -1451,17 +1426,14 @@
 #descr "The large, round shield is carved with disturbing patterns. Any disturbance to their integrity will mark the stiker for attack, though anyone in the vicinity of the shield runs the risk of being marked."
 #tainted 5
 #end
-
 #selectitem 133 --shield of valor
 #inspirational 1
 #end
-
 #selectitem 141 --totem shield
 #autospell "Totem Heal"
 #autospellrepeat 1
 #descr "The head painted on this shield is home to a spirit that will bestow curses and boons.  The bearer's living allies will be healed, while those attacking the bearer will be cursed."
 #end
-
 #selectitem 131 --weightless kite
 #mainlevel 1
 #end
@@ -1469,11 +1441,9 @@
 #def 6
 #prot 19
 #end
-
 #selectitem 130 --weightless tower
 #mainlevel 1
 #end
-
 --- 2H Weapons ---
 #selectitem 30 --baneblade
 #fear 3
@@ -1481,21 +1451,17 @@
 #selectweapon 41
 #dmg 12
 #end
-
 #selectitem 83 --banefirexbow
 #constlevel 4
 #end
 #selectweapon 434
 #ammo 24
 #end
-
 #selectitem 89 --banner of north star
 #end
-
 #selectweapon 155 --bow of botulf
 #ammo 24
 #end
-
 #selectitem 73--bow of war
 #constlevel 4
 #end
@@ -1503,34 +1469,28 @@
 #ammo 24
 #dmg 13
 #end
-
 #selectitem 71 --carmine cleaver
 #mainlevel 1
 #fireshield 10
 #end
-
 #selectitem 58
 #descr "The Doom Glaive is a truly fearsome weapon used by some undead warriors.  Those close to where it strikes will be cursed for the rest of their lives.  Those lives are likely to be very short, as many victims die and age within minutes.  Those hit directly by the glaive are more likely to suffer from accelerated aging."
 #end
 #selectweapon 430 --doomglaive
 #secondaryeffect 1409
 #end
-
 #selectitem 10
 #mr 1
 #end
 #selectweapon 220
 #def 3
 #end
-
 #selectweapon 180 --ethereal xbow
 #ammo 24
 #end
-
 #selectitem 79 --gatecleaver
 #mainlevel 2
 #end
-
 #selectitem 34 --gloves of glad
 #mainlevel 1
 #end
@@ -1538,20 +1498,16 @@
 #dmg 5
 #def 3
 #end
-
 #selectweapon 565 --golden arbalest
 #nratt 3
 #ammo 24
 #end
-
 #selectitem 23 --halberd of might
 #str 8
 #end
-
 #selectweapon 130 --hammer of mountains
 #att 2
 #end
-
 #selectitem 91 --hellsword
 #mainlevel 2
 #secondarylevel 1
@@ -1559,16 +1515,13 @@
 #selectweapon 241
 #dmg 15
 #end
-
 #selectitem 20 --ice pebble staff
 #mainlevel 2
 #end
-
 #selectweapon 181 --implementor axe
 #dmg 12
 #secondaryeffect 440 --lesser fear
 #end
-
 #selectitem 84 --ivory bow
 #mainlevel 1
 #end
@@ -1577,28 +1530,23 @@
 #att 5
 #ammo 24
 #end
-
 #selectweapon 161  --JMC
 #att 6
 #ammo 24
 #end
-
 #selectweapon 152 --longbow of accuracy
 #dmg 18
 #ammo 24
 #end
-
 #selectweapon 133 --midgetmasher
 #dmg 0
 #aoe 1
 #end
-
 #selectitem 80 --moonblade
 #mainlevel 2
 #ethereal
 #descr "A blade tempered in stellar light, it causes additional damage to magical beings while protecting it's wielder from mundane sources of damage."
 #end
-
 #selectitem 27 --piercer
 #secondarylevel 0
 #secondarypath -1
@@ -1606,55 +1554,45 @@
 #selectweapon 168
 #ammo 24
 #end
-
 #selectitem 38 --flame focus
 #firerange 2
 #end
-
 #selectitem 47 --staff of corrosion
 #mainlevel 1
 #end
-
 #selectitem 70 --staff of elemental mastery
 #firerange 2
 #airrange 2
 #waterrange 2
 #earthrange 2
 #end
-
 #selectitem 76 --staff of elemental mastery
 #firerange 2
 #airrange 2
 #waterrange 2
 #earthrange 2
 #end
-
 #selectitem 74 --staff of storms
 #mainlevel 4
 #secondarypath 1
 #secondarylevel 1
 #end
-
 #selectitem 86 --standard of damned
 #mainlevel 3
 #undcommand 100
 #descr "The standard drains life energy from enemies and adds it to the owner of the standard.  It causes fear in nearby enemies, and allows the wielder to lead a legion of undead."
 #end
-
 #selectitem 66 --skull standard
 #inspirational 1
 #descr "The goatlike skull of a Pain is inspired witha rune of horror and placed on top of a foul standard.  The skull takes courage from enemies and grants it to allied troops."
 #end
-
 #selectitem 44 --Thunderbow
 #weapon 0
 #weapon 1412
 #end
-
 #selectweapon 137 --entangle for Vine Bow, Vine Whip
 #aoe 1
 #end
-
 #selectweapon 332 --vision's foe
 #nratt -2
 #ammo 24
@@ -2600,61 +2538,47 @@
 #aoe 0
 #nreff 1000
 #end
-
 #selectspell 908 --confusion
 #aoe 1000
 #end
-
 #selectspell 565 -- enfeeble
 #aoe 2006
 #end 
-
 #selectspell 559 --bonemelter
 #range 25
 #pathlevel 1 1
 #end
-
 #selectspell 526 --weakness
 #nreff 1000
 #end
-
 #selectspell 859 --unravelling
 #pathlevel 0 5
 #fatiguecost 400
 #end
-
 #selectspell 560 --lightning resistance
 #aoe 1012
 #end
-
 #selectspell 554 --cold resistance
 #aoe 1012
 #end
-
 #selectspell 558 --fire resistance
 #aoe 1012
 #end
-
 #selectspell 806 --fire ward
 #aoe 1013
 #end
-
 #selectspell 810 --winter ward
 #aoe 1013
 #end
-
 #selectspell 805 --poison ward
 #aoe 1013
 #end
-
 #selectspell 807 --thunder ward
 #aoe 1013
 #end
-
 #selectspell 574
 #aoe 1002
 #end
-
 #newspell 
 #name "doublehorror"
 #researchlevel -1
@@ -2668,25 +2592,19 @@
 #nextspell "doublehorror"
 #descr "The caster summons a malign spirit from the underworld and coerces it to curse an enemy. The curse is twofold, as it leaves the target prone to injuries and marks him for attention from otherworldly beings."
 #end
-
-
 ---------------
 --- Summons ---
 ---------------
-
 ---Fire
-
 #selectmonster 2626 -Flame Spirit
 #gemprod 0 1
 #descr "Flame Spirits can sometimes be found roaming in hot regions. They burn intensely and are always accompanied by a few Will o' the Wisps who thrive in the magic heat that surrounds the Flame Spirits.  Flame Spirits are skilled fire mages, and can summon more of their kind over time."
 #end
-
 -- Summon Fire Drake --
 -- -2 Gemcost
 #selectspell 654
 #fatiguecost 500
 #end
-
 #selectspell 673 --Summer Lions
 #nreff 1004
 #descr "The caster summons and binds several Summer Lions. The Summer Lion is one of the four seasonal spirits. It is a large, ethereal lion, radiating heat like the summer sun. It is a magical, mindless being that must be commanded by a mage."
@@ -2694,24 +2612,17 @@
 #selectmonster 515
 #prot 7
 #end
-
 #selectspell 796 --Terracotta Army
 #nreff 3013
 #end
-
 #selectmonster 2134
 #clearweapons
 #weapon 2
 #end
-
-
 ---Earth
-
-
 #selectspell 661 --cave drake
 #fatiguecost 400
 #end
-
 #selectspell 756 --Crusher
 #fatiguecost 1000
 #spec 8388608 -- UW cast
@@ -2720,25 +2631,20 @@
 #weapon 562
 #siegebonus 30
 #end
-
 #selectspell 752 --Clockwork Soldiers
 #fatiguecost 600
 #end
-
 #selectmonster 2321
 #reinvigoration -10
 #prot 20
 #ap 12
 #end
-
 #selectmonster 982 --Clockwork Horrors
 #reinvigoration -12
 #end
-
 #selectspell 832 --Enliven Statues
 #fatiguecost 1500
 #end
-
 #selectmonster 512 -Fall Bear
 #weapon 322 --bite
 #prot 10
@@ -2747,7 +2653,6 @@
 #nreff 1005
 #descr "The caster summons and binds several Fall Bears. The Fall Bear is one of the four seasonal spirits. It is a large, ethereal bear. It is a magical, mindless being that must be commanded by a mage."
 #end
-
 #selectspell 833 --Hidden in sand
 #fatiguecost 5500
 #end
@@ -2763,13 +2668,11 @@
 #selectmonster 1981 -- Dust Walker
 #pooramphibian
 #end
-
 -Hidden underneath
 #selectspell 1028
 #fatiguecost 5500
 #spec 8388608 -- UW cast
 #end
-
 -- Iron Dragon
 #selectspell 764
 #effect 10021
@@ -2780,14 +2683,12 @@
 #selectmonster 531
 #noleader
 #end
-
 #selectspell 761 -Mechanical Men
 #nreff 2008
 #end
 #selectmonster 532
 #prot 19
 #end
-
 #selectspell 763 -- Siege Golem 
 #fatiguecost 1000
 #researchlevel 7
@@ -2796,24 +2697,19 @@
 #selectweapon 574 --shatterfist
 #att 3
 #end
-
 #selectspell 705 --Troll King
 #fatiguecost 4500
 #end
 #selectspell 687 --Trolls
 #fatiguecost 1000
 #end
-
-
 ---Air
-
 #selectspell 637 --Amphiptere
 #fatiguecost 400
 #end
 #selectmonster 1412
 #prec 12
 #end
-
 #selectspell 678 --Draconians
 #fatiguecost 4000
 #end
@@ -2825,7 +2721,6 @@
 #weapon 408
 #prot 13
 #end
-
 #selectspell 675 --spring hawks
 #nreff 2006
 #fatiguecost 3000
@@ -2834,16 +2729,12 @@
 #selectmonster 513
 #prot 2
 #end
-
 #selectmonster 520 --Wyvern
 #size 4
 #prot 13
 #weapon 408
 #end
-
-
 ---Water
-
 #newmonster 6308
 #copystats 564
 #spr1 "./summod/Troll_Ambassador_1.tga"
@@ -2859,33 +2750,26 @@
 #poisonarmor
 #descr "A noble Sea Troll is visiting the nation indefinitely. Perhaps foolishly, the Sea Troll Courts hope that with this show of strength and might, they may receive favor when the Pretender God ascends to godhood. This ambassador is able to bring the troops he commands beneath the waves. Sea Trolls are robust humanoid creatures of immense size. They are larger than ordinary trolls, but their skin is softer. Sea trolls are known to regenerate wounds and they can enter the sea."
 #end
-
 #selectspell 718 --asp turtle
 #fatiguecost 800
 #end
-
 #selectspell 720 --Catoblepas
 #fatiguecost 1000
 #end
-
 #selectspell 788 --claymen
 #fatiguecost 1000
 #nreff 3013
 #end
-
 #selectmonster 2159 -- Gelatinous Cube --
 #ap 6
 #heal
 #end
-
 #selectspell 798
 #fatiguecost 300
 #end
-
 #selectspell 830 -- Hidden in snow
 #fatiguecost 5500
 #end
-
 #selectmonster 1200 -- Unfrozen Mage
 #pooramphibian
 #end
@@ -2898,37 +2782,29 @@
 #selectmonster 1203 -- Unfrozen
 #pooramphibian
 #end
-
 #selectspell 659 --icedrake
 #fatiguecost 500
 #end
-
 #selectspell 703 -Kokythiad
 #fatiguecost 3500
 #end
-
 #selectspell 683 -Naiad
 #fatiguecost 3000
 #end
-
 #selectspell 684 -Naiad warriors
 #fatiguecost 2000
 #end
-
 #selectspell 702 -Sea King
 #fatiguecost 4500
 #end
-
 #selectspell 681 -Sea Trolls
 #fatiguecost 1000
 #end
-
 #selectmonster 564 -Sea Troll
 #clearweapons
 #weapon 29 
 #weapon 29
 #end
-
 #newmonster 6304--unsettled watcher
 #copystats 768
 #copyspr 768
@@ -2949,7 +2825,6 @@
 #descr "Watchers are usually placed at a high place with a view over the surrounding landscape and given the task of guarding a province from prying eyes.  Watchers have incredible vision and count as fifty soldiers when patrolling a province.  They can blast enemies with lightning. This watcher is ready to be transported to a destination no more than one month away."
 #firstshape 768
 #end
-
 #newmonster 6305 --unsettled watcher
 #copystats 768
 #copyspr 768
@@ -2970,125 +2845,38 @@
 #descr "Watchers are usually placed at a high place with a view over the surrounding landscape and given the task of guarding a province from prying eyes.  Watchers have incredible vision and count as fifty soldiers when patrolling a province.  They can blast enemies with lightning. This watcher is ready to be transported to a destination."
 #firstshape 6304
 #end
-
 #selectmonster 768--watcher
 #weapon 562
 #end
-
 #selectspell 808
 #effect 1
 #damage 6305
 #spec 8388608
 #descr "The mage creates a stone statue and gives it awareness and magical powers.  The Watcher must be transported to it's destination shortly after being created, where it will be given the task of guarding a landscape from prying eyes.  They have incredible vision and count as fifty soldiers when patrolling a province, but must be lead by a mage to function.  They can blast enemies with lightning, or swing at them with their stony fists if they approach the Watcher's pedestal."
 #end
-
 #selectspell 682 --winterwolves
 #nreff 2004
 #fatiguecost 2004
 #descr "The caster summons and binds several Winter Wolves. The Winter Wolf is one of the four seasonal spirits. It is a large, ethereal wolf surrounded by an icy wind. It is a magical, mindless being that must be commanded by a mage."
 #end
-
 #selectmonster 511 
 #prot 4
 #hp 16
 #end
-
 #selectspell 640 --summon yetis
 #fatiguecost 1200
 #end
-
-
-
 ---Astral
-
 #selectspell 744 --Abomination
 #fatiguecost 1500
-#end
-
-#newmonster 6316
-#copystats 197
-#name "eater summon1"
-#descr "this unit exists only to summon the eater of the dead"
-#immobile
-#end
-
-#newevent
-#rarity 5
-#nation -2
-#req_code 0
-#req_monster 6316
-#req_nomnr 994
-#msg "no eater 1"
-#nolog
-#code 57
-#notext
-#end
-
-#newevent
-#rarity 5
-#nation -2
-#req_nomnr 995
-#req_monster 6316
-#req_code 57
-#code 58
-#msg "no eater 2"
-#nolog
-#notext
-#end
-
-#newevent
-#rarity 5
-#nation -2
-#req_nomnr 996
-#req_monster 6316
-#req_code 58
-#code 59
-#msg "no eater 3"
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#nation -2
-#req_nomnr 997
-#req_monster 6316
-#req_code 59
-#msg "You have successfully called the Eater of the Dead!"
-#nolog
-#com 994
-#end
-#newevent
-#rarity 0
-#nation -2
-#req_owncapital 1
-#nolog
-#req_code 59
-#msg "A foolish mage has disregarded the actions of the previous Pantokrator and called the Eater of the Dead into the world once more!"
-#end
-#newevent
-#rarity 5
-#nation -2
-#req_monster 6316
-#msg "sacrement executed"
-#nolog
-#killmon 6316
-#code 0
-#notext
-#end
-
-
-
+#en
 #selectspell 737 --eater of the dead
 #researchlevel 6 --testfix
 #fatiguecost 2500  --testfix
 #pathlevel 0 3
 #pathlevel 1 2
-#effect 10001
-#damage 6316
-#nreff 1 
+#effect 10089
 #end
-
 #selectmonster 994
 #shockres 5
 #fireres 5
@@ -3135,15 +2923,12 @@
 #selectspell 707 --ether gate
 #fatiguecost 6500
 #end
-
 #selectspell 762 --golem
 #fatiguecost 2500
 #end
-
 #selectspell 766 -- Juggernaut Construction
 #fatiguecost 1000
 #end
-
 #newmonster 6306
 #name "Unsettled Telestic Animate"
 #copystats 473
@@ -3184,28 +2969,22 @@
 #spec 8388608
 #descr "The mage crafts a statue and places a golden plate inscribed with divine names in its head.  The statue is thus animated by divine power and will speak the will of the pretender god.  The statue has great priestly powers, but is only capable of locomotion for its first month of existence."
 #end
-
-
 ---Death
-
 -- Arouse Hunger --
 -- +2 Ghouls per cast
 #selectspell 547
 #nreff 3006
 #descr "The necromancer curses twenty beings in a far away province with undeath. The victims will become ghouls that serve the necromancer."
 #end
-
 #selectmonster 185 --Bane
 #hp 25
 #end
 #selectspell 646
 #fatiguecost 600
 #end
-
 #selectspell 803 -- Behemoth
 #fatiguecost 800
 #end
-
 #selectmonster 1236 --leviathan
 #ap 6
 #mapmove 2
@@ -3213,7 +2992,6 @@
 #selectspell 849
 #fatiguecost 1000
 #end
-
 #newspell 
 #copyspell 767
 #researchlevel 9
@@ -3235,7 +3013,6 @@
 #damage 6300
 #spec 8404992
 #end
-
 #newmonster 6300
 #copystats 1099
 #name "Poison Golem"
@@ -3255,7 +3032,6 @@
 #pierceres
 #slashres
 #end
-
 #selectmonster 1099
 #teleport
 #onebattlespell 767
@@ -3265,171 +3041,110 @@
 #slashres
 #mapmove 4
 #end
-
 #selectspell 817 -- Pale Riders
 #spec 8388608 -- UW+
 #end
-
 #selectspell 775 -- Reanimation
 #fatiguecost 100
 #nreff 4
 #end
-
 #selectspell 837 -- Reanimate Archers
 #fatiguecost 1000
 #nreff 2016
 #end
-
 #selectweapon 199 --banefire bow
 #armorpiercing
 #end
-
 #selectspell 792 -- Revenant
 #spec 8388608 -- UW+
 #end
-
 #selectspell 782 -- Revive King
 #spec 8388608 -- UW+
 #end
-
 #selectspell 645 -- Revive Wights
 #fatiguecost 1200
 #end
-
 #selectspell 838 -- Ziz
 #pathlevel 1 1
 #end
-
-
 ---Nature
-
 #selectspell 619 --summon animals
 #fatiguecost 800
 #end
-
 #selectspell 725 --animal horde
 #fatiguecost 1800
 #end
-
 #selectspell 649 --ambush of tigers
 #nreff 2010
 #end
-
 #selectmonster 1140
 #stealthy 40
 #end
-
 #selectmonster 633 --Werewolf (Call of the Wild)
 #hp 25
 #end
-
 #selectmonster 2229 -Forest Giant
 #weapon 609
 #def 11
 #end
-
 #selectspell 710-Forest troll tribe
 #fatiguecost 3300
 #end
-
 #selectmonster 2220
 #stealthy 40
 #end
 #selectmonster 2219
 #stealthy 40
 #end
-
 #selectspell 695-Forest Trolls
 #fatiguecost 700
 #end
-
 #selectspell 715 -Lamia queen
 #fatiguecost 2000
 #end
-
 #selectspell 757 -Lumber Construct
 #fatiguecost 400
 #end
-
 #selectmonster 476
 #siegebonus 10
 #end
-
 #selectspell 754 -Manikin
 #fatiguecost 2000
 #nreff 4012
 #end
-
 #selectspell 758 -Mandragora
 #fatiguecost 800
 #end
-
 #selectspell 648 --pride of lions
 #nreff 3007
 #end
-
 #selectspell 669 -Kithaironic Lion
 #pathlevel 0 2
 #fatiguecost 600
 #nreff 2
 #descr "The caster summons a pair of Kithaironic Lions and binds them to his service.  Lions are large and have iron-like hides."
 #end
-
 #selectmonster 514
 #prot 20
 #end
-
 #selectmonster 559 --Sleeper
 #holy
 #end
-
 #selectmonster 694 --Sloth of bears
 #weapon 322
 #end
-
 #selectspell 651 --vine men
 #nreff 5
 #end
-
 #selectspell 666 ---  vine ogres
 #nreff 3
 #end
-
 #selectspell 668 -- Summon Swamp Drake 
 #fatiguecost 600
 #end
-
-#newmonster 6317
-#copystats 197
-#name "tarrasque summon1"
-#descr "this unit exists only to summon the tarrasque"
-#immobile
-#end
-
-#newevent
-#rarity 5
-#nation -2
-#req_nomnr 925
-#req_monster 6317
-#msg "You have successfully called the Tarrasque!"
-#nolog
-#com 925
-#end
-#newevent
-#rarity 5
-#nation -2
-#req_monster 6317
-#killmon 6317
-#nolog
-#notext
-#msg "Tarrasque summon attempted"
-#end
-
-
 #selectspell 748 -- Tarrasque  -5 Gemcost, summon as a commander instead of a unit, improved stats
 #fatiguecost 2000
-#effect 10001
-#damage 6317
+#effect 10089
 #researchlevel 6
 #end
 #selectmonster 925
@@ -3453,50 +3168,39 @@
 #shockres 2
 #descr "The Tarrasque is an ancient, poison-breathing dragon of tremendous size.  It has been reawakened by some mad mage who hopes that it will aid him in battle.  The tarrasque regenerates wounds, has an incredibly thick hide, devours those it attacks.  The simplest way to defeat the Tarrasque is to summon it to your side."
 #end
-
 ---Blood
-
 #selectspell 993 --blood rite
 #nreff 7
 #end
-
 #selectspell 964 -Crossbreeding
 #fatiguecost 1200
 #end
-
 #selectspell 1003 -Improved Crossbreeding
 #fatiguecost 1600
 #end
-
 #selectspell 979 --dark vines
 #fatiguecost 3000
 #nreff 5
 #end
-
 #selectmonster 2794 --demonic locust
 #heretic 2
 #end
-
 #selectmonster 304 --Devil
 #fireshield 6
 #end
-
 #selectspell 985 --5 gates
 #fatiguecost 2400
 #end
-
 #selectmonster 638-Spine Devil
 #prec 11
 #descr "Spine devils are spine-covered demons summoned from the Abyss by sacrificing virgins. The spines covering their bodies are venemous and anyone attacking them with short weapons may get pricked and poisoned. They fight by throwing their spines or slashing with their venemous claws."
 #weapon 1418
 #end
-
 #selectspell 955
 #nreff 3
 #fatiguecost 1200
 #descr "The caster sacrifices several blood slaves to contact and bind three spine devils.  Spine devils are spine-covered demons summoned from the Abyss by sacrificing virgins. The spines covering their bodies are venemous and anyone attacking them with short weapons may get pricked and poisoned. They fight by throwing their spines or slashing with their venemous claws."
 #end
-
 #selectmonster 526 -Serpent Fiend
 #str 16
 #att 15
@@ -3504,19 +3208,12 @@
 #selectspell 966
 #fatiguecost 1200
 #nreff 3
-#descr "The caster sacrifices several blood slaves to contact and bind three Serpent Fiends.  Serpent Fiends are bat-winged, serpent-like demons summoned from the abyss.  Their bite is highly  venemous."
+#descr "The caster sacrifices several blood slaves to contact and bind three Serpent Fiends.  Serpent Fiends are bat-winged, serpent-like demons summoned from the abyss.  Their bite is highly venemous."
 #end
-
 #selectspell 977 --succubus
 #fatiguecost 4400
 #end
-
-
-
-
 -------nations-------
-
-
 ----EA Nerfed Nations
 ---- Lanka
 #newevent 
@@ -3527,7 +3224,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #selectnation 26 ---lanka
 #end
 #selectspell 369 --summon dakini
@@ -3553,7 +3249,7 @@
 #copystats 240
 #copyspr 240
 #gcost 150
-#descr "Priests sometimes accompany armies, inspiring and blessing the soldiers.  Priests can also banish undead beings and demons.  This priest has required much higher wages to convince him to engage in reanimating corpses."
+#descr "Priests sometimes accompany armies, inspiring and blessing the soldiers.  Priests can also banish undead beings and demons.  This priest is receiving much higher monthly wages to convince him to engage in reanimating corpses."
 #end
 #newevent ---Bribe
 #rarity 5
@@ -3588,7 +3284,6 @@
 #nolog
 #notext
 #end
-
 --- Xibalba
 #selectnation 31 --xibalba
 #end
@@ -3618,13 +3313,9 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 ---Therodos
 --removed pending patch.  See v.34 and earlier for changes; alternatively reference thed dudes work
-
-
 ----EA: Buffed Nations------
-
 ----Abysia
 #selectnation 13 --abysia
 #end
@@ -3636,30 +3327,25 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #selectspell 196 --summon scorpion man
 #effect 10021 --summons as commander instead of as unit
 #fatiguecost 1000
 #end
-
 #selectmonster 1649 --scorpion man
 #itemslots 13446
 #end
-
 #selectmonster 1699--anathemant dragon
 #gcost 10000
 #startage 31
 #custommagic 23552 50
 #descr "The Anathemant caste was formed by the Anointed of Rhuax to perform the many ceremonies of the Flame Cult.  These sacral mages administer the procession, ceremonies and sacrifices in the lesser temples of the kingdom.  In the Temple of the All-Consuming Flame they serve the Anointed Ones at the High Sacrifices of the Inner Fire where Anathemant Salamanders are not allowed.  Anathemant Dragons are Abysians and radiate the hellish heat characteristic of their race.  Some Anathemants have training in other magical paths."
 #end
-
 #selectmonster 1698--anathemant salamander 
 #custommagic 23552 10
 #gcost 10000
 #startage 28
 #maxage 35
 #end
-
 #selectmonster 1536 -- Annointed of Rhuax
 #clearmagic
 #magicskill 0 4
@@ -3667,14 +3353,12 @@
 #magicskill 8 3
 #custommagic 19584 50
 #end
-
 #selectmonster 1661 --misbred
 #douse 1
 #end
 #selectmonster 1536 --ea demonbred
 #douse 1
 #end
-
 #newmonster 6900	 #copystats 1661 #name "Demonspawn"		 #copyspr 1661		 	#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The least flawed Demonspawn are selected as part of the Demonbred program, and the remainder are known as Misbred.  Demonspawn radiate the hellish heat characteristic of Abysians, but must be led by a mage or commander with undead leadership.  Some Demonspawn have a talent for magic."	 	#poorundeadleader #startaff 75	 #custommagic 16384 50			#douse 1						 		 #montag 1303 
 #end				
 #newmonster 6901	 #copystats 983	 #name "Humanspawn"		 #copyspr 983		#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The Humanspawn frequently result from such experiments.  They breed true and grow quickly, making them useful in warfare.  They share the Abysian resistance to heat, but their flesh is cooler and will will not incinerate their own equiment.  The least flawed on the Humanspawn may serve as breeding stock for the Humanbred program."		 		 #slave	 #startaff 20	 #gcost 4	 #mor 10							 		 #montag 1303 
@@ -3911,7 +3595,6 @@
 #descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The Demonbred are the most successful of these beings, and selected from the very best of the Demonspawn, who are bound to obey their masters by nature. This unflawed specimen lacked magical talent, and was sent to the Slayers for training."
 #magicboost 7 -1
 #end
-
 #newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	1	--disease
 #transform 6999 #end 
 #newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	4096	--blind
@@ -3964,8 +3647,6 @@
 #newevent #rarity 5 #nation -2 #req_commander -1 #req_targmnr 6900 #req_targpath1 7 #transform 6998 #end
 #newevent #rarity 5 #nation -2 #req_commander -1 #req_targmnr 6900 #transform 6997 #end			
 #newevent #rarity 5 #nation -2 #req_commander -1 #req_targmnr 6900 #transform 6997 #end																	
-
-
 #newspell
 #name "Abysian Crossbreeding"
 #restricted 13
@@ -3983,7 +3664,6 @@
 #nreff 10005
 #fatiguecost 1500
 #end
-
 #newspell
 #name "Improved Abysian Crossbreeding"
 #restricted 13
@@ -4001,7 +3681,6 @@
 #nreff 3029
 #fatiguecost 2200
 #end
-
 #newspell--children of rhuax r2
 #name "Children of Rhuax"
 #school 0
@@ -4020,7 +3699,6 @@
 #restricted 45
 #restricted 71
 #end
-
 ---Ctis
 #selectmonster 783 --snek dancer
 #end
@@ -4030,15 +3708,11 @@
 #def 3
 #secondaryeffect 51
 #end
-
 #selectmonster 321
 #magicboost 4 1
 #magicboost 6 1
 #end
-
-
 ---Helheim
-
 #selectnation 21 --helheim
 #startcom 1505
 #startunittype1 1679
@@ -4054,17 +3728,14 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #selectmonster 1502 --helkarl
 #okleader
 #custommagic 4352 100
 #custommagic 4096 10
 #end
-
 #selectspell 325 --summon valkyrie
 #nreff 10
 #end
-
 #selectspell 326
 #clear
 #name "Awaken Draugar"
@@ -4085,7 +3756,6 @@
 #path 0 5
 #pathlevel 0 2
 #end
-
 #newspell
 #name "Awaken Draugar"
 #restricted 21
@@ -4114,11 +3784,9 @@
 #nreff 2006
 #descr "The Draug is a corporeal undead van.  They are incredibly strong and can change their size at will or if wounded.  Draugar stink of decay and rotting flesh and are surrounded by ice cold winds.  With this ritual, a Hangadrott can coerce a troop of the mightiest Draugar are coerced to leave their mounds and kill the enemies of the realm."
 #end
-
 #selectnation 28 --hinnom
 #addreccom 2031 --melqart
 #end
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -4127,41 +3795,32 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #selectmonster 2030 --rephaite warrior
 #gcost 10080
 #end
-
 #selectmonster 2031 --melqart
 #gcost 10100
 #end
-
 #selectmonster 2032 --ba'al
 #douse 2
 #gcost 10100
 #end
-
 #selectmonster 2018 --horite
 #weapon 605
 #gcost 10020
 #end
-
 #selectmonster 2019 --horite champ
 #weapon 605
 #gcost 10025
 #end
-
 #selectmonster 2034 --horite hunter
 #gcost 10023
 #end
-
 #selectmonster 2033 --kohen
 #okleader
 #douse 1
 #gcost 10080
 #end
-
-
 #selectnation 25 --kailasa
 #end
 #newevent 
@@ -4172,48 +3831,39 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #selectmonster 2542 --Guhyaka General
 #weapon 21
 #noslowrec
 #gcost 110
 #end
-
 #selectmonster 1329
 #awe 2
 #end
-
 #selectmonster 1326 -Guhyaka
 #weapon 21
 #descr "A Guhyaka is a lowly Yaksha warrior.  They are semi-divine beings gifted with Celestial Splendor that strikes lowly beings with awe.  Their mystical powers have made them rulers over the Bandar Log and they are sacred to the monkey people.  Guhyakas are armed with spears and javelins"
 #end
-
 #selectmonster 1327 --yavana
 #gcost 10029
 #end
-
 #selectmonster 1328 --yavana archer
 #clearweapons
 #weapon 10
 #weapon 397
 #weapon 24
 #end
-
 #selectmonster 1333 --Bandar Warrior
 #gcost 10017
 #end
-
 #selectmonster 1350 --Bandar Swordsmen --"elite statline"
 #att 12
 #def 10
 #hp 20
 #prec 10
 #end
-
 #selectspell 362 --rudra
 #fatiguecost 4500
 #end
-
 #selectmonster 1906 --rudra
 #hp 48
 #str 20
@@ -4223,7 +3873,6 @@
 #prot 4
 #onebattlespell 467
 #end
-
 #selectspell 360 --devata
 #fatiguecost 4000
 #end
@@ -4238,8 +3887,6 @@
 #spec 281474989310080
 #school -1
 #end
-
-
 #selectmonster 1336 --devata
 #hp 40
 #prot 2
@@ -4252,20 +3899,16 @@
 #onebattlespell 472
 #descr "The Devata is a lesser god of the Celestial Sphere. Devatas once ruled parts of this world, but withdrew to the heavens ages ago. The Devata has a perfect body with four arms and blue skin. It is a powerful mage-priest and a formidable warrior. Devatas are sacred to the monkey people, and the enlightenment they bring can render the monkey people resistant to hostile enchantments."
 #end
-
 #selectspell 361 --devala
 #fatiguecost 4000
 #end
-
 #selectmonster 1713 --devala
 #magicskill 4 4
 #onebattlespell 363
 #end
-
 #selectspell 355 --gandharva
 #fatiguecost 1500
 #end
-
 #selectnation 11 --Machaka
 #startunittype1 2304 -- rhino clan warriors
 #startunitnbrs1 15
@@ -4276,7 +3919,6 @@
 #addforeigncom 881 --machaka chief
 #forestrec 2126 --pygmy
 #end
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -4285,47 +3927,37 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #selectmonster 2295 --spiderclan sorceror
 #noslowrec
 #end
-
 #selectmonster 2298 --machaka milita
 #gcost 10007
 #end
-
 #selectmonster 2300 --machaka warrior -- cheaper, 
 #gcost 10008
 #clearweapons
 #weapon 315
 #end
-
 #selectmonster 2301 --spiderclan archer
 #gcost 10013
 #end
-
 #selectweapon 519
 #rcost 3
 #end
-
 #selectmonster 2302 --spider clan warrior
 #armor 44
 #end
-
 #selectmonster 884 --great spider -- improve.
 #gcost 20
 #size 4
 #str 16
 #mr 8
 #end
-
 #selectmonster 2308 --spider rider -- improve, size 4
 #size 4
 #gcost 10020
 #end
-
 --EA Sauro
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -4337,49 +3969,37 @@
 #selectmonster 1167 --lancer--3 gold discount
 #gcost 10002
 #end
-
 #selectmonster 1168 --raider --3 gold discount
 #gcost 10002
 #end
-
 #selectmonster 1170 --slancer--3 gold discount
 #gcost 10007
 #end
-
 #selectmonster 1171 --sraider --3 gold discount
 #gcost 10007
 #end
-
 #selectmonster 1172 --scataphract 5 gold discount
 #gcost 10015
 #end
-
 #selectmonster 1173 --s manflayer
 #end
-
 #selectmonster 1174 --warrior priestess 20 gold discount
 #gcost 10000
 #end
-
 #selectmonster 1175 -- warrior queen 20 gold discount
 #gcost 10000
 #end
-
 #selectmonster 1176 --androphag 15 gold discount
 #gcost 10028
 #end
-
 #selectmonster 1177 --manflayer
 #gcost 10020
 #end
-
 #selectmonster 1178 --witchking
 #end
-
 #selectmonster 1185 --oiorpata --ten gold discount
 #gcost 10015
 #end
-
 #selectmonster 1186 --warrior sorceress
 #gcost 10000
 #okleader
@@ -4388,7 +4008,6 @@
 #magicskill 8 1
 #custommagic 25088 100
 #end
-
 #selectmonster 1831 --hydra
 #gcost 180
 #heal
@@ -4427,19 +4046,15 @@
 #firstshape 1840
 #heal
 #end
-
 ---EA UW--
-
 ---Add mass airbreathing item spell
 ---Mass Airbreathing spell ---
-
 #newmonster 6354
 #copystats 197
 #name "sacrement of limne"
 #descr "this unit exists only to provide sacrement to limne"
 #immobile
 #end
-
 #newspell
 #name "Blessing of Limne"
 #restricted 84
@@ -4458,7 +4073,6 @@
 #nreff 1
 #spec 8388608
 #end
-
 #newevent
 #rarity 5
 #req_monster 6344
@@ -4495,7 +4109,6 @@
 #msg "Amulet of the Fish. [Amulet of the Fish]." #notext #nolog
 #killmon 6344
 #end
-
 ---atlantis ea
 #newevent 
 #rarity 5
@@ -4523,7 +4136,6 @@
 #selectnation 83 --atlantis
 #coastcom2 6350
 #end
-
 ---Rlyeh
 #selectnation 84 
 #coastcom1 1523
@@ -4540,7 +4152,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #newmonster 6331
 #copystats 61
 #name "Slave Guardian"
@@ -4556,16 +4167,13 @@
 #slave
 #descr "The success of R'lyeh is largely due to their powers of mind control. By enslaving other peoples, they have built a slave-based society with few dissidents. The slaves are used even in war and comprise most of the armies of R'lyeh.  On colonizing land, the servants of the Aboleths have discovered a populous race whose enslavement can help further their ambitions."
 #end
-
 #selectmonster 1401 --polypal mother
 #divineins 5
 #fixedresearch 5
 #end
-
 #selectmonster 2886
 #inspiringres 1
 #end
-
 #selectmonster 1521 --mindlord
 #clearmagic
 #gcost 10010
@@ -4576,17 +4184,14 @@
 #custommagic 7680 100
 #custommagic 5120 5
 #end
-
 #selectmonster 1520--Aboleth
 #gcost 9990
 #itemslots 28672
 #end
-
 #selectmonster 2883 --Abodai
 #gcost 9990
 #itemslots 28672
 #end
-
 #selectmonster 2884 --androleth
 #gcost 10040
 #end
@@ -4598,11 +4203,9 @@
 #custommagic 5632 100
 #custommagic 5632 10
 #end
-
 ---- Pelagia
 #selectnation 85 --pelagia
 #end
-
 #selectmonster 2809 --sideraspist
 #def 11
 #hp 11
@@ -4613,11 +4216,8 @@
 #hp 11
 #mor 12
 #end
-
 #selectnation 86 --oceania -- look pretty good already
 #end
-
-
 --EA Vanheim
 #newevent 
 #rarity 5
@@ -4627,9 +4227,7 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 ---- MA Nations
-
 --MA Vanheim
 #newevent 
 #rarity 5
@@ -4639,8 +4237,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
-
 --------SCELERIA CHANGES
 #selectnation 35
 #end
@@ -4652,7 +4248,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 --------Pythium
 #selectnation 36
 #end
@@ -4664,13 +4259,11 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 --------Marignon
 #selectnation 40
 #startunitnbrs1 15
 #startunitnbrs2 15
 #end
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -4679,7 +4272,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #newevent 
 #nation -2
 #nolog
@@ -4692,7 +4284,6 @@
 #req_targorder 30
 #1d6units 217
 #end
-
 #newevent 
 #nation -2
 #nolog
@@ -4717,7 +4308,6 @@
 #req_targorder 30
 #1d3units 217
 #end
-
 #newevent 
 #nation -2
 #rarity 5
@@ -4730,7 +4320,6 @@
 #req_targorder 30
 #1unit 217
 #end
-
 #newevent 
 #nation -2
 #rarity 5
@@ -4743,7 +4332,6 @@
 #req_targorder 30
 #1unit 217
 #end
-
 #newevent 
 #nation -2
 #rarity 5
@@ -4756,7 +4344,6 @@
 #req_targorder 30
 #1unit 217
 #end
-
 #newevent 
 #nation -2
 #nolog
@@ -4769,7 +4356,6 @@
 #req_targorder 30
 #2d6units 217
 #end
-
 #newevent 
 #nation -2
 #rarity 5
@@ -4782,7 +4368,6 @@
 #req_targorder 30
 #1d3units 217
 #end
-
 #newevent 
 #nation -2
 #rarity 5
@@ -4795,7 +4380,6 @@
 #req_targorder 30
 #1unit 217
 #end
-
 #newevent 
 #nation -2
 #rarity 5
@@ -4808,7 +4392,6 @@
 #req_targorder 30
 #1unit 217
 #end
-
 #newevent 
 #nation -2
 #rarity 5
@@ -4821,7 +4404,6 @@
 #req_targorder 30
 #1unit 217
 #end
-
 #newevent 
 #nation -2
 #nolog
@@ -4834,7 +4416,6 @@
 #req_targorder 30
 #3d6units 217
 #end
-
 #newevent 
 #nation -2
 #rarity 5
@@ -4847,7 +4428,6 @@
 #req_targorder 30
 #1d3units 217
 #end
-
 #newevent 
 #nation -2
 #rarity 5
@@ -4860,7 +4440,6 @@
 #req_targorder 30
 #1unit 217
 #end
-
 #newevent 
 #nation -2
 #rarity 5
@@ -4873,7 +4452,6 @@
 #req_targorder 30
 #1unit 217
 #end
-
 #newevent 
 #nation -2
 #rarity 5
@@ -4886,7 +4464,6 @@
 #req_targorder 30
 #1unit 217
 #end
-
 #newevent 
 #nation -2
 #nolog
@@ -4899,7 +4476,6 @@
 #req_targorder 30
 #4d6units 217
 #end
-
 #newevent 
 #nation -2
 #rarity 5
@@ -4912,7 +4488,6 @@
 #req_targorder 30
 #1d3units 217
 #end
-
 #newevent 
 #nation -2
 #rarity 5
@@ -4925,7 +4500,6 @@
 #req_targorder 30
 #1unit 217
 #end
-
 #newevent 
 #nation -2
 #rarity 5
@@ -4938,7 +4512,6 @@
 #req_targorder 30
 #1unit 217
 #end
-
 #newevent 
 #nation -2
 #rarity 5
@@ -4951,10 +4524,7 @@
 #req_targorder 30
 #1unit 217
 #end
-
-
 --marignon pillage.  Pillage order is 30.
-
 #selectmonster 149 --inquisitor
 #end
 #selectmonster 222 --high inquisitor
@@ -4982,7 +4552,6 @@
 #selectmonster 217 --flagellant
 #gcost 10007
 #end
-
 ----Angel Changes
 #newspell
 #copyspell 162
@@ -5000,7 +4569,6 @@
 #name "Heavenly Song"
 #aoe 0
 #end
-
 #selectspell 319 --Contact Harbinger
 #end
 #selectspell 320 --angelic host
@@ -5017,7 +4585,6 @@
 #pathlevel 0 5
 #pathlevel 1 3
 #end
-
 #selectmonster 1369 --Angel of Wrath
 #bloodvengeance 0
 #damagerev 2
@@ -5026,8 +4593,6 @@
 #selectmonster 1367 --Heavenly Choir
 #weapon 1423
 #end
-
-
 --------Tien chi
 #selectnation 42
 #clearrec
@@ -5064,7 +4629,6 @@
 #addrecunit 1901
 #addrecunit 1902	
 #end
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -5073,7 +4637,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #selectspell 176 --internal alchemy
 #fatiguecost 200
 #end
@@ -5083,11 +4646,9 @@
 #selectspell 343 -- Celestial Servant
 #fatiguecost 200
 #end
-
 #selectspell 796
 #notfornation 42
 #end
-
 #newspell
 #name "Terracotta Leader"
 #school -1
@@ -5095,8 +4656,6 @@
 #nreff 1
 #damage -1306
 #end
-
-
 #newspell
 #name "Terracotta Army"
 #descr "The caster crafts an army of terracotta soldiers and imbues them with false life. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons."
@@ -5113,7 +4672,6 @@
 #fatiguecost 1000
 #nextspell "Terracotta Leader"
 #end
-
 #newmonster 6407
 #name "Terracotta Infantryman"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as an infantryman."
@@ -5145,7 +4703,6 @@
 #armor 4
 #montag 1305
 #end
-
 #newmonster 6406
 #name "Terracotta Guardsman"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a guardsman."
@@ -5176,7 +4733,6 @@
 #weapon 308
 #montag 1305
 #end
-
 #newmonster 6408
 #name "Terracotta Crossbowman"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a crossbowman."
@@ -5208,7 +4764,6 @@
 #weapon 6
 #montag 1305
 #end
-
 #newmonster 6409
 #name "Terracotta Horseman"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a horseman, it even has a horse."
@@ -5244,7 +4799,6 @@
 #montag 1306
 #firstshape 6411
 #end
-
 #newmonster 6410
 #name "Terracotta Horseman"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a horseman, it even has a horse."
@@ -5280,7 +4834,6 @@
 #montag 1306
 #firstshape 6411
 #end
-
 #newmonster 6411
 #name "Terracotta Horseman"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a horseman, it even has a horse."
@@ -5315,7 +4868,6 @@
 #ap 16
 #montag 1306
 #end
-
 #newmonster 6412
 #name "Terracotta Chariot"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a chariotsman, it even has a chariot."
@@ -5349,8 +4901,6 @@
 #ap 12
 #montag 1306
 #end
-
-
 #newmonster 6342
 #copystats 808
 #copyspr 808
@@ -5360,7 +4910,6 @@
 #magicskill 8 1
 #custommagic 3584 100
 #end
-
 #newmonster 6333
 #name "Conscript Footman"
 #copystats 794
@@ -5377,7 +4926,6 @@
 #prec 8
 #xpshape 24
 #end
-
 #newmonster 6334
 #name "Experienced Conscript Footman"
 #copystats 794 #copyspr 794
@@ -5391,7 +4939,6 @@
 #firstshape -1310
 #descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #end
-
 #newmonster 6335
 #name "Conscript Footman"
 #copystats 795 #copyspr 795
@@ -5407,7 +4954,6 @@
 #xpshape 24
 #prec 8
 #end
-
 #newmonster 6336
 #name "Experienced Conscript Footman"
 #copystats 795 #copyspr 795
@@ -5421,7 +4967,6 @@
 #firstshape -1311
 #descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #end
-
 #newmonster 6337
 #name "Conscript Footman"
 #copystats 796 #copyspr 796
@@ -5437,7 +4982,6 @@
 #prec 8
 #xpshape 24
 #end
-
 #newmonster 6338
 #name "Experienced Conscript Footman"
 #copystats 796 #copyspr 796
@@ -5451,7 +4995,6 @@
 #firstshape -1312
 #descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #end
-
 #newmonster 6339
 #name "Conscript Archer"
 #copystats 797 #copyspr 797
@@ -5466,7 +5009,6 @@
 #prec 8
 #xpshape 24
 #end
-
 #newmonster 6340
 #name "Experienced Conscript Archer"
 #copystats 797 #copyspr 797
@@ -5480,7 +5022,6 @@
 #firstshape -1313
 #descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #end
-
 #newmonster 6341
 #name "Conscript Archer"
 #copystats 797
@@ -5496,7 +5037,6 @@
 #prec 8
 #firstshape 6339
 #end
-
 #newmonster 6491
 #hp 1
 #name "dead"
@@ -5505,7 +5045,6 @@
 #uwdamage 100
 #montag 1310
 #end
-
 #newmonster 6492
 #hp 1
 #name "dead"
@@ -5514,7 +5053,6 @@
 #uwdamage 100
 #montag 1311
 #end
-
 #newmonster 6493
 #hp 1
 #name "dead"
@@ -5523,7 +5061,6 @@
 #uwdamage 100
 #montag 1312
 #end
-
 #newmonster 6494
 #hp 1
 #name "dead"
@@ -5532,23 +5069,18 @@
 #uwdamage 100
 #montag 1313
 #end
-
 #selectmonster 794
 #montag 1310
 #end
-
 #selectmonster 795
 #montag 1311
 #end
-
 #selectmonster 796
 #montag 1312
 #end
-
 #selectmonster 797
 #montag 1313
 #end
-
 --------Machaka
 #selectnation 43
 #startunitnbrs1 20
@@ -5563,8 +5095,6 @@
 #addforeignunit 879
 #addforeignunit 880
 #end
-
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -5573,7 +5103,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #selectmonster 895 --eye of the lord
 #slowrec
 #end
@@ -5589,7 +5118,6 @@
 #att 14
 #def 14
 #end
-
 #selectmonster 876 --spider warrior
 #clearweapons
 #weapon 10 --falchion
@@ -5597,20 +5125,16 @@
 #def 12
 #gcost 10020
 #end
-
 #selectmonster 879 --machaka archer
 #gcost 10009
 #end
-
 #selectmonster 880 --machaka warrior javelin
 #gcost 10009
 #end
-
 #selectmonster 1599 --machaka warrior spearshield (gave fur)
 #gcost 10009
 #armor 44
 #end
-
 #selectmonster 893  --sorceror
 #clearmagic
 #custommagic 5248 100
@@ -5636,11 +5160,9 @@
 #researchbonus -6
 #gcost 10000
 #end
-
 #selectmonster 882 --hoplite
 #gcost 10013
 #end
-
 #selectmonster 885 --spider rider
 #gcost 10015
 #size 4
@@ -5671,7 +5193,6 @@
 #size 4
 #str 16
 #end
-
 #newweapon 1414
 #copyweapon 440
 #name "Spider Fear"
@@ -5683,7 +5204,6 @@
 #melee50
 #bonus
 #end
-
 #selectmonster 899 --hunter form of black sorc
 #str 18
 #weapon 1414
@@ -5707,7 +5227,6 @@
 --------Caelum
 #selectnation 46
 #end
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -5716,21 +5235,17 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #selectsite 11
 #homecom 6332
 #end
-
 #selectmonster 128 --spire horn warrior
 #clearweapons --shortbow, ice knife
 #weapon 35 --ice knife
 #weapon 264 --composite bow
 #end
-
 #selectweapon 606 --frost bow
 #dmg 11
 #end
-
 #newmonster 6332
 #copystats 1283
 #spr1 "./summod/iceenchanter_1.tga"
@@ -5744,12 +5259,9 @@
 #custommagic 2816 100
 #iceforging 7
 #end
-
-
 -------Bandar Log
 #selectnation 53
 #end
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -5758,7 +5270,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #selectmonster 1332 --apsara
 #weapon 1423
 #end
@@ -5768,48 +5279,36 @@
 #selectspell 356 --nagaraja
 #fatiguecost 2500
 #end
-
 #selectmonster 1123--Vanara Archer -1 gold
 #gcost 10009
 #end
-
 #selectmonster 1124--Vanara Chakram Thrower -1 gold
 #gcost 10009
 #end
-
 #selectmonster 1125--Vanara Infantry -1 gold
 #gcost 10009
 #end
-
 #selectmonster 1126 --Vanara Swordsmen -1 gold
 #gcost 10012
 #end
-
 #selectmonster 1131 --Bandar Archer -1 gold
 #gcost 10017
 #end
-
 #selectmonster 1132--Bandar Warrior -1 gold
 #gcost 10017
 #att 12
 #end
-
 #selectmonster 1133--Bandar Warrior -1 gold
 #gcost 10017
 #att 12
 #end
-
 #selectmonster 1134--Royal Swordsman -1 gold
 #gcost 10022
 #att 13
 #end
-
 #selectmonster 1142 --whiteone
 #gcost 10016
 #end
-
-
-
 -------Shinyu
 #selectnation 54
 #uwcom1 1530
@@ -5818,7 +5317,6 @@
 #startunitnbrs2 15
 #startunitnbrs1 15
 #end
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -5827,7 +5325,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #newmonster 6352--summonchecker
 #copystats 1396
 #spr1 "./summod/ritualhelp1.tga"
@@ -5859,14 +5356,12 @@
 #selectmonster 1395 #slave #end
 #selectmonster 1549 #taskmaster 2 #end
 #selectmonster 1398 #inspirational 1 #end
-
 #selectmonster 1608 --bakemono shaman
 #custommagic 128 20
 #custommagic 1024 20
 #custommagic 4096 20
 #gcost 10010
 #end
-
 #selectspell 191 --gozu mezu
 #fatiguecost 500
 #end
@@ -5903,7 +5398,6 @@
 #selectspell 384 --nushi
 #fatiguecost 2000
 #end
-
 #selectspell 386 --oni general
 #fatiguecost 1400
 #researchlevel 5
@@ -5915,7 +5409,6 @@
 #researchlevel 7
 #fatiguecost 3500
 #end
-
 #newspell
 #name "Hide Heart"
 #descr "With this ritual, a Bakemeno Sorceror will attempt to hide his heart in an isolated mountain, granting him a form of immortality tied to that mountain. This ritual requires an unfortified mountain with a small temple to properly function, and will not work if cast without a Sorceror present."
@@ -5930,14 +5423,12 @@
 #effect 10001
 #damage 6352
 #end
-
 #newsite 1801
 #name "Hiding Place"
 #rarity 5
 #level 4
 #path 8
 #end
-
 #newmonster 6353	#copyspr 2369 #name "Sorceror Heart" #descr "This is the heart of a Bakemeno Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
 #end 	
 #newmonster 6380  	#name "Bakemeno Kizoku" #immortal #descr "The Bakemeno Kizoku is a Bakemeno Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
@@ -6102,9 +5593,7 @@
 #newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6406	#req_nomnr 6379	#stealthcom 6379	#killmon 6378	#nolog #end 
 #newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6379	#req_monster 6406	#killcom 6406	#nolog #end  	
 #newevent #nation -2 #rarity 5 #req_pop0ok  #req_site 1 #msg "Site removed [Hiding Place]." #notext #removesite 1801 #nolog #end	
-
 ------MA Man
-
 #selectnation 37
 #addreccom 6452
 #startcom 6452
@@ -6114,7 +5603,6 @@
 #startunitnbrs2 10
 #startscout 56
 #end
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -6123,7 +5611,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #selectmonster 57 --Knight
 #gcost 10020
 #end
@@ -6143,7 +5630,6 @@
 #xpshape 60
 #gcost 10040
 #end
-
 #newmonster 6455 --(Knight Commander of Avvalon)--
 #copystats 2128
 #copyspr 2128
@@ -6156,7 +5642,6 @@
 #selectmonster 2129 --Logrian cav
 #gcost 10005
 #end
-
 #selectmonster 65  --warden
 #mapmove 2
 #end
@@ -6164,18 +5649,15 @@
 #mapmove 2
 #magicskill 8 1
 #end
-
 #selectmonster 53 --logrian warrior
 #gcost 10011
 #end
-
 #selectmonster 62 ---longspear
 #cleararmor
 #armor 13
 #armor 20
 #armor 2
 #end
-
 #selectmonster 153 --crone
 #gcost 9980
 #clearmagic
@@ -6187,8 +5669,6 @@
 #custommagic 9984 10
 #userestricteditem 1102
 #end
-
-
 #selectmonster 152 --mother of avalon
 #descr "As a Daughter of Avalon gains knowledge and responsibility, she is given three tests. When she passes them, she becomes a Mother and is given a green dress and religious authority. The Mothers are potent priest-enchantresses who travel the lands of Man searching for sites of magical power, guiding the common people in prayer and aiding commanders in battle. They are skilled at stealth and are able commanders in their own right. They are often accompanied by Wardens sworn to protect them. The Mothers, like all Witches of Avalon, are considered sacred by the populace of Man. The Mothers of Avalon are skilled in the magic of Air and Nature and many learn other arts on their travels. They can also use spellsongs once sung by the Sidhe of Tir na n'Og."
 #clearmagic
@@ -6200,7 +5680,6 @@
 #gcost 9970
 #userestricteditem 1102
 #end
-
 #newsite 1813-- Telkhinis
 #name "Forest Glade"
 #path 6
@@ -6209,7 +5688,6 @@
 #mon 6456
 #com 2128
 #end
-
 #newevent 
 #msg "Glade. [Forest Glade]."  
 #req_owncapital 0 
@@ -6236,7 +5714,6 @@
 #newevent #msg "Enemy. [Forest Glade]." 
 #rarity 5 #req_notnation 37 #nation -2 #notext #nolog  #req_site 1 #removesite 1813 
 #end
-
 #newmonster 6452 --(Knight Commander)
 #copystats 57
 #spr1 "./summod/knightcom_1.tga"
@@ -6253,9 +5730,6 @@
 #copystats 6452
 #copyspr 6452
 #end
-
-
-
 #newevent --1--
 #rarity 5
 #req_fornation 37
@@ -6265,7 +5739,6 @@
 #msg "This knight has committed enough valorous deeds to be admitted to the Knights of Earth, a storied company of mighty men!" 
 #transform 6457
 #end
-
 #newevent --2--
 #rarity 5
 #req_fornation 37
@@ -6275,8 +5748,6 @@
 #msg "This knight has committed enough valorous deeds to be admitted to the Knights of Earth, a storied company of mighty men!" 
 #transform 6457
 #end
-
-
 #newevent --4--
 #rarity 5
 #req_fornation 37
@@ -6287,7 +5758,6 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6458
 #end
-
 #newevent
 #rarity -1
 #nation -2
@@ -6299,7 +5769,6 @@
 #addequip 1
 #req_unique 2
 #end
-
 #newevent --5--
 #rarity 5
 #req_fornation 37
@@ -6310,7 +5779,6 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6459
 #end
-
 #newevent --6--
 #rarity 5
 #req_fornation 37
@@ -6321,7 +5789,6 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6460
 #end
-
 #newevent --7--
 #rarity 5
 #req_fornation 37
@@ -6332,7 +5799,6 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6461
 #end
-
 #newevent --8--
 #rarity 5
 #req_fornation 37
@@ -6343,7 +5809,6 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6462
 #end 
-
 #newevent --9--
 #rarity 5
 #req_fornation 37
@@ -6354,7 +5819,6 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6463
 #end
-
 #newevent --10--
 #rarity 5
 #req_fornation 37
@@ -6365,7 +5829,6 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6464
 #end
-
 #newevent --11--
 #rarity 5
 #req_fornation 37
@@ -6376,7 +5839,6 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6465
 #end 
-
 #newevent --12--
 #rarity 5
 #req_fornation 37
@@ -6387,7 +5849,6 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6466
 #end
-
 #newevent --13--
 #rarity 5
 #req_fornation 37
@@ -6398,8 +5859,6 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6467
 #end
-
-
 #newevent --14--
 #rarity 5
 #req_fornation 37
@@ -6410,8 +5869,6 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6468
 #end
-
-
 #newevent --3--
 #rarity 5
 #req_fornation 37
@@ -6422,7 +5879,6 @@
 #msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
 #transform 6469
 #end
-
 #newmonster 6457
 #name "Knight of the Earth"
 #descr "A Knight of the Earth, gallant and bold, entrusted with special duties and honours.  Knights of the Earth who are commanders are eligible for a special seat if one is open."
@@ -6453,7 +5909,6 @@
 #standard 1
 #itemslots 31878
 #end
-
 #newmonster 6469 --1 Lancelot--
 #copystats 6457
 #name "Knight of the Lake"
@@ -6465,7 +5920,6 @@
 #mor 20
 #descr "A Knight of the Earth, gallant and bold, the Knight of the Lake is known for exceptional prowess in combat."
 #end
-
 #newmonster 6458 --2 Percival--
 #copystats 6457
 #name "Knight of the Chalice"
@@ -6474,7 +5928,6 @@
 #autohealer 1
 #descr "A Knight of the Earth, gallant and bold, the Knight of the Chalice is trusted with healing the wounded."
 #end
-
 #newmonster 6459 --3 Degore--
 #copystats 6457
 #name "Knight of the Cup"
@@ -6483,7 +5936,6 @@
 #supplybonus 20
 #descr "A Knight of the Earth, gallant and bold, the Knight of the Cup is entrusted with ensuring the troops are well-provisioned."
 #end
-
 #newmonster 6460 --4 Bedivere--
 #copystats 6457
 #name "Mighty Knight"
@@ -6492,7 +5944,6 @@
 #str 17
 #descr "A Knight of the Earth, gallant and bold, the Mighty Knight is among the strongest of his company"
 #end
-
 #newmonster 6461 --5 Kay--
 #copystats 6457
 #name "Knight of Recruits"
@@ -6501,7 +5952,6 @@
 #batstartsum1 6452
 #descr "A Knight of the Earth, gallant and bold, the Knight of Recruits mentors inexperienced knights."
 #end
-
 #newmonster 6462 --6 Galahad--
 #copystats 6457
 #name "Pious Knight"
@@ -6511,7 +5961,6 @@
 #magicskill 8 1
 #descr "A Knight of the Earth, gallant and bold, entrusted with special duties and honours, the Pious Knight is among the holiest of his company."
 #end
-
 #newmonster 6463 --7 Bors--
 #copystats 6457
 #name "Fearless Knight"
@@ -6520,7 +5969,6 @@
 #mor 30
 #descr "A Knight of the Earth, gallant and bold, the Fearless Knight is the bravest of his comrades."
 #end
-
 #newmonster 6464 --8 Gawain--
 #copystats 6457
 #name "Maidens Knight"
@@ -6530,7 +5978,6 @@
 #descr "A Knight of the Earth, gallant and bold, the Maiden Knight is known for his knowledge of herbs."
 #userestricteditem 1102
 #end
-
 #newmonster 6465 --9 Tristan--
 #copystats 6457
 #name "Courtly Knight"
@@ -6539,7 +5986,6 @@
 #seduce 10
 #descr "A Knight of the Earth, gallant and bold, entrusted with special duties and honours, the Courtly Knights manners are beyond reproach."
 #end
-
 #newmonster 6466 --10 Brunor--
 #copystats 6457
 #name "Untiring Knight"
@@ -6548,7 +5994,6 @@
 #descr "A Knight of the Earth, gallant and bold, entrusted with special duties and honours, the Untiring Knight is not easily exhuasted in battle."
 #enc 2
 #end
-
 #newmonster 6467 --11 Hector--
 #copystats 6457
 #name "Passionate Knight"
@@ -6557,7 +6002,6 @@
 #descr "A Knight of the Earth, gallant and bold, the Passionate Knight follows his heart into battle."
 #berserk 4
 #end
-
 #newmonster 6468 --12 Robin--
 #copystats 6457
 #name "Brave Knight"
@@ -6568,7 +6012,6 @@
 #ap 35
 #descr "A Knight of the Earth, gallant and bold, entrusted with special duties and honours, the Brave Knight is renowned for his speed when combat is near."
 #end
-
 #newspell
 #copyspell 908
 #restricted 37
@@ -6583,14 +6026,11 @@
 #fatiguecost 20
 #descr "With this spell, a Witch of Avalon can throw a group of enemy soldiers into confusion, causing them to treat friends as enemies and enemies as friends."
 #end
-
 #selectmonster 2439--logrian druid
 #end
-
 #selectmonster 60
 #fixedresearch 4
 #end
-
 #newmonster 6343
 #copystats 152
 #spr1 "./summod/bonded_1.tga"
@@ -6600,7 +6040,6 @@
 #batstartsum1 65
 #userestricteditem 1102
 #end
-
 #newevent
 #rarity 5
 #nation -2
@@ -6612,7 +6051,6 @@
 #transform 6343
 #killmon 65
 #end
-
 #newspell
 #copyspell 611
 #name "Hex of Minerva"
@@ -6625,7 +6063,6 @@
 #damage 1560
 #restricted 37
 #end
-
 #newspell
 #copyspell 598 --transformation
 #name "Transformation"
@@ -6633,12 +6070,10 @@
 #researchlevel 6
 #restricted 37
 #end
-
 #selectspell 598 --transformation
 #fatiguecost 800
 #notfornation 37
 #end
-
 #newspell
 #copyspell 887
 #name "Slumber"
@@ -6651,7 +6086,6 @@
 #restricted 37
 #descr "With this spell, a powerful witch makes all living units unnaturally tired."
 #end
-
 #newspell
 #copyspell 152
 #name "Base of Courage"
@@ -6659,8 +6093,6 @@
 #range 2
 #spec 140738030141568
 #end
-
-
 #newspell
 #copyspell 759
 #name "Blade of Morgan"
@@ -6692,7 +6124,6 @@
 #nextspell "Defense of Morgan"
 #end
 ---
-
 #newspell
 #copyspell 867
 #name "Cloak of Niniane"
@@ -6701,7 +6132,6 @@
 #school -1
 #nextspell "Mossbody"
 #end
-
 #newspell
 #copyspell "Base of Courage"
 #name "Aegis of Niniane"
@@ -6717,9 +6147,7 @@
 #descr "The first and greatest of the Witches of Avalon crafted spells to aid their strongest champions.  Niniane called on the power of Avalon to shield her champions from the frost, fire, and lightning, though it would also keep them from harm for a time."
 #nextspell "Cloak of Niniane"
 #end
-
 ---------------------------------------
-
 #newspell
 #copyspell 753
 #name "Armor of Isolde"
@@ -6728,7 +6156,6 @@
 #school -1
 #nextspell "Earth Might"
 #end
-
 #newspell
 #copyspell "Base of Courage"
 #name "Fortification of Isolde"
@@ -6744,7 +6171,6 @@
 #descr "The first and greatest of the Witches of Avalon crafted spells to aid their strongest champions.  Isolde chose to strengthen the arms and armor of her champions."
 #nextspell "Armor of Isolde"
 #end
-
 -------
 #newspell
 #copyspell 525
@@ -6752,7 +6178,6 @@
 #aoe 1
 #school -1
 #end
-
 #newspell
 #copyspell 536
 #name "Defense of Ygraine"
@@ -6761,7 +6186,6 @@
 #school -1
 #nextspell "Block of Ygraine"
 #end
-
 #newspell
 #copyspell "Base of Courage"
 #name "Cloak of Ygraine"
@@ -6777,7 +6201,6 @@
 #descr "The first and greatest of the Witches of Avalon crafted spells to aid their strongest champions. Ygraine chose to protect her chosen warriors from the weapons of their enemies, making them difficult to strike with sword or bow."
 #nextspell "Defense of Ygraine"
 #end
-
 #newitem
 #spr "./summod/Rowanstaff.tga"
 #constlevel 4
@@ -6795,13 +6218,11 @@
 #restricteditem 1102
 #spell "Bewitchment"
 #end
-
 -------Xibalba
 #selectnation 58
 #addrecunit 2730
 #addrecunit 2731
 #end
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -6810,7 +6231,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #selectsite 177
 #clear
 #name "The Sacred Cenote"
@@ -6820,7 +6240,6 @@
 #gems 2 1
 #homecom 2732
 #end
-
 #selectmonster 2730 --poison dart thrower 
 #end
 #selectweapon 620 --poisondart
@@ -6830,7 +6249,6 @@
 #selectmonster 2731 --Obsidian Warrior
 #gcost 10017
 #end
-
 #selectmonster 2716 --Muuch Kuhul
 #gcost 10000
 #clearmagic
@@ -6842,7 +6260,6 @@
 #custommagic 13824 100
 #custommagic 13824 10
 #end
-
 #selectmonster 2734 --zotz
 #gcost 8
 #clearweapons
@@ -6851,20 +6268,16 @@
 #selectmonster 2735 --zotz
 #gcost 8
 #end
-
 #selectweapon 619 --obs dart
 #ammo 6
 #end
-
 #selectmonster 2727 --jungle warrior
 #mapmove 2
 #end
-
 #selectmonster 2723 --light spear muuch
 #end
 #selectmonster 2724 --light obsword muuch
 #end
-
 #selectmonster 2725 --bronze spear muuch
 #gcost 10014
 #att 11
@@ -6877,10 +6290,8 @@
 #def 10
 #mor 11
 #end
-
 #selectnation 90 --oceania
 #end
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -6889,7 +6300,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #selectmonster 1054 --siren
 #clearmagic
 #magicboost 1 -1
@@ -6897,7 +6307,6 @@
 #magicskill 2 1
 #custommagic 768 100
 #end
-
 #selectmonster 1055 --sirenland
 #clearmagic
 #magicboost 2 -1
@@ -6905,88 +6314,65 @@
 #magicskill 2 1
 #custommagic 768 100
 #end
-
 #selectmonster 2380 --ichtyaur
 #weapon 331
 #gcost 10035
 #end
-
 #selectmonster 2381 --ichtyaur
 #gcost 10035
 #end
-
 #selectmonster 2412 --ichtyaur
 #weapon 331
 #gcost 10035
 #end
-
 #selectmonster 2413 --ichtyaur
 #gcost 10035
 #end
-
 #selectmonster 2414 --ichtyaur
 #weapon 331
 #gcost 10035
 #end
-
 #selectmonster 2415 --ichtyaur
 #gcost 10035
 #end
 --------Eriu
 #selectnation 38
 #end
-
 --------Mictlan
 #selectnation 41
 #addreccom 1190
 #end
-
 #selectspell 340 --tlahuelpuchi
 #path 0 7
 #pathlevevel 0 2
 #path 1 5
 #pathlevel 1 2
 #end
-
 #selectmonster 1558--tlahuelpuchi
 #noleader
 #end
-
 #selectspell  338  --summon civatetevo
 #path 0 7
 #pathlevel 0 2
 #path 1 5
 #pathlevel 1 0
 #end
-
 #selectmonster 1422 --civatetevo
 #douse 1
 #end
-
-
 #selectmonster 725 --sun warrior
 #hp 13
 #str 11
 #mapmove 2
 #gcost 10011
 #end
-
-
 ---------Abysia
 #selectnation 45
 #end
-
 ---------Ashdod
 #selectnation 55
 #end
-
-
-
 ---notices
-
-
-
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -6995,7 +6381,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -7004,7 +6389,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -7013,7 +6397,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -7022,11 +6405,7 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
-
-
 ---Cav changes
-
 ---Marveni
 #selectmonster 1208 --eponi knight --hoof attack, 5 gold discount
 #weapon 56
@@ -7036,7 +6415,6 @@
 #weapon 56
 #gcost 10010
 #end
-
 ---ea ermor
 #selectmonster 1107 --equite --5 gold discount
 #gcost 10015
@@ -7044,13 +6422,10 @@
 #selectmonster 1108 --equite of the shroud
 #gcost 10020
 #end
-
 --EA TC
 #selectmonster 788 --horseman (also ma tc)
 #gcost 10003
 #end
-
-
 --MA pythium
 #selectmonster 3 --serpent cat
 #gcost 10030
@@ -7058,8 +6433,6 @@
 #selectmonster 5 --serpent lord
 #gcost 10030
 #end
-
-
 --MA Ulm
 #selectmonster 70 --black lord
 #gcost 10025
@@ -7067,9 +6440,6 @@
 #selectmonster 69 --black knight
 #gcost 10025
 #end
-
-
-
 --LA Arco
 #selectmonster 1554 --agema commander
 #gcost 10015
@@ -7077,7 +6447,6 @@
 #selectmonster 1553 --companion
 #gcost 10015
 #end
-
 --LA Pythium
 #selectmonster 765 --serpent lord
 #gcost 10030
@@ -7085,12 +6454,10 @@
 #selectmonster 763 --serpent cata
 #gcost 10030
 #end
-
 --LAMan
 #selectmonster 1641 --tower knight
 #gcost 10020
 #end
-
 --LA Ulm
 #selectmonster 738 --black templar
 #gcost 10025
@@ -7098,7 +6465,6 @@
 #selectmonster 1237 --hochmeister
 #gcost 10000
 #end
-
 --jomon
 #selectmonster 1246 --samurai cav
 #gcost 10010
@@ -7112,7 +6478,6 @@
 #selectmonster 1252 --Daimyo
 #gcost 10000
 #end
-
 --Bogarus
 #selectmonster 1922 --Grdi Druzhina
 #gcost 10010
@@ -7127,9 +6492,6 @@
 #selectmonster 1925 --black hood
 #gcost 10000
 #end
-
-
-
 -------------popkill
 --Spectral changes
 #newweapon 1422
@@ -7172,19 +6534,16 @@
 #pierce
 #magic
 #end
-
 #selectnation 34 --ermor
 #idealcold 1
 #fortcost 50
 #end
-
 #selectsite 24
 #gems 5 5
 #end
 #selectsite 25
 #gems 5 10
 #end
-
 #selectmonster 253 --dusk elder
 #magicskill 0 1
 #magicskill 4 2
@@ -7192,7 +6551,6 @@
 #magicboost 4 -1
 #descr "The mages of Old Ermor performed rituals that corrupted and destroyed the old Empire. These mages are now summoned from the dead to wage war against the living and they are now known as Spectators or Dusk Elders. The mages do not possess solid bodies, but their spirits are connected to the Netherworld.  This has made their powers of Death magic greater than ever before, and they are more resistant to magic duels. The mere touch of these mages will drain the life energy of the target and replenish the power of the mage. They are ethereal and very difficult to harm without magic weapons."
 #end
-
 #newsite 1802
 #name "Deadland"
 #path 5 
@@ -7209,41 +6567,28 @@
 #rarity 5
 #gems 4 1
 #end
-
 #newevent #rarity 5 #nation -2 #req_fornation 34   #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
 #msg "Purification destroyed. [Purified Deadland]." #removesite 1803 #notext #nolog #end
-
 #newevent #rarity 5 #nation -2 #req_fornation 34   
 #req_pop0ok #req_capital 0 #req_dominion 1 #req_site 1
 #msg "Carrionland destroyed. [Carrionland]." #removesite 1804 #nolog #notext  #end
-
 #newevent #rarity 5 #nation -2 #req_fornation 34   
 #req_pop0ok #req_capital 0 #req_dominion 1 #req_site 1 
 #msg "Dreamland destroyed. [Dreamland]." #removesite 1805 #nolog #notext #end
-
 #newevent #req_freesites 1 #rarity 5  #req_fornation 34   #req_land 1
 #nation -2 #req_pop0ok #req_capital 0 #req_maxpop 150 #req_dominion 1 #req_nositenbr 1802
 #msg "Deadland Created. [Deadland]." #addsite 1802  #notext #nolog #end
-
 #newevent #req_freesites 1 #rarity 5  
 #req_fornation 34 #req_land 1 #req_unique 5
 #nation -2 #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 0 #notext #addsite -1 
 #msg "Deadland Created. [Deadland]" #nolog #end
-
-
-
 #newevent #rarity 5 #req_monster 149 #req_fornation 40 
 #nation -2 #req_pop0ok #req_capital 0 #req_dominion 3 #req_rare 30 #req_site 1 
 #msg "An inquisitor has purified this land! [Deadland]."#nolog #notext #removesite 1802 #addsite 1803  #end
-
 #newevent #rarity 5 #req_monster 222 #req_fornation 40  
 #nation -2 #req_pop0ok #req_capital 0 #req_dominion 3 #notext #req_site 1 #msg "A High inquisitor has purified this land! [Deadland]."#nolog #removesite 1802 #addsite 1803  #end
-
 #newevent #rarity 5 #req_monster 583 #req_fornation 40  
 #nation -2 #req_pop0ok #req_capital 0 #req_dominion 3  #req_nositenbr 1804 #notext #req_site 1 #msg "His Eminence has purified this land! [Deadland]."#nolog #removesite 1802 #addsite 1803  #end
-
-
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -7252,8 +6597,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
-
 #newsite 1804
 #name "Carrionland"
 #path 6 
@@ -7264,7 +6607,6 @@
 #end
 #selectnation 49 --asphodel
 #end
-
 #newevent #req_freesites 1 #rarity 5  
 #req_fornation 49 #nation -2 
 #req_pop0ok #req_capital 0 
@@ -7297,9 +6639,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
-
-
 #selectnation 62 --lemuria
 #fortcost 50
 #fortera 2
@@ -7311,7 +6650,6 @@
 #startunittype2 673
 #startunitnbrs2 10
 #end
-
 #newmonster 6345 --acolyte
 #copystats 2333
 #copyspr 2333
@@ -7320,14 +6658,12 @@
 #holy
 #magicskill 8 1
 #end
-
 #selectsite 158
 #gems 5 5
 #end
 #selectsite 159
 #gems 5 9
 #end
-
 #selectmonster 2333
 #clearmagic
 #magicskill 5 1
@@ -7343,32 +6679,24 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #newevent #rarity 5 #nation -2 #req_fornation 62   #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
 #msg "Purification destroyed. [Purified Deadland]." #removesite 1803 #nolog #notext #end
-
 #newevent #rarity 5 #nation -2 #req_fornation 62   
 #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1
 #msg "Carrionland destroyed. [Carrionland]." #removesite 1804 #nolog #notext #end
-
 #newevent #rarity 5 #nation -2 #req_fornation 62   
 #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
 #msg "Dreamland destroyed. [Dreamland]." #removesite 1805 #nolog #notext #end
-
 #newevent #req_freesites 1 #rarity 5  
 #req_fornation 62 #req_land 1
 #nation -2 #req_pop0ok #req_capital 0 
 #req_unique 5 #req_site 0 #addsite -1  
 #msg "Deadland Created. [Deadland]" #nolog #notext #end
-
 #newevent #req_freesites 1 #rarity 5  #req_fornation 62   #req_land 1
 #nation -2 #req_pop0ok #req_capital 0 #req_maxpop 100 #req_dominion 2 #req_site 0 #addsite -1
 #msg "Deadland Created. [Deadland]"   #nolog #notext #end
-
-
 #selectnation 92 --rlyeh
 #end
-
 #newsite 1805
 #name "Dreamland"
 #path 5 
@@ -7377,7 +6705,6 @@
 #decscale 5
 #gems 5 1
 #end
-
 #newevent #req_freesites 1 #rarity 5  
 #req_fornation 92 #nation -2 
 #req_pop0ok #req_capital 0 
@@ -7396,7 +6723,6 @@
 #req_maxpop 100 
 #req_dominion 5 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1
 #msg "Carrionland reclaimed. [Carrionland]." #removesite 1804 #nolog #notext #end
-
 #newevent #req_freesites 1 #rarity 5  #msg "Dreamland Created. [Dreamland]."
 #req_fornation 92 #nation -2 
 #req_pop0ok #req_capital 0 
@@ -7409,7 +6735,6 @@
 #req_maxpop 100 
 #req_dominion 5 #req_temple 1 #req_fort 0 #req_coast 1 #req_nositenbr 1805 #addsite 1805  
 #nolog #notext #end
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -7418,7 +6743,6 @@
 #req_owncapital 1
 #req_unique 1
 #end
-
 #newevent
 #rarity 5
 #nation -2
@@ -7426,7 +6750,6 @@
 #req_site 1
 #msg "Deadland. [Deadland]."
 #end
-
 #newevent
 #rarity 5
 #nation -2
@@ -7434,7 +6757,6 @@
 #req_site 1
 #msg "Reclaimed. [Purified Deadland]."
 #end
-
 #newevent
 #rarity 5
 #nation -2
@@ -7442,8 +6764,6 @@
 #req_site 1
 #msg "Carrion [Carrionland]."
 #end
-
-
 #newevent
 #rarity 5
 #nation -2
@@ -7451,7 +6771,6 @@
 #req_site 1 
 #msg "Dreamland. [Dreamland]."
 #end
-
 #selectmonster 962
 #gcost 0
 #end
@@ -7512,9 +6831,6 @@
 ------------------------------
 ------THERODOS CHANGES--------
 ------------------------------
-
-
-
 #newevent 
 #rarity 5
 #nation -2 
@@ -7525,7 +6841,6 @@
 #req_turn 2
 #nolog
 #end
-
 --Sacred Changes
 #newweapon 1419
 #copyweapon 6
@@ -7547,12 +6862,10 @@
 #name "Sword Dance"
 #nratt 2
 #end
-
 --Monster Changes
 #selectspell 1065 --summon ephor
 #fatiguecost 500
 #end
-
 #selectmonster 2843 --spectral kourete
 #clearweapons
 #weapon 1421
@@ -7569,8 +6882,6 @@
 #armor 209
 #armor 20
 #end
-
-
 #newmonster 6324
 #name "Telkhine Adjutant"
 #descr "The Telkhine Adjutants are mages of the storm, well versed in the magic of water and air.  Trained to accompany the Telkhines themselves when on campaign, since the Malediction they have suffered badly due to the extensive training they require.  Still, their skills are sufficient to lead the navy of Therodos and bring its ships to safe harbor."
@@ -7602,7 +6913,6 @@
 #custommagic 4992 100
 #custommagic 4992 10
 #end
-
 #newmonster 6325
 #name "Therodian Swordsman"
 #descr "The armies of ancient Therodos were vastly superior to their neighbors.  Well-drilled hoplites clad in Telkhine iron conquered all lands that the God-Kings would covet.  When the Telkhine kingdom was shattered and drowned, the skills of metalcrafting were kept by the Kaberoi guilds. Modeled after the successor empires, swordsmen were recruited to bolster the armies of Therodos, where they are armed with the iron of the guilds."
@@ -7626,7 +6936,6 @@
 #armor 209
 #nametype 107
 #end
-
 #newmonster 6326 --Triton Merc
 #copystats 2385
 #spr1 "./summod/pelagian_mercenary.tga"
@@ -7641,7 +6950,6 @@
 #armor 209
 #gcost 10012
 #end
-
 #newmonster 6327 --Triton Commander
 #copystats 1069
 #spr1 "./summod/pelagian_mercenary_capitain.tga"
@@ -7656,7 +6964,6 @@
 #armor 209
 #gcost 10012
 #end
-
 #newmonster 6328 --merman Merc
 #copystats 2810
 #name "Merman Mercenary"
@@ -7693,13 +7000,10 @@
 #armor 16
 #watershape 6328
 #end
-
-
 ---Melias
 #selectmonster 2833 --Melia Classic
 #awe 1
 #end
-
 #newmonster 6330--Spectral melia --placeholder
 #copystats 2833
 #spr1 "./summod/spectral_melia.tga"
@@ -7733,7 +7037,6 @@
 #okleader
 #nametype 160
 #end
-
 #newevent
 #rarity 5
 #req_unique 1
@@ -7747,7 +7050,6 @@
 #notext
 #nolog
 #end
-
 --Death 1 events
 #newevent
 #rarity 5
@@ -7768,7 +7070,6 @@
 #notext
 #nolog
 #end
-
 #newevent
 #rarity 5
 #req_rare 2
@@ -7788,7 +7089,6 @@
 #notext
 #nolog
 #end
-
 #newevent
 #rarity 5
 #req_rare 3
@@ -7807,7 +7107,6 @@
 #notext
 #nolog
 #end
-
 --Death 2 events
 #newevent
 #rarity 5
@@ -7828,7 +7127,6 @@
 #notext
 #nolog
 #end
-
 #newevent
 #rarity 5
 #req_rare 4
@@ -7847,7 +7145,6 @@
 #notext
 #nolog
 #end
-
 #newevent
 #rarity 5
 #req_rare 6
@@ -7866,7 +7163,6 @@
 #notext
 #nolog
 #end
-
 --Death 3 events
 #newevent
 #rarity 5
@@ -7886,7 +7182,6 @@
 #notext
 #nolog
 #end
-
 #newevent
 #rarity 5
 #req_rare 6
@@ -7905,7 +7200,6 @@
 #notext
 #nolog
 #end
-
 #newevent
 #rarity 5
 #req_rare 9
@@ -7923,8 +7217,6 @@
 #notext
 #nolog
 #end
-
-
 --Global enchantment
 #newspell
 #school 5
@@ -7941,7 +7233,6 @@
 #restricted 95
 #spec 8388608
 #end
-
 #newsite 1755
 #name "Stygian Stagnant Waters"
 #path 5
@@ -7950,7 +7241,6 @@
 #gems 2 1
 #incscale 3
 #end
-
 #newevent
 #rarity 5
 #req_enchdom 200
@@ -7962,7 +7252,6 @@
 #notext
 #nolog
 #end
-
 #newevent
 #rarity 5
 #req_fornation 95
@@ -7979,7 +7268,6 @@
 #notext
 #nolog
 #end
-
 #newevent
 #rarity 5
 #req_fornation 95
@@ -7995,7 +7283,6 @@
 #notext
 #nolog
 #end
-
 #newevent
 #rarity 5
 #req_rare 20
@@ -8012,9 +7299,7 @@
 #notext
 #nolog
 #end
-
 ---Sites
-
 #newmonster 6318 --kourete 2
 #copystats 2839
 #name "Kourete"
@@ -8036,7 +7321,6 @@
 #reclimit 6
 #firstshape 2839
 #end
-
 #newmonster 6321 --Korybant 2
 #copystats 2837
 #firstshape 2837
@@ -8055,8 +7339,6 @@
 #copyspr 2837
 #reclimit 6
 #end
-
-
 #newsite 1807-- Telkhinis
 #name "Sunken Agora"
 #path 3
@@ -8078,7 +7360,6 @@
 #rarity 5
 #level 0
 #end
-
 #selectnation 95
 #domkill 8
 #uwcom1 1051-- UW scout
@@ -8088,9 +7369,7 @@
 #coastcom1 6324
 #coastunit1 6325
 #end
-
 ----------------------
-
 #newevent 
 #msg "Telkhinis 7. [Sunken Agora]."  
 #req_owncapital 1 
@@ -8106,7 +7385,6 @@
 #req_nositenbr 1807 
 #addsite 1807 
 #end
-
 #newevent 
 #msg "Telkhinis 8. [Sunken Odeon]."  
 #req_owncapital 1 
@@ -8121,7 +7399,6 @@
 #req_nositenbr 1808 
 #addsite 1808 
 #end
-
 #newevent #msg "Telkhinis 9. [Sunken Orchestra]."  
 #req_owncapital 1 #rarity 5 
 #req_fort 1 
@@ -8134,8 +7411,6 @@
 #req_nositenbr 1809 
 #addsite 1809 
 #end
-
-
 #newevent #msg "Deathremoval. [Sunken Agora]." 
 #rarity 5 
 #nation -2 
@@ -8146,7 +7421,6 @@
 #req_site 1
 #removesite 1807  
 #end
-
 #newevent #msg "Telkhinis3 [Sunken Agora]." 
 #req_owncapital 1  
 #rarity 5 
@@ -8158,7 +7432,6 @@
 #req_site 1
 #removesite 1807  
 #end
-
 #newevent #msg "Deathremoval. [Sunken Odeon]." 
 #req_owncapital 1  
 #rarity 5 
@@ -8170,7 +7443,6 @@
 #req_site 1
 #removesite 1808  
 #end
-
 #newevent 
 #msg "Telkhinis5 [Sunken Odeon]." 
 #req_owncapital 1 
@@ -8183,7 +7455,6 @@
 #req_site 1 
 #removesite 1808  
 #end
-
 #newevent #msg "Deathremoval. [Sunken Orchestra]." 
 #req_owncapital 1 
 #rarity 5 
@@ -8195,8 +7466,6 @@
 #req_site 1 
 #removesite 1809  
 #end
-
-
 #newevent 
 #msg "Nofort. [Sunken Agora]." 
 #rarity 5  
@@ -8206,7 +7475,6 @@
 #req_site 1
 #removesite 1807
 #end
-
 #newevent 
 #msg "Nofort. [Sunken Odeon]." 
 #rarity 5  
@@ -8216,19 +7484,13 @@
 #nolog   #req_site 1
 #removesite 1808 
 #end
-
 #newevent  #msg "Nofort. [Sunken Orchestra]." 
 #rarity 5  #req_fort 0 #nation -2 #notext #nolog  #req_site 1
 #removesite 1809 
 #end
-
 #newevent #msg "Enemy. [Sunken Agora]." #rarity 5 #req_notnation 95 #req_coast 1 #nation -2 #notext #nolog  #req_site 1 #removesite 1807 #end
-
 #newevent #msg "Enemy. [Sunken Odeon]." #rarity 5 #req_notnation 95 #req_coast 1 #nation -2 #notext #nolog  #req_site 1 #removesite 1808 #end
-
 #newevent  #msg "Enemy. [Sunken Orchestra]." #rarity 5 #req_notnation 95 #req_coast 1 #nation -2 #notext #nolog #req_site 1 #removesite 1809 #end
-
-
 #newsite 1812
 #name "Agora"
 #mon 6321
@@ -8250,29 +7512,20 @@
 #rarity 5
 #level 0
 #end
-
-
-
 #newevent #req_freesites 1 #msg "Agora.  [Agora]. " #req_nositenbr 1812 #rarity 5 #req_fort 1 #req_coast 1 #nation -2 #req_fornation 95 #notext #nolog #req_death 0 #req_growth -1  #addsite 1812 #end
 #newevent #req_freesites 1  #msg "Odeon. [Odeon]." #req_nositenbr 1810 #rarity 5 #req_fort 1 #req_coast 1  #nation -2 #req_fornation 95 #notext #nolog #req_growth 1 #req_death -2   #addsite 1810 #end
 #newevent #req_freesites 1  #msg "Orchestra. [Orchestra]." #req_nositenbr 1811 #rarity 5 #req_fort 1 #req_coast 1  #nation -2 #req_fornation 95 #notext #nolog #req_growth 3    #addsite 1811 #end
-
 #newevent #msg "Agora. [Agora]."  #rarity 5 #nation -2 #req_fornation 95 #notext #nolog #req_death 2 #req_site 1 #removesite 1812 #end
 #newevent #msg "Agora. [Agora]." #rarity 5 #nation -2 #req_fornation 95 #notext #nolog #req_growth 1 #req_site 1 #removesite 1812  #end
-
 #newevent #msg "Odeon. [Odeon]." #rarity 5 #nation -2 #req_fornation 95 #notext #nolog #req_death 0 #req_site 1 #removesite 1810 #end
 #newevent #msg "Odeon. [Odeon]." #rarity 5 #nation -2 #req_fornation 95 #notext #nolog #req_growth 3 #req_site 1 #removesite 1810  #end
-
 #newevent #msg "Orchestra. [Orchestra]." #rarity 5 #nation -2 #req_fornation 95 #notext #nolog #req_death -2 #req_site 1 #removesite 1811 #end
-
-
 #newevent #req_site 1 #msg "Agora. [Agora]." #rarity 5  #req_fort 0  #nation -2 #notext #nolog  #req_site 1 #removesite 1812 #end
 #newevent #req_site 1 #msg "Odeon. [Odeon]."  #rarity 5  #req_fort 0  #nation -2 #notext #nolog #req_site 1  #removesite 1810 #end
 #newevent #req_site 1 #msg "Orchestra. [Orchestra]."  #rarity 5  #req_fort 0  #nation -2 #notext #nolog #req_site 1  #removesite 1811 #end
 #newevent #req_site 1 #msg "Agora. [Agora]."  #rarity 5 #req_notnation 95  #nation -2 #notext #nolog #req_site 1  #removesite 1812 #end
 #newevent #req_site 1 #msg "Odeon. [Odeon]."  #rarity 5 #req_notnation 95  #nation -2 #notext #nolog #req_site 1   #removesite 1810 #end
 #newevent #req_site 1 #msg "Orchestra. [Orchestra]."  #rarity 5 #req_notnation 95  #nation -2 #notext #nolog #req_site 1   #removesite 1811 #end
-
 ---- Telkhine Poison
 #selectmonster 2873
 #incscale 3
@@ -8280,5 +7533,4 @@
 #selectmonster 2874
 #incscale 3
 #end
-
 
