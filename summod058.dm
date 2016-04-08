@@ -3003,90 +3003,14 @@
 
 #selectspell 744 --Abomination
 #fatiguecost 1500
-#end
-
-#newmonster 6316
-#copystats 197
-#name "eater summon1"
-#descr "this unit exists only to summon the eater of the dead"
-#immobile
-#end
-
-#newevent
-#rarity 5
-#nation -2
-#req_code 0
-#req_monster 6316
-#req_nomnr 994
-#msg "no eater 1"
-#nolog
-#code 57
-#notext
-#end
-
-#newevent
-#rarity 5
-#nation -2
-#req_nomnr 995
-#req_monster 6316
-#req_code 57
-#code 58
-#msg "no eater 2"
-#nolog
-#notext
-#end
-
-#newevent
-#rarity 5
-#nation -2
-#req_nomnr 996
-#req_monster 6316
-#req_code 58
-#code 59
-#msg "no eater 3"
-#notext
-#nolog
-#end
-
-#newevent
-#rarity 5
-#nation -2
-#req_nomnr 997
-#req_monster 6316
-#req_code 59
-#msg "You have successfully called the Eater of the Dead!"
-#nolog
-#com 994
-#end
-#newevent
-#rarity 0
-#nation -2
-#req_owncapital 1
-#nolog
-#req_code 59
-#msg "A foolish mage has disregarded the actions of the previous Pantokrator and called the Eater of the Dead into the world once more!"
-#end
-#newevent
-#rarity 5
-#nation -2
-#req_monster 6316
-#msg "sacrement executed"
-#nolog
-#killmon 6316
-#code 0
-#notext
-#end
-
-
+#en
 
 #selectspell 737 --eater of the dead
 #researchlevel 6 --testfix
 #fatiguecost 2500  --testfix
 #pathlevel 0 3
 #pathlevel 1 2
-#effect 10001
-#damage 6316
-#nreff 1 
+#effect 10089
 #end
 
 #selectmonster 994
@@ -3399,39 +3323,12 @@
 #fatiguecost 600
 #end
 
-#newmonster 6317
-#copystats 197
-#name "tarrasque summon1"
-#descr "this unit exists only to summon the tarrasque"
-#immobile
-#end
-
-#newevent
-#rarity 5
-#nation -2
-#req_nomnr 925
-#req_monster 6317
-#msg "You have successfully called the Tarrasque!"
-#nolog
-#com 925
-#end
-#newevent
-#rarity 5
-#nation -2
-#req_monster 6317
-#killmon 6317
-#nolog
-#notext
-#msg "Tarrasque summon attempted"
-#end
-
-
 #selectspell 748 -- Tarrasque  -5 Gemcost, summon as a commander instead of a unit, improved stats
 #fatiguecost 2000
-#effect 10001
-#damage 6317
+#effect 10089
 #researchlevel 6
 #end
+
 #selectmonster 925
 #heal
 #unique
@@ -3504,7 +3401,7 @@
 #selectspell 966
 #fatiguecost 1200
 #nreff 3
-#descr "The caster sacrifices several blood slaves to contact and bind three Serpent Fiends.  Serpent Fiends are bat-winged, serpent-like demons summoned from the abyss.  Their bite is highly  venemous."
+#descr "The caster sacrifices several blood slaves to contact and bind three Serpent Fiends.  Serpent Fiends are bat-winged, serpent-like demons summoned from the abyss.  Their bite is highly venemous."
 #end
 
 #selectspell 977 --succubus
@@ -3553,7 +3450,7 @@
 #copystats 240
 #copyspr 240
 #gcost 150
-#descr "Priests sometimes accompany armies, inspiring and blessing the soldiers.  Priests can also banish undead beings and demons.  This priest has required much higher wages to convince him to engage in reanimating corpses."
+#descr "Priests sometimes accompany armies, inspiring and blessing the soldiers.  Priests can also banish undead beings and demons.  This priest is receiving much higher monthly wages to convince him to engage in reanimating corpses."
 #end
 #newevent ---Bribe
 #rarity 5
