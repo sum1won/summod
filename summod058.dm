@@ -3218,7 +3218,7 @@
 #copyspell 767
 #researchlevel 9
 #name "Construct Poison Golem"
-#effect 21
+#effect 10021
 #damage 1099
 #spec 8388608
 #nreff 1
