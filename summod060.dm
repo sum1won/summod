@@ -1,6 +1,6 @@
-#modname "Summod 0.58"
+#modname "Summod 0.60"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.58
+#version 0.60
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -846,7 +846,6 @@
 
 #selectmonster 2103 --shark warrior
 #cleararmor --scale mail
-#weapon 20 --bite
 #armor 750 --laminated mail
 #end
 
@@ -2771,6 +2770,8 @@
 #weapon 29 
 #weapon 29
 #end
+
+)
 #newmonster 6304--unsettled watcher
 #copystats 768
 #copyspr 768
@@ -2815,7 +2816,7 @@
 #weapon 562
 #end
 #selectspell 808
-#effect 1
+#effect 10001
 #damage 6305
 #spec 8388608
 #descr "The mage creates a stone statue and gives it awareness and magical powers.  The Watcher must be transported to it's destination shortly after being created, where it will be given the task of guarding a landscape from prying eyes.  They have incredible vision and count as fifty soldiers when patrolling a province, but must be lead by a mage to function.  They can blast enemies with lightning, or swing at them with their stony fists if they approach the Watcher's pedestal."
@@ -6345,14 +6346,7 @@
 #req_owncapital 1
 #req_unique 1
 #end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your summons are generally discounted.  This message will save to your province history for reference."
-#req_fornation 69 --jomon
-#req_owncapital 1
-#req_unique 1
-#end
+
 #newevent 
 #rarity 5
 #nation -2 
@@ -6404,6 +6398,102 @@
 #selectmonster 69 --black knight
 #gcost 10025
 #end
+
+-------LA Nations
+--xibalba
+#selectnation 81
+#clearrec
+#addreccom 2675
+#addreccom 2676
+#addreccom 2748
+#addreccom 2750
+#addreccom 2751
+#addreccom 2753
+#addreccom 2782
+#addrecunit 2738
+#addrecunit 2739
+#addrecunit 2740
+#addrecunit 2741
+#addrecunit 2742
+#addrecunit 2744
+#addrecunit 2745
+#addrecunit 2746
+#forestcom 2751
+#forestcom 2782
+#forestrec 2738
+#forestrec 2739
+#caverec 2739
+#caverec 2738
+#uwunit1 2889
+#uwunit2 2890
+#uwcom1 2748
+#uwcom2 2891
+#cavecom 2782
+#cavecom 6315
+#end
+#newevent 
+#rarity 5
+#nation -2 
+#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your 7 gold zotz are now 8 gold, and they now carry a stone lance that does not rust but costs an extra resource.  Your Chilans recruitable in caves are now slowrec.  This message will save to your province history for reference."
+#req_fornation 81 
+#req_owncapital 1
+#req_unique 1
+#end
+#newmonster 6315 --chilancave
+#copystats 2750
+#slowrec
+#copyspr 2750
+#gcost 180
+#end
+#selectmonster 2738
+#clearweapons
+#weapon 1415
+#gcost 10008
+#end
+#selectmonster 2739
+#gcost 10008
+#end
+#selectmonster 2740
+#gcost 10009
+#end
+#selectmonster 2741
+#clearweapons
+#weapon 1415
+#end
+#selectnation 71
+#end
+
+--la abysia
+#newevent 
+#rarity 5
+#nation -2 
+#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your fire mages are cheaper or have better randoms.  You also have improved summons.  Your scorpionmen can serve as thugs, while you can summon rhuax children and get a special crossbreeding spell.  This message will save to your province history for reference."
+#req_fornation 71 
+#req_owncapital 1
+#req_unique 1
+#end
+#selectmonster 991 --newt
+#gcost 10000
+#end
+#selectmonster 1969 --anathemant salamander
+#custommagic 7296 20
+#gcost 10005
+#end
+#selectmonster 1970 --anathemant dragon
+#custommagic 7296 20
+#gcost 10010
+#end
+
+--LA Agartha
+#selectnation 70
+#end
+#selectmonster 1444 --blindlord
+#gcost 10025
+#magicskill 8 1
+#okleader
+#inspirational 1
+#end
+
 --LA Arco
 #selectmonster 1554 --agema commander
 #gcost 10015
@@ -6411,6 +6501,7 @@
 #selectmonster 1553 --companion
 #gcost 10015
 #end
+
 --LA Pythium
 #selectmonster 765 --serpent lord
 #gcost 10030
@@ -6418,10 +6509,12 @@
 #selectmonster 763 --serpent cata
 #gcost 10030
 #end
+
 --LAMan
 #selectmonster 1641 --tower knight
 #gcost 10020
 #end
+
 --LA Ulm
 #selectmonster 738 --black templar
 #gcost 10025
@@ -6429,19 +6522,93 @@
 #selectmonster 1237 --hochmeister
 #gcost 10000
 #end
+
+
 --jomon
+#selectnation 69
+#end
+#newevent 
+#rarity 5
+#nation -2 
+#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your summons are generally discounted, except for Tatsu, which are stronger.  Your samurai cavalry now carry bows, and you have ashigaru arcchers.  Finally, please note that your five signs are more potent, and units are generally improved or discounted in some way. This message will save to your province history for reference."
+#req_fornation 69 --jomon
+#req_owncapital 1
+#req_unique 1
+#end
+#newmonster 6309 -- ashigaru archer
+#copystats 1238
+#name "Ashigaru Archer"
+#copyspr 1312
+#clearweapons
+#weapon 377
+#weapon 23
+#end
 #selectmonster 1246 --samurai cav
-#gcost 10010
+#spr1 "./summod/SamuraiCav_1.tga"
+#spr2 "./summod/SamuraiCav_2.tga"
+#gcost 10015
+#weapon 24
 #end
 #selectmonster 1250 --mounted gokenin
+#spr1 "./summod/MountGokenin_1.tga"
+#spr2 "./summod/MountGokenin_2.tga"
 #gcost 10000
+#weapon 24
 #end
 #selectmonster 1251 --Hatamoto
+#spr1 "./summod/hatamoto_1.tga"
+#spr2 "./summod/hatamoto_2.tga"
+#gcost 10000
+#weapon 24
+#end
+#selectmonster 1253 --Daimyo
 #gcost 10000
 #end
-#selectmonster 1252 --Daimyo
-#gcost 10000
+#selectmonster 1239 --samurai archer
+#hp 10
 #end
+#selectmonster 1240 --samurai
+#hp 10
+#end
+#selectmonster 1241 --samurai
+#hp 10
+#end
+#selectmonster 1243  --oban
+#end
+#selectmonster 1244 --goatamato
+#end
+#selectmonster 1245 --akaoni sam
+#gcost 10014
+#end
+#selectmonster 1247 --sohei
+#gcost 1016
+#end
+#selectmonster 1248 --yamabushi
+#gcost 1016
+#end
+#selectmonster 2098 --fivefold path
+#custommagic 10112 20
+#end
+#selectspell 183 --meditation sign
+#damage 5015
+#end
+#selectspell 182
+#range 5010
+#end
+#selectspell 181
+#range 5000
+#end
+#selectspell 180
+#aoe 2002
+#end
+#selectspell 189 --tatsu
+#fatiguecost 2500
+#end
+#selectmonster 2099 --tatsu
+#clearmagic
+#custommagic 10112 300
+#end
+
 --Bogarus
 #selectmonster 1922 --Grdi Druzhina
 #gcost 10010
@@ -6456,6 +6623,7 @@
 #selectmonster 1925 --black hood
 #gcost 10000
 #end
+
 -------------popkill
 --Spectral changes
 #newweapon 1422
@@ -6792,6 +6960,7 @@
 #selectmonster 1640
 #gcost 0
 #end
+
 ------------------------------
 ------THERODOS CHANGES--------
 ------------------------------
