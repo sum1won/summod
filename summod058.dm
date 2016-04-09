@@ -2849,7 +2849,7 @@
 #weapon 562
 #end
 #selectspell 808
-#effect 1
+#effect 10001
 #damage 6305
 #spec 8388608
 #descr "The mage creates a stone statue and gives it awareness and magical powers.  The Watcher must be transported to it's destination shortly after being created, where it will be given the task of guarding a landscape from prying eyes.  They have incredible vision and count as fifty soldiers when patrolling a province, but must be lead by a mage to function.  They can blast enemies with lightning, or swing at them with their stony fists if they approach the Watcher's pedestal."
