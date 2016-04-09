@@ -2869,13 +2869,15 @@
 ---Astral
 #selectspell 744 --Abomination
 #fatiguecost 1500
-#en
+#end
+
 #selectspell 737 --eater of the dead
 #researchlevel 6 --testfix
 #fatiguecost 2500  --testfix
 #pathlevel 0 3
 #pathlevel 1 2
 #effect 10089
+#damage 994
 #end
 #selectmonster 994
 #shockres 5
@@ -2985,6 +2987,7 @@
 #selectspell 803 -- Behemoth
 #fatiguecost 800
 #end
+
 #selectmonster 1236 --leviathan
 #ap 6
 #mapmove 2
@@ -2992,81 +2995,74 @@
 #selectspell 849
 #fatiguecost 1000
 #end
-#newspell 
-#copyspell 767
-#researchlevel 9
-#name "Construct Poison Golem"
-#effect 21
-#damage 1099
-#spec 8388608
-#nreff 1
+
+#selectspell 767 --summon poison golem
+#effect 10021
+#damage 6301
 #fatiguecost 2500
 #path 0 5
 #path 1 3
 #pathlevel 0 4
 #pathlevel 1 2
 #end
-#selectspell 767
-#clear
-#name "poisongolemtransform"
-#effect 54
-#damage 6300
-#spec 8404992
-#end
-#newmonster 6300
-#copystats 1099
-#name "Poison Golem"
-#firstshape 1099
-#clearspec
-#pooramphibian
-#magicbeing
-#mor 50
-#inanimate
-#neednoteat
-#fireres 15
-#poisonres 25
+
+#selectmonster 1099
 #banefireshield 10
 #fear 10
 #leper 10
 #maxage 3000
 #pierceres
 #slashres
+#descr "A poison golem is a metal giant made of dark alloys from the Underworld. The poison golem is made for a single purpose, destruction, and its mere presence is harmful to the living. The very land in which it stays will slowly wither and die. The construct is always surrounded by sickly green flames of the Underworld, and can travel through the underwo outside of battle, improving its ability to avoid difficult terrain."
 #end
-#selectmonster 1099
+
+#newmonster 6300
+#copystats 1099
+#copyspr 1099
+#firstshape 6301
+#end
+
+#newmonster 6301
+#copystats 1099
+#copyspr 1099
 #teleport
-#onebattlespell 767
-#descr "A poison golem is a metal giant made of dark alloys from the underworld. The poison golem is made for a single purpose, destruction, and its mere presence is harmful to the living. The very land in which it stays will slowly wither and die, and it is surrounded by sickly green flames of the underworld.  Due to the nature of its construction, it can travel great distances through the underworld over the course of a month, though this ability acts too slowly to be used in combat."
-#att 11
-#pierceres
-#slashres
-#mapmove 4
+#shrinkhp 900
 #end
+
 #selectspell 817 -- Pale Riders
 #spec 8388608 -- UW+
 #end
+
 #selectspell 775 -- Reanimation
 #fatiguecost 100
 #nreff 4
 #end
+
 #selectspell 837 -- Reanimate Archers
 #fatiguecost 1000
 #nreff 2016
 #end
+
 #selectweapon 199 --banefire bow
 #armorpiercing
 #end
+
 #selectspell 792 -- Revenant
 #spec 8388608 -- UW+
 #end
+
 #selectspell 782 -- Revive King
 #spec 8388608 -- UW+
 #end
+
 #selectspell 645 -- Revive Wights
 #fatiguecost 1200
 #end
+
 #selectspell 838 -- Ziz
 #pathlevel 1 1
 #end
+
 ---Nature
 #selectspell 619 --summon animals
 #fatiguecost 800
@@ -3145,6 +3141,7 @@
 #selectspell 748 -- Tarrasque  -5 Gemcost, summon as a commander instead of a unit, improved stats
 #fatiguecost 2000
 #effect 10089
+#damage 925
 #researchlevel 6
 #end
 #selectmonster 925
@@ -3168,6 +3165,7 @@
 #shockres 2
 #descr "The Tarrasque is an ancient, poison-breathing dragon of tremendous size.  It has been reawakened by some mad mage who hopes that it will aid him in battle.  The tarrasque regenerates wounds, has an incredibly thick hide, devours those it attacks.  The simplest way to defeat the Tarrasque is to summon it to your side."
 #end
+
 ---Blood
 #selectspell 993 --blood rite
 #nreff 7
