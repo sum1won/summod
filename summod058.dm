@@ -3253,27 +3253,7 @@
 #rarity 5
 #nation -2
 #req_fornation 26
-#req_monster 240
-#req_targmnr 240
-#transform 6351
-#msg "Priest bribed"
-#nolog
-#notext
-#end
-#newevent ---Bribe
-#rarity 5
-#nation -2
 #req_fornation 34
-#req_monster 240
-#req_targmnr 240
-#transform 6351
-#msg "Priest bribed"
-#nolog
-#notext
-#end
-#newevent ---Bribe
-#rarity 5
-#nation -2
 #req_fornation 35
 #req_monster 240
 #req_targmnr 240
