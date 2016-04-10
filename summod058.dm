@@ -613,7 +613,7 @@
 #end
 
 -- POPTYPE CHANGES
-#newmonster 6301
+#newmonster 6413
 #copystats 1681
 #spr1 "./summod/apprentice_of_the_deep.tga"
 #spr2 "./summod/apprentice_of_the_deep_attacking.tga"
@@ -631,7 +631,7 @@
 #end
 
 #selectpoptype 57 -- Independant Shamblers get an atlantean mage
-#addreccom 6301
+#addreccom 6413
 #end
 
 
