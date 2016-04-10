@@ -3019,7 +3019,7 @@
 #newmonster 6301
 #copystats 1099
 #copyspr 1099
-#firstshape 6301
+#firstshape 6300
 #end
 
 #newmonster 6300
