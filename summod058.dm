@@ -6342,7 +6342,7 @@
 #end
 #selectspell 340 --tlahuelpuchi
 #path 0 7
-#pathlevevel 0 2
+#pathlevel 0 2
 #path 1 5
 #pathlevel 1 2
 #end
