@@ -1741,6 +1741,10 @@ Addition ?abysian crossbreeding? (abysian themed version of the crossbreeding sp
 
 GoRing Demonspawn results in either a misbred commander (if they have afflictions), a blood hunter, or an assassin.
 
+Newts discounted by 15 gold
+Anathemant Salamanders discounted by 15 gold, given 0.2 additional random
+Anathemant Dragons Discounted by 15 gold, given 0.2 additional random
+
 ###### Caelum, Return of the Raptors
 
 ###### C'tis, Desert Tombs
@@ -1785,8 +1789,15 @@ Sandhyabalas 3 -> 4 summoned
 
 ###### Gath, Last of the Giants
 ###### Ragha, Dual Kingdom
+
 ###### Xibalba, Return of the Zotz
 Beastbats 1.44 siege defense from 2.44.
+
+Chilans Recruited in Caves are STR
+
+Zotz lances are stone, and cost +1 resources
+
+Zotz cost a minimum of 8 gold.
 
 ###### Atlantis, Frozen Sea
 
