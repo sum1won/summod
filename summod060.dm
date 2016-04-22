@@ -5537,8 +5537,8 @@
 #newevent #nation -2 #rarity 5 #req_pop0ok  #req_site 1 #msg "Site removed [Hiding Place]." #notext #removesite 1801 #nolog #end	
 ------MA Man
 #selectnation 37
-#addreccom 6452
-#startcom 6452
+#addreccom 6470
+#startcom 6470
 #startunittype1 61
 #startunittype2 59
 #startunitnbrs1 10 
@@ -5566,20 +5566,20 @@
 #gcost 10035
 #firstshape  6456
 #end
-#newmonster 6454 --(Knight Commander of Avvalon)--
+#newmonster 6472 --(Knight Commander of Avvalon)--
 #copystats 2128
 #copyspr 2128
 #xpshape 60
 #gcost 10040
 #end
-#newmonster 6455 --(Knight Commander of Avvalon)--
+#newmonster 6473 --(Knight Commander of Avvalon)--
 #copystats 2128
 #copyspr 2128
 #descr "The Knights of Avalon ride the legendary Unicorns of Avalon, mounts of unsurpassed speed trained by the Witch Mothers. Clad in the brightest silver and enchanted by the Witches, the Knights of Avalon radiate confidence and resolve. The mystical power of their mounts protects them from long-lasting battle wounds. Due to exceptional feats this knight may be accepted into the Earth if there is a vacancy."
 #end
 #selectmonster 2128 --Knight Commander
 #gcost 10040
-#firstshape 6454
+#firstshape 6472
 #end
 #selectmonster 2129 --Logrian cav
 #gcost 10005
@@ -5656,7 +5656,7 @@
 #newevent #msg "Enemy. [Forest Glade]." 
 #rarity 5 #req_notnation 37 #nation -2 #notext #nolog  #req_site 1 #removesite 1813 
 #end
-#newmonster 6452 --(Knight Commander)
+#newmonster 6470 --(Knight Commander)
 #copystats 57
 #spr1 "./summod/knightcom_1.tga"
 #spr2 "./summod/knightcom_2.tga"
@@ -5668,23 +5668,15 @@
 #att 13
 #xpshape 150
 #end
-#newmonster 6453
-#copystats 6452
-#copyspr 6452
+#newmonster 6471
+#copystats 6470
+#copyspr 6470
+#firstshape 6473
 #end
 #newevent --1--
 #rarity 5
 #req_fornation 37
-#req_targmnr 6455
-#nation -2
-#nolog
-#msg "This knight has committed enough valorous deeds to be admitted to the Knights of Earth, a storied company of mighty men!" 
-#transform 6457
-#end
-#newevent --2--
-#rarity 5
-#req_fornation 37
-#req_targmnr 6453
+#req_targmnr 6473
 #nation -2
 #nolog
 #msg "This knight has committed enough valorous deeds to be admitted to the Knights of Earth, a storied company of mighty men!" 
@@ -5891,7 +5883,7 @@
 #name "Knight of Recruits"
 #spr1 "./summod/roundkay_1.tga"
 #spr2 "./summod/roundkay_2.tga"
-#batstartsum1 6452
+#batstartsum1 57
 #descr "A Knight of the Earth, gallant and bold, the Knight of Recruits mentors inexperienced knights."
 #end
 #newmonster 6462 --6 Galahad--
