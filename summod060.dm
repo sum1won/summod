@@ -4843,6 +4843,7 @@
 #ap 12
 #montag 1306
 #end
+
 #newmonster 6342
 #copystats 808
 #copyspr 808
@@ -4852,6 +4853,12 @@
 #magicskill 8 1
 #custommagic 3584 100
 #end
+
+#selectmonster 805 -eunuch
+#gcost 10040
+#makemonsters1 -1304
+#end
+
 #newmonster 6333
 #name "Conscript Footman"
 #copystats 794
@@ -5023,6 +5030,8 @@
 #selectmonster 797
 #montag 1313
 #end
+
+
 --------Machaka
 #selectnation 43
 #startunitnbrs1 20
