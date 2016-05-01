@@ -1,6 +1,6 @@
-#modname "Summod 0.58"
+#modname "Summod 0.59"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.58
+#version 0.59
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -613,7 +613,7 @@
 #end
 
 -- POPTYPE CHANGES
-#newmonster 6301
+#newmonster 6413
 #copystats 1681
 #spr1 "./summod/apprentice_of_the_deep.tga"
 #spr2 "./summod/apprentice_of_the_deep_attacking.tga"
@@ -631,7 +631,7 @@
 #end
 
 #selectpoptype 57 -- Independant Shamblers get an atlantean mage
-#addreccom 6301
+#addreccom 6413
 #end
 
 
@@ -2849,7 +2849,7 @@
 #weapon 562
 #end
 #selectspell 808
-#effect 1
+#effect 10001
 #damage 6305
 #spec 8388608
 #descr "The mage creates a stone statue and gives it awareness and magical powers.  The Watcher must be transported to it's destination shortly after being created, where it will be given the task of guarding a landscape from prying eyes.  They have incredible vision and count as fifty soldiers when patrolling a province, but must be lead by a mage to function.  They can blast enemies with lightning, or swing at them with their stony fists if they approach the Watcher's pedestal."
@@ -2998,7 +2998,7 @@
 
 #selectspell 767 --summon poison golem
 #effect 10021
-#damage 6301
+#damage 6300
 #fatiguecost 2500
 #path 0 5
 #path 1 3
@@ -3016,13 +3016,13 @@
 #descr "A poison golem is a metal giant made of dark alloys from the Underworld. The poison golem is made for a single purpose, destruction, and its mere presence is harmful to the living. The very land in which it stays will slowly wither and die. The construct is always surrounded by sickly green flames of the Underworld, and can travel through the underwo outside of battle, improving its ability to avoid difficult terrain."
 #end
 
-#newmonster 6300
+#newmonster 6301
 #copystats 1099
 #copyspr 1099
-#firstshape 6301
+#firstshape 6300
 #end
 
-#newmonster 6301
+#newmonster 6300
 #copystats 1099
 #copyspr 1099
 #teleport
@@ -3253,27 +3253,7 @@
 #rarity 5
 #nation -2
 #req_fornation 26
-#req_monster 240
-#req_targmnr 240
-#transform 6351
-#msg "Priest bribed"
-#nolog
-#notext
-#end
-#newevent ---Bribe
-#rarity 5
-#nation -2
 #req_fornation 34
-#req_monster 240
-#req_targmnr 240
-#transform 6351
-#msg "Priest bribed"
-#nolog
-#notext
-#end
-#newevent ---Bribe
-#rarity 5
-#nation -2
 #req_fornation 35
 #req_monster 240
 #req_targmnr 240
@@ -6342,7 +6322,7 @@
 #end
 #selectspell 340 --tlahuelpuchi
 #path 0 7
-#pathlevevel 0 2
+#pathlevel 0 2
 #path 1 5
 #pathlevel 1 2
 #end
