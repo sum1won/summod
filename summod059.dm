@@ -4074,7 +4074,7 @@
 #restricted 89
 #descr "By performing this ritual, the caster calls upon the favor of Limne in invading the surface world.  They are granted amulets enabling them to go on land."
 #school 3
-#researchlevel 0
+#researchlevel 6
 #path 0 2
 #pathlevel 0 4
 #path 1 0
