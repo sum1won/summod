@@ -4046,7 +4046,7 @@
 #end
 #newevent
 #rarity 5
-#req_monster 6354
+#req_monster 6344
 #nation -2
 #magicitem 9
 #msg "Amulet of the Fish. [Amulet of the Fish]." #notext #nolog
