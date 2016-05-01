@@ -3991,7 +3991,7 @@
 ---EA UW--
 ---Add mass airbreathing item spell
 ---Mass Airbreathing spell ---
-#newmonster 6354
+#newmonster 6344
 #copystats 197
 #name "sacrement of limne"
 #descr "this unit exists only to provide sacrement to limne"
@@ -4010,11 +4010,12 @@
 #path 1 0
 #pathlevel 1 0
 #effect 10001
-#damage 6354
+#damage 6344
 #fatiguecost 1000
 #nreff 1
 #spec 8388608
 #end
+
 #newevent
 #rarity 5
 #req_monster 6344
