@@ -4027,12 +4027,46 @@
 ---EA UW--
 ---Add mass airbreathing item spell
 ---Mass Airbreathing spell ---
-#newmonster 6354
+
+#newmonster 6414
+#copystats 197
+#name "sacrement of limne"
+#descr "this unit exists only to provide sacrement to limne"
+#firstshape 6415
+#immobile
+#end
+
+#newmonster 6415
+#copystats 197
+#name "sacrement of limne"
+#descr "this unit exists only to provide sacrement to limne"
+#firstshape 6416
+#immobile
+#end
+
+#newmonster 6416
+#copystats 197
+#name "sacrement of limne"
+#descr "this unit exists only to provide sacrement to limne"
+#firstshape 6417
+#immobile
+#end
+
+#newmonster 6417
+#copystats 197
+#name "sacrement of limne"
+#descr "this unit exists only to provide sacrement to limne"
+#firstshape 6418
+#immobile
+#end
+
+#newmonster 6418
 #copystats 197
 #name "sacrement of limne"
 #descr "this unit exists only to provide sacrement to limne"
 #immobile
 #end
+
 #newspell
 #name "Blessing of Limne"
 #restricted 84
@@ -4040,53 +4074,59 @@
 #restricted 89
 #descr "By performing this ritual, the caster calls upon the favor of Limne in invading the surface world.  They are granted amulets enabling them to go on land."
 #school 3
-#researchlevel 6
+#researchlevel 0
 #path 0 2
 #pathlevel 0 4
 #path 1 0
 #pathlevel 1 0
 #effect 10001
-#damage 6354
+#damage 6418
 #fatiguecost 1000
 #nreff 1
 #spec 8388608
 #end
+
 #newevent
 #rarity 5
-#req_monster 6344
+#req_monster 6414
 #nation -2
 #magicitem 9
 #msg "Amulet of the Fish. [Amulet of the Fish]." #notext #nolog
 #end
+
 #newevent
 #rarity 5
-#req_monster 6344
+#req_monster 6415
 #nation -2
 #magicitem 9
 #msg "Amulet of the Fish. [Amulet of the Fish]." #notext #nolog
 #end
-#newevent 
-#rarity 5
-#req_monster 6344
-#nation -2
-#magicitem 9
-#msg "Amulet of the Fish. [Amulet of the Fish]." #notext #nolog
-#end
+
 #newevent
 #rarity 5
-#req_monster 6344
+#req_monster 6416
 #nation -2
 #magicitem 9
 #msg "Amulet of the Fish. [Amulet of the Fish]." #notext #nolog
 #end
+
 #newevent
 #rarity 5
-#req_monster 6354
+#req_monster 6417
 #nation -2
 #magicitem 9
 #msg "Amulet of the Fish. [Amulet of the Fish]." #notext #nolog
-#killmon 6344
 #end
+
+#newevent
+#rarity 5
+#req_monster 6418
+#nation -2
+#magicitem 9
+#msg "Amulet of the Fish. [Amulet of the Fish]." #notext #nolog
+#killmon 6418
+#end
+
 ---atlantis ea
 #newevent 
 #rarity 5
