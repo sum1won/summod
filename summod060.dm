@@ -4065,7 +4065,7 @@
 #copystats 1692
 #name "Shambler Reefmage"
 #descr "Shambler Reefmages are the leaders of the coastal communities.  Due to the dangers of becoming a Mage of the Deeps, some shambler mages leave the deeps and join reef communities.  Although they're not as magically powerful, they've impressed the reefdwellers with their strength and serve as leaders to those communities, but are disliked by the rest of the Atlantean magical community.  They can be recruited in coastal castles."
-#gcost 10030
+#gcost 10040
 #spr1 "./summod/shallowmage1.tga"
 #spr2 "./summod/shallowmage2.tga"
 #clearmagic
@@ -4075,6 +4075,7 @@
 #weapon 31
 #armor 24
 #okleader
+#researchbonus -3
 #end
 #selectnation 83 --atlantis
 #coastcom2 6350
@@ -6635,9 +6636,9 @@
 
 
 #selectnation 74-- LA PAN
-#forestrec 227 --satyr sneak
-#forestrec 228  --satyr
-#forestrec 229
+#forestrec 6311 --satyr sneak
+#forestrec 6312  --satyr
+#forestrec 6313
 #forestrec 6310
 #forestcom 430
 #forestcom 705
