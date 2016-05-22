@@ -6603,6 +6603,74 @@
 #gcost 10000
 #end
 
+
+#selectnation 74-- LA PAN
+#forestrec 227 --satyr sneak
+#forestrec 228  --satyr
+#forestrec 229
+#forestrec 6310
+#forestcom 430
+#forestcom 705
+#end
+
+#newmonster 6311 --forestrec satyr clone
+#copystats 227
+#copyspr 227
+#firstshape 227
+#reclimit 5
+#end
+
+#newmonster 6312 --forestrec satyr clone
+#copystats 228
+#copyspr 228
+#firstshape 228
+#reclimit 5
+#end
+
+#newmonster 6313 --forestrec satyr clone
+#copystats 229
+#copyspr 229
+#firstshape 229
+#reclimit 5
+#end
+
+#newmonster 6310 --forestrec harpy clone
+#copystats 239
+#copyspr 239
+#firstshape 239
+#name "Harpy"
+#reclimit 5
+#end
+
+#selectmonster 702--minotaur  5 gold discount
+#gcost 10045
+#end
+
+#selectmonster 700 --minotaur  5 gold discount
+#gcost 10035
+#end
+
+--note: These next 3 are ea, ma pan/aspho changes for consistency with minotaur changes
+#selectmonster 235--minotaur  5 gold discount
+#gcost 10045
+#end
+
+#selectmonster 234--minotaur  5 gold discount
+#gcost 10035
+#end
+
+#selectmonster 1533--minotaur  5 gold discount
+#gcost 10035
+#end
+
+#selectmonster 706 --Pan random increased to 30%
+#clearmagic
+#magicskill 3 2
+#magicskill 6 3
+#custommagic 29696 30
+#end
+
+
 -------------popkill
 --Spectral changes
 #newweapon 1422
