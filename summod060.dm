@@ -6400,6 +6400,70 @@
 #end
 
 -------LA Nations
+
+#selectnation 80 --ragha
+#defunit1 2579
+#defunit2 2580
+#defmult1 25 --paighans makeup more of the pd
+#defmult2 10 --turan infantry  make up less of it
+#end
+
+#newmonster 6316 --zhayedan cost 75 gold each time they die
+#copystats 2628
+#copyspr 2628
+#gold -75
+#size 5
+#end
+#selectmonster 2628
+#firstshape 6316
+#gold -75
+#end
+
+#selectmonster 2599 --karapan
+#gcost 10020 --100 gold to 110 gold
+#end
+
+#selectmonster 2601 --turan sorceror
+#heatrec 2
+#gcost 10060 -- 225 gcost->265 gcost
+#end
+
+#selectmonster 2602 --athravan
+#coldrec 1
+#end
+
+#selectmonster 2604 --airya seraph
+#coldrec 2
+#gcost 10050 --225 gcost to 265 gcost
+#end
+
+#selectmonster 2579 --paighan
+#gcost 10009 --cost increased by one, morale dropped by 1
+#mor 8
+#end
+
+#selectmonster 2580 --turan infantry
+#gcost 10012
+#end
+
+#selectmonster 2581 --turan heavies
+#gcost 10014
+#end
+
+#selectmonster 2586 --turan war elephant
+#gcost 10010
+#end
+
+#selectmonster 2589 --airya archer
+#gcost 10011
+#end
+#selectmonster 2590 --airya light infantry
+#gcost 10011
+#end
+#selectmonster 2591 --airya infantry
+#gcost 10011
+#end
+
 --xibalba
 #selectnation 81
 #clearrec
