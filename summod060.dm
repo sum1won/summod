@@ -6502,6 +6502,16 @@
 #gcost 10000
 #end
 
+--LA Marignon
+#selectnation 65
+#startingunittype1 2110
+#startingunittype2 2108
+#end
+
+#selectmonster 745 -goetic master
+#masterrit 1
+#end
+
 
 --jomon
 #selectnation 69
