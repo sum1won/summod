@@ -1669,6 +1669,10 @@ Angelic Host S5->S4F1, 50->40 pearls
 
 Heavely Choir ->S5F3, 88 pearls, choir angels now get an anti-undead ranged attack
 
+Starting Army city guard -> Pikeneers
+
+Goetic Masters Ritual Master
+
 ###### Mictlan, Blood and Rain
 sun warriors cost 18->15; Hp 12->13; Strength 10->11
 
@@ -1742,7 +1746,9 @@ Addition ?abysian crossbreeding? (abysian themed version of the crossbreeding sp
 GoRing Demonspawn results in either a misbred commander (if they have afflictions), a blood hunter, or an assassin.
 
 Newts discounted by 15 gold
+
 Anathemant Salamanders discounted by 15 gold, given 0.2 additional random
+
 Anathemant Dragons Discounted by 15 gold, given 0.2 additional random
 
 ###### Caelum, Return of the Raptors
@@ -1750,6 +1756,13 @@ Anathemant Dragons Discounted by 15 gold, given 0.2 additional random
 ###### C'tis, Desert Tombs
 
 ###### Pangaea, New Era
+Dryads forestrec
+
+Black Harpies forest rec
+
+Harpies forest rec, reclimit in forest
+
+Unarmored satyrs forestrec, reclimit in forest
 
 ###### MidgÃÂ¥rd, Age of Men
 
