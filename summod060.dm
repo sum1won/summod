@@ -6274,10 +6274,10 @@
 #end
 #selectmonster 2414 --ichtyaur
 #weapon 331
-#gcost 10035
+#gcost 10040
 #end
 #selectmonster 2415 --ichtyaur
-#gcost 10035
+#gcost 10040
 #end
 --------Eriu
 #selectnation 38
