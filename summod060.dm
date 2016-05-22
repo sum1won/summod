@@ -5571,6 +5571,7 @@
 #newmonster 6456 --avalon clone
 #copystats 64
 #copyspr 64
+#size 3
 #xpshape 150
 #gcost 10035
 #end
@@ -5581,12 +5582,14 @@
 #newmonster 6472 --(Knight Commander of Avvalon)--
 #copystats 2128
 #copyspr 2128
-#xpshape 60
+#size 3
+#xpshape 30
 #gcost 10040
 #end
 #newmonster 6473 --(Knight Commander of Avvalon)--
 #copystats 2128
 #copyspr 2128
+#size 3
 #descr "The Knights of Avalon ride the legendary Unicorns of Avalon, mounts of unsurpassed speed trained by the Witch Mothers. Clad in the brightest silver and enchanted by the Witches, the Knights of Avalon radiate confidence and resolve. The mystical power of their mounts protects them from long-lasting battle wounds. Due to exceptional feats this knight may be accepted into the Earth if there is a vacancy."
 #end
 #selectmonster 2128 --Knight Commander
@@ -5678,7 +5681,8 @@
 #command -20
 #hp 13
 #att 13
-#xpshape 150
+#size 3
+#xpshape 75
 #end
 #newmonster 6471
 #copystats 6470
@@ -5830,8 +5834,9 @@
 #descr "A Knight of the Earth, gallant and bold, entrusted with special duties and honours.  Knights of the Earth who are commanders are eligible for a special seat if one is open."
 #spr1 "./summod/roundgeneric_1.tga"
 #spr1 "./summod/roundgeneric_2.tga"
-#hp 17
-#gcost 120
+#hp 20
+#size 3
+#gcost 70
 #mr 14
 #mor 18
 #att 14
@@ -5864,6 +5869,7 @@
 #att 16
 #def 16
 #mor 20
+#size 3
 #descr "A Knight of the Earth, gallant and bold, the Knight of the Lake is known for exceptional prowess in combat."
 #end
 #newmonster 6458 --2 Percival--
@@ -5872,6 +5878,7 @@
 #spr1 "./summod/roundperc_1.tga"
 #spr2 "./summod/roundperc_2.tga"
 #autohealer 1
+#size 3
 #descr "A Knight of the Earth, gallant and bold, the Knight of the Chalice is trusted with healing the wounded."
 #end
 #newmonster 6459 --3 Degore--
@@ -5879,7 +5886,8 @@
 #name "Knight of the Cup"
 #spr1 "./summod/rounddegore_1.tga"
 #spr2 "./summod/rounddegore_2.tga"
-#supplybonus 20
+#supplybonus 2
+#size 3
 #descr "A Knight of the Earth, gallant and bold, the Knight of the Cup is entrusted with ensuring the troops are well-provisioned."
 #end
 #newmonster 6460 --4 Bedivere--
@@ -5888,6 +5896,8 @@
 #spr1 "./summod/roundbediv_1.tga"
 #spr2 "./summod/roundbediv_2.tga"
 #str 17
+#hp 22
+#size 3
 #descr "A Knight of the Earth, gallant and bold, the Mighty Knight is among the strongest of his company"
 #end
 #newmonster 6461 --5 Kay--
@@ -5897,12 +5907,14 @@
 #spr2 "./summod/roundkay_2.tga"
 #batstartsum1 57
 #descr "A Knight of the Earth, gallant and bold, the Knight of Recruits mentors inexperienced knights."
+#size 3
 #end
 #newmonster 6462 --6 Galahad--
 #copystats 6457
 #name "Pious Knight"
 #spr1 "./summod/roundgala_1.tga"
 #spr2 "./summod/roundgala_2.tga"
+#size 3
 #holy
 #magicskill 8 1
 #descr "A Knight of the Earth, gallant and bold, entrusted with special duties and honours, the Pious Knight is among the holiest of his company."
@@ -5912,6 +5924,7 @@
 #name "Fearless Knight"
 #spr1 "./summod/roundbors_1.tga"
 #spr2 "./summod/roundbors_2.tga"
+#size 3
 #mor 30
 #descr "A Knight of the Earth, gallant and bold, the Fearless Knight is the bravest of his comrades."
 #end
@@ -5921,6 +5934,7 @@
 #spr1 "./summod/roundgawa_1.tga"
 #spr2 "./summod/roundgawa_2.tga"
 #magicskill 6 1
+#size 3
 #descr "A Knight of the Earth, gallant and bold, the Maiden Knight is known for his knowledge of herbs."
 #userestricteditem 1102
 #end
@@ -5929,6 +5943,7 @@
 #name "Courtly Knight"
 #spr1 "./summod/roundtrist_1.tga"
 #spr2 "./summod/roundtrist_2.tga"
+#size 3
 #seduce 10
 #descr "A Knight of the Earth, gallant and bold, entrusted with special duties and honours, the Courtly Knights manners are beyond reproach."
 #end
@@ -5939,6 +5954,7 @@
 #spr2 "./summod/roundbrun_2.tga"
 #descr "A Knight of the Earth, gallant and bold, entrusted with special duties and honours, the Untiring Knight is not easily exhuasted in battle."
 #enc 2
+#size 3
 #end
 #newmonster 6467 --11 Hector--
 #copystats 6457
@@ -5947,6 +5963,7 @@
 #spr2 "./summod/roundhect_2.tga"
 #descr "A Knight of the Earth, gallant and bold, the Passionate Knight follows his heart into battle."
 #berserk 4
+#size 3
 #end
 #newmonster 6468 --12 Robin--
 #copystats 6457
@@ -5954,6 +5971,7 @@
 #spr1 "./summod/roundrobin_1.tga"
 #spr2 "./summod/roundrobin_2.tga"
 #mor 8
+#size 3
 #batstartsum1d6 658
 #ap 35
 #descr "A Knight of the Earth, gallant and bold, entrusted with special duties and honours, the Brave Knight is renowned for his speed when combat is near."
