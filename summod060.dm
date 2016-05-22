@@ -6523,6 +6523,15 @@
 #gcost 10000
 #end
 
+--la tc
+#selectmonster 938 --barb horse
+#gcost 10002 --3 gold discount to 17
+#end
+
+#selectmonster 930 --khan
+#gcost 10015 --10 gold discount
+#end
+
 --LA Marignon
 #selectnation 65
 #startingunittype1 2110
