@@ -1184,6 +1184,8 @@ Shaman Prophetshape gets a small magicboost
 
 ###### Pangaea, Age of Revelry
 
+Minotaurs 5 gold discount
+
 ###### Agartha, Pale Ones
 
 ###### Tir na n'Og, Land of the Ever Young
@@ -1514,9 +1516,13 @@ Shaman Prophetshape gets a small magicboost
 
 ###### Pangaea, Age of Bronze
 
+Minotaurs 5 gold discount
+
 ###### Asphodel, Carrion Woods
 
 Spawns occasional N1 sites on sufficiently decayed templed forest provinces
+
+Minotaurs 5 gold discount
 
 ###### Vanheim, Arrival of Man
 
@@ -1763,6 +1769,10 @@ Black Harpies forest rec
 Harpies forest rec, reclimit in forest
 
 Unarmored satyrs forestrec, reclimit in forest
+
+Pan random is 10%->30%
+
+Minotaurs 5 gold discount
 
 ###### MidgÃÂ¥rd, Age of Men
 
