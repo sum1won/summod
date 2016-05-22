@@ -6411,12 +6411,12 @@
 #newmonster 6316 --zhayedan cost 75 gold each time they die
 #copystats 2628
 #copyspr 2628
-#gold -75
+#gold -40
 #size 5
 #end
 #selectmonster 2628
 #firstshape 6316
-#gold -75
+#gold -40
 #end
 
 #selectmonster 2599 --karapan
