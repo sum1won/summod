@@ -1814,7 +1814,7 @@ Sandhyabalas 3 -> 4 summoned
 ###### Ragha, Dual Kingdom
 PD shifted to be worse
 
-Zhayedans cost 75 gold each time they lose a rider
+Zhayedans cost 40 gold each time they lose a rider
 
 Karapans cost 10 gold more
 
