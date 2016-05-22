@@ -1802,6 +1802,25 @@ Sandhyabalas 3 -> 4 summoned
 
 ###### Gath, Last of the Giants
 ###### Ragha, Dual Kingdom
+PD shifted to be worse
+
+Zhayedans cost 75 gold each time they lose a rider
+
+Karapans cost 10 gold more
+
+Athravans are coldrec 1, to reduce flying sacred parties
+
+Turan Sorcerors are heatrec 2, 225->265 gold
+
+Airya Seraphs are coldrec 2, 225->265 gold
+
+Paighans have militia morale, are 8->9 gold
+
+Turan infantry are all +1 goldcost
+
+Turan Elephants are +10 goldcost
+
+Airya archers and infantry are +1 goldcost
 
 ###### Xibalba, Return of the Zotz
 Beastbats 1.44 siege defense from 2.44.
