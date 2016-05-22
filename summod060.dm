@@ -7067,43 +7067,52 @@
 #gcost 0
 #end
 #selectmonster 1563
-#gcost 0
 #end
 #selectmonster 1564
 #gcost 0
 #end
 #selectmonster 1566
 #gcost 0
+#resources 1
 #end
 #selectmonster 1567
 #gcost 0
+#resources 1
 #end
 #selectmonster 1568
 #gcost 0
+#resources 1
 #end
 #selectmonster 1569
 #gcost 0
+#resources 1
 #end
 #selectmonster 1570
 #gcost 0
+#resources 1
 #end
 #selectmonster 1571
 #gcost 0
+#resources 1
 #end
 #selectmonster 1572
 #gcost 0
+#resources 1
 #end
 #selectmonster 1573
 #gcost 0
+#resources 1
 #end
 #selectmonster 1574
 #gcost 0
+#resources 1
 #end
 #selectmonster 1575
 #gcost 0
 #end
 #selectmonster 1576
 #gcost 0
+#resources 1
 #end
 #selectmonster 1639
 #gcost 0
