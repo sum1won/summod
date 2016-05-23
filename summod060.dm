@@ -3264,7 +3264,7 @@
 #newevent 
 #rarity 5
 #nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  In addition to improvements to your anathements, you have several changes to summons.  You can now summon magma children in caves, scorpion men can be summoned as commanders, and you have a custom crossbreeding spell.  The crossbreeding spell produces abysian themed summons.  Promoting demonspawn to commanders allows them to lead misbred or sometimes even cast spells, but be warned that this process is lethal for afflicted demonspawn.  This message will repeat for one turn, and save to your province history for reference."
+#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  In addition to improvements to your anathements, you have several changes to summons.  You can now summon magma children in caves, scorpion men can be summoned as commanders, and you have a custom crossbreeding spell.  The crossbreeding spell produces abysian themed summons.  Promoting demonspawn to commanders allows them to lead misbred or sometimes even cast spells, but be warned that it only works on the unafflicted.  This message will repeat for one turn, and save to your province history for reference."
 #req_fornation 13 
 #req_owncapital 1
 #req_unique 1
@@ -3301,7 +3301,7 @@
 #selectmonster 1536 --ea demonbred
 #douse 1
 #end
-#newmonster 6900	 #copystats 1661 #name "Demonspawn"		 #copyspr 1661		 	#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The least flawed Demonspawn are selected as part of the Demonbred program, and the remainder are known as Misbred.  Demonspawn radiate the hellish heat characteristic of Abysians, but must be led by a mage or commander with undead leadership.  Some Demonspawn have a talent for magic."	 	#poorundeadleader #startaff 75	 #custommagic 16384 50			#douse 1						 		 #montag 1303 
+#newmonster 6900	 #copystats 1661 #name "Demonspawn"		 #copyspr 1661		 	#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The least flawed Demonspawn are selected as part of the Demonbred program, and the remainder are known as Misbred.  Demonspawn radiate the hellish heat characteristic of Abysians, but must be led by a mage or commander with undead leadership.  Some Demonspawn have a talent for magic."	 	#poorundeadleader #startaff 50	 #custommagic 16384 50			#douse 1						 		 #montag 1303 
 #end				
 #newmonster 6901	 #copystats 983	 #name "Humanspawn"		 #copyspr 983		#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The Humanspawn frequently result from such experiments.  They breed true and grow quickly, making them useful in warfare.  They share the Abysian resistance to heat, but their flesh is cooler and will will not incinerate their own equiment.  The least flawed on the Humanspawn may serve as breeding stock for the Humanbred program."		 		 #slave	 #startaff 20	 #gcost 4	 #mor 10							 		 #montag 1303 
 #end			
