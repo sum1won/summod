@@ -3169,14 +3169,6 @@
 -------nations-------
 ----EA Nerfed Nations
 ---- Lanka
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your Bandar, sanhyabalas, and samanishada received a slight discount.  However, your Dakini are 33% more expensive to summon, and independent priests you recruit will have a higher upkeep cost.  This message will repeat for one turn, and save to your province history for reference."
-#req_fornation 26 
-#req_owncapital 1
-#req_unique 1
-#end
 #selectnation 26 ---lanka
 #end
 #selectspell 369 --summon dakini
@@ -3238,14 +3230,6 @@
 #selectmonster 2736 --onaqui
 #incunrest 7
 #end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your 7 gold zotz are now 8 gold, and cost a minimum of 2 resources.  Beastbats are no longer as effective at siege defense.  Your bloodhunters will produce slightly more unrest, and Ah Nakom cost +5 gold.  This message will repeat for one turn, and save to your province history for reference."
-#req_fornation 31 
-#req_owncapital 1
-#req_unique 1
-#end
 ---Therodos
 --removed pending patch.  See v.34 and earlier for changes; alternatively reference thed dudes work
 ----EA: Buffed Nations------
@@ -3255,11 +3239,6 @@
 #newevent 
 #rarity 5
 #nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  In addition to improvements to your anathements, you have several changes to summons.  You can now summon magma children in caves, scorpion men can be summoned as commanders, and you have a custom crossbreeding spell.  The crossbreeding spell produces abysian themed summons.  Promoting demonspawn to commanders allows them to lead misbred or sometimes even cast spells, but be warned that it only works on the unafflicted.  This message will repeat for one turn, and save to your province history for reference."
-#req_fornation 13 
-#req_owncapital 1
-#req_unique 1
-#end
 #selectspell 196 --summon scorpion man
 #effect 10021 --summons as commander instead of as unit
 #fatiguecost 1000
@@ -3653,14 +3632,6 @@
 #startunittype2 1508
 #startunitnbrs2 10
 #end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your Helkarls now get an Air/Death random.  Your Valkyrie summon is more effective.  Your Draugar are superior to that of other nations, and you can summon them in greater numbers.  This message will repeat for one turn, and save to your province history for reference."
-#req_fornation 21
-#req_owncapital 1
-#req_unique 1
-#end
 #selectmonster 1502 --helkarl
 #okleader
 #custommagic 4352 100
@@ -3720,14 +3691,6 @@
 #selectnation 28 --hinnom
 #addreccom 2031 --melqart
 #end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Units with popkill are slightly cheaper.  Melqarts are recruit everywhere.  Kohens are better bloodhunters.  Horites throw rocks.  This message will repeat for one turn, and save to your province history for reference."
-#req_fornation 28
-#req_owncapital 1
-#req_unique 1
-#end
 #selectmonster 2030 --rephaite warrior
 #gcost 10080
 #end
@@ -3755,14 +3718,6 @@
 #gcost 10080
 #end
 #selectnation 25 --kailasa
-#end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Guhyaka Generals are not slow-to-recruit, and your recruitable sacreds were generally improved.  Many of your astral summons were discounted, and Rudra, Devata, and Devala received substantial stat improvements and new autospells.  The Rudra autocasts Wrathful Skies, the Devala Autocasts Celestial Music, and the Devata casts an animal-only antimagic.  Finally, Apsaras now mix better with ranged squads.  This message will repeat for one turn, and save to your province history for reference."
-#req_fornation 25 
-#req_owncapital 1
-#req_unique 1
 #end
 #selectmonster 2542 --Guhyaka General
 #weapon 21
@@ -3852,14 +3807,6 @@
 #addforeigncom 881 --machaka chief
 #forestrec 2126 --pygmy
 #end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Spiderclan Sorcerors are not slow to recruit, and some of your light infantry and pygmies were made forest and foreign recruit.  Spiderclan archers, Machakan Warriors, and Spider Riders were discounted.  This message will repeat for one turn, and save to your province history for reference."
-#req_fornation 11
-#req_owncapital 1
-#req_unique 1
-#end
 #selectmonster 2295 --spiderclan sorceror
 #noslowrec
 #end
@@ -3891,14 +3838,6 @@
 #gcost 10020
 #end
 --EA Sauro
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your warrior sorceresses had their death random removed and were discounted.  Also, your cavalry received discounts.  This message will repeat for one turn, and save to your province history for reference."
-#req_fornation 9 
-#req_owncapital 1
-#req_unique 1
-#end
 #selectmonster 1167 --lancer--3 gold discount
 #gcost 10002
 #end
@@ -4044,14 +3983,6 @@
 #killmon 6344
 #end
 ---atlantis ea
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  You can now recruit a 2.5 path mage in your coastal forts.  This message will repeat for one turn, and save to your province history for reference."
-#req_fornation 83 
-#req_owncapital 1
-#req_unique 1
-#end
 #newmonster 6350 --Sorceror of the Shallows
 #copystats 1692
 #name "Shambler Reefmage"
@@ -4078,14 +4009,6 @@
 #coastunit2 1516
 #coastunit3 6331
 #uwcom1 1401
-#end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  You now have more extensive coastal recruits, including a slave mermage and an armored human.  Your Aboleths and Mindlords are now significantly cheaper, and have an extra misc slot.  Your androleth and Androdai were discounted, too. Your Mindlords now have an extra random path.  Finally, 5 of your polypal mothers per province can research, and your Grandmothers provide a bonus to research.  This message will repeat for one turn, and save to your province history for reference."
-#req_fornation 84
-#req_owncapital 1
-#req_unique 1
 #end
 #newmonster 6331
 #copystats 61
@@ -4154,58 +4077,18 @@
 #selectnation 86 --oceania -- look pretty good already
 #end
 --EA Vanheim
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing. Your Valkyrie summon is more effective, due to buffs to Helheim. This message will repeat for one turn, and save to your province history for reference."
-#req_fornation 20
-#req_owncapital 1
-#req_unique 1
-#end
 ---- MA Nations
 --MA Vanheim
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing. Your Valkyrie summon is more effective, due to buffs to Helheim. This message will repeat for one turn, and save to your province history for reference."
-#req_fornation 50
-#req_owncapital 1
-#req_unique 1
-#end
 --------SCELERIA CHANGES
 #selectnation 35
 #end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your indie priests will have a higher upkeep cost.  This message will save to your province history for reference."
-#req_fornation 35 
-#req_owncapital 1
-#req_unique 1
-#end
 --------Pythium
 #selectnation 36
-#end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your angelic summons have received discounts and summoning path changes, except for the Harbinger.  The Angel of Fury has received more substantial buffs.  This message will save to your province history for reference."
-#req_fornation 36 
-#req_owncapital 1
-#req_unique 1
 #end
 --------Marignon
 #selectnation 40
 #startunitnbrs1 15
 #startunitnbrs2 15
-#end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your angelic summons have received discounts and summoning path changes, except for the Harbinger.  The Angel of Fury has received more substantial buffs.  Your flagellants are now cheaper and can be produced by inquisitors pillaging in friendly dominion.  Finally, your cavalry is generally cheaper.  This message will save to your province history for reference."
-#req_fornation 40 
-#req_owncapital 1
-#req_unique 1
 #end
 #newevent 
 #nation -2
@@ -4563,14 +4446,6 @@
 #addrecunit 1900
 #addrecunit 1901
 #addrecunit 1902	
-#end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your cavalry are cheaper, and your masters of the way have different paths.  Importantly, your Eunuchs are recruit-anywhere and can conscript militia-stat versions of your foot troops.  This message will save to your province history for reference."
-#req_fornation 42 
-#req_owncapital 1
-#req_unique 1
 #end
 #selectspell 176 --internal alchemy
 #fatiguecost 200
@@ -5039,14 +4914,6 @@
 #addforeignunit 879
 #addforeignunit 880
 #end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your mages have had their costs and paths reshuffled, though they'll maintain similar path proportions.  Your witchdoctors are forestrec, and your priests and light infantry are foreignrec.  Your greatspider riders are size 4; your greatspiders are also size 4, cost upkeep, and are otherwise buffed.  Your black hunters cause fear, since they are huge spiders the size of elephants.  This message will save to your province history for reference."
-#req_fornation 43 
-#req_owncapital 1
-#req_unique 1
-#end
 #selectmonster 895 --eye of the lord
 #slowrec
 #end
@@ -5171,14 +5038,6 @@
 --------Caelum
 #selectnation 46
 #end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your archers now have superior weapons.  You now have a new mage.  This message will save to your province history for reference."
-#req_fornation 46
-#req_owncapital 1
-#req_unique 1
-#end
 #selectsite 11
 #homecom 6332
 #end
@@ -5205,14 +5064,6 @@
 #end
 -------Bandar Log
 #selectnation 53
-#end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your summons have received discounts and the highest level have been improved: Devalas cast Celestial Music, Devatas make animals magic resistant, and Rudra cast Wrathful Skies.  Apsaras also mix better with ranged squads.  Your monkey troops, including white ones, are generally cheaper.  This message will save to your province history for reference."
-#req_fornation 53 
-#req_owncapital 1
-#req_unique 1
 #end
 #selectmonster 1332 --apsara
 #weapon 1423
@@ -5260,14 +5111,6 @@
 #startunittype2 1391
 #startunitnbrs2 15
 #startunitnbrs1 15
-#end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  You may now recruit kappa mages underwater.  Your summons are generally discounted, and your bakemono-sho are slaves, halving their upkeep.  Finally, you have a new national ritual that can transform up to 27 of your Bakemono Sorcerors into immortals by hiding their heart in a mountain province.  Only one heart may be hidden per province, and the destruction of the heart kills the Sorceror.  This message will save to your province history for reference."
-#req_fornation 54 
-#req_owncapital 1
-#req_unique 1
 #end
 #newmonster 6352--summonchecker
 #copystats 1396
@@ -5548,14 +5391,6 @@
 #startunitnbrs1 10 
 #startunitnbrs2 10
 #startscout 56
-#end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your mages have improved paths.  Your mothers of avalon will occasionally bond wardens.  You have new battlespells, including two new attackspells and four new buffs.  Your cavalry is generally cheaper, and your Knight Commanders and Knights of Avalon may be promoted to Knights of the Earth once sufficiently experienced, and commanders are eligble to be ranking members of the Knights of Earth. This message will save to your province history for reference."
-#req_fornation 37 
-#req_owncapital 1
-#req_unique 1
 #end
 #selectmonster 57 --Knight
 #gcost 10020
@@ -6179,14 +6014,6 @@
 #addrecunit 2730
 #addrecunit 2731
 #end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  You may now recruit Chak Muuch outside of your capital. Your bronze armored muuch have improved stats, and obsidian clubswords and darts have been improved.  Finally, Muuch K'uhal have better paths, with a chance at D3.  This message will save to your province history for reference."
-#req_fornation 58 
-#req_owncapital 1
-#req_unique 1
-#end
 #selectsite 177
 #clear
 #name "The Sacred Cenote"
@@ -6247,14 +6074,6 @@
 #mor 11
 #end
 #selectnation 90 --oceania
-#end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Sirens have improved paths.  Ichtytaur have an underwater gore attack.  This message will save to your province history for reference."
-#req_fornation 90
-#req_owncapital 1
-#req_unique 1
 #end
 #selectmonster 1054 --siren
 #clearmagic
@@ -6329,31 +6148,7 @@
 #selectnation 55
 #end
 ---notices
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your summons are generally discounted.  This message will save to your province history for reference."
-#req_fornation 27 --yomi 
-#req_owncapital 1
-#req_unique 1
-#end
 
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your angelic summons have received discounts and summoning path changes, except for the Harbinger.  The Angel of Fury has received more substantial buffs.  This message will save to your province history for reference."
-#req_fornation 65 --la mari
-#req_owncapital 1
-#req_unique 1
-#end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Your summons have received discounts and the highest level have been improved: Devalas cast Celestial Music, Devatas make animals magic resistant, and Rudra cast Wrathful Skies.  Apsaras also mix better with ranged squads.  Your monkey troops are also discounted.  This message will save to your province history for reference."
-#req_fornation 78 --la Patala
-#req_owncapital 1
-#req_unique 1
-#end
 ---Cav changes
 ---Marveni
 #selectmonster 1208 --eponi knight --hoof attack, 5 gold discount
@@ -6486,14 +6281,6 @@
 #cavecom 2782
 #cavecom 6315
 #end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your 7 gold zotz are now 8 gold, and they now carry a stone lance that does not rust but costs an extra resource.  Your Chilans recruitable in caves are now slowrec.  This message will save to your province history for reference."
-#req_fornation 81 
-#req_owncapital 1
-#req_unique 1
-#end
 #newmonster 6315 --chilancave
 #copystats 2750
 #slowrec
@@ -6519,14 +6306,6 @@
 #end
 
 --la abysia
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your fire mages are cheaper or have better randoms.  You also have improved summons.  Your scorpionmen can serve as thugs, while you can summon rhuax children and get a special crossbreeding spell.  This message will save to your province history for reference."
-#req_fornation 71 
-#req_owncapital 1
-#req_unique 1
-#end
 #selectmonster 991 --newt
 #gcost 10000
 #end
@@ -6600,14 +6379,6 @@
 
 --jomon
 #selectnation 69
-#end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Your summons are generally discounted, except for Tatsu, which are stronger.  Your samurai cavalry now carry bows, and you have ashigaru arcchers.  Finally, please note that your five signs are more potent, and units are generally improved or discounted in some way. This message will save to your province history for reference."
-#req_fornation 69 --jomon
-#req_owncapital 1
-#req_unique 1
 #end
 #newmonster 6309 -- ashigaru archer
 #copystats 1238
@@ -6863,14 +6634,6 @@
 #nation -2 #req_pop0ok #req_capital 0 #req_dominion 3 #notext #req_site 1 #msg "A High inquisitor has purified this land! [Deadland]."#nolog #removesite 1802 #addsite 1803  #end
 #newevent #rarity 5 #req_monster 583 #req_fornation 40  
 #nation -2 #req_pop0ok #req_capital 0 #req_dominion 3  #req_nositenbr 1804 #notext #req_site 1 #msg "His Eminence has purified this land! [Deadland]."#nolog #removesite 1802 #addsite 1803  #end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing. First and foremost, your gem income is now tied to the territory you capture, with your capital income dropped to compensate.  Provinces you own with your dominion have a chance of creating a death gem site that increases as the population falls and your dominion decreases.  Second, your forts are somewhat more expensive.  Finally, your Dusk Elders are more resistant to Magic Duel. This message will save to your province history for reference."
-#req_fornation 34
-#req_owncapital 1
-#req_unique 1
-#end
 #newsite 1804
 #name "Carrionland"
 #path 6 
@@ -6905,14 +6668,6 @@
 #req_maxpop 100 
 #req_dominion 5 #req_rare 20 #req_temple 1 #req_fort 0 #req_forest 1 #req_land 1 #req_nositenbr 1803 #req_site 0 #addsite -1  
 #msg "Carrionland Created. [Carrionland]." #removesite 1803 #nolog #notext #end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing. First, sleep vines no longer repel blows.  Second, your templed unforted forests now have a small chance of generating a nature site, though this is incompatible with other Deadlands sites.  This message will save to your province history for reference."
-#req_fornation 49
-#req_owncapital 1
-#req_unique 1
-#end
 #selectnation 62 --lemuria
 #fortcost 50
 #fortera 2
@@ -6944,14 +6699,6 @@
 #holy
 #custommagic 6144 100
 #magicskill 8 1
-#end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing. First and foremost, your gem income is now tied to the territory you capture, with your capital income dropped to compensate.  Provinces you own with your dominion have a chance of creating a death gem site that increases as the population falls and your dominion decreases.  Second, your forts are significantly more expensive, because who ever heard of a ghost building anything?  Also, you start with an acolyte, which is now a D2H0 mage.  This message will save to your province history for reference."
-#req_fornation 62
-#req_owncapital 1
-#req_unique 1
 #end
 #newevent #rarity 5 #nation -2 #req_fornation 62   #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
 #msg "Purification destroyed. [Purified Deadland]." #removesite 1803 #nolog #notext #end
@@ -7009,14 +6756,6 @@
 #req_maxpop 100 
 #req_dominion 5 #req_temple 1 #req_fort 0 #req_coast 1 #req_nositenbr 1805 #addsite 1805  
 #nolog #notext #end
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing. Third, your unforted coastal temples now have a small chance of generating an astral site, though this is incompatible with other Deadlands sites.  This message will save to your province history for reference."
-#req_fornation 92
-#req_owncapital 1
-#req_unique 1
-#end
 #newevent
 #rarity 5
 #nation -2
@@ -7115,16 +6854,6 @@
 ------------------------------
 ------THERODOS CHANGES--------
 ------------------------------
-#newevent 
-#rarity 5
-#nation -2 
-#msg "Thank you for playing summod.  This message exists to alert you to the following significant changes to the nation you are playing.  Popkill and sacred rec-limits scale with growth and death scales. Death scales will freespawn the occasional spectral Melia.  You have a global that recreates the Malediction.  You have access to new triton, mermen, and human swordsmen, as well as a new coastal mage. Your sacreds are better on offense.  This information is now saved to your province history."
-#req_fornation 95
-#req_owncapital 1
-#req_unique 1
-#req_turn 2
-#nolog
-#end
 --Sacred Changes
 #newweapon 1419
 #copyweapon 6
@@ -7187,7 +6916,7 @@
 #mor 9
 #weapon 9
 #armor 158
-#sailing 2 999
+#sailing 999 2
 #nametype 107
 #poorleader
 #poormagicleader
@@ -7281,7 +7010,7 @@
 #weapon 645
 #armor 135
 #armor 100
-#armor 16
+#armor 209
 #watershape 6328
 #end
 ---Melias
@@ -7818,3 +7547,883 @@
 #incscale 3
 #end
 
+
+#newevent
+#rarity 5
+#msg "Thank you for playing summod.  This message exists to alert you to that all national changes replace the normal nation descriptions, making it easy to look up what has been changed to your nation and to others whom you're vying with for Pantokratordom. This message will be saved to the province history of every province for convenience."
+#req_maxturn 1
+#req_indepok 1
+#end
+
+#selectnation 5 --EA Arco
+#descr "Myrmidons+Myrmidon Commanders Enc 9->7 AP 6->8
+Chariots+Chariot Commanders Def 15->16"
+#end
+
+#selectnation 6 --EA Ermor
+#descr "Centurian Def 12->13 Enc 5->4 AP 10->11
+Triarii Def 12->13 Enc 10->8 AP 5->7
+Equite Gold 35->30
+Equite of the Sacred Shroud Gold 50->45
+Legatus Legionis Def 13->14 Enc 5->4 AP 10->11"
+#end
+
+#selectnation 7 --EA Ulm
+#descr "Great Bear +Bite (Dmg 2, def-1)
+Iron Warriors Dmg 9->10
+Warrior Smith Dmg 9->10"
+#end
+
+#selectnation 8 --EA Marverni
+#descr "Eponi Chieftain Gold 100->95 +Hoof (Dmg 13, NoStr)
+Eponi Knight Gold 30->25 +Hoof (Dmg 13, NoStr)"
+#end
+
+#selectnation 9 --EA Sauromatia
+#descr "Lancer Gold 20->17
+Raider Gold 20->17
+Sauromatian Lancer Gold 25->22
+Sauromatian Raider Gold 25->22
+Sauromatian Cataphract Gold 35->30
+Warrior Priestess Gold 135->110
+Warrior Queen Gold 175->145
+Androphag Gold 75->50
+Manflayer Gold 155->135
+Oiorpata Gold 50->35
+Warrior Sorceress Gold 185->155 Leadership 80->40 100%NWDB->100%NWB
+Hydra Gold 250->180 +Recuperation
+Hydra Hatchling Gold 35->28 +Recuperation"
+#end
+
+#selectnation 10 --EA Tien Chi
+#descr "Horsemen Gold 20->18
+Internal Alchemy Gcost 10->2
+Celestial Servant Gcost 3->2"
+#end
+
+#selectnation 11 --EA Machaka
+#descr "Machaka Chief +Foreign Rec
+Pygmy +Forest Rec
+Machaka Militia +Foreign Rec
+Machaka Warrior Wep Spear->Machakan Spear (Dmg 3->5 Len 4->5 Def 0->-1 Rcost +1) Gold 10->8
+Rhino Clan Commander Res 13->12 Att 10->11
+Lion Clan Commander Res 8->7 Att 11->12
+Voice of Lion Dmg 5->6
+Spider Clan Sorcerer - StR
+Spider Clan Archer Gold 15->12
+Spider Clan Warrior +Furs (ProtBody 0->7, Def 13->12 Enc 3->4 AP 12->11)
+Rhino Clan Warrior Res 13->12 Att 9->10
+Lion Clan Warrior Res 7-> Att 10->11
+Spider Rider Size 5->4 Gold 50->35
+Great Spider Gold 0->20 Size 5->4 Str 11->16 MR 5->8
+Pride of Lions 10++->13+++"
+#end
+
+#selectnation 12 --EA Mitclan
+#descr "Sun Warrior MM 1->2 Hp 12->13 Str 10->11 Gold 18->14
+Beast Bat CastleDef 0->-1
+Civateteo Douse 0->1
+Contact Civateteo B2D2->B2
+Contact Tlahuelpuchi B2->B2D2"
+#end
+
+#selectnation 13 --EA Abysia
+#descr "Abysian Infantry & Warlord & Beast Tamer & Burning One  Enc -2 Def +1 Ap +2
+Anointed of Rhuax Douse 0->1 10%FSEB->50%FSEB
+Scorpion Man Def 14->15 Enc 5->4 Ap 10->11 +BodySlot
+Misbred Douse 0->1
+Anathemant Salamander +10%ESDB Gold 175->150
+Anathemant Dragon +50%ESDB StartAge 35->31 Gold 265->240
+Contact Scorpion Man Unit->Commander
+Pride of Lions 10++->13+++
+Children of Rhuax (Conj 3, F4E1, 5 Magma Children, 2 Fire Gems)
+Abysian Crossbreeding (Blood 3, B1S1, 15++++++++++ crossbred, 15 slaves)
+Improved Abysian Crossbreeding (Blood 8, B2S2, 35+++ crossbred, 22 slaves)
+GoRing Crossbreeds can result in bloodhunters or assassins if they have no aflictions."
+#end
+
+#selectnation 14 --EA Caelum
+#descr "Tiger +Stealth
+Ambush of Tigers 10++->14++"
+#end
+
+#selectnation 15 --EA C'tis
+#descr "Serpent Dancer Att 12->13 Dmg 3->5 SecPois 5->15
+Scorpion Man Def 14->15 Enc 5->4 Ap 10->11 +BodySlot
+Contact Scorpion Man Unit->Commander
+Shaman Prophetised +Magicboost (S1N1)
+Pride of Lions 10++->13+++"
+#end
+
+#selectnation 16 --EA Pangaea
+#descr "Literally no national changes"
+#end
+
+#selectnation 17 --EA Agartha
+#descr "Cavern Guard Dmg 9->10
+Engraver Hammer->Stone Knife
+All weapons replaced with non-rusting verions
+UW Ancient Wet Ones keep their spear"
+#end
+
+#selectnation 18 --EA Tir na n'Og
+#descr "Literally no national changes"
+#end
+
+#selectnation 19 --EA Fomoria
+#descr "Literally no national changes"
+#end
+
+#selectnation 20 --EA Vanheim
+#descr "Dwarven smith Dmg 7->8
+Draug Def 14->15
+Great Bear +Bite (Dmg 2, def-1)
+Summon Valkyries Nmb 7->10
+Awaken Draug Cost 12->10"
+#end
+
+#selectnation 21 --EA Helheim
+#descr "Draug HP 30->40 Str 14->15 Def 14->16 Prot 15->16 Att 12->13 shrkhp 20->25
+Helkarl +100%DW +10%D Gold 165->215 Ldr 80->40
+Svartalf Dmg 7->8
+Great Bear +Bite (Dmg 2, def-1)
+Summon Valkyries Nmb 7->10
+Awaken Draug Cost 12->10
+Rouse Draugar (Conjuration 8, D4A1, 14++ Draug, 30 Death Gems)"
+#end
+
+#selectnation 22 --EA Niefelheim
+#descr "Draug Def 14->15
+Great Bear +Bite (Dmg 2, def-1)
+Awaken Draug Cost 12->10"
+#end
+
+#selectnation 25 --EA Kailasa
+#descr "Atavi Infantry Dmg 5->6
+Light Bandar Archer Gold 18->17
+Guhyaka +Javelin
+Yavana Gold 40->35
+Yavana Archer -Dagger +Falchion
+Yaksha Awe 1->2
+Apsara +Heavenly song (Rng 23 Dmg 5 Ammo 15 AP Magic NoStr x3vsundead/demons)
+Bandar Warrior Gold 18->17 Dmg 5->6
+Devata Hp 28->40 Str 17->18 Att 14->15 Def 12->14 Enc 5->3 Ap 10->12 Astral 2->3 +Batstartspell Enlightenment (Antimagic but animal only) MagicLdr 45->85
+Bandar Swordsman Hp 18->20 Att 11->12 Def 10->11 Prec 9->10
+Devala +Batstartspell Celestial music Astral 3->4
+Rudra Hp 32->48 Prot 18->19 Str 18->20 Att 15->17 Def 13->16 Prec 13->15 Enc 5->3 Ap 10->12 +Batstartspell Wrathful Skies
+Guhyaka General +Javelin -StR
+Summon Gandharvas Gcost 18->15
+Summon Devata Gcost 45->40
+Summon Devala Gcost 55->40
+Summon Rudra Gcost 55->45
+Tiger +Stealth
+Ambush of Tigers 10++->14++
+Gandharva Def 12->13 Enc 5->3 Ap 10->12"
+#end
+
+#selectnation 26 --EA Lanka
+#descr "Atavi Infantry Dmg 5->6
+Light Bandar Archer Gold 18->17
+Tiger +Stealth
+Ambush of Tigers 10++->14++
+Yogini Dmg 5->6
+Kala-Mukha Dmg 5->6
+Rakshasi Dmg 5->6
+Praghasa Dmg 5->6
+Anusara Dmg 5->6
+Possessed Corpse Dmg 5->6
+Bandar Warrior Gold 18->17 Dmg 5->6
+Summon Sandhyabalas Nmb 3->4
+Summon Dakini Gcost 50->66
+Summon Samanishada Gcost 35->30 Bpath 3->2
+Indie priest upkeep 2->5"
+#end
+
+#selectnation 27 --EA Yomi
+#descr "Shura Def 16->17 Ap 8->9 Dmg 9->12
+Oni General Def 11->12 Enc 5->4 Ap 10->11 Rcost 38->36
+Bandits Def +1 Enc 5->4 Ap 10->11 Rcost (bow) 16->13 (leader) 16->15
+Demon General Def 13->13 Enc 6->5 Ap 9->10 Rcost 22->21
+Dai Oni Def 12->13 Ap 12->13 Enc 5->4
+Tengu Warrior Def 13->14 Ap 7->8 Enc 6->5
+Bakemono Chief Def 11->12 Ap 8->9 Enc 5->4
+Summon Gozu Mezu Gcost 7->5
+Summon Karasu Tengus RLevel 2->5 Gcost 3->10 Nlevel 1->3 Num 3->12+
+Summon Konoha Tengus RLevel 3->2
+Contact Dai Tengu Gcost 55->40
+Contact Nushi Gcost 25->20"
+#end
+
+#selectnation 28 --EA Hinnom
+#descr "Horite Gold 22->20 +Throwing rocks
+Horite Champion Gold 27->25 +Throwing rocks
+Rephaite Warrior Gold 115->100
+Melqart Gold 485->460 +AnyFortRec
+Ba'al Gold 455->430 Douse 0->2
+Kohen Gold 240->225 Douse 0->1 Ldr 80->40
+Horite Hunter Gold 25->23"
+#end
+
+#selectnation 29 --EA Ur
+#descr "Literally no national changes"
+#end
+
+#selectnation 30 --EA Breytos
+#descr "Telkhine +deathscales
+Pride of Lions 10++->13+++"
+#end
+
+#selectnation 31 --EA Xibalba
+#descr "Beast Bat CastleDef 0->-1
+Xibalban Warrior Gold 7->8 Rcost 1~2->2
+Xibalban Dart Thrower Dmg (Mace) 5->6 Ammo 4->6
+Ah Nakom Gold 70->75 Unrest 2->4
+Onaqui (Cap Only) Unrest 3->7"
+#end
+
+#selectnation 33 --MA Arcoscephale
+#descr "Hoplite Commander Def 10->11 AP 7->9 Enc 7->5
+Hoplite Def 8->9 AP 7->9 Enc 8->6
+Hypaspist Commander Def 14->15 Ap 10->11 Enc 6->5
+Hypaspist Def 13->14 Ap 10->11 Enc 6->5
+Strategos Def 13->14 Ap 8->10 Enc 9->7
+Heart Companion Def 10->11 Ap 8->10 Enc 8->6"
+#end
+
+#selectnation 34 --MA Ermor
+#descr "Dusk Elder Astral +1 pathboost -1 (+1 level of cost to empower, +1 vs magic duel)
+Pride of Lions 10++->13+++
+Ideal cold 1
+Fortcost +50%
+Sepulcher gems 15->5 22->10
+Lictor Def 10->9
+Censor Def 11->10
+Gains Death Gem sites in high dom low pop provinces"
+#end
+
+#selectnation 35 --MA Sceleria
+#descr "Triarii Def 12->13 Enc 10->8 AP 5->7
+Praetorian Guard Def 15->16 Enc 10->8 AP 6->8
+Centurian Def 12->13 Enc 5->4 AP 10->11
+Legatus Legionis Def 13->14 Enc 5->4 AP 10->11
+Lictor Def 9->10 Enc 7->5 Ap 8->10
+Censor Def 10->11 Enc 7->5 Ap 8->10
+Indie priest upkeep 2->5"
+#end
+
+#selectnation 36 --MA Pythium
+#descr "Serpent Cataphract Gold 60->45 Def 15->16
+Serpent Lord Gold 90->75 Def 16->17
+Emerald Lord Def 17->18 Enc 9->7 Ap 6->8
+Emerald Guard Def 15->16 Enc 9->7 Ap 6->8
+Battle Deacon Dmg 5->6 Def 10->11 Enc 5->4 Ap 10->11
+Centurian Def 12->13 Enc 5->4 AP 10->11
+Triarii Def 12->13 Enc 10->8 AP 6->8
+Angel of the Heavenly Choir +Heavenly song (Rng 23 Dmg 5 Ammo 15 AP Magic NoStr x3vsundead/demons)
+Angel of Fury +SelfBless Blood vengeance +2->+0 +Damage Reversal 2
+Legatus Legionis Def 13->14 Enc 5->4 AP 10->11
+Hydra Gold 250->180 +Recuperation
+Hydra Hatchling Gold 35->28 +Recuperation
+Angelic Host Astral 5->4 Fire 0->1 Gcost 55->40
+Heavenly Wrath Gcost 35->25
+Heavenly Choir Astral 7->5 Fire 2->3 Gcost 144->88
+Pride of Lions 10++->13+++"
+#end
+
+#selectnation 37 --MA Man
+#descr "Logrian Warrior Gold 12->11
+Castellan Def 13->14
+Knight of Man Gold 45->35 Def 16->17
+Monk Research 3->4
+Longspear Rcost 13->20 Prot 11->15 Enc 5->6 Ap 10->9
+Knight of Avalon Gold 65->50 Def 17->18
+Warden of Avalon Def 10->11 MapMove 1->2
+Mother of Avalon Magic 1N 100%ANx2 20%EW -> 1A2N 100%AWE 25%N
+Crone of Avalon 100%NAEW->100%NA + 100%EW
+Lord Warden +H1 Gold 160->175 Def 12->13
+Knight Commander of Avalon Gold 125->115 Def 17->18
+Logrian Cavalry Rcost 18->18 Gold 30->20 Def 14->15
++ Knight Commander of Man (Knight of man Att 12->13 Gold 65 Commnader)
+All Knights can with enough XP become part of the Order of Earth, gaining a special ability based on their title
+Bewitchment (Enchantment 5, N1A1, Range 25, Prec 3, Effects 1, Fatigue 20, MRN, Mind, Cause Confusion)
+Hex of Minerva (Alteration 7, N2, Range 25+5/lvl, Prec 5, Effects 1, AoE 5+1/lvl, Fatigue 200, MRN, Mind, Living, Enemy only, Transforms into animals)
+Slumber (Evocation 0, N4, All Battlefield, Effects 1, Fatigue 100, MrN, Mind, Living, Sleep/stun 120+5/lvl)
+Spells of courage (AoE 5, Range 4+2/lvl, Prec 100, Faigue 40, Mind, Living, Breathing, Friendly, Courage + Secondary effects, don't stack)
+Incantantion of Morgan (Spell of courage, Alteration 6, W1N2, Weapons of Sharpness, Liquid Body, mundane resistances)
+Aegis of Niniane (Spell of courage, Enchantment 5, N3H1, Elemental resistances, Mossbody)
+Fortification of Isolde (Spell of courage, Enchantment 3, E1N2, Toughened armour, Extra strength)
+Cloak of Ygraine (Spell of courage, Alteration 3, A2N2, Averted fate, Luck)"
+#end
+
+#selectnation 38 --MA Eiru
+#descr "Milesian Champion Def 13->14"
+#end
+
+#selectnation 39 --MA Ulm
+#descr "Guardian Def 5->6
+Infantry of Ulm +1Def
+Black Plate Infantry +1Def
+Black Knight Def 13->14 Gold 50->40
+Black Lord Def 13->14 Gold 110->100
+Pikeneer Def 6->7
+Black Plate Pikeneer Def 5->6
+Lord Guardian Def 6->7
+Commander of Ulm +1Def
+Master Smith Dmg 9->10
+Crossbowman Def 11->12 Enc 4->3 Ap 10->11
+Sapper Def 7->8 Enc 4->3 Ap 10->11
+Black Priest Dmg 9->10
+Iron Angel Enc 5->4 Ap 12->13
+Priest Smith Dmg 9->10"
+#end
+
+#selectnation 40 --MA Marignon
+#descr "Man at Arms Gold 14->13 Def 13->14
+Royal Guard Gold 45->35 Def 16->17
+Knight of the Chalice Gold 55->45 Def 15->16
+Flagellant Gold 10->9
+Swordsman Def 11->12 Enc 5->4 Ap 10->11
+Halberdier Def 10->11 Enc 5->4 Ap 10->11
+Pikeneer Def 8->9 Enc 5->4 Ap 10->11
+High Inquisitor -StR +25%S
+Witch Hunter Dmg 5->6 +10%FASE
+Paladin Gold 135->115 Def 16->17
+Angel of the Heavenly Choir +Heavenly song (Rng 23 Dmg 5 Ammo 15 AP Magic NoStr x3vsundead/demons)
+Angel of Fury +SelfBless Blood vengeance +2->+0 +Damage Reversal 2
+Angelic Host Astral 5->4 Fire 0->1 Gcost 55->40
+Heavenly Wrath Gcost 35->25
+Heavenly Choir Astral 7->5 Fire 2->3 Gcost 144->88
+Pillaging with Inquisitors and High Inquisitors creates Flagerents based on the Pop, Dominion and whetehr or not there's a temple in the province."
+#end
+
+#selectnation 41 --MA Mitclan
+#descr "Sun Warrior MM 1->2 Hp 12->13 Str 10->11 Gold 18->14
+Warrior (Mace Dmg 5->6)
+Feathered Warrior Dmg 5->6
+Beast Bat CastleDef 0->-1
+Civateteo Douse 0->1
+Contact Civateteo B2D2->B2
+Contact Tlahuelpuchi B2->B2D2"
+#end
+
+#selectnation 42 --MA Tien Chi
+#descr "Horsemen Gold 20->18
+Internal Alchemy Gcost 10->2
+Celestial Servant Gcost 3->2
+Thousand Year Ginseng Gcost 8->2
+Eunuch +ForeignRec +Conscription (Can summon 1 conscript a turn, which are worse versions of the all-era national troops, 50% chance of desertion 50% chance of becoming a regular national troop upon getting XP)
+Master of the Way -100%AWSN +100%WES
+Terracotta Army (Enchantment 4, F1E1, 12+++ Terracotta Infantry/Guard/Crossbowmen 1 Terracotta leader, Gcost 10)"
+#end
+
+#selectnation 43 --MA Machaka
+#descr "Spider Warrior Gold 30->20 Rcost 36->30 Def 7->9 Enc 6->5 Ap 9->10 -Dagger +Poison Dagger
+Bane Spider Gold 110->80 Rcost 38->32 Str 11->12 Att 13->14 Def 10->13 Enc 6->5 Ap 9->10
+Machaka Archer Gold 10->9 +ForeignRec
+Machaka Warrior (1) Gold 10->9 +ForeignRec
+Machaka Chief +ForeignRec
+Machaka Hoplite Gold 14->13 Rcost 27->26 Def 12->13 Enc 7->5 Ap 8->10
+Machaka Commander Rcost 27->26 Def 13->14 Enc 7->5 Ap 8->10
+Great Spider Gold 0->20 Size 5->4 Str 11->16 MR 5->8
+Spider Rider Gold 40->30 Rcost 4->2 Size 5->4 -Spear -Short bow +LightLance
+Spider Knight Gold 55->40 Rcost 28->26 Size 5->4 +LightLance(1use) Def 13->14
+Spider Lord Gold 115->100 Rcost 28->26 Size 5->4 +LightLance(1use) Def 14->15
+Black Hunter +Spider Fear (AoE1 Melee50 FearTypeII)
+Hunter Spider +Spider Fear Gold 0->70 Str 16->18 Mr 5->10
+Hunter Lord +Spider Fear
+Sorceress +30%FDNE
+Witch Doctor Magic 1N1F1D->1N+100%FDN+100%FED Inept 4->6 +ForeignRec Gold 80->100
+Sorcerer 100%FEDN->100%FED+25%N+10%FEDN
+Ear of the Lord +ForeignReC +StR
+Eye of the Lord Gold 65->50 +ForeignRec
+Voice of the Lord +ForeignRec +StR
+Machaka Warrior (2) Gold 10->9 Prot 0->6 Def 12->11 Enc 3->4 Ap 11->12
+Pygmy +ForeignRec
+Pride of Lions 10++->13+++"
+#end
+
+#selectnation 44 --MA Agartha
+#descr "Agarthan Heavy Infantry Def 13->14
+Agarthan Infantry Def 14->15
+Cave Captain Def 15->16
+Golem Crafter Dmg 9->10
+All weapons on non-metal wearing amphibians replaced with non-rusting verions"
+#end
+
+#selectnation 45 --MA Abysia
+#descr "Abysian Infantry & Warlord & Beast Tamer & Lava Warrior Enc -2 Def +1 Ap +2
+Anointed of Rhuax Douse 0->1 10%FSEB->50%FSEB
+Scorpion Man Def 14->15 Enc 5->4 Ap 10->11 +BodySlot
+Misbred Douse 0->1
+Demonbred +100% Darkvision
+Contact Scorpion Man Unit->Commander
+Pride of Lions 10++->13+++
+Children of Rhuax (Conj 3, F4E1, 5 Magma Children, 2 Fire Gems)
+Abysian Crossbreeding (Blood 3, B1S1, 15++++++++++ crossbred, 15 slaves)
+Improved Abysian Crossbreeding (Blood 8, B2S2, 35+++ crossbred, 22 slaves)
+GoRing Crossbreeds can result in bloodhunters or assassins if they have no aflictions."
+#end
+
+#selectnation 46 --MA Caelum
+#descr "Spire Horn Archer Rcost 6->7 -Short Bow +Composite Bow
+Blizzard Warrior Dmg 9->12
+Ice Enchanter (Seraph -Ice Knife +Hammer Mr 15->14 Mor 11->12 +CapOnly Magic 2A1W->2W100%FSD100%AWS +Forgebonus1 +Icecrafting7)
+Tiger +Stealth
+Ambush of Tigers 10++->14++"
+#end
+
+#selectnation 47 --MA C'tis
+#descr "Scorpion Man Def 14->15 Enc 5->4 Ap 10->11 +BodySlot
+Contact Scorpion Man Unit->Commander
+Shaman Prophetised +Magicboost (S1N1)
+Pride of Lions 10++->13+++"
+#end
+
+#selectnation 48 --MA Pangaea
+#descr "Satyr Hoplite Def 14->15 Enc 7->6 Ap10->11
+Centaur Commander Enc 8->7 Ap 19->20
+Centaur Cataphract Enc 8->7 Ap 19->20
+War Minotaur Def 7->8 Enc 6->5 Ap 12->13
+Minotaur Lord Enc 8->6 Ap 10->12
+Satyr Commander Def 15->16 Enc 7->6 Ap10->11"
+#end
+
+#selectnation 49 --MA Asphodel
+#descr "Forests with Low Pop and high dom spawn nature sites"
+#end
+
+#selectnation 50 --MA Vanheim
+#descr "Hirdman +1Def
+Herse Def 13->14
+Dwarven smith Dmg 7->8
+Draug Def 14->15
+Great Bear +Bite (Dmg 2, def-1)
+Summon Valkyries Nmb 7->10
+Awaken Draug Cost 12->10"
+#end
+
+#selectnation 51 --MA Jotunheim
+#descr "Jotun Jarl Def 13->14
+Jotun Spearman Def 11->12
+Jotun Axeman Def 10->11
+Jotun Herse Def 13->14
+Jotun Huskarl +1Def
+Jotun Hirdman Def 13->14
+Draug Def 14->15
+Great Bear +Bite (Dmg 2, def-1)
+Awaken Draug Cost 12->10"
+#end
+
+#selectnation 52 --MA Vanarus
+#descr "Vanabog Def 20->21
+Oath-Bound Def 16->17
+Chud Hirdman Def 10->11
+Vanarusian Herse Def 13->14
+Draug Def 14->15
+Great Bear +Bite (Dmg 2, def-1)
+Awaken Draug Cost 12->10"
+#end
+
+#selectnation 53 --MA Bandar Log
+#descr "Atavi Infantry Dmg 5->6
+Light Bandar Archer Gold 18->17
+Yaksha Awe 1->2
+Apsara +Heavenly song (Rng 23 Dmg 5 Ammo 15 AP Magic NoStr x3vsundead/demons)
+Devata Hp 28->40 Str 17->18 Att 14->15 Def 12->14 Enc 5->3 Ap 10->12 Astral 2->3 +Batstartspell Enlightenment (Antimagic but animal only) MagicLdr 45->85
+Devala +Batstartspell Celestial music Astral 3->4
+Rudra Hp 32->48 Prot 18->19 Str 18->20 Att 15->17 Def 13->16 Prec 13->15 Enc 5->3 Ap 10->12 +Batstartspell Wrathful Skies
+Summon Gandharvas Gcost 18->15
+Summon Devata Gcost 45->40
+Summon Devala Gcost 55->40
+Summon Rudra Gcost 55->45
+Tiger +Stealth
+Ambush of Tigers 10++->14++
+Light Bandar Archer Gold 18->17
+Praghasa Dmg 5->6
+Possessed Corpse Dmg 5->6
+Summon Sandhyabalas Nmb 3->4
+Summon Dakini Gcost 50->66
+Summon Samanishada Gcost 35->30 Bpath 3->2
+Vanara Archer Gold 10->9
+Vanara Chakram Thrower Gold 10->9 Ammo 2->5
+Vanara Infantry Gold 10->9 Dmg 5->6
+Vanara Swordsman Gold 13->12
+Bandar Archer Gold 18->17 Dmg 5->6
+Bandar Warrior Gold 18->17 Att 11->12 (mace dmg 5->6)
+Royal Swordsman Gold 26->22 Att 12->13
+Brahmin Dmg 5->6
+Naga Warrior Prot 17->18 Enc 9->7 Ap 5->7
+Nagaraja (Snek) Enc 9->7 Ap 5->7
+Nagaraja (Divine) Enc 9->7 Ap 9->11
+Light Bandar Warrior Dmg 5->6
+Gandharva Def 12->13 Enc 5->3 Ap 10->12
+Summon Nagas Gcost 20->15
+Contact Nagaraja Gcost 30->25"
+#end
+
+#selectnation 54 --MA Shinuyama
+#descr "Shura Def 16->17 Ap 8->9 Dmg 9->12
+Oni General Def 11->12 Enc 5->4 Ap 10->11 Rcost 38->36
+Bandits Def +1 Enc 5->4 Ap 10->11 Rcost (bow) 16->13 (leader) 16->15
+Demon General Def 13->13 Enc 6->5 Ap 9->10 Rcost 22->21
+Dai Oni Def 12->13 Ap 12->13 Enc 5->4
+Tengu Warrior Def 13->14 Ap 7->8 Enc 6->5
+Summon Gozu Mezu Gcost 7->5
+Summon Karasu Tengus RLevel 2->5 Gcost 3->10 Nlevel 1->3 Num 3->12+
+Summon Konoha Tengus RLevel 3->2
+Contact Dai Tengu Gcost 55->40
+Contact Nushi Gcost 25->20
+Bakemono-Sho (1, Armoured) Gold 8->10 Rcost 9->10 Def 9->10 Enc 5->4 Ap 8->9 20%F 20%E 20%D
+Bakemono Archer (1, Armoured) Rcost 9->10 Def 9->10 Enc 5->4 Ap 8->9
+Bakemono Warrior Rcost 12->10 Def 11->12 Enc 5->4 Ap 8->9
+Bakemono-Sho (3, Yari) Rcost 3->4
+Dai Bakemono (1, Sword) Gold 30->25 Rcost 31->29 Att 11->12 Def 12->13 Enc 5->4 Ap 11->12
+Dai Bakemono (2, Bow) Gold 30->25 Rcost 35->34 Def 11->12 Enc 5->4 Ap 11->12
+Bakemono General Rcost 31->29 Def 13->14 Enc 5->4 Ap 11->12
+Kappa Mage (Kappa Gold 25->45 Prot 15->16 Hp 15->16 Mr 8->9 Mor 12->14 +1W)
+Bakemono Scout Def 9->10 Enc 5->4 Ap 8->9
+Bakemono Chief Rcost 12->10 Def 11->12 Enc 5->4 Ap 8->9
+Summon Ko-Oni Effects 5+->7++
+Summon Ao-Oni Gcost 10->4
+Summon Aka-Oni Gcost 10->4
+Summon Oni Gcost 12->7
+Summon Kuro-Oni Gcost 10->6 Effects 4->4+
+Summon Oni General Research 6->5 Gcost 20->14
+Contact Kitsune Gcost 20->13
+Summon Dai Oni Research 8->7 Gcost 55->45
+Hide Heart (Enchantment 5, D2F2, Requires Bakemono Sorc + Unforted mountain with temple, Gcost 14, Grants immortality)"
+#end
+
+#selectnation 55 --MA Ashdod
+#descr "Amorite Rcost 27->25"
+#end
+
+#selectnation 57 --MA Nazca
+#descr "Human Warrior (mace Dmg 5->6)
+Kuraka Dmg 5->6
+Hatun Runa Dmg 5->6 Str 10->9
+Aucac Runa Maceman Dmg 5->6
+Apu Dmg 5->6
+Aucac Runa Archer Dmg 5->6
+Apusqispay Dmg 5->6"
+#end
+
+#selectnation 58 --MA Xibalba
+#descr "Muuch K'uhul Dmg 1->2 W2->1 +100%WD +10%WDNE
+Ah Ha'Dmg 1->2
+Muuch Militia Dmg 2->3
+Muuch Dart Thrower Ammo 4->6
+Muuch Warrior (1, Hide + Spear) Dmg 2->3
+Muuch Warrior (3 + 4, Bronze Armour) Gold 10->14 Mor 10->11 Att 10->11 Def 11->12
+Muuch Jungle Warrior Mm 1->2
+Chak Muuch Dart Thrower Ammo 4->6 Poison 25->50 +AnyFort
+Chak Muuch Obsidian Warrior Gold 26->22 +AnyFort
+Chak Muuch Assassin Poison 25->50
+Xibalban Warrior Gold 7->8 Rcost 1~2->2"
+#end
+
+#selectnation 60 --LA Arcoscephale
+#descr "Hoplite Commander Def 10->11 AP 7->9 Enc 7->5
+Hoplite Def 8->9 AP 7->9 Enc 8->6
+Hypaspist Commander Def 14->15 Ap 10->11 Enc 6->5
+Hypaspist Def 13->14 Ap 10->11 Enc 6->5
+Strategos Def 13->14 Ap 8->10 Enc 9->7
+Heart Companion Def 10->11 Ap 8->10 Enc 8->6
+Agema Companion Gold 35->30 Def 18->19
+Agema Commander Gold 105->100 Def 19->20
+Cerulean Warrior Dmg 5->6"
+#end
+
+#selectnation 61 --LA Pythium
+#descr "Just, no, when summod and pythmod are merged, then maybe."
+#end
+
+#selectnation 62 --LA Lemuria
+#descr "Lemur Acolyte +100%DS
+Ideal cold 1
+Fortcost +50%
+FortEra 2
+Campus gems 15->5 22->10
+Initial Acolyte D2
+Spectral weapons HrdMrNg
+Gains Death Gem sites in high dom low pop provinces"
+#end
+
+#selectnation 63 --LA Man
+#descr "Castellan Def 13->14
+Longspear Rcost 13->20 Prot 11->15 Enc 5->6 Ap 10->9
+Defender Def 15->16
+Tower Knight Gold 45->35 Def 16->17
+Warden Def 10->11
+Lord Warden Def 10->11
+Heavy Axeman Def 10->11"
+#end
+
+#selectnation 64 --LA Ulm
+#descr "Black Templar Gold 70->50 Def 13->14
+Black Priest Dmg 9->10
+Pikeneer Def 8->9 Enc 4->3 Ap 10->11
+Halberdier Def 10->11 Enc 4->3 Ap 10->11
+Infantry of Ulm Def 12->13 End 6->5 Ap 8->9
+Commander of Ulm Def 15->16 End 6->5 Ap 8->9
+Ghoul Guardian Def 6->7
+Zweihander Def 9->10 Enc 7->6 Ap 7->8
+Hochmeister Gold 120->110 Def 13->14
+Ghoul Commander Def 7->8"
+#end
+
+#selectnation 65 --LA Marignon
+#descr "Flagellant Gold 10->9
+Angel of the Heavenly Choir +Heavenly song (Rng 23 Dmg 5 Ammo 15 AP Magic NoStr x3vsundead/demons)
+Angel of Fury +SelfBless Blood vengeance +2->+0 +Damage Reversal 2
+Angelic Host Astral 5->4 Fire 0->1 Gcost 55->40
+Heavenly Wrath Gcost 35->25
+Heavenly Choir Astral 7->5 Fire 2->3 Gcost 144->88
+Captain Def 10->11 Enc 5->4 Ap 10->11
+Admiral Def 12->13 Enc 5->4 Ap 10->11
+Pikeneer Def 8->9 Enc 5->4 Ap 10->11
+Halberdier Def 10->11 Enc 5->4 Ap 10->11
+Swordsman Def 9->10 Enc 7->5 Ap 8->10
+Palace Guard Def 10->11 Enc 7->5 Ap 8->10
+Hand of Justice Def 11->12 Enc 5->4 Ap 10->11
+Royal Guard Def 11->12 Enc 8->7 Ap 7->8
+Goetic Captain Def 10->11 Enc 5->4 Ap 10->11"
+#end
+
+#selectnation 66 --LA Mitclan
+#descr "Warrior (Mace Dmg 5->6)
+Feathered Warrior Dmg 5->6
+Beast Bat CastleDef 0->-1
+Civateteo Douse 0->1
+Contact Civateteo B2D2->B2
+Contact Tlahuelpuchi B2->B2D2
+Rain Priest Dmg 1->2
+Rain Warrior Dmg 9->10
+Mother of All Waters Dmg 5->6"
+#end
+
+#selectnation 67 --LA Tien Chi
+#descr "Internal Alchemy Gcost 10->2
+Celestial Servant Gcost 3->2"
+#end
+
+#selectnation 69 --LA Jomon
+#descr "Shura Def 16->17 Ap 8->9 Dmg 9->12
+Oni General Def 11->12 Enc 5->4 Ap 10->11 Rcost 38->36
+Demon General Def 13->13 Enc 6->5 Ap 9->10 Rcost 22->21
+Dai Oni Def 12->13 Ap 12->13 Enc 5->4
+Tengu Warrior Def 13->14 Ap 7->8 Enc 6->5
+Summon Gozu Mezu Gcost 7->5
+Summon Karasu Tengus RLevel 2->5 Gcost 3->10 Nlevel 1->3 Num 3->12+
+Summon Konoha Tengus RLevel 3->2
+Contact Dai Tengu Gcost 55->40
+Contact Nushi Gcost 25->20
+Summon Ko-Oni Effects 5+->7++
+Summon Ao-Oni Gcost 10->4
+Summon Aka-Oni Gcost 10->4
+Summon Oni Gcost 12->7
+Summon Kuro-Oni Gcost 10->6 Effects 4->4+
+Summon Oni General Research 6->5 Gcost 20->14
+Contact Kitsune Gcost 20->13
+Summon Dai Oni Research 8->7 Gcost 55->45
+Ashigaru Def 9->10 Enc 5->4 Ap 10->11
+Samurai Archer Def 10->11 Enc 6->5 Ap 9->10 Rcost 25->24
+Samurai (1, Naginata) Def 10->11 Enc 6->5 Ap 9->10 Rcost 19->18
+Samurai (2, Katana) Def 11->12 Enc 6->5 Ap 9->10 Rcost 22->21
+O-ban Def 11->12 End 7->6 Ap 8->9 Rcost 26->25
+Go-Hatamoto Def 11->12 End 7->6 Ap 8->9 Rcost 25->24
+Aka-Oni Samurai Def 13->14 Enc 6->5 Ap 9->10 Rcost 22->21
+Samurai Cavalry Gold 40->25 Rcost 28->27 Def 14->15
+Sohei Def 12->13 Enc 6->5 Ap 9->10 Rcost 22->21
+Yamabushi Def 12->13 Enc 6->5 Ap 9->10 Rcost 19->18
+Gokenin Def 12->13 End 7->6 Ap 8->9 Rcost 26->25
+Mounted Gokenin Gold 55->45 Def 15->16 Rcost 28->27
+Hatamoto Gold 85->75 Def 14->15 Rcost 28->27
+Daimyo Def 15->16 Rcost 26->25
+Ujigami Def 13->14 Enc 6->5 Ap 8->9
+Kenzoku Def 15->16 Enc 5->4 Ap 8->9
+Shrimp Soldier +Non-Rust Armour
+Crab General +Non-Rust Armour
+Shark Warrior +Non-Rust Armour +Bite (2dmg -1def)"
+#end
+
+#selectnation 70 --LA Agartha
+#descr ""
+#end
+
+#selectnation 71 --LA Abysia
+#descr ""
+#end
+
+#selectnation 72 --LA Caelum
+#descr ""
+#end
+
+#selectnation 73 --LA C'tis
+#descr ""
+#end
+
+#selectnation 74 --LA Pangaea
+#descr ""
+#end
+
+#selectnation 75 --LA Midgard
+#descr ""
+#end
+
+#selectnation 76 --LA Utgard
+#descr ""
+#end
+
+#selectnation 77 --LA Bogarus
+#descr ""
+#end
+
+#selectnation 78 --LA Patala
+#descr ""
+#end
+
+#selectnation 79 --LA Gath
+#descr ""
+#end
+
+#selectnation 80 --LA Ragha
+#descr ""
+#end
+
+#selectnation 81 --LA Xibalba
+#descr ""
+#end
+
+#selectnation 83 --EA Atlantis
+#descr "Scout Dmg 1->2
+Atlantian Spearman Dmg 2->3 Rcost 4->5
+Reef Dweller Rcost 10->13
+War Shambler Dmg 2->3 Rcost 7->8
+Coral Guard Rcost 26->34 Prot 17->18 Enc 7->6 Ap 7->8
+Living Pillar Rcost 56->49 Enc 10->8 Ap 5->7
+Mother of the Deep Dmg 5->6
+Coral Commander Rcost 26->34 Prot 17->18 Enc 7->6 Ap 7->8
+Shambler Reefmage (Mage of the Deep -1W -100%FWES +50%FES Gold 215->115 -AnyFort +CoastFort)"
+#end
+
+#selectnation 84 --EA R'lyeh
+#descr "Slave Trooper (1, Atlantian) Dmg 5->7 Rcost 2->3
+Slave Guardian (1, Atlantian) Dmg 5->7 HProt 16->14
+Lobo Guard +CoastRec
+Polypal Mother +FortRec +Divinsp 5
+Slave Trooper (2, Merman) Dmg 2->3 Rcost 2->3
+Slave Trooper (3, Triton) Dmg 2->3 Rcost 1->2
+Aboleth Gold 215->195 MiscSlots 2->3
+Mind Lord Gold 420->345 MiscSlots 2->3 -10%DESW +100%WS +5%ED
+Slave Prince Rcost 20->17 Prot 17->15 +NoRust +CoastRec
+Slave Guardian (2, Merman) HProt 16->14 Rcost 12->11 +NoRust
+Slave Guardian (3, Triton) HProt 16->14 Rcost 13->12
+Abodai Gold 265->240 MiscSlots 2->3
+Androleth Gold 50->40 Def 8->9 Enc 6->5 AP 7->8
+Androdai Gold 190->125 -100%DEWS +110%DEW
+Grandmother Inspiring Researcher 0->1
+Slave Guardian (4, Human) (Enkidu spear guard -> human Gold 9 Rcost 9)
+Blessing of Limne (Construction 6, W4, Gcost 10, Creates 5 Fish Amulets)"
+#end
+
+#selectnation 85 --EA Pelagia
+#descr "Turtle Warrior + Chief Prot 9->10
+Turtle Tribe Triton Prot 7->8
+Coral Clan Soldier Rcost 15->20 Prot 13->14 Enc 7->6 Ap 16->17
+Pearl Guard Rcost 23->28 Prot 13->14 Enc 7->6 Ap 16->17
+Pelagian Captain 16->21 Prot 13->14 Enc 7->6 Ap 16->17
+Triton Rider Prot 8->9
+Sideraspist Hp 10->11 Mor 11->12 Def 10->11
+Blessing of Limne (Construction 6, W4, Gcost 10, Creates 5 Fish Amulets)"
+#end
+
+#selectnation 86 --EA Oceania
+#descr "Siren -1W +100%WA
+Ichtycentaur Prot 12->13
+Ichtysatyr Commander Prot 11->12
+Ichtysatyr Warrior Prot 9->10
+Ichtytaur Gold 40->35 +Gore (-1Att -1def)
+Aphroi Lord Prot 14->17
+Aphroi Prot 12->15"
+#end
+
+#selectnation 87 --MA Atlantis
+#descr "Atlantian Light Infantry Rcost 9->12
+Coral Guard Rcost 15->20 Prot 13->15 Enc 6->5 Ap 6->7
+Coral Queen Rcost 19->25
+War Shambler Rcost 19->23
+Mother Guard Rcost 26->34 Prot 16->17 Enc 7->6 Ap 7->8
+Consort Rcost 26->34 Prot 16->17 Enc 7->6 Ap 7->8
+Reef Warrior Rcost 11->14
+Atlantian Infantry Rcost 12->15 Prot 12->13
+Coral Guard Rcost 17->22 13->15 Enc 5->4 Ap 7->8"
+#end
+
+#selectnation 88 --MA R'lyeh
+#descr "Slave Trooper (1, Atlantian) Dmg 5->7 Rcost 2->3
+Slave Guardian (1, Atlantian) Dmg 5->7 HProt 16->14
+Slave Trooper (2, Merman) Dmg 2->3 Rcost 2->3
+Slave Trooper (3, Triton) Dmg 2->3 Rcost 1->2
+Slave Guardian (2, Merman) HProt 16->14 Rcost 12->11 +NoRust
+Slave Guardian (3, Triton) HProt 16->14 Rcost 13->12
+Traitor Prince -Trident +Meteorite Trident
+Hybrid Trooper +NoRust"
+#end
+
+#selectnation 89 --MA Pelagia
+#descr "Wave Warrior Def 10->11 Enc 6->5 Ap 19->20
+Wave Lord Def 10->11 Enc 6->5 Ap 19->20
+Pelagian Soldier Def 12->13 Enc 7->6 Ap 16->17
+Pelagian Captain Enc 9->7 Ap 14->16
+Amber Clan Guard Rcost 35->30 Def 12->15
+Coral Clan Hoplite Enc 9->7 Ap 14->16
+Amber Clan Noble Rcost 36->31 Def 13->16
+Merman Hoplite Enc 9->7 Ap +2
+Merman Commander Enc 9->7 Ap +2
+Champion of the Closed Realm Def 13->14 Enc 8->6 Ap +2
+Conqueror of the Closed Realm Def 13->14 Enc 8->6 Ap +2
+Apostate of the Closed Realm Def 16->17 Enc 6->5 Ap +1
+Blessing of Limne (Construction 6, W4, Gcost 10, Creates 5 Fish Amulets)"
+#end
+
+#selectnation 90 --MA Oceania
+#descr "Ichtysatyr Soldier Def 14->15 Enc 7->6 Ap +1
+Mermidon Enc 9->7 Ap +2
+Siren -1W +100%WA
+Ichtycentaur Prot 12->13
+Ichtysatyr Commander Prot 11->12
+Ichtysatyr Warrior Prot 9->10
+Ichtytaur Gold 40->35 +Gore (-1Att -1def)
+Aphroi Lord Prot 14->17
+Aphroi Prot 12->15
+Ichtysatyr Soldier Prot 9->10
+Ichtytaur Warrior Gold 50->35 +Gore (-1Att -1def) Def +1 Enc 6->5 Ap +1"
+#end
+
+#selectnation 91 --LA Atlantis
+#descr ""
+#end
+
+#selectnation 92 --LA R'lyeh
+#descr ""
+#end
+
+#selectnation 95 --EA Therodos
+#descr "Merman Scout +UWRec
+Therodian Hoplite Def 8->9 Enc 8->6 Ap 7->9
+Therodian Commander Def 9->10 Enc 8->6 Ap 7->9
+Melia Def 17->18 Enc 6->5 Ap 8->9 Awe 3->1
+Kabeiros Dmg 9->10
+Korybant Def 15->16 Enc 6->5 Ap 10->11 Sword->Sword Dance (+1Nratt) Reclimit 2->Scale Based (2 at D(3-2), 4 at D(1-0), 6 at G(1-2) 8 at G3
+Kourete Def 17->18 Enc 6->5 Ap 10->11 Sword->Sword Dance (+1Nratt) Reclimit 2->Scale Based (2 at D(3-2), 4 at D(1-0), 6 at G(1-2) 8 at G3
+Telkhine Adujant (Storm caller Gold 205->195 -1A -100%FAW +110%FAWD Mr 16->15)
+Therodian Swordsman (Therodian Hoplite Hp 10->12 Rcost 31->25 Mor 10->15 Prot 18->15 LongSpear->ShortSword Def 9->15 MapMove 1->2 AP 9->10)
+Triton Mercenary (Therodian Swordsman Gold 10->12 Hp 12->15 Rcost 25->23 Prot 15->14 MR 10->12 Mor 15->11 ShortSword->BronzeSword Str 10->12 Ap 10->17)
+Triton Mercenary Captain (Triton Mecr Att 11->12 Def 15->16 Gold 12->40)
+Merman Mercenary (Therodian Swordsman Gold 10->12 Hp 12->11 Prot 15->14 MR 10->12 Mor 15->12 ShortSword->BronzeSwordAp 10->10/19)
+Spectral Melia (Melia -awe -Unrestreduc +Spectral -N1 +D1 Spawns 1 in Cap turn 2 if Death)
+Call Ephor Gcost 7->5
+Spectral weapons HrdMrNg
+Summon the Waters of Stygia (Thaumaturgy 6, D5W2, WorldEnch, Gcost 50, Inc Death, Spawns more spectrals, Creates W sites in dead provinces)"
+#end
