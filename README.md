@@ -1184,6 +1184,8 @@ Shaman Prophetshape gets a small magicboost
 
 ###### Pangaea, Age of Revelry
 
+Minotaurs 5 gold discount
+
 ###### Agartha, Pale Ones
 
 ###### Tir na n'Og, Land of the Ever Young
@@ -1514,9 +1516,13 @@ Shaman Prophetshape gets a small magicboost
 
 ###### Pangaea, Age of Bronze
 
+Minotaurs 5 gold discount
+
 ###### Asphodel, Carrion Woods
 
 Spawns occasional N1 sites on sufficiently decayed templed forest provinces
+
+Minotaurs 5 gold discount
 
 ###### Vanheim, Arrival of Man
 
@@ -1669,6 +1675,10 @@ Angelic Host S5->S4F1, 50->40 pearls
 
 Heavely Choir ->S5F3, 88 pearls, choir angels now get an anti-undead ranged attack
 
+Starting Army city guard -> Pikeneers
+
+Goetic Masters Ritual Master
+
 ###### Mictlan, Blood and Rain
 sun warriors cost 18->15; Hp 12->13; Strength 10->11
 
@@ -1741,11 +1751,28 @@ Addition ?abysian crossbreeding? (abysian themed version of the crossbreeding sp
 
 GoRing Demonspawn results in either a misbred commander (if they have afflictions), a blood hunter, or an assassin.
 
+Newts discounted by 15 gold
+
+Anathemant Salamanders discounted by 15 gold, given 0.2 additional random
+
+Anathemant Dragons Discounted by 15 gold, given 0.2 additional random
+
 ###### Caelum, Return of the Raptors
 
 ###### C'tis, Desert Tombs
 
 ###### Pangaea, New Era
+Dryads forestrec
+
+Black Harpies forest rec
+
+Harpies forest rec, reclimit in forest
+
+Unarmored satyrs forestrec, reclimit in forest
+
+Pan random is 10%->30%
+
+Minotaurs 5 gold discount
 
 ###### MidgÃÂ¥rd, Age of Men
 
@@ -1785,8 +1812,34 @@ Sandhyabalas 3 -> 4 summoned
 
 ###### Gath, Last of the Giants
 ###### Ragha, Dual Kingdom
+PD shifted to be worse
+
+Zhayedans cost 40 gold each time they lose a rider
+
+Karapans cost 10 gold more
+
+Athravans are coldrec 1, to reduce flying sacred parties
+
+Turan Sorcerors are heatrec 2, 225->265 gold
+
+Airya Seraphs are coldrec 2, 225->265 gold
+
+Paighans have militia morale, are 8->9 gold
+
+Turan infantry are all +1 goldcost
+
+Turan Elephants are +10 goldcost
+
+Airya archers and infantry are +1 goldcost
+
 ###### Xibalba, Return of the Zotz
 Beastbats 1.44 siege defense from 2.44.
+
+Chilans Recruited in Caves are STR
+
+Zotz lances are stone, and cost +1 resources
+
+Zotz cost a minimum of 8 gold.
 
 ###### Atlantis, Frozen Sea
 
