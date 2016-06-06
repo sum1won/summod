@@ -898,10 +898,6 @@
 #weapon 642--meteor trident
 #end
 
-#selectmonster 445 --illithid lord
-#clearweapons --trident
-#weapon 642--meteor trident
-#end
 
 #selectmonster 335 --slave trooper
 #clearweapons -- trident
@@ -963,11 +959,6 @@
 #weapon 1403 --Trident
 #end 
 
-#selectmonster 407 -- Illithid soldier
-#clearweapons -- trident
-#weapon 642 -- meteorite trident
-#weapon 311 -- mindblast
-#end 
 
 #selectmonster 424 -- Meteorite Guard
 #clearweapons --trident
@@ -1173,7 +1164,7 @@
 #selectmonster 1319 --naga warrior
 #clearweapons
 #cleararmor
-#weapon  1992 --Bronzed Falchion
+#weapon  1407 --Bronzed Falchion
 #weapon 141 --poison spit
 #weapon 595 --hypnotize
 #weapon 239 --venemous fangs
@@ -1184,7 +1175,7 @@
 #selectmonster 1320 --nagaraja
 #clearweapons
 #cleararmor
-#weapon  1992 --Bronzed Falchion
+#weapon  1407 --Bronzed Falchion
 #armor 752 --Bronzed Hauberk
 #weapon 141 --poison spit
 #weapon 595 --hypnotize
@@ -1195,7 +1186,7 @@
 #selectmonster 1323 --nagaraja other form
 #clearweapons
 #cleararmor
-#weapon  1992 --Bronzed Falchion
+#weapon  1407 --Bronzed Falchion
 #armor 752 --Bronzed Hauberk
 #armor 1 --buckler
 #end
