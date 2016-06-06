@@ -429,7 +429,6 @@
 #name "Bronze Battleaxe"
 #end
 
-
 #newweapon 1407
 #name "Bronzed Falchion"
 #slash
@@ -3236,9 +3235,6 @@
 ----Abysia
 #selectnation 13 --abysia
 #end
-#newevent 
-#rarity 5
-#nation -2 
 #selectspell 196 --summon scorpion man
 #effect 10021 --summons as commander instead of as unit
 #fatiguecost 1000
