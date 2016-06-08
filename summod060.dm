@@ -6372,6 +6372,9 @@
 #masterrit 1
 #end
 
+--LA Man
+
+
 
 --jomon
 #selectnation 69
