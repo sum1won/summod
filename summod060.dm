@@ -272,9 +272,9 @@
 #name "Totem Heal"
 #aoe 5
 #descr "The spirit trapped inside the shield will heal minor wounds on friendly soldiers near the bearer."
+#damage 1
 #spec 541720704
 #explspr 10231
-#damage 1
 #range 5
 #school -1
 #end
