@@ -640,54 +640,31 @@ Fire Drake  7 gems -> 5
  
 Clockwork Soldiers 8 -> 6 gems Reinvigoration -15 -> -10 Prot 18 -> 20 AP 10 -> 12 Castable UW
 
-Clockwork Horrors
-Reinvigoration -15 -> -12
-Castable UW
+Clockwork Horrors Reinvigoration -15 -> -12; Castable UW
 
 Crusher
-Stone Fist -> 2 Stone Fists
-Crusher 10 gems
-Siege 30
-Castable UW
 
-Cave drake
-gem cheaper
+Stone Fist -> 2 Stone Fists; Crusher 10 gems; Siege 30; Castable UW
 
-Enliven Statues
-20 -> 15 gems
+Cave drake 1 gem cheaper
 
-Fall bears
-Bite attack added 
-Prot 10 
-2 more per summon
+Enliven Statues; 20 -> 15 gems
 
-Hidden in Cave
-75 -> 55 gems
- poor amphibian
-Castable UW
+Fall bears - Bite attack added ; Prot 10 ; 2 more per summon
 
-Hidden in Sand
-75 -> 55 gems
-poor amphibian
+Hidden in Cave - 75 -> 60 gems;  poor amphibian; Castable UW; Sage, Walker 8 hp->13 hp; Warrior -> 17 hp; King -> 18 hp
 
-Iron Dragon 
-noleader
-commander
-20 gems
+Hidden in Sand - 75 -> 60 gems; poor amphibian
 
-Mechanical Men
-10+2/level -> 12+2/level per summoning
-Castable UW
-prot 19
+Iron Dragon - noleader; commander; 20 gems
 
-Siege Golem
-10 gems from 20
-research 9->7
-Castable UW
+Mechanical Men - 10+2/level -> 12+2/level per summoning; Castable UW; prot 19
 
-Troll King?s Court 55->45 gems
-(Contact) Trolls
-15 -> 10 gems
+Siege Golem - 10 gems from 20; research 9->7; Castable UW
+
+Troll King?s Court - 55->45 gems;
+
+(Contact) Trolls - 15 -> 10 gems
 
 ##### Air
 
@@ -726,7 +703,7 @@ recuperation
 4 gems->3
 
 Hidden in snow
-75 -> 55 gems
+75 -> 60 gems
  poor amphibian
 
 Kokythiad
@@ -775,6 +752,7 @@ Conj 8->Conj 7
 
 Ether gate
 90 -> 65 gems
+Ether Lord 25 hp->30; Ether Warrior 23 hp -> 27
 
 Juggernaut
 25 gems -> 10
@@ -1184,6 +1162,8 @@ Shaman Prophetshape gets a small magicboost
 
 ###### Pangaea, Age of Revelry
 
+Minotaurs 5 gold discount
+
 ###### Agartha, Pale Ones
 
 ###### Tir na n'Og, Land of the Ever Young
@@ -1514,9 +1494,13 @@ Shaman Prophetshape gets a small magicboost
 
 ###### Pangaea, Age of Bronze
 
+Minotaurs 5 gold discount
+
 ###### Asphodel, Carrion Woods
 
 Spawns occasional N1 sites on sufficiently decayed templed forest provinces
+
+Minotaurs 5 gold discount
 
 ###### Vanheim, Arrival of Man
 
@@ -1654,8 +1638,22 @@ Starts with a D2 mage;
 
 acolytes D1H1-> D1H1(DS)
 
+PD uses centurions.  Acolytes appear at 20 pd.
+
+Chance of spawning tribunes and centurions in capital during expansion.
+
 ###### Man, Towers of Chelms
 Tower Knight 10 gold discount
+
+Axemen mm2
+
+Warden, Lord Warden MM2
+
+Magister Arcane: Siege bonuses, stealth
+
+Magister: Always provides research, magic paths changed from 0.5A, 0.5E, 0.25S to 0.8AE, 0.4A, 0.4S.
+
+Judge cost decreased, paths changed from 0.25F, 0.25D to 0.4F, 0.4D
 
 ###### Ulm, Black Forest
 Black Templar 20 gold discount
@@ -1669,6 +1667,10 @@ Angelic Host S5->S4F1, 50->40 pearls
 
 Heavely Choir ->S5F3, 88 pearls, choir angels now get an anti-undead ranged attack
 
+Starting Army city guard -> Pikeneers
+
+Goetic Masters Ritual Master
+
 ###### Mictlan, Blood and Rain
 sun warriors cost 18->15; Hp 12->13; Strength 10->11
 
@@ -1677,6 +1679,8 @@ Tlahuelpuchi cost 25-33 Pathreq B2->B2D2
 Civateteo pathreq B2D2->B2, douse 1
 
 ###### T'ien Ch'i, Barbarian Kings
+Khan discount
+Light Barbarian Horsemen discount
 
 ###### Jomon, Human Daimyos
 Ashigaru Archer added (As Ashigaru is to Bandit: 8 gold, not stealthy)
@@ -1732,6 +1736,12 @@ Kitsune 30->23 gems
 ###### Agartha, Ktonian Dead
 Blindlord; 30 gold discount, insp1, goodleader->okleader
 
+Blindfighter +1 strength
+
+Cave Knight 10 gold discount
+
+H2 mage given mm2
+
 ###### Abysia, Blood of Humans
 Addition of ?Childen of Rhuax? spell - Abysian version of Rhuax pact, requiring F4E1.
 
@@ -1741,11 +1751,21 @@ Addition ?abysian crossbreeding? (abysian themed version of the crossbreeding sp
 
 GoRing Demonspawn results in either a misbred commander (if they have afflictions), a blood hunter, or an assassin.
 
+Newts discounted by 15 gold
+
+Anathemant Salamanders discounted by 15 gold, given 0.2 additional random
+
+Anathemant Dragons Discounted by 15 gold, given 0.2 additional random
+
 ###### Caelum, Return of the Raptors
 
 ###### C'tis, Desert Tombs
 
 ###### Pangaea, New Era
+
+Pan random is 10%->30%
+
+Minotaurs 5 gold discount
 
 ###### MidgÃÂ¥rd, Age of Men
 
@@ -1785,8 +1805,34 @@ Sandhyabalas 3 -> 4 summoned
 
 ###### Gath, Last of the Giants
 ###### Ragha, Dual Kingdom
+PD shifted to be worse
+
+Zhayedans cost 40 gold each time they lose a rider
+
+Karapans cost 10 gold more
+
+Athravans are coldrec 1, to reduce flying sacred parties
+
+Turan Sorcerors are heatrec 2, 225->265 gold
+
+Airya Seraphs are coldrec 2, 225->265 gold
+
+Paighans have militia morale, are 8->9 gold
+
+Turan infantry are all +1 goldcost
+
+Turan Elephants are +10 goldcost
+
+Airya archers and infantry are +1 goldcost
+
 ###### Xibalba, Return of the Zotz
 Beastbats 1.44 siege defense from 2.44.
+
+Chilans Recruited in Caves are STR
+
+Zotz lances are stone, and cost +1 resources
+
+Zotz cost a minimum of 8 gold.
 
 ###### Atlantis, Frozen Sea
 
