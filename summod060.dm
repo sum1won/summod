@@ -8587,7 +8587,53 @@ Cerulean Warrior Dmg 5->6"
 #end
 
 #selectnation 61 --LA Pythium
-#descr "Just, no, when summod and pythmod are merged, then maybe."
+#descr "Serpent Priest Gold 265->250 H2->H1 10%WSDN->20%WSDN +Prophetshape (Cult Toggle)
+
+Serpent Cataphract Gold 70->55 Def 15->16
+
+Serpent Lord Gold 110->95 Def 16->17
+
+Serpent Acolyte -1Hpathboost Serpcult: 0Hpathboost
+
+Hydra Gold 250->210 +RecFortSerpCult
+
+Hydra Hatchling Gold 35->28 +RecFortSerpCult
+
+Limitane Rcost 26->21 Def 14->15 Enc 7->6 Ap 8->9 ShieldProt 17->13 Parry 7->6 -Jav+Dart(-2dmg+3Prec+3Ammo)
+
+Limitane Primani Gold 12->11 Rcost 30->24 Def 13->15 Enc 7->6 Ap 8->9 MM 1->2 ShieldProt 17->13 Parry 7->6
+
+Limitane Solaris Gold 15->14 Rcost 26->21 Enc 7->6 Ap 8->9 ShieldProt 17->13 Parry 7->6 -Jav+Dart(-2dmg+3Prec+3Ammo) SunCult: +fortrec Gold 14->13
+
+Primani Solaris Gold 20->17 Rcost 30->24 Def 13->14 Enc 7->6 Ap 8->9 MM 1->2 ShieldProt 17->13 Parry 7->6 SunCult: +fortrec Gold 17->16
+
+Comitatense Rcost 26->23 Def 16->17 Enc 7->5 AP 8->10 ShieldProt 17->13 Parry 7->6 -Jav+Dart(-2dmg+3Prec+3Ammo)
+
+Palatine Gold 22->19 Def 15->16 Enc 9->7 Ap 8->10
+
+Centurion Def 11->12 Enc 5->4 AP 10->11
+
+Tribuni Def 16->17 Enc 9->7 Ap 6->8
+
+Magister Militum Def 10->11 Enc 6->5 Ap 10->11
+
+Leo Def 11->12 Enc 5->4 Ap 10->11 +RecFortSunCult
+
+Heliodromus Gold 90->100 +H1(-3 Pathboost) +Prophetshape (Cult Toggle) +RecFortSunCult
+
+Epoptes +E1 +H1(-3 Pathboost) 100%NE->10%NE +Prophetshape (Cult Toggle) Fertcult: -slowrec +fortrec +Hpathboost 3 Res+2
+
+Mystes Fertcult: +fortrec (Gold 40->50) +holy Res+1
+
+Serpent Assassin +RecFortSerpCult
+
+Reveler Gold 50->75 +H1(-3 Pathboost) 20%BN->40%BN +Prophetshape (Cult Toggle) Fertcult: +fortrec -Heretic Res+2 Unrest 2->5
+
+Battle Deacon Def 10->11 Enc 5->4 Ap 10->11
+
+Limitane Standard Gold 20->18 Rcost 26->21 Def 15->16 Enc 7->6 Ap 8->9 ShieldProt 17->13 Parry 7->6 -Jav+Dart(-2dmg+3Prec+3Ammo)
+
+Standard Gold 30->20 Rcost 26->23 Def 16->17 Enc 7->5 Ap 8->10 ShieldProt 17->13 Parry 7->6 -Jav+Dart(-2dmg+3Prec+3Ammo)"
 #end
 
 
