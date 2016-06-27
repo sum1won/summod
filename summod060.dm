@@ -1961,7 +1961,8 @@
 #end
 
 #selectitem 253	 --	Woundfend Amulet E1S1->S1
-#mainpath 1
+#mainpath 4
+#secondarylevel 0
 #end
 
 --- Artefacts ---
