@@ -10107,7 +10107,7 @@ may make the battlefield deadly even for the priest's allies."
 #req_friendlyench 81
 #req_dominion 1
 #req_rare 25
-#1d3units 6356
+#1d3units 6436
 #end
 
 ----
