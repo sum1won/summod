@@ -8637,6 +8637,26 @@ Standard Gold 30->20 Rcost 26->23 Def 16->17 Enc 7->5 Ap 8->10 ShieldProt 17->13
 
 Serpent Cult
 
+Summon Hydra Hatchlings (Conjuration 3, N1H1, Requires Cult Fort, Gcost 5, Summons 3 Hydra Hatchlings)
+
+Summon Hydra (Conjuration 4, N3H1, Requires Cult Fort, Gcost 10, Summons 1 Hydra + 3 Hydra Hatchlings)
+
+Summon Serpent (Conjuration 2, N1H1, Requires Cult Fort, Gcost 1, Summons 2 Serpents)
+
+Serpent (Sacred Serpent -Gold -holy Mr 14->10 Prot 7->10 +Undisciplined -Standard Enc 3->2)
+
+Serpent Form (Alteration 4, N1H1, Requires Cult Fort, Gcost 5, Changes 1 serpent acolyte to snake form per month via sacrificial goat)
+
+Large Serpent (Serpent Pathboost -1WSDN +OnBattleSpell [PoisonWard] +Inspirational 1 +Shapechange Serpent Acolyte [oneway])
+
+Greater Serpent Form (Alteration 5, N2H2, Requires Cult Fort, Gcost 10, Changes 1 serpent priest to greater snake form per month via sacrificial goat)
+
+Great Serpent (Jade Serpent  -1WSDN +OnBattleSpell [PoisonWard] +Fear 5 +Inspirational 1 +Shapechange Serpent Priest [oneway])
+
+Daughter of Typhon (Conjuration 7, N4D2, Requires Cult Fort, Gcost 20, Summons Daughter of Typhon)
+
+Marshes of Pythia (Thaumaturgy 6, N3H4, 400 Fatigue, Quagmire + 1 turn bordersummon Hydras + 3 turns bordersummon htachlings + 9 turns bordersummon marshsnakes)
+
 Sun Cult
 
 +50 Rescources per fort +forcrec Leo, Heliodramus, Limitane Solaris, Primani Solaris, Reclimit 3 Eusebes Solaris
