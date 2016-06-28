@@ -9498,6 +9498,7 @@ Standard Gold 30->20 Rcost 26->23 Def 16->17 Enc 7->5 Ap 8->10 ShieldProt 17->13
 #magicboost 6 -1
 #magicboost 8 1
 #shapechange 6426
+#clearweapons
 #weapon 147
 #weapon 65
 #descr "The Great Serpent is a Serpent Priest who has taken the form of an enormous serpent via a magical ritual. In this form, his magical powers are weakened, but he is physically mighty and can protect allies from being poisoned.  The Serpent Priest can reassume his human form at any time, but must undergo the ritual to assume this form."
@@ -9514,6 +9515,7 @@ Standard Gold 30->20 Rcost 26->23 Def 16->17 Enc 7->5 Ap 8->10 ShieldProt 17->13
 #onebattlespell 805
 #inspirational 1
 #shapechange 830
+#clearweapons
 #weapon 141
 #weapon 239
 #descr "The Large Serpent is a Serpent Acolyte who has taken the form of an enormous serpent via a magical ritual. In this form, his magical powers are weakened, but he is physically strong and can protect allies from being poisoned.  The Serpent acolyte can reassume his human form at any time, but must undergo the ritual to assume this form."
@@ -9874,6 +9876,7 @@ may make the battlefield deadly even for the priest's allies."
 #inspirational 1
 #fireres 10
 #magicskill 0 1
+#custommagic 8192 10
 #researchbonus -2
 #firepower 1
 #weapon 8
@@ -9981,32 +9984,6 @@ may make the battlefield deadly even for the priest's allies."
 #mon 6436
 #end
 
-#newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "nope [Mithraea]."
-#req_anycode -1104
-#req_fort 1
-#req_freesites 1
-#req_nositenbr 1816
-#addsite 1816 --temple of serpent
-#nolog
-#notext
-#removesite 1818
-#end
-
-#newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "nope [Mithraea]."
-#req_code -1104
-#req_fort 1
-#req_freesites 1
-#req_nositenbr 1816
-#addsite 1816 --temple of serpent
-#nolog
-#notext
-#removesite 1818
-#end
-
 #newevent  #msg "Noprophet. [Mithraea]."
 #rarity 5
 #req_anycode -1106
@@ -10043,80 +10020,6 @@ may make the battlefield deadly even for the priest's allies."
 #newevent #msg "Enemy. [Mithraea]." #rarity 5 #req_notnation 61 #nation -2 #notext #nolog  #req_site 1
 #removesite 1816 #end
 
-#newsite 1818--, 4 events
-#name "Mithraea Prime"
-#path 0
-#rarity 5
-#res 50
-#com 6420
-#com 6419
-#mon 6424
-#mon 6425
-#mon 6437
-#end
-
-#newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "nope [Mithraea Prime]."
-#req_anycode -1107
-#req_fort 1
-#req_freesites 1
-#req_nositenbr 1818
-#addsite 1818 --temple of serpent
-#nolog
-#notext
-#removesite 1816
-#end
-
-#newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "nope [Mithraea]."
-#req_code -1107
-#req_fort 1
-#req_freesites 1
-#req_nositenbr 1818
-#addsite 1818 --temple of serpent
-#nolog
-#notext
-#removesite 1816
-#end
-
-#newevent  #msg "Noprophet. [Mithraea]."
-#rarity 5
-#req_anycode -1106
-#nation -2 #notext #nolog  #req_site 1
-#removesite 1818
-#end
-
-#newevent  #msg "Noprophet. [Mithraea]."
-#rarity 5
-#req_anycode -1102
-#nation -2 #notext #nolog  #req_site 1
-#removesite 1818
-#end
-
-#newevent  #msg "Noprophet. [Mithraea]."
-#rarity 5
-#req_code -1102
-#nation -2 #notext #nolog  #req_site 1
-#removesite 1818
-#end
-
-#newevent  #msg "Noprophet. [Mithraea]."
-#rarity 5
-#req_code -1106
-#nation -2 #notext #nolog  #req_site 1
-#removesite 1818
-#end
-
-#newevent  #msg "Nofort. [Mithraea]."
-#rarity 5  #req_fort 0 #nation -2 #notext #nolog  #req_site 1
-#removesite 1818
-#end
-
-#newevent #msg "Enemy. [Mithraea]." #rarity 5 #req_notnation 61 #nation -2 #notext #nolog  #req_site 1
-#removesite 1818 #end
-
 #newmonster 6436
 #copystats 1866
 #name "Eusebes Solaris"
@@ -10127,28 +10030,11 @@ may make the battlefield deadly even for the priest's allies."
 #armor 126
 #armor "Clipeus"
 #armor 18 --full chain
-#gcost 10019
+#gcost 10018
 #mapmove 2
 #fireres 10
 #holy
 #reclimit 3
-#end
-
-#newmonster 6437
-#copystats 1866
-#name "Eusebes Solaris"
-#descr "A warrior devoted to the cause of the Solar Bull, the Eusebes Solaris are drawn from the ranks of the Primani Solaris, and are devoted to his cause. More will appear when the New God places a new sun in the sky. They will serve the new god as holy warriors so long as he is aligned with the Solar Bull in some fashion."
-#spr1 "./summod/solsacred_1.tga"
-#spr2 "./summod/solsacred_2.tga"
-#cleararmor
-#armor 126
-#armor "Clipeus"
-#armor 18 --full chain
-#gcost 10015
-#mapmove 2
-#fireres 10
-#holy
-#firstshape 6436
 #end
 
 #newevent
@@ -10157,7 +10043,7 @@ may make the battlefield deadly even for the priest's allies."
 #msg "Helioperses gen"
 #notext
 #nolog
-#req_site 1818
+#req_site 1816
 #req_friendlyench 81
 #req_rare 10
 #req_dominion 7
@@ -10171,9 +10057,9 @@ may make the battlefield deadly even for the priest's allies."
 #msg "Heliobull gen"
 #notext
 #nolog
-#req_site 1818
+#req_site 1816
 #req_friendlyench 81
-#req_rare 50
+#req_rare 10
 #req_dominion 4
 #1unit 6435
 #end
@@ -10184,9 +10070,10 @@ may make the battlefield deadly even for the priest's allies."
 #msg "Heliosacreds gen"
 #notext
 #nolog
-#req_site 1818
+#req_site 1816
 #req_friendlyench 81
 #req_dominion 1
+#req_rare 25
 #1d3units 6356
 #end
 
