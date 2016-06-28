@@ -8618,9 +8618,9 @@ Tribuni Def 16->17 Enc 9->7 Ap 6->8
 
 Magister Militum Def 10->11 Enc 6->5 Ap 10->11
 
-Leo Def 11->12 Enc 5->4 Ap 10->11 +RecFortSunCult
+Leo Def 11->12 Enc 5->4 Ap 10->11 Suncult: +fortrec -heretic -10%N +holy Def 12->14 Insp 0->1 StartAge 35->22 +Enchrebate SecondSun
 
-Heliodromus Gold 90->100 +H1(-3 Pathboost) +Prophetshape (Cult Toggle) +RecFortSunCult
+Heliodromus Gold 90->100 +H1(-3 Pathboost) +Prophetshape (Cult Toggle) Suncult: +fortrec -heretic +Hpathboost 3 Res+1 FireRes 7->12 -10%F +20%FN Gold 100->115 +Enchrebate SecondSun
 
 Epoptes +E1 +H1(-3 Pathboost) 100%NE->10%NE +Prophetshape (Cult Toggle) Fertcult: -slowrec +fortrec +Hpathboost 3 Res+2
 
@@ -8634,7 +8634,40 @@ Battle Deacon Def 10->11 Enc 5->4 Ap 10->11
 
 Limitane Standard Gold 20->18 Rcost 26->21 Def 15->16 Enc 7->6 Ap 8->9 ShieldProt 17->13 Parry 7->6 -Jav+Dart(-2dmg+3Prec+3Ammo)
 
-Standard Gold 30->20 Rcost 26->23 Def 16->17 Enc 7->5 Ap 8->10 ShieldProt 17->13 Parry 7->6 -Jav+Dart(-2dmg+3Prec+3Ammo)"
+Standard Gold 30->20 Rcost 26->23 Def 16->17 Enc 7->5 Ap 8->10 ShieldProt 17->13 Parry 7->6 -Jav+Dart(-2dmg+3Prec+3Ammo)
+
+Serpent Cult
+
+Summon Hydra Hatchlings (Conjuration 3, N1H1, Requires Cult Fort, Gcost 5, Summons 3 Hydra Hatchlings)
+
+Summon Hydra (Conjuration 4, N3H1, Requires Cult Fort, Gcost 10, Summons 1 Hydra + 3 Hydra Hatchlings)
+
+Summon Serpent (Conjuration 2, N1H1, Requires Cult Fort, Gcost 1, Summons 2 Serpents)
+
+Serpent (Sacred Serpent -Gold -holy Mr 14->10 Prot 7->10 +Undisciplined -Standard Enc 3->2)
+
+Serpent Form (Alteration 4, N1H1, Requires Cult Fort, Gcost 5, Changes 1 serpent acolyte to snake form per month via sacrificial goat)
+
+Large Serpent (Serpent Pathboost -1WSDN +OnBattleSpell [PoisonWard] +Inspirational 1 +Shapechange Serpent Acolyte [oneway])
+
+Greater Serpent Form (Alteration 5, N2H2, Requires Cult Fort, Gcost 10, Changes 1 serpent priest to greater snake form per month via sacrificial goat)
+
+Great Serpent (Jade Serpent  -1WSDN +OnBattleSpell [PoisonWard] +Fear 5 +Inspirational 1 +Shapechange Serpent Priest [oneway])
+
+Daughter of Typhon (Conjuration 7, N4D2, Requires Cult Fort, Gcost 20, Summons Daughter of Typhon)
+
+Marshes of Pythia (Thaumaturgy 6, N3H4, 400 Fatigue, Quagmire + 1 turn bordersummon Hydras + 3 turns bordersummon htachlings + 9 turns bordersummon marshsnakes)
+
+Sun Cult
+
++50 Rescources per fort +forcrec Leo, Heliodramus, Limitane Solaris, Primani Solaris, Reclimit 3 Eusebes Solaris
+
+Eusebes Solaris (Primani Solaris Gold 16->20 +Holy)
+
+SecondSun +Enchrebate Leo, Heliodramus -reclimit Eusebes Solaris +Fort Dom Freespawn (1d3Eusebes dom1, 1Heliotaurus dom4 50%, 1Helioperses+1Heliotaurus dom 7 10%)
+
+Fertility Cult +30 Supply +Helaer 2 per fort"
+
 #end
 
 
