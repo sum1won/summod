@@ -1908,7 +1908,6 @@
 
 #selectitem 255	 --	Pendant of Luck -> Twist Fate
 #autospell "Twist Fate"
-#autospellrepeat 1
 #end
 
 #selectitem 265	 --	Pills of Water breathing, W1, const 6, 80 points
