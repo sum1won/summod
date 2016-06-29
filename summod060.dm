@@ -4084,7 +4084,15 @@
 #divineins 5
 #fixedresearch 5
 #end
-#selectmonster 2886
+#selectmonster 1404 --polypal spawn
+#clearspec
+#darkvision 100
+#eyes 4
+#magicbeing
+#amphibian
+#landdamage 40
+#end
+#selectmonster 2886 --grandmother
 #inspiringres 1
 #end
 #selectmonster 1521 --mindlord
@@ -11727,6 +11735,8 @@ Slave Guardian (1, Atlantian) Dmg 5->7 HProt 16->14
 Lobo Guard +CoastRec
 
 Polypal Mother +FortRec +Divinsp 5
+
+Polypal Spawn amphibious, landdamage
 
 Slave Trooper (2, Merman) Dmg 2->3 Rcost 2->3
 
