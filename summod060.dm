@@ -475,7 +475,6 @@
 #aoe 1
 #end
 
-
 #newweapon 1413
 #name "Bleed"
 #dt_aff
@@ -2304,6 +2303,12 @@
 #selectspell 692
 #fatiguecost 500
 #end
+
+--Raven's Feast
+#selectspell 677
+#pathlevel 0 3
+#end
+
 
 ---Battlemagic---
 
