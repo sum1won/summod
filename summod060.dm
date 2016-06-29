@@ -9752,7 +9752,7 @@ may make the battlefield deadly even for the priest's allies."
 #name "Daughter of Typhon"
 #descr "The mage enters the misty swamps of Pythia to find the entrance to the underworld hidden there. Once there the mage will lure the guardian of the gate to the Temple of Serpents, where it can be bound to his service. The guardian is a beast of might and malice unequaled. She is the daughter of Typhon, Enemy of Gods, and Echidna, Mother of Monsters and her name is Hydra. Like her lesser kin, she has nine heads. However, her central head is blessed by her father and is immortal. Should it be cut off a new body will regrow from the stump within weeks. Hydra is sacred."
 #effect 10021
-#damage (INSERT DAUGHTER OF TYPHON HERE)
+#damage 1822
 #school 0
 #path 0 6
 #pathlevel 0 4
