@@ -475,7 +475,6 @@
 #aoe 1
 #end
 
-
 #newweapon 1413
 #name "Bleed"
 #dt_aff
@@ -2305,6 +2304,12 @@
 #fatiguecost 500
 #end
 
+--Raven's Feast
+#selectspell 677
+#pathlevel 0 3
+#end
+
+
 ---Battlemagic---
 
 -Life for a Life
@@ -4079,7 +4084,15 @@
 #divineins 5
 #fixedresearch 5
 #end
-#selectmonster 2886
+#selectmonster 1404 --polypal spawn
+#clearspec
+#darkvision 100
+#eyes 4
+#magicbeing
+#amphibian
+#landdamage 40
+#end
+#selectmonster 2886 --grandmother
 #inspiringres 1
 #end
 #selectmonster 1521 --mindlord
@@ -9752,7 +9765,7 @@ may make the battlefield deadly even for the priest's allies."
 #name "Daughter of Typhon"
 #descr "The mage enters the misty swamps of Pythia to find the entrance to the underworld hidden there. Once there the mage will lure the guardian of the gate to the Temple of Serpents, where it can be bound to his service. The guardian is a beast of might and malice unequaled. She is the daughter of Typhon, Enemy of Gods, and Echidna, Mother of Monsters and her name is Hydra. Like her lesser kin, she has nine heads. However, her central head is blessed by her father and is immortal. Should it be cut off a new body will regrow from the stump within weeks. Hydra is sacred."
 #effect 10021
-#damage (INSERT DAUGHTER OF TYPHON HERE)
+#damage 1822
 #school 0
 #path 0 6
 #pathlevel 0 4
@@ -11722,6 +11735,8 @@ Slave Guardian (1, Atlantian) Dmg 5->7 HProt 16->14
 Lobo Guard +CoastRec
 
 Polypal Mother +FortRec +Divinsp 5
+
+Polypal Spawn amphibious, landdamage
 
 Slave Trooper (2, Merman) Dmg 2->3 Rcost 2->3
 
