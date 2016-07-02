@@ -7784,7 +7784,9 @@ GoRing Crossbreeds can result in bloodhunters or assassins if they have no aflic
 #selectnation 14 --EA Caelum
 #descr "Tiger +Stealth
 
-Ambush of Tigers 10++->14++"
+Ambush of Tigers 10++->14++
+
+Blizzard Warrior Dmg 9->11"
 #end
 
 #selectnation 15 --EA C'tis
@@ -8312,7 +8314,7 @@ GoRing Crossbreeds can result in bloodhunters or assassins if they have no aflic
 #selectnation 46 --MA Caelum
 #descr "Spire Horn Archer Rcost 6->7 -Short Bow +Composite Bow
 
-Blizzard Warrior Dmg 9->12
+Blizzard Warrior Dmg 9->11
 
 Ice Enchanter (Seraph -Ice Knife +Hammer Mr 15->14 Mor 11->12 +CapOnly Magic 2A1W->2W100%FSD100%AWS +Forgebonus1 +Icecrafting7)
 
@@ -11660,7 +11662,27 @@ Shark Warrior +Non-Rust Armour +Bite (2dmg -1def)"
 #end
 
 #selectnation 70 --LA Agartha
-#descr "No swanky new descr yet, sorry"
+#descr "Entrance Guard Def 14->15 Enc 10->9 Ap 5->6
+
+Agarthan Heavy Infantry Def 13->14
+
+Agarthan Infantry Def 14->15
+
+Blindfighter Str 11->12 Def 14->15 Enc 10->9 Ap 5->6
+
+Servant of the Oracles MM 1->2
+
+Blindlord Def 14->15 Enc 10->9 Ap 5->6 +H1 +Insp1 Led 80->40 Gold 140->135
+
+Cave Captain Def 14->15
+
+Gate Lord Def 14->15 Enc 10->9 Ap 5->6
+
+Cave Knight Gold 100->90 Def 16->17
+
+Drake Lord Def Def 16->17
+
+Agarthan Heavy Crossbowman Def 5->6"
 #end
 
 #selectnation 71 --LA Abysia
