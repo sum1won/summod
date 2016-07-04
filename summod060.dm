@@ -11912,7 +11912,17 @@ Ichtytaur Warrior Gold 50->35 +Gore (-1Att -1def) Def +1 Enc 6->5 Ap +1"
 #end
 
 #selectnation 91 --LA Atlantis
-#descr "No swanky new descr yet, sorry"
+#descr "Atlantian Light Infantry Res 9->12
+
+Atlantian Infantry Res 12->15 Prot 12->13
+
+Tent Owner Res 6->5 Dmg 3->2 -Ferrous
+
+Mournful -Ferrous
+
+Unsleeping Res 26->34 Prot 16->17 Enc 7->6 Ap 7->8
+
+Unsleeping Consort Res 26->34 Prot 16->17 Enc 7->6 Ap 7->8"
 #end
 
 #selectnation 92 --LA R'lyeh
