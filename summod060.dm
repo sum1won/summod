@@ -268,14 +268,14 @@
 #end
 
 #newspell
-#copyspell "Healing Light"
+#name "Totem Heal"
+#copyspell "Healing Song"
 #name "Totem Heal"
 #aoe 5
 #descr "The spirit trapped inside the shield will heal minor wounds on friendly soldiers near the bearer."
 #damage 1
-#spec 541720704
-#explspr 10231
-#range 5
+#spec 541724800
+#range 8
 #school -1
 #end
 
@@ -3279,6 +3279,7 @@
 #end
 #selectmonster 1357 --beastbat
 #castledef -1
+#siegebonus -1
 #end
 #selectmonster 2679 -- Ah Nakom
 #gcost 75
