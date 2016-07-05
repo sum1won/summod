@@ -3373,13 +3373,13 @@
 #end																
 #newmonster 6923	 #copystats 468	 #copyspr 468	#transformation 0 	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."		#name "Foul Spawn"		#firstshape 468	 #montag 1303 
 #end																
-#newmonster 6924	 #name "Demonspawn"	#copystats 6900 #copyspr 983 	#firstshape 6900	#montag 1303 
+#newmonster 6924	 #name "Demonspawn"	#copystats 6900 #copyspr 983 	#firstshape 6900 #custommagic 16384 50		#montag 1303 
 #end																					
-#newmonster 6925	 #name "Demonspawn"	#copystats 6900 #copyspr 983 	#firstshape 6900	#montag 1303 
+#newmonster 6925	 #name "Demonspawn"	#copystats 6900 #copyspr 983 	#firstshape 6900 #custommagic 16384 50		#montag 1303 
 #end																					
-#newmonster 6926	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901	#montag 1303 
+#newmonster 6926	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901 #custommagic 16384 50		#montag 1303 
 #end																					
-#newmonster 6927	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901	#montag 1303 
+#newmonster 6927	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901 #custommagic 16384 50		#montag 1303 
 #end																					
 #newmonster 6928	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901	#montag 1303 
 #end																					
@@ -3525,6 +3525,7 @@
 #selectmonster 87
 #darkvision 100
 #end
+
 #newmonster 6999
 #copystats 1661
 #copyspr 1661
@@ -3533,6 +3534,7 @@
 #descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The least flawed Demonspawn are selected as part of the Demonbred program, and the remainder are known as Misbred.  This Misbred was part of the breeding program, and while he showed promise, ultimately failed to be selected and instead leads other misbred in combat."
 #magicboost 7 -1
 #end
+
 #newmonster 6998
 #copystats 87
 #copyspr 87
@@ -3551,9 +3553,12 @@
 #weapon 29
 #cleararmor
 #douse 1
+#magicskill 7 1
 #noleader
 #gcost 10030
+#size 3
 #end
+
 #newmonster 6997
 #copystats 1537
 #copyspr 1537
@@ -3561,30 +3566,7 @@
 #descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The Demonbred are the most successful of these beings, and selected from the very best of the Demonspawn, who are bound to obey their masters by nature. This unflawed specimen lacked magical talent, and was sent to the Slayers for training."
 #magicboost 7 -1
 #end
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	1	--disease
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	4096	--blind
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	262144	--limp
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	524288	--lost eye
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	1048576	--weakness
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	2097152	--battlefright
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	4194304	--mute
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	8388608	--chestwound
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	16777216	--crippled
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	33554432	--feeblemind
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	67108864	--neverhealing
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	1073741824	--armloss
-#transform 6999 #end 
+
 #newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	1	--disease
 #transform 6999 #end 
 #newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	4096	--blind
