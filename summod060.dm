@@ -6803,8 +6803,62 @@
 #newevent #req_freesites 1 #rarity 5  #req_fornation 62   #req_land 1
 #nation -2 #req_pop0ok #req_capital 0 #req_maxpop 100 #req_dominion 2 #req_site 0 #addsite -1
 #msg "Deadland Created. [Deadland]"   #nolog #notext #end
+
+
 #selectnation 92 --rlyeh
 #end
+
+
+#newsite 1818
+#name "Void Rift"
+#path 4
+#level 0
+#rarity 5
+#voidgate 20
+#end
+
+#newmonster 6413
+#copystats 757
+#copyspr 757
+#name "Voidrift Sacrifice"
+#landdamage 100
+#uwdamage 100
+#firstshape 757
+#end
+
+#newevent
+#req_pop0ok
+#rarity 5
+#nation -2
+#req_fornation 92
+#req_freesites 1
+#req_nositenbr 1818
+#req_dominion 3
+#req_monster 6413
+#msg "The ritual has succeeded!  A rift in reality has been created!"
+#nolog
+#addsite 1818
+#end
+
+#newspell
+#name "Sunder Reality"
+#descr "A starspawn attempts to create a connection to the void, a dangerous ritual that can only happen in a fort where the Dream holds sway"
+#school 5
+#researchlevel 6
+#fatiguecost 1000
+#path 0 4
+#path 1 2
+#pathlevel 0 5 -- change
+#pathlevel 1 2 --change
+#restricted 92
+#effect 10001
+#provrange 1
+#nowatertrace 1
+#nolandtrace 1
+#damage 6413
+#end
+
+
 #newsite 1805
 #name "Dreamland"
 #path 5 
