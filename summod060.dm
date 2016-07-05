@@ -6271,7 +6271,6 @@
 #end
 
 #selectmonster 2579 --paighan
-#gcost 10009 --cost increased by one, morale dropped by 1
 #mor 8
 #end
 
