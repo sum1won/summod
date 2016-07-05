@@ -1960,7 +1960,6 @@
 
 #selectitem 253	 --	Woundfend Amulet E1S1->S1
 #mainpath 4
-#secondarylevel 0
 #end
 
 --- Artefacts ---
@@ -11962,3 +11961,4 @@ Spectral weapons HrdMrNg
 
 Summon the Waters of Stygia (Thaumaturgy 6, D5W2, WorldEnch, Gcost 50, Inc Death, Spawns more spectrals, Creates W sites in dead provinces)"
 #end
+
