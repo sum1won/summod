@@ -408,7 +408,7 @@ Mirror of False Impressions-> A4->A2
 
 Pebble Pouch Range Strength/3->Strength, nratt 3
 
-Pendant of Luck -> Twist Fate
+Pendant of Luck -> casts twist fate at the start of battle
 
 Pills of Water Breathing, A1, const 6, 80 points
 
@@ -553,6 +553,8 @@ Acashic Record - 10 -> 5 gems
 Breath of the Desert change to F/D crosspaths
 
 Dragon Master -lvl 8 -> 5, 30 -> 14 gems
+
+Raven Feast A4->A3
 
 ##### Battlemagic
 
@@ -1619,9 +1621,17 @@ Agema Commander 5 gold discount
 Agema Companion 5 gold discount
 
 ###### Pythium, Serpent Cult
-Serpent Lord 15 gold discount
+Folds in LA Pythium overhaul mod. Troops slightly improved, but the main thing is a mechanic that lets you switch between active cults, with different bonuses provided for any of the three possible choices.
 
-Serpent Cataphract 15 gold discount
+All cults have their divine authority increased when endorsed. This might give them priest levels, remove heretic, and/or decrease a research malus.
+
+Serpent Cult gets more hydras and snakes as summons, while assassins and hydras stop being cult only. They can also shapeshift into monstrous snakes, and get a new magic item that can only be used when they are endorsed. Finally, they get access to Swamps of Pythia from CBM (thanks, llama!).
+
+Solar Cult gets cheaper and easier recruitment of their members, and gets a reclimit sacred. They get a new solar bull summon, and a ritual that can convert Leos into Helioperses, who are effective thugs, and the only unit that can wield the 4 new solar cult items. Casting second sun provides some freespawn. They also get an F2H3 buff that significantly increases the combat prowess of sacreds, but will severely burn sacreds who aren't members of the cult of the solar bull (fire resistance helps).
+
+Fertility cult can convert casters into Galli, who are their clergy, and their main access to their rituals. They get very cheap assassination rituals that can send maenads, boars, or lions after an enemy, can shapechange into monstrous lions or boars, can throw bloody fertility rites and orgies, and inexpensively summon boars and lions with summerpower. They also get cheaper vine men.
+
+Reference is made to https://docs.google.com/document/d/1nkTDn9yhYQrRcN6k0dTjzs5DpuKxiauV76wA0zQnkTs for the full changelog.
 
 ###### Lemuria, Soul Gates
 Spectrals weapons are now hardmrnegates.  
@@ -1672,6 +1682,10 @@ Starting Army city guard -> Pikeneers
 Goetic Masters Ritual Master
 
 ###### Mictlan, Blood and Rain
+Rain Warriors 23->20 gold
+
+Returned have much better weapons
+
 sun warriors cost 18->15; Hp 12->13; Strength 10->11
 
 Tlahuelpuchi cost 25-33 Pathreq B2->B2D2
@@ -1680,6 +1694,7 @@ Civateteo pathreq B2D2->B2, douse 1
 
 ###### T'ien Ch'i, Barbarian Kings
 Khan discount
+
 Light Barbarian Horsemen discount
 
 ###### Jomon, Human Daimyos
@@ -1840,3 +1855,5 @@ Zotz cost a minimum of 8 gold.
 spawns occasional S1 sites on templed coastal provinces with sufficiently high dominion
 
 All freespawn is 0 upkeep
+
+Create Voidrift: Thau 6 S5W2 10 pearl ritual that can create a site that allows void-summoning.
