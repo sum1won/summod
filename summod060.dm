@@ -3325,7 +3325,7 @@
 #selectmonster 1536 --ea demonbred
 #douse 1
 #end
-#newmonster 6900	 #copystats 1661 #name "Demonspawn"		 #copyspr 1661		 	#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The least flawed Demonspawn are selected as part of the Demonbred program, and the remainder are known as Misbred.  Demonspawn radiate the hellish heat characteristic of Abysians, but must be led by a mage or commander with undead leadership.  Some Demonspawn have a talent for magic."	 	#poorundeadleader #startaff 50	 #custommagic 16384 50			#douse 1						 		 #montag 1303 
+#newmonster 6900	 #copystats 1661 #name "Demonspawn"		 #copyspr 1661		 	#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The least flawed Demonspawn are selected as part of the Demonbred program, and the remainder are known as Misbred.  Demonspawn radiate the hellish heat characteristic of Abysians, but must be led by a mage or commander with undead leadership.  Some Demonspawn have a talent for magic."	 	#poorundeadleader #startaff 30	 #custommagic 16384 50			#douse 1						 		 #montag 1303 
 #end				
 #newmonster 6901	 #copystats 983	 #name "Humanspawn"		 #copyspr 983		#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The Humanspawn frequently result from such experiments.  They breed true and grow quickly, making them useful in warfare.  They share the Abysian resistance to heat, but their flesh is cooler and will will not incinerate their own equiment.  The least flawed on the Humanspawn may serve as breeding stock for the Humanbred program."		 		 #slave	 #startaff 20	 #gcost 4	 #mor 10							 		 #montag 1303 
 #end			
@@ -3591,10 +3591,10 @@
 #transform 6999 #end 
 #newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	1073741824	--armloss
 #transform 6999 #end 
-#newevent #rarity 5 #nation -2 #req_commander -1 #req_targmnr 6900 #req_targpath1 7 #transform 6998 #end
-#newevent #rarity 5 #nation -2 #req_commander -1 #req_targmnr 6900 #req_targpath1 7 #transform 6998 #end
-#newevent #rarity 5 #nation -2 #req_commander -1 #req_targmnr 6900 #transform 6997 #end			
-#newevent #rarity 5 #nation -2 #req_commander -1 #req_targmnr 6900 #transform 6997 #end																	
+#newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targpath1 7 #transform 6998 #end
+#newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targpath1 7 #transform 6998 #end
+#newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targpath1 7 #transform 6998 #end
+#newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #transform 6997 #end																	
 #newspell
 #name "Abysian Crossbreeding"
 #restricted 13
