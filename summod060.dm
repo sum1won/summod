@@ -6731,20 +6731,23 @@
 
 #newevent 
 #req_fornation 62
+#nation -2
 #rarity 5
 #req_rare 20
 #req_owncapital 1
 #req_maxturn 12
+#req_nomonster 678
 #com 678
 #end
 
 #newevent 
 #req_fornation 62
+#nation -2
 #rarity 5
-#req_rare 30
+#req_rare 40
 #req_owncapital 1
 #req_nomonster 678
-#req_maxturn 12
+#req_maxturn 15
 #com 681
 #end
 
