@@ -268,14 +268,14 @@
 #end
 
 #newspell
-#copyspell "Healing Light"
+#name "Totem Heal"
+#copyspell "Healing Song"
 #name "Totem Heal"
 #aoe 5
 #descr "The spirit trapped inside the shield will heal minor wounds on friendly soldiers near the bearer."
 #damage 1
-#spec 541720704
-#explspr 10231
-#range 5
+#spec 541724800
+#range 8
 #school -1
 #end
 
@@ -1960,7 +1960,6 @@
 
 #selectitem 253	 --	Woundfend Amulet E1S1->S1
 #mainpath 4
-#secondarylevel 0
 #end
 
 --- Artefacts ---
@@ -3280,6 +3279,7 @@
 #end
 #selectmonster 1357 --beastbat
 #castledef -1
+#siegebonus -1
 #end
 #selectmonster 2679 -- Ah Nakom
 #gcost 75
@@ -3326,7 +3326,7 @@
 #selectmonster 1536 --ea demonbred
 #douse 1
 #end
-#newmonster 6900	 #copystats 1661 #name "Demonspawn"		 #copyspr 1661		 	#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The least flawed Demonspawn are selected as part of the Demonbred program, and the remainder are known as Misbred.  Demonspawn radiate the hellish heat characteristic of Abysians, but must be led by a mage or commander with undead leadership.  Some Demonspawn have a talent for magic."	 	#poorundeadleader #startaff 50	 #custommagic 16384 50			#douse 1						 		 #montag 1303 
+#newmonster 6900	 #copystats 1661 #name "Demonspawn"		 #copyspr 1661		 	#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The least flawed Demonspawn are selected as part of the Demonbred program, and the remainder are known as Misbred.  Demonspawn radiate the hellish heat characteristic of Abysians, but must be led by a mage or commander with undead leadership.  Some Demonspawn have a talent for magic."	 	#poorundeadleader #startaff 30	 #custommagic 16384 50			#douse 1						 		 #montag 1303 
 #end				
 #newmonster 6901	 #copystats 983	 #name "Humanspawn"		 #copyspr 983		#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The Humanspawn frequently result from such experiments.  They breed true and grow quickly, making them useful in warfare.  They share the Abysian resistance to heat, but their flesh is cooler and will will not incinerate their own equiment.  The least flawed on the Humanspawn may serve as breeding stock for the Humanbred program."		 		 #slave	 #startaff 20	 #gcost 4	 #mor 10							 		 #montag 1303 
 #end			
@@ -3374,13 +3374,13 @@
 #end																
 #newmonster 6923	 #copystats 468	 #copyspr 468	#transformation 0 	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."		#name "Foul Spawn"		#firstshape 468	 #montag 1303 
 #end																
-#newmonster 6924	 #name "Demonspawn"	#copystats 6900 #copyspr 983 	#firstshape 6900	#montag 1303 
+#newmonster 6924	 #name "Demonspawn"	#copystats 6900 #copyspr 983 	#firstshape 6900 #custommagic 16384 50		#montag 1303 
 #end																					
-#newmonster 6925	 #name "Demonspawn"	#copystats 6900 #copyspr 983 	#firstshape 6900	#montag 1303 
+#newmonster 6925	 #name "Demonspawn"	#copystats 6900 #copyspr 983 	#firstshape 6900 #custommagic 16384 50		#montag 1303 
 #end																					
-#newmonster 6926	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901	#montag 1303 
+#newmonster 6926	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901 #custommagic 16384 50		#montag 1303 
 #end																					
-#newmonster 6927	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901	#montag 1303 
+#newmonster 6927	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901 #custommagic 16384 50		#montag 1303 
 #end																					
 #newmonster 6928	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901	#montag 1303 
 #end																					
@@ -3526,6 +3526,7 @@
 #selectmonster 87
 #darkvision 100
 #end
+
 #newmonster 6999
 #copystats 1661
 #copyspr 1661
@@ -3534,6 +3535,7 @@
 #descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The least flawed Demonspawn are selected as part of the Demonbred program, and the remainder are known as Misbred.  This Misbred was part of the breeding program, and while he showed promise, ultimately failed to be selected and instead leads other misbred in combat."
 #magicboost 7 -1
 #end
+
 #newmonster 6998
 #copystats 87
 #copyspr 87
@@ -3552,9 +3554,12 @@
 #weapon 29
 #cleararmor
 #douse 1
+#magicskill 7 1
 #noleader
 #gcost 10030
+#size 3
 #end
+
 #newmonster 6997
 #copystats 1537
 #copyspr 1537
@@ -3562,6 +3567,7 @@
 #descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The Demonbred are the most successful of these beings, and selected from the very best of the Demonspawn, who are bound to obey their masters by nature. This unflawed specimen lacked magical talent, and was sent to the Slayers for training."
 #magicboost 7 -1
 #end
+
 #newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	1	--disease
 #transform 6999 #end 
 #newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	4096	--blind
@@ -3586,34 +3592,10 @@
 #transform 6999 #end 
 #newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	1073741824	--armloss
 #transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	1	--disease
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	4096	--blind
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	262144	--limp
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	524288	--lost eye
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	1048576	--weakness
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	2097152	--battlefright
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	4194304	--mute
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	8388608	--chestwound
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	16777216	--crippled
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	33554432	--feeblemind
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	67108864	--neverhealing
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	1073741824	--armloss
-#transform 6999 #end 
-#newevent #rarity 5 #nation -2 #req_commander -1 #req_targmnr 6900 #req_targpath1 7 #transform 6998 #end
-#newevent #rarity 5 #nation -2 #req_commander -1 #req_targmnr 6900 #req_targpath1 7 #transform 6998 #end
-#newevent #rarity 5 #nation -2 #req_commander -1 #req_targmnr 6900 #transform 6997 #end			
-#newevent #rarity 5 #nation -2 #req_commander -1 #req_targmnr 6900 #transform 6997 #end																	
+#newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targpath1 7 #transform 6998 #end
+#newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targpath1 7 #transform 6998 #end
+#newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targpath1 7 #transform 6998 #end
+#newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #transform 6997 #end																	
 #newspell
 #name "Abysian Crossbreeding"
 #restricted 13
@@ -6289,7 +6271,6 @@
 #end
 
 #selectmonster 2579 --paighan
-#gcost 10009 --cost increased by one, morale dropped by 1
 #mor 8
 #end
 
@@ -6750,20 +6731,23 @@
 
 #newevent 
 #req_fornation 62
+#nation -2
 #rarity 5
 #req_rare 20
 #req_owncapital 1
 #req_maxturn 12
+#req_nomonster 678
 #com 678
 #end
 
 #newevent 
 #req_fornation 62
+#nation -2
 #rarity 5
-#req_rare 30
+#req_rare 40
 #req_owncapital 1
 #req_nomonster 678
-#req_maxturn 12
+#req_maxturn 15
 #com 681
 #end
 
@@ -6804,8 +6788,62 @@
 #newevent #req_freesites 1 #rarity 5  #req_fornation 62   #req_land 1
 #nation -2 #req_pop0ok #req_capital 0 #req_maxpop 100 #req_dominion 2 #req_site 0 #addsite -1
 #msg "Deadland Created. [Deadland]"   #nolog #notext #end
+
+
 #selectnation 92 --rlyeh
 #end
+
+
+#newsite 1818
+#name "Void Rift"
+#path 4
+#level 0
+#rarity 5
+#voidgate 20
+#end
+
+#newmonster 6413
+#copystats 757
+#copyspr 757
+#name "Voidrift Sacrifice"
+#landdamage 100
+#uwdamage 100
+#firstshape 757
+#end
+
+#newevent
+#req_pop0ok
+#rarity 5
+#nation -2
+#req_fornation 92
+#req_freesites 1
+#req_nositenbr 1818
+#req_dominion 3
+#req_monster 6413
+#msg "The ritual has succeeded!  A rift in reality has been created!"
+#nolog
+#addsite 1818
+#end
+
+#newspell
+#name "Sunder Reality"
+#descr "A starspawn attempts to create a connection to the void, a dangerous ritual that can only happen in a fort where the Dream holds sway"
+#school 5
+#researchlevel 6
+#fatiguecost 1000
+#path 0 4
+#path 1 2
+#pathlevel 0 5 -- change
+#pathlevel 1 2 --change
+#restricted 92
+#effect 10001
+#provrange 1
+#nowatertrace 1
+#nolandtrace 1
+#damage 6413
+#end
+
+
 #newsite 1805
 #name "Dreamland"
 #path 5 
@@ -11962,3 +12000,4 @@ Spectral weapons HrdMrNg
 
 Summon the Waters of Stygia (Thaumaturgy 6, D5W2, WorldEnch, Gcost 50, Inc Death, Spawns more spectrals, Creates W sites in dead provinces)"
 #end
+
