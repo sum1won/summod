@@ -8730,8 +8730,8 @@ Fertility Cult +30 Supply +Helaer 2 per fort"
 #newevent
 #rarity 5
 #nation -2
-#msg "Thank you for playing this mod.  This message exists to let you know that you now have a host of new national spells, units, and abilities - but they can only be used if the appropriate cult is endorsed.  You may endorse a cult by naming a leader of that cult as your prophet.   Prophetizing a Serpent Priest will endorse the Serpent Cult, prophetizing a Heliodromus will endorse the Solar cult, and prophetizing a Reveler or Epoptes will endorse the Cult of Fertility.  NOTE: If, for some reason, such as disciple mode, you cannot create a prophet, you can circumvent this by ordering the appropriate mage to site search in your capital. This message will save to your province history for reference."
-#req_fornation 49
+#msg "Thank you for playing this mod.  This message exists to let you know that you now have a host of new national spells, units, and abilities - but they can only be used if the appropriate cult is endorsed.  You may endorse a cult by naming a leader of that cult as your prophet.   Prophetizing a Serpent Priest will endorse the Serpent Cult, prophetizing a Heliodromus will endorse the Solar cult, and prophetizing a Reveler or Epoptes will endorse the Cult of Fertility.  NOTE: If, for some reason, such as disciple mode, you cannot create a prophet, you can circumvent this by ordering the appropriate mage to site search in your capital. To change from a cult, you must have the prophet suffer an... unfortunate accident then sitesearch in your capital with anyone. This message will save to your province history for reference."
+#req_fornation 61
 #req_owncapital 1
 #req_unique 1
 #end
@@ -8771,7 +8771,6 @@ Fertility Cult +30 Supply +Helaer 2 per fort"
 #rarity 5 #req_fornation 61 #nation -2
 #msg "nope"
 #req_code 0
-#req_anycode -1100
 #req_monster 6439 --serpent prophet
 #code -1101
 #nolog
@@ -8781,10 +8780,8 @@ Fertility Cult +30 Supply +Helaer 2 per fort"
 
 #newevent  --- if you can't name a prophet normally
 #rarity 5 #req_fornation 61 #nation -2
-#msg "nope"
 #req_code -1100
 #req_monster 761
-#req_nomnr 6439 --serpent prophet
 #req_targorder 7
 #transform 6439
 #code -1102
@@ -8817,66 +8814,18 @@ Fertility Cult +30 Supply +Helaer 2 per fort"
 #notext
 #end
 
---- Lamb code
-
-#newevent --Change to sun
+#newevent  --- Cleanup.
 #rarity 5 #req_fornation 61 #nation -2
 #msg "nope"
-#req_anycode -1102
+#req_code -1102
+#req_targorder 7
 #req_nomnr 6439
-#req_monster 6414
-#code -1103
+#code -1100
+#msg "Nope."
 #nolog
 #notext
 #end
 
-#newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "The new god has named a Heliodromus to be his prophet! The Cult of the Solar Bull swells in power and authority, and Mithrea, temples to the god in his guise as the Solar Bull are erected in every city!  New rituals can be cast in those temples, which can summon the progeny of the Solar Bull, and transform Leos into mighty champions who are the only ones who can wield specially enchanted items.  Cultists can be recruited in these temples, and they will further increase in power if a Second Sun appears in the sky - a true sign of the Solar Bull."
-#req_anycode -1103
-#req_code -1102
-#code -1104
-#nolog
-#end
-
-#newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "The new god has named a Heliodromus to be his prophet! The Cult of the Solar Bull swells in power and authority, and Mithrea, temples to the god in his guise as the Solar Bull are erected in every city!  New rituals can be cast in those temples, which can summon the progeny of the Solar Bull, and transform Leos into mighty champions who are the only ones who can wield specially enchanted items.  Cultists can be recruited in these temples, and they will further increase in power if a Second Sun appears in the sky - a true sign of the Solar Bull."
-#req_monster 6414
-#req_nomnr 6439
-#req_code -1102
-#code -1104
-#nolog
-#end
-
-#newevent --Change to Fert
-#rarity 5 #req_fornation 61 #nation -2
-#msg "nope"
-#req_anycode -1102
-#req_nomnr 6439
-#req_monster 6415
-#code -1105
-#nolog
-#notext
-#end
-
-#newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals." #req_anycode -1105
-#req_code -1102
-#req_nomnr 6439
-#req_monster 6415
-#code -1106
-#end
-
-#newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals." #req_anycode -1105
-#req_code -1102
-#req_nomnr 6439
-#req_anycode -1105
-#code -1106
-#end
 ---
 #newevent
 #rarity 5 #req_fornation 61 #nation -2
@@ -8891,10 +8840,8 @@ Fertility Cult +30 Supply +Helaer 2 per fort"
 
 #newevent  --- if you can't name a prophet normally
 #rarity 5 #req_fornation 61 #nation -2
-#msg "nope"
 #req_code -1100
 #req_monster 1873
-#req_nomnr 6414 --serpent prophet
 #req_targorder 7
 #transform 6414
 #code -1104
@@ -8919,7 +8866,7 @@ Fertility Cult +30 Supply +Helaer 2 per fort"
 #nolog
 #end
 
-#newevent --leakclose
+#newevent --leakclose I mean what, serriously, this annotation does not help me whatsoever, and I probably wrote it
 #rarity 5 #req_fornation 61 #nation -2
 #msg "nope"
 #req_anycode -1104
@@ -9068,64 +9015,17 @@ Fertility Cult +30 Supply +Helaer 2 per fort"
 #killmon 6436
 #end
 
----- Lambcode
 
-#newevent --Change to Fert
+#newevent  --- Cleanup.
 #rarity 5 #req_fornation 61 #nation -2
 #msg "nope"
-#req_anycode -1104
+#req_code -1104
+#req_targorder 7
 #req_nomnr 6414
-#req_monster 6415
-#code -1105
+#code -1100
+#msg "Nope."
 #nolog
 #notext
-#end
-
-#newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals." #req_anycode -1105
-#req_code -1104
-#req_nomnr 6414
-#req_monster 6415
-#code -1106
-#end
-
-#newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals." #req_anycode -1105
-#req_code -1104
-#req_nomnr 6414
-#req_anycode -1105
-#code -1106
-#end
-
-#newevent --Change to Snek
-#rarity 5 #req_fornation 61 #nation -2
-#msg "nope"
-#req_anycode -1104
-#req_nomnr 6414
-#req_monster 6439
-#code -1101
-#nolog
-#notext
-#end
-
-#newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals." #req_anycode -1105
-#req_code -1104
-#req_nomnr 6414
-#req_monster 6439
-#code -1102
-#end
-
-#newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals." #req_anycode -1105
-#req_code -1104
-#req_nomnr 6414
-#req_anycode -1101
-#code -1102
 #end
 
 ----Cult of fertility
@@ -9190,65 +9090,16 @@ Fertility Cult +30 Supply +Helaer 2 per fort"
 #notext
 #end
 
-----Lambcode
-
-#newevent --Change to Snek
+#newevent  --- Cleanup.
 #rarity 5 #req_fornation 61 #nation -2
 #msg "nope"
-#req_anycode -1106
+#req_code -1106
+#req_targorder 7
 #req_nomnr 6415
-#req_monster 6439
-#code -1101
+#code -1100
+#msg "Nope."
 #nolog
 #notext
-#end
-
-#newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals." #req_anycode -1105
-#req_code -1106
-#req_nomnr 6415
-#req_monster 6439
-#code -1102
-#end
-
-#newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals." #req_anycode -1105
-#req_code -1106
-#req_nomnr 6414
-#req_anycode -1101
-#code -1102
-#end
-
-#newevent --Change to sun
-#rarity 5 #req_fornation 61 #nation -2
-#msg "nope"
-#req_anycode -1106
-#req_nomnr 6415
-#req_monster 6414
-#code -1103
-#nolog
-#notext
-#end
-
-#newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "The new god has named a Heliodromus to be his prophet! The Cult of the Solar Bull swells in power and authority, and Mithrea, temples to the god in his guise as the Solar Bull are erected in every city!  New rituals can be cast in those temples, which can summon the progeny of the Solar Bull, and transform Leos into mighty champions who are the only ones who can wield specially enchanted items.  Cultists can be recruited in these temples, and they will further increase in power if a Second Sun appears in the sky - a true sign of the Solar Bull."
-#req_anycode -1103
-#req_code -1106
-#code -1104
-#nolog
-#end
-
-#newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "The new god has named a Heliodromus to be his prophet! The Cult of the Solar Bull swells in power and authority, and Mithrea, temples to the god in his guise as the Solar Bull are erected in every city!  New rituals can be cast in those temples, which can summon the progeny of the Solar Bull, and transform Leos into mighty champions who are the only ones who can wield specially enchanted items.  Cultists can be recruited in these temples, and they will further increase in power if a Second Sun appears in the sky - a true sign of the Solar Bull."
-#req_monster 6414
-#req_nomnr 6415
-#req_code -1106
-#code -1104
-#nolog
 #end
 
 ---- SERPENT CULT
