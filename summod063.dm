@@ -6410,8 +6410,8 @@
 
 --LA Marignon
 #selectnation 65
-#startingunittype1 2110
-#startingunittype2 2108
+#startunittype1 2110
+#startunittype2 2108
 #end
 
 #selectmonster 745 -goetic master
