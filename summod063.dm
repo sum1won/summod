@@ -1,6 +1,6 @@
-#modname "Summod 0.62"
+#modname "Summod 0.63"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.62
+#version 0.63
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
