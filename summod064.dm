@@ -6414,6 +6414,20 @@
 #startunittype2 2108
 #end
 
+#selectmonster 6474 -goetic master campaignshape
+#masterrit 1
+#shrinkhp 1000
+#end
+
+#selectmonster 6475 -goetic master battleshape
+#firstshape 6474
+#end
+
+#selectmonster 745 -goetic master recshape
+#masterrit 1
+#firstshape 6474
+#end
+
 
 --LA Man
 
