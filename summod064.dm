@@ -1,6 +1,6 @@
-#modname "Summod 0.60"
+#modname "Summod 0.64"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.60
+#version 0.64
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -6410,13 +6410,10 @@
 
 --LA Marignon
 #selectnation 65
-#startingunittype1 2110
-#startingunittype2 2108
+#startunittype1 2110
+#startunittype2 2108
 #end
 
-#selectmonster 745 -goetic master
-#masterrit 1
-#end
 
 --LA Man
 
@@ -6506,10 +6503,10 @@
 #gcost 10014
 #end
 #selectmonster 1247 --sohei
-#gcost 1016
+#gcost 10016
 #end
 #selectmonster 1248 --yamabushi
-#gcost 1016
+#gcost 10016
 #end
 #selectmonster 2098 --fivefold path
 #custommagic 10112 20
