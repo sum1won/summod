@@ -6792,7 +6792,6 @@
 #selectnation 62 --lemuria
 #fortcost 50
 #fortera 2
-#idealcold 1
 #startcom 678
 #startscout 6345
 #startunittype1 672
