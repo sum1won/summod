@@ -6861,7 +6861,7 @@
 #msg "Deadland Created. [Deadland]" #nolog #notext  #end
 #newevent #req_freesites 1 #rarity 5  #req_fornation 62   #req_land 1
 #nation -2 #req_pop0ok #req_capital 0 #req_maxpop 130 #req_dominion 2 #req_site 0 #addsite -1
-#msg "Deadland Created. [Deadland]"   #nolog #notext #req_unique 40 #end
+#msg "Deadland Created. [Deadland]"   #nolog #notext #req_unique 35 #end
 
 
 #selectnation 92 --rlyeh
