@@ -1,6 +1,6 @@
-#modname "Summod 0.64"
+#modname "Summod 0.65"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.64
+#version 0.65
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -483,7 +483,7 @@
 
 #newweapon 1415
 #name "Light Stone Lance"
-#rcost 2
+#rcost 3
 #charge
 #pierce
 #dmg 3
@@ -3267,7 +3267,24 @@
 #notext
 #end
 --- Xibalba
-#selectnation 31 --xibalba
+#selectnation 31 --ea xibalba
+#clearrec
+#addreccom 2691
+#addreccom 2681
+#addreccom 2680
+#addreccom 2679
+#addreccom 2678
+#addreccom 2677
+#addreccom 2676
+#addreccom 2674
+#addrecunit
+#addrecunit
+#addrecunit
+#addrecunit
+#addrecunit
+#addrecunit
+#addrecunit
+
 #end
 #selectmonster 2668 --Xibalban Warrior (EA)
 #gcost 8
@@ -3280,6 +3297,10 @@
 #selectmonster 1357 --beastbat
 #castledef -1
 #siegebonus -1
+#mr 11 -- from 15
+#def 11 -- from 13
+#animal
+#undisciplined
 #end
 #selectmonster 2679 -- Ah Nakom
 #gcost 75
