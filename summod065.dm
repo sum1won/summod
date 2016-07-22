@@ -3277,15 +3277,27 @@
 #addreccom 2677
 #addreccom 2676
 #addreccom 2674
-#addrecunit
-#addrecunit
-#addrecunit
-#addrecunit
-#addrecunit
-#addrecunit
-#addrecunit
-
+#addrecunit 2689
+#addrecunit 2688
+#addrecunit 2687
+#addrecunit 2671
+#addrecunit 2670
+#addrecunit 2669
+#addrecunit 2668
+#forestrec 2668
+#forestrec 2669
+#forestcom 6346
+#caverec 2668
+#caverec 2669
+#cavecom 6346
+#cavecom 2678
 #end
+#newmonster 6346 --slow recruit batab
+#copystats 2674
+#copysprite 2674
+#size 2
+#slowrec
+#gold 40
 #selectmonster 2668 --Xibalban Warrior (EA)
 #gcost 8
 #clearweapons
@@ -6079,8 +6091,34 @@
 #end
 -------Xibalba
 #selectnation 58
+#clearrec
+#addreccom 2718
+#addreccom 2717
+#addreccom 2716
+#addreccom 2715
+#addrecunit 2726
+#addrecunit 2725
+#addrecunit 2724
+#addrecunit 2723
+#addrecunit 2722
+#addrecunit 2721
 #addrecunit 2730
 #addrecunit 2731
+#forestrec 2734
+#forestrec 2727
+#forestrec 2735
+#forestcom 6346
+#forestcom 2728
+#forestcom 2682
+#cavecom 2719
+#cavecom 6346
+#caverec 2735
+#caverec 2734
+#uwunit1 2887
+#uwunit2 2888
+#uwcom1 2717
+#uwcom2 2716
+#uwcom3 2715
 #end
 #selectsite 177
 #clear
@@ -6336,7 +6374,7 @@
 #addrecunit 2745
 #addrecunit 2746
 #forestcom 2751
-#forestcom 2782
+#forestcom 6346
 #forestrec 2738
 #forestrec 2739
 #caverec 2739
@@ -6345,7 +6383,7 @@
 #uwunit2 2890
 #uwcom1 2748
 #uwcom2 2891
-#cavecom 2782
+#cavecom 6346
 #cavecom 6315
 #end
 #newmonster 6315 --chilancave
