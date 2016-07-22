@@ -3298,11 +3298,13 @@
 #size 2
 #slowrec
 #gold 40
+#end
 #selectmonster 2668 --Xibalban Warrior (EA)
 #gcost 8
 #clearweapons
 #weapon 1415
 #end
+
 #selectmonster 2669
 #gcost 8
 #end
