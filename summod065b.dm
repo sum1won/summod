@@ -1,6 +1,6 @@
-#modname "Summod 0.65b"
+#modname "Summod 0.65d"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.65b
+#version 0.65d
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -3286,18 +3286,21 @@
 #addrecunit 2668
 #forestrec 2668
 #forestrec 2669
-#forestcom 6346
+#addreccom 6346
 #caverec 2668
 #caverec 2669
-#cavecom 6346
 #cavecom 2678
 #end
-#newmonster 6346 --slow recruit batab
+#selectmonster 2674
+#slowrec
+#gcost 40
+#end
+#newmonster 6346 --not slow recruit batab
 #copystats 2674
 #copysprite 2674
 #size 2
-#slowrec
-#gold 40
+#gcost 40
+#noslowrec
 #end
 #selectmonster 2668 --Xibalban Warrior (EA)
 #gcost 8
@@ -6366,7 +6369,8 @@
 #addreccom 2750
 #addreccom 2751
 #addreccom 2753
-#addreccom 2782
+#addreccom 6346
+#addreccom 6315
 #addrecunit 2738
 #addrecunit 2739
 #addrecunit 2740
@@ -6376,7 +6380,6 @@
 #addrecunit 2745
 #addrecunit 2746
 #forestcom 2751
-#forestcom 6346
 #forestrec 2738
 #forestrec 2739
 #caverec 2739
@@ -6385,14 +6388,26 @@
 #uwunit2 2890
 #uwcom1 2748
 #uwcom2 2891
-#cavecom 6346
-#cavecom 6315
 #end
-#newmonster 6315 --chilancave
-#copystats 2750
+#selectmonster 2750 --chilan cave
 #slowrec
+#gcost 180
+#end
+#newmonster 6315 --chilan fort
+#copystats 2750
+#noslowrec
 #copyspr 2750
 #gcost 180
+#end
+#selectmonster 2782 --batab cave or forest
+#slowrec
+#gcost 40
+#end
+#newmonster 6346 --Batab fort
+#copystats 2782
+#copyspr 2782
+#noslowrec
+#gcost 40
 #end
 #selectmonster 2738
 #clearweapons
