@@ -1,6 +1,6 @@
-#modname "Summod 0.65d"
+#modname "Summod 0.66"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.65d
+#version 0.66
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -3948,12 +3948,12 @@
 #gcost 10015
 #end
 #selectmonster 1186 --warrior sorceress
-#gcost 10000
-#okleader
-#clearmagic
-#magicskill 6 1
-#magicskill 8 1
-#custommagic 25088 100
+--#gcost 10000
+--#okleader
+--#clearmagic
+--#magicskill 6 1
+--#magicskill 8 1
+--#custommagic 25088 100
 #end
 #selectmonster 1831 --hydra
 #gcost 180
