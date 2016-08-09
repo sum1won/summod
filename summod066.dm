@@ -6347,7 +6347,7 @@
 #end
 
 #selectmonster 2586 --turan war elephant
-#gcost 10010
+#gcost 10110
 #end
 
 #selectmonster 2589 --airya archer
