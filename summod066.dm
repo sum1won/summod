@@ -1,6 +1,6 @@
-#modname "Summod 0.64"
+#modname "Summod 0.66"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.64
+#version 0.66
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -483,7 +483,7 @@
 
 #newweapon 1415
 #name "Light Stone Lance"
-#rcost 2
+#rcost 3
 #charge
 #pierce
 #dmg 3
@@ -3267,19 +3267,57 @@
 #notext
 #end
 --- Xibalba
-#selectnation 31 --xibalba
+#selectnation 31 --ea xibalba
+#clearrec
+#addreccom 2691
+#addreccom 2681
+#addreccom 2680
+#addreccom 2679
+#addreccom 2678
+#addreccom 2677
+#addreccom 2676
+#addreccom 2674
+#addrecunit 2689
+#addrecunit 2688
+#addrecunit 2687
+#addrecunit 2671
+#addrecunit 2670
+#addrecunit 2669
+#addrecunit 2668
+#forestrec 2668
+#forestrec 2669
+#addreccom 6346
+#caverec 2668
+#caverec 2669
+#cavecom 2678
+#end
+#selectmonster 2674
+#slowrec
+#gcost 40
+#end
+#newmonster 6346 --not slow recruit batab
+#copystats 2674
+#copysprite 2674
+#size 2
+#gcost 40
+#noslowrec
 #end
 #selectmonster 2668 --Xibalban Warrior (EA)
 #gcost 8
 #clearweapons
 #weapon 1415
 #end
+
 #selectmonster 2669
 #gcost 8
 #end
 #selectmonster 1357 --beastbat
 #castledef -1
 #siegebonus -1
+#mr 11 -- from 15
+#def 11 -- from 13
+#animal
+#undisciplined
 #end
 #selectmonster 2679 -- Ah Nakom
 #gcost 75
@@ -3910,12 +3948,12 @@
 #gcost 10015
 #end
 #selectmonster 1186 --warrior sorceress
-#gcost 10000
-#okleader
-#clearmagic
-#magicskill 6 1
-#magicskill 8 1
-#custommagic 25088 100
+--#gcost 10000
+--#okleader
+--#clearmagic
+--#magicskill 6 1
+--#magicskill 8 1
+--#custommagic 25088 100
 #end
 #selectmonster 1831 --hydra
 #gcost 180
@@ -6058,8 +6096,34 @@
 #end
 -------Xibalba
 #selectnation 58
+#clearrec
+#addreccom 2718
+#addreccom 2717
+#addreccom 2716
+#addreccom 2715
+#addrecunit 2726
+#addrecunit 2725
+#addrecunit 2724
+#addrecunit 2723
+#addrecunit 2722
+#addrecunit 2721
 #addrecunit 2730
 #addrecunit 2731
+#forestrec 2734
+#forestrec 2727
+#forestrec 2735
+#forestcom 6346
+#forestcom 2728
+#forestcom 2682
+#cavecom 2719
+#cavecom 6346
+#caverec 2735
+#caverec 2734
+#uwunit1 2887
+#uwunit2 2888
+#uwcom1 2717
+#uwcom2 2716
+#uwcom3 2715
 #end
 #selectsite 177
 #clear
@@ -6283,7 +6347,7 @@
 #end
 
 #selectmonster 2586 --turan war elephant
-#gcost 10010
+#gcost 10110
 #end
 
 #selectmonster 2589 --airya archer
@@ -6305,7 +6369,8 @@
 #addreccom 2750
 #addreccom 2751
 #addreccom 2753
-#addreccom 2782
+#addreccom 6346
+#addreccom 6315
 #addrecunit 2738
 #addrecunit 2739
 #addrecunit 2740
@@ -6315,7 +6380,6 @@
 #addrecunit 2745
 #addrecunit 2746
 #forestcom 2751
-#forestcom 2782
 #forestrec 2738
 #forestrec 2739
 #caverec 2739
@@ -6324,14 +6388,26 @@
 #uwunit2 2890
 #uwcom1 2748
 #uwcom2 2891
-#cavecom 2782
-#cavecom 6315
 #end
-#newmonster 6315 --chilancave
-#copystats 2750
+#selectmonster 2750 --chilan cave
 #slowrec
+#gcost 180
+#end
+#newmonster 6315 --chilan fort
+#copystats 2750
+#noslowrec
 #copyspr 2750
 #gcost 180
+#end
+#selectmonster 2782 --batab cave or forest
+#slowrec
+#gcost 40
+#end
+#newmonster 6346 --Batab fort
+#copystats 2782
+#copyspr 2782
+#noslowrec
+#gcost 40
 #end
 #selectmonster 2738
 #clearweapons
@@ -6673,20 +6749,20 @@
 #gems 4 1
 #end
 #newevent #rarity 5 #nation -2 #req_fornation 34   #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
-#msg "Purification destroyed. [Purified Deadland]." #removesite 1803 #notext #nolog #end
+#msg "Purification destroyed. [Purified Deadland]." #removesite 1803 #notext  #addsite 1802  #nolog #end
 #newevent #rarity 5 #nation -2 #req_fornation 34   
 #req_pop0ok #req_capital 0 #req_dominion 1 #req_site 1
-#msg "Carrionland destroyed. [Carrionland]." #removesite 1804 #nolog #notext  #end
+#msg "Carrionland destroyed. [Carrionland]." #removesite 1804 #nolog #notext #addsite 1802 #end
 #newevent #rarity 5 #nation -2 #req_fornation 34   
 #req_pop0ok #req_capital 0 #req_dominion 1 #req_site 1 
-#msg "Dreamland destroyed. [Dreamland]." #removesite 1805 #nolog #notext #end
+#msg "Dreamland destroyed. [Dreamland]." #removesite 1805 #nolog #notext  #addsite 1802 #end
 #newevent #req_freesites 1 #rarity 5  #req_fornation 34   #req_land 1
 #nation -2 #req_pop0ok #req_capital 0 #req_maxpop 150 #req_dominion 1 #req_nositenbr 1802
 #msg "Deadland Created. [Deadland]." #addsite 1802  #notext #nolog #end
 #newevent #req_freesites 1 #rarity 5  
 #req_fornation 34 #req_land 1 #req_unique 5
 #nation -2 #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 0 #notext #addsite -1 
-#msg "Deadland Created. [Deadland]" #nolog #end
+#msg "Deadland Created. [Deadland]" #nolog #req_unique 40 #end
 #newevent #rarity 5 #req_monster 149 #req_fornation 40 
 #nation -2 #req_pop0ok #req_capital 0 #req_dominion 3 #req_rare 30 #req_site 1 
 #msg "An inquisitor has purified this land! [Deadland]."#nolog #notext #removesite 1802 #addsite 1803  #end
@@ -6709,31 +6785,30 @@
 #req_pop0ok #req_capital 0 
 #req_maxpop 100 
 #req_dominion 4 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1  #req_land 1
-#msg "Purified Deadland reclaimed. [Purified Deadland]." #removesite 1803 #nolog #notext #end
+#msg "Purified Deadland reclaimed. [Purified Deadland]." #removesite 1803 #addsite 1804 #nolog #notext #end
 #newevent #req_freesites 1 #rarity 5  
 #req_fornation 49 #nation -2 
 #req_pop0ok #req_capital 0 
 #req_maxpop 100 
 #req_dominion 4 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1  #req_land 1
-#msg "Deadland reclaimed. [Deadland]." #removesite 1802 #nolog #notext #end
+#msg "Deadland reclaimed. [Deadland]." #removesite 1802  #addsite 1804 #nolog #notext #end
 #newevent #req_freesites 1 #rarity 5  
 #req_fornation 49 #nation -2 
 #req_pop0ok #req_capital 0 
 #req_maxpop 100 
 #req_dominion 4 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1 #req_land 1
-#msg "Dreamland reclaimed. [Dreamland]." #removesite 1805 #nolog #notext #end
+#msg "Dreamland reclaimed. [Dreamland]." #removesite 1805  #addsite 1804 #nolog #notext #end
 #newevent #req_freesites 1 #rarity 5  
 #req_fornation 49 #nation -2 
 #req_pop0ok #req_capital 0 
 #req_maxpop 100 
-#req_dominion 5 #req_rare 20 #req_temple 1 #req_fort 0 #req_forest 1 #req_land 1 #req_nositenbr 1803 #req_site 0 #addsite -1  
-#msg "Carrionland Created. [Carrionland]." #removesite 1803 #nolog #notext #end
+#req_dominion 5 #req_rare 20 #req_temple 1 #req_fort 0 #req_forest 1 #req_land 1 #req_nositenbr 1804 #req_site 0 #addsite 1804 
+#msg "Carrionland Created. [Carrionland]." #nolog #notext #end
 
 
 #selectnation 62 --lemuria
 #fortcost 50
 #fortera 2
-#idealcold 1
 #startcom 678
 #startscout 6345
 #startunittype1 672
@@ -6788,21 +6863,21 @@
 #magicskill 8 1
 #end
 #newevent #rarity 5 #nation -2 #req_fornation 62   #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
-#msg "Purification destroyed. [Purified Deadland]." #removesite 1803 #nolog #notext #end
+#msg "Purification destroyed. [Purified Deadland]." #removesite 1803 #nolog #notext  #addsite 1802  #end
 #newevent #rarity 5 #nation -2 #req_fornation 62   
 #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1
-#msg "Carrionland destroyed. [Carrionland]." #removesite 1804 #nolog #notext #end
+#msg "Carrionland destroyed. [Carrionland]." #removesite 1804 #nolog #notext  #addsite 1802  #end
 #newevent #rarity 5 #nation -2 #req_fornation 62   
 #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
-#msg "Dreamland destroyed. [Dreamland]." #removesite 1805 #nolog #notext #end
+#msg "Dreamland destroyed. [Dreamland]." #removesite 1805 #nolog #notext  #addsite 1802  #end
 #newevent #req_freesites 1 #rarity 5  
 #req_fornation 62 #req_land 1
 #nation -2 #req_pop0ok #req_capital 0 
 #req_unique 5 #req_site 0 #addsite -1  
-#msg "Deadland Created. [Deadland]" #nolog #notext #end
+#msg "Deadland Created. [Deadland]" #nolog #notext  #end
 #newevent #req_freesites 1 #rarity 5  #req_fornation 62   #req_land 1
-#nation -2 #req_pop0ok #req_capital 0 #req_maxpop 100 #req_dominion 2 #req_site 0 #addsite -1
-#msg "Deadland Created. [Deadland]"   #nolog #notext #end
+#nation -2 #req_pop0ok #req_capital 0 #req_maxpop 130 #req_dominion 2 #req_site 0 #addsite -1
+#msg "Deadland Created. [Deadland]"   #nolog #notext #req_unique 35 #end
 
 
 #selectnation 92 --rlyeh
