@@ -7072,45 +7072,180 @@
 ------------------------------
 --Sacred Changes
 #newweapon 1419
-#copyweapon 6
-#name "Sword Dance"
-#nratt 2
+#name "Slash"
+#dmg 4
+#def 2
+#slash
+#melee50
+#len 1
 #end
+
 #newweapon 1420
-#copyweapon 645
-#name "Sword Dance"
-#nratt 2
+#name "Stab"
+#dmg 4
+#pierce
+#melee50
+#len 1
 #end
+
 #newweapon 1421
-#hardmrneg
+#name "Bash"
+#dmg 4
+#blunt
+#melee50
+#len 1
+#end
+
+#newweapon 1425
+#name "Slash"
 #dmg 5
 #def 2
+#slash
+#melee50
+#ironweapon
+#len 1
+#end
+
+#newweapon 1426
+#name "Stab"
+#dmg 5
+#pierce
+#melee50
+#ironweapon
+#len 1
+#end
+
+#newweapon 1427
+#name "Bash"
+#dmg 5
+#blunt
+#melee50
+#ironweapon
+#len 1
+#end
+
+#newweapon 1428
+#name "Slash"
+#dmg 5
+#def 1
+#slash
+#melee50
 #len 1
 #magic
-#slash
-#name "Sword Dance"
-#nratt 2
+#hardmrneg
+#end
+
+#newweapon 1429
+#name "Stab"
+#dmg 5
+#pierce
+#melee50
+#len 1
+#magic
+#hardmrneg
+#end
+
+#newweapon 1430
+#name "Bash"
+#dmg 5
+#blunt
+#melee50
+#len 1
+#magic
+#hardmrneg
+#end
+
+#selectmonster 2839 --kourete
+#clearweapons
+#weapon 1419
+#weapon 1420
+#weapon 1421
+#end
+
+#selectmonster 2843 --spectral kourete
+#clearweapons
+#weapon 1428
+#weapon 1429
+#weapon 1430
+#end
+
+#selectmonster 2837 --korybant
+#cleararmor
+#clearweapons
+#weapon 1425
+#weapon 1426
+#weapon 1427
+#armor 9
+#armor 209
+#armor 20
+#end
+
+#newmonster 6317
+#copystats 2839
+#name "Kourete Couple"
+#gcost 10044
+#rcost 25
+#reclimit 1
+#firstshape 2839
+#copyspr 2839
+#summon1 2839
+#end
+
+#newmonster 6318
+#copystats 6317
+#copyspr 6317
+#name "Kourete Couple"
+#end
+
+#newmonster 6319
+#copystats 6317
+#copyspr 6317
+#reclimit 2
+#name "Kourete Couple"
+#end
+
+#newmonster 6320
+#copystats 6317
+#copyspr 6317
+#reclimit 3
+#name "Kourete Couple"
+#end
+
+#newmonster 6313
+#copystats 2837
+#gcost 10032
+#rcost 22
+#name "Korybant Couple"
+#firstshape 2837
+#copyspr 2837
+#reclimit 1
+#summon1 2837
+#end
+
+#newmonster 6321
+#copystats 6313
+#copyspr 6313
+#name "Korybant Couple"
+#end
+
+#newmonster 6322
+#copystats 6313
+#copyspr 6313
+#name "Korybant Couple"
+#reclimit 2
+#end
+
+#newmonster 6323
+#copystats 6313
+#copyspr 6313
+#name "Korybant Couple"
+#reclimit 3
 #end
 --Monster Changes
 #selectspell 1065 --summon ephor
 #fatiguecost 500
 #end
-#selectmonster 2843 --spectral kourete
-#clearweapons
-#weapon 1421
-#end
-#selectmonster 2839 --kourete
-#clearweapons
-#weapon 1420
-#end
-#selectmonster 2837 --korybant
-#cleararmor
-#clearweapons
-#weapon 1419
-#armor 9
-#armor 209
-#armor 20
-#end
+
 #newmonster 6324
 #name "Telkhine Adjutant"
 #descr "The Telkhine Adjutants are mages of the storm, well versed in the magic of water and air.  Trained to accompany the Telkhines themselves when on campaign, since the Malediction they have suffered badly due to the extensive training they require.  Still, their skills are sufficient to lead the navy of Therodos and bring its ships to safe harbor."
@@ -7529,45 +7664,6 @@
 #nolog
 #end
 ---Sites
-#newmonster 6318 --kourete 2
-#copystats 2839
-#name "Kourete"
-#reclimit 2
-#firstshape 2839
-#copyspr 2839
-#end
-#newmonster 6319 --kourete 4
-#copystats 2839
-#name "Kourete"
-#reclimit 4
-#firstshape 2839
-#copyspr 2839
-#end
-#newmonster 6320 --kourete 6
-#copystats 2839
-#copyspr 2839
-#name "Kourete"
-#reclimit 6
-#firstshape 2839
-#end
-#newmonster 6321 --Korybant 2
-#copystats 2837
-#firstshape 2837
-#copyspr 2837
-#reclimit 2
-#end
-#newmonster 6322 --Korybant 4
-#copystats 2837
-#firstshape 2837
-#copyspr 2837
-#reclimit 4
-#end
-#newmonster 6323 --Korybant 6
-#copystats 2837
-#firstshape 2837
-#copyspr 2837
-#reclimit 6
-#end
 #newsite 1807-- Telkhinis
 #name "Sunken Agora"
 #path 3
