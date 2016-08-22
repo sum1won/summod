@@ -7071,7 +7071,7 @@
 ------THERODOS CHANGES--------
 ------------------------------
 --Sacred Changes
-#newweapon 1419
+#newweapon 1431
 #name "Slash"
 #dmg 4
 #def 2
@@ -7157,7 +7157,7 @@
 
 #selectmonster 2839 --kourete
 #clearweapons
-#weapon 1419
+#weapon 1431
 #weapon 1420
 #weapon 1421
 #end
