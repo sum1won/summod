@@ -5549,7 +5549,7 @@
 #gcost 9970
 #userestricteditem 1102
 #end
-#newsite 1813-- Telkhinis
+#newsite 1813
 #name "Forest Glade"
 #path 6
 #rarity 5
@@ -7182,65 +7182,74 @@
 
 #newmonster 6317
 #copystats 2839
+#name "Kourete"
+#copyspr 2839
+#end
+
+#selectmonster 2839
 #name "Kourete Couple"
 #gcost 10044
 #rcost 25
 #reclimit 1
-#firstshape 2839
-#copyspr 2839
-#summon1 2839
+#firstshape 6317
+#summon1 6317
 #end
 
 #newmonster 6318
-#copystats 6317
-#copyspr 6317
+#copystats 2839
+#copyspr 2839
 #name "Kourete Couple"
 #end
 
 #newmonster 6319
-#copystats 6317
-#copyspr 6317
+#copystats 2839
+#copyspr 2839
 #reclimit 2
 #name "Kourete Couple"
 #end
 
 #newmonster 6320
-#copystats 6317
-#copyspr 6317
+#copystats 2839
+#copyspr 2839
 #reclimit 3
 #name "Kourete Couple"
 #end
 
 #newmonster 6313
 #copystats 2837
+#copyspr 2837
+#name "Korybant"
+#end
+
+#selectmonster 2837
 #gcost 10032
 #rcost 22
 #name "Korybant Couple"
-#firstshape 2837
-#copyspr 2837
+#firstshape 6313
 #reclimit 1
-#summon1 2837
+#summon1 6313
 #end
 
 #newmonster 6321
-#copystats 6313
-#copyspr 6313
+#copystats 2837
+#copyspr 2837
 #name "Korybant Couple"
 #end
 
 #newmonster 6322
-#copystats 6313
-#copyspr 6313
+#copystats 2837
+#copyspr 2837
 #name "Korybant Couple"
 #reclimit 2
 #end
 
 #newmonster 6323
-#copystats 6313
-#copyspr 6313
+#copystats 2837
+#copyspr 2837
 #name "Korybant Couple"
 #reclimit 3
 #end
+
 --Monster Changes
 #selectspell 1065 --summon ephor
 #fatiguecost 500
