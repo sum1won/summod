@@ -7078,6 +7078,8 @@
 #slash
 #melee50
 #len 1
+#bonus
+#rcost 1
 #end
 
 #newweapon 1420
@@ -7086,6 +7088,8 @@
 #pierce
 #melee50
 #len 1
+#bonus
+#rcost 1
 #end
 
 #newweapon 1421
@@ -7094,6 +7098,8 @@
 #blunt
 #melee50
 #len 1
+#bonus
+#rcost 1
 #end
 
 #newweapon 1425
@@ -7104,6 +7110,8 @@
 #melee50
 #ironweapon
 #len 1
+#bonus
+#rcost 1
 #end
 
 #newweapon 1426
@@ -7113,6 +7121,8 @@
 #melee50
 #ironweapon
 #len 1
+#bonus
+#rcost 1
 #end
 
 #newweapon 1427
@@ -7122,6 +7132,7 @@
 #melee50
 #ironweapon
 #len 1
+#bonus
 #end
 
 #newweapon 1428
@@ -7133,6 +7144,7 @@
 #len 1
 #magic
 #hardmrneg
+#bonus
 #end
 
 #newweapon 1429
@@ -7143,6 +7155,7 @@
 #len 1
 #magic
 #hardmrneg
+#bonus
 #end
 
 #newweapon 1430
@@ -7153,6 +7166,7 @@
 #len 1
 #magic
 #hardmrneg
+#bonus
 #end
 
 #selectmonster 2839 --kourete
@@ -7160,6 +7174,7 @@
 #weapon 1431
 #weapon 1420
 #weapon 1421
+#itemslots 15488
 #end
 
 #selectmonster 2843 --spectral kourete
@@ -7167,6 +7182,7 @@
 #weapon 1428
 #weapon 1429
 #weapon 1430
+#itemslots 15488
 #end
 
 #selectmonster 2837 --korybant
@@ -7178,6 +7194,7 @@
 #armor 9
 #armor 209
 #armor 20
+#itemslots 15488
 #end
 
 #newmonster 6317
@@ -7188,17 +7205,41 @@
 
 #selectmonster 2839
 #name "Kourete Couple"
-#gcost 10044
-#rcost 25
+#descr "The Kouretes are the semi-divine sons of the Daktyloi. They formed a nobility of artists and performers unique to the Therodian culture. Their divine dances brought joy and stability to the land and became a means to rule. Human interpreters followed their processions and artistic works and human servants provided for them. With the fall of ancient Therodos most of them perished, but those that survived still linger on the sacred island of Telkhinis where they still perform the sacred dances to the sound of their sisters' cymbals. In times of war the cymbals and the flutes change the rhythm and the Kouretes dance with furious rage. The Kouretes can enter the sea like their parents, but water is not their natural home and their dances are difficult to perform in the sea. Kouretes are war-dancers and enter a berserk frenzy when blessed."
+#gcost 58
+#rcost 24
 #reclimit 1
-#firstshape 6317
-#summon1 6317
+#end
+
+#newevent
+#rarity 5
+#req_monster 2839
+#nation -2
+#msg "Couple creation"
+#notext
+#nolog
+#1unit 6317
+#1unit 6317
+#killmon 2839
 #end
 
 #newmonster 6318
 #copystats 2839
 #copyspr 2839
 #name "Kourete Couple"
+#descr "The Kouretes are the semi-divine sons of the Daktyloi. They formed a nobility of artists and performers unique to the Therodian culture. Their divine dances brought joy and stability to the land and became a means to rule. Human interpreters followed their processions and artistic works and human servants provided for them. With the fall of ancient Therodos most of them perished, but those that survived still linger on the sacred island of Telkhinis where they still perform the sacred dances to the sound of their sisters' cymbals. In times of war the cymbals and the flutes change the rhythm and the Kouretes dance with furious rage. The Kouretes can enter the sea like their parents, but water is not their natural home and their dances are difficult to perform in the sea. Kouretes are war-dancers and enter a berserk frenzy when blessed."
+#end
+
+#newevent
+#rarity 5
+#req_monster 6318
+#nation -2
+#msg "Couple creation"
+#notext
+#nolog
+#1unit 6317
+#1unit 6317
+#killmon 6318
 #end
 
 #newmonster 6319
@@ -7206,6 +7247,31 @@
 #copyspr 2839
 #reclimit 2
 #name "Kourete Couple"
+#descr "The Kouretes are the semi-divine sons of the Daktyloi. They formed a nobility of artists and performers unique to the Therodian culture. Their divine dances brought joy and stability to the land and became a means to rule. Human interpreters followed their processions and artistic works and human servants provided for them. With the fall of ancient Therodos most of them perished, but those that survived still linger on the sacred island of Telkhinis where they still perform the sacred dances to the sound of their sisters' cymbals. In times of war the cymbals and the flutes change the rhythm and the Kouretes dance with furious rage. The Kouretes can enter the sea like their parents, but water is not their natural home and their dances are difficult to perform in the sea. Kouretes are war-dancers and enter a berserk frenzy when blessed."
+#end
+
+#newevent
+#rarity 5
+#req_monster 6319
+#nation -2
+#msg "Couple creation"
+#notext
+#nolog
+#1unit 6317
+#1unit 6317
+#killmon 6319
+#end
+
+#newevent
+#rarity 5
+#req_monster 6319
+#nation -2
+#msg "Couple creation"
+#notext
+#nolog
+#1unit 6317
+#1unit 6317
+#killmon 6319
 #end
 
 #newmonster 6320
@@ -7213,6 +7279,43 @@
 #copyspr 2839
 #reclimit 3
 #name "Kourete Couple"
+#descr "The Kouretes are the semi-divine sons of the Daktyloi. They formed a nobility of artists and performers unique to the Therodian culture. Their divine dances brought joy and stability to the land and became a means to rule. Human interpreters followed their processions and artistic works and human servants provided for them. With the fall of ancient Therodos most of them perished, but those that survived still linger on the sacred island of Telkhinis where they still perform the sacred dances to the sound of their sisters' cymbals. In times of war the cymbals and the flutes change the rhythm and the Kouretes dance with furious rage. The Kouretes can enter the sea like their parents, but water is not their natural home and their dances are difficult to perform in the sea. Kouretes are war-dancers and enter a berserk frenzy when blessed."
+#end
+
+#newevent
+#rarity 5
+#req_monster 6320
+#nation -2
+#msg "Couple creation"
+#notext
+#nolog
+#1unit 6317
+#1unit 6317
+#killmon 6320
+#end
+
+#newevent
+#rarity 5
+#req_monster 6320
+#nation -2
+#msg "Couple creation"
+#notext
+#nolog
+#1unit 6317
+#1unit 6317
+#killmon 6320
+#end
+
+#newevent
+#rarity 5
+#req_monster 6320
+#nation -2
+#msg "Couple creation"
+#notext
+#nolog
+#1unit 6317
+#1unit 6317
+#killmon 6320
 #end
 
 #newmonster 6313
@@ -7222,32 +7325,118 @@
 #end
 
 #selectmonster 2837
-#gcost 10032
-#rcost 22
+#gcost 42
+#rcost 23
 #name "Korybant Couple"
-#firstshape 6313
+#descr "The Korybantes are sacred war-dancers of human origin. During the Telkhine reign humans were never initiated in the mysteries of the sacred dance. They were limited to mundane dances mimicking the Hekaterides at best. Now with the imminent awakening of the Lord the Meliai are searching for new adherents and war-dancers. They found new temples on distant shores where the sound of ancient cymbals once more arouses the spirits of dancing men. In the temples Korybant couples are trained as war-dancers able to enter a berserk frenzy when blessed by their Meliai leaders. The war-dances are not well suited for formation fighting and Korybants take up more space on the battle field than ordinary troops."
 #reclimit 1
-#summon1 6313
+#end
+
+#newevent
+#rarity 5
+#req_monster 2837
+#nation -2
+#msg "Couple creation"
+#notext
+#nolog
+#1unit 6313
+#1unit 6313
+#killmon 2837
 #end
 
 #newmonster 6321
 #copystats 2837
 #copyspr 2837
 #name "Korybant Couple"
+#descr "The Korybantes are sacred war-dancers of human origin. During the Telkhine reign humans were never initiated in the mysteries of the sacred dance. They were limited to mundane dances mimicking the Hekaterides at best. Now with the imminent awakening of the Lord the Meliai are searching for new adherents and war-dancers. They found new temples on distant shores where the sound of ancient cymbals once more arouses the spirits of dancing men. In the temples Korybant couples are trained as war-dancers able to enter a berserk frenzy when blessed by their Meliai leaders. The war-dances are not well suited for formation fighting and Korybants take up more space on the battle field than ordinary troops."
+#end
+
+#newevent
+#rarity 5
+#req_monster 6321
+#nation -2
+#msg "Couple creation"
+#notext
+#nolog
+#1unit 6313
+#1unit 6313
+#killmon 6321
 #end
 
 #newmonster 6322
 #copystats 2837
 #copyspr 2837
 #name "Korybant Couple"
+#descr "The Korybantes are sacred war-dancers of human origin. During the Telkhine reign humans were never initiated in the mysteries of the sacred dance. They were limited to mundane dances mimicking the Hekaterides at best. Now with the imminent awakening of the Lord the Meliai are searching for new adherents and war-dancers. They found new temples on distant shores where the sound of ancient cymbals once more arouses the spirits of dancing men. In the temples Korybant couples are trained as war-dancers able to enter a berserk frenzy when blessed by their Meliai leaders. The war-dances are not well suited for formation fighting and Korybants take up more space on the battle field than ordinary troops."
 #reclimit 2
+#end
+
+#newevent
+#rarity 5
+#req_monster 6322
+#nation -2
+#msg "Couple creation"
+#notext
+#nolog
+#1unit 6313
+#1unit 6313
+#killmon 6322
+#end
+
+#newevent
+#rarity 5
+#req_monster 6322
+#nation -2
+#msg "Couple creation"
+#notext
+#nolog
+#1unit 6313
+#1unit 6313
+#killmon 6322
 #end
 
 #newmonster 6323
 #copystats 2837
 #copyspr 2837
 #name "Korybant Couple"
+#descr "The Korybantes are sacred war-dancers of human origin. During the Telkhine reign humans were never initiated in the mysteries of the sacred dance. They were limited to mundane dances mimicking the Hekaterides at best. Now with the imminent awakening of the Lord the Meliai are searching for new adherents and war-dancers. They found new temples on distant shores where the sound of ancient cymbals once more arouses the spirits of dancing men. In the temples Korybant couples are trained as war-dancers able to enter a berserk frenzy when blessed by their Meliai leaders. The war-dances are not well suited for formation fighting and Korybants take up more space on the battle field than ordinary troops."
 #reclimit 3
+#end
+
+#newevent
+#rarity 5
+#req_monster 6323
+#nation -2
+#msg "Couple creation"
+#notext
+#nolog
+#1unit 6313
+#1unit 6313
+#killmon 6323
+#end
+
+#newevent
+#rarity 5
+#req_monster 6323
+#nation -2
+#msg "Couple creation"
+#notext
+#nolog
+#1unit 6313
+#1unit 6313
+#killmon 6323
+#end
+
+#newevent
+#rarity 5
+#req_monster 6323
+#nation -2
+#msg "Couple creation"
+#notext
+#nolog
+#1unit 6313
+#1unit 6313
+#killmon 6323
 #end
 
 --Monster Changes
