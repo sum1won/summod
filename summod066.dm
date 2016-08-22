@@ -11747,10 +11747,6 @@ may make the battlefield deadly even for the priest's allies."
 
 -- UR
 
-#selectmonster 1347
-#gcost 250
-#end
-
 #newmonster 6310
 #copystats 1347
 #copyspr 1347
@@ -11785,6 +11781,11 @@ may make the battlefield deadly even for the priest's allies."
 #custommagic 8804 50
 #custommagic 8804 50
 #custommagic 8804 50
+#end
+
+#selectmonster 1347
+#gcost 250
+#firstshape 6310
 #end
 
 #selectnation 29
