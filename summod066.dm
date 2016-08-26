@@ -3358,9 +3358,7 @@
 #magicskill 8 3
 #custommagic 19584 50
 #end
-#selectmonster 1661 --misbred
-#douse 1
-#end
+#selectmonster 1661 -- misbred
 #selectmonster 1536 --ea demonbred
 #douse 1
 #end
@@ -3648,7 +3646,7 @@
 #descr "The Warlocks of Smouldercone are Blood mages of great renown.  They are famed for their experiments in the creation and breeding of new species.  They crossbreed hundreds of different creatures with abysians to create powerful and useful slaves.  Most offspring die early, but some survive and are bound to serve their creator.  While the results are frequently grotesque or deformed, occasionally a warlock will happen upon a resounding success."
 #effect 10001
 #damage -1303
-#nreff 10005
+#nreff 1008
 #fatiguecost 1500
 #end
 #newspell
@@ -6824,6 +6822,8 @@
 #nation -2
 #rarity 5
 #req_rare 20
+#nolog
+#notext
 #req_owncapital 1
 #req_maxturn 12
 #req_nomonster 678
@@ -6838,6 +6838,8 @@
 #req_owncapital 1
 #req_nomonster 678
 #req_maxturn 15
+#nolog
+#notext
 #com 681
 #end
 
@@ -7074,12 +7076,14 @@
 #newweapon 1419
 #copyweapon 6
 #name "Sword Dance"
-#nratt 2
+#melee50
+#nratt 3
 #end
 #newweapon 1420
 #copyweapon 645
 #name "Sword Dance"
-#nratt 2
+#nratt 3
+#melee50
 #end
 #newweapon 1421
 #hardmrneg
@@ -7089,7 +7093,8 @@
 #magic
 #slash
 #name "Sword Dance"
-#nratt 2
+#nratt 3
+#melee50
 #end
 --Monster Changes
 #selectspell 1065 --summon ephor
@@ -7597,6 +7602,7 @@
 #uwunit2 6328
 #coastcom1 6324
 #coastunit1 6325
+#startunittype1 6328
 #end
 ----------------------
 #newevent 
