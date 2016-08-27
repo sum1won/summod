@@ -1,6 +1,6 @@
-#modname "Summod 0.65d"
+#modname "Summod 0.66"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.65d
+#version 0.66
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -3358,9 +3358,7 @@
 #magicskill 8 3
 #custommagic 19584 50
 #end
-#selectmonster 1661 --misbred
-#douse 1
-#end
+#selectmonster 1661 -- misbred
 #selectmonster 1536 --ea demonbred
 #douse 1
 #end
@@ -3648,7 +3646,7 @@
 #descr "The Warlocks of Smouldercone are Blood mages of great renown.  They are famed for their experiments in the creation and breeding of new species.  They crossbreed hundreds of different creatures with abysians to create powerful and useful slaves.  Most offspring die early, but some survive and are bound to serve their creator.  While the results are frequently grotesque or deformed, occasionally a warlock will happen upon a resounding success."
 #effect 10001
 #damage -1303
-#nreff 10005
+#nreff 1012
 #fatiguecost 1500
 #end
 #newspell
@@ -3665,7 +3663,7 @@
 #descr "The Warlocks of Smouldercone are Blood mages of great renown.  They are famed for their experiments in the creation and breeding of new species.  They crossbreed hundreds of different creatures with abysians to create powerful and useful slaves.  Most offspring die early, but some survive and are bound to serve their creator.  While the results are frequently grotesque or deformed, occasionally a warlock will happen upon a resounding success."
 #effect 10001
 #damage -1303
-#nreff 3029
+#nreff 3034
 #fatiguecost 2200
 #end
 #newspell--children of rhuax r2
@@ -3948,12 +3946,12 @@
 #gcost 10015
 #end
 #selectmonster 1186 --warrior sorceress
-#gcost 10000
-#okleader
-#clearmagic
-#magicskill 6 1
-#magicskill 8 1
-#custommagic 25088 100
+--#gcost 10000
+--#okleader
+--#clearmagic
+--#magicskill 6 1
+--#magicskill 8 1
+--#custommagic 25088 100
 #end
 #selectmonster 1831 --hydra
 #gcost 180
@@ -4939,33 +4937,33 @@
 #firstshape 6339
 #end
 #newmonster 6491
-#hp 1
-#name "dead"
-#descr "If you have one of these shit has gone FAR south"
+#copystats 794
+#copyspr 794
+#singlebattle
 #landdamage 100
 #uwdamage 100
 #montag 1310
 #end
 #newmonster 6492
-#hp 1
-#name "dead"
-#descr "If you have one of these shit has gone FAR south"
+#copystats 795
+#copyspr 795
+#singlebattle
 #landdamage 100
 #uwdamage 100
 #montag 1311
 #end
 #newmonster 6493
-#hp 1
-#name "dead"
-#descr "If you have one of these shit has gone FAR south"
+#copystats 796
+#copyspr 796
+#singlebattle
 #landdamage 100
 #uwdamage 100
 #montag 1312
 #end
 #newmonster 6494
-#hp 1
-#name "dead"
-#descr "If you have one of these shit has gone FAR south"
+#copystats 797
+#copyspr 797
+#singlebattle
 #landdamage 100
 #uwdamage 100
 #montag 1313
@@ -6347,7 +6345,7 @@
 #end
 
 #selectmonster 2586 --turan war elephant
-#gcost 10010
+#gcost 10110
 #end
 
 #selectmonster 2589 --airya archer
@@ -6824,6 +6822,8 @@
 #nation -2
 #rarity 5
 #req_rare 20
+#nolog
+#notext
 #req_owncapital 1
 #req_maxturn 12
 #req_nomonster 678
@@ -6838,6 +6838,8 @@
 #req_owncapital 1
 #req_nomonster 678
 #req_maxturn 15
+#nolog
+#notext
 #com 681
 #end
 
@@ -6896,8 +6898,8 @@
 #copystats 757
 #copyspr 757
 #name "Voidrift Sacrifice"
-#landdamage 100
-#uwdamage 100
+#landdamage 75
+#uwdamage 75
 #firstshape 757
 #end
 
@@ -7074,12 +7076,14 @@
 #newweapon 1419
 #copyweapon 6
 #name "Sword Dance"
-#nratt 2
+#melee50
+#nratt 3
 #end
 #newweapon 1420
 #copyweapon 645
 #name "Sword Dance"
-#nratt 2
+#nratt 3
+#melee50
 #end
 #newweapon 1421
 #hardmrneg
@@ -7089,7 +7093,8 @@
 #magic
 #slash
 #name "Sword Dance"
-#nratt 2
+#nratt 3
+#melee50
 #end
 --Monster Changes
 #selectspell 1065 --summon ephor
@@ -7597,6 +7602,7 @@
 #uwunit2 6328
 #coastcom1 6324
 #coastunit1 6325
+#startunittype1 6328
 #end
 ----------------------
 #newevent 
@@ -9588,6 +9594,7 @@ Fertility Cult +30 Supply +Helaer 2 per fort"
 #name "Sacrificial Goat"
 #descr "With this sacrifice, and the favor of the new god, a Serpent Acoylte hopes to transform himself into a Large Serpent!"
 #end
+
 #newmonster 6430
 #copystats 2227
 #copyspr 2227
