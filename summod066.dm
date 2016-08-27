@@ -4937,33 +4937,29 @@
 #firstshape 6339
 #end
 #newmonster 6491
-#hp 1
-#name "dead"
-#descr "If you have one of these shit has gone FAR south"
+#copystats 794
+#copyspr 794
 #landdamage 100
 #uwdamage 100
 #montag 1310
 #end
 #newmonster 6492
-#hp 1
-#name "dead"
-#descr "If you have one of these shit has gone FAR south"
+#copystats 795
+#copyspr 795
 #landdamage 100
 #uwdamage 100
 #montag 1311
 #end
 #newmonster 6493
-#hp 1
-#name "dead"
-#descr "If you have one of these shit has gone FAR south"
+#copystats 796
+#copyspr 796
 #landdamage 100
 #uwdamage 100
 #montag 1312
 #end
 #newmonster 6494
-#hp 1
-#name "dead"
-#descr "If you have one of these shit has gone FAR south"
+#copystats 797
+#copyspr 797
 #landdamage 100
 #uwdamage 100
 #montag 1313
@@ -6898,8 +6894,8 @@
 #copystats 757
 #copyspr 757
 #name "Voidrift Sacrifice"
-#landdamage 100
-#uwdamage 100
+#landdamage 75
+#uwdamage 75
 #firstshape 757
 #end
 
@@ -9594,6 +9590,7 @@ Fertility Cult +30 Supply +Helaer 2 per fort"
 #name "Sacrificial Goat"
 #descr "With this sacrifice, and the favor of the new god, a Serpent Acoylte hopes to transform himself into a Large Serpent!"
 #end
+
 #newmonster 6430
 #copystats 2227
 #copyspr 2227
