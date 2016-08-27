@@ -3646,7 +3646,7 @@
 #descr "The Warlocks of Smouldercone are Blood mages of great renown.  They are famed for their experiments in the creation and breeding of new species.  They crossbreed hundreds of different creatures with abysians to create powerful and useful slaves.  Most offspring die early, but some survive and are bound to serve their creator.  While the results are frequently grotesque or deformed, occasionally a warlock will happen upon a resounding success."
 #effect 10001
 #damage -1303
-#nreff 1008
+#nreff 1012
 #fatiguecost 1500
 #end
 #newspell
@@ -3663,7 +3663,7 @@
 #descr "The Warlocks of Smouldercone are Blood mages of great renown.  They are famed for their experiments in the creation and breeding of new species.  They crossbreed hundreds of different creatures with abysians to create powerful and useful slaves.  Most offspring die early, but some survive and are bound to serve their creator.  While the results are frequently grotesque or deformed, occasionally a warlock will happen upon a resounding success."
 #effect 10001
 #damage -1303
-#nreff 3029
+#nreff 3034
 #fatiguecost 2200
 #end
 #newspell--children of rhuax r2
