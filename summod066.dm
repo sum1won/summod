@@ -4939,6 +4939,7 @@
 #newmonster 6491
 #copystats 794
 #copyspr 794
+#singlebattle
 #landdamage 100
 #uwdamage 100
 #montag 1310
@@ -4946,6 +4947,7 @@
 #newmonster 6492
 #copystats 795
 #copyspr 795
+#singlebattle
 #landdamage 100
 #uwdamage 100
 #montag 1311
@@ -4953,6 +4955,7 @@
 #newmonster 6493
 #copystats 796
 #copyspr 796
+#singlebattle
 #landdamage 100
 #uwdamage 100
 #montag 1312
@@ -4960,6 +4963,7 @@
 #newmonster 6494
 #copystats 797
 #copyspr 797
+#singlebattle
 #landdamage 100
 #uwdamage 100
 #montag 1313
