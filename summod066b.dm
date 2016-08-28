@@ -671,26 +671,26 @@
 
 --Barbarians--
 #selectmonster 139
-#spr1 "./summod/barbarian 1.tga"
-#spr2 "summod/barbarian 2.tga"
+#spr1 "./summod/barbarian1.tga"
+#spr2 "./summod/barbarian2.tga"
 #clearweapons
 #weapon 18
 #end
 #selectmonster 140
-#spr1 "./summod/barbarian B 1.tga"
-#spr2 "./summod/barbarian B 2.tga"
+#spr1 "./summod/barbarian1.tga"
+#spr2 "./summod/barbarian2.tga"
 #clearweapons
 #weapon 18
 #end
 #selectmonster 141
-#spr1 "./summod/barbarian B 1.tga"
-#spr2 "./summod/barbarian B 2.tga"
+#spr1 "./summod/barbarianB1.tga"
+#spr2 "./summod/barbarianB2.tga"
 #clearweapons
 #weapon 18
 #end
 #selectmonster 147
-#spr1 "./summod/barbarian C 1.tga"
-#spr2 "./summod/barbarian C 2.tga"
+#spr1 "./summod/barbarianC1.tga"
+#spr2 "./summod/barbarianC2.tga"
 #clearweapons
 #weapon 18
 #cleararmor
@@ -2515,7 +2515,7 @@
 
 -- Ice Strike
 #selectspell 479
-#spec 8388608 --UW
+#spec 1099520016384
 #end
 
 #selectspell 420 --arcane bolt
@@ -6136,7 +6136,9 @@
 #end
 #selectweapon 620 --poisondart
 #ammo 6
-#secondaryeffect 54
+#end
+#selectweapon 624
+#dmg 50
 #end
 #selectmonster 2731 --Obsidian Warrior
 #gcost 10017
