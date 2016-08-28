@@ -1,4 +1,4 @@
-#modname "Summod 0.66"
+#modname "Summod 0.66c"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
 #version 0.66
 #icon "./summod/summodall.tga"
@@ -3351,6 +3351,7 @@
 #startage 28
 #maxage 35
 #end
+
 #selectmonster 1536 -- Annointed of Rhuax
 #clearmagic
 #magicskill 0 4
@@ -3359,6 +3360,7 @@
 #custommagic 19584 50
 #end
 #selectmonster 1661 -- misbred
+#end
 #selectmonster 1536 --ea demonbred
 #douse 1
 #end
