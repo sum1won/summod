@@ -154,23 +154,23 @@ Enchanted Spear MR +1
 
 Faithful - e1s1->S1
 
-Fire Bola -> 3X bolas
+Fire Bola  3X bolas
 
-Fire Brand	Primary damage decreased to 8
+Fire Brand	Primary damage 12->8
 
 Fire Sword FR 3
 
-Frost Brand	Primary damage decreased to 6, att->2
+Frost Brand	damage 16 -> 6, att 4->2
 
 Heartfinder Sword - B3 -> B2
 
-Hunter?s Knife #bleed
+Hunter?s Knife causes bleeding
 
 Ice Sword CR 3
 
-Knife of Damned: Increase damage, horror mark on hit
+Knife of Damned: horror mark on hit
 
-Lightning Spear AoE 3 dam 2 shock, const 6, lr 5
+Lightning Spear Gains a secondary: AoE 3 dam 2 shock, const 4-> 6, lr 5, A1->2
 
 Main Gauche of Parrying - 4->6 def
 
@@ -180,39 +180,39 @@ Rod of Phoenix F4->F3
 
 Sceptre of Authority Leadership 25->50
 
-Shadow Brand - D2E1 -> D1E1; Primary damage decreased to 8
+Shadow Brand - D2E1 -> D1E1; damage 12->8
 
 Smasher - E2 -> E1
 
 Snek Bladder Stick?  aoe 4->5
 
-Star of Heroes  two attacks
+Star of Heroes -> two attacks
 
 Star of Thraldom - fetters aoe 1 -> 4
 
 Summer Sword - N2E1 -> N1E1
 
-Sword of Swiftness - +Def 4->1, autocasts quickness, const 6
+Sword of Swiftness - Def 4->1, autocasts quickness, const 6
 
-Thunder Whip - aoe stun
+Thunder Whip -> aoe stun
 
-Vine Whip - N2 -> N1, const 2, aoe1
+Vine Whip - N2 -> N1, const 4->2, aoe1
 
 Wand of Wildfire F3->F2
 
 ##### Shields
 
-Charcoal Shield E1F1
+Charcoal Shield E2F1->E1F1
 
 Enchanted shield MR 1
 
-Golden Hoplon F1 
+Golden Hoplon F3->F1 
 
-Lantern Shield, Parry D1F1
+Lantern Shield, D2F1->D1F1
 
-Lead Shield MR 5, Parry 7
+Lead Shield MR 4->5, Parry 6->7
 
-Lucky Coin S1, parry 6
+Lucky Coin S2->S1, parry 4->6
 
 Scultata Voltranus uses a modified shockwave
 
@@ -220,93 +220,93 @@ Shield of Accursed S2b1->s1b1, tainted 5, autocasts a range 10, low precision ho
 
 Shield of Valor: Insp. 1
 
-Totem Shield -> Autocasts a healing spell
+Totem Shield -> Autocasts an aoe 3 level 1 healing spell
 
 Weightless Tower Shield A1
 
-Weightless Kite Shield A1, reduced parry/prot to normal kite shield levels, but with no encumbrance
+Weightless Kite Shield A1, def 7->6, prot 21->19 
 
 ##### Twohanded Weapons
 
-Bane Blade Fear 1, dmg 12
+Bane Blade Fear 1, dmg 9 -> 12
 
-Banefire Crossbow - Drop to const 4 instead ,24 ammo
+Banefire Crossbow - Const 6->4 , ammo 12->24
 
-Bow of War -  level 4 , ammo 24, dmg->13
+Bow of War -  level 4 , ammo 12->24, dmg 11->13
 
-Bow of Botulf -> Ammo 24
+Bow of Botulf -> Ammo 12-> 24
 
-Carmine Cleaver F1E1, Fireshield 10
+Carmine Cleaver F2E1-> F1E1, Fireshield 7->10
 
 Doom Glaive Decay difficult to resist
 
 Enchanted Pike +1 MR
 
-Ethereal Xbow -> 24 ammo
+Ethereal Xbow  12-> 24 ammo
 
-Gate Cleaver 	+10 gems, const 4
+Gate Cleaver 	15->10 gems, const 4
 
-Gloves of the Gladiator - n1, dam 5, def 3
+Gloves of the Gladiator - n2->n1, dam 3->5, def 1->3
 
-Golden Arbalest - 4 attacks ammo 24
+Golden Arbalest - 3->4 attacks ammo 12-> 24
 
-Halberd of Might - +10 Strength
+Halberd of Might - +4->10 Strength
 
-Hammer of the Mountains - +att
+Hammer of the Mountains - att -1 -> 2
 
-Hell Sword B3F2 -> B2F1, dmg 15
+Hell Sword B3F2 -> B2F1, dmg 9 -> 15
 
-Ice Pebble Staff - W2
+Ice Pebble Staff - W3->W2
 
-Implementor Axe -> Fear 10, Dmg 16
+Implementor Axe -> Fear 5-> 10, Dmg 10->12
 
-Ivory Bow - D3A1 -> D1A1, dmg 18, att 5, ammo 24
+Ivory Bow - D3A1 -> D1A1, dmg 15->18, prec 2->5, ammo 12->24
 
-Just Man?s Cross - prec 10 ammo 24
+Just Man?s Cross - prec 4->10 ammo `12->24
 
-Longbow of Accuracy -> Ammo 24
+Longbow of Accuracy -> Ammo 12-> 24
 
 Midget Masher - AoE1, damage 13 -> 0
 
 Moon Blade S1->S2, Ethereal
 
-Piercer E1, ammo 24
+Piercer E1A1->E1, ammo 24
 
 Standard of the Damned - D4 -> D3, 100 undead leadership
 
-Staff of Corrosion W1F1
+Staff of Corrosion W2F1->W1F1
 
 Staff of Elemental Mastery Range boost->2
 
 Staff of Flame Focus -> Range boost 4
 
-Staff of Storms A4, 25 gems
+Staff of Storms A5->A4
 
 Skull Standard Inspirational 1
 
-Thunder Bow AoE Strength dmg, ammo 24
+Thunder Bow AoE1, ammo 12-> 24
 
 Vine Bow->Aoe Entangle
 
-Vision?s Foe ammo 24
+Vision?s Foe ammo 12->24
 
-Wraith Sword D4 -> D2, Fear, Dam->13
+Wraith Sword D4 -> D2, Fear, Dam 9->13
 
-Wavebreaker W3, autocasts watershield, allows casting of waterstrike
+Wavebreaker autocasts watershield, allows casting of waterstrike
 
 ##### Helmets
 
-Crown of Command magicleadership 50 undeadleadership 50
+Crown of Command also gives magicleadership 50 undeadleadership 50
 
 Helmet of Heroes Command +50
 
 Iron Face - 4E -> 3E
 
-Mistletoe Garland - twist fate, const 4
+Mistletoe Garland - twist fate, const2->4
 
 Spirit Helmet - +5 shockres
 
-Spirit Mask D1N1
+Spirit Mask D2N1->D1N1
 
 Wraith Crown - D6 -> D4
 
@@ -320,11 +320,11 @@ Blue dragon Scale Mail W2->W1
 
 Bone Armor D5 -> D4
 
-Brightmail Haubergeon - Awe, Const 6, lowered stats
+Brightmail Haubergeon - Awe, Const4->Const 6
 
 Chain Mail of Displacement, gives mirror image in combat
 
-Direwolf Pelt +3 att/def bonus
+Direwolf Pelt +1->+3 att/def bonus
 
 Enchanted Armor +1 MR
 
@@ -348,7 +348,7 @@ Weightless Scale Mail - A2 -> A1
 
 ##### Boots
 
-Brimstone Boots provide limited reinvigoration
+Brimstone Boots provide reinvigoration 2
 
 Chi Boots att 1->2
 
@@ -358,7 +358,7 @@ Arcane Lens (Range +2)
 
 Acorn Necklace N1E1->N1
 
-Amulet of Fish W1
+Amulet of Fish W1A1->W1
 
 Amulet of breathing A1
 
@@ -376,17 +376,17 @@ Blood Pendant Range 2
 
 Bracers of Protection - Def +2 -> +3, Prot +2 -> +3
 
-Cauldron of Elven Halls -> A2
+Cauldron of Elven Halls A3 -> A2
 
 Cat charm n2->n1
 
-Catseye Amulet 100 darkvision; D1
+Catseye Amulet 100 darkvision; D1E1->D1
 
 Champions Skull Insp 1, D2->D1
 
 Copper Arm - E3F1 -> E2F1, forgebonus 1
 
-Elixir of Life N1F1
+Elixir of Life N2F2->N1F1
 
 Enormous Cauldron -> moved to const 0, supply 120
 
@@ -394,27 +394,27 @@ Eye Pendant D3E3->D3E2, patrolbonus 20, diseasehealer 3
 
 Enchanted mirror A2->A1
 
-Gossamer Cloth -> A1N1, const 0, hides 50
+Gossamer Cloth -> A2N2->A1N1, const 2-> 0, hides 25-> 50
 
-Imp Familiar +10 undead leadership
+Imp Familiar 1->10 undead leadership
 
 Lycantropos Amulet - #heal, -pathboost
 
-Manuel of Water Breathing N3, const 4, 200 points
+Manuel of Water Breathing N3W1->N3, const 6-> 4, Breathing 50->200 points
 
-Miraculous Cure-All Disease-Healer 5
+Miraculous Cure-All Disease-Healer 1->5
 
 Mirror of False Impressions-> A4->A2
 
-Pebble Pouch Range Strength/3->Strength, nratt 3
+Pebble Pouch Range Strength/3->Strength, nratt 1-> 3
 
 Pendant of Luck -> casts twist fate at the start of battle
 
-Pills of Water Breathing, A1, const 6, 80 points
+Pills of Water Breathing, A2->A1, const 4->6, 20->80 points
 
-Ring of Warning -> Patrol 25
+Ring of Warning -> Patrol 10->25
 
-Sea King Goblet, W2, const 4, 150 points
+Sea King Goblet, W3->W2, const 6->4, 100->150 points
 
 Skull talisman research requirement 0->2
 
@@ -422,13 +422,13 @@ Slave Matrix - E1S1 -> S1
 
 Stone Idol - E2S2 -> E1S1
 
-Stone Bird - + attacks
+Stone Bird - Atk 0->2
 
 Stone Sphere - S2E1 -> S1E1
 
-Wall Shaker 2A req
+Wall Shaker A3->A2
 
-Water Lens + range
+Water Lens range 1->2
 
 Woundfend Amulet E1S1->S1
 
@@ -464,9 +464,9 @@ Crossbreeding Manual - B3N3 -> B2N2
 
 Staff from the Sun - S5F1 -> S4F1
 
-Summit - E6 -> E4, +3 att, +3 def, armor piercing
+Summit - E6 -> E4, Att 12->15 , def 6->9, armor piercing
 
-Unquenched Sword - F7 -> F5; Casts living Fire
+Unquenched Sword - F7 -> F5; Casts living Fire at start of battle
 
 Wondrous Box - N5 -> N3
 
@@ -474,7 +474,7 @@ Aseftik's Armor - 4 -> 3 enc, E4 -> E3
 
 Monolith Armor E5 -> E4, reinvigoration 6
 
-Percival Pocket Knight - E2N1 -> E1N1, +5 hp, +2 att, +2 def, +2 str
+Percival Pocket Knight - E2N1 -> E1N1, hp 11->16, att 11->13, def 16->18, str 11->13
 
 Holger The Head - E1D1 -> E1, +luck
 
@@ -512,7 +512,7 @@ Strands of Arcane Power - Evo 9 -> 8
 
 Mechanical Militia - 80 -> 60 gems, research 9->5
 
-Riches from Beneath -  40 gems, 4E req
+Riches from Beneath -  70->40 gems, E5->E4
 
 Ghost Ship Armada - 60 -> 40 gems
 
@@ -522,7 +522,7 @@ Fata Morgana - 90 -> 60 gems -- Pathrec 6
 
 Astral Corruption - 166 -> 222 gems; Research level 9
 
-Looming Hell - Drop research level--50 slavecost, path level 7
+Looming Hell - Research 9->6 150->100 slavecost, B8->7
 
 Guardians of the Deep - 60 -> 40 gems, Conj 8 -> 6
 
@@ -530,15 +530,13 @@ Lure of the Deep 70-> 50 gemcost Research 8->7
 
 Purgatory  60 -> 50 gemcost, Research 7->6
 
-TKO Research 7, Paths 4/2
+TKO Research 8->7, Paths F6N4-> F4N2
 
-Celestial Rainbow Path 5/3, gemcost 60
+Celestial Rainbow Path W7N5-> W5N3, gemcost 80->60
 
-Wrath of Sea -2 research, -20 gemcost
+Wrath of Sea -  Ench 8->6  gemcost 70->50
 
-Blessing of Thetis at research 7
-
-Forge of the ancients->research 7, 50 gems
+Forge of the ancients- 80-> 50 gems
 
 Burden of Time research 6->7
   
@@ -550,7 +548,7 @@ Divine Name - 25 -> 16 gems
 
 Acashic Record - 10 -> 5 gems
 
-Breath of the Desert change to F/D crosspaths
+Breath of the Desert F3A1->F3D1
 
 Dragon Master -lvl 8 -> 5, 30 -> 14 gems
 
@@ -558,19 +556,19 @@ Raven Feast A4->A3
 
 ##### Battlemagic
 
-Battlefield fire booster
+Battlefield fire booster at conj 5, f3, 3 gems
 
-Bonds of Fire research level 1
+Bonds of Fire research level 2->1
 
-Prison of Fire research level 3
+Prison of Fire research level 5->3
 
-Rain of Stones costs 2 gems
+Rain of Stones costs 1->2 gems
 
-Numbness reduce research to 2
+Numbness reduce research 3->2
 
 Quickness Scales
 
-Earthmight: Scales, lower caster requirement
+Earthmight: Scales, E2->E1
 
 Iron Warriors: Scales, but only to single targets
 
@@ -578,7 +576,7 @@ Iron Will Scales
 
 Gift of Flight Scales
 
-Scaling version of Tangle Vines at research 3
+Scaling version of Tangle Vines at conj 3
 
 Enlarge: Scales
 
@@ -592,7 +590,7 @@ Army of Giants Scales
 
 Berserkers Scales	
 
-Touch of Madness : Lower research level, range 1
+Touch of Madness : Thau 4->2, range 15->1
 
 Sulphur Haze, castable UW
 
@@ -600,11 +598,11 @@ Rust Mist, castable UW
 
 Ice Strike castable UW
 
-Siren Blessing (new spell) A3, ench3, remove amphibian penalty, slight buff
+Siren Blessing (new spell) A3, ench3, remove amphibian penalty, 
 
 Gulf Stream (new spell) F3, Ench 5, imitates friendly currents
 
-Confusion -> Increase AoE/Scaling
+Confusion ->  AoE3/Scaling
 
 Weakness -> AoE1/Scaling
 
@@ -622,7 +620,7 @@ Astral Bolt-> Damage 10+->10++
 
 All midlevel resists now scale
 
-Spirit curse horror marks
+Spirit curse horror marks and curses
 
 Army of Rats Alt9->Alt8; 6 gems->4, 
 
@@ -644,9 +642,7 @@ Clockwork Soldiers 8 -> 6 gems Reinvigoration -15 -> -10 Prot 18 -> 20 AP 10 -> 
 
 Clockwork Horrors Reinvigoration -15 -> -12; Castable UW
 
-Crusher
-
-Stone Fist -> 2 Stone Fists; Crusher 10 gems; Siege 30; Castable UW
+Crusher - Stone Fist -> 2 Stone Fists; Crusher 10 gems; Siege 30; Castable UW
 
 Cave drake 1 gem cheaper
 
@@ -658,7 +654,7 @@ Hidden in Cave - 75 -> 60 gems;  poor amphibian; Castable UW; Sage, Walker 8 hp-
 
 Hidden in Sand - 75 -> 60 gems; poor amphibian
 
-Iron Dragon - noleader; commander; 20 gems
+Iron Dragon - noleader; commander; 25->20 gems
 
 Mechanical Men - 10+2/level -> 12+2/level per summoning; Castable UW; prot 19
 
@@ -671,7 +667,7 @@ Troll King?s Court - 55->45 gems;
 ##### Air
 
 Amphiptere
-Prec 12
+Prec 10->12
 5 gems->4
 
 Draconians
@@ -710,18 +706,15 @@ Hidden in snow
 
 Kokythiad
 40 -> 35 gems
-35 gems
 
 Naiad
 35 -> 30 gems
-30 gems
 
 Naiad Warriors
 30 -> 20 gems
-20 gems
 
 Ice Drake
-5 gems from 7
+7->5 gems
 
 Sea King's Court
 55 -> 50 gems
@@ -729,13 +722,11 @@ Sea King's Court
 Sea Trolls
 15 -> 10 gems
 Fist -> 2x Claw
-claw
 
-Winter Wolves (* increase amount and cost x2)
-Amount and cost increased 2X, hp 16, prot 4
+Winter Wolves - Amount and cost increased 2X, hp 16, prot 4
 
 Yetis
-12 gems from 15
+15 gems->12
 
 ##### Astral
 
@@ -744,7 +735,7 @@ Abomination
 
 Eater of the Dead
 50 pearls->25
-Very low fire and shock res added
+Very low fire and shock res added; increases with level
 Pierceresist
 Acid Shield at three highest levels
 Slimer at two highest levels
@@ -769,7 +760,7 @@ Arouse Hunger
 
 Bane
 23 hp -> 25 hp
-6 gems
+7->6 gems
 
 Behemoth
 10->8 gems
@@ -794,11 +785,9 @@ Reanimation
 5 gems for 10 skeletons->1 gem for 4 skeletons
 
 Reanimate Archers
-scales, casts faster
+5 gems->10
+10 effects to 20++
 Banefire bows are AP
-
-Spirit Mastery
-scales faster, more  spirits
 
 Revive Wights
 20 gems-> 12
@@ -833,9 +822,10 @@ Construct Mandragora
 Forest Giant
 Grab and Swallow weapon added
 
-Forest Troll Tribe 2220
-Contact Forest Trolls 2219
-10->7 gems 695
+Forest Troll Tribe
+37 gems->33
+Contact Forest Trolls 
+10->7 gems 
 stealthy
 
 Lamia Queen
@@ -872,17 +862,18 @@ Vine Ogres
 2 -> 3 ogres
 
 Tarrasque
-Make it a commander, noleader
+commander, noleader
+25 gems->20
 Level 6 unique
-buffs: (Heal, prot 20, enc 2, weapon resist).  Has an attack that can swallow enemies.
+buffs: (recuperation, prot 18->20, enc 2, slash/pierce resist).  Has an attack that can swallow enemies.
 
 ##### Blood
 
 Bind Succubus
-44 gems
+66->44 gems
 
 Blood Rite
-summons 3->7
+summons 3->7 vampires
 
 Cross Breeding
 15 -> 12 slaves
@@ -900,7 +891,7 @@ Plague of Locusts
 heretic 1->2
 
 Ritual of Five Gates
-28-> 25
+28->25
 
 Spine Devil
 Given Flick barbs, precision 10, 3X summonspeed
@@ -927,11 +918,11 @@ Cedar pillar level 0->1
 
 Well of Pestilence rarity swapped with bonedoor tower
 
-Ancient ruin summons 5 various bugs
+Ancient ruin summons 5 various bugs instead of 1 spider
 
-Farm of Plenty rarity increased
+Farm of Plenty less common
 
-Caveman cave gives resources
+Caveman cave gives 10 resources
 
 Animal Cemetary: Summons 4 carrion beasts instead of two
 
@@ -943,57 +934,57 @@ The Slaughterhouse: Provides supply, summons some extra foulspawn
 
 Surveyed armor, made changes
 
-Full Ring Mail +1 def, -1 rescost (Logrians) 
+Full Ring Mail def -2 to -1, res 7->6 (Logrians) 
 
-Chain Hauberk +1 def
+Chain Hauberk -2 to -1 def
 
-Full Chain Mail +1 def - LA Man, MA Man, LA Agartha, MA MArignon *
+Full Chain Mail def -3 to -2 - LA Man, MA Man, LA Agartha, MA MArignon *
 
-Plate cuirass +1 def, -1 enc (LA Pythium, LA Pangaea LA Ulm, LA/MA Marignon, LA Caelum (two units), LA Ragha (one unit), Therodos (Korybants -increase enc, drop defense), MA Pelagia (one unit), MA/LA Arco 
+Plate cuirass  def -1 to 0, enc 2->1 (LA Pythium, LA Pangaea LA Ulm, LA/MA Marignon, LA Caelum (two units), LA Ragha (one unit), Therodos (Korybants -increase enc, drop defense), MA Pelagia (one unit), MA/LA Arco 
 
-Plate Hauberk +2 def, -2 enc (LA Pythium, Abysia, MA Machaka, LA Marignon, Ghandarvas, MA/LA Arco)**
+Plate Hauberk def -3 to -1, enc 4 to 2 (LA Pythium, Abysia, MA Machaka, LA Marignon, Ghandarvas, MA/LA Arco)**
 
-Full Plate Mail -2 enc, +1 def (LA Agartha (lots), MA/LA Marignon (Royal Guard), MA Machaka (Black Hunters).
+Full Plate Mail def -3 to -2, enc 5 to 3 (LA Agartha (lots), MA/LA Marignon (Royal Guard), MA Machaka (Black Hunters).
 
-Full Chain Ulm +1 def  (MA Ulm) 
+Full Chain Ulm def -3 to -2  (MA Ulm) 
 
-Full Plate Ulm +1 def, (MA Ulm) 
+Full Plate Ulm def -3 to -2, (MA Ulm) 
 
-Bronze Cuirass +1 Def, -1 Enc (Therodos, MA Pangaea, MA Pelagia)
+Bronze Cuirass def -1 to 0, enc 3 to 2 (Therodos, MA Pangaea, MA Pelagia)
 
-Bronze Hauberk -2 enc (MA Pan, Pelagia, Oceania, EA Arco, LA Gath)
+Bronze Hauberk enc 5->3 (MA Pan, Pelagia, Oceania, EA Arco, LA Gath)
 
-Spider Armor +1 def, -1 enc, -6 rescost (Machaka)
+Spider Armor rescost 26->20, def -3 to -2, enc 4->3 (Machaka)
 
-Ashigaru Armor +1 def, -1 enc (Shinyu, Yomi, slightly Jomon)*
+Ashigaru Armor def -1 to 0, enc 2 to 1(Shinyu, Yomi, slightly Jomon)*
 
-Samurai Armor +1 def, -1 enc (Jomon, Shinyu ? Yomi)*
+Samurai Armor def -2 to -1, enc 3->2 (Jomon, Shinyu, Yomi)*
 
-Heavy Samurai Armor +1 def, -1 enc (Jomon, Yomi)*
+Heavy Samurai Armor def -3 to -2, enc 4->3 (Jomon, Yomi)*
 
-Basalt Armor -2 Enc, -5 rescost (EA Atlantis)
+Basalt Armor enc 6->4 rescost 30->25 (EA Atlantis)
 
-Hoplon +1 enc	(This fully offsets the benefits Therodos gets from the cuirass changes).
+Hoplon Enc 1->2	(This fully offsets the benefits Therodos gets from the cuirass changes).
 
 Jingasa rcost 2->1
 
-Coral cuirass +2 prot, -1 enc, +3 rescost (MA, LA Atlantis)?
+Coral cuirass Prot 10->12, enc 2->1, rescost 7->10 (MA, LA Atlantis)?
 
-Coral Hauberk +2 prot, +1 def, -1 enc, +5 rescost (EA Pelagia, MA, LA Atlantis)?
+Coral Hauberk Prot 12->14, def -2->-1, enc 3->2, rescost 10->15 (EA Pelagia, MA, LA Atlantis)?
 
-Coral Barding +5 prot, +8 res (Oceania Aphroi)?
+Coral Barding prot 11->16, rescost 12->20 (Oceania Aphroi)?
 
-Turtle Shell Armor +1 prot (EA Pelagia, EA/MA Oceania)?
+Turtle Shell Armor prot 9->10 (EA Pelagia, EA/MA Oceania)?
 
-Turtle Shell Barding +1 prot (Oceania Icthycentaurs)?
+Turtle Shell Barding prot 9->10 (Oceania Icthycentaurs)?
 
-Ichtytaur Barding (MA Oceania, heavy version)?*
+Centaur Barding (Bronze) 16->17 prot, enc 4->3 MA Pan 
 
-Centaur Barding (Bronze) (+1 prot -1 enc) MA Pan 
+Centaur Barding (Iron) 17->18 prot, enc 3->2 LA Pan 
 
-Centaur Barding (Iron) (+1 prot -1 enc) LA Pan 
+Amber hauberk rescost 18->15
 
-Res cost reduction for Amber equipment (MA Pelagia, indies)
+Amber Shield def 4->6
 
 adds Laminated scale mail
 
@@ -1053,7 +1044,7 @@ Horse Tribe Chief/Brother (55->45)
 
 Imperial Commander  2117 65->55
 
-Horse Tribe Cav  Cost 25->15
+Horse Tribe Cav Cost 25->15
 
 Horse Brother 25->15
 
@@ -1675,7 +1666,7 @@ Angel of Fury cost->25 pearls, self-blesses, damage reflection
 
 Angelic Host S5->S4F1, 50->40 pearls
 
-Heavely Choir ->S5F3, 88 pearls, choir angels now get an anti-undead ranged attack
+Heavely Choir S6F2->S5F3, 88 pearls, choir angels now get an anti-undead ranged attack
 
 Starting Army city guard -> Pikeneers
 
@@ -1700,7 +1691,7 @@ Light Barbarian Horsemen discount
 ###### Jomon, Human Daimyos
 Ashigaru Archer added (As Ashigaru is to Bandit: 8 gold, not stealthy)
 
-Samurai, Samurai archer 10 hp
+Samurai, Samurai archer 9->10 hp
 
 Aka-Oni Samurai 15->14 gold
 
@@ -1841,11 +1832,11 @@ Turan Elephants are +10 goldcost
 Airya archers and infantry are +1 goldcost
 
 ###### Xibalba, Return of the Zotz
-Beastbats 1.44 siege defense from 2.44.
+Beastbats 1.44 siege defense from 2.44, undisciplined, lower MR.
 
 Chilans Recruited in Caves are STR
 
-Zotz lances are stone, and cost +1 resources
+Zotz lances are stone, and cost +2 resources
 
 Zotz cost a minimum of 8 gold.
 
