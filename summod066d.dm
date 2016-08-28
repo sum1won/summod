@@ -1,4 +1,4 @@
-#modname "Summod 0.66c"
+#modname "Summod 0.66d"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
 #version 0.66
 #icon "./summod/summodall.tga"
@@ -1960,6 +1960,7 @@
 
 #selectitem 253	 --	Woundfend Amulet E1S1->S1
 #mainpath 4
+#secondarylevel 0
 #end
 
 --- Artefacts ---
@@ -3345,6 +3346,7 @@
 #custommagic 23552 50
 #descr "The Anathemant caste was formed by the Anointed of Rhuax to perform the many ceremonies of the Flame Cult.  These sacral mages administer the procession, ceremonies and sacrifices in the lesser temples of the kingdom.  In the Temple of the All-Consuming Flame they serve the Anointed Ones at the High Sacrifices of the Inner Fire where Anathemant Salamanders are not allowed.  Anathemant Dragons are Abysians and radiate the hellish heat characteristic of their race.  Some Anathemants have training in other magical paths."
 #end
+
 #selectmonster 1698--anathemant salamander 
 #custommagic 23552 10
 #gcost 10000
@@ -3359,8 +3361,10 @@
 #magicskill 8 3
 #custommagic 19584 50
 #end
+
 #selectmonster 1661 -- misbred
 #end
+
 #selectmonster 1536 --ea demonbred
 #douse 1
 #end
