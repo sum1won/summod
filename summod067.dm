@@ -1,6 +1,6 @@
-#modname "Summod 0.66d"
+#modname "Summod 0.67"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.66
+#version 0.67
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -3952,12 +3952,6 @@
 #gcost 10015
 #end
 #selectmonster 1186 --warrior sorceress
---#gcost 10000
---#okleader
---#clearmagic
---#magicskill 6 1
---#magicskill 8 1
---#custommagic 25088 100
 #end
 #selectmonster 1831 --hydra
 #gcost 180
@@ -4121,7 +4115,7 @@
 #end
 #selectmonster 1521 --mindlord
 #clearmagic
-#gcost 10010
+#gcost 10025
 #itemslots 28672
 #magicskill 2 3
 #magicskill 4 3
@@ -4434,7 +4428,7 @@
 #end
 #selectmonster 222 --high inquisitor
 #noslowrec
-#custommagic 2048 25
+#custommagic 2048 50
 #end
 #selectmonster 134 --royal guard
 #gcost 10020 --10 gold discount
@@ -4808,6 +4802,29 @@
 #magicskill 2 1
 #magicskill 8 1
 #custommagic 3584 100
+#end
+
+#selectmonster 803 -- celestial master
+#mapmove 2
+#end
+
+#selectmonster 793 --prince general
+#gcost 10000
+#magicskill 1 8
+#springpower 25
+#end
+
+#selectmonster 791 --Red guard
+#gcost 10023
+#springpower 25
+#end
+
+#selecctmonster 789 -heavy horsemen
+#gcost 10012
+#end
+
+#selectmonster 790 --imperial horsemen
+#gcost 10015
 #end
 
 #selectmonster 805 -eunuch
@@ -6518,11 +6535,11 @@
 --LA Man
 
 #selectmonster 1644 --magister
+#gold 10020
 #clearmagic
 #fixedresearch 5
-#custommagic 1280 80
-#custommagic 256 40
-#custommagic 2048 40
+#custommagic 1280 40
+#custommagic 2048 50
 #end
 
 #selectmonster 1645 --judge
@@ -6533,7 +6550,6 @@
 #end
 
 #selectmonster 1646 --magister arcane
-#stealthy 0
 #castledef 10
 #siegebonus 10
 #end
