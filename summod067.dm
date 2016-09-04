@@ -11481,6 +11481,52 @@ may make the battlefield deadly even for the priest's allies."
 #firstshape 1866
 #end
 
+-- UR
+#newmonster 6310
+#copystats 1347
+#copyspr 1347
+#name "Sirrush"
+#descr "The Sirrush is a wingless dragon of the swamps of Ur. It is guardian being of the kingdom and is sacred to the Enkidus. It has a scaled body, paws of a lion, hindlegs of an eagle and a serpent tail. Some claim it is the most ancient of all dragon-kin."
+#gcost 0
+#xpshape 50
+#end
+#newmonster 6311
+#copystats 1347
+#copyspr 1347
+#name "Sirrush"
+#descr "The Sirrush is a wingless dragon of the swamps of Ur. It is guardian being of the kingdom and is sacred to the Enkidus. It has a scaled body, paws of a lion, hindlegs of an eagle and a serpent tail. Some claim it is the most ancient of all dragon-kin."
+#gcost 0
+#spreaddom 1
+#magicskill 2 1
+#magicskill 6 1
+#custommagic 8804 50
+#xpshape 150
+#end
+#newmonster 6312
+#copystats 1347
+#copyspr 1347
+#name "Sirrush"
+#descr "The Sirrush is a wingless dragon of the swamps of Ur. It is guardian being of the kingdom and is sacred to the Enkidus. It has a scaled body, paws of a lion, hindlegs of an eagle and a serpent tail. Some claim it is the most ancient of all dragon-kin."
+#gcost 0
+#spreaddom 2
+#magicskill 2 1
+#magicskill 6 2
+#custommagic 8804 50
+#custommagic 8804 50
+#custommagic 8804 50
+#end
+#selectmonster 1347
+#gcost 250
+#firstshape 6310
+#end
+#selectnation 29
+#defunit2 1347
+#defmult2 2
+#defunit2b 628
+#defmult2b 10
+#end
+
+
 #selectnation 62 --LA Lemuria
 #descr "Lemur Acolyte +100%DS
 
