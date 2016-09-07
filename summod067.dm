@@ -7101,12 +7101,10 @@
 #copyweapon 6
 #name "Sword Dance"
 #melee50
-#nratt 3
 #end
 #newweapon 1420
-#copyweapon 645
+#copyweapon 645 
 #name "Sword Dance"
-#nratt 3
 #melee50
 #end
 #newweapon 1421
@@ -7117,7 +7115,6 @@
 #magic
 #slash
 #name "Sword Dance"
-#nratt 3
 #melee50
 #end
 --Monster Changes
@@ -7127,14 +7124,20 @@
 #selectmonster 2843 --spectral kourete
 #clearweapons
 #weapon 1421
+#weapon 1421
+#weapon 1421
 #end
 #selectmonster 2839 --kourete
 #clearweapons
+#weapon 1420
+#weapon 1420
 #weapon 1420
 #end
 #selectmonster 2837 --korybant
 #cleararmor
 #clearweapons
+#weapon 1419
+#weapon 1419
 #weapon 1419
 #armor 9
 #armor 209
