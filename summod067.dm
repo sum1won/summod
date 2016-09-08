@@ -7831,9 +7831,9 @@
 #rarity 5  #req_fort 0 #nation -2 #notext #nolog  #req_site 1
 #removesite 1809 
 #end
-#newevent #msg "Enemy. [Sunken Agora]." #rarity 5 #req_notnation 95 #req_coast 1 #nation -2 #notext #nolog  #req_site 1 #removesite 1807 #end
-#newevent #msg "Enemy. [Sunken Odeon]." #rarity 5 #req_notnation 95 #req_coast 1 #nation -2 #notext #nolog  #req_site 1 #removesite 1808 #end
-#newevent  #msg "Enemy. [Sunken Orchestra]." #rarity 5 #req_notnation 95 #req_coast 1 #nation -2 #notext #nolog #req_site 1 #removesite 1809 #end
+#newevent #msg "Enemy. [Sunken Agora]." #rarity 5 #req_notnation 95 #nation -2 #notext #nolog  #req_site 1 #removesite 1807 #end
+#newevent #msg "Enemy. [Sunken Odeon]." #rarity 5 #req_notnation 95 #nation -2 #notext #nolog  #req_site 1 #removesite 1808 #end
+#newevent  #msg "Enemy. [Sunken Orchestra]." #rarity 5 #req_notnation 95 #nation -2 #notext #nolog #req_site 1 #removesite 1809 #end
 #newsite 1812
 #name "Agora"
 #mon 6321
