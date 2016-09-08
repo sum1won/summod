@@ -6747,6 +6747,8 @@
 #selectsite 25
 #gems 5 10
 #end
+#selectmonster 184 --knights of the unholy shroud
+#end
 #selectmonster 253 --dusk elder
 #magicskill 0 1
 #magicskill 4 2
@@ -6772,19 +6774,24 @@
 #end
 #newevent #rarity 5 #nation -2 #req_fornation 34   #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
 #msg "Purification destroyed. [Purified Deadland]." #removesite 1803 #notext  #addsite 1802  #nolog #end
+
 #newevent #rarity 5 #nation -2 #req_fornation 34   
 #req_pop0ok #req_capital 0 #req_dominion 1 #req_site 1
 #msg "Carrionland destroyed. [Carrionland]." #removesite 1804 #nolog #notext #addsite 1802 #end
+
 #newevent #rarity 5 #nation -2 #req_fornation 34   
-#req_pop0ok #req_capital 0 #req_dominion 1 #req_site 1 
+#req_pop0ok #req_capital 0 #req_site 1 
 #msg "Dreamland destroyed. [Dreamland]." #removesite 1805 #nolog #notext  #addsite 1802 #end
+
 #newevent #req_freesites 1 #rarity 5  #req_fornation 34   #req_land 1
-#nation -2 #req_pop0ok #req_capital 0 #req_maxpop 150 #req_dominion 1 #req_nositenbr 1802
-#msg "Deadland Created. [Deadland]." #addsite 1802  #notext #nolog #end
+#nation -2 #req_pop0ok #req_capital 0 #req_maxpop 150 #req_dominion 2 #req_nositenbr 1802
+#msg "Deadland Created. [Deadland]." #addsite 1802 #notext #nolog #req_unique 30 #end
+
 #newevent #req_freesites 1 #rarity 5  
-#req_fornation 34 #req_land 1 #req_unique 5
-#nation -2 #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 0 #notext #addsite -1 
-#msg "Deadland Created. [Deadland]" #nolog #req_unique 40 #end
+#req_fornation 34 #req_land 1 #req_unique 7
+#nation -2 #req_pop0ok #req_capital 0 #req_dominion 1 #req_site 0 #notext #addsite -1 
+#msg "Deadland Created. [Deadland]" #nolog #end
+
 #newevent #rarity 5 #req_monster 149 #req_fornation 40 
 #nation -2 #req_pop0ok #req_capital 0 #req_dominion 3 #req_rare 30 #req_site 1 
 #msg "An inquisitor has purified this land! [Deadland]."#nolog #notext #removesite 1802 #addsite 1803  #end
@@ -6896,11 +6903,13 @@
 #newevent #rarity 5 #nation -2 #req_fornation 62   
 #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
 #msg "Dreamland destroyed. [Dreamland]." #removesite 1805 #nolog #notext  #addsite 1802  #end
+
 #newevent #req_freesites 1 #rarity 5  
 #req_fornation 62 #req_land 1
 #nation -2 #req_pop0ok #req_capital 0 
 #req_unique 5 #req_site 0 #addsite -1  
 #msg "Deadland Created. [Deadland]" #nolog #notext  #end
+
 #newevent #req_freesites 1 #rarity 5  #req_fornation 62   #req_land 1
 #nation -2 #req_pop0ok #req_capital 0 #req_maxpop 130 #req_dominion 2 #req_site 0 #addsite -1
 #msg "Deadland Created. [Deadland]"   #nolog #notext #req_unique 35 #end
