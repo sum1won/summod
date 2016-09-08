@@ -7105,52 +7105,124 @@
 ------------------------------
 ------THERODOS CHANGES--------
 ------------------------------
---Sacred Changes
-#newweapon 1419
-#copyweapon 6
-#name "Sword Dance"
-#melee50
-#end
-#newweapon 1420
-#copyweapon 645 
-#name "Sword Dance"
-#melee50
-#end
-#newweapon 1421
-#hardmrneg
-#dmg 5
-#def 2
-#len 1
-#magic
-#slash
-#name "Sword Dance"
-#melee50
-#end
 --Monster Changes
 #selectspell 1065 --summon ephor
 #fatiguecost 500
 #end
-#selectmonster 2843 --spectral kourete
-#clearweapons
-#weapon 1421
-#weapon 1421
-#weapon 1421
+--for sacreds
+#newweapon 1431
+#name "Slash"
+#dmg 4
+#def 2
+#slash
+#melee50
+#len 1
+#rcost 1
+#end
+#newweapon 1420
+#name "Stab"
+#dmg 4
+#pierce
+#melee50
+#len 1
+#bonus
+#rcost 1
+#norepel
+#end
+#newweapon 1421
+#name "Bash"
+#dmg 4
+#blunt
+#melee50
+#bonus
+#rcost 1
+#norepel
+#end
+#newweapon 1425
+#name "Slash"
+#dmg 5
+#def 2
+#slash
+#melee50
+#ironweapon
+#len 1
+#rcost 1
+#end
+#newweapon 1426
+#name "Stab"
+#dmg 5
+#pierce
+#melee50
+#ironweapon
+#len 1
+#bonus
+#rcost 1
+#norepel
+#end
+#newweapon 1427
+#name "Bash"
+#dmg 5
+#blunt
+#melee50
+#ironweapon
+#bonus
+#norepel
+#end
+#newweapon 1428
+#name "Slash"
+#dmg 5
+#def 1
+#slash
+#melee50
+#len 1
+#magic
+#hardmrneg
+#end
+#newweapon 1429
+#name "Stab"
+#dmg 5
+#pierce
+#melee50
+#len 1
+#magic
+#hardmrneg
+#bonus
+#norepel
+#end
+#newweapon 1430
+#name "Bash"
+#dmg 5
+#blunt
+#melee50
+#magic
+#hardmrneg
+#bonus
+#norepel
 #end
 #selectmonster 2839 --kourete
 #clearweapons
+#weapon 1431
 #weapon 1420
-#weapon 1420
-#weapon 1420
+#weapon 1421
+#itemslots 15488
+#end
+#selectmonster 2843 --spectral kourete
+#clearweapons
+#weapon 1428
+#weapon 1429
+#weapon 1430
+#itemslots 15488
 #end
 #selectmonster 2837 --korybant
 #cleararmor
 #clearweapons
-#weapon 1419
-#weapon 1419
-#weapon 1419
+#weapon 1425
+#weapon 1426
+#weapon 1427
 #armor 9
 #armor 209
 #armor 20
+#itemslots 15488
 #end
 #newmonster 6324
 #name "Telkhine Adjutant"
