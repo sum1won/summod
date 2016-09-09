@@ -632,6 +632,7 @@
 #name "Ichtyid Scout"
 #descr "Ichtyids are a race of fishmen that dwell along the coastlines, both in the water and on land. They are born in shallow waters and use turtles as both food and material for weapons and armor."
 #stealthy 10
+#noleader
 #end
 #selectpoptype 65
 #addreccom 6302
