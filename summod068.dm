@@ -1,6 +1,6 @@
-#modname "Summod 0.67"
+#modname "Summod 0.68"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.67
+#version 0.68
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -383,7 +383,6 @@
 #att -1
 #def 1
 #len 4
-#nratt 2
 #twohanded
 #pierce
 #slash
@@ -633,6 +632,7 @@
 #name "Ichtyid Scout"
 #descr "Ichtyids are a race of fishmen that dwell along the coastlines, both in the water and on land. They are born in shallow waters and use turtles as both food and material for weapons and armor."
 #stealthy 10
+#noleader
 #end
 #selectpoptype 65
 #addreccom 6302
@@ -787,56 +787,55 @@
 #weapon 1404 --stone knife
 #end 
 
-#selectmonster 103 --hydromancer
-#clearweapons  -- dagger
-#weapon 1404 --stone knife
-#end 
-
-#selectmonster 575 --amber clan mage
-#clearweapons  -- dagger
-#weapon 1404 --stone knife
-#end 
-
-#selectmonster 529 --sea father
-#clearweapons  --trident
-#weapon 1403 --Trident
-#end 
-
-#selectmonster 103 --Hydromancer
-#clearweapons  --dagger
-#weapon 1404 --stone knife
-#end 
-
-#selectmonster 1614 --toadtribe shaman
-#clearweapons --dagger
-#weapon 1404 --stone knife
+#selectmonster 1820 --fir bolg militia unaffiliated
+#clearweapons
+#weapon 643
 #end
 
-#selectmonster 1613 --toadtribewarrior
-#clearweapons --spear
-#weapon 1402 --uwspear
+--Tir na nog--
+#selectmonster 1749 --fir bolg militia
+#clearweapons
+#weapon 643
 #end
 
-#selectmonster 974 --ichthyid
-#clearweapons --net, spear
-#weapon 263
-#weapon 1402 --uwspear
-#end 
+#selectmonster 1751 --sidhe warrior
+#clearweapons
+#weapon 643
+#weapon 21
+#end
 
-#selectmonster 975 --ichthyid warrior
-#clearweapons --spear
-#weapon 1402 --uwspear
-#end 
+#selectmonster 1757 -- fir bolg warrior
+#clearweapons
+#weapon 643
+#weapon 21
+#end
 
-#selectmonster 976--ichthyid lord
-#clearweapons --trident
-#weapon 1403 --Trident
-#end 
+--- fomoria
+#selectmonster 1813 -- fir bolg warrior
+#clearweapons
+#weapon 643
+#weapon 21
+#end
 
-#selectmonster 1009 --holy deepone
-#clearweapons --dagger
-#weapon 1404 --stone knife
-#end 
+--- Eriu
+#selectmonster 1787 -- fir bolg
+#clearweapons
+#weapon 643
+#weapon 21
+#end
+
+
+---Gath---
+#selectmonster 1992 --zebulonite soldier
+#clearweapons
+#weapon 643
+#end
+
+#selectmonster 1993 --Naphtali spearman
+#clearweapons
+#weapon 643
+#weapon 21
+#end
 
 --- Jomon ---
 #selectmonster 2101 -- Shrimp Soldier
@@ -855,35 +854,10 @@
 #end
 
 --- Atlantis ---
-#selectmonster 104 --Deep Seer
-#clearweapons  --dagger
-#weapon 1404 --stone knife
-#end 
-
-#selectmonster 1680 --ea scout
-#clearweapons --dagger
-#weapon 1404 --stone knife
-#end 
-
-#selectmonster 1681 --atlantian spearman
-#clearweapons --spear
-#weapon 1402 --uwspear 
-#end 
-
-#selectmonster 1684 --warshambler
-#clearweapons --spear
-#weapon 1402 --uwspear 
-#end 
 
 #selectmonster 1703 --mournful
 #clearweapons --halberd
 #weapon 1400 --laminated halberd
-#end
-
-#selectmonster 1631 --tent owner
-#clearweapons --spear, harpoon
-#weapon 373 --stone spear
-#weapon 452 --harpoon
 #end
 
 --- Rlyeh ---
@@ -891,7 +865,7 @@
 #selectmonster 1523--ea slave prince
 #clearweapons
 #cleararmor
-#weapon 1403 --Trident
+#weapon 670 --Trident
 #armor 751 -- treated scale hauberk
 #armor 1524
 #end
@@ -900,38 +874,6 @@
 #clearweapons --trident
 #weapon 642--meteor trident
 #end
-
-
-#selectmonster 335 --slave trooper
-#clearweapons -- trident
-#weapon 1403 --Trident
-#end 
-
-#selectmonster 1515 --slave trooper
-#clearweapons -- spear, net
-#weapon 263 --net
-#weapon 1402 --uwspear  
-#end 
-
-#selectmonster 1516 --slave trooper
-#clearweapons -- spear, net
-#weapon 263 --net
-#weapon 1402 --uwspear  
-#end 
-
-#selectmonster 1517 --slave trooper
-#clearweapons -- spear
-#weapon 1402 --uwspear  
-#end 
-
-#selectmonster 336 --slave guardian
-#clearweapons -- trident
-#cleararmor
-#armor 140
-#armor 150
-#weapon 1403 --Trident 
-#end 
-
 
 #selectmonster 1524 --slaveguardian
 #clearweapons --spear
@@ -946,7 +888,7 @@
 #cleararmor
 #armor 140
 #armor 150
-#weapon 1403 --Trident
+#weapon 1402 --uw spear
 #end 
 
 #selectmonster 1526 --slave guardian
@@ -954,12 +896,12 @@
 #cleararmor
 #armor 140
 #armor 150
-#weapon 1403 --Trident
+#weapon 670 --Trident
 #end 
 
 #selectmonster 1619 --slave guardian
 #clearweapons -- trident
-#weapon 1403 --Trident
+#weapon 670 --Trident
 #end 
 
 
@@ -994,15 +936,6 @@
 #weapon 85 --tentacle
 #end
 
-#selectmonster 1639 --cultist
-#clearweapons --dagger
-#weapon 1404 --stone knife
-#end
-
-#selectmonster 1008 --fanaticdeepone
-#clearweapons -trident
-#weapon 1403 --Trident
-#end
 
 
 --- Agartha ---
@@ -1012,105 +945,18 @@
 #weapon 1404 --stone knife
 #end
 
-#selectmonster 1466 -- ea pale one scout
-#clearweapons --spear
-#weapon 1402 -- uwspear
-#end 
-
-#selectmonster 1453 -- ea pale one warrior
-#clearweapons -- spear
-#weapon 1402 -- uwspear
-#end 
-
-#selectmonster 1452 -- ea pale one militia
-#clearweapons -- spear
-#weapon 1402 -- uwspear
-#end 
-
-#selectmonster 1463 -- ea pale one commander
-#clearweapons -- spear
-#weapon 1402 -- uwspear
-#end 
-
-#selectmonster 1465 -- ea pale one
-#clearweapons -- spear
-#weapon 1402 -- uwspear
-#end 
-
-#selectmonster 1464 -- ea pale one warrior
-#clearweapons -- spear
-#weapon 1402 -- uwspear
-#end 
-
 #selectmonster 1470 --ancientlord
 #clearweapons --battleaxe
 #weapon 1405 --bronze battleaxe
 #end
 
-
-#selectmonster 2490 -- ea pale one ancient wet
-#clearweapons -- spear
-#weapon 1402 --uwspear 
-#end 
-
-#selectmonster 2489 -- ea pale one ancient wet
-#clearweapons -- spear
-#weapon 1402 --uwspear 
-#end 
-
-#selectmonster 1455 -- ea pale one ancient wet
-#clearweapons -- spear
-#weapon 1402 --uwspear
-#end 
-
 #selectmonster 1469 -- ea pale one ancient
 #clearweapons -- spear
-#weapon 1402 -- uwspear
-#end 
-
-#selectmonster 1489 --ma wetone
-#clearweapons --spear
-#weapon 1402 --uwspear 
-#end 
-
-#selectmonster 1491 -- uw ea wetone
-#clearweapons --spear
-#weapon 1402 --uwspear 
-#end 
-
-#selectmonster 1635 -- uw ea/ma wetone
-#clearweapons --spear
-#weapon 1402 --uwspear 
-#end 
-
-#selectmonster 1636 -- uw ea/ma wetone
-#clearweapons --spear
-#weapon 1402 --uwspear 
-#end 
-
-
-#selectmonster 1638-- ea/ma wet one captain
-#clearweapons -- trident
-#weapon 1403 --Trident
-#end 
-
-#selectmonster 1637-- ea/ma wet one captain
-#clearweapons -- trident
-#weapon 1403 --Trident
+#weapon 643 -- uwspear
 #end 
 
 
 --- Muuch ---
-
-#selectmonster 2721 -- muuch militia
-#clearweapons --spear
-#weapon 643 -- bronzespear
-#end 
-
-#selectmonster 2723 -- muuch warrior
-#clearweapons --spear
-#weapon 643 -- bronzespear
-#end 
 
 #selectmonster 2745 -- sak muuch warrior
 #clearweapons -- spear
@@ -1122,11 +968,6 @@
 #weapon 643 --bronzespear
 #end
 
-#selectmonster 2744 --sak muuch dart thrower
-#clearweapons --obsidian dart, dagger
-#weapon 619 -obsidian dart
-#weapon 1404 --stone knife
-#end
 
 #selectmonster 2718 --ah itz
 #clearweapons --dagger
@@ -1134,17 +975,7 @@
 #end
 
 #selectmonster 2748 --ah ha
-#clearweapons --dagger
-#weapon 1404 --knife
-#end
-
-#selectmonster 2717 -- ah ha
-#clearweapons --dagger
-#weapon 1404 --knife
-#end
-
-#selectmonster 2716 -- muuch kuhul
-#clearweapons --dagger
+#clearweapons --bronze spear
 #weapon 1404 --knife
 #end
 
@@ -1184,42 +1015,27 @@
 
 --- Nagas ---
 --nagarishi Kryss made bronze
-#selectmonster 1318 --naga
-#clearweapons
-#weapon 1402 --uw spear
-#weapon 141 --poison spit
-#weapon 595 --hypnotize
-#weapon 239 --venemous fangs
-#end
 
 #selectmonster 1319 --naga warrior
 #clearweapons
-#cleararmor
 #weapon  1407 --Bronzed Falchion
 #weapon 141 --poison spit
 #weapon 595 --hypnotize
 #weapon 239 --venemous fangs
-#armor 752 --Bronzed Hauberk
-#armor 1 --buckler
 #end
 
 #selectmonster 1320 --nagaraja
 #clearweapons
-#cleararmor
 #weapon  1407 --Bronzed Falchion
-#armor 752 --Bronzed Hauberk
 #weapon 141 --poison spit
 #weapon 595 --hypnotize
 #weapon 239 --venemous fangs
-#armor 1 --buckler
 #end
 
 #selectmonster 1323 --nagaraja other form
 #clearweapons
 #cleararmor
 #weapon  1407 --Bronzed Falchion
-#armor 752 --Bronzed Hauberk
-#armor 1 --buckler
 #end
 
 #selectmonster 2476 --naga chief
@@ -2420,9 +2236,10 @@
 #end
 
 -- Quickness --
--- +1 AoE per caster level
+-Changed to single target, scaling only
 #selectspell 540
-#aoe 1000
+#aoe 0
+#nreff 1000
 #end
 
 -- Iron Warriors scales, but differently
@@ -6571,8 +6388,6 @@
 
 
 --jomon
-#selectnation 69
-#end
 #newmonster 6309 -- ashigaru archer
 #copystats 1238
 #name "Ashigaru Archer"
@@ -6645,6 +6460,9 @@
 #selectmonster 2099 --tatsu
 #clearmagic
 #custommagic 10112 300
+#end
+#selectnation 69
+#addrecunit 6309
 #end
 
 --Bogarus
@@ -6748,6 +6566,15 @@
 #gems 5 10
 #end
 #selectmonster 184 --knights of the unholy shroud
+#att 11
+#clearweapons
+#cleararmor
+#weapon 596
+#weapon 8
+#weapon 56
+#armor 30
+#armor 21
+#armor 169
 #end
 #selectmonster 253 --dusk elder
 #magicskill 0 1
@@ -7831,9 +7658,9 @@
 #rarity 5  #req_fort 0 #nation -2 #notext #nolog  #req_site 1
 #removesite 1809 
 #end
-#newevent #msg "Enemy. [Sunken Agora]." #rarity 5 #req_notnation 95 #req_coast 1 #nation -2 #notext #nolog  #req_site 1 #removesite 1807 #end
-#newevent #msg "Enemy. [Sunken Odeon]." #rarity 5 #req_notnation 95 #req_coast 1 #nation -2 #notext #nolog  #req_site 1 #removesite 1808 #end
-#newevent  #msg "Enemy. [Sunken Orchestra]." #rarity 5 #req_notnation 95 #req_coast 1 #nation -2 #notext #nolog #req_site 1 #removesite 1809 #end
+#newevent #msg "Enemy. [Sunken Agora]." #rarity 5 #req_notnation 95 #nation -2 #notext #nolog  #req_site 1 #removesite 1807 #end
+#newevent #msg "Enemy. [Sunken Odeon]." #rarity 5 #req_notnation 95 #nation -2 #notext #nolog  #req_site 1 #removesite 1808 #end
+#newevent  #msg "Enemy. [Sunken Orchestra]." #rarity 5 #req_notnation 95 #nation -2 #notext #nolog #req_site 1 #removesite 1809 #end
 #newsite 1812
 #name "Agora"
 #mon 6321
