@@ -2420,9 +2420,10 @@
 #end
 
 -- Quickness --
--- +1 AoE per caster level
+-Changed to single target, scaling only
 #selectspell 540
-#aoe 1000
+#aoe 0
+#nreff 1000
 #end
 
 -- Iron Warriors scales, but differently
@@ -6571,8 +6572,6 @@
 
 
 --jomon
-#selectnation 69
-#end
 #newmonster 6309 -- ashigaru archer
 #copystats 1238
 #name "Ashigaru Archer"
@@ -6645,6 +6644,9 @@
 #selectmonster 2099 --tatsu
 #clearmagic
 #custommagic 10112 300
+#end
+#selectnation 69
+#addrecunit 6309
 #end
 
 --Bogarus
@@ -6747,7 +6749,19 @@
 #selectsite 25
 #gems 5 10
 #end
+#selectarmor 169
+#enc 3
+#end
 #selectmonster 184 --knights of the unholy shroud
+#att 11
+#clearweapons
+#cleararmor
+#weapon 596
+#weapon 8
+#weapon 56
+#armor 30
+#armor 21
+#armor 169
 #end
 #selectmonster 253 --dusk elder
 #magicskill 0 1
