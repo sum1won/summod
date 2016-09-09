@@ -383,7 +383,6 @@
 #att -1
 #def 1
 #len 4
-#nratt 2
 #twohanded
 #pierce
 #slash
