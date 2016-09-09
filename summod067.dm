@@ -6565,9 +6565,6 @@
 #selectsite 25
 #gems 5 10
 #end
-#selectarmor 169
-#enc 3
-#end
 #selectmonster 184 --knights of the unholy shroud
 #att 11
 #clearweapons
