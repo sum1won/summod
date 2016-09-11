@@ -4627,7 +4627,7 @@
 
 #selectmonster 793 --prince general
 #gcost 10000
-#magicskill 1 8
+#magicskill 8 1
 #springpower 25
 #end
 
