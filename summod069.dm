@@ -1,6 +1,6 @@
-#modname "Summod 0.68a"
+#modname "Summod 0.69"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.68a
+#version 0.69
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -2980,7 +2980,7 @@
 #prot 20
 #noleader
 #clearweapons
-#weapon 600
+#weapon 1410
 #weapon 29
 #weapon 535
 #weapon 532
