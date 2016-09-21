@@ -203,7 +203,7 @@
 #enc 2
 #end
 
-#newarmor 752
+#newarmor 752  -- la patala
 #name "Bronzed Hauberk"
 #type 5
 #prot 18
@@ -211,6 +211,16 @@
 #enc 3
 #def -2
 #end
+
+#newarmor 754  -- la pythium
+#name "Clipeus"
+#type 4
+#prot 13
+#def 5
+#enc 1
+#end
+
+
 
 
 ---------------
@@ -373,8 +383,47 @@
 #nratt 1
 #end
 
+--Spectral Weapons
+
+#selectmonster 2700 --supaya offset
+#clearweapons
+#weapon 1422
+#end
+#selectweapon 280 --spectral spear
+#clear
+#name "Spectral Spear"
+#hardmrneg
+#magic
+#pierce
+#dmg 3
+#len 4
+#nratt 1
+#end
+#selectweapon 281 --spectral sword
+#clear
+#name "Spectral Sword"
+#dmg 5
+#def 1
+#len 1
+#nratt 1
+#slash
+#magic
+#hardmrneg
+#end
+#selectweapon 572 --spectral long spear
+#clear
+#name "Spectral Long Spear"
+#dmg 3
+#def -1
+#len 5
+#nratt 1
+#hardmrneg
+#pierce
+#magic
+#end
 
 ---New Weapons
+
 
 #newweapon 1400
 #name "Metal Halberd"
@@ -388,8 +437,17 @@
 #slash
 #end
 
-
-
+#newweapon 1401-- la pythium
+#copyweapon 21
+#name "Weighted Darts"
+#rcost 1
+#dmg 0
+#att 1
+#range -1
+#nratt 1
+#ammo 5
+#pierce
+#end
 
 #newweapon 1402
 #dmg 3
@@ -426,6 +484,12 @@
 #slash
 #rcost 3
 #name "Bronze Battleaxe"
+#end
+
+#newweapon 1406 --serpent breath
+#copyweapon 535
+#name "Serpent Breath"
+#aoe 3
 #end
 
 #newweapon 1407
@@ -480,7 +544,19 @@
 #dmg 8192
 #end
 
-#newweapon 1415
+#newweapon 1414
+#copyweapon 440
+#name "Spider Fear"
+#dmg 1
+#nratt 1
+#aoe 1
+#unrepel
+#norepel
+#melee50
+#bonus
+#end
+
+#newweapon 1415 --xibalbans
 #name "Light Stone Lance"
 #rcost 3
 #charge
@@ -489,6 +565,13 @@
 #len 4
 #nratt 1
 #end
+
+#newweapon 1416-- la pythium
+#copyweapon 238
+#name "Rhabdos"
+#secondaryeffect 216
+#end
+
 
 #newweapon 1417
 #name "Wind of Leprosy"
@@ -516,6 +599,122 @@
 #ammo 3
 #pierce
 #secondaryeffect 51
+#end
+
+#newweapon 1419-- la pythium
+#name "Horned Sword"
+#slash
+#pierce
+#dmg 9
+#att 3
+#def 1
+#len 2
+#nratt 1
+#secondaryeffect 276
+#end
+
+
+#newweapon 1420 --- EA THERODOS WEAPONS
+#name "Stab"
+#dmg 4
+#pierce
+#melee50
+#len 1
+#bonus
+#rcost 1
+#norepel
+#end
+#newweapon 1421 --- EA THERODOS WEAPONS
+#name "Bash"
+#dmg 4
+#blunt
+#melee50
+#bonus
+#rcost 1
+#norepel
+#end
+
+#newweapon 1422 -- supaya madness
+#copyweapon 280
+#name "Spectral Spear"
+#end
+
+#newweapon 1423
+#copyweapon 145
+#name "Heavenly Song"
+#aoe 0
+#damage 3
+#end
+
+#newweapon 1425 --- EA THERODOS WEAPONS
+#name "Slash"
+#dmg 5
+#def 2
+#slash
+#melee50
+#ironweapon
+#len 1
+#rcost 1
+#end
+#newweapon 1426 --- EA THERODOS WEAPONS
+#name "Stab"
+#dmg 5
+#pierce
+#melee50
+#ironweapon
+#len 1
+#bonus
+#rcost 1
+#norepel
+#end
+#newweapon 1427 --- EA THERODOS WEAPONS
+#name "Bash"
+#dmg 5
+#blunt
+#melee50
+#ironweapon
+#bonus
+#norepel
+#end
+#newweapon 1428 --- EA THERODOS WEAPONS
+#name "Slash"
+#dmg 5
+#def 1
+#slash
+#melee50
+#len 1
+#magic
+#hardmrneg
+#end
+#newweapon 1429 --- EA THERODOS WEAPONS
+#name "Stab"
+#dmg 5
+#pierce
+#melee50
+#len 1
+#magic
+#hardmrneg
+#bonus
+#norepel
+#end
+#newweapon 1430 --- EA THERODOS WEAPONS
+#name "Bash"
+#dmg 5
+#blunt
+#melee50
+#magic
+#hardmrneg
+#bonus
+#norepel
+#end
+#newweapon 1431 --- EA THERODOS WEAPONS
+#name "Slash"
+#dmg 4
+#def 2
+#slash
+#melee50
+#len 1
+#rcost 1
 #end
 
 ---Item Counterbalances---
@@ -985,17 +1184,6 @@
 #weapon 1404 --knife
 #end
 
-#newweapon 1424
-#name "Stone Glaive"
-#len 4
-#rcost 6
-#dmg 7
-#att -1
-#def 1
-#slash
-#pierce
-#twohanded
-#end
 #selectmonster 2896 --returned
 #spr1 "./summod/returned_1.tga"
 #spr2 "./summod/returned_2.tga"
@@ -4280,12 +4468,7 @@
 #spec 12632064
 #school -1
 #end
-#newweapon 1423
-#copyweapon 145
-#name "Heavenly Song"
-#aoe 0
-#damage 3
-#end
+
 #selectspell 319 --Contact Harbinger
 #end
 #selectspell 320 --angelic host
@@ -4926,17 +5109,7 @@
 #size 4
 #str 16
 #end
-#newweapon 1414
-#copyweapon 440
-#name "Spider Fear"
-#dmg 1
-#nratt 1
-#aoe 1
-#unrepel
-#norepel
-#melee50
-#bonus
-#end
+
 #selectmonster 899 --hunter form of black sorc
 #str 18
 #weapon 1414
@@ -6514,47 +6687,7 @@
 
 
 -------------popkill
---Spectral changes
-#newweapon 1422
-#copyweapon 280
-#name "Spectral Spear"
-#end
-#selectmonster 2700 --supaya
-#clearweapons
-#weapon 1422
-#end
-#selectweapon 280 --spectral spear
-#clear
-#name "Spectral Spear"
-#hardmrneg
-#magic
-#pierce
-#dmg 3
-#len 4
-#nratt 1
-#end
-#selectweapon 281 --spectral sword
-#clear
-#name "Spectral Sword"
-#dmg 5
-#def 1
-#len 1
-#nratt 1
-#slash
-#magic
-#hardmrneg
-#end
-#selectweapon 572 --spectral long spear
-#clear
-#name "Spectral Long Spear"
-#dmg 3
-#def -1
-#len 5
-#nratt 1
-#hardmrneg
-#pierce
-#magic
-#end
+--Spectral changes -- spectral weapons mr negates, except for supaya
 #selectnation 34 --ermor
 #idealcold 1
 #fortcost 50
@@ -6937,95 +7070,6 @@
 #fatiguecost 500
 #end
 --for sacreds
-#newweapon 1431
-#name "Slash"
-#dmg 4
-#def 2
-#slash
-#melee50
-#len 1
-#rcost 1
-#end
-#newweapon 1420
-#name "Stab"
-#dmg 4
-#pierce
-#melee50
-#len 1
-#bonus
-#rcost 1
-#norepel
-#end
-#newweapon 1421
-#name "Bash"
-#dmg 4
-#blunt
-#melee50
-#bonus
-#rcost 1
-#norepel
-#end
-#newweapon 1425
-#name "Slash"
-#dmg 5
-#def 2
-#slash
-#melee50
-#ironweapon
-#len 1
-#rcost 1
-#end
-#newweapon 1426
-#name "Stab"
-#dmg 5
-#pierce
-#melee50
-#ironweapon
-#len 1
-#bonus
-#rcost 1
-#norepel
-#end
-#newweapon 1427
-#name "Bash"
-#dmg 5
-#blunt
-#melee50
-#ironweapon
-#bonus
-#norepel
-#end
-#newweapon 1428
-#name "Slash"
-#dmg 5
-#def 1
-#slash
-#melee50
-#len 1
-#magic
-#hardmrneg
-#end
-#newweapon 1429
-#name "Stab"
-#dmg 5
-#pierce
-#melee50
-#len 1
-#magic
-#hardmrneg
-#bonus
-#norepel
-#end
-#newweapon 1430
-#name "Bash"
-#dmg 5
-#blunt
-#melee50
-#magic
-#hardmrneg
-#bonus
-#norepel
-#end
 #selectmonster 2839 --kourete
 #clearweapons
 #weapon 1431
@@ -11216,51 +11260,6 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 ----genericus
-
-#newarmor 754
-#name "Clipeus"
-#type 4
-#prot 13
-#def 5
-#enc 1
-#end
-
-
-#newweapon 1401
-#copyweapon 21
-#name "Weighted Darts"
-#rcost 1
-#dmg 0
-#att 1
-#range -1
-#nratt 1
-#ammo 5
-#pierce
-#end
-
-#newweapon 1406 --serpent breath
-#copyweapon 535
-#name "Serpent Breath"
-#aoe 3
-#end
-
-#newweapon 1416
-#copyweapon 238
-#name "Rhabdos"
-#secondaryeffect 216
-#end
-
-#newweapon 1419
-#name "Horned Sword"
-#slash
-#pierce
-#dmg 9
-#att 3
-#def 1
-#len 2
-#nratt 1
-#secondaryeffect 276
-#end
 
 #selectmonster 765 --serpent lord
 #gcost 10030
