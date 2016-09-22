@@ -632,7 +632,7 @@
 #copyweapon 145
 #name "Heavenly Song"
 #aoe 0
-#damage 3
+#dmg 3
 #end
 
 #newweapon 1425 --- EA THERODOS WEAPONS
@@ -3232,7 +3232,16 @@
 -------nations-------
 ----EA Nerfed Nations
 ---- Lanka
-#selectnation 26 ---lanka
+#selectnation 26
+#descr "On the dark and densely forested island of Lanka, Rakshasas, demon ogres from an earlier era, still linger. Gifted
+with tremendous strength, they once fought the Devatas of Kailasa, but since then the most powerful of the
+Rakshasas have left this world for the Nether Realms. The remaining Rakshasas have captured and enslaved the
+monkey people of Kailasa and made them serve as warriors, hunters or food. The Rakshasas had no use for the
+peaceful White Ones and Kala-Mukhas, Rakshasa halfbreeds, lead the monkey people of Lanka. Since the
+enslavement of the apes, the ancient conflict between the Devatas of Kailasa and the Rakshasas of Lanka has
+been renewed.
+
+Summod changes Lanka substantially.  Atavi and Bandar are slightly better, Dakini are more expensive, and your independent priests now cost much more upkeep.  Consult the manual for more detailed information"
 #end
 #selectspell 369 --summon dakini
 #fatiguecost 6600
@@ -3274,6 +3283,19 @@
 #end
 --- Xibalba
 #selectnation 31 --ea xibalba
+#descr "Xibalba is a vast realm of dark caverns beneath the forests of Mictlan. According to legend, the sun and the moon passed
+through the labyrinthine caverns on their daily journey to the eastern horizon. On this journey they were guarded by the bat
+people, Zotz, that dwelled in the dark reaches of the Xibalban underworld. Being almost blind, they would not see and not
+covet the splendour sun. No one has seen the sun or the moon pass through Xibalba for ages, but the Zotz keep their vigil
+and their traditions alive. But lately the bat people has lost purpose and the priestly rulers of Xibalba looks to the surface
+world to once more bask in the splendour of the sun and the moon. The Zotz are led by priest kings from various cities,
+and only the priesthood represent centralized power. They still train the sacred Sun Guides once tasked with guarding the
+celestial entities through the dark world of Xibalba. The Zotz have mainly had contacts with surface dwellers of Mictlan and
+has adopted some of their technology and practices. The Zotz have an affinity for blood hunting and black magic. Despite
+being guides of the sun, their skills in solar magic is limited. The Zotz are numerous and live in great swarming cave
+colonies. Numbers rather than strength make them win their battles.
+
+Xibalba is substantially nerfed by summod.  Bats are more expensive, foreign recruit is slower, and beast bats are much worse in combat and at sieges.  Consult the changelog for more detail."
 #clearrec
 #addreccom 2691
 #addreccom 2681
@@ -3303,7 +3325,7 @@
 #end
 #newmonster 6346 --not slow recruit batab
 #copystats 2674
-#copysprite 2674
+#copyspr 2674
 #size 2
 #gcost 40
 #noslowrec
@@ -3336,6 +3358,18 @@
 ----EA: Buffed Nations------
 ----Abysia
 #selectnation 13 --abysia
+#descr "Abysia is a hot wasteland, at the center of which lies a great volcano whose lava-lit caverns are inhabited by
+magma-born humanoids. Their flesh radiates heat and they are not harmed by flames. Abysians are stronger
+than humans and use very heavy armor and weaponry. Bows are not used, because they would burn to
+cinders in the glowing hands of the Abysians. The war machine of Abysia also includes Salamanders,
+lizardlike beings composed of the same hot lava-born flesh as the Abysians. The Anointed of Rhuax and
+the Anathemant Priests of the Flame Cult practice blood sacrifice to strengthen the power of the Awakening
+God. The Warlocks of the Smouldercone, a newly formed magical order, practice Blood magic and search
+for suitable blood slaves in conquered lands. Abysians prefer to live in extremely hot places. They do not
+farm or hunt for a living, so their income and supplies are not affected by the Growth or Death scale of a
+province. However, population will still die slowly in Abysia-controlled provinces with Death scales.
+
+Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages are cheaper with more crosspaths, and you can summon magma children, and cast a new, special crossbreeding spell.  The unafflicted demonspawn are especially useful if made into commanders.  Also check out the new battefield wide fire boosting spell at conjuration 5."
 #end
 #selectspell 196 --summon scorpion man
 #effect 10021 --summons as commander instead of as unit
@@ -3510,7 +3544,8 @@
 #spr1 "./summod/foulspawn_5_1.tga"	
 #spr2 "./summod/foulspawn_5_2.tga"	
 #gcost 2
-#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	#transformation 0 	
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	
+#transformation 0 	
 #hp 15	
 #str 14	 
 #mr 10
@@ -3577,7 +3612,8 @@
 #spr1 "./summod/foulspawn_8_1.tga"
 #spr2 "./summod/foulspawn_8_2.tga"	
 #gcost 1
-#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	#transformation 0 		 
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	
+#transformation 0 		 
 #hp 12	
 #str 13	 
 #mr 10	 
@@ -3592,7 +3628,8 @@
 #spr1 "./summod/foulspawn_9_1.tga"
 #spr2 "./summod/foulspawn_9_2.tga"	
 #gcost 1
-#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	 #transformation 0 
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	
+#transformation 0 
 #hp 13	
 #str 13
 #mr 10	
@@ -3632,7 +3669,8 @@
 #copystats 487	
 #copyspr 487	
 #transformation 0 
-#descr "The horrible result of a cross-breeding experiment, the chimera has the body of a lion, the tail of a snake, the wings of a bat, and the heads of a lion and goat, through which it can breathe fire like a dragon."		#name "Chimera"	
+#descr "The horrible result of a cross-breeding experiment, the chimera has the body of a lion, the tail of a snake, the wings of a bat, and the heads of a lion and goat, through which it can breathe fire like a dragon."		
+#name "Chimera"	
 #firstshape 487	
 #montag 1303 
 #end																
@@ -4383,6 +4421,19 @@
 #end
 ---Helheim
 #selectnation 21 --helheim
+#descr "Helheim is a land of shadows, windswept moors and silent mountains. Here lies Gnipahålan, the Stone Cave,
+where the dead pass through on their way to Hel. The Hanged Kings, ancient Vanir who have hanged
+themselves to learn the secrets of Death, rule the land from their thrones in Helhalla. Helheim is inhabited by
+Vanir, a race of tall and innately magical beings who are able to trick mortals with their glamour. The Vanir
+of Helheim have sequestered themselves from the Vanir of Vanheim and have not been part of the great war
+with the giants. For ages they have been guiding the dead on their way to Hel in service of a dead god. Now
+a new God is arising and the old ways are changing. The Valkyries, guides of the dead, have become
+messengers of death and sacred warriors of the new God. Valkyries, the female Vanir of Helheim, are able
+to fly, a gift from the dead god they once served. Lesser beings are not held in high regard and their blood is
+sacrificed to sate the Awakening God. Unlike their cousins in Vanheim, the Vanir of Helheim are not
+shipwrights and sailors.
+
+Helheim is buffed by summod. Your Helkarls are now better mages, with more than half D2 mages or better.  Moreover, your Draugr are superior to that of other nations, and you have a new spell allowing them to be summoned in great numbers."
 #startcom 1505
 #startunittype1 1679
 #startunitnbrs1 15
@@ -4395,7 +4446,7 @@
 #custommagic 4096 10
 #end
 #selectspell 325 --summon valkyrie
-#nreff 10
+#pathlevel 0 2
 #end
 #selectspell 326
 #clear
@@ -4446,6 +4497,19 @@
 #descr "The Draug is a corporeal undead van.  They are incredibly strong and can change their size at will or if wounded.  Draugar stink of decay and rotting flesh and are surrounded by ice cold winds.  With this ritual, a Hangadrott can coerce a troop of the mightiest Draugar are coerced to leave their mounds and kill the enemies of the realm."
 #end
 #selectnation 28 --hinnom
+#descr "Hinnom is a dry wasteland inhabited by giants. At the dawn of time, on the sacred Mount Hermon, six Angels in full
+celestial splendor descended to aid and instruct the giants of the land. The Avvim were a people strong and
+beautiful of mind and body. They were adept students and their culture flourished under the tutelage of the Grigori,
+the angelic Watchers. But before long the Angels became enamored with the Avvim and taught them things that
+should not be taught. Tempted by the beauty of the Avvim, they took their daughters as wives and sinned before the
+Celestial Powers. Their offspring were the Nephilim, giants of godlike power, abominable to the world. The Angels
+were imprisoned in the Infernal Realms for their sins, but the Nephilim were partly of this world and could not be
+banished by the Celestial Powers. The Nephilim made themselves kings over the Avvim, and they fathered sons
+who became known as the Rephaim. The Nephilim and their sons had unnatural appetites and consumed food,
+livestock, beasts and finally their own offspring. With time, the Nephilim left Hinnom in search of a purpose and left
+their sons to rule the Avvim.
+
+Hinnom is improved by Summod.  Melqarts can be recruited in any fort, and pop-eating giants receive a costdiscount and blood hunt bonus, if they didn't have one already.  Horites throw rocks."
 #addreccom 2031 --melqart
 #end
 #selectmonster 2030 --rephaite warrior
@@ -4475,6 +4539,14 @@
 #gcost 10080
 #end
 #selectnation 25 --kailasa
+#descr "On the sacred Mount Kailasa, beings from an earlier era still linger. They are blessed with mystical powers but are
+few in number. With the emergence of the New God they have mustered aid from a most unsuspected
+source. Deep in the forests below the Sacred Mountain, apes of uncanny brightness have evolved. The
+apes are uncivilized and have only recently mastered the mysteries of metalworking.
+
+Summod buffs kailasa by making the Guhyaka General normal recruit speed, improving the sacred units, improving monkeys 
+generally, and improving your summons in cost and ability. Of note are the Rudra, which is stronger and autocasts Wrathful
+Skies, the Devala, which automatically casts Celestial Music, and the Devata, which autocasts Antimagic."
 #end
 #selectmonster 2542 --Guhyaka General
 #weapon 21
@@ -4541,7 +4613,7 @@
 #okmagicleader
 #magicskill 1 3
 #magicskill 4 3
-#onebattlespell 472
+#onebattlespell 400
 #descr "The Devata is a lesser god of the Celestial Sphere. Devatas once ruled parts of this world, but withdrew to the heavens ages ago. The Devata has a perfect body with four arms and blue skin. It is a powerful mage-priest and a formidable warrior. Devatas are sacred to the monkey people, and the enlightenment they bring can render the monkey people resistant to hostile enchantments."
 #end
 #selectspell 361 --devala
@@ -4555,6 +4627,18 @@
 #fatiguecost 1500
 #end
 #selectnation 11 --Machaka
+#descr "Machaka is an old sacral kingdom divided into totemic clans. The clans follow their totemic spirits and worship
+them as bringers of civilization and tell myths about their interactions with men. For centuries the Lion Clan
+has dominated the others and formed a unified kingdom under their wise rule. The Lion Clan is blessed by
+Lion and are superior to other men. The Great Men of Mababwe, called 'Colossi' by Arcoscephalian
+historians, have ruled the plains since Hyena was coerced to teach metalworking to men and Rhino was
+defeated by spears longer than his. From Great Mababwe, the semi-divine Colossi of the Lion Clan rule their
+lesser kin as sacred Kings and Queens. There are many totemic clans, but some have been more influential.
+Hyena, Rhino, Elephant and Spider all serve Lion with their totemic masters' skills and guidance. Recent
+contact with Berytos and other nations has seen the rise of ambition among the Colossi royalty and the
+Lion Kings are preparing for the Awakening of Lion. Machakans prefer hot lands.
+
+Machaka is improved by summod.  This generally involves cost decreases, but your light infantry are now foreing recruit, to allow for easier swarm tactics with sloth scales."
 #startunittype1 2304 -- rhino clan warriors
 #startunitnbrs1 15
 #startunittype2 2299 -- bird clan
@@ -4755,6 +4839,15 @@
 #end
 ---Rlyeh
 #selectnation 84 
+#descr "In the deepest of oceans lives the strange fishlike race called the Aboleths. These beings are highly intelligent and
+the older Aboleths called Mind Lords can enslave lesser beings with the force of will alone. Having this power
+means they have enslaved Mermen and Deep Ones to do the daily work and to fill up the ranks of their
+armies. In a deep gorge the enslaved workers have built a score of small but magnificent cities for their
+rulers. In this gorge live the greatest of the Aboleths.
+
+Summod improves Rlyeh.  The ritual of Limne allows aquatic mages to more easily go onto land. You now get better slaves available on land, and underwater, your polypal mothers can research.  This 
+researching is buttressed by Grandmothers.  Finally, your polypal spawn are now capable of wriggling onto land, though they
+won't live more than a month or two."
 #coastcom1 1523
 #coastunit1 337
 #coastunit2 1516
@@ -4823,2167 +4916,8 @@
 ---- Pelagia
 #selectnation 85 --pelagia
 #end
-#selectmonster 2809 --sideraspist
-#def 11
-#hp 11
-#mor 12
-#end
-#selectmonster 2810 --sideraspist
-#def 11
-#hp 11
-#mor 12
-#end
 #selectnation 86 --oceania -- look pretty good already
 #end
---EA Vanheim
----- MA Nations
---MA Vanheim
---------SCELERIA CHANGES
-#selectnation 35
-#end
---------Pythium
-#selectnation 36
-#end
---------Marignon
-#selectnation 40
-#startunitnbrs1 15
-#startunitnbrs2 15
-#end
-#newevent 
-#nation -2
-#nolog
-#notext
-#msg "flags"
-#rarity 5
-#req_minpop 100
-#req_dominion 1
-#req_targmnr 149
-#req_targorder 30
-#1d6units 217
-#end
-#newevent 
-#nation -2
-#nolog
-#notext
-#msg "flags"
-#rarity 5
-#req_minpop 100
-#req_dominion 1
-#req_targmnr 149
-#req_targorder 30
-#1d3units 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 250
-#req_temple 1
-#req_targmnr 149
-#req_targorder 30
-#1d3units 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 200
-#req_dominion 4
-#req_targmnr 149
-#req_targorder 30
-#1unit 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 150
-#req_dominion 7
-#req_targmnr 149
-#req_targorder 30
-#1unit 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 100
-#req_dominion 10
-#req_targmnr 149
-#req_targorder 30
-#1unit 217
-#end
-#newevent 
-#nation -2
-#nolog
-#notext
-#msg "flags"
-#rarity 5
-#req_minpop 100
-#req_dominion 1
-#req_targmnr 589
-#req_targorder 30
-#2d6units 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 250
-#req_temple 1
-#req_targmnr 589
-#req_targorder 30
-#1d3units 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 200
-#req_dominion 4
-#req_targmnr 589
-#req_targorder 30
-#1unit 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 150
-#req_dominion 7
-#req_targmnr 589
-#req_targorder 30
-#1unit 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 100
-#req_dominion 10
-#req_targmnr 589
-#req_targorder 30
-#1unit 217
-#end
-#newevent 
-#nation -2
-#nolog
-#notext
-#msg "flags"
-#rarity 5
-#req_minpop 100
-#req_dominion 1
-#req_targmnr 222
-#req_targorder 30
-#3d6units 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 250
-#req_temple 1
-#req_targmnr 222
-#req_targorder 30
-#1d3units 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 200
-#req_dominion 4
-#req_targmnr 222
-#req_targorder 30
-#1unit 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 150
-#req_dominion 7
-#req_targmnr 222
-#req_targorder 30
-#1unit 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 100
-#req_dominion 10
-#req_targmnr 222
-#req_targorder 30
-#1unit 217
-#end
-#newevent 
-#nation -2
-#nolog
-#notext
-#msg "flags"
-#rarity 5
-#req_minpop 100
-#req_dominion 1
-#req_targmnr 583
-#req_targorder 30
-#4d6units 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 250
-#req_temple 1
-#req_targmnr 583
-#req_targorder 30
-#1d3units 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 200
-#req_dominion 4
-#req_targmnr 583
-#req_targorder 30
-#1unit 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 150
-#req_dominion 7
-#req_targmnr 583
-#req_targorder 30
-#1unit 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 100
-#req_dominion 10
-#req_targmnr 583
-#req_targorder 30
-#1unit 217
-#end
---marignon pillage.  Pillage order is 30.
-#selectmonster 149 --inquisitor
-#end
-#selectmonster 222 --high inquisitor
-#noslowrec
-#custommagic 2048 50
-#end
-#selectmonster 134 --royal guard
-#gcost 10020 --10 gold discount
-#end
-#selectmonster 135 --knight of chalice
-#gcost 10020 --10 gold discount
-#end
-#selectmonster 440 --paladin
-#gcost 10020 --20 gold discount
-#end
-#selectmonster 133 --man at arms
-#gcost 13
-#end
-#selectmonster 224 --witch hunter
-#gcost 10000
-#custommagic 3456 10
-#end
-#selectmonster 223 --grandmaster
-#end
-#selectmonster 217 --flagellant
-#gcost 10007
-#end
-----Angel Changes
-#newspell
-#copyspell 162
-#end
-#selectspell 162
-#clear
-#name "Bless Self"
-#effect 10
-#damage 1
-#spec 12632064
-#school -1
-#end
-
-#selectspell 319 --Contact Harbinger
-#end
-#selectspell 320 --angelic host
-#pathlevel 0 4
-#path 1 0
-#pathlevel 1 1
-#fatiguecost 4000
-#end
-#selectspell 321 --heavenly wrath
-#fatiguecost 2500
-#end
-#selectspell 322 --heavenly choir
-#fatiguecost 8800
-#pathlevel 0 5
-#pathlevel 1 3
-#end
-#selectmonster 1369 --Angel of Wrath
-#bloodvengeance 0
-#damagerev 2
-#onebattlespell 162
-#end
-#selectmonster 1367 --Heavenly Choir
-#weapon 1423
-#end
---------Tien chi
-#selectnation 42
-#clearrec
-#startcom 792
-#startscout 813
-#startunittype1 794
-#startunittype2 797
-#startunitnbrs1 15
-#startunitnbrs2 15
-#addforeigncom 805
-#addreccom 426
-#addreccom 792 
-#addreccom 804
-#addreccom 805
-#addreccom 807
-#addreccom 813
-#addreccom 1890
-#addreccom 1891
-#addreccom 1893
-#addreccom 1894
-#addreccom 6342
-#addrecunit 788
-#addrecunit 789
-#addrecunit 790
-#addrecunit 794
-#addrecunit 795
-#addrecunit 796
-#addrecunit 797
-#addrecunit 798
-#addrecunit 800
-#addrecunit 801
-#addrecunit 802
-#addrecunit 1900
-#addrecunit 1901
-#addrecunit 1902	
-#end
-#selectspell 176 --internal alchemy
-#fatiguecost 200
-#end
-#selectspell 175 --thousand year ginseng
-#fatiguecost 200
-#end
-#selectspell 343 -- Celestial Servant
-#fatiguecost 200
-#end
-#selectspell 796
-#notfornation 42
-#end
-#newspell
-#name "Terracotta Leader"
-#school -1
-#effect 10001
-#nreff 1
-#damage -1306
-#end
-#newspell
-#name "Terracotta Army"
-#descr "The caster crafts an army of terracotta soldiers and imbues them with false life. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons."
-#school 4
-#researchlevel 4
-#path 0 0
-#pathlevel 0 1
-#path 1 3
-#pathlevel 1 1
-#restricted 42
-#effect 10001
-#nreff 3009
-#damage -1305
-#fatiguecost 1000
-#nextspell "Terracotta Leader"
-#end
-#newmonster 6407
-#name "Terracotta Infantryman"
-#descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as an infantryman."
-#spr1 "./summod/TerracottaShield1.tga"
-#spr2 "./summod/TerracottaShield2.tga"
-#gcost 0
-#hp 7
-#size 2
-#prot 10
-#mr 12
-#mor 50
-#str 10
-#att 10
-#def 10
-#prec 5
-#enc 0
-#ap 6
-#mapmove 3
-#fireres 20
-#poisonres 25
-#pooramphibian
-#slashres
-#pierceres
-#magicbeing
-#inanimate
-#neednoteat
-#noheal
-#weapon 1
-#armor 4
-#montag 1305
-#end
-#newmonster 6406
-#name "Terracotta Guardsman"
-#descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a guardsman."
-#spr1 "./summod/TerracottaGlaive1.tga"
-#spr2 "./summod/TerracottaGlaive2.tga"
-#gcost 0
-#hp 7
-#size 2
-#prot 10
-#mr 12
-#mor 50
-#str 10
-#att 10
-#def 10
-#prec 5
-#enc 0
-#ap 6
-#mapmove 3
-#fireres 20
-#poisonres 25
-#pooramphibian
-#slashres
-#pierceres
-#magicbeing
-#inanimate
-#neednoteat
-#noheal
-#weapon 308
-#montag 1305
-#end
-#newmonster 6408
-#name "Terracotta Crossbowman"
-#descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a crossbowman."
-#spr1 "./summod/TerracottaCrossbowman1.tga"
-#spr2 "./summod/TerracottaCrossbowman2.tga"
-#gcost 0
-#hp 7
-#size 2
-#prot 10
-#mr 12
-#mor 50
-#str 10
-#att 10
-#def 10
-#prec 5
-#enc 0
-#ap 6
-#mapmove 3
-#fireres 20
-#poisonres 25
-#pooramphibian
-#slashres
-#pierceres
-#magicbeing
-#inanimate
-#neednoteat
-#noheal
-#weapon 25
-#weapon 6
-#montag 1305
-#end
-#newmonster 6409
-#name "Terracotta Horseman"
-#descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a horseman, it even has a horse."
-#spr1 "./summod/TerracottaHorseman1.tga"
-#spr2 "./summod/TerracottaHorseman2.tga"
-#gcost 0
-#prot 10
-#mr 12
-#mor 50
-#str 10
-#att 10
-#def 10
-#prec 5
-#enc 0
-#mapmove 3
-#fireres 20
-#poisonres 25
-#pooramphibian
-#slashres
-#pierceres
-#magicbeing
-#inanimate
-#neednoteat
-#noheal
-#size 3
-#mounted
-#weapon 4
-#weapon 10
-#weapon 56
-#armor 2
-#hp 10
-#ap 16
-#montag 1306
-#firstshape 6411
-#end
-#newmonster 6410
-#name "Terracotta Horseman"
-#descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a horseman, it even has a horse."
-#spr1 "./summod/TerracottaHorseman1.tga"
-#spr2 "./summod/TerracottaHorseman2.tga"
-#gcost 0
-#prot 10
-#mr 12
-#mor 50
-#str 10
-#att 10
-#def 10
-#prec 5
-#enc 0
-#mapmove 3
-#fireres 20
-#poisonres 25
-#pooramphibian
-#slashres
-#pierceres
-#magicbeing
-#inanimate
-#neednoteat
-#noheal
-#size 3
-#mounted
-#weapon 4
-#weapon 10
-#weapon 56
-#armor 2
-#hp 10
-#ap 16
-#montag 1306
-#firstshape 6411
-#end
-#newmonster 6411
-#name "Terracotta Horseman"
-#descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a horseman, it even has a horse."
-#spr1 "./summod/TerracottaHorseman1.tga"
-#spr2 "./summod/TerracottaHorseman2.tga"
-#gcost 0
-#prot 10
-#mr 12
-#mor 50
-#str 10
-#att 10
-#def 10
-#prec 5
-#enc 0
-#mapmove 3
-#fireres 20
-#poisonres 25
-#pooramphibian
-#slashres
-#pierceres
-#magicbeing
-#inanimate
-#neednoteat
-#noheal
-#size 3
-#mounted
-#weapon 4
-#weapon 10
-#weapon 56
-#armor 2
-#hp 10
-#ap 16
-#montag 1306
-#end
-#newmonster 6412
-#name "Terracotta Chariot"
-#descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a chariotsman, it even has a chariot."
-#spr1 "./summod/TerracottaHorseman1.tga"
-#spr2 "./summod/TerracottaHorseman2.tga"
-#gcost 0
-#prot 10
-#mr 12
-#mor 50
-#str 10
-#att 10
-#def 10
-#prec 5
-#enc 0
-#mapmove 3
-#fireres 20
-#poisonres 25
-#pooramphibian
-#slashres
-#pierceres
-#magicbeing
-#inanimate
-#neednoteat
-#noheal
-#size 4
-#mounted
-#trample
-#weapon 10
-#armor 1
-#hp 12
-#ap 12
-#montag 1306
-#end
-
-#newmonster 6342
-#copystats 808
-#copyspr 808
-#descr "Masters of the Way are lowly priests, hermits and sages who practice the ancient Magic of the Way. Some serve as parish priests and others travel the land, gathering followers. Still others sequester themselves in caves and practice extreme asceticism and self-starvation in the attempt to attain immortality. The practice of internal alchemy has given them remarkable longevity and they can survive on a diet of a few grains of rice per day. They all have some skill in Water magic, for the characteristics of Water, softness, flexibility and life-giving, are considered high ideals in the lore of the Way of the Five Elements. The imperial beauracracy has repressed the use of non-approved magics, and Masters of the Way are not as versatile as they once were."
-#clearmagic
-#magicskill 2 1
-#magicskill 8 1
-#custommagic 3584 100
-#end
-
-#selectmonster 803 -- celestial master
-#mapmove 2
-#end
-
-#selectmonster 793 --prince general
-#gcost 10000
-#magicskill 8 1
-#springpower 25
-#end
-
-#selectmonster 791 --Red guard
-#gcost 10023
-#springpower 25
-#end
-
-#selecctmonster 789 -heavy horsemen
-#gcost 10012
-#end
-
-#selectmonster 790 --imperial horsemen
-#gcost 10015
-#end
-
-#selectmonster 805 -eunuch
-#gcost 10040
-#makemonsters1 -1304
-#end
-
-#newmonster 6333
-#name "Conscript Footman"
-#copystats 794
-#copyspr 794
-#montag 1304
-#mapmove 1
-#gcost 10007
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
-#spr1 "./summod/conpike_1.tga"
-#spr2 "./summod/conpike_2.tga"
-#mor 8
-#att 8
-#def 8
-#prec 8
-#xpshape 24
-#end
-#newmonster 6334
-#name "Experienced Conscript Footman"
-#copystats 794 #copyspr 794
-#spr1 "./summod/conpike_1.tga"
-#spr2 "./summod/conpike_2.tga"
-#mor 8
-#att 8
-#def 8
-#prec 8
-#gcost 10007
-#firstshape -1310
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
-#end
-#newmonster 6335
-#name "Conscript Footman"
-#copystats 795 #copyspr 795
-#montag 1304
-#gcost 10007
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
-#mapmove 1
-#spr1 "./summod/conglaive_1.tga"
-#spr2 "./summod/conglaive_2.tga"
-#mor 8
-#att 8
-#def 8
-#xpshape 24
-#prec 8
-#end
-#newmonster 6336
-#name "Experienced Conscript Footman"
-#copystats 795 #copyspr 795
-#spr1 "./summod/conglaive_1.tga"
-#spr2 "./summod/conglaive_2.tga"
-#mor 8
-#att 8
-#def 8
-#prec 8
-#gcost 10007
-#firstshape -1311
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
-#end
-#newmonster 6337
-#name "Conscript Footman"
-#copystats 796 #copyspr 796
-#montag 1304
-#gcost 10007
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
-#mapmove 1
-#spr1 "./summod/conshield_1.tga"
-#spr2 "./summod/conshield_2.tga"
-#mor 8
-#att 8
-#def 8
-#prec 8
-#xpshape 24
-#end
-#newmonster 6338
-#name "Experienced Conscript Footman"
-#copystats 796 #copyspr 796
-#spr1 "./summod/conshield_1.tga"
-#spr2 "./summod/conshield_2.tga"
-#mor 8
-#att 8
-#def 8
-#prec 8
-#gcost 10007
-#firstshape -1312
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
-#end
-#newmonster 6339
-#name "Conscript Archer"
-#copystats 797 #copyspr 797
-#montag 1304
-#gcost 10007
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
-#spr1 "./summod/conarcher_1.tga"
-#spr2 "./summod/conarcher_2.tga"
-#mor 8
-#att 7
-#def 7
-#prec 8
-#xpshape 24
-#end
-#newmonster 6340
-#name "Experienced Conscript Archer"
-#copystats 797 #copyspr 797
-#spr1 "./summod/conarcher_1.tga"
-#spr2 "./summod/conarcher_2.tga"
-#mor 8
-#att 8
-#def 8
-#prec 8
-#gcost 10007
-#firstshape -1313
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
-#end
-#newmonster 6341
-#name "Conscript Archer"
-#copystats 797
-#montag 1304
-#gcost 10007
-#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
-#mapmove 1
-#spr1 "./summod/conarcher_1.tga"
-#spr2 "./summod/conarcher_2.tga"
-#mor 8
-#att 7
-#def 7
-#prec 8
-#firstshape 6339
-#end
-#newmonster 6491
-#copystats 794
-#copyspr 794
-#singlebattle
-#landdamage 100
-#uwdamage 100
-#montag 1310
-#end
-#newmonster 6492
-#copystats 795
-#copyspr 795
-#singlebattle
-#landdamage 100
-#uwdamage 100
-#montag 1311
-#end
-#newmonster 6493
-#copystats 796
-#copyspr 796
-#singlebattle
-#landdamage 100
-#uwdamage 100
-#montag 1312
-#end
-#newmonster 6494
-#copystats 797
-#copyspr 797
-#singlebattle
-#landdamage 100
-#uwdamage 100
-#montag 1313
-#end
-#selectmonster 794
-#montag 1310
-#end
-#selectmonster 795
-#montag 1311
-#end
-#selectmonster 796
-#montag 1312
-#end
-#selectmonster 797
-#montag 1313
-#end
-
-
---------Machaka
-#selectnation 43
-#startunitnbrs1 20
-#startunitnbrs2 20
-#forestcom 892
-#forestrec 2126
-#addforeigncom 881
-#addforeigncom 895
-#addforeigncom 896
-#addforeigncom 897
-#addforeignunit 1599
-#addforeignunit 879
-#addforeignunit 880
-#end
-#selectmonster 895 --eye of the lord
-#slowrec
-#end
-#selectmonster 896 --ear of the lord
-#gcost 10000
-#end
-#selectmonster 897 --Voice of the lord
-#slowrec
-#end
-#selectmonster 877 --Banespider
-#str 12
-#gcost 10030
-#att 14
-#def 14
-#end
-#selectmonster 876 --spider warrior
-#clearweapons
-#weapon 10 --falchion
-#weapon 126 --poison dagger
-#def 12
-#gcost 10020
-#end
-#selectmonster 879 --machaka archer
-#gcost 10009
-#end
-#selectmonster 880 --machaka warrior javelin
-#gcost 10009
-#end
-#selectmonster 1599 --machaka warrior spearshield (gave fur)
-#gcost 10009
-#armor 44
-#end
-#selectmonster 893  --sorceror
-#clearmagic
-#custommagic 5248 100
-#custommagic 8192 25
-#magicskill 0 1
-#magicskill 5 1
-#magicskill 6 2
-#custommagic 13440 10
-#end
-#selectmonster 891  --sorceress
-#gcost 10015
-#clearmagic
-#magicskill 0 1
-#magicskill 3 1
-#magicskill 5 1
-#custommagic 13440 40
-#end
-#selectmonster 892 --witchdoctor
-#clearmagic
-#magicskill 6 1
-#custommagic 12416 100
-#custommagic 5248 100
-#researchbonus -6
-#gcost 10000
-#end
-#selectmonster 882 --hoplite
-#gcost 10013
-#end
-#selectmonster 885 --spider rider
-#gcost 10015
-#size 4
-#clearweapons
-#weapon 313
-#weapon 357
-#weapon 262
-#end
-#selectmonster 886 --spider knight
-#size 4
-#gcost 10025
-#clearweapons
-#weapon 313
-#weapon 596
-#weapon 1
-#weapon 262
-#end
-#selectmonster 887  --spider lord
-#size 4
-#gcost 10025
-#clearweapons
-#weapon 313
-#weapon 596
-#weapon 1
-#weapon 262
-#end
-#selectmonster 898 --sorceress shape
-#size 4
-#str 16
-#end
-
-#selectmonster 899 --hunter form of black sorc
-#str 18
-#weapon 1414
-#end
-#selectmonster 889 --Black Hunter
-#weapon 1414
-#end
-#selectmonster 2208
-#str 18
-#weapon 1414
-#end
-#selectmonster 888
-#str 18
-#gcost 70
-#mr 10
-#weapon 1414
-#end
-#selectmonster 890
-#weapon 1414
-#end
---------Caelum
-#selectnation 46
-#end
-#selectsite 11
-#homecom 6332
-#end
-#selectmonster 128 --spire horn warrior
-#clearweapons --shortbow, ice knife
-#weapon 35 --ice knife
-#weapon 264 --composite bow
-#end
-#selectweapon 606 --frost bow
-#dmg 11
-#end
-#newmonster 6332
-#copystats 1283
-#spr1 "./summod/iceenchanter_1.tga"
-#spr2 "./summod/iceenchanter_2.tga"
-#name "Ice Enchanter"
-#descr "Ice Enchanters are the elite of the Ice Crafters, who are Caelian craftsmen and mages of frozen water.  They make the magical ice used in Caelum, and build palaces, weapons, armor, and common tools from it.  The most talented become Enchanters, who forge other magical items and even use the lore of other clans. Ice Enchanters use fewer magical gems when forging magical items."
-#gcost 10030
-#clearmagic
-#magicskill 2 2
-#custommagic 6272 100
-#custommagic 2816 100
-#iceforging 7
-#end
--------Bandar Log
-#selectnation 53
-#end
-#selectmonster 1332 --apsara
-#weapon 1423
-#end
-#selectspell 350 --nagas
-#fatiguecost 1500
-#end
-#selectspell 356 --nagaraja
-#fatiguecost 2500
-#end
-#selectmonster 1123--Vanara Archer -1 gold
-#gcost 10009
-#end
-#selectmonster 1124--Vanara Chakram Thrower -1 gold
-#gcost 10009
-#end
-#selectmonster 1125--Vanara Infantry -1 gold
-#gcost 10009
-#end
-#selectmonster 1126 --Vanara Swordsmen -1 gold
-#gcost 10012
-#end
-#selectmonster 1131 --Bandar Archer -1 gold
-#gcost 10017
-#end
-#selectmonster 1132--Bandar Warrior -1 gold
-#gcost 10017
-#att 12
-#end
-#selectmonster 1133--Bandar Warrior -1 gold
-#gcost 10017
-#att 12
-#end
-#selectmonster 1134--Royal Swordsman -1 gold
-#gcost 10022
-#att 13
-#end
-#selectmonster 1142 --whiteone
-#gcost 10016
-#end
--------Shinyu
-#selectnation 54
-#uwcom1 1530
-#startunittype1 1390
-#startunittype2 1391
-#startunitnbrs2 15
-#startunitnbrs1 15
-#end
-#newmonster 6352--summonchecker
-#copystats 1396
-#spr1 "./summod/ritualhelp1.tga"
-#spr2 "./summod/ritualhelp2.tga"
-#name "Ritual Assistant"
-#descr "This bakemono has been chosen for his loyalty, desperation, and unimportance.  He will travel with a Bakemono Sorceror to a hidden place on a mountain, where he will aid the Sorceror in the heart-hiding ritual, after which he has been promised his reward."
-#clearweapons
-#weapon 1
-#size 3
-#cleararmor
-#armor 44
-#stealthy 0
-#gcost 10
-#end
-#selectmonster 1530
-#gcost 45
-#end
-#selectmonster 1396
-#att 12
-#gcost 10025
-#end
-#selectmonster 1397
-#gcost 10025
-#end
-#selectmonster 1390 #hp 10 #slave #end
-#selectmonster 1391 #hp 10 #slave #end
-#selectmonster 1392 #slave #end
-#selectmonster 1393 #slave #end
-#selectmonster 1394 #slave #end
-#selectmonster 1395 #slave #end
-#selectmonster 1549 #taskmaster 2 #end
-#selectmonster 1398 #inspirational 1 #end
-#selectmonster 1608 --bakemono shaman
-#custommagic 128 20
-#custommagic 1024 20
-#custommagic 4096 20
-#gcost 10010
-#end
-#selectspell 191 --gozu mezu
-#fatiguecost 500
-#end
-#selectspell 375 --ko oni
-#nreff 2005
-#end
-#selectspell 377 --ao oni
-#fatiguecost 400
-#end
-#selectspell 378 --karusu tengu
-#fatiguecost 1000
-#pathlevel 0 3
-#researchlevel 5
-#nreff 1009
-#end
-#selectspell 379 -aka oni
-#fatiguecost 400
-#end
-#selectspell 380 --konoha tengu
-#researchlevel 2
-#end
-#selectspell 381 --ghost general
-#end
-#selectspell 382 --summon oni
-#fatiguecost 700
-#end
-#selectspell 385 --kurooni
-#fatiguecost 600
-#nreff 1002
-#end
-#selectspell 383 --dai tengu
-#fatiguecost 4000
-#end
-#selectspell 384 --nushi
-#fatiguecost 2000
-#end
-#selectspell 386 --oni general
-#fatiguecost 1400
-#researchlevel 5
-#end
-#selectspell 387--kitsune
-#fatiguecost 2300
-#end
-#selectspell 388 -dai oni
-#researchlevel 7
-#fatiguecost 3500
-#end
-#newspell
-#name "Hide Heart"
-#descr "With this ritual, a Bakemono Sorceror will attempt to hide his heart in an isolated mountain, granting him a form of immortality tied to that mountain. This ritual requires an unfortified mountain with a small temple to properly function, and will not work if cast without a Sorceror present."
-#restricted 54
-#school 4
-#researchlevel 5 --change
-#path 0 5
-#pathlevel 0 2
-#path 1 0
-#pathlevel 1 2
-#fatiguecost 1600 --change
-#effect 10001
-#damage 6352
-#end
-#newsite 1801
-#name "Hiding Place"
-#rarity 5
-#level 4
-#path 8
-#end
-
-#newmonster 6353
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6380  
-#name "Bakemono Kizoku" 
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33
-#prot 7 
-#mr 17 
-#mor 16
-#str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6380  	#req_nomnr 6353	#stealthcom 6353	#killmon 6352	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6353 	#req_monster 6380	#killcom 6380 	#nolog #end  
-#newmonster 6354	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6381	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6381	#req_nomnr 6354	#stealthcom 6354	#killmon 6353	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6354	#req_monster 6381	#killcom 6381	#nolog #end  
-#newmonster 6355	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6382	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6382	#req_nomnr 6355	#stealthcom 6355	#killmon 6354	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6355	#req_monster 6382	#killcom 6382	#nolog #end  
-#newmonster 6356	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6383	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6383	#req_nomnr 6356	#stealthcom 6356	#killmon 6355	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6356	#req_monster 6383	#killcom 6383	#nolog #end  
-#newmonster 6357	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6384	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6384	#req_nomnr 6357	#stealthcom 6357	#killmon 6356	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6357	#req_monster 6384	#killcom 6384	#nolog #end  
-#newmonster 6358	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6385	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6385	#req_nomnr 6358	#stealthcom 6358	#killmon 6357	#nolog 
-#end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6358	#req_monster 6385	#killcom 6385	#nolog #end  
-#newmonster 6359	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6386	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6386	#req_nomnr 6359	#stealthcom 6359	#killmon 6358	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6359	#req_monster 6386	#killcom 6386	#nolog #end  
-#newmonster 6360	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6387	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6387	#req_nomnr 6360	#stealthcom 6360	#killmon 6359	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6360	#req_monster 6387	#killcom 6387	#nolog #end  
-#newmonster 6361	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6388	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6388	#req_nomnr 6361	#stealthcom 6361	#killmon 6360	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6361	#req_monster 6388	#killcom 6388	#nolog #end  
-#newmonster 6362	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6389	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6389	#req_nomnr 6362	#stealthcom 6362	#killmon 6361	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6362	#req_monster 6389	#killcom 6389	#nolog #end  
-#newmonster 6363	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6390	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6390	#req_nomnr 6363	#stealthcom 6363	#killmon 6362	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6363	#req_monster 6390	#killcom 6390	#nolog #end  
-#newmonster 6364	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6391	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6391	#req_nomnr 6364	#stealthcom 6364	#killmon 6363	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6364	#req_monster 6391	#killcom 6391	#nolog #end  
-#newmonster 6365	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6392	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6392	#req_nomnr 6365	#stealthcom 6365	#killmon 6364	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6365	#req_monster 6392	#killcom 6392	#nolog #end  
-#newmonster 6366	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6393	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6393	#req_nomnr 6366	#stealthcom 6366	#killmon 6365	#nolog 
-#end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6366	#req_monster 6393	#killcom 6393	#nolog 
-#end  
-#newmonster 6367	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6394	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6394	#req_nomnr 6367	#stealthcom 6367	#killmon 6366	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6367	#req_monster 6394	#killcom 6394	#nolog #end  
-#newmonster 6368	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6395	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6395	#req_nomnr 6368	#stealthcom 6368	#killmon 6367	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6368	#req_monster 6395	#killcom 6395	#nolog #end  
-#newmonster 6369	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6396	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6396	#req_nomnr 6369	#stealthcom 6369	#killmon 6368	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6369	#req_monster 6396	#killcom 6396	#nolog #end  
-#newmonster 6370	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6397	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6397	#req_nomnr 6370	#stealthcom 6370	#killmon 6369	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6370	#req_monster 6397	#killcom 6397	#nolog #end  
-#newmonster 6371	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6398	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6398	#req_nomnr 6371	#stealthcom 6371	#killmon 6370	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6371	#req_monster 6398	#killcom 6398	#nolog #end  
-#newmonster 6372	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6399	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6399	#req_nomnr 6372	#stealthcom 6372	#killmon 6371	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6372	#req_monster 6399	#killcom 6399	#nolog #end  
-#newmonster 6373	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6400	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6400	#req_nomnr 6373	#stealthcom 6373	#killmon 6372	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6373	#req_monster 6400	#killcom 6400	#nolog #end  
-#newmonster 6374	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6401	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6401	#req_nomnr 6374	#stealthcom 6374	#killmon 6373	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6374	#req_monster 6401	#killcom 6401	#nolog #end  
-#newmonster 6375	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6402	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6402	#req_nomnr 6375	#stealthcom 6375	#killmon 6374	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6375	#req_monster 6402	#killcom 6402	#nolog #end  
-#newmonster 6376	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6403	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6403	#req_nomnr 6376	#stealthcom 6376	#killmon 6375	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6376	#req_monster 6403	#killcom 6403	#nolog #end  
-#newmonster 6377	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6404	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6404	#req_nomnr 6377	#stealthcom 6377	#killmon 6376	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6377	#req_monster 6404	#killcom 6404	#nolog #end  
-#newmonster 6378	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6405	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6405	#req_nomnr 6378	#stealthcom 6378	#killmon 6377	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6378	#req_monster 6405	#killcom 6405	#nolog #end  
-#newmonster 6379	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
-#end 	
-#newmonster 6406	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
-#end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6406	#req_nomnr 6379	#stealthcom 6379	#killmon 6378	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6379	#req_monster 6406	#killcom 6406	#nolog #end  	
-#newevent #nation -2 #rarity 5 #req_pop0ok  #req_site 1 #msg "Site removed [Hiding Place]." #notext #removesite 1801 #nolog #end
-
-------MA Man
-#selectnation 37
-#addreccom 6470
-#startcom 6470
-#startunittype1 61
-#startunittype2 59
-#startunitnbrs1 10 
-#startunitnbrs2 10
-#startscout 56
-#end
-#selectmonster 57 --Knight
-#gcost 10020
-#end
-#newmonster 6456 --avalon clone
-#copystats 64
-#copyspr 64
-#size 3
-#xpshape 150
-#gcost 10035
-#end
-#selectmonster 64 --Avalon knight
-#gcost 10035
-#firstshape  6456
-#end
-#newmonster 6472 --(Knight Commander of Avvalon)--
-#copystats 2128
-#copyspr 2128
-#size 3
-#xpshape 30
-#gcost 10040
-#end
-#newmonster 6473 --(Knight Commander of Avvalon)--
-#copystats 2128
-#copyspr 2128
-#size 3
-#descr "The Knights of Avalon ride the legendary Unicorns of Avalon, mounts of unsurpassed speed trained by the Witch Mothers. Clad in the brightest silver and enchanted by the Witches, the Knights of Avalon radiate confidence and resolve. The mystical power of their mounts protects them from long-lasting battle wounds. Due to exceptional feats this knight may be accepted into the Earth if there is a vacancy."
-#end
-#selectmonster 2128 --Knight Commander
-#gcost 10040
-#firstshape 6472
-#end
-#selectmonster 2129 --Logrian cav
-#gcost 10005
-#end
-#selectmonster 65  --warden
-#mapmove 2
-#end
-#selectmonster 212 --lord warden
-#mapmove 2
-#magicskill 8 1
-#end
-#selectmonster 53 --logrian warrior
-#gcost 10011
-#end
-#selectmonster 62 ---longspear
-#cleararmor
-#armor 13
-#armor 20
-#armor 2
-#end
-#selectmonster 153 --crone
-#gcost 9980
-#clearmagic
-#magicskill 1 2
-#magicskill 6 3
-#magicskill 8 1
-#custommagic 8448 100
-#custommagic 1536 100
-#custommagic 9984 10
-#userestricteditem 1102
-#end
-#selectmonster 152 --mother of avalon
-#descr "As a Daughter of Avalon gains knowledge and responsibility, she is given three tests. When she passes them, she becomes a Mother and is given a green dress and religious authority. The Mothers are potent priest-enchantresses who travel the lands of Man searching for sites of magical power, guiding the common people in prayer and aiding commanders in battle. They are skilled at stealth and are able commanders in their own right. They are often accompanied by Wardens sworn to protect them. The Mothers, like all Witches of Avalon, are considered sacred by the populace of Man. The Mothers of Avalon are skilled in the magic of Air and Nature and many learn other arts on their travels. They can also use spellsongs once sung by the Sidhe of Tir na n'Og."
-#clearmagic
-#magicskill 6 2
-#magicskill 1 1
-#magicskill 8 1
-#custommagic 1792 100
-#custommagic 8192 25
-#gcost 9970
-#userestricteditem 1102
-#end
-#newsite 1813-- Telkhinis
-#name "Forest Glade"
-#path 6
-#rarity 5
-#level 0
-#mon 6456
-#com 2128
-#end
-#newevent 
-#msg "Glade. [Forest Glade]."  
-#req_owncapital 0 
-#rarity 5 
-#req_forest 1
-#req_fort 1 
-#nation -2 
-#req_fornation 37 
-#notext 
-#nolog 
-#req_magic 2 
-#req_freesites 1 
-#req_nositenbr 1813 
-#addsite 1813
-#end
-#newevent  #msg "Nofort. [Forest Glade]." 
-#rarity 5  #req_fort 0 #nation -2 #notext #nolog  #req_site 1 #req_unmagic 1
-#removesite 1813 
-#end
-#newevent  #msg "Nomagic. [Forest Glade]." 
-#rarity 5  #req_unmagic 1 #nation -2 #notext #nolog  #req_site 1
-#removesite 1813 
-#end
-#newevent #msg "Enemy. [Forest Glade]." 
-#rarity 5 #req_notnation 37 #nation -2 #notext #nolog  #req_site 1 #removesite 1813 
-#end
-#newmonster 6470 --(Knight Commander)
-#copystats 57
-#spr1 "./summod/knightcom_1.tga"
-#spr2 "./summod/knightcom_2.tga"
-#name "Knight Commander of Man"
-#descr "The Knights of Man are nobles trained to battle from childhood.  They are skilled in swordplay, music, and horsemanship. In the time of Logris, the rival petty kings gathered groups of influential and skilled warriors to their cause.  Now the descendants of these first Logrian nobles have become the ruling class of Man.  Many of them are Logrian fullbloods and stronger than most men."
-#goodleader
-#command -20
-#hp 13
-#att 13
-#size 3
-#xpshape 75
-#end
-#newmonster 6471
-#copystats 6470
-#copyspr 6470
-#firstshape 6473
-#end
-#newevent --1--
-#rarity 5
-#req_fornation 37
-#req_targmnr 6473
-#nation -2
-#nolog
-#msg "This knight has committed enough valorous deeds to be admitted to the Knights of Earth, a storied company of mighty men!" 
-#transform 6457
-#end
-#newevent --4--
-#rarity 5
-#req_fornation 37
-#req_targmnr 6457
-#req_nomnr 6458
-#nation -2
-#nolog
-#msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
-#transform 6458
-#end
-#newevent
-#rarity -1
-#nation -2
-#req_fornation 37
-#req_targmnr 6459
-#msg "This questing knight has found some treasure!"
-#gold 10
-#req_fort 0
-#addequip 1
-#req_unique 2
-#end
-#newevent --5--
-#rarity 5
-#req_fornation 37
-#req_targmnr 6457
-#req_nomnr 6459
-#nation -2
-#nolog
-#msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
-#transform 6459
-#end
-#newevent --6--
-#rarity 5
-#req_fornation 37
-#req_targmnr 6457
-#req_nomnr 6460
-#nation -2
-#nolog
-#msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
-#transform 6460
-#end
-#newevent --7--
-#rarity 5
-#req_fornation 37
-#req_targmnr 6457
-#req_nomnr 6461
-#nation -2
-#nolog
-#msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
-#transform 6461
-#end
-#newevent --8--
-#rarity 5
-#req_fornation 37
-#req_targmnr 6457
-#req_nomnr 6462
-#nation -2
-#nolog
-#msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
-#transform 6462
-#end 
-#newevent --9--
-#rarity 5
-#req_fornation 37
-#req_targmnr 6457
-#req_nomnr 6463
-#nation -2
-#nolog
-#msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
-#transform 6463
-#end
-#newevent --10--
-#rarity 5
-#req_fornation 37
-#req_targmnr 6457
-#req_nomnr 6464
-#nation -2
-#nolog
-#msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
-#transform 6464
-#end
-#newevent --11--
-#rarity 5
-#req_fornation 37
-#req_targmnr 6457
-#req_nomnr 6465
-#nation -2
-#nolog
-#msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
-#transform 6465
-#end 
-#newevent --12--
-#rarity 5
-#req_fornation 37
-#req_targmnr 6457
-#req_nomnr 6466
-#nation -2
-#nolog
-#msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
-#transform 6466
-#end
-#newevent --13--
-#rarity 5
-#req_fornation 37
-#req_targmnr 6457
-#req_nomnr 6467
-#nation -2
-#nolog
-#msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
-#transform 6467
-#end
-#newevent --14--
-#rarity 5
-#req_fornation 37
-#req_targmnr 6457
-#req_nomnr 6468
-#nation -2
-#nolog
-#msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
-#transform 6468
-#end
-#newevent --3--
-#rarity 5
-#req_fornation 37
-#req_targmnr 6457
-#req_nomnr 6469
-#nation -2
-#nolog
-#msg "This knight has become a ranking member of the Knights of Earth!" #req_rare 30 #addequip 1
-#transform 6469
-#end
-#newmonster 6457
-#name "Knight of the Earth"
-#descr "A Knight of the Earth, gallant and bold, entrusted with special duties and honours.  Knights of the Earth who are commanders are eligible for a special seat if one is open."
-#spr1 "./summod/roundgeneric_1.tga"
-#spr1 "./summod/roundgeneric_2.tga"
-#hp 20
-#size 3
-#gcost 70
-#mr 14
-#mor 18
-#att 14
-#def 14
-#enc 4
-#mapmove 3
-#goodleader
-#ap 30
-#weapon 4
-#weapon 8
-#weapon 330
-#weapon 56
-#armor 18
-#armor 21
-#armor 3
-#maxage 80
-#mounted
-#heal
-#forestsurvival
-#inspirational 1
-#standard 1
-#itemslots 31878
-#end
-#newmonster 6469 --1 Lancelot--
-#copystats 6457
-#name "Knight of the Lake"
-#spr1 "./summod/roundlance_1.tga"
-#spr2 "./summod/roundlance_2.tga"
-#str 14
-#att 16
-#def 16
-#mor 20
-#size 3
-#descr "A Knight of the Earth, gallant and bold, the Knight of the Lake is known for exceptional prowess in combat."
-#end
-#newmonster 6458 --2 Percival--
-#copystats 6457
-#name "Knight of the Chalice"
-#spr1 "./summod/roundperc_1.tga"
-#spr2 "./summod/roundperc_2.tga"
-#autohealer 1
-#size 3
-#descr "A Knight of the Earth, gallant and bold, the Knight of the Chalice is trusted with healing the wounded."
-#end
-#newmonster 6459 --3 Degore--
-#copystats 6457
-#name "Knight of the Cup"
-#spr1 "./summod/rounddegore_1.tga"
-#spr2 "./summod/rounddegore_2.tga"
-#supplybonus 2
-#size 3
-#descr "A Knight of the Earth, gallant and bold, the Knight of the Cup is entrusted with ensuring the troops are well-provisioned."
-#end
-#newmonster 6460 --4 Bedivere--
-#copystats 6457
-#name "Mighty Knight"
-#spr1 "./summod/roundbediv_1.tga"
-#spr2 "./summod/roundbediv_2.tga"
-#str 17
-#hp 22
-#size 3
-#descr "A Knight of the Earth, gallant and bold, the Mighty Knight is among the strongest of his company"
-#end
-#newmonster 6461 --5 Kay--
-#copystats 6457
-#name "Knight of Recruits"
-#spr1 "./summod/roundkay_1.tga"
-#spr2 "./summod/roundkay_2.tga"
-#batstartsum1 57
-#descr "A Knight of the Earth, gallant and bold, the Knight of Recruits mentors inexperienced knights."
-#size 3
-#end
-#newmonster 6462 --6 Galahad--
-#copystats 6457
-#name "Pious Knight"
-#spr1 "./summod/roundgala_1.tga"
-#spr2 "./summod/roundgala_2.tga"
-#size 3
-#holy
-#magicskill 8 1
-#descr "A Knight of the Earth, gallant and bold, entrusted with special duties and honours, the Pious Knight is among the holiest of his company."
-#end
-#newmonster 6463 --7 Bors--
-#copystats 6457
-#name "Fearless Knight"
-#spr1 "./summod/roundbors_1.tga"
-#spr2 "./summod/roundbors_2.tga"
-#size 3
-#mor 30
-#descr "A Knight of the Earth, gallant and bold, the Fearless Knight is the bravest of his comrades."
-#end
-#newmonster 6464 --8 Gawain--
-#copystats 6457
-#name "Maidens Knight"
-#spr1 "./summod/roundgawa_1.tga"
-#spr2 "./summod/roundgawa_2.tga"
-#magicskill 6 1
-#size 3
-#descr "A Knight of the Earth, gallant and bold, the Maiden Knight is known for his knowledge of herbs."
-#userestricteditem 1102
-#end
-#newmonster 6465 --9 Tristan--
-#copystats 6457
-#name "Courtly Knight"
-#spr1 "./summod/roundtrist_1.tga"
-#spr2 "./summod/roundtrist_2.tga"
-#size 3
-#seduce 10
-#descr "A Knight of the Earth, gallant and bold, entrusted with special duties and honours, the Courtly Knights manners are beyond reproach."
-#end
-#newmonster 6466 --10 Brunor--
-#copystats 6457
-#name "Untiring Knight"
-#spr1 "./summod/roundbrun_1.tga"
-#spr2 "./summod/roundbrun_2.tga"
-#descr "A Knight of the Earth, gallant and bold, entrusted with special duties and honours, the Untiring Knight is not easily exhuasted in battle."
-#enc 2
-#size 3
-#end
-#newmonster 6467 --11 Hector--
-#copystats 6457
-#name "Passionate Knight"
-#spr1 "./summod/roundhect_1.tga"
-#spr2 "./summod/roundhect_2.tga"
-#descr "A Knight of the Earth, gallant and bold, the Passionate Knight follows his heart into battle."
-#berserk 4
-#size 3
-#end
-#newmonster 6468 --12 Robin--
-#copystats 6457
-#name "Brave Knight"
-#spr1 "./summod/roundrobin_1.tga"
-#spr2 "./summod/roundrobin_2.tga"
-#mor 8
-#size 3
-#batstartsum1d6 658
-#ap 35
-#descr "A Knight of the Earth, gallant and bold, entrusted with special duties and honours, the Brave Knight is renowned for his speed when combat is near."
-#end
-#newspell
-#copyspell 908
-#restricted 37
-#name "Bewitchment"
-#school 4
-#path 0 6
-#pathlevel 0 1
-#path 1 1
-#pathlevel 1 1
-#aoe 1000
-#range 25
-#fatiguecost 20
-#descr "With this spell, a Witch of Avalon can throw a group of enemy soldiers into confusion, causing them to treat friends as enemies and enemies as friends."
-#end
-#selectmonster 2439--logrian druid
-#end
-#selectmonster 60
-#fixedresearch 4
-#end
-#newmonster 6343
-#copystats 152
-#spr1 "./summod/bonded_1.tga"
-#spr2 "./summod/bonded_2.tga"
-#name "Bonded Mother of Avalon"
-#descr "As a Daughter of Avalon gains knowledge and responsibility, she is given three tests. When she passes them, she becomes a Mother and is given a green dress and religious authority. The Mothers are potent priest-enchantresses who travel the lands of Man searching for sites of magical power, guiding the common people in prayer and aiding commanders in battle. They are skilled at stealth and are able commanders in their own right. They are often accompanied by Wardens sworn to protect them. The Mothers, like all Witches of Avalon, are considered sacred by the populace of Man. The Mothers of Avalon are skilled in the magic of Air and Nature and many learn other arts on their travels. They can also use spellsongs once sung by the Sidhe of Tir na n'Og.  Mothers of Avalon can bond a warden to act as a permanant bodyguard, which may have benefits to their magical abilities as they travel.  This Mother of Avalon has bonded a Warden, who will fight alongside her in every battle, so long as she lives."
-#batstartsum1 65
-#userestricteditem 1102
-#end
-#newevent
-#rarity 5
-#nation -2
-#req_rare 7
-#nolog
-#msg "This Mother of Avalon has bonded a Warden to her service! He will never leave her side."
-#req_monster 65
-#req_targmnr 152
-#transform 6343
-#killmon 65
-#end
-#newspell
-#copyspell 611
-#name "Hex of Minerva"
-#descr "A Witch of Avalon can hex a small number of enemies, transfiguring them into animals."
-#aoe 1003
-#fatiguecost 100
-#researchlevel 7
-#pathlevel 0 2
-#range 5010
-#damage 1560
-#restricted 37
-#end
-#newspell
-#copyspell 598 --transformation
-#name "Transformation"
-#fatiguecost 500
-#researchlevel 6
-#restricted 37
-#end
-#selectspell 598 --transformation
-#fatiguecost 800
-#notfornation 37
-#end
-#newspell
-#copyspell 887
-#name "Slumber"
-#aoe 666
-#school 2
-#researchlevel 0-- 8
-#pathlevel 0 4
-#fatiguecost 100
-#damage 5010
-#restricted 37
-#descr "With this spell, a powerful witch makes all living units unnaturally tired."
-#end
-#newspell
-#copyspell 152
-#name "Base of Courage"
-#school -1
-#range 2
-#spec 140738030141568
-#end
-#newspell
-#copyspell 759
-#name "Blade of Morgan"
-#fatiguecost 20
-#aoe 1
-#school -1
-#end
-#newspell
-#copyspell 574
-#name "Defense of Morgan"
-#fatiguecost 20
-#aoe 1
-#school -1
-#nextspell "Blade of Morgan"
-#end
-#newspell
-#copyspell "Base of Courage"
-#name "Incantantion of Morgan"
-#researchlevel 6
-#school 1
-#path 0 2
-#path 1 6
-#pathlevel 0 1
-#pathlevel 1 2
-#fatiguecost 40
-#restricted 37
-#aoe 5
-#descr "The first and greatest of the Witches of Avalon crafted spells to aid their strongest champions.  Morgan ensorcelled her champions with the qualities of water, making them resistant to enemy weapons while allowing their blades to flow past enemy armor."
-#nextspell "Defense of Morgan"
-#end
----
-#newspell
-#copyspell 867
-#name "Cloak of Niniane"
-#fatiguecost 30
-#aoe 1
-#school -1
-#nextspell "Mossbody"
-#end
-#newspell
-#copyspell "Base of Courage"
-#name "Aegis of Niniane"
-#researchlevel 5
-#school 4
-#path 0 6
-#path 1 8
-#pathlevel 0 3
-#pathlevel 1 1
-#fatiguecost 40
-#restricted 37
-#aoe 5
-#descr "The first and greatest of the Witches of Avalon crafted spells to aid their strongest champions.  Niniane called on the power of Avalon to shield her champions from the frost, fire, and lightning, though it would also keep them from harm for a time."
-#nextspell "Cloak of Niniane"
-#end
----------------------------------------
-#newspell
-#copyspell 753
-#name "Armor of Isolde"
-#fatiguecost 30
-#aoe 1
-#school -1
-#nextspell "Earth Might"
-#end
-#newspell
-#copyspell "Base of Courage"
-#name "Fortification of Isolde"
-#researchlevel 3
-#school 4
-#path 0 3
-#path 1 6
-#pathlevel 0 1
-#pathlevel 1 2
-#fatiguecost 40
-#restricted 37
-#aoe 5
-#descr "The first and greatest of the Witches of Avalon crafted spells to aid their strongest champions.  Isolde chose to strengthen the arms and armor of her champions."
-#nextspell "Armor of Isolde"
-#end
--------
-#newspell
-#copyspell 525
-#name "Block of Ygraine"
-#aoe 1
-#school -1
-#end
-#newspell
-#copyspell 536
-#name "Defense of Ygraine"
-#fatiguecost 20
-#aoe 1
-#school -1
-#nextspell "Block of Ygraine"
-#end
-#newspell
-#copyspell "Base of Courage"
-#name "Cloak of Ygraine"
-#researchlevel 3
-#school 1
-#path 0 1
-#path 1 6
-#pathlevel 0 2
-#pathlevel 1 2
-#fatiguecost 40
-#restricted 37
-#aoe 5
-#descr "The first and greatest of the Witches of Avalon crafted spells to aid their strongest champions. Ygraine chose to protect her chosen warriors from the weapons of their enemies, making them difficult to strike with sword or bow."
-#nextspell "Defense of Ygraine"
-#end
-#newitem
-#spr "./summod/Rowanstaff.tga"
-#constlevel 4
-#mainpath 6
-#mainlevel 2
-#secondarypath 1
-#secondarylevel 2
-#type 2
-#name "Rowan Staff"
-#descr "This staff has been crafted using wood from a great rowan tree in the Forest of Avalon and can only be used by one of its witches. It will empower her spells and make them more accurate and harder to resist, and allows her to easily confuse her enemies. "
-#weapon 238 -- Wand
-#prec 2
-#pen 2
-#restricted 37
-#restricteditem 1102
-#spell "Bewitchment"
-#end
--------Xibalba
-#selectnation 58
-#clearrec
-#addreccom 2718
-#addreccom 2717
-#addreccom 2716
-#addreccom 2715
-#addrecunit 2726
-#addrecunit 2725
-#addrecunit 2724
-#addrecunit 2723
-#addrecunit 2722
-#addrecunit 2721
-#addrecunit 2730
-#addrecunit 2731
-#forestrec 2734
-#forestrec 2727
-#forestrec 2735
-#forestcom 6346
-#forestcom 2728
-#forestcom 2682
-#cavecom 2719
-#cavecom 6346
-#caverec 2735
-#caverec 2734
-#uwunit1 2887
-#uwunit2 2888
-#uwcom1 2717
-#uwcom2 2716
-#uwcom3 2715
-#end
-#selectsite 177
-#clear
-#name "The Sacred Cenote"
-#path 2
-#level 0
-#rarity 5
-#gems 2 1
-#homecom 2732
-#end
-#selectmonster 2730 --poison dart thrower 
-#end
-#selectweapon 620 --poisondart
-#ammo 6
-#end
-#selectweapon 624
-#dmg 50
-#end
-#selectmonster 2731 --Obsidian Warrior
-#gcost 10017
-#end
-#selectmonster 2716 --Muuch Kuhul
-#gcost 10000
-#clearmagic
-#magicskill 2 1
-#magicskill 3 1
-#magicskill 5 1
-#magicskill 8 1
-#custommagic 4608 100
-#custommagic 13824 100
-#custommagic 13824 10
-#end
-#selectmonster 2734 --zotz
-#gcost 8
-#clearweapons
-#weapon 1415
-#end
-#selectmonster 2735 --zotz
-#gcost 8
-#end
-#selectweapon 619 --obs dart
-#ammo 6
-#end
-#selectmonster 2727 --jungle warrior
-#mapmove 2
-#end
-#selectmonster 2723 --light spear muuch
-#end
-#selectmonster 2724 --light obsword muuch
-#end
-#selectmonster 2725 --bronze spear muuch
-#gcost 10014
-#att 11
-#def 10
-#mor 11
-#end
-#selectmonster 2726 --bronze obsword muuch
-#gcost 10014
-#att 11
-#def 10
-#mor 11
-#end
-#selectnation 90 --oceania
-#end
-#selectmonster 1054 --siren
-#clearmagic
-#magicboost 1 -1
-#magicskill 1 1
-#magicskill 2 1
-#custommagic 768 100
-#end
-#selectmonster 1055 --sirenland
-#clearmagic
-#magicboost 2 -1
-#magicskill 1 1
-#magicskill 2 1
-#custommagic 768 100
-#end
-#selectmonster 2380 --ichtyaur
-#weapon 331
-#gcost 10035
-#end
-#selectmonster 2381 --ichtyaur
-#gcost 10035
-#end
-#selectmonster 2412 --ichtyaur
-#weapon 331
-#gcost 10035
-#end
-#selectmonster 2413 --ichtyaur
-#gcost 10035
-#end
-#selectmonster 2414 --ichtyaur
-#weapon 331
-#gcost 10040
-#end
-#selectmonster 2415 --ichtyaur
-#gcost 10040
-#end
---------Eriu
-#selectnation 38
-#end
---------Mictlan
-#selectnation 41
-#addreccom 1190
-#end
-#selectspell 340 --tlahuelpuchi
-#path 0 7
-#pathlevel 0 2
-#path 1 5
-#pathlevel 1 2
-#end
-#selectmonster 1558--tlahuelpuchi
-#noleader
-#end
-#selectspell  338  --summon civatetevo
-#path 0 7
-#pathlevel 0 2
-#path 1 5
-#pathlevel 1 0
-#end
-#selectmonster 1422 --civatetevo
-#douse 1
-#end
-#selectmonster 725 --sun warrior
-#hp 13
-#str 11
-#mapmove 2
-#gcost 10011
-#end
----------Abysia
-#selectnation 45
-#end
----------Ashdod
-#selectnation 55
-#end
----notices
 
 ---Cav changes
 ---Marveni
@@ -7006,773 +4940,7 @@
 #selectmonster 788 --horseman (also ma tc)
 #gcost 10003
 #end
---MA pythium
-#selectmonster 3 --serpent cat
-#gcost 10030
-#end
-#selectmonster 5 --serpent lord
-#gcost 10030
-#end
---MA Ulm
-#selectmonster 70 --black lord
-#gcost 10025
-#end
-#selectmonster 69 --black knight
-#gcost 10025
-#end
 
--------LA Nations
-
-#selectnation 80 --ragha
-#defunit1 2579
-#defunit2 2580
-#defmult1 25 --paighans makeup more of the pd
-#defmult2 10 --turan infantry  make up less of it
-#end
-
-#newmonster 6316 --zhayedan cost 40 gold each time they die
-#copystats 2628
-#copyspr 2628
-#gold -40
-#size 5
-#end
-#selectmonster 2628
-#firstshape 6316
-#gold -40
-#end
-
-#selectmonster 2599 --karapan
-#gcost 10020 --100 gold to 110 gold
-#end
-
-#selectmonster 2601 --turan sorceror
-#heatrec 2
-#gcost 10060 -- 225 gcost->265 gcost
-#end
-
-#selectmonster 2602 --athravan
-#coldrec 1
-#end
-
-#selectmonster 2604 --airya seraph
-#coldrec 2
-#gcost 10050 --225 gcost to 265 gcost
-#end
-
-#selectmonster 2579 --paighan
-#mor 8
-#end
-
-#selectmonster 2580 --turan infantry
-#gcost 10012
-#end
-
-#selectmonster 2581 --turan heavies
-#gcost 10014
-#end
-
-#selectmonster 2586 --turan war elephant
-#gcost 10110
-#end
-
-#selectmonster 2589 --airya archer
-#gcost 10011
-#end
-#selectmonster 2590 --airya light infantry
-#gcost 10011
-#end
-#selectmonster 2591 --airya infantry
-#gcost 10011
-#end
-
---xibalba
-#selectnation 81
-#clearrec
-#addreccom 2675
-#addreccom 2676
-#addreccom 2748
-#addreccom 2750
-#addreccom 2751
-#addreccom 2753
-#addreccom 6346
-#addreccom 6315
-#addrecunit 2738
-#addrecunit 2739
-#addrecunit 2740
-#addrecunit 2741
-#addrecunit 2742
-#addrecunit 2744
-#addrecunit 2745
-#addrecunit 2746
-#forestcom 2751
-#forestrec 2738
-#forestrec 2739
-#caverec 2739
-#caverec 2738
-#uwunit1 2889
-#uwunit2 2890
-#uwcom1 2748
-#uwcom2 2891
-#end
-#selectmonster 2750 --chilan cave
-#slowrec
-#gcost 180
-#end
-#newmonster 6315 --chilan fort
-#copystats 2750
-#noslowrec
-#copyspr 2750
-#gcost 180
-#end
-#selectmonster 2782 --batab cave or forest
-#slowrec
-#gcost 40
-#end
-#newmonster 6346 --Batab fort
-#copystats 2782
-#copyspr 2782
-#noslowrec
-#gcost 40
-#end
-#selectmonster 2738
-#clearweapons
-#weapon 1415
-#gcost 10008
-#end
-#selectmonster 2739
-#gcost 10008
-#end
-#selectmonster 2740
-#gcost 10009
-#end
-#selectmonster 2741
-#clearweapons
-#weapon 1415
-#end
-#selectnation 71
-#end
-
---la abysia
-#selectmonster 991 --newt
-#gcost 10000
-#end
-#selectmonster 1969 --anathemant salamander
-#custommagic 7296 20
-#gcost 10005
-#end
-#selectmonster 1970 --anathemant dragon
-#custommagic 7296 20
-#gcost 10010
-#end
-
---LA Agartha
-#selectnation 70
-#end
-#selectmonster 1443 --servant of oracles
-#mapmove 2
-#end
-#selectmonster 1444 --blindlord
-#gcost 10025
-#magicskill 8 1
-#okleader
-#inspirational 1
-#end
-#selectmonster 1437
-#str 12
-#end
-#selectmonster 1450
-#gcost 90
-#end
-
---LA Arco
-#selectmonster 1554 --agema commander
-#gcost 10015
-#end
-#selectmonster 1553 --companion
-#gcost 10015
-#end
-
---LA Ulm
-#selectmonster 738 --black templar
-#gcost 10025
-#end
-#selectmonster 1237 --hochmeister
-#gcost 10000
-#end
-
---la tc
-#selectmonster 938 --barb horse
-#gcost 10002 --3 gold discount to 17
-#end
-
-#selectmonster 930 --khan
-#gcost 10015 --10 gold discount
-#end
-
---LA Marignon
-#selectnation 65
-#startunittype1 2110
-#startunittype2 2108
-#end
-
-#selectmonster 6474 -goetic master campaignshape
-#copystats 745
-#copyspr 745
-#masterrit 1
-#shrinkhp 1000
-#end
-
-#selectmonster 6475 -goetic master battleshape
-#copystats 745
-#copyspr 745
-#firstshape 6474
-#end
-
-#selectmonster 745 -goetic master recshape
-#masterrit 1
-#firstshape 6474
-#end
-
-
---LA Man
-
-#selectmonster 1644 --magister
-#gold 10020
-#clearmagic
-#fixedresearch 5
-#custommagic 1280 40
-#custommagic 2048 50
-#end
-
-#selectmonster 1645 --judge
-#clearmagic
-#custommagic 128 45
-#custommagic 4096 45
-#gcost 10020
-#end
-
-#selectmonster 1646 --magister arcane
-#castledef 10
-#siegebonus 10
-#end
-
-#selectmonster 1641 --tower knight
-#gcost 10020
-#end
-
-#selectmonster 1648 --warden
-#mapmove 2
-#end
-#selectmonster 1666 --lord warden
-#mapmove 2
-#end
-
-#selectmonster 2452 --heavy axemen
-#mapmove 2
-#end
-
-
---jomon
-#newmonster 6309 -- ashigaru archer
-#copystats 1238
-#name "Ashigaru Archer"
-#copyspr 1312
-#clearweapons
-#weapon 377
-#weapon 23
-#end
-#selectmonster 1246 --samurai cav
-#spr1 "./summod/SamuraiCav_1.tga"
-#spr2 "./summod/SamuraiCav_2.tga"
-#gcost 10015
-#weapon 24
-#end
-#selectmonster 1250 --mounted gokenin
-#spr1 "./summod/MountGokenin_1.tga"
-#spr2 "./summod/MountGokenin_2.tga"
-#gcost 10000
-#weapon 24
-#end
-#selectmonster 1251 --Hatamoto
-#spr1 "./summod/hatamoto_1.tga"
-#spr2 "./summod/hatamoto_2.tga"
-#gcost 10000
-#weapon 24
-#end
-#selectmonster 1253 --Daimyo
-#gcost 10000
-#end
-#selectmonster 1239 --samurai archer
-#hp 10
-#end
-#selectmonster 1240 --samurai
-#hp 10
-#end
-#selectmonster 1241 --samurai
-#hp 10
-#end
-#selectmonster 1243  --oban
-#end
-#selectmonster 1244 --goatamato
-#end
-#selectmonster 1245 --akaoni sam
-#gcost 10014
-#end
-#selectmonster 1247 --sohei
-#gcost 10016
-#end
-#selectmonster 1248 --yamabushi
-#gcost 10016
-#end
-#selectmonster 2098 --fivefold path
-#custommagic 10112 20
-#end
-#selectspell 183 --meditation sign
-#damage 5015
-#end
-#selectspell 182
-#range 5010
-#end
-#selectspell 181
-#range 5000
-#end
-#selectspell 180
-#aoe 2002
-#end
-#selectspell 189 --tatsu
-#fatiguecost 2500
-#end
-#selectmonster 2099 --tatsu
-#clearmagic
-#custommagic 10112 300
-#end
-#selectnation 69
-#addrecunit 6309
-#end
-
---Bogarus
-#selectmonster 1922 --Grdi Druzhina
-#gcost 10010
-#end
-#selectmonster 1923 --Malaia Druzhina
-#gcost 10020
-#end
-#selectmonster 1924 --styag
-#gcost 10015
-#ap 20
-#end
-#selectmonster 1925 --black hood
-#gcost 10000
-#end
-
-
-#selectnation 74-- LA PAN
-#end
-
-#selectmonster 702--minotaur  5 gold discount
-#gcost 10045
-#end
-
-#selectmonster 700 --minotaur  5 gold discount
-#gcost 10035
-#end
-
---note: These next 3 are ea, ma pan/aspho changes for consistency with minotaur changes
-#selectmonster 235--minotaur  5 gold discount
-#gcost 10045
-#end
-
-#selectmonster 234--minotaur  5 gold discount
-#gcost 10035
-#end
-
-#selectmonster 1533--minotaur  5 gold discount
-#gcost 10035
-#end
-
-#selectmonster 706 --Pan random increased to 30%
-#clearmagic
-#magicskill 3 2
-#magicskill 6 3
-#custommagic 29696 30
-#end
-
-
--------------popkill
---Spectral changes -- spectral weapons mr negates, except for supaya
-#selectnation 34 --ermor
-#idealcold 1
-#fortcost 50
-#end
-#selectsite 24
-#gems 5 5
-#end
-#selectsite 25
-#gems 5 10
-#end
-#selectmonster 184 --knights of the unholy shroud
-#att 11
-#clearweapons
-#cleararmor
-#weapon 596
-#weapon 8
-#weapon 56
-#armor 30
-#armor 21
-#armor 169
-#end
-#selectmonster 253 --dusk elder
-#magicskill 0 1
-#magicskill 4 2
-#magicskill 5 3
-#magicboost 4 -1
-#descr "The mages of Old Ermor performed rituals that corrupted and destroyed the old Empire. These mages are now summoned from the dead to wage war against the living and they are now known as Spectators or Dusk Elders. The mages do not possess solid bodies, but their spirits are connected to the Netherworld.  This has made their powers of Death magic greater than ever before, and they are more resistant to magic duels. The mere touch of these mages will drain the life energy of the target and replenish the power of the mage. They are ethereal and very difficult to harm without magic weapons."
-#end
-#newsite 1802
-#name "Deadland"
-#path 5 
-#level 0
-#rarity 5
-#incscale 3
-#gems 5 1
-#end
-#newsite 1803
-#name "Purified Deadland"
-#decscale 3
-#path 8
-#level 0
-#rarity 5
-#gems 4 1
-#end
-#newevent #rarity 5 #nation -2 #req_fornation 34   #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
-#msg "Purification destroyed. [Purified Deadland]." #removesite 1803 #notext  #addsite 1802  #nolog #end
-
-#newevent #rarity 5 #nation -2 #req_fornation 34   
-#req_pop0ok #req_capital 0 #req_dominion 1 #req_site 1
-#msg "Carrionland destroyed. [Carrionland]." #removesite 1804 #nolog #notext #addsite 1802 #end
-
-#newevent #rarity 5 #nation -2 #req_fornation 34   
-#req_pop0ok #req_capital 0 #req_site 1 
-#msg "Dreamland destroyed. [Dreamland]." #removesite 1805 #nolog #notext  #addsite 1802 #end
-
-#newevent #req_freesites 1 #rarity 5  #req_fornation 34   #req_land 1
-#nation -2 #req_pop0ok #req_capital 0 #req_maxpop 150 #req_dominion 2 #req_nositenbr 1802
-#msg "Deadland Created. [Deadland]." #addsite 1802 #notext #nolog #req_unique 30 #end
-
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 34 #req_land 1 #req_unique 7
-#nation -2 #req_pop0ok #req_capital 0 #req_dominion 1 #req_site 0 #notext #addsite -1 
-#msg "Deadland Created. [Deadland]" #nolog #end
-
-#newevent #rarity 5 #req_monster 149 #req_fornation 40 
-#nation -2 #req_pop0ok #req_capital 0 #req_dominion 3 #req_rare 30 #req_site 1 
-#msg "An inquisitor has purified this land! [Deadland]."#nolog #notext #removesite 1802 #addsite 1803  #end
-#newevent #rarity 5 #req_monster 222 #req_fornation 40  
-#nation -2 #req_pop0ok #req_capital 0 #req_dominion 3 #notext #req_site 1 #msg "A High inquisitor has purified this land! [Deadland]."#nolog #removesite 1802 #addsite 1803  #end
-#newevent #rarity 5 #req_monster 583 #req_fornation 40  
-#nation -2 #req_pop0ok #req_capital 0 #req_dominion 3  #req_nositenbr 1804 #notext #req_site 1 #msg "His Eminence has purified this land! [Deadland]."#nolog #removesite 1802 #addsite 1803  #end
-#newsite 1804
-#name "Carrionland"
-#path 6 
-#level 0
-#rarity 5
-#decscale 3
-#gems 6 1
-#end
-#selectnation 49 --asphodel
-#end
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 49 #nation -2 
-#req_pop0ok #req_capital 0 
-#req_maxpop 100 
-#req_dominion 4 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1  #req_land 1
-#msg "Purified Deadland reclaimed. [Purified Deadland]." #removesite 1803 #addsite 1804 #nolog #notext #end
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 49 #nation -2 
-#req_pop0ok #req_capital 0 
-#req_maxpop 100 
-#req_dominion 4 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1  #req_land 1
-#msg "Deadland reclaimed. [Deadland]." #removesite 1802  #addsite 1804 #nolog #notext #end
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 49 #nation -2 
-#req_pop0ok #req_capital 0 
-#req_maxpop 100 
-#req_dominion 4 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1 #req_land 1
-#msg "Dreamland reclaimed. [Dreamland]." #removesite 1805  #addsite 1804 #nolog #notext #end
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 49 #nation -2 
-#req_pop0ok #req_capital 0 
-#req_maxpop 100 
-#req_dominion 5 #req_rare 20 #req_temple 1 #req_fort 0 #req_forest 1 #req_land 1 #req_nositenbr 1804 #req_site 0 #addsite 1804 
-#msg "Carrionland Created. [Carrionland]." #nolog #notext #end
-
-
-#selectnation 62 --lemuria
-#fortcost 50
-#fortera 2
-#startcom 678
-#startscout 6345
-#startunittype1 672
-#startunitnbrs1 10
-#startunittype2 673
-#startunitnbrs2 10
-#defcom1 678
-#defcom2 2333
-#end
-
-#newevent 
-#req_fornation 62
-#nation -2
-#rarity 5
-#req_rare 20
-#nolog
-#notext
-#req_owncapital 1
-#req_maxturn 12
-#req_nomonster 678
-#com 678
-#end
-
-#newevent 
-#req_fornation 62
-#nation -2
-#rarity 5
-#req_rare 40
-#req_owncapital 1
-#req_nomonster 678
-#req_maxturn 15
-#nolog
-#notext
-#com 681
-#end
-
-#newmonster 6345 --acolyte
-#copystats 2333
-#copyspr 2333
-#clearmagic
-#magicskill 5 2
-#holy
-#magicskill 8 1
-#end
-#selectsite 158
-#gems 5 5
-#end
-#selectsite 159
-#gems 5 9
-#end
-#selectmonster 2333
-#clearmagic
-#magicskill 5 1
-#holy
-#custommagic 6144 100
-#magicskill 8 1
-#end
-#newevent #rarity 5 #nation -2 #req_fornation 62   #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
-#msg "Purification destroyed. [Purified Deadland]." #removesite 1803 #nolog #notext  #addsite 1802  #end
-#newevent #rarity 5 #nation -2 #req_fornation 62   
-#req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1
-#msg "Carrionland destroyed. [Carrionland]." #removesite 1804 #nolog #notext  #addsite 1802  #end
-#newevent #rarity 5 #nation -2 #req_fornation 62   
-#req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
-#msg "Dreamland destroyed. [Dreamland]." #removesite 1805 #nolog #notext  #addsite 1802  #end
-
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 62 #req_land 1
-#nation -2 #req_pop0ok #req_capital 0 
-#req_unique 5 #req_site 0 #addsite -1  
-#msg "Deadland Created. [Deadland]" #nolog #notext  #end
-
-#newevent #req_freesites 1 #rarity 5  #req_fornation 62   #req_land 1
-#nation -2 #req_pop0ok #req_capital 0 #req_maxpop 130 #req_dominion 2 #req_site 0 #addsite -1
-#msg "Deadland Created. [Deadland]"   #nolog #notext #req_unique 35 #end
-
-
-#selectnation 92 --rlyeh
-#end
-
-
-#newsite 1818
-#name "Void Rift"
-#path 4
-#level 0
-#rarity 5
-#voidgate 20
-#end
-
-#newmonster 6413
-#copystats 757
-#copyspr 757
-#name "Voidrift Sacrifice"
-#landdamage 75
-#uwdamage 75
-#firstshape 757
-#end
-
-#newevent
-#req_pop0ok
-#rarity 5
-#nation -2
-#req_fornation 92
-#req_freesites 1
-#req_nositenbr 1818
-#req_dominion 3
-#req_monster 6413
-#msg "The ritual has succeeded!  A rift in reality has been created!"
-#nolog
-#addsite 1818
-#end
-
-#newspell
-#name "Sunder Reality"
-#descr "A starspawn attempts to create a connection to the void, a dangerous ritual that can only happen in a fort where the Dream holds sway"
-#school 5
-#researchlevel 6
-#fatiguecost 1000
-#path 0 4
-#path 1 2
-#pathlevel 0 5 -- change
-#pathlevel 1 2 --change
-#restricted 92
-#effect 10001
-#provrange 1
-#nowatertrace 1
-#nolandtrace 1
-#damage 6413
-#end
-
-
-#newsite 1805
-#name "Dreamland"
-#path 5 
-#level 0
-#rarity 5
-#decscale 5
-#gems 5 1
-#end
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 92 #nation -2 
-#req_pop0ok #req_capital 0 
-#req_maxpop 100 
-#req_dominion 5 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1 
-#msg "Purified Deadland reclaimed. [Purified Deadland]." #removesite 1803 #nolog #notext #end
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 92 #nation -2 
-#req_pop0ok #req_capital 0 
-#req_maxpop 100 
-#req_dominion 5 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1 
-#msg "Deadland reclaimed. [Deadland]." #removesite 1802 #nolog #notext #end
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 92 #nation -2 
-#req_pop0ok #req_capital 0 
-#req_maxpop 100 
-#req_dominion 5 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1
-#msg "Carrionland reclaimed. [Carrionland]." #removesite 1804 #nolog #notext #end
-#newevent #req_freesites 1 #rarity 5  #msg "Dreamland Created. [Dreamland]."
-#req_fornation 92 #nation -2 
-#req_pop0ok #req_capital 0 
-#req_maxpop 100 
-#req_dominion 1 #req_rare 10 #req_temple 1 #req_fort 0 #req_coast 1 #req_nositenbr 1805  #addsite 1805  
-#nolog #notext #end
-#newevent #req_freesites 1 #rarity 5 #msg "Dreamland Created." 
-#req_fornation 92 #nation -2 
-#req_pop0ok #req_capital 0 
-#req_maxpop 100 
-#req_dominion 5 #req_temple 1 #req_fort 0 #req_coast 1 #req_nositenbr 1805 #addsite 1805  
-#nolog #notext #end
-#newevent
-#rarity 5
-#nation -2
-#nolog #notext
-#req_site 1
-#msg "Deadland. [Deadland]."
-#end
-#newevent
-#rarity 5
-#nation -2
-#nolog #notext
-#req_site 1
-#msg "Reclaimed. [Purified Deadland]."
-#end
-#newevent
-#rarity 5
-#nation -2
-#nolog #notext
-#req_site 1
-#msg "Carrion [Carrionland]."
-#end
-#newevent
-#rarity 5
-#nation -2
-#nolog #notext
-#req_site 1 
-#msg "Dreamland. [Dreamland]."
-#end
-#selectmonster 962
-#gcost 0
-#end
-#selectmonster 963
-#gcost 0
-#end
-#selectmonster 1007
-#gcost 0
-#end
-#selectmonster 1009
-#gcost 0
-#end
-#selectmonster 1563
-#end
-#selectmonster 1564
-#gcost 0
-#end
-#selectmonster 1566
-#gcost 0
-#resources 1
-#end
-#selectmonster 1567
-#gcost 0
-#resources 1
-#end
-#selectmonster 1568
-#gcost 0
-#resources 1
-#end
-#selectmonster 1569
-#gcost 0
-#resources 1
-#end
-#selectmonster 1570
-#gcost 0
-#resources 1
-#end
-#selectmonster 1571
-#gcost 0
-#resources 1
-#end
-#selectmonster 1572
-#gcost 0
-#resources 1
-#end
-#selectmonster 1573
-#gcost 0
-#resources 1
-#end
-#selectmonster 1574
-#gcost 0
-#resources 1
-#end
-#selectmonster 1575
-#gcost 0
-#end
-#selectmonster 1576
-#gcost 0
-#resources 1
-#end
-#selectmonster 1639
-#gcost 0
-#end
-#selectmonster 1640
-#gcost 0
-#end
 
 ------------------------------
 ------THERODOS CHANGES--------
@@ -7812,7 +4980,7 @@
 #descr "The Telkhine Adjutants are mages of the storm, well versed in the magic of water and air.  Trained to accompany the Telkhines themselves when on campaign, since the Malediction they have suffered badly due to the extensive training they require.  Still, their skills are sufficient to lead the navy of Therodos and bring its ships to safe harbor."
 #spr1 "./summod/ThedStormcaller1.tga"
 #spr2 "./summod/ThedStormcaller2.tga"
-#gcost 10010
+#gcost 10020
 #slowrec
 #holy
 #hp 10
@@ -8286,6 +5454,16 @@
 #level 0
 #end
 #selectnation 95
+#descr "Therodos was once a kingdom of sages and craftsmen ruled by the Telkhines, sea daimones of almost godlike powers.
+When the Telkhines made themselves god-kings and threatened the divine order, their entire kingdom was drowned and
+cast under the waves. The people of the old kingdom suffered the full wrath of the divine judgement and unaware became
+ghosts inhabiting the ruins of a sunken kingdom. Of the Telkhine kingdom a few islands remain, inhabited by survivors of
+the cataclysm. On these islands the living serve the unaware dead out of fear and respect. On the islands of the shattered
+kingdom also lives the Daktyloi, dwarven smiths and servants of the Telkhines. With the death of of the Telkhines the
+Daktyloi replaced them and became revered by the Therodian ghosts. Now Therodos is drowned kingdom of ghosts and
+human islanders ruled by Daktyloi master smiths.
+
+Therodos is substantially changed by summod. Your sacred accessibility improves with your growth scales, and they are somewhat better. You now have merfolk recruitable underwater, and new coastal recruits, including a mage.  You have an endgame ritual that poisons your land in exchange for a flood of freespawn and death gems."
 #domkill 8
 #uwcom1 1051-- UW scout
 #uwcom2 6327
@@ -8452,7 +5630,8 @@
 #newevent #req_site 1 #msg "Agora. [Agora]."  #rarity 5 #req_notnation 95  #nation -2 #notext #nolog #req_site 1  #removesite 1812 #end
 #newevent #req_site 1 #msg "Odeon. [Odeon]."  #rarity 5 #req_notnation 95  #nation -2 #notext #nolog #req_site 1   #removesite 1810 #end
 #newevent #req_site 1 #msg "Orchestra. [Orchestra]."  #rarity 5 #req_notnation 95  #nation -2 #notext #nolog #req_site 1   #removesite 1811 #end
----- Telkhine Poison
+
+--- Telkhine Poison
 #selectmonster 2873
 #incscale 3
 #end
@@ -8461,1057 +5640,4767 @@
 #end
 
 
+--EA Vanheim
+---- MA Nations
+
+#selectnation 34 --ermor
+#descr "Ermor was once a great empire that had conquered most of the known world. The realm crumbled as the great
+mages of the Empire studied dark magic under the Sauromancers of C'tis. Unaware of the dangers of dark
+sorcery, priests performed unholy rites in the capital city of Eldregate. But there were voices who demanded
+the foul practices to stop. Theurgs and Thaumaturgs foresaw the cataclysm and advised generals, governors
+and consuls to revolt. When the Apostate Emperor marched on Ermor itself, the Augurs and Bishops of the
+Empire were forced to act in concert. In one cataclysmic event, Death was let loose and the empire was
+shattered. The Cataclysm attracted attention from an earlier God, a dark and hungry God. The vast power of
+this Awakening God erased the boundaries between the land of the living and the land of the dead. Ermor is
+now a cursed land of ashes and darkness where nothing grows. The bones of long-dead inhabitants
+reassemble to form legions of undead under the leadership of the cursed priests of the old Ermorian faith.
+Undead legions march forth to reconquer a world once theirs. The Ermorian Dominion reanimates the dead
+without the aid of unholy priests. It also destroys the land, turning crops and forests into ashes and people
+and livestock to bones.
+
+Summod substantially changes ermor.  Your death gem income is less tied to your capital, and more tied to the 
+lands you control. Forts are more expensive. Knights of the Shroud equipment is closer to that of Equites.  
+Duskelders are slightly more resistant to magic duel."
+#idealcold 1
+#fortcost 50
+#end
+#selectsite 24
+#gems 5 5
+#end
+#selectsite 25
+#gems 5 10
+#end
+#selectmonster 184 --knights of the unholy shroud
+#att 11
+#clearweapons
+#cleararmor
+#weapon 596
+#weapon 8
+#weapon 56
+#armor 30
+#armor 21
+#armor 169
+#end
+#selectmonster 253 --dusk elder
+#magicskill 0 1
+#magicskill 4 2
+#magicskill 5 3
+#magicboost 4 -1
+#descr "The mages of Old Ermor performed rituals that corrupted and destroyed the old Empire. These mages are now summoned from the dead to wage war against the living and they are now known as Spectators or Dusk Elders. The mages do not possess solid bodies, but their spirits are connected to the Netherworld.  This has made their powers of Death magic greater than ever before, and they are more resistant to magic duels. The mere touch of these mages will drain the life energy of the target and replenish the power of the mage. They are ethereal and very difficult to harm without magic weapons."
+#end
+#newsite 1802
+#name "Deadland"
+#path 5 
+#level 0
+#rarity 5
+#incscale 3
+#gems 5 1
+#end
+#newsite 1803
+#name "Purified Deadland"
+#decscale 3
+#path 8
+#level 0
+#rarity 5
+#gems 4 1
+#end
+#newevent #rarity 5 #nation -2 #req_fornation 34   #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
+#msg "Purification destroyed. [Purified Deadland]." #removesite 1803 #notext  #addsite 1802  #nolog #end
+
+#newevent #rarity 5 #nation -2 #req_fornation 34   
+#req_pop0ok #req_capital 0 #req_dominion 1 #req_site 1
+#msg "Carrionland destroyed. [Carrionland]." #removesite 1804 #nolog #notext #addsite 1802 #end
+
+#newevent #rarity 5 #nation -2 #req_fornation 34   
+#req_pop0ok #req_capital 0 #req_site 1 
+#msg "Dreamland destroyed. [Dreamland]." #removesite 1805 #nolog #notext  #addsite 1802 #end
+
+#newevent #req_freesites 1 #rarity 5  #req_fornation 34   #req_land 1
+#nation -2 #req_pop0ok #req_capital 0 #req_maxpop 150 #req_dominion 2 #req_nositenbr 1802
+#msg "Deadland Created. [Deadland]." #addsite 1802 #notext #nolog #req_unique 30 #end
+
+#newevent #req_freesites 1 #rarity 5  
+#req_fornation 34 #req_land 1 #req_unique 7
+#nation -2 #req_pop0ok #req_capital 0 #req_dominion 1 #req_site 0 #notext #addsite -1 
+#msg "Deadland Created. [Deadland]" #nolog #end
+
+#newevent #rarity 5 #req_monster 149 #req_fornation 40 
+#nation -2 #req_pop0ok #req_capital 0 #req_dominion 3 #req_rare 30 #req_site 1 
+#msg "An inquisitor has purified this land! [Deadland]."#nolog #notext #removesite 1802 #addsite 1803  #end
+#newevent #rarity 5 #req_monster 222 #req_fornation 40  
+#nation -2 #req_pop0ok #req_capital 0 #req_dominion 3 #notext #req_site 1 #msg "A High inquisitor has purified this land! [Deadland]."#nolog #removesite 1802 #addsite 1803  #end
+#newevent #rarity 5 #req_monster 583 #req_fornation 40  
+#nation -2 #req_pop0ok #req_capital 0 #req_dominion 3  #req_nositenbr 1804 #notext #req_site 1 #msg "His Eminence has purified this land! [Deadland]."#nolog #removesite 1802 #addsite 1803  #end
+#newsite 1804
+#name "Carrionland"
+#path 6 
+#level 0
+#rarity 5
+#decscale 3
+#gems 6 1
+#end
+#selectnation 49 --asphodel
+#descr "Asphodel was once part of Pangaea, a woodland nation inhabited by wild beings connected with nature.
+Halfmen such as satyrs, centaurs and minotaurs serve the lords of the Sacred Groves deep in the forests.
+In ancient times, the woods covered much of the world, but that has changed. Man is no longer beast and
+animals are no longer wild. The world of the wild is disappearing. In response to the destruction of the wild
+forests a dark and hungry God has arisen. The Panii of the sacred groves could not prevent the
+destruction of the wilderness and a few of them have revolted and struck back with dark fury upon the
+civilized world. The Panic Apostates and their followers have been touched by the Dark God and their
+hides are colored as black as the mood of the vengeful forest. But victory comes at a price. Halfmen as
+well as civilized men succumb to the Curse of the Carrion Woods. Asphodel is slowly turning into a cursed
+forest realm haunted by living carrion.
+
+Summod removes the ability of vines to repel and parry weapons, but grants asphodel the ability to generate nature gems in templed forests they control."
+#end
+#newevent #req_freesites 1 #rarity 5  
+#req_fornation 49 #nation -2 
+#req_pop0ok #req_capital 0 
+#req_maxpop 100 
+#req_dominion 4 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1  #req_land 1
+#msg "Purified Deadland reclaimed. [Purified Deadland]." #removesite 1803 #addsite 1804 #nolog #notext #end
+#newevent #req_freesites 1 #rarity 5  
+#req_fornation 49 #nation -2 
+#req_pop0ok #req_capital 0 
+#req_maxpop 100 
+#req_dominion 4 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1  #req_land 1
+#msg "Deadland reclaimed. [Deadland]." #removesite 1802  #addsite 1804 #nolog #notext #end
+#newevent #req_freesites 1 #rarity 5  
+#req_fornation 49 #nation -2 
+#req_pop0ok #req_capital 0 
+#req_maxpop 100 
+#req_dominion 4 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1 #req_land 1
+#msg "Dreamland reclaimed. [Dreamland]." #removesite 1805  #addsite 1804 #nolog #notext #end
+#newevent #req_freesites 1 #rarity 5  
+#req_fornation 49 #nation -2 
+#req_pop0ok #req_capital 0 
+#req_maxpop 100 
+#req_dominion 5 #req_rare 20 #req_temple 1 #req_fort 0 #req_forest 1 #req_land 1 #req_nositenbr 1804 #req_site 0 #addsite 1804 
+#msg "Carrionland Created. [Carrionland]." #nolog #notext #end
+
+
+--------SCELERIA CHANGES
+#selectnation 35
+#end
+--------Pythium
+#selectnation 36
+#descr "The Emerald Empire of Pythium is a splinter empire of the great Empire of Ermor. As dark arts were practiced in
+the heart of the Empire, the stars warned the Theurgs of Pythia to flee the impending doom. They led Pythia
+away from the falling Empire and formed an imperial theocracy under their wise rule. But this was not enough
+to save them. As Ermor crumbled, the provinces of Pythium rebelled and broke away from their old masters.
+The Emperor of Pythium could not reclaim the rebelling lands and the power of the Emerald Empire diminished
+over the centuries.
+The war machine of Pythium is based on the old legionnaire army of Ermor with some minor modifications.
+During Ermorian times, part of the Pythian lands were under the sway of the Sauromatian tribes. The Androphags
+used hydras of the Pythian Marshes in warfare. For a long time hydras were only used in the Pythian arenas,
+but now the old practice has been adopted along with the usage of serpent mounts.
+
+Pythium's angel summons are cheaper in summod.  Angels of Fury now self-bless."
+#end
+--------Marignon
+#selectnation 40
+#descr "Marignon is a feudal theocracy. The Inquisition controls all aspects of the country, including warfare. The feudal
+lords pay tithes and tax the peasants, but all political decisions are made solely by the Church. Marignon rose
+out of the ashes of Ermor and has succeeded in holding the shadow of the fallen empire at bay through religious
+zeal and austerity. The widespread fanaticism in Marignon has done wonders for its survival thus far. The heavy
+infantry of Marignon is armed with large weapons such as great swords and halberds. All units carry the bright
+red-and-orange livery of Marignon. The Inquisitors of Marignon are trained in the House of Fiery Justice together
+with Witch Hunters. The Witch Hunters are mage-priests who use Astral magic.
+
+Marignon is buffed by summod.  Witchhunters are now cheaper with a small random. Your sacredunits are generally cheaper, 
+and flagellants may be generated by pillaging with your inquisitors in your dominion.  High Inquisitors sometimes know 
+astral magic, and are not slow to recruit.  Angels are now easier and cheaper to summon, with angels of fury capable of 
+self-blessing.  Conquering Ermorian deadlands allows you to convert them to pearl production."
+#startunitnbrs1 15
+#startunitnbrs2 15
+#end
+#newevent 
+#nation -2
+#nolog
+#notext
+#msg "flags"
+#rarity 5
+#req_minpop 100
+#req_dominion 1
+#req_targmnr 149
+#req_targorder 30
+#1d6units 217
+#end
+#newevent 
+#nation -2
+#nolog
+#notext
+#msg "flags"
+#rarity 5
+#req_minpop 100
+#req_dominion 1
+#req_targmnr 149
+#req_targorder 30
+#1d3units 217
+#end
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#msg "flags"
+#req_minpop 250
+#req_temple 1
+#req_targmnr 149
+#req_targorder 30
+#1d3units 217
+#end
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#msg "flags"
+#req_minpop 200
+#req_dominion 4
+#req_targmnr 149
+#req_targorder 30
+#1unit 217
+#end
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#msg "flags"
+#req_minpop 150
+#req_dominion 7
+#req_targmnr 149
+#req_targorder 30
+#1unit 217
+#end
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#msg "flags"
+#req_minpop 100
+#req_dominion 10
+#req_targmnr 149
+#req_targorder 30
+#1unit 217
+#end
+#newevent 
+#nation -2
+#nolog
+#notext
+#msg "flags"
+#rarity 5
+#req_minpop 100
+#req_dominion 1
+#req_targmnr 589
+#req_targorder 30
+#2d6units 217
+#end
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#msg "flags"
+#req_minpop 250
+#req_temple 1
+#req_targmnr 589
+#req_targorder 30
+#1d3units 217
+#end
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#msg "flags"
+#req_minpop 200
+#req_dominion 4
+#req_targmnr 589
+#req_targorder 30
+#1unit 217
+#end
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#msg "flags"
+#req_minpop 150
+#req_dominion 7
+#req_targmnr 589
+#req_targorder 30
+#1unit 217
+#end
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#msg "flags"
+#req_minpop 100
+#req_dominion 10
+#req_targmnr 589
+#req_targorder 30
+#1unit 217
+#end
+#newevent 
+#nation -2
+#nolog
+#notext
+#msg "flags"
+#rarity 5
+#req_minpop 100
+#req_dominion 1
+#req_targmnr 222
+#req_targorder 30
+#3d6units 217
+#end
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#msg "flags"
+#req_minpop 250
+#req_temple 1
+#req_targmnr 222
+#req_targorder 30
+#1d3units 217
+#end
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#msg "flags"
+#req_minpop 200
+#req_dominion 4
+#req_targmnr 222
+#req_targorder 30
+#1unit 217
+#end
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#msg "flags"
+#req_minpop 150
+#req_dominion 7
+#req_targmnr 222
+#req_targorder 30
+#1unit 217
+#end
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#msg "flags"
+#req_minpop 100
+#req_dominion 10
+#req_targmnr 222
+#req_targorder 30
+#1unit 217
+#end
+#newevent 
+#nation -2
+#nolog
+#notext
+#msg "flags"
+#rarity 5
+#req_minpop 100
+#req_dominion 1
+#req_targmnr 583
+#req_targorder 30
+#4d6units 217
+#end
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#msg "flags"
+#req_minpop 250
+#req_temple 1
+#req_targmnr 583
+#req_targorder 30
+#1d3units 217
+#end
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#msg "flags"
+#req_minpop 200
+#req_dominion 4
+#req_targmnr 583
+#req_targorder 30
+#1unit 217
+#end
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#msg "flags"
+#req_minpop 150
+#req_dominion 7
+#req_targmnr 583
+#req_targorder 30
+#1unit 217
+#end
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#msg "flags"
+#req_minpop 100
+#req_dominion 10
+#req_targmnr 583
+#req_targorder 30
+#1unit 217
+#end
+--marignon pillage.  Pillage order is 30.
+#selectmonster 149 --inquisitor
+#end
+#selectmonster 222 --high inquisitor
+#noslowrec
+#custommagic 2048 50
+#end
+#selectmonster 134 --royal guard
+#gcost 10020 --10 gold discount
+#end
+#selectmonster 135 --knight of chalice
+#gcost 10020 --10 gold discount
+#end
+#selectmonster 440 --paladin
+#gcost 10020 --20 gold discount
+#end
+#selectmonster 133 --man at arms
+#gcost 13
+#end
+#selectmonster 224 --witch hunter
+#gcost 10000
+#custommagic 3456 10
+#end
+#selectmonster 223 --grandmaster
+#end
+#selectmonster 217 --flagellant
+#gcost 10007
+#end
+----Angel Changes
+#newspell
+#copyspell 162
+#end
+#selectspell 162
+#clear
+#name "Bless Self"
+#effect 10
+#damage 1
+#spec 12632064
+#school -1
+#end
+
+#selectspell 319 --Contact Harbinger
+#end
+#selectspell 320 --angelic host
+#pathlevel 0 4
+#path 1 0
+#pathlevel 1 1
+#fatiguecost 4000
+#end
+#selectspell 321 --heavenly wrath
+#fatiguecost 2500
+#end
+#selectspell 322 --heavenly choir
+#fatiguecost 8800
+#pathlevel 0 5
+#pathlevel 1 3
+#end
+#selectmonster 1369 --Angel of Wrath
+#bloodvengeance 0
+#damagerev 2
+#onebattlespell 162
+#end
+#selectmonster 1367 --Heavenly Choir
+#weapon 1423
+#end
+
+--------Tien chi
+#selectnation 42
+#descr "The Celestial Empire of T'ien Ch'i is ancient. Since the founding of the Empire, peace has reigned and a
+Bureaucracy of great efficiency has evolved. Ministers and officials chosen by skill rather than birth govern the
+Empire. The Emperor and his family are considered divine, but are not involved in the administration. The cavalry
+of T'ien Ch'i is well known and the infantry is varied and versatile. The eunuchs who run the Bureaucracy are able
+to conscript troops for the defense of provinces as part of the taxes due to the Emperor. A magic tradition called
+The Way is practiced by hermits and scholars in the kingdom. Prominent Masters of the Way come to the
+Heavenly Gate in the capital to be ordained as Celestial Masters. These mage-priests can summon heavenly
+beings from the Celestial Sphere to serve the Empire.
+
+Summod improves MA TC.  Your cavalry is cheaper, and your sacreds less dependent on the seasons.  You get an 
+improved Terracotta Warriors spell that summons diverse forms, including crossbows, chariots, and cavalry, and 
+your Eunuchs can now conscript units for free, though they won't fight as well as regular units and may abandon 
+you after serving for a few months."
+#clearrec
+#startcom 792
+#startscout 813
+#startunittype1 794
+#startunittype2 797
+#startunitnbrs1 15
+#startunitnbrs2 15
+#addforeigncom 805
+#addreccom 426
+#addreccom 792 
+#addreccom 804
+#addreccom 805
+#addreccom 807
+#addreccom 813
+#addreccom 1890
+#addreccom 1891
+#addreccom 1893
+#addreccom 1894
+#addreccom 6342
+#addrecunit 788
+#addrecunit 789
+#addrecunit 790
+#addrecunit 794
+#addrecunit 795
+#addrecunit 796
+#addrecunit 797
+#addrecunit 798
+#addrecunit 800
+#addrecunit 801
+#addrecunit 802
+#addrecunit 1900
+#addrecunit 1901
+#addrecunit 1902	
+#end
+#selectspell 176 --internal alchemy
+#fatiguecost 200
+#restricted 10
+#restricted 42
+#restricted 67
+#end
+#selectspell 175 --thousand year ginseng
+#fatiguecost 200
+#end
+#selectspell 343 -- Celestial Servant
+#fatiguecost 200
+#end
+#selectspell 796
+#notfornation 42
+#end
+#newspell
+#name "Terracotta Leader"
+#school -1
+#effect 10001
+#nreff 1
+#damage -1306
+#end
+#newspell
+#name "Terracotta Army"
+#descr "The caster crafts an army of terracotta soldiers and imbues them with false life. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons."
+#school 4
+#researchlevel 4
+#path 0 0
+#pathlevel 0 1
+#path 1 3
+#pathlevel 1 1
+#restricted 42
+#effect 10001
+#nreff 3009
+#damage -1305
+#fatiguecost 1000
+#nextspell "Terracotta Leader"
+#end
+#newmonster 6407
+#name "Terracotta Infantryman"
+#descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as an infantryman."
+#spr1 "./summod/TerracottaShield1.tga"
+#spr2 "./summod/TerracottaShield2.tga"
+#gcost 0
+#hp 7
+#size 2
+#prot 10
+#mr 12
+#mor 50
+#str 10
+#att 10
+#def 10
+#prec 5
+#enc 0
+#ap 6
+#mapmove 3
+#fireres 20
+#poisonres 25
+#pooramphibian
+#slashres
+#pierceres
+#magicbeing
+#inanimate
+#neednoteat
+#noheal
+#weapon 1
+#armor 4
+#montag 1305
+#end
+#newmonster 6406
+#name "Terracotta Guardsman"
+#descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a guardsman."
+#spr1 "./summod/TerracottaGlaive1.tga"
+#spr2 "./summod/TerracottaGlaive2.tga"
+#gcost 0
+#hp 7
+#size 2
+#prot 10
+#mr 12
+#mor 50
+#str 10
+#att 10
+#def 10
+#prec 5
+#enc 0
+#ap 6
+#mapmove 3
+#fireres 20
+#poisonres 25
+#pooramphibian
+#slashres
+#pierceres
+#magicbeing
+#inanimate
+#neednoteat
+#noheal
+#weapon 308
+#montag 1305
+#end
+#newmonster 6408
+#name "Terracotta Crossbowman"
+#descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a crossbowman."
+#spr1 "./summod/TerracottaCrossbowman1.tga"
+#spr2 "./summod/TerracottaCrossbowman2.tga"
+#gcost 0
+#hp 7
+#size 2
+#prot 10
+#mr 12
+#mor 50
+#str 10
+#att 10
+#def 10
+#prec 5
+#enc 0
+#ap 6
+#mapmove 3
+#fireres 20
+#poisonres 25
+#pooramphibian
+#slashres
+#pierceres
+#magicbeing
+#inanimate
+#neednoteat
+#noheal
+#weapon 25
+#weapon 6
+#montag 1305
+#end
+#newmonster 6409
+#name "Terracotta Horseman"
+#descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a horseman, it even has a horse."
+#spr1 "./summod/TerracottaHorseman1.tga"
+#spr2 "./summod/TerracottaHorseman2.tga"
+#gcost 0
+#prot 10
+#mr 12
+#mor 50
+#str 10
+#att 10
+#def 10
+#prec 5
+#enc 0
+#mapmove 3
+#fireres 20
+#poisonres 25
+#pooramphibian
+#slashres
+#pierceres
+#magicbeing
+#inanimate
+#neednoteat
+#noheal
+#size 3
+#mounted
+#weapon 4
+#weapon 10
+#weapon 56
+#armor 2
+#hp 10
+#ap 16
+#montag 1306
+#firstshape 6411
+#end
+#newmonster 6410
+#name "Terracotta Horseman"
+#descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a horseman, it even has a horse."
+#spr1 "./summod/TerracottaHorseman1.tga"
+#spr2 "./summod/TerracottaHorseman2.tga"
+#gcost 0
+#prot 10
+#mr 12
+#mor 50
+#str 10
+#att 10
+#def 10
+#prec 5
+#enc 0
+#mapmove 3
+#fireres 20
+#poisonres 25
+#pooramphibian
+#slashres
+#pierceres
+#magicbeing
+#inanimate
+#neednoteat
+#noheal
+#size 3
+#mounted
+#weapon 4
+#weapon 10
+#weapon 56
+#armor 2
+#hp 10
+#ap 16
+#montag 1306
+#firstshape 6411
+#end
+#newmonster 6411
+#name "Terracotta Horseman"
+#descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a horseman, it even has a horse."
+#spr1 "./summod/TerracottaHorseman1.tga"
+#spr2 "./summod/TerracottaHorseman2.tga"
+#gcost 0
+#prot 10
+#mr 12
+#mor 50
+#str 10
+#att 10
+#def 10
+#prec 5
+#enc 0
+#mapmove 3
+#fireres 20
+#poisonres 25
+#pooramphibian
+#slashres
+#pierceres
+#magicbeing
+#inanimate
+#neednoteat
+#noheal
+#size 3
+#mounted
+#weapon 4
+#weapon 10
+#weapon 56
+#armor 2
+#hp 10
+#ap 16
+#montag 1306
+#end
+#newmonster 6412
+#name "Terracotta Chariot"
+#descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a chariotsman, it even has a chariot."
+#spr1 "./summod/TerracottaHorseman1.tga"
+#spr2 "./summod/TerracottaHorseman2.tga"
+#gcost 0
+#prot 10
+#mr 12
+#mor 50
+#str 10
+#att 10
+#def 10
+#prec 5
+#enc 0
+#mapmove 3
+#fireres 20
+#poisonres 25
+#pooramphibian
+#slashres
+#pierceres
+#magicbeing
+#inanimate
+#neednoteat
+#noheal
+#size 4
+#mounted
+#trample
+#weapon 10
+#armor 1
+#hp 12
+#ap 12
+#montag 1306
+#end
+
+#newmonster 6342
+#copystats 808
+#copyspr 808
+#descr "Masters of the Way are lowly priests, hermits and sages who practice the ancient Magic of the Way. Some serve as parish priests and others travel the land, gathering followers. Still others sequester themselves in caves and practice extreme asceticism and self-starvation in the attempt to attain immortality. The practice of internal alchemy has given them remarkable longevity and they can survive on a diet of a few grains of rice per day. They all have some skill in Water magic, for the characteristics of Water, softness, flexibility and life-giving, are considered high ideals in the lore of the Way of the Five Elements. The imperial beauracracy has repressed the use of non-approved magics, and Masters of the Way are not as versatile as they once were."
+#clearmagic
+#magicskill 2 1
+#magicskill 8 1
+#custommagic 3584 100
+#end
+
+#selectmonster 803 -- celestial master
+#mapmove 2
+#end
+
+#selectmonster 793 --prince general
+#gcost 10000
+#magicskill 8 1
+#springpower 25
+#end
+
+#selectmonster 791 --Red guard
+#gcost 10023
+#springpower 25
+#end
+
+#selectmonster 789 -heavy horsemen
+#gcost 10012
+#end
+
+#selectmonster 790 --imperial horsemen
+#gcost 10015
+#end
+
+#selectmonster 805 -eunuch
+#gcost 10040
+#makemonsters1 -1304
+#end
+
+#newmonster 6333
+#name "Conscript Footman"
+#copystats 794
+#copyspr 794
+#montag 1304
+#mapmove 1
+#gcost 10007
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#spr1 "./summod/conpike_1.tga"
+#spr2 "./summod/conpike_2.tga"
+#mor 8
+#att 8
+#def 8
+#prec 8
+#xpshape 24
+#end
+#newmonster 6334
+#name "Experienced Conscript Footman"
+#copystats 794 #copyspr 794
+#spr1 "./summod/conpike_1.tga"
+#spr2 "./summod/conpike_2.tga"
+#mor 8
+#att 8
+#def 8
+#prec 8
+#gcost 10007
+#firstshape -1310
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#end
+#newmonster 6335
+#name "Conscript Footman"
+#copystats 795 #copyspr 795
+#montag 1304
+#gcost 10007
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#mapmove 1
+#spr1 "./summod/conglaive_1.tga"
+#spr2 "./summod/conglaive_2.tga"
+#mor 8
+#att 8
+#def 8
+#xpshape 24
+#prec 8
+#end
+#newmonster 6336
+#name "Experienced Conscript Footman"
+#copystats 795 #copyspr 795
+#spr1 "./summod/conglaive_1.tga"
+#spr2 "./summod/conglaive_2.tga"
+#mor 8
+#att 8
+#def 8
+#prec 8
+#gcost 10007
+#firstshape -1311
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#end
+#newmonster 6337
+#name "Conscript Footman"
+#copystats 796 #copyspr 796
+#montag 1304
+#gcost 10007
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#mapmove 1
+#spr1 "./summod/conshield_1.tga"
+#spr2 "./summod/conshield_2.tga"
+#mor 8
+#att 8
+#def 8
+#prec 8
+#xpshape 24
+#end
+#newmonster 6338
+#name "Experienced Conscript Footman"
+#copystats 796 #copyspr 796
+#spr1 "./summod/conshield_1.tga"
+#spr2 "./summod/conshield_2.tga"
+#mor 8
+#att 8
+#def 8
+#prec 8
+#gcost 10007
+#firstshape -1312
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#end
+#newmonster 6339
+#name "Conscript Archer"
+#copystats 797 #copyspr 797
+#montag 1304
+#gcost 10007
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#spr1 "./summod/conarcher_1.tga"
+#spr2 "./summod/conarcher_2.tga"
+#mor 8
+#att 7
+#def 7
+#prec 8
+#xpshape 24
+#end
+#newmonster 6340
+#name "Experienced Conscript Archer"
+#copystats 797 #copyspr 797
+#spr1 "./summod/conarcher_1.tga"
+#spr2 "./summod/conarcher_2.tga"
+#mor 8
+#att 8
+#def 8
+#prec 8
+#gcost 10007
+#firstshape -1313
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#end
+#newmonster 6341
+#name "Conscript Archer"
+#copystats 797
+#montag 1304
+#gcost 10007
+#descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
+#mapmove 1
+#spr1 "./summod/conarcher_1.tga"
+#spr2 "./summod/conarcher_2.tga"
+#mor 8
+#att 7
+#def 7
+#prec 8
+#firstshape 6339
+#end
+#newmonster 6491
+#copystats 794
+#copyspr 794
+#singlebattle
+#landdamage 100
+#uwdamage 100
+#montag 1310
+#end
+#newmonster 6492
+#copystats 795
+#copyspr 795
+#singlebattle
+#landdamage 100
+#uwdamage 100
+#montag 1311
+#end
+#newmonster 6493
+#copystats 796
+#copyspr 796
+#singlebattle
+#landdamage 100
+#uwdamage 100
+#montag 1312
+#end
+#newmonster 6494
+#copystats 797
+#copyspr 797
+#singlebattle
+#landdamage 100
+#uwdamage 100
+#montag 1313
+#end
+#selectmonster 794
+#montag 1310
+#end
+#selectmonster 795
+#montag 1311
+#end
+#selectmonster 796
+#montag 1312
+#end
+#selectmonster 797
+#montag 1313
+#end
+
+
+--------Machaka
+#selectnation 43
+#descr "Machaka is an old sacral kingdom where the well-being of the land is thought to be dependent on the will of the
+king. The king is the highest priest of the kingdom, but should he fail in his duties, he is sacrificed and replaced
+by one of his numerous sons or brothers. The priests of the kingdom are the true rulers of the land. Religious
+ceremonies, judicial tasks and the gathering of intelligence are all performed by the Eyes, Ears, and Voices of
+the Lord. Only warfare is handed over to secular commanders. Machaka uses light infantry, archers and heavy
+hoplites second only to those of Arcoscephale. In the forests of Machaka, giant spiders are caught and used as
+mounts. One other area is left untouched by the priests: Magic. Simple witch doctors living outside villages
+grudgingly serve the priests. In the depths of the God Forest lies a lonely mountain filled with caves. Here
+resides the true power of Machaka - the Black Sorcerers, Sorceresses and their Spider Warriors. Machakans
+prefer hot lands.
+
+Summod improves Machaka. Most of your units are cheaper, stronger, or both.  Sorcerors, sorceresses and Witch Doctors 
+have improved paths, and the latter are forest recruitable. You can recruit priests and your improved light infantry in unforted 
+provinces, too.  Spider cavalry are now size 4, allowing them to work more closely with infantry, except for your sacreds 
+which now scare the enemy."
+#startunitnbrs1 20
+#startunitnbrs2 20
+#forestcom 892
+#forestrec 2126
+#addforeigncom 881
+#addforeigncom 895
+#addforeigncom 896
+#addforeigncom 897
+#addforeignunit 1599
+#addforeignunit 879
+#addforeignunit 880
+#end
+#selectmonster 895 --eye of the lord
+#slowrec
+#end
+#selectmonster 896 --ear of the lord
+#gcost 10000
+#end
+#selectmonster 897 --Voice of the lord
+#slowrec
+#end
+#selectmonster 877 --Banespider
+#str 12
+#gcost 10030
+#att 14
+#def 14
+#end
+#selectmonster 876 --spider warrior
+#clearweapons
+#weapon 10 --falchion
+#weapon 126 --poison dagger
+#def 12
+#gcost 10020
+#end
+#selectmonster 879 --machaka archer
+#gcost 10009
+#end
+#selectmonster 880 --machaka warrior javelin
+#gcost 10009
+#end
+#selectmonster 1599 --machaka warrior spearshield (gave fur)
+#gcost 10009
+#armor 44
+#end
+#selectmonster 893  --sorceror
+#clearmagic
+#custommagic 5248 100
+#custommagic 8192 25
+#magicskill 0 1
+#magicskill 5 1
+#magicskill 6 2
+#custommagic 13440 10
+#end
+#selectmonster 891  --sorceress
+#gcost 10015
+#clearmagic
+#magicskill 0 1
+#magicskill 3 1
+#magicskill 5 1
+#custommagic 13440 40
+#end
+#selectmonster 892 --witchdoctor
+#clearmagic
+#magicskill 6 1
+#custommagic 12416 100
+#custommagic 5248 100
+#researchbonus -6
+#gcost 10000
+#end
+#selectmonster 882 --hoplite
+#gcost 10013
+#end
+#selectmonster 885 --spider rider
+#gcost 10015
+#size 4
+#clearweapons
+#weapon 313
+#weapon 357
+#weapon 262
+#end
+#selectmonster 886 --spider knight
+#size 4
+#gcost 10025
+#clearweapons
+#weapon 313
+#weapon 596
+#weapon 1
+#weapon 262
+#end
+#selectmonster 887  --spider lord
+#size 4
+#gcost 10025
+#clearweapons
+#weapon 313
+#weapon 596
+#weapon 1
+#weapon 262
+#end
+#selectmonster 898 --sorceress shape
+#size 4
+#str 16
+#end
+
+#selectmonster 899 --hunter form of black sorc
+#str 18
+#weapon 1414
+#end
+#selectmonster 889 --Black Hunter
+#weapon 1414
+#end
+#selectmonster 2208
+#str 18
+#weapon 1414
+#end
+#selectmonster 888
+#str 18
+#gcost 70
+#mr 10
+#weapon 1414
+#end
+#selectmonster 890
+#weapon 1414
+#end
+--------Caelum
+#selectnation 46
+#descr "Caelum is a magocracy of winged humanoids who inhabit the highest mountain peaks. They are the offspring of the
+Yazatas, semi-divine beings of an earlier age. Three tribes served the Yazatas in ancient times, the Kavi, the Airyas and
+the Mairyas. But some were led astray by the wicked Mainyus and Daevas. With the corruption of the purifying flame the
+Daevas as well as the Yazatas were banished from this world. With the disappearance of the Yazatas the three tribes were
+dispersed and fled their homelands. But when some Yazatas reemerged from hiding, the three tribes gathered and settled
+in the high mountain range where the last of the Eagle Kings resided. The former tribes are now known as the Tempest
+Clan of Spire Horn Mountain, the Raptor Clan of Raven's Vale and the Airyas of High Caelum. The Spire Horn Caelians
+are partially resistant to cold and lightning. The Raptorians are stronger and attuned to the Earth, but lack the elemental
+resistance characteristic of the other clans. The Airya once lived in the land of the White Forest where winter lasts for ten
+months. They still live in the coldest mountain peaks and are unaffected by low temperatures. Their priestesses try to
+purify the taint of the daevas and are keepers of the sacred flame of the White Forest. The Airya Seraphs craft magical ice
+that the many Caelians use instead of regular metal. The ice tempers with lower temperatures and the heavy ice armor is
+more durable in cold climates than in warmer ones. All weapons crafted from the ice are magical and capable of harming
+magical beings. The Caelians are skilled archers and prefer hit-and-run tactics, even though they do have some heavy
+troops, such as huge Mammoths.
+
+Summod gives caelum composite bows, so it is as good at archery as claimed.  They also get the cap-only Ice Enchanter, who 
+provides useful crosspaths and smithing."
+#end
+#selectsite 11
+#homecom 6332
+#end
+#selectmonster 128 --spire horn warrior
+#clearweapons --shortbow, ice knife
+#weapon 35 --ice knife
+#weapon 264 --composite bow
+#end
+#selectweapon 606 --frost bow
+#dmg 11
+#end
+#newmonster 6332
+#copystats 1283
+#spr1 "./summod/iceenchanter_1.tga"
+#spr2 "./summod/iceenchanter_2.tga"
+#name "Ice Enchanter"
+#descr "Ice Enchanters are the elite of the Ice Crafters, who are Caelian craftsmen and mages of frozen water.  They make the magical ice used in Caelum, and build palaces, weapons, armor, and common tools from it.  The most talented become Enchanters, who forge other magical items and even use the lore of other clans. Ice Enchanters use fewer magical gems when forging magical items."
+#gcost 10040
+#clearmagic
+#magicskill 2 2
+#custommagic 6272 100
+#custommagic 2816 100
+#iceforging 7
+#end
+-------Bandar Log
+#selectnation 53
+#descr "In the dense forests of the Bandar realm, apes of uncanny brightness have emerged. Under the influence
+of semi-divine beings, the apes have evolved intelligence and culture. When the former rulers of Bandar Log
+returned to their Celestial Realms, the apes were left without leadership. A warlike, hierarchical society
+was formed with the large Bandar apes at the top. But the influence of the former masters was not
+forgotten and the blessed white apes who were gifted with higher intelligence and magical powers were
+able to keep their influence and power. Bandar Log is a divided society. Small Markatas are at the bottom
+of the society. Vanara apes of human size are the most common. Large Bandar apes rule most of the
+society and form the military. Sacred white apes are trained as sages, priests and holy warriors.
+
+Summod buffs Bandar Log by improving the monkeys generally, including white ones, and improving your summons in 
+cost and ability. Of note are the Rudra, which is stronger and autocasts Wrathful Skies, the Devala, which 
+automatically casts Celestial Music, and the Devata, which autocasts Antimagic."
+#end
+#selectmonster 1332 --apsara
+#weapon 1423
+#end
+#selectspell 350 --nagas
+#fatiguecost 1500
+#end
+#selectspell 356 --nagaraja
+#fatiguecost 2500
+#end
+#selectmonster 1123--Vanara Archer -1 gold
+#gcost 10009
+#end
+#selectmonster 1124--Vanara Chakram Thrower -1 gold
+#gcost 10009
+#end
+#selectmonster 1125--Vanara Infantry -1 gold
+#gcost 10009
+#end
+#selectmonster 1126 --Vanara Swordsmen -1 gold
+#gcost 10012
+#end
+#selectmonster 1131 --Bandar Archer -1 gold
+#gcost 10017
+#end
+#selectmonster 1132--Bandar Warrior -1 gold
+#gcost 10017
+#att 12
+#end
+#selectmonster 1133--Bandar Warrior -1 gold
+#gcost 10017
+#att 12
+#end
+#selectmonster 1134--Royal Swordsman -1 gold
+#gcost 10022
+#att 13
+#end
+#selectmonster 1142 --whiteone
+#gcost 10016
+#end
+-------Shinyu
+#selectnation 54
+#descr "When the entrance to the Netherworld closed, the Oni became fewer and fewer. Their Bakemono slaves
+and human servants rebelled, and when the last of the Dai Oni died, the realm was taken over by
+Bakemono Kings. Human smiths were forced to reveal the secrets of metalcraft and the Bakemono have
+become ready to conquer the lowlands from the humans. The Bakemono still live in a tribal society ruled
+by the strongest and most powerful of their kin. The Bakemono are a diverse kind. Huge lumbering
+O-Bakemono, proud Dai-Bakemono, strange shapeshifters and ghostly apparitions all heed the call of the
+Bakemono Kings and the Awakening God.
+
+Summod buffs Shinuyama by improving the Bakemono, improving summon cost, and granting new abilities.  
+Notably, Bakameno shamans are more interesting recruits, kappa mages can be recruited underwater, and 
+Bakemono Sorcerors can summon a ritual assistant.  By traveling with the assistant to a mountain not 
+yet claimed by another sorceror, the Bakemono sorceror can hide his heart, gaining a sort of 
+immortality and enhanced abilities."
+#uwcom1 1530
+#startunittype1 1390
+#startunittype2 1391
+#startunitnbrs2 15
+#startunitnbrs1 15
+#end
+#newmonster 6352--summonchecker
+#copystats 1396
+#spr1 "./summod/ritualhelp1.tga"
+#spr2 "./summod/ritualhelp2.tga"
+#name "Ritual Assistant"
+#descr "This bakemono has been chosen for his loyalty, desperation, and unimportance.  He will travel with a Bakemono Sorceror to a hidden place on a mountain, where he will aid the Sorceror in the heart-hiding ritual, after which he has been promised his reward."
+#clearweapons
+#weapon 1
+#size 3
+#cleararmor
+#armor 44
+#stealthy 0
+#gcost 10
+#end
+#selectmonster 1530
+#gcost 45
+#end
+#selectmonster 1396
+#att 12
+#gcost 10025
+#end
+#selectmonster 1397
+#gcost 10025
+#end
+#selectmonster 1390 #hp 10 #slave #end
+#selectmonster 1391 #hp 10 #slave #end
+#selectmonster 1392 #slave #end
+#selectmonster 1393 #slave #end
+#selectmonster 1394 #slave #end
+#selectmonster 1395 #slave #end
+#selectmonster 1549 #taskmaster 2 #end
+#selectmonster 1398 #inspirational 1 #end
+#selectmonster 1608 --bakemono shaman
+#custommagic 128 20
+#custommagic 1024 20
+#custommagic 4096 20
+#gcost 10010
+#end
+#selectspell 191 --gozu mezu
+#fatiguecost 500
+#end
+#selectspell 375 --ko oni
+#nreff 2005
+#end
+#selectspell 377 --ao oni
+#fatiguecost 400
+#end
+#selectspell 378 --karusu tengu
+#fatiguecost 1000
+#pathlevel 0 3
+#researchlevel 5
+#nreff 1009
+#end
+#selectspell 379 -aka oni
+#fatiguecost 400
+#end
+#selectspell 380 --konoha tengu
+#researchlevel 2
+#end
+#selectspell 381 --ghost general
+#end
+#selectspell 382 --summon oni
+#fatiguecost 700
+#end
+#selectspell 385 --kurooni
+#fatiguecost 600
+#nreff 1002
+#end
+#selectspell 383 --dai tengu
+#fatiguecost 4000
+#end
+#selectspell 384 --nushi
+#fatiguecost 2000
+#end
+#selectspell 386 --oni general
+#fatiguecost 1400
+#researchlevel 5
+#end
+#selectspell 387--kitsune
+#fatiguecost 2300
+#end
+#selectspell 388 -dai oni
+#researchlevel 7
+#fatiguecost 3500
+#end
+#newspell
+#name "Hide Heart"
+#descr "With this ritual, a Bakemono Sorceror will attempt to hide his heart in an isolated mountain, granting him a form of immortality tied to that mountain. This ritual requires an unfortified mountain with a small temple to properly function, and will not work if cast without a Sorceror present."
+#restricted 54
+#school 4
+#researchlevel 5 --change
+#path 0 5
+#pathlevel 0 2
+#path 1 0
+#pathlevel 1 2
+#fatiguecost 1600 --change
+#effect 10001
+#damage 6352
+#end
+#newsite 1801
+#name "Hiding Place"
+#rarity 5
+#level 4
+#path 8
+#end
+
+#newmonster 6353
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6380  	
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6380  	#req_nomnr 6353	#stealthcom 6353	#killmon 6352	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6353 	#req_monster 6380	#killcom 6380 	#nolog #end  
+#newmonster 6354	
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile  
+#end 	
+#newmonster 6381		
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6381	#req_nomnr 6354	#stealthcom 6354	#killmon 6353	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6354	#req_monster 6381	#killcom 6381	#nolog #end  
+#newmonster 6355
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6382		
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6382	#req_nomnr 6355	#stealthcom 6355	#killmon 6354	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6355	#req_monster 6382	#killcom 6382	#nolog #end  
+#newmonster 6356	
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6383		
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6383	#req_nomnr 6356	#stealthcom 6356	#killmon 6355	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6356	#req_monster 6383	#killcom 6383	#nolog #end  
+#newmonster 6357
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6384		
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6384	#req_nomnr 6357	#stealthcom 6357	#killmon 6356	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6357	#req_monster 6384	#killcom 6384	#nolog #end  
+#newmonster 6358
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6385		
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6385	#req_nomnr 6358	#stealthcom 6358	#killmon 6357	#nolog 
+#end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6358	#req_monster 6385	#killcom 6385	#nolog #end  
+#newmonster 6359
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6386		
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6386	#req_nomnr 6359	#stealthcom 6359	#killmon 6358	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6359	#req_monster 6386	#killcom 6386	#nolog #end  
+#newmonster 6360	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
+#end 	
+#newmonster 6387		
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6387	#req_nomnr 6360	#stealthcom 6360	#killmon 6359	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6360	#req_monster 6387	#killcom 6387	#nolog #end  
+#newmonster 6361
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6388	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
+#end	
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6388	#req_nomnr 6361	#stealthcom 6361	#killmon 6360	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6361	#req_monster 6388	#killcom 6388	#nolog #end  
+#newmonster 6362
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6389		
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6389	#req_nomnr 6362	#stealthcom 6362	#killmon 6361	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6362	#req_monster 6389	#killcom 6389	#nolog #end  
+#newmonster 6363
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6390		
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6390	#req_nomnr 6363	#stealthcom 6363	#killmon 6362	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6363	#req_monster 6390	#killcom 6390	#nolog #end  
+#newmonster 6364
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6391		
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6391	#req_nomnr 6364	#stealthcom 6364	#killmon 6363	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6364	#req_monster 6391	#killcom 6391	#nolog #end  
+#newmonster 6365
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6392		
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6392	#req_nomnr 6365	#stealthcom 6365	#killmon 6364	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6365	#req_monster 6392	#killcom 6392	#nolog #end  
+#newmonster 6366
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6393		
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6393	#req_nomnr 6366	#stealthcom 6366	#killmon 6365	#nolog 
+#end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6366	#req_monster 6393	#killcom 6393	#nolog 
+#end  
+#newmonster 6367
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6394		
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6394	#req_nomnr 6367	#stealthcom 6367	#killmon 6366	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6367	#req_monster 6394	#killcom 6394	#nolog #end  
+#newmonster 6368
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6395		
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6395	#req_nomnr 6368	#stealthcom 6368	#killmon 6367	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6368	#req_monster 6395	#killcom 6395	#nolog #end  
+#newmonster 6369
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6396		
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6396	#req_nomnr 6369	#stealthcom 6369	#killmon 6368	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6369	#req_monster 6396	#killcom 6396	#nolog #end  
+#newmonster 6370
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6397	
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6397	#req_nomnr 6370	#stealthcom 6370	#killmon 6369	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6370	#req_monster 6397	#killcom 6397	#nolog #end  
+#newmonster
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6398		
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6398	#req_nomnr 6371	#stealthcom 6371	#killmon 6370	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6371	#req_monster 6398	#killcom 6398	#nolog #end  
+#newmonster 6372
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6399	
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6399	#req_nomnr 6372	#stealthcom 6372	#killmon 6371	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6372	#req_monster 6399	#killcom 6399	#nolog #end  
+#newmonster 6373
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6400	
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end	
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6400	#req_nomnr 6373	#stealthcom 6373	#killmon 6372	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6373	#req_monster 6400	#killcom 6400	#nolog #end  
+#newmonster 6374
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6401	
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6401	#req_nomnr 6374	#stealthcom 6374	#killmon 6373	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6374	#req_monster 6401	#killcom 6401	#nolog #end  
+#newmonster 6375
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6402	
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end	
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6402	#req_nomnr 6375	#stealthcom 6375	#killmon 6374	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6375	#req_monster 6402	#killcom 6402	#nolog #end  
+#newmonster 6376
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6403	
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6403	#req_nomnr 6376	#stealthcom 6376	#killmon 6375	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6376	#req_monster 6403	#killcom 6403	#nolog #end  
+#newmonster 6377
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6404	
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6404	#req_nomnr 6377	#stealthcom 6377	#killmon 6376	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6377	#req_monster 6404	#killcom 6404	#nolog #end  
+#newmonster 6378
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6405	
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6405	#req_nomnr 6378	#stealthcom 6378	#killmon 6377	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6378	#req_monster 6405	#killcom 6405	#nolog #end  
+#newmonster 6379
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
+#end 	
+#newmonster 6406	
+#name "Bakemono Kizoku"
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33 
+#prot 7 
+#mr 17 
+#mor 16 
+#str 18 
+#att 12 
+#def 12 
+#prec 10 
+#enc 2 
+#maxage 250 
+#startage 50 
+#mountainsurvival 
+#weapon 379 
+#armor 129 
+#holy 
+#darkvision 50 
+#unique 
+#magicskill 0 2 
+#magicskill 2 1 
+#magicskill 3 2
+#magicskill 5 3 
+#magicskill 8 1 
+#custommagic 5760 100 
+#custommagic 5760 10 
+#end	
+#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6406	#req_nomnr 6379	#stealthcom 6379	#killmon 6378	#nolog #end 
+#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6379	#req_monster 6406	#killcom 6406	#nolog #end  	
+#newevent #nation -2 #rarity 5 #req_pop0ok  #req_site 1 #msg "Site removed [Hiding Place]." #notext #removesite 1801 #nolog #end
+
+------MA Man
+#selectnation 37
+#descr "The realm of Man is a feudal kingdom. Their kingdom was established by conquering a race of tall and magically
+powerful beings known as the Tuatha. When the Tuatha were destroyed, their greatest treasure was found:
+The magical Forest of Avalon. Hidden deep within was great magic. The Witches of Man entered the forest,
+learned the old lore, and helped Man to grow in power and influence. The infantry of Man is limited and lacks
+heavy troops. Their regular armies most often consist of powerful knights and skilled longbowmen. The Witches
+train their own special troops, the Wardens and Knights of Avalon. These troops are very skilled and are also
+gather and record knowledge in the monasteries scattered throughout the land. Descendants of the Logrian
+people displaced by the Witches and their servants dwell in outside the fortified castles of the nobility.
+
+MA Man is buffed substantially by summod.  Knights are much cheaper, and Knights of Avalon can be recruited in any 
+forted forests with magic 2 or 3.  Knights can upgrade if they become sufficiently experienced, though this is easiest 
+for commanders and knights of avalon.  Your mages get several new buffs and debuffs, as well as a new wand to cast them 
+with. Mothers of Avalon will occasionally bond rangers, which may improve their magical powers."
+#addreccom 6470
+#startcom 6470
+#startunittype1 61
+#startunittype2 59
+#startunitnbrs1 10 
+#startunitnbrs2 10
+#startscout 56
+#end
+#selectmonster 57 --Knight
+#gcost 10020
+#end
+#newmonster 6456 --avalon clone
+#copystats 64
+#copyspr 64
+#size 3
+#xpshape 150
+#gcost 10035
+#end
+#selectmonster 64 --Avalon knight
+#gcost 10035
+#firstshape  6456
+#end
+#newmonster 6472 --(Knight Commander of Avvalon)--
+#copystats 2128
+#copyspr 2128
+#size 3
+#xpshape 30
+#gcost 10040
+#end
+#newmonster 6473 --(Knight Commander of Avvalon)--
+#copystats 2128
+#copyspr 2128
+#size 3
+#descr "The Knights of Avalon ride the legendary Unicorns of Avalon, mounts of unsurpassed speed trained by the Witch Mothers. Clad in the brightest silver and enchanted by the Witches, the Knights of Avalon radiate confidence and resolve. The mystical power of their mounts protects them from long-lasting battle wounds. Due to exceptional feats this knight may be accepted into the Earth if there is a vacancy."
+#end
+#selectmonster 2128 --Knight Commander
+#gcost 10040
+#firstshape 6472
+#end
+#selectmonster 2129 --Logrian cav
+#gcost 10005
+#end
+#selectmonster 65  --warden
+#mapmove 2
+#end
+#selectmonster 212 --lord warden
+#mapmove 2
+#magicskill 8 1
+#end
+#selectmonster 53 --logrian warrior
+#gcost 10011
+#end
+#selectmonster 62 ---longspear
+#cleararmor
+#armor 13
+#armor 20
+#armor 2
+#end
+#selectmonster 153 --crone
+#gcost 9980
+#clearmagic
+#magicskill 1 2
+#magicskill 6 3
+#magicskill 8 1
+#custommagic 8448 100
+#custommagic 1536 100
+#custommagic 9984 10
+#userestricteditem 1102
+#end
+#selectmonster 152 --mother of avalon
+#descr "As a Daughter of Avalon gains knowledge and responsibility, she is given three tests. When she passes them, she becomes a Mother and is given a green dress and religious authority. The Mothers are potent priest-enchantresses who travel the lands of Man searching for sites of magical power, guiding the common people in prayer and aiding commanders in battle. They are skilled at stealth and are able commanders in their own right. They are often accompanied by Wardens sworn to protect them. The Mothers, like all Witches of Avalon, are considered sacred by the populace of Man. The Mothers of Avalon are skilled in the magic of Air and Nature and many learn other arts on their travels. They can also use spellsongs once sung by the Sidhe of Tir na n'Og."
+#clearmagic
+#magicskill 6 2
+#magicskill 1 1
+#magicskill 8 1
+#custommagic 1792 100
+#custommagic 8192 25
+#gcost 9970
+#userestricteditem 1102
+#end
+#newsite 1813-- Telkhinis
+#name "Forest Glade"
+#path 6
+#rarity 5
+#level 0
+#mon 6456
+#com 2128
+#end
+#newevent 
+#msg "Glade. [Forest Glade]."  
+#req_owncapital 0 
+#rarity 5 
+#req_forest 1
+#req_fort 1 
+#nation -2 
+#req_fornation 37 
+#notext 
+#nolog 
+#req_magic 2 
+#req_freesites 1 
+#req_nositenbr 1813 
+#addsite 1813
+#end
+#newevent  #msg "Nofort. [Forest Glade]." 
+#rarity 5  #req_fort 0 #nation -2 #notext #nolog  #req_site 1 #req_unmagic 1
+#removesite 1813 
+#end
+#newevent  #msg "Nomagic. [Forest Glade]." 
+#rarity 5  #req_unmagic 1 #nation -2 #notext #nolog  #req_site 1
+#removesite 1813 
+#end
+#newevent #msg "Enemy. [Forest Glade]." 
+#rarity 5 #req_notnation 37 #nation -2 #notext #nolog  #req_site 1 #removesite 1813 
+#end
+#newmonster 6470 --(Knight Commander)
+#copystats 57
+#spr1 "./summod/knightcom_1.tga"
+#spr2 "./summod/knightcom_2.tga"
+#name "Knight Commander of Man"
+#descr "The Knights of Man are nobles trained to battle from childhood.  They are skilled in swordplay, music, and horsemanship. In the time of Logris, the rival petty kings gathered groups of influential and skilled warriors to their cause.  Now the descendants of these first Logrian nobles have become the ruling class of Man.  Many of them are Logrian fullbloods and stronger than most men."
+#goodleader
+#command -20
+#hp 13
+#att 13
+#size 3
+#xpshape 75
+#end
+#newmonster 6471
+#copystats 6470
+#copyspr 6470
+#firstshape 6473
+#end
+#newevent --1--
+#rarity 5
+#req_fornation 37
+#req_targmnr 6473
+#nation -2
+#nolog
+#msg "This knight has committed enough valorous deeds to be admitted to the Knights of the Glade, a storied company of mighty men!" 
+#transform 6457
+#end
+#newevent --4--
+#rarity 5
+#req_fornation 37
+#req_targmnr 6457
+#req_nomnr 6458
+#nation -2
+#nolog
+#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#transform 6458
+#end
+#newevent
+#rarity -1
+#nation -2
+#req_fornation 37
+#req_targmnr 6459
+#msg "This questing knight has found some treasure!"
+#gold 10
+#req_fort 0
+#addequip 1
+#req_unique 2
+#end
+#newevent --5--
+#rarity 5
+#req_fornation 37
+#req_targmnr 6457
+#req_nomnr 6459
+#nation -2
+#nolog
+#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#transform 6459
+#end
+#newevent --6--
+#rarity 5
+#req_fornation 37
+#req_targmnr 6457
+#req_nomnr 6460
+#nation -2
+#nolog
+#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#transform 6460
+#end
+#newevent --7--
+#rarity 5
+#req_fornation 37
+#req_targmnr 6457
+#req_nomnr 6461
+#nation -2
+#nolog
+#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#transform 6461
+#end
+#newevent --8--
+#rarity 5
+#req_fornation 37
+#req_targmnr 6457
+#req_nomnr 6462
+#nation -2
+#nolog
+#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#transform 6462
+#end 
+#newevent --9--
+#rarity 5
+#req_fornation 37
+#req_targmnr 6457
+#req_nomnr 6463
+#nation -2
+#nolog
+#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#transform 6463
+#end
+#newevent --10--
+#rarity 5
+#req_fornation 37
+#req_targmnr 6457
+#req_nomnr 6464
+#nation -2
+#nolog
+#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#transform 6464
+#end
+#newevent --11--
+#rarity 5
+#req_fornation 37
+#req_targmnr 6457
+#req_nomnr 6465
+#nation -2
+#nolog
+#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#transform 6465
+#end 
+#newevent --12--
+#rarity 5
+#req_fornation 37
+#req_targmnr 6457
+#req_nomnr 6466
+#nation -2
+#nolog
+#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#transform 6466
+#end
+#newevent --13--
+#rarity 5
+#req_fornation 37
+#req_targmnr 6457
+#req_nomnr 6467
+#nation -2
+#nolog
+#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#transform 6467
+#end
+#newevent --14--
+#rarity 5
+#req_fornation 37
+#req_targmnr 6457
+#req_nomnr 6468
+#nation -2
+#nolog
+#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#transform 6468
+#end
+#newevent --3--
+#rarity 5
+#req_fornation 37
+#req_targmnr 6457
+#req_nomnr 6469
+#nation -2
+#nolog
+#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#transform 6469
+#end
+#newmonster 6457
+#name "Knight of the Glade"
+#descr "A Knight of the Glade, gallant and bold, entrusted with special duties and honours.  Knights of the Glade who are commanders are eligible for a special seat if one is open."
+#spr1 "./summod/roundgeneric_1.tga"
+#spr1 "./summod/roundgeneric_2.tga"
+#hp 20
+#size 3
+#gcost 70
+#mr 14
+#mor 18
+#att 14
+#def 14
+#enc 4
+#mapmove 3
+#goodleader
+#ap 30
+#weapon 4
+#weapon 8
+#weapon 330
+#weapon 56
+#armor 18
+#armor 21
+#armor 3
+#maxage 80
+#mounted
+#heal
+#forestsurvival
+#inspirational 1
+#standard 1
+#itemslots 31878
+#end
+#newmonster 6469 --1 Lancelot--
+#copystats 6457
+#name "Knight of the Lake"
+#spr1 "./summod/roundlance_1.tga"
+#spr2 "./summod/roundlance_2.tga"
+#str 14
+#att 16
+#def 16
+#mor 20
+#size 3
+#holy
+#descr "A Knight of the Glade, gallant and bold, the Knight of the Lake is known for exceptional prowess in combat."
+#end
+#newmonster 6458 --2 Percival--
+#copystats 6457
+#name "Knight of the Chalice"
+#spr1 "./summod/roundperc_1.tga"
+#spr2 "./summod/roundperc_2.tga"
+#autohealer 1
+#size 3
+#holy
+#descr "A Knight of the Glade, gallant and bold, the Knight of the Chalice is trusted with healing the wounded."
+#end
+#newmonster 6459 --3 Degore--
+#copystats 6457
+#name "Knight of the Cup"
+#spr1 "./summod/rounddegore_1.tga"
+#spr2 "./summod/rounddegore_2.tga"
+#supplybonus 50
+#holy
+#size 3
+#descr "A Knight of the Glade, gallant and bold, the Knight of the Cup is entrusted with ensuring the troops are well-provisioned."
+#end
+#newmonster 6460 --4 Bedivere--
+#copystats 6457
+#name "Mighty Knight"
+#spr1 "./summod/roundbediv_1.tga"
+#spr2 "./summod/roundbediv_2.tga"
+#str 17
+#hp 23
+#holy
+#size 3
+#descr "A Knight of the Glade, gallant and bold, the Mighty Knight is among the strongest of his company"
+#end
+#newmonster 6461 --5 Kay--
+#copystats 6457
+#name "Knight of Recruits"
+#spr1 "./summod/roundkay_1.tga"
+#spr2 "./summod/roundkay_2.tga"
+#batstartsum1 57
+#holy
+#descr "A Knight of the Glade, gallant and bold, the Knight of Recruits mentors inexperienced knights."
+#size 3
+#end
+#newmonster 6462 --6 Galahad--
+#copystats 6457
+#name "Pious Knight"
+#spr1 "./summod/roundgala_1.tga"
+#spr2 "./summod/roundgala_2.tga"
+#size 3
+#holy
+#magicskill 8 2
+#descr "A Knight of the Glade, gallant and bold, entrusted with special duties and honours, the Pious Knight is among the holiest of his company."
+#end
+#newmonster 6463 --7 Bors--
+#copystats 6457
+#name "Fearless Knight"
+#spr1 "./summod/roundbors_1.tga"
+#spr2 "./summod/roundbors_2.tga"
+#size 3
+#mor 30
+#holy
+#descr "A Knight of the Glade, gallant and bold, the Fearless Knight is the bravest of his comrades."
+#end
+#newmonster 6464 --8 Gawain--
+#copystats 6457
+#name "Maidens Knight"
+#spr1 "./summod/roundgawa_1.tga"
+#spr2 "./summod/roundgawa_2.tga"
+#magicskill 6 1
+#holy
+#size 3
+#descr "A Knight of the Glade, gallant and bold, the Maiden Knight is known for his knowledge of herbs."
+#userestricteditem 1102
+#end
+#newmonster 6465 --9 Tristan--
+#copystats 6457
+#name "Courtly Knight"
+#spr1 "./summod/roundtrist_1.tga"
+#spr2 "./summod/roundtrist_2.tga"
+#size 3
+#holy
+#seduce 10
+#stealthy 0
+#descr "A Knight of the Glade, gallant and bold, entrusted with special duties and honours, the Courtly Knights manners are beyond reproach."
+#end
+#newmonster 6466 --10 Brunor--
+#copystats 6457
+#holy
+#name "Untiring Knight"
+#spr1 "./summod/roundbrun_1.tga"
+#spr2 "./summod/roundbrun_2.tga"
+#descr "A Knight of the Glade, gallant and bold, entrusted with special duties and honours, the Untiring Knight is not easily exhuasted in battle."
+#enc 2
+#size 3
+#end
+#newmonster 6467 --11 Hector--
+#copystats 6457
+#name "Passionate Knight"
+#holy
+#spr1 "./summod/roundhect_1.tga"
+#spr2 "./summod/roundhect_2.tga"
+#descr "A Knight of the Glade, gallant and bold, the Passionate Knight follows his heart into battle."
+#berserk 5
+#size 3
+#end
+#newmonster 6468 --12 Robin--
+#copystats 6457
+#name "Brave Knight"
+#spr1 "./summod/roundrobin_1.tga"
+#spr2 "./summod/roundrobin_2.tga"
+#mor 8
+#holy
+#size 3
+#batstartsum1d6 658
+#ap 35
+#descr "A Knight of the Glade, gallant and bold, entrusted with special duties and honours, the Brave Knight is renowned for his speed when combat is near."
+#end
+#newspell
+#copyspell 908
+#restricted 37
+#name "Bewitchment"
+#school 4
+#path 0 6
+#pathlevel 0 1
+#path 1 1
+#pathlevel 1 1
+#aoe 1000
+#range 25
+#fatiguecost 20
+#descr "With this spell, a Witch of Avalon can throw a group of enemy soldiers into confusion, causing them to treat friends as enemies and enemies as friends."
+#end
+#selectmonster 2439--logrian druid
+#end
+#selectmonster 60
+#fixedresearch 4
+#end
+#newmonster 6343
+#copystats 152
+#spr1 "./summod/bonded_1.tga"
+#spr2 "./summod/bonded_2.tga"
+#name "Bonded Mother of Avalon"
+#descr "As a Daughter of Avalon gains knowledge and responsibility, she is given three tests. When she passes them, she becomes a Mother and is given a green dress and religious authority. The Mothers are potent priest-enchantresses who travel the lands of Man searching for sites of magical power, guiding the common people in prayer and aiding commanders in battle. They are skilled at stealth and are able commanders in their own right. They are often accompanied by Wardens sworn to protect them. The Mothers, like all Witches of Avalon, are considered sacred by the populace of Man. The Mothers of Avalon are skilled in the magic of Air and Nature and many learn other arts on their travels. They can also use spellsongs once sung by the Sidhe of Tir na n'Og.  Mothers of Avalon can bond a warden to act as a permanant bodyguard, which may have benefits to their magical abilities as they travel.  This Mother of Avalon has bonded a Warden, who will fight alongside her in every battle, so long as she lives."
+#batstartsum1 65
+#userestricteditem 1102
+#end
+#newevent
+#rarity 5
+#nation -2
+#req_rare 7
+#nolog
+#msg "This Mother of Avalon has bonded a Warden to her service! He will never leave her side."
+#req_monster 65
+#req_targmnr 152
+#transform 6343
+#killmon 65
+#end
+#newspell
+#copyspell 611
+#name "Hex of Minerva"
+#descr "A Witch of Avalon can hex a small number of enemies, transfiguring them into animals."
+#aoe 1003
+#fatiguecost 100
+#researchlevel 7
+#pathlevel 0 2
+#range 5010
+#damage 1560
+#restricted 37
+#end
+#newspell
+#copyspell 598 --transformation
+#name "Transformation"
+#fatiguecost 500
+#researchlevel 6
+#restricted 37
+#end
+#selectspell 598 --transformation
+#fatiguecost 800
+#notfornation 37
+#end
+#newspell
+#copyspell 887
+#name "Slumber"
+#aoe 666
+#school 2
+#researchlevel 6
+#pathlevel 0 4
+#fatiguecost 100
+#damage 5010
+#restricted 37
+#descr "With this spell, a powerful witch makes all living units unnaturally tired."
+#end
+#newspell
+#copyspell 152
+#name "Base of Courage"
+#school -1
+#range 2
+#spec 140738030141568
+#end
+#newspell
+#copyspell 759
+#name "Blade of Morgan"
+#fatiguecost 20
+#aoe 1
+#school -1
+#end
+#newspell
+#copyspell 574
+#name "Defense of Morgan"
+#fatiguecost 20
+#aoe 1
+#school -1
+#nextspell "Blade of Morgan"
+#end
+#newspell
+#copyspell "Base of Courage"
+#name "Incantantion of Morgan"
+#researchlevel 6
+#school 1
+#path 0 2
+#path 1 6
+#pathlevel 0 1
+#pathlevel 1 2
+#fatiguecost 40
+#restricted 37
+#aoe 5
+#descr "The first and greatest of the Witches of Avalon crafted spells to aid their strongest champions.  Morgan ensorcelled her champions with the qualities of water, making them resistant to enemy weapons while allowing their blades to flow past enemy armor."
+#nextspell "Defense of Morgan"
+#end
+---
+#newspell
+#copyspell 867
+#name "Cloak of Niniane"
+#fatiguecost 30
+#aoe 1
+#school -1
+#nextspell "Mossbody"
+#end
+#newspell
+#copyspell "Base of Courage"
+#name "Aegis of Niniane"
+#researchlevel 5
+#school 4
+#path 0 6
+#path 1 8
+#pathlevel 0 3
+#pathlevel 1 1
+#fatiguecost 40
+#restricted 37
+#aoe 5
+#descr "The first and greatest of the Witches of Avalon crafted spells to aid their strongest champions.  Niniane called on the power of Avalon to shield her champions from the frost, fire, and lightning, though it would also keep them from harm for a time."
+#nextspell "Cloak of Niniane"
+#end
+---------------------------------------
+#newspell
+#copyspell 753
+#name "Armor of Isolde"
+#fatiguecost 30
+#aoe 1
+#school -1
+#nextspell "Earth Might"
+#end
+#newspell
+#copyspell "Base of Courage"
+#name "Fortification of Isolde"
+#researchlevel 3
+#school 4
+#path 0 3
+#path 1 6
+#pathlevel 0 1
+#pathlevel 1 2
+#fatiguecost 40
+#restricted 37
+#aoe 5
+#descr "The first and greatest of the Witches of Avalon crafted spells to aid their strongest champions.  Isolde chose to strengthen the arms and armor of her champions."
+#nextspell "Armor of Isolde"
+#end
+-------
+#newspell
+#copyspell 525
+#name "Block of Ygraine"
+#aoe 1
+#school -1
+#end
+#newspell
+#copyspell 536
+#name "Defense of Ygraine"
+#fatiguecost 20
+#aoe 1
+#school -1
+#nextspell "Block of Ygraine"
+#end
+#newspell
+#copyspell "Base of Courage"
+#name "Cloak of Ygraine"
+#researchlevel 3
+#school 1
+#path 0 1
+#path 1 6
+#pathlevel 0 2
+#pathlevel 1 2
+#fatiguecost 40
+#restricted 37
+#aoe 5
+#descr "The first and greatest of the Witches of Avalon crafted spells to aid their strongest champions. Ygraine chose to protect her chosen warriors from the weapons of their enemies, making them difficult to strike with sword or bow."
+#nextspell "Defense of Ygraine"
+#end
+#newitem
+#spr "./summod/Rowanstaff.tga"
+#constlevel 4
+#mainpath 6
+#mainlevel 2
+#secondarypath 1
+#secondarylevel 2
+#type 2
+#name "Rowan Staff"
+#descr "This staff has been crafted using wood from a great rowan tree in the Forest of Avalon and can only be used by one of its witches. It will empower her spells and make them more accurate and harder to resist, and allows her to easily confuse her enemies. "
+#weapon 238 -- Wand
+#prec 2
+#pen 2
+#restricted 37
+#restricteditem 1102
+#spell "Bewitchment"
+#end
+-------Xibalba
+#selectnation 58
+#descr "Xibalba is a vast realm of dark water-filled caverns beneath the forests of Mictlan. According to legend, the sun and the
+moon passed through the cavernous realm on their daily journey to the eastern horizon. On this journey they were guarded
+by the bat people, Zotz, that dwelled in the dark reaches of the Xibalban underworld. But the cavernous realm was struck
+by a great disaster. A star fell into the ocean and a great deluge flooded the caves of Xibalba. The bat people drowned or
+fled the caves, but other inhabitants soon emerged. The Zotz were replaced by refugees from the shattered Atlantis. The
+fallen star, or possibly the dark magic of Xibalba, changed the Atlantians. The atlantians of Xibalba developed more
+toadlike traits and different broods emerged. They called themselves Muuch, toad people. Their kings, the Bacabs, mighty
+mages of the deluge, conquered the last Xibalban city and built a Muuch kingdom in the caves underneath the forests of
+Mictlan. After a while the Muuch began to settle the forests above their caverns and a new brood of Muuch appeared. A
+brittle alliance of Muuch and Zotz has formed in the forests. Meanwhile the Bacabs hunted down the remaining Zotz hiding
+in dried-out caves and forced them into servitude. Now Xibalba is a Muuch kingdom with a small subjugated Zotz
+population.
+
+Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds recruitable in any fort while discounting them."
+#clearrec
+#addreccom 2718
+#addreccom 2717
+#addreccom 2716
+#addreccom 2715
+#addrecunit 2726
+#addrecunit 2725
+#addrecunit 2724
+#addrecunit 2723
+#addrecunit 2722
+#addrecunit 2721
+#addrecunit 2730
+#addrecunit 2731
+#forestrec 2734
+#forestrec 2727
+#forestrec 2735
+#forestcom 2728
+#forestcom 2682
+#cavecom 2719
+#caverec 2735
+#caverec 2734
+#uwunit1 2887
+#uwunit2 2888
+#uwcom1 2717
+#uwcom2 2716
+#uwcom3 2715
+#end
+#selectsite 177
+#clear
+#name "The Sacred Cenote"
+#path 2
+#level 0
+#rarity 5
+#gems 2 1
+#homecom 2732
+#end
+#selectmonster 2730 --poison dart thrower 
+#end
+#selectweapon 620 --poisondart
+#ammo 6
+#end
+#selectweapon 624
+#dmg 50
+#end
+#selectmonster 2731 --Obsidian Warrior
+#gcost 10017
+#end
+#selectmonster 2716 --Muuch Kuhul
+#gcost 10000
+#clearmagic
+#magicskill 2 1
+#magicskill 3 1
+#magicskill 5 1
+#magicskill 8 1
+#custommagic 4608 100
+#custommagic 13824 100
+#custommagic 13824 10
+#end
+#selectmonster 2734 --zotz
+#gcost 8
+#clearweapons
+#weapon 1415
+#end
+#selectmonster 2735 --zotz
+#gcost 8
+#end
+#selectweapon 619 --obs dart
+#ammo 6
+#end
+#selectmonster 2727 --jungle warrior
+#mapmove 2
+#end
+#selectmonster 2723 --light spear muuch
+#end
+#selectmonster 2724 --light obsword muuch
+#end
+#selectmonster 2725 --bronze spear muuch
+#gcost 10014
+#att 11
+#def 10
+#mor 11
+#end
+#selectmonster 2726 --bronze obsword muuch
+#gcost 10014
+#att 11
+#def 10
+#mor 11
+#end
+#selectnation 90 --oceania
+#descr "Oceania is an underwater realm of half-men. Since the Atlantians emerged from the deeps, the half-men have lost more
+and more of their former domains. Ravenous deep ones have consumed fish and kelp alike. The kelp groves have been
+desecrated and murky water has spread in the kelp. Only with the Fall of the Star was the Atlantian onslaught halted. The
+Starspawns of the Sunken City enslaved the Atlantians and consumed their will. During the war between Atlantis and
+R'lyeh, a new God emerged from the depths and the Capricorns able to muster their forces. Now it is time to reclaim the
+deeps and conquer the world. The Capricorns, wild mages of the sea and the shores lead the nation in the conquest of a
+sea once theirs. Sirens, mermaids with shapeshifting powers, who lure men to watery graves with their beautiful songs, aid
+them in conquering the shores.
+
+Summod improves Siren paths and improves the cost of icthytaurs."
+#end
+#selectmonster 1054 --siren
+#clearmagic
+#magicboost 1 -1
+#magicskill 1 1
+#magicskill 2 1
+#custommagic 768 100
+#end
+#selectmonster 1055 --sirenland
+#clearmagic
+#magicboost 2 -1
+#magicskill 1 1
+#magicskill 2 1
+#custommagic 768 100
+#end
+#selectmonster 2380 --ichtyaur
+#weapon 331
+#gcost 10035
+#end
+#selectmonster 2381 --ichtyaur
+#gcost 10035
+#end
+#selectmonster 2412 --ichtyaur
+#weapon 331
+#gcost 10035
+#end
+#selectmonster 2413 --ichtyaur
+#gcost 10035
+#end
+#selectmonster 2414 --ichtyaur
+#weapon 331
+#gcost 10040
+#end
+#selectmonster 2415 --ichtyaur
+#gcost 10040
+#end
+--------Eriu
+#selectnation 38
+#end
+--------Mictlan
+#selectnation 41
+#end
+#selectspell 340 --tlahuelpuchi
+#path 0 7
+#pathlevel 0 2
+#path 1 5
+#pathlevel 1 2
+#end
+#selectmonster 1558--tlahuelpuchi
+#noleader
+#end
+#selectspell  338  --summon civatetevo
+#path 0 7
+#pathlevel 0 2
+#path 1 5
+#pathlevel 1 0
+#end
+#selectmonster 1422 --civatetevo
+#douse 1
+#end
+#selectmonster 725 --sun warrior
+#hp 13
+#str 11
+#mapmove 2
+#gcost 10011
+#end
+---------Abysia
+#selectnation 45
+#descr "Abysia is a hot wasteland, at the center of which lies a great volcano whose lava-lit caverns are inhabited by
+magma-born humanoids. Their flesh radiates heat and they are not harmed by flames. Abysians are stronger
+than humans and prefer heavy armor and weaponry. Bows are not used, because they would burn to cinders in
+the glowing hands of the Abysians. The war machine of Abysia also includes Salamanders, lizardlike beings
+composed of the same hot lava-born flesh as the Abysians. Abysian Warlocks are very powerful Blood mages
+and skilled crossbreeders. The Anathemant Priests of the Flame Cult practice blood sacrifice to strengthen the
+power of the Awakening God. Abysians prefer to live in extremely hot places. They do not farm or hunt for a living,
+so their income and supplies are not affected by the Growth or Death scale of a province. However, population will
+still die slowly in Abysia-controlled provinces with Death scales.
+Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages are cheaper with more crosspaths, and 
+you can summon magma children, and cast a new, special crossbreeding spell.  The unafflicted demonspawn are especially 
+useful if made into commanders.  Also check out the new battefield wide fire boosting spell at conjuration 5."
+#end
+---------Ashdod
+#selectnation 55
+#end
+---notices
+
+
+--MA TC
+#selectmonster 788 --horseman (also EA tc)
+#gcost 10003
+#end
+--MA pythium
+#selectmonster 3 --serpent cat
+#gcost 10030
+#end
+#selectmonster 5 --serpent lord
+#gcost 10030
+#end
+--MA Ulm
+#selectmonster 70 --black lord
+#gcost 10025
+#end
+#selectmonster 69 --black knight
+#gcost 10025
+#end
+
+
+
+-------LA Nations
+
+#selectnation 80 --ragha
+#descr "Ragha is a dual kingdom of fire and ice, rage and serenity. Half of the population are Abysian descendants from the isolated colony of
+Tur, and half the population are Airyan refugees from Caelum. Tur was a distant and prosperous Abysian colony founded after a
+successful military campaign against the giants of Ashdod. But the war with Ashdod had been taxing and the colony was cut off from the
+kingdom by a Arcoscephalean campaign through the fertile lands previously conquered from the giants. For centuries Tur was left alone
+and an independent kingdom formed. Then came the Caelians. A great host of iceclad warriors descended upon the Turan armies on the
+plain of Ragha in the mid of winter. The Turan Shah realized that Tur could not stand up to the Caelians for long. Tur was on the brink of
+destruction when the attacks suddenly stopped. Civil war had broken out in Caelum and the campaign was aborted. Instead Caelian
+refugees and deserters settled on the plain of Ragha. Airyan Seraphs approached the Turan Shah and peace was negotiated. When the
+Harab Seraphs of Caelum attacked, the Airyas were saved by the Gryphon riders of Tur. This sealed the truce and a strange alliance was
+formed. Ragha is now a society of two peoples united out of necessity. During winter the Airya reigns and during summer the Tur reigns.
+Even faith has evolved to mimic the legacy of the two peoples. Two different groups of beings are adored and worshipped. But this is
+starting to change. The One True God has arisen. The peoples of Ragha suffer less from hot or cold climates than other nations.
+
+Ragha is nerfed by summod. Your units are generally more expensive, and if a Zhayedan rider falls, it costs gold to replace him, though the unit stays in the field.  Your PD is also made of lower tier units."
+#defunit1 2579
+#defunit2 2580
+#defmult1 25 --paighans makeup more of the pd
+#defmult2 10 --turan infantry  make up less of it
+#end
+
+#newmonster 6316 --zhayedan cost 40 gold each time they die
+#copystats 2628
+#copyspr 2628
+#gold -40
+#size 5
+#end
+#selectmonster 2628
+#firstshape 6316
+#gold -40
+#end
+
+#selectmonster 2599 --karapan
+#gcost 10020 --100 gold to 110 gold
+#end
+
+#selectmonster 2601 --turan sorceror
+#heatrec 2
+#gcost 10060 -- 225 gcost->265 gcost
+#end
+
+#selectmonster 2602 --athravan
+#coldrec 1
+#end
+
+#selectmonster 2604 --airya seraph
+#coldrec 2
+#gcost 10050 --225 gcost to 265 gcost
+#end
+
+#selectmonster 2579 --paighan
+#mor 8
+#end
+
+#selectmonster 2580 --turan infantry
+#gcost 10012
+#end
+
+#selectmonster 2581 --turan heavies
+#gcost 10014
+#end
+
+#selectmonster 2586 --turan war elephant
+#gcost 10110
+#end
+
+#selectmonster 2589 --airya archer
+#gcost 10011
+#end
+#selectmonster 2590 --airya light infantry
+#gcost 10011
+#end
+#selectmonster 2591 --airya infantry
+#gcost 10011
+#end
+
+--xibalba
+#selectnation 81
+#descr "Xibalba is a vast realm of dark caverns beneath the forests of Mictlan. Living in the caverns were the bat people, Zotz, but
+that changed when the cavernous realm was struck by a great disaster. A star fell into the ocean and a great deluge
+flooded the caves of Xibalba. The Zotz were almost wiped out and their realm was conquered by atlantian refugees. For a
+long time the toad people ruled Xibalba and became powerful. Eventually the Bacabob left the caverns to conquer the sunlit
+world. There they met Mictlan and the Lawgiver. The humans were more numerous and while the Xibalban Bacabob
+were mighty, they could not prevent the death of their kin. Slowly the Xibalbans were decimated and the Bacabob withdrew
+into the flooded city and fell into a centennial torpor. When the caves begun to dry up the Zotz started to return in numbers.
+In the still waterfilled depths of Xibalba the Zotz priests found and unwittingly awoke the Bacabob. Now the Zotz once more
+inhabit their ancestral home, but serve the divinities of subterranean waters and the Awakening God.
+
+Xibalba is nerfed by summod.  Bats are more expensive.  Foreign recruit commanders are slow to recruit.  Beastbats are weaker."
+#clearrec
+#addreccom 2675
+#addreccom 2676
+#addreccom 2748
+#addreccom 2750
+#addreccom 2751
+#addreccom 2753
+#addreccom 6346
+#addreccom 6315
+#addrecunit 2738
+#addrecunit 2739
+#addrecunit 2740
+#addrecunit 2741
+#addrecunit 2742
+#addrecunit 2744
+#addrecunit 2745
+#addrecunit 2746
+#forestcom 2751
+#forestrec 2738
+#forestrec 2739
+#caverec 2739
+#caverec 2738
+#uwunit1 2889
+#uwunit2 2890
+#uwcom1 2748
+#uwcom2 2891
+#end
+#selectmonster 2750 --chilan cave
+#slowrec
+#gcost 180
+#end
+#newmonster 6315 --chilan fort
+#copystats 2750
+#noslowrec
+#copyspr 2750
+#gcost 180
+#end
+#selectmonster 2782 --batab cave or forest
+#slowrec
+#gcost 40
+#end
+#newmonster 6346 --Batab fort
+#copystats 2782
+#copyspr 2782
+#noslowrec
+#gcost 40
+#end
+#selectmonster 2738
+#clearweapons
+#weapon 1415
+#gcost 10008
+#end
+#selectmonster 2739
+#gcost 10008
+#end
+#selectmonster 2740
+#gcost 10009
+#end
+#selectmonster 2741
+#clearweapons
+#weapon 1415
+#end
+#selectnation 71
+#end
+
+--la abysia
+#selectnation 71
+#descr "When the Warlocks began their horrible breeding experiments, they unknowingly spelled the doom of Abysia.
+But it was not the Demonbreds that posed a threat. The real threat came from the Humanbreds, who where
+multiplying and swarming the kingdom like vermin. Now the heat of the Smouldercone is faltering with the
+declining number of pure Abysians and magic is seeping from the land. Other sources of magic are needed
+and the Blood Cult of ancient times is renewed with fervor. Pureblooded Abysians, now rare, serve as priests
+and sacred warriors.
+
+Your heavy armor is less encumbering, fire mages are cheaper with more crosspaths, and you can cast a new, special crossbreeding spell.  The unafflicted demonspawn are especially useful if made into commanders.  Also check out the new battefield wide fire boosting spell at conjuration 5."
+#end
+#selectmonster 991 --newt
+#gcost 10000
+#end
+#selectmonster 1969 --anathemant salamander
+#custommagic 7296 20
+#gcost 10005
+#end
+#selectmonster 1970 --anathemant dragon
+#custommagic 7296 20
+#gcost 10010
+#end
+
+--LA Agartha
+#selectnation 70
+#descr "In dark caverns under the Roots of the Earth a strange kind of one-eyed humanoids once evolved. Untouched
+by the sun, they became known to humans as the Pale Ones. When humans first met these pale giants,
+it was in war. With the destruction of the false god of the Pale Ones, an ancient seal was broken and vast
+powers of destruction were released. The Pale Ones were almost wiped out of existence and humans could move
+down into the caverns of Agartha. Here they found fabulous riches and ancient secrets. The humans replaced the
+Pale Ones and now all Agarthans are pale-skinned humans with large eyes. Everything left by the Ancients
+became subject to worship in Agartha. At first, statues of the Ancients were adored and animated by the Golem
+Crafters, but most of the statues were destroyed during the great war and new forms of worship have evolved. The
+mummified remains of the now-extinct Pale Ones are worshipped and reanimated by necromancer-priests. While
+the mummies of Pale Ones are sacred, the human dead are not treated with the same respect. Used for menial
+tasks and warfare, the dead of Agartha now walk side by side with the living.
+
+Summod makes blindlords much cheaper, and servant of oracles become mapmove 2."
+#end
+#selectmonster 1443 --servant of oracles
+#mapmove 2
+#end
+#selectmonster 1444 --blindlord
+#gcost 10025
+#magicskill 8 1
+#okleader
+#inspirational 1
+#end
+#selectmonster 1437
+#str 12
+#end
+#selectmonster 1450
+#gcost 90
+#end
+
+--LA Arco
+#selectmonster 1554 --agema commander
+#gcost 10015
+#end
+#selectmonster 1553 --companion
+#gcost 10015
+#end
+
+--LA Ulm
+#selectmonster 738 --black templar
+#gcost 10025
+#end
+#selectmonster 1237 --hochmeister
+#gcost 10000
+#end
+
+--la tc
+#selectmonster 938 --barb horse
+#gcost 10002 --3 gold discount to 17
+#end
+
+#selectmonster 930 --khan
+#gcost 10015 --10 gold discount
+#end
+
+--LA Marignon
+#selectnation 65
+#startunittype1 2110
+#startunittype2 2108
+#end
+
+--#selectmonster 6474 -goetic master campaignshape
+--#copystats 745
+--#copyspr 745
+--#masterrit 1
+--#shrinkhp 1000
+--#end
+
+--#selectmonster 6475 -goetic master battleshape
+--#copystats 745
+--#copyspr 745
+--#firstshape 6474
+--#end
+
+--#selectmonster 745 -goetic master recshape
+--#masterrit 1
+--#firstshape 6474
+--#end
+
+
+--LA Man
+#selectnation 63
+#descr "The realm of Man is a feudal kingdom. Their kingdom was established by conquering a race of tall and
+magically powerful beings known as the Tuatha. When the Tuatha were destroyed, their magic was taken
+by the Witches of Man. They helped Man to grow in power and influence, but with the great magic came a
+great Curse and the Witches dwindled in number and magic left the kingdom. To contain the Curse, the
+Old Magic was banned and a scholarly order of Magisters replaced the Witches of Avalon and their wild
+ways. The infantry of Man has evolved since the Age of Avalon and the crossbow is common, but knights
+and longbowmen still make up a large part of the armies. The Wardens of Avalon have escaped the Curse
+and are the only remnant of the Old Ways.
+
+Man is changed by summod.  Right now, magisters and judges have better paths and don't require labs.  Magisters are also garanteed researchers, and more of your units are mapmove 2."
+
+#end
+#selectmonster 1644 --magister
+#gold 10020
+#clearmagic
+#fixedresearch 5
+#custommagic 1280 40
+#custommagic 2048 50
+#end
+
+#selectmonster 1645 --judge
+#clearmagic
+#custommagic 128 45
+#custommagic 4096 45
+#gcost 10020
+#end
+
+#selectmonster 1646 --magister arcane
+#castledef 10
+#siegebonus 10
+#end
+
+#selectmonster 1641 --tower knight
+#gcost 10020
+#end
+
+#selectmonster 1648 --warden
+#mapmove 2
+#end
+#selectmonster 1666 --lord warden
+#mapmove 2
+#end
+
+#selectmonster 1578
+#mapmove 2
+#end
+
+#selectmonster 2452 --heavy axemen
+#mapmove 2
+#end
+
+
+--jomon
+#selectnation 69
+#descr "The rice fields of Jomon were the first to be attacked by the Bakemono onslaught. After years of slavery
+and mistreatment, the human inhabitants rebelled as the Bakemono had once rebelled against their Oni
+masters. One by one the Bakemono tribes were replaced by human Daimyos and their sworn warriors.
+A strict, feudal warrior society replaced the disorganized rule of the Bakemono Kings. Even war has become
+ritualized and peasants are left largely in peace. With the coming of the God, the Daimyos have joined forces
+and look for other realms to conquer.
+
+Summod buffs Jomon.  Please observe your new Ashigaru archer, cheaper cavalry (now with bows), and general stat improvements.  The spells of the five fold path are more effective, and scale.  Please also note that all of your summons are much cheaper, and Tatsu are now level 3 mages, instead of level 2."
+#end
+#newmonster 6309 -- ashigaru archer
+#copystats 1238
+#name "Ashigaru Archer"
+#copyspr 1312
+#clearweapons
+#weapon 377
+#weapon 23
+#end
+#selectmonster 1246 --samurai cav
+#spr1 "./summod/SamuraiCav_1.tga"
+#spr2 "./summod/SamuraiCav_2.tga"
+#gcost 10015
+#weapon 24
+#end
+#selectmonster 1250 --mounted gokenin
+#spr1 "./summod/MountGokenin_1.tga"
+#spr2 "./summod/MountGokenin_2.tga"
+#gcost 10000
+#weapon 24
+#end
+#selectmonster 1251 --Hatamoto
+#spr1 "./summod/hatamoto_1.tga"
+#spr2 "./summod/hatamoto_2.tga"
+#gcost 10000
+#weapon 24
+#end
+#selectmonster 1253 --Daimyo
+#gcost 10000
+#end
+#selectmonster 1239 --samurai archer
+#hp 10
+#end
+#selectmonster 1240 --samurai
+#hp 10
+#end
+#selectmonster 1241 --samurai
+#hp 10
+#end
+#selectmonster 1243  --oban
+#end
+#selectmonster 1244 --goatamato
+#end
+#selectmonster 1245 --akaoni sam
+#gcost 10014
+#end
+#selectmonster 1247 --sohei
+#gcost 10016
+#end
+#selectmonster 1248 --yamabushi
+#gcost 10016
+#end
+#selectmonster 2098 --fivefold path
+#custommagic 10112 20
+#end
+#selectspell 183 --meditation sign
+#damage 5015
+#end
+#selectspell 182
+#range 5010
+#end
+#selectspell 181
+#range 5000
+#end
+#selectspell 180
+#aoe 2002
+#end
+#selectspell 189 --tatsu
+#fatiguecost 2500
+#end
+#selectmonster 2099 --tatsu
+#clearmagic
+#custommagic 10112 300
+#end
+#selectnation 69
+#addrecunit 6309
+#end
+
+--Bogarus
+#selectnation 77
+#end
+#selectmonster 1922 --Grdi Druzhina
+#gcost 10010
+#end
+#selectmonster 1923 --Malaia Druzhina
+#gcost 10020
+#end
+#selectmonster 1924 --styag
+#gcost 10015
+#ap 20
+#end
+#selectmonster 1925 --black hood
+#gcost 10000
+#end
+
+
+#selectnation 74-- LA PAN
+#descr "Pangaea is a woodland nation inhabited by wild beings connected with nature. Halfmen such as satyrs,
+centaurs and minotaurs serve the lords of the Sacred Groves deep in the forests. In ancient times, the
+woods covered much of the world, but that has changed. Civilization has finally reached the forests of
+tempered steel. Ancient cultic practices have all but disappeared and human females once attracted to the
+wild dances and songs no longer seek the revelry of the Panic tunes.
+
+Summod slightly changes Pangaea.  Some of your troops, primarily minotaurs, are slightly cheaper.  Pans have slightly better randoms."
+#end
+
+#selectmonster 702--minotaur  5 gold discount
+#gcost 10045
+#end
+
+#selectmonster 700 --minotaur  5 gold discount
+#gcost 10035
+#end
+
+--note: These next 3 are ea, ma pan/aspho changes for consistency with minotaur changes
+#selectmonster 235--minotaur  5 gold discount
+#gcost 10045
+#end
+
+#selectmonster 234--minotaur  5 gold discount
+#gcost 10035
+#end
+
+#selectmonster 1533--minotaur  5 gold discount
+#gcost 10035
+#end
+
+#selectmonster 706 --Pan random increased to 30%
+#clearmagic
+#magicskill 3 2
+#magicskill 6 3
+#custommagic 29696 30
+#end
+
+
+-------------popkill
+--Spectral changes -- spectral weapons mr negates, except for supaya
+
+#selectnation 62 --lemuria
+#descr "With the second fall of Ermor, hope finally came to the Scelerian remnants of the ancient empire. The fear
+of the dead ceased and undead legions were no longer needed. Instead, the soulless were put to menial
+labor. But the thaumaturgs turn their attention elsewhere. The common people became ever more
+dissatisfied. Some soulless slaves still toiled the land, but with the thaumaturgs less interested in
+reanimating slaves for the populace, the common men felt abandoned. Demands were made that the
+thaumaturgs should provide slaves to keep the kingdom going. The conflict escalated, and finally, in an
+act of remarkable hubris, the thaumaturgs decided to settle the problem once and for all. In a great
+ceremony, every thaumaturg in the kingdom joined a communion and poured their souls into a ritual that
+would open a gate to the underworld, so that the dead might willingly return to the land of the living as
+workers and farmers. The ritual succeeded, in a way. The gate opened, but the lower souls of the
+thaumaturgs were ripped apart and swallowed by the gate. And from the gate emerged not dead servants,
+but a spectral host of legionnaires and shadows. Now the land is slowly withering and falling under the
+dominion of a god of darkness. Ghosts and spectral legions reclaim a land once theirs, and the shattered
+souls of the former thaumaturgs are mustering the shadows and memories of a glorious past.
+
+Summod substantially changes Lemuria. Your forts are those of middle age, yet are more expensive, as ghosts are bad at building.  Your capital produces fewer gems, but the lands that fall under your sway may produce more instead.  Spectral weapons are harder to resist, and your acolytes have better magic."
+#fortcost 50
+#fortera 2
+#startcom 678
+#startscout 6345
+#startunittype1 672
+#startunitnbrs1 10
+#startunittype2 673
+#startunitnbrs2 10
+#defcom1 678
+#defcom2 2333
+#end
+
+#newevent 
+#req_fornation 62
+#nation -2
+#rarity 5
+#req_rare 20
+#nolog
+#notext
+#req_owncapital 1
+#req_maxturn 12
+#req_nomonster 678
+#com 678
+#end
+
+#newevent 
+#req_fornation 62
+#nation -2
+#rarity 5
+#req_rare 40
+#req_owncapital 1
+#req_nomonster 678
+#req_maxturn 15
+#nolog
+#notext
+#com 681
+#end
+
+#newmonster 6345 --acolyte
+#copystats 2333
+#copyspr 2333
+#clearmagic
+#magicskill 5 2
+#holy
+#magicskill 8 1
+#end
+#selectsite 158
+#gems 5 5
+#end
+#selectsite 159
+#gems 5 9
+#end
+#selectmonster 2333
+#clearmagic
+#magicskill 5 1
+#holy
+#custommagic 6144 100
+#magicskill 8 1
+#end
+#newevent #rarity 5 #nation -2 #req_fornation 62   #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
+#msg "Purification destroyed. [Purified Deadland]." #removesite 1803 #nolog #notext  #addsite 1802  #end
+#newevent #rarity 5 #nation -2 #req_fornation 62   
+#req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1
+#msg "Carrionland destroyed. [Carrionland]." #removesite 1804 #nolog #notext  #addsite 1802  #end
+#newevent #rarity 5 #nation -2 #req_fornation 62   
+#req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
+#msg "Dreamland destroyed. [Dreamland]." #removesite 1805 #nolog #notext  #addsite 1802  #end
+
+#newevent #req_freesites 1 #rarity 5  
+#req_fornation 62 #req_land 1
+#nation -2 #req_pop0ok #req_capital 0 
+#req_unique 5 #req_site 0 #addsite -1  
+#msg "Deadland Created. [Deadland]" #nolog #notext  #end
+
+#newevent #req_freesites 1 #rarity 5  #req_fornation 62   #req_land 1
+#nation -2 #req_pop0ok #req_capital 0 #req_maxpop 130 #req_dominion 2 #req_site 0 #addsite -1
+#msg "Deadland Created. [Deadland]"   #nolog #notext #req_unique 35 #end
+
+
+#selectnation 92 --rlyeh
+#descr "In ages past, a distant star inhabited by a great race of strange, alien beings was struck with an
+unimaginable catastrophe. The star fell from the heavens, breaking into tiny shards. One such shard fell
+through the Spheres and down upon the world. The shard came to rest on the ocean floor and there a
+remnant of this great race adapted and survived. They multiplied and enslaved a race of fishlike humanoids
+by sheer strength of mind and conquered the underwater realms of the world
+In the halls of R'lyeh the Starspawns, the Great Ones who survived the Fall opened a gate into the Void and
+unleashed its horrors upon the world. But the Void was not to be controlled even by the Starspawns. The
+very fabric of the Veil was weakened and madness struck the inhabitants of mighty R'lyeh. Only the most
+powerful of the Starspawns were able to keep their minds intact. The Empire crumbled as insanity took the
+leaders and the former slaves and servants of the Empire were able to lift the yoke of R'lyeh
+But now a God is awakening, and it is a God Dreaming of the Void. Mind-defying Dreams of the Sleeping
+God are plaguing the inhabitants of coastal and underwater cities and with the Dreams come the horrors.
+Strange, cannibalistic cults worshipping the Void call them from Beyond. The Dreamlands of R'lyeh threaten
+to destroy the world.
+All coastal forts of R'lyeh have a special well where women can submerge themselves in the hope of being
+impregnated by a Great One. However, most will be taken by Deep Ones instead and the women's offspring
+will be strange, fishlike humanoids instead of the noble Starchildren they wanted. These half-human hybrids
+are usually devoted to the cause of putting mankind below the sea and often join the army of R'lyeh free of
+charge.
+
+Summod changes Rlyeh.  Your freespawn are upkeep free and can be stationed in provinces to produce extra resources. Templed coastal provinces under the sway of the Dream may produce pearls. Starspawn can open new Voidrifts in underwater forts under the sway of the Dream."
+#end
+
+
+#newsite 1818
+#name "Void Rift"
+#path 4
+#level 0
+#rarity 5
+#voidgate 20
+#end
+
+#newmonster 6413
+#copystats 757
+#copyspr 757
+#name "Voidrift Sacrifice"
+#landdamage 75
+#uwdamage 75
+#firstshape 757
+#end
+
+#newevent
+#req_pop0ok
+#rarity 5
+#nation -2
+#req_fornation 92
+#req_freesites 1
+#req_nositenbr 1818
+#req_dominion 3
+#req_monster 6413
+#msg "The ritual has succeeded!  A rift in reality has been created!"
+#nolog
+#addsite 1818
+#end
+
+#newspell
+#name "Sunder Reality"
+#descr "A starspawn attempts to create a connection to the void, a dangerous ritual that can only happen in a fort where the Dream holds sway"
+#school 5
+#researchlevel 6
+#fatiguecost 1000
+#path 0 4
+#path 1 2
+#pathlevel 0 5 -- change
+#pathlevel 1 2 --change
+#restricted 92
+#effect 10001
+#provrange 1
+#nowatertrace 1
+#nolandtrace 1
+#damage 6413
+#end
+
+
+#newsite 1805
+#name "Dreamland"
+#path 5 
+#level 0
+#rarity 5
+#decscale 5
+#gems 5 1
+#end
+#newevent #req_freesites 1 #rarity 5  
+#req_fornation 92 #nation -2 
+#req_pop0ok #req_capital 0 
+#req_maxpop 100 
+#req_dominion 5 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1 
+#msg "Purified Deadland reclaimed. [Purified Deadland]." #removesite 1803 #nolog #notext #end
+#newevent #req_freesites 1 #rarity 5  
+#req_fornation 92 #nation -2 
+#req_pop0ok #req_capital 0 
+#req_maxpop 100 
+#req_dominion 5 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1 
+#msg "Deadland reclaimed. [Deadland]." #removesite 1802 #nolog #notext #end
+#newevent #req_freesites 1 #rarity 5  
+#req_fornation 92 #nation -2 
+#req_pop0ok #req_capital 0 
+#req_maxpop 100 
+#req_dominion 5 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1
+#msg "Carrionland reclaimed. [Carrionland]." #removesite 1804 #nolog #notext #end
+#newevent #req_freesites 1 #rarity 5  #msg "Dreamland Created. [Dreamland]."
+#req_fornation 92 #nation -2 
+#req_pop0ok #req_capital 0 
+#req_maxpop 100 
+#req_dominion 1 #req_rare 10 #req_temple 1 #req_fort 0 #req_coast 1 #req_nositenbr 1805  #addsite 1805  
+#nolog #notext #end
+#newevent #req_freesites 1 #rarity 5 #msg "Dreamland Created." 
+#req_fornation 92 #nation -2 
+#req_pop0ok #req_capital 0 
+#req_maxpop 100 
+#req_dominion 5 #req_temple 1 #req_fort 0 #req_coast 1 #req_nositenbr 1805 #addsite 1805  
+#nolog #notext #end
+#newevent
+#rarity 5
+#nation -2
+#nolog #notext
+#req_site 1
+#msg "Deadland. [Deadland]."
+#end
+#newevent
+#rarity 5
+#nation -2
+#nolog #notext
+#req_site 1
+#msg "Reclaimed. [Purified Deadland]."
+#end
+#newevent
+#rarity 5
+#nation -2
+#nolog #notext
+#req_site 1
+#msg "Carrion [Carrionland]."
+#end
+#newevent
+#rarity 5
+#nation -2
+#nolog #notext
+#req_site 1 
+#msg "Dreamland. [Dreamland]."
+#end
+#selectmonster 962
+#gcost 0
+#end
+#selectmonster 963
+#gcost 0
+#end
+#selectmonster 1007
+#gcost 0
+#end
+#selectmonster 1009
+#gcost 0
+#end
+#selectmonster 1563
+#end
+#selectmonster 1564
+#gcost 0
+#end
+#selectmonster 1566
+#gcost 0
+#resources 1
+#end
+#selectmonster 1567
+#gcost 0
+#resources 1
+#end
+#selectmonster 1568
+#gcost 0
+#resources 1
+#end
+#selectmonster 1569
+#gcost 0
+#resources 1
+#end
+#selectmonster 1570
+#gcost 0
+#resources 1
+#end
+#selectmonster 1571
+#gcost 0
+#resources 1
+#end
+#selectmonster 1572
+#gcost 0
+#resources 1
+#end
+#selectmonster 1573
+#gcost 0
+#resources 1
+#end
+#selectmonster 1574
+#gcost 0
+#resources 1
+#end
+#selectmonster 1575
+#gcost 0
+#end
+#selectmonster 1576
+#gcost 0
+#resources 1
+#end
+#selectmonster 1639
+#gcost 0
+#end
+#selectmonster 1640
+#gcost 0
+#end
+
+
+#selectnation 61 --LA Pythium
+#descr "The Emerald Empire of Pythium was a splinter empire of the great Empire of Ermor. As dark arts were
+practiced in the heart of the Empire, the stars warned the Theurgs of Pythia to flee the impending doom.
+They led Pythia away from the falling Empire and formed an imperial theocracy under their wise rule. As
+Ermor slowly crumbled, the Emerald Empire struggled to keep the old Ermorian provinces under their rule.
+From these provinces came strange cults and foreign beliefs. Just as Ermor was seduced by the C'tissian
+cults of Death, the Pythians were fascinated by the exotic practices of the lizardmen. With shadows
+lingering near, the C'tissian cults were particularly seductive. No other people had such knowledge of Death
+and the dead. The popularity of the Theurgs diminished and the Serpent Cult gradually replaced the old
+state cult. But the Serpent Cult was not the only foreign cult that got a foothold in the Empire. Heretical
+mystery cults flourish and threaten to cast the Empire into disorder. Pythium uses a reformed
+legionnaire army with frontier soldiers and mobile field troops. The Serpent Cataphracts have received
+special status and they have become the most respected force in the Empire.
+
+Summod dramatically changes pythium. Prophetizing a Serpent Priest, Heliodromus, Reveler, or Epoptes will 
+cause your god to endorse one of three cults, each with special abilities.  The serpent cult's adherents 
+transform into serpents, protecting allies from poison, and can recruit hydras and assassins everywhere.  
+The Sun Cult can recruit sacred warriors, summon sacred bulls, buff fire resistant troops, and transform Leos 
+into mighty champions with special equipment. They also receive additional bonuses under the appropriate 
+global.  The cult of fertility has special blood magic, and can send monsters after their enemies - or 
+transform intomonsters themselves. Troops are generally improved, too. Refer to the Syncretism changelog 
+for more detail."
+#end
+
+
 #newevent
 #rarity 5
 #msg "Thank you for playing summod.  This message exists to alert you to that all national changes replace the normal nation descriptions, making it easy to look up what has been changed to your nation and to others whom you're vying with for Pantokratordom. This message will be saved to the province history of every province for convenience."
 #req_maxturn 1
 #req_indepok 1
-#end
-
-#selectnation 5 --EA Arco
-#descr "Myrmidons+Myrmidon Commanders Enc 9->7 AP 6->8
-
-Chariots+Chariot Commanders Def 15->16"
-#end
-
-#selectnation 6 --EA Ermor
-#descr "Centurian Def 12->13 Enc 5->4 AP 10->11
-
-Triarii Def 12->13 Enc 10->8 AP 5->7
-
-Equite Gold 35->30
-
-Equite of the Sacred Shroud Gold 50->45
-
-Legatus Legionis Def 13->14 Enc 5->4 AP 10->11"
-#end
-
-#selectnation 7 --EA Ulm
-#descr "Great Bear +Bite (Dmg 2, def-1)
-
-Iron Warriors Dmg 9->10
-
-Warrior Smith Dmg 9->10"
-#end
-
-#selectnation 8 --EA Marverni
-#descr "Eponi Chieftain Gold 100->95 +Hoof (Dmg 13, NoStr)
-
-Eponi Knight Gold 30->25 +Hoof (Dmg 13, NoStr)"
-#end
-
-#selectnation 9 --EA Sauromatia
-#descr "Lancer Gold 20->17
-
-Raider Gold 20->17
-
-Sauromatian Lancer Gold 25->22
-
-Sauromatian Raider Gold 25->22
-
-Sauromatian Cataphract Gold 35->30
-
-Warrior Priestess Gold 135->110
-
-Warrior Queen Gold 175->145
-
-Androphag Gold 75->50
-
-Manflayer Gold 155->135
-
-Oiorpata Gold 50->35
-
-Warrior Sorceress Gold 185->155 Leadership 80->40 100%NWDB->100%NWB
-
-Hydra Gold 250->180 +Recuperation
-
-Hydra Hatchling Gold 35->28 +Recuperation"
-#end
-
-#selectnation 10 --EA Tien Chi
-#descr "Horsemen Gold 20->18
-
-Internal Alchemy Gcost 10->2
-
-Celestial Servant Gcost 3->2"
-#end
-
-#selectnation 11 --EA Machaka
-#descr "Machaka Chief +Foreign Rec
-
-Pygmy +Forest Rec
-
-Machaka Militia +Foreign Rec
-
-Machaka Warrior Wep Spear->Machakan Spear (Dmg 3->5 Len 4->5 Def 0->-1 Rcost +1) Gold 10->8
-
-Rhino Clan Commander Res 13->12 Att 10->11
-
-Lion Clan Commander Res 8->7 Att 11->12
-
-Voice of Lion Dmg 5->6
-
-Spider Clan Sorcerer - StR
-
-Spider Clan Archer Gold 15->12
-
-Spider Clan Warrior +Furs (ProtBody 0->7, Def 13->12 Enc 3->4 AP 12->11)
-
-Rhino Clan Warrior Res 13->12 Att 9->10
-
-Lion Clan Warrior Res 7-> Att 10->11
-
-Spider Rider Size 5->4 Gold 50->35
-
-Great Spider Gold 0->20 Size 5->4 Str 11->16 MR 5->8
-
-Pride of Lions 10++->13+++"
-#end
-
-#selectnation 12 --EA Mitclan
-#descr "Sun Warrior MM 1->2 Hp 12->13 Str 10->11 Gold 18->14
-
-Beast Bat CastleDef 0->-1
-
-Civateteo Douse 0->1
-
-Contact Civateteo B2D2->B2
-
-Contact Tlahuelpuchi B2->B2D2"
-#end
-
-#selectnation 13 --EA Abysia
-#descr "Abysian Infantry & Warlord & Beast Tamer & Burning One  Enc -2 Def +1 Ap +2
-
-Anointed of Rhuax Douse 0->1 10%FSEB->50%FSEB
-
-Scorpion Man Def 14->15 Enc 5->4 Ap 10->11 +BodySlot
-
-Misbred Douse 0->1
-
-Anathemant Salamander +10%ESDB Gold 175->150
-
-Anathemant Dragon +50%ESDB StartAge 35->31 Gold 265->240
-
-Contact Scorpion Man Unit->Commander
-
-Pride of Lions 10++->13+++
-
-Children of Rhuax (Conj 3, F4E1, 5 Magma Children, 2 Fire Gems)
-
-Abysian Crossbreeding (Blood 3, B1S1, 15++++++++++ crossbred, 15 slaves)
-
-Improved Abysian Crossbreeding (Blood 8, B2S2, 35+++ crossbred, 22 slaves)
-
-GoRing Crossbreeds can result in bloodhunters or assassins if they have no aflictions."
-#end
-
-#selectnation 14 --EA Caelum
-#descr "Tiger +Stealth
-
-Ambush of Tigers 10++->14++
-
-Blizzard Warrior Dmg 9->11"
-#end
-
-#selectnation 15 --EA C'tis
-#descr "Serpent Dancer Att 12->13 Dmg 3->5 SecPois 5->15
-
-Scorpion Man Def 14->15 Enc 5->4 Ap 10->11 +BodySlot
-
-Contact Scorpion Man Unit->Commander
-
-Shaman Prophetised +Magicboost (S1N1)
-
-Pride of Lions 10++->13+++"
-#end
-
-#selectnation 16 --EA Pangaea
-#descr "Literally no national changes"
-#end
-
-#selectnation 17 --EA Agartha
-#descr "Cavern Guard Dmg 9->10
-
-Engraver Hammer->Stone Knife
-
-All weapons replaced with non-rusting verions
-
-UW Ancient Wet Ones keep their spear"
-#end
-
-#selectnation 18 --EA Tir na n'Og
-#descr "Literally no national changes"
-#end
-
-#selectnation 19 --EA Fomoria
-#descr "Literally no national changes"
-#end
-
-#selectnation 20 --EA Vanheim
-#descr "Dwarven smith Dmg 7->8
-
-Draug Def 14->15
-
-Great Bear +Bite (Dmg 2, def-1)
-
-Summon Valkyries Nmb 7->10
-
-Awaken Draug Cost 12->10"
-#end
-
-#selectnation 21 --EA Helheim
-#descr "Draug HP 30->40 Str 14->15 Def 14->16 Prot 15->16 Att 12->13 shrkhp 20->25
-
-Helkarl +100%DW +10%D Gold 165->215 Ldr 80->40
-
-Svartalf Dmg 7->8
-
-Great Bear +Bite (Dmg 2, def-1)
-
-Summon Valkyries Nmb 7->10
-
-Awaken Draug Cost 12->10
-
-Rouse Draugar (Conjuration 8, D4A1, 14++ Draug, 30 Death Gems)"
-#end
-
-#selectnation 22 --EA Niefelheim
-#descr "Draug Def 14->15
-
-Great Bear +Bite (Dmg 2, def-1)
-
-Awaken Draug Cost 12->10"
-#end
-
-#selectnation 25 --EA Kailasa
-#descr "Atavi Infantry Dmg 5->6
-
-Light Bandar Archer Gold 18->17
-
-Guhyaka +Javelin
-
-Yavana Gold 40->35
-
-Yavana Archer -Dagger +Falchion
-
-Yaksha Awe 1->2
-
-Apsara +Heavenly song (Rng 23 Dmg 5 Ammo 15 AP Magic NoStr x3vsundead/demons)
-
-Bandar Warrior Gold 18->17 Dmg 5->6
-
-Devata Hp 28->40 Str 17->18 Att 14->15 Def 12->14 Enc 5->3 Ap 10->12 Astral 2->3 +Batstartspell Enlightenment (Antimagic but animal only) MagicLdr 45->85
-
-Bandar Swordsman Hp 18->20 Att 11->12 Def 10->11 Prec 9->10
-
-Devala +Batstartspell Celestial music Astral 3->4
-
-Rudra Hp 32->48 Prot 18->19 Str 18->20 Att 15->17 Def 13->16 Prec 13->15 Enc 5->3 Ap 10->12 +Batstartspell Wrathful Skies
-
-Guhyaka General +Javelin -StR
-
-Summon Gandharvas Gcost 18->15
-
-Summon Devata Gcost 45->40
-
-Summon Devala Gcost 55->40
-
-Summon Rudra Gcost 55->45
-
-Tiger +Stealth
-
-Ambush of Tigers 10++->14++
-
-Gandharva Def 12->13 Enc 5->3 Ap 10->12"
-#end
-
-#selectnation 26 --EA Lanka
-#descr "Atavi Infantry Dmg 5->6
-
-Light Bandar Archer Gold 18->17
-
-Tiger +Stealth
-
-Ambush of Tigers 10++->14++
-
-Yogini Dmg 5->6
-
-Kala-Mukha Dmg 5->6
-
-Rakshasi Dmg 5->6
-
-Praghasa Dmg 5->6
-
-Anusara Dmg 5->6
-
-Possessed Corpse Dmg 5->6
-
-Bandar Warrior Gold 18->17 Dmg 5->6
-
-Summon Sandhyabalas Nmb 3->4
-
-Summon Dakini Gcost 50->66
-
-Summon Samanishada Gcost 35->30 Bpath 3->2
-
-Indie priest upkeep 2->5"
-#end
-
-#selectnation 27 --EA Yomi
-#descr "Shura Def 16->17 Ap 8->9 Dmg 9->12
-
-Oni General Def 11->12 Enc 5->4 Ap 10->11 Rcost 38->36
-
-Bandits Def +1 Enc 5->4 Ap 10->11 Rcost (bow) 16->13 (leader) 16->15
-
-Demon General Def 13->13 Enc 6->5 Ap 9->10 Rcost 22->21
-
-Dai Oni Def 12->13 Ap 12->13 Enc 5->4
-
-Tengu Warrior Def 13->14 Ap 7->8 Enc 6->5
-
-Bakemono Chief Def 11->12 Ap 8->9 Enc 5->4
-
-Summon Gozu Mezu Gcost 7->5
-
-Summon Karasu Tengus RLevel 2->5 Gcost 3->10 Nlevel 1->3 Num 3->12+
-
-Summon Konoha Tengus RLevel 3->2
-
-Contact Dai Tengu Gcost 55->40
-
-Contact Nushi Gcost 25->20"
-#end
-
-#selectnation 28 --EA Hinnom
-#descr "Horite Gold 22->20 +Throwing rocks
-
-Horite Champion Gold 27->25 +Throwing rocks
-
-Rephaite Warrior Gold 115->100
-
-Melqart Gold 485->460 +AnyFortRec
-
-Ba'al Gold 455->430 Douse 0->2
-
-Kohen Gold 240->225 Douse 0->1 Ldr 80->40
-
-Horite Hunter Gold 25->23"
-#end
-
-#selectnation 29 --EA Ur
-#descr "Literally no national changes"
-#end
-
-#selectnation 30 --EA Breytos
-#descr "Telkhine +deathscales
-
-Pride of Lions 10++->13+++"
-#end
-
-#selectnation 31 --EA Xibalba
-#descr "Beast Bat CastleDef 0->-1
-
-Xibalban Warrior Gold 7->8 Rcost 1~2->2
-
-Xibalban Dart Thrower Dmg (Mace) 5->6 Ammo 4->6
-
-Ah Nakom Gold 70->75 Unrest 2->4
-
-Onaqui (Cap Only) Unrest 3->7"
-#end
-
-#selectnation 33 --MA Arcoscephale
-#descr "Hoplite Commander Def 10->11 AP 7->9 Enc 7->5
-
-Hoplite Def 8->9 AP 7->9 Enc 8->6
-
-Hypaspist Commander Def 14->15 Ap 10->11 Enc 6->5
-
-Hypaspist Def 13->14 Ap 10->11 Enc 6->5
-
-Strategos Def 13->14 Ap 8->10 Enc 9->7
-
-Heart Companion Def 10->11 Ap 8->10 Enc 8->6"
-#end
-
-#selectnation 34 --MA Ermor
-#descr "Dusk Elder Astral +1 pathboost -1 (+1 level of cost to empower, +1 vs magic duel)
-
-Pride of Lions 10++->13+++
-
-Ideal cold 1
-
-Fortcost +50%
-
-Sepulcher gems 15->5 22->10
-
-Lictor Def 10->9
-
-Censor Def 11->10
-
-Gains Death Gem sites in high dom low pop provinces"
-#end
-
-#selectnation 35 --MA Sceleria
-#descr "Triarii Def 12->13 Enc 10->8 AP 5->7
-
-Praetorian Guard Def 15->16 Enc 10->8 AP 6->8
-
-Centurian Def 12->13 Enc 5->4 AP 10->11
-
-Legatus Legionis Def 13->14 Enc 5->4 AP 10->11
-
-Lictor Def 9->10 Enc 7->5 Ap 8->10
-
-Censor Def 10->11 Enc 7->5 Ap 8->10
-
-Indie priest upkeep 2->5"
-#end
-
-#selectnation 36 --MA Pythium
-#descr "Serpent Cataphract Gold 60->45 Def 15->16
-
-Serpent Lord Gold 90->75 Def 16->17
-
-Emerald Lord Def 17->18 Enc 9->7 Ap 6->8
-
-Emerald Guard Def 15->16 Enc 9->7 Ap 6->8
-
-Battle Deacon Dmg 5->6 Def 10->11 Enc 5->4 Ap 10->11
-
-Centurian Def 12->13 Enc 5->4 AP 10->11
-
-Triarii Def 12->13 Enc 10->8 AP 6->8
-
-Angel of the Heavenly Choir +Heavenly song (Rng 23 Dmg 5 Ammo 15 AP Magic NoStr x3vsundead/demons)
-
-Angel of Fury +SelfBless Blood vengeance +2->+0 +Damage Reversal 2
-
-Legatus Legionis Def 13->14 Enc 5->4 AP 10->11
-
-Hydra Gold 250->180 +Recuperation
-
-Hydra Hatchling Gold 35->28 +Recuperation
-
-Angelic Host Astral 5->4 Fire 0->1 Gcost 55->40
-
-Heavenly Wrath Gcost 35->25
-
-Heavenly Choir Astral 7->5 Fire 2->3 Gcost 144->88
-
-Pride of Lions 10++->13+++"
-#end
-
-#selectnation 37 --MA Man
-#descr "Logrian Warrior Gold 12->11
-
-Castellan Def 13->14
-
-Knight of Man Gold 45->35 Def 16->17
-
-Monk Research 3->4
-
-Longspear Rcost 13->20 Prot 11->15 Enc 5->6 Ap 10->9
-
-Knight of Avalon Gold 65->50 Def 17->18
-
-Warden of Avalon Def 10->11 MapMove 1->2
-
-Mother of Avalon Magic 1N 100%ANx2 20%EW -> 1A2N 100%AWE 25%N
-
-Crone of Avalon 100%NAEW->100%NA + 100%EW
-
-Lord Warden +H1 Gold 160->175 Def 12->13
-
-Knight Commander of Avalon Gold 125->115 Def 17->18
-
-Logrian Cavalry Rcost 18->18 Gold 30->20 Def 14->15
-
-+ Knight Commander of Man (Knight of man Att 12->13 Gold 65 Commnader)
-
-All Knights can with enough XP become part of the Order of Earth, gaining a special ability based on their title
-
-Bewitchment (Enchantment 5, N1A1, Range 25, Prec 3, Effects 1, Fatigue 20, MRN, Mind, Cause Confusion)
-
-Hex of Minerva (Alteration 7, N2, Range 25+5/lvl, Prec 5, Effects 1, AoE 5+1/lvl, Fatigue 200, MRN, Mind, Living, Enemy only, Transforms into animals)
-
-Slumber (Evocation 0, N4, All Battlefield, Effects 1, Fatigue 100, MrN, Mind, Living, Sleep/stun 120+5/lvl)
-
-Spells of courage (AoE 5, Range 4+2/lvl, Prec 100, Faigue 40, Mind, Living, Breathing, Friendly, Courage + Secondary effects, don't stack)
-
-Incantantion of Morgan (Spell of courage, Alteration 6, W1N2, Weapons of Sharpness, Liquid Body, mundane resistances)
-
-Aegis of Niniane (Spell of courage, Enchantment 5, N3H1, Elemental resistances, Mossbody)
-
-Fortification of Isolde (Spell of courage, Enchantment 3, E1N2, Toughened armour, Extra strength)
-
-Cloak of Ygraine (Spell of courage, Alteration 3, A2N2, Averted fate, Luck)"
-#end
-
-#selectnation 38 --MA Eiru
-#descr "Milesian Champion Def 13->14"
-#end
-
-#selectnation 39 --MA Ulm
-#descr "Guardian Def 5->6
-
-Infantry of Ulm +1Def
-
-Black Plate Infantry +1Def
-
-Black Knight Def 13->14 Gold 50->40
-
-Black Lord Def 13->14 Gold 110->100
-
-Pikeneer Def 6->7
-
-Black Plate Pikeneer Def 5->6
-
-Lord Guardian Def 6->7
-
-Commander of Ulm +1Def
-
-Master Smith Dmg 9->10
-
-Crossbowman Def 11->12 Enc 4->3 Ap 10->11
-
-Sapper Def 7->8 Enc 4->3 Ap 10->11
-
-Black Priest Dmg 9->10
-
-Iron Angel Enc 5->4 Ap 12->13
-
-Priest Smith Dmg 9->10"
-#end
-
-#selectnation 40 --MA Marignon
-#descr "Man at Arms Gold 14->13 Def 13->14
-
-Royal Guard Gold 45->35 Def 16->17
-
-Knight of the Chalice Gold 55->45 Def 15->16
-
-Flagellant Gold 10->9
-
-Swordsman Def 11->12 Enc 5->4 Ap 10->11
-
-Halberdier Def 10->11 Enc 5->4 Ap 10->11
-
-Pikeneer Def 8->9 Enc 5->4 Ap 10->11
-
-High Inquisitor -StR +25%S
-
-Witch Hunter Dmg 5->6 +10%FASE
-
-Paladin Gold 135->115 Def 16->17
-
-Angel of the Heavenly Choir +Heavenly song (Rng 23 Dmg 5 Ammo 15 AP Magic NoStr x3vsundead/demons)
-
-Angel of Fury +SelfBless Blood vengeance +2->+0 +Damage Reversal 2
-
-Angelic Host Astral 5->4 Fire 0->1 Gcost 55->40
-
-Heavenly Wrath Gcost 35->25
-
-Heavenly Choir Astral 7->5 Fire 2->3 Gcost 144->88
-
-Pillaging with Inquisitors and High Inquisitors creates Flagerents based on the Pop, Dominion and whetehr or not there's a temple in the province."
-#end
-
-#selectnation 41 --MA Mitclan
-#descr "Sun Warrior MM 1->2 Hp 12->13 Str 10->11 Gold 18->14
-
-Warrior (Mace Dmg 5->6)
-
-Feathered Warrior Dmg 5->6
-
-Beast Bat CastleDef 0->-1
-
-Civateteo Douse 0->1
-
-Contact Civateteo B2D2->B2
-
-Contact Tlahuelpuchi B2->B2D2"
-#end
-
-#selectnation 42 --MA Tien Chi
-#descr "Horsemen Gold 20->18
-
-Internal Alchemy Gcost 10->2
-
-Celestial Servant Gcost 3->2
-
-Thousand Year Ginseng Gcost 8->2
-
-Eunuch +ForeignRec +Conscription (Can summon 1 conscript a turn, which are worse versions of the all-era national troops, 50% chance of desertion 50% chance of becoming a regular national troop upon getting XP)
-
-Master of the Way -100%AWSN +100%WES
-
-Terracotta Army (Enchantment 4, F1E1, 12+++ Terracotta Infantry/Guard/Crossbowmen 1 Terracotta leader, Gcost 10)"
-#end
-
-#selectnation 43 --MA Machaka
-#descr "Spider Warrior Gold 30->20 Rcost 36->30 Def 7->9 Enc 6->5 Ap 9->10 -Dagger +Poison Dagger
-
-Bane Spider Gold 110->80 Rcost 38->32 Str 11->12 Att 13->14 Def 10->13 Enc 6->5 Ap 9->10
-
-Machaka Archer Gold 10->9 +ForeignRec
-
-Machaka Warrior (1) Gold 10->9 +ForeignRec
-
-Machaka Chief +ForeignRec
-
-Machaka Hoplite Gold 14->13 Rcost 27->26 Def 12->13 Enc 7->5 Ap 8->10
-
-Machaka Commander Rcost 27->26 Def 13->14 Enc 7->5 Ap 8->10
-
-Great Spider Gold 0->20 Size 5->4 Str 11->16 MR 5->8
-
-Spider Rider Gold 40->30 Rcost 4->2 Size 5->4 -Spear -Short bow +LightLance
-
-Spider Knight Gold 55->40 Rcost 28->26 Size 5->4 +LightLance(1use) Def 13->14
-
-Spider Lord Gold 115->100 Rcost 28->26 Size 5->4 +LightLance(1use) Def 14->15
-
-Black Hunter +Spider Fear (AoE1 Melee50 FearTypeII)
-
-Hunter Spider +Spider Fear Gold 0->70 Str 16->18 Mr 5->10
-
-Hunter Lord +Spider Fear
-
-Sorceress +30%FDNE
-
-Witch Doctor Magic 1N1F1D->1N+100%FDN+100%FED Inept 4->6 +ForeignRec Gold 80->100
-
-Sorcerer 100%FEDN->100%FED+25%N+10%FEDN
-
-Ear of the Lord +ForeignReC +StR
-
-Eye of the Lord Gold 65->50 +ForeignRec
-
-Voice of the Lord +ForeignRec +StR
-
-Machaka Warrior (2) Gold 10->9 Prot 0->6 Def 12->11 Enc 3->4 Ap 11->12
-
-Pygmy +ForeignRec
-
-Pride of Lions 10++->13+++"
-#end
-
-#selectnation 44 --MA Agartha
-#descr "Agarthan Heavy Infantry Def 13->14
-
-Agarthan Infantry Def 14->15
-
-Cave Captain Def 15->16
-
-Golem Crafter Dmg 9->10
-
-All weapons on non-metal wearing amphibians replaced with non-rusting verions"
-#end
-
-#selectnation 45 --MA Abysia
-#descr "Abysian Infantry & Warlord & Beast Tamer & Lava Warrior Enc -2 Def +1 Ap +2
-
-Anointed of Rhuax Douse 0->1 10%FSEB->50%FSEB
-
-Scorpion Man Def 14->15 Enc 5->4 Ap 10->11 +BodySlot
-
-Misbred Douse 0->1
-
-Demonbred +100% Darkvision
-
-Contact Scorpion Man Unit->Commander
-
-Pride of Lions 10++->13+++
-
-Children of Rhuax (Conj 3, F4E1, 5 Magma Children, 2 Fire Gems)
-
-Abysian Crossbreeding (Blood 3, B1S1, 15++++++++++ crossbred, 15 slaves)
-
-Improved Abysian Crossbreeding (Blood 8, B2S2, 35+++ crossbred, 22 slaves)
-
-GoRing Crossbreeds can result in bloodhunters or assassins if they have no aflictions."
-#end
-
-#selectnation 46 --MA Caelum
-#descr "Spire Horn Archer Rcost 6->7 -Short Bow +Composite Bow
-
-Blizzard Warrior Dmg 9->11
-
-Ice Enchanter (Seraph -Ice Knife +Hammer Mr 15->14 Mor 11->12 +CapOnly Magic 2A1W->2W100%FSD100%AWS +Forgebonus1 +Icecrafting7)
-
-Tiger +Stealth
-
-Ambush of Tigers 10++->14++"
-#end
-
-#selectnation 47 --MA C'tis
-#descr "Scorpion Man Def 14->15 Enc 5->4 Ap 10->11 +BodySlot
-
-Contact Scorpion Man Unit->Commander
-
-Shaman Prophetised +Magicboost (S1N1)
-
-Pride of Lions 10++->13+++"
-#end
-
-#selectnation 48 --MA Pangaea
-#descr "Satyr Hoplite Def 14->15 Enc 7->6 Ap10->11
-
-Centaur Commander Enc 8->7 Ap 19->20
-
-Centaur Cataphract Enc 8->7 Ap 19->20
-
-War Minotaur Def 7->8 Enc 6->5 Ap 12->13
-
-Minotaur Lord Enc 8->6 Ap 10->12
-
-Satyr Commander Def 15->16 Enc 7->6 Ap10->11"
-#end
-
-#selectnation 49 --MA Asphodel
-#descr "Forests with Low Pop and high dom spawn nature sites
-
-Sleep Vines cannot repel"
-#end
-
-#selectnation 50 --MA Vanheim
-#descr "Hirdman +1Def
-
-Herse Def 13->14
-
-Dwarven smith Dmg 7->8
-
-Draug Def 14->15
-
-Great Bear +Bite (Dmg 2, def-1)
-
-Summon Valkyries Nmb 7->10
-
-Awaken Draug Cost 12->10"
-#end
-
-#selectnation 51 --MA Jotunheim
-#descr "Jotun Jarl Def 13->14
-
-Jotun Spearman Def 11->12
-
-Jotun Axeman Def 10->11
-
-Jotun Herse Def 13->14
-
-Jotun Huskarl +1Def
-
-Jotun Hirdman Def 13->14
-
-Draug Def 14->15
-
-Great Bear +Bite (Dmg 2, def-1)
-
-Awaken Draug Cost 12->10"
-#end
-
-#selectnation 52 --MA Vanarus
-#descr "Vanabog Def 20->21
-
-Oath-Bound Def 16->17
-
-Chud Hirdman Def 10->11
-
-Vanarusian Herse Def 13->14
-
-Draug Def 14->15
-
-Great Bear +Bite (Dmg 2, def-1)
-
-Awaken Draug Cost 12->10"
-#end
-
-#selectnation 53 --MA Bandar Log
-#descr "Atavi Infantry Dmg 5->6
-
-Light Bandar Archer Gold 18->17
-
-Yaksha Awe 1->2
-
-Apsara +Heavenly song (Rng 23 Dmg 5 Ammo 15 AP Magic NoStr x3vsundead/demons)
-
-Devata Hp 28->40 Str 17->18 Att 14->15 Def 12->14 Enc 5->3 Ap 10->12 Astral 2->3 +Batstartspell Enlightenment (Antimagic but animal only) MagicLdr 45->85
-
-Devala +Batstartspell Celestial music Astral 3->4
-
-Rudra Hp 32->48 Prot 18->19 Str 18->20 Att 15->17 Def 13->16 Prec 13->15 Enc 5->3 Ap 10->12 +Batstartspell Wrathful Skies
-
-Summon Gandharvas Gcost 18->15
-
-Summon Devata Gcost 45->40
-
-Summon Devala Gcost 55->40
-
-Summon Rudra Gcost 55->45
-
-Tiger +Stealth
-
-Ambush of Tigers 10++->14++
-
-Light Bandar Archer Gold 18->17
-
-Praghasa Dmg 5->6
-
-Possessed Corpse Dmg 5->6
-
-Summon Sandhyabalas Nmb 3->4
-
-Summon Dakini Gcost 50->66
-
-Summon Samanishada Gcost 35->30 Bpath 3->2
-
-Vanara Archer Gold 10->9
-
-Vanara Chakram Thrower Gold 10->9 Ammo 2->5
-
-Vanara Infantry Gold 10->9 Dmg 5->6
-
-Vanara Swordsman Gold 13->12
-
-Bandar Archer Gold 18->17 Dmg 5->6
-
-Bandar Warrior Gold 18->17 Att 11->12 (mace dmg 5->6)
-
-Royal Swordsman Gold 26->22 Att 12->13
-
-Brahmin Dmg 5->6
-
-Naga Warrior Prot 17->18 Enc 9->7 Ap 5->7
-
-Nagaraja (Snek) Enc 9->7 Ap 5->7
-
-Nagaraja (Divine) Enc 9->7 Ap 9->11
-
-Light Bandar Warrior Dmg 5->6
-
-Gandharva Def 12->13 Enc 5->3 Ap 10->12
-
-Summon Nagas Gcost 20->15
-
-Contact Nagaraja Gcost 30->25"
-#end
-
-#selectnation 54 --MA Shinuyama
-#descr "Shura Def 16->17 Ap 8->9 Dmg 9->12
-
-Oni General Def 11->12 Enc 5->4 Ap 10->11 Rcost 38->36
-
-Bandits Def +1 Enc 5->4 Ap 10->11 Rcost (bow) 16->13 (leader) 16->15
-
-Demon General Def 13->13 Enc 6->5 Ap 9->10 Rcost 22->21
-
-Dai Oni Def 12->13 Ap 12->13 Enc 5->4
-
-Tengu Warrior Def 13->14 Ap 7->8 Enc 6->5
-
-Summon Gozu Mezu Gcost 7->5
-
-Summon Karasu Tengus RLevel 2->5 Gcost 3->10 Nlevel 1->3 Num 3->12+
-
-Summon Konoha Tengus RLevel 3->2
-
-Contact Dai Tengu Gcost 55->40
-
-Contact Nushi Gcost 25->20
-
-Bakemono-Sho (1, Armoured) Gold 8->10 Rcost 9->10 Def 9->10 Enc 5->4 Ap 8->9 20%F 20%E 20%D
-
-Bakemono Archer (1, Armoured) Rcost 9->10 Def 9->10 Enc 5->4 Ap 8->9
-
-Bakemono Warrior Rcost 12->10 Def 11->12 Enc 5->4 Ap 8->9
-
-Bakemono-Sho (3, Yari) Rcost 3->4
-
-Dai Bakemono (1, Sword) Gold 30->25 Rcost 31->29 Att 11->12 Def 12->13 Enc 5->4 Ap 11->12
-
-Dai Bakemono (2, Bow) Gold 30->25 Rcost 35->34 Def 11->12 Enc 5->4 Ap 11->12
-
-Bakemono General Rcost 31->29 Def 13->14 Enc 5->4 Ap 11->12
-
-Kappa Mage (Kappa Gold 25->45 Prot 15->16 Hp 15->16 Mr 8->9 Mor 12->14 +1W)
-
-Bakemono Scout Def 9->10 Enc 5->4 Ap 8->9
-
-Bakemono Chief Rcost 12->10 Def 11->12 Enc 5->4 Ap 8->9
-
-Summon Ko-Oni Effects 5+->7++
-
-Summon Ao-Oni Gcost 10->4
-
-Summon Aka-Oni Gcost 10->4
-
-Summon Oni Gcost 12->7
-
-Summon Kuro-Oni Gcost 10->6 Effects 4->4+
-
-Summon Oni General Research 6->5 Gcost 20->14
-
-Contact Kitsune Gcost 20->13
-
-Summon Dai Oni Research 8->7 Gcost 55->45
-
-Hide Heart (Enchantment 5, D2F2, Requires Bakemono Sorc + Unforted mountain with temple, Gcost 14, Grants immortality)"
-#end
-
-#selectnation 55 --MA Ashdod
-#descr "Amorite Rcost 27->25"
-#end
-
-#selectnation 57 --MA Nazca
-#descr "Human Warrior (mace Dmg 5->6)
-
-Kuraka Dmg 5->6
-
-Hatun Runa Dmg 5->6 Str 10->9
-
-Aucac Runa Maceman Dmg 5->6
-
-Apu Dmg 5->6
-
-Aucac Runa Archer Dmg 5->6
-
-Apusqispay Dmg 5->6"
-#end
-
-#selectnation 58 --MA Xibalba
-#descr "Muuch K'uhul Dmg 1->2 W2->1 +100%WD +10%WDNE
-
-Ah Ha'Dmg 1->2
-
-Muuch Militia Dmg 2->3
-
-Muuch Dart Thrower Ammo 4->6
-
-Muuch Warrior (1, Hide + Spear) Dmg 2->3
-
-Muuch Warrior (3 + 4, Bronze Armour) Gold 10->14 Mor 10->11 Att 10->11 Def 11->12
-
-Muuch Jungle Warrior Mm 1->2
-
-Chak Muuch Dart Thrower Ammo 4->6 Poison 25->50 +AnyFort
-
-Chak Muuch Obsidian Warrior Gold 26->22 +AnyFort
-
-Chak Muuch Assassin Poison 25->50
-
-Xibalban Warrior Gold 7->8 Rcost 1~2->2"
-#end
-
-#selectnation 60 --LA Arcoscephale
-#descr "Hoplite Commander Def 10->11 AP 7->9 Enc 7->5
-
-Hoplite Def 8->9 AP 7->9 Enc 8->6
-
-Hypaspist Commander Def 14->15 Ap 10->11 Enc 6->5
-
-Hypaspist Def 13->14 Ap 10->11 Enc 6->5
-
-Strategos Def 13->14 Ap 8->10 Enc 9->7
-
-Heart Companion Def 10->11 Ap 8->10 Enc 8->6
-
-Agema Companion Gold 35->30 Def 18->19
-
-Agema Commander Gold 105->100 Def 19->20
-
-Cerulean Warrior Dmg 5->6"
-#end
-
-#selectnation 61 --LA Pythium
-#descr "Serpent Priest Gold 265->250 H2->H1 10%WSDN->20%WSDN +Prophetshape (Cult Toggle)
-
-Serpent Cataphract Gold 70->55 Def 15->16
-
-Serpent Lord Gold 110->95 Def 16->17
-
-Serpent Acolyte -1Hpathboost Serpcult: 0Hpathboost
-
-Hydra Gold 250->210 +RecFortSerpCult
-
-Hydra Hatchling Gold 35->28 +RecFortSerpCult
-
-Limitane Rcost 26->21 Def 14->15 Enc 7->6 Ap 8->9 ShieldProt 17->13 Parry 7->6 -Jav+Dart(-2dmg+3Prec+3Ammo)
-
-Limitane Primani Gold 12->11 Rcost 30->24 Def 13->15 Enc 7->6 Ap 8->9 MM 1->2 ShieldProt 17->13 Parry 7->6
-
-Limitane Solaris Gold 15->14 Rcost 26->21 Enc 7->6 Ap 8->9 ShieldProt 17->13 Parry 7->6 -Jav+Dart(-2dmg+3Prec+3Ammo) SunCult: +fortrec Gold 14->13
-
-Primani Solaris Gold 20->17 Rcost 30->24 Def 13->14 Enc 7->6 Ap 8->9 MM 1->2 ShieldProt 17->13 Parry 7->6 SunCult: +fortrec Gold 17->16
-
-Comitatense Rcost 26->23 Def 16->17 Enc 7->5 AP 8->10 ShieldProt 17->13 Parry 7->6 -Jav+Dart(-2dmg+3Prec+3Ammo)
-
-Palatine Gold 22->19 Def 15->16 Enc 9->7 Ap 8->10
-
-Centurion Def 11->12 Enc 5->4 AP 10->11
-
-Tribuni Def 16->17 Enc 9->7 Ap 6->8
-
-Magister Militum Def 10->11 Enc 6->5 Ap 10->11
-
-Leo Def 11->12 Enc 5->4 Ap 10->11 Suncult: +fortrec -heretic -10%N +holy Def 12->14 Insp 0->1 StartAge 35->22 +Enchrebate SecondSun
-
-Heliodromus Gold 90->100 +H1(-3 Pathboost) +Prophetshape (Cult Toggle) Suncult: +fortrec -heretic +Hpathboost 3 Res+1 FireRes 7->12 -10%F +20%FN Gold 100->115 +Enchrebate SecondSun
-
-Epoptes +E1 +H1(-3 Pathboost) 100%NE->10%NE +Prophetshape (Cult Toggle) Fertcult: -slowrec +fortrec +Hpathboost 3 Res+2
-
-Mystes Fertcult: +fortrec (Gold 40->50) +holy Res+1
-
-Serpent Assassin +RecFortSerpCult
-
-Reveler Gold 50->75 +H1(-3 Pathboost) 20%BN->40%BN +Prophetshape (Cult Toggle) Fertcult: +fortrec -Heretic Res+2 Unrest 2->5
-
-Battle Deacon Def 10->11 Enc 5->4 Ap 10->11
-
-Limitane Standard Gold 20->18 Rcost 26->21 Def 15->16 Enc 7->6 Ap 8->9 ShieldProt 17->13 Parry 7->6 -Jav+Dart(-2dmg+3Prec+3Ammo)
-
-Standard Gold 30->20 Rcost 26->23 Def 16->17 Enc 7->5 Ap 8->10 ShieldProt 17->13 Parry 7->6 -Jav+Dart(-2dmg+3Prec+3Ammo)
-
-Serpent Cult
-
-Summon Hydra Hatchlings (Conjuration 3, N1H1, Requires Cult Fort, Gcost 5, Summons 3 Hydra Hatchlings)
-
-Summon Hydra (Conjuration 4, N3H1, Requires Cult Fort, Gcost 10, Summons 1 Hydra + 3 Hydra Hatchlings)
-
-Summon Serpent (Conjuration 2, N1H1, Requires Cult Fort, Gcost 1, Summons 2 Serpents)
-
-Serpent (Sacred Serpent -Gold -holy Mr 14->10 Prot 7->10 +Undisciplined -Standard Enc 3->2)
-
-Serpent Form (Alteration 4, N1H1, Requires Cult Fort, Gcost 5, Changes 1 serpent acolyte to snake form per month via sacrificial goat)
-
-Large Serpent (Serpent Pathboost -1WSDN +OnBattleSpell [PoisonWard] +Inspirational 1 +Shapechange Serpent Acolyte [oneway])
-
-Greater Serpent Form (Alteration 5, N2H2, Requires Cult Fort, Gcost 10, Changes 1 serpent priest to greater snake form per month via sacrificial goat)
-
-Great Serpent (Jade Serpent  -1WSDN +OnBattleSpell [PoisonWard] +Fear 5 +Inspirational 1 +Shapechange Serpent Priest [oneway])
-
-Daughter of Typhon (Conjuration 7, N4D2, Requires Cult Fort, Gcost 20, Summons Daughter of Typhon)
-
-Marshes of Pythia (Thaumaturgy 6, N3H4, 400 Fatigue, Quagmire + 1 turn bordersummon Hydras + 3 turns bordersummon htachlings + 9 turns bordersummon marshsnakes)
-
-Sun Cult
-
-+50 Rescources per fort +forcrec Leo, Heliodramus, Limitane Solaris, Primani Solaris, Reclimit 3 Eusebes Solaris
-
-Eusebes Solaris (Primani Solaris Gold 16->20 +Holy)
-
-SecondSun +Enchrebate Leo, Heliodramus -reclimit Eusebes Solaris +Fort Dom Freespawn (1d3Eusebes dom1, 1Heliotaurus dom4 50%, 1Helioperses+1Heliotaurus dom 7 10%)
-
-Fertility Cult +30 Supply +Helaer 2 per fort"
-
-#end
-
-
-
-#selectnation  61
+#req_capital 1
 #end
 
 #newevent
@@ -11162,7 +12051,7 @@ may make the battlefield deadly even for the priest's allies."
 #magicskill 6 1
 #magicskill 3 1
 #magicskill 8 1
-#custommagic 9216 10
+#custommagic 9216 20
 #custommagic 8192 50
 #holy
 #heretic 0
@@ -11261,7 +12150,7 @@ may make the battlefield deadly even for the priest's allies."
 #copystats 1876
 #copyspr 1876
 #researchbonus -1
-#gcost 50
+#gcost 40
 #holy
 #descr "Throughout the Empire, mystery cults have spread and flourished with the influx of foreign culture. One of these, the Serpent Cult, has replaced the official state cult of the Theurgs, but many others ply their trade in secret. The Cult of Fertility in its aspect of The Great Mother is very popular among women and most of the members in its higher ranks are female. The Mystes is a low ranking follower of the Great Mother.  The liturgy of the mystery cult is heavily influenced by the Arcoscephalean priestesses, but the Mystes are not initiated in the art of healing. Unlike her elder sister, the Epoptes, the Mystes doesn't initiate others into the Cult. She wears a garland and a green dress. As the new god has chosen a member of the Cult of Fertility to be his prophet, they are less unwilling to share secrets with outsiders."
 #end
@@ -11360,7 +12249,7 @@ may make the battlefield deadly even for the priest's allies."
 #holy
 #clearmagic
 #magicskill 6 1
-#custommagic 24576 40
+#custommagic 24576 50
 #prophetshape 6415
 #gcost 75
 #magicskill 8 1
@@ -11579,7 +12468,7 @@ may make the battlefield deadly even for the priest's allies."
 #path 0 6
 #path 1 8
 #pathlevel 0 2
-#pathlevel 0 2
+#pathlevel 1 2
 #provrange 3
 #onlyatsite 1817
 #restricted 61
@@ -11695,12 +12584,40 @@ may make the battlefield deadly even for the priest's allies."
 #descr "This sacrificial assistant is here to help a Reveler or Epoptes become a Galli through sacrificing their fertility."
 #end
 
+#newmonster 6317
+#copystats 435 --maenad
+#copyspr 435
+#montag 1315
+#summerpower 25
+#transformation 0
+#descr "This Maenad was sent to kill the enemies of Pythium in the name of the new god and fertility!"
+#end
+
+#newmonster 6312
+#copystats 435 --maenad
+#copyspr 435
+#montag 1315
+#summerpower 25
+#transformation 0
+#descr "This Maenad was sent to kill the enemies of Pythium in the name of the new god and fertility!"
+#end
+
+#newmonster 6313
+#copystats 435 --maenad
+#copyspr 435
+#montag 1315
+#summerpower 25
+#batstartsum2 6317
+#transformation 0
+#descr "These Maenads were sent to kill the enemies of Pythium in the name of the new god and fertility!"
+#end
+
 #newmonster 6440
 #copystats 435 --maenad
 #copyspr 435
 #montag 1315
 #summerpower 25
-#batstartsum2 6440
+#batstartsum2 6317
 #transformation 0
 #descr "These Maenads were sent to kill the enemies of Pythium in the name of the new god and fertility!"
 #end
@@ -11769,7 +12686,7 @@ may make the battlefield deadly even for the priest's allies."
 #assassin
 #patience 1
 #name "Mighty Lion"
-#descr "This mighty lion with an extremely thick hide is servant of the cult of fertility.  Some lions are transformed Galli."
+#descr "This mighty lion with an extremely thick hide is a servant of the cult of fertility.  Some lions are transformed Galli."
 #okleader
 #beastmaster 1
 #stealthy 20
@@ -11923,6 +12840,7 @@ may make the battlefield deadly even for the priest's allies."
 #custommagic 14848 100
 #custommagic 14848 20
 #prophetshape 6439
+#gcost 250
 #descr "Serpent Priests are the leaders of the Pythian Serpent Cult. The Serpent Cult is one of the many mystery cults that spread to Pythium during the collapse of Ermor. Sauromancers from C'tis were invited by the Emperor and his Theurgs to battle the growing threat and with them came the Serpent Cult. The Serpent Cult was heralded as the answer to the Ermorian threat and quickly received Imperial acceptance. Soon it replaced the Order of the Theurgs as the state cult and grew in influence and power. In the years that have passed since the lizards left Pythium, the Cult has changed. Serpents are venerated and the priests of the Cult wear serpent masks and carry serpent staffs as signs of their office. Serpent Priests constantly expose themselves to poisons and their skin has a deathly pallor. They are skilled in Nature magic and some Water magic.  However, without the official imprimateur of the new god, they are still lacking in divine authority."
 #end
 #selectmonster 865
@@ -11938,6 +12856,7 @@ may make the battlefield deadly even for the priest's allies."
 #magicboost 8 -3
 #magicskill 8 1
 #prophetshape 6414 --heliopater
+#gcost 100
 #descr "Throughout the Empire, mystery cults have spread and flourished with the influx of foreign culture. One of these, the Serpent Cult, has replaced the official state cult of the Theurgs, but many others ply their trade in secret. The Cult of the Solar Bull is very popular among the soldiers of the Limes and most of its higher members are former soldiers or Centurions. The Heliodromus, Sun-Courier, is the a high ranking member of the Cult of the Solar Bull. He, for it is only males that are allowed in the Cult, performs the Taurobolium, ritual sacrifice of a bull. The Heliodromus carries a golden sacrificial knife. Like all mystics of the Empire, the Heliodromus leads worshippers astray and lowers the Dominion in which he resides. He wears an exotic hat, reputedly similar to those of the foreign founders of the Cult. The Heliodromus forswears his former life upon initiation and does not lead armies. The Heliodromii are secretive and do not share their wisdom with outsiders. This makes them rather poor researchers."
 #end
 #selectmonster 1872 --leo
@@ -11950,7 +12869,7 @@ may make the battlefield deadly even for the priest's allies."
 #magicskill 6 1
 #magicskill 8 1
 #magicboost 8 -3
-#custommagic 24576 40
+#custommagic 24576 50
 #gcost 75
 #descr "Throughout the empire, mystery cults have spread and flourished with the influx of foreign culture. One of these, the Serpent Cult, has replaced the official state cult of the Theurgs, but many others ply their trade in secret. The Cult of Fertility is one of these. One of the forms it takes is in the practice of Revelry, which is influenced by Pangaea worship and orgiastic hedonism. The Reveler is a high ranking member of the cult and an organizer of orgies in the wild. The practice of Revelry has proven to be remarkably destructive to the faith of the populace, and no other mystic is as detrimental to the worship of the True God. He wears a garland and carries a goblet of wine. Revelers are generally looked upon with distaste and fear and some rumors claim that they practice cannibalism and blood sacrifices in their orgies."
 #end
@@ -11965,7 +12884,7 @@ may make the battlefield deadly even for the priest's allies."
 #custommagic 9216 10
 #magicskill 8 1
 #magicboost 8 -3
-#gcost 10030
+#gcost 100
 #end
 #selectmonster 1876 --mystes
 #descr "Throughout the Empire, mystery cults have spread and flourished with the influx of foreign culture. One of these, the Serpent Cult, has replaced the official state cult of the Theurgs, but many others ply their trade in secret. The Cult of Fertility in its aspect of The Great Mother is very popular among women and most of the members in its higher ranks are female. The Mystes is a low ranking follower of the Great Mother.  The liturgy of the mystery cult is heavily influenced by the Arcoscephalean priestesses, but the Mystes are not initiated in the art of healing. Unlike her elder sister, the Epoptes, the Mystes doesn't initiate others into the Cult. She wears a garland and a green dress. The Epoptes and Mystes are secretive and do not share their wisdom with outsiders. This makes them rather poor researchers."
@@ -12103,495 +13022,5 @@ may make the battlefield deadly even for the priest's allies."
 #firstshape 1866
 #end
 
-#selectnation 62 --LA Lemuria
-#descr "Lemur Acolyte +100%DS
 
-Ideal cold 1
-
-Fortcost +50%
-
-FortEra 2
-
-Campus gems 15->5 22->10
-
-Initial Acolyte D2
-
-Spectral weapons HrdMrNg
-
-Gains Death Gem sites in high dom low pop provinces"
-#end
-
-#selectnation 63 --LA Man
-#descr "Castellan Def 13->14
-
-Longspear Rcost 13->20 Prot 11->15 Enc 5->6 Ap 10->9
-
-Defender Def 15->16
-
-Tower Knight Gold 45->35 Def 16->17
-
-Warden Def 10->11
-
-Lord Warden Def 10->11
-
-Heavy Axeman Def 10->11"
-#end
-
-#selectnation 64 --LA Ulm
-#descr "Black Templar Gold 70->50 Def 13->14
-
-Black Priest Dmg 9->10
-
-Pikeneer Def 8->9 Enc 4->3 Ap 10->11
-
-Halberdier Def 10->11 Enc 4->3 Ap 10->11
-
-Infantry of Ulm Def 12->13 End 6->5 Ap 8->9
-
-Commander of Ulm Def 15->16 End 6->5 Ap 8->9
-
-Ghoul Guardian Def 6->7
-
-Zweihander Def 9->10 Enc 7->6 Ap 7->8
-
-Hochmeister Gold 120->110 Def 13->14
-
-Ghoul Commander Def 7->8"
-#end
-
-#selectnation 65 --LA Marignon
-#descr "Flagellant Gold 10->9
-
-Angel of the Heavenly Choir +Heavenly song (Rng 23 Dmg 5 Ammo 15 AP Magic NoStr x3vsundead/demons)
-
-Angel of Fury +SelfBless Blood vengeance +2->+0 +Damage Reversal 2
-
-Angelic Host Astral 5->4 Fire 0->1 Gcost 55->40
-
-Heavenly Wrath Gcost 35->25
-
-Heavenly Choir Astral 7->5 Fire 2->3 Gcost 144->88
-
-Captain Def 10->11 Enc 5->4 Ap 10->11
-
-Admiral Def 12->13 Enc 5->4 Ap 10->11
-
-Pikeneer Def 8->9 Enc 5->4 Ap 10->11
-
-Halberdier Def 10->11 Enc 5->4 Ap 10->11
-
-Swordsman Def 9->10 Enc 7->5 Ap 8->10
-
-Palace Guard Def 10->11 Enc 7->5 Ap 8->10
-
-Hand of Justice Def 11->12 Enc 5->4 Ap 10->11
-
-Royal Guard Def 11->12 Enc 8->7 Ap 7->8
-
-Goetic Captain Def 10->11 Enc 5->4 Ap 10->11"
-#end
-
-#selectnation 66 --LA Mitclan
-#descr "Warrior (Mace Dmg 5->6)
-
-Feathered Warrior Dmg 5->6
-
-Beast Bat CastleDef 0->-1
-
-Civateteo Douse 0->1
-
-Contact Civateteo B2D2->B2
-
-Contact Tlahuelpuchi B2->B2D2
-
-Rain Priest Dmg 1->2
-
-Rain Warrior Dmg 9->10
-
-Mother of All Waters Dmg 5->6"
-#end
-
-#selectnation 67 --LA Tien Chi
-#descr "Internal Alchemy Gcost 10->2
-
-Celestial Servant Gcost 3->2"
-#end
-
-#selectnation 69 --LA Jomon
-#descr "Shura Def 16->17 Ap 8->9 Dmg 9->12
-
-Oni General Def 11->12 Enc 5->4 Ap 10->11 Rcost 38->36
-
-Demon General Def 13->13 Enc 6->5 Ap 9->10 Rcost 22->21
-
-Dai Oni Def 12->13 Ap 12->13 Enc 5->4
-
-Tengu Warrior Def 13->14 Ap 7->8 Enc 6->5
-
-Summon Gozu Mezu Gcost 7->5
-
-Summon Karasu Tengus RLevel 2->5 Gcost 3->10 Nlevel 1->3 Num 3->12+
-
-Summon Konoha Tengus RLevel 3->2
-
-Contact Dai Tengu Gcost 55->40
-
-Contact Nushi Gcost 25->20
-
-Summon Ko-Oni Effects 5+->7++
-
-Summon Ao-Oni Gcost 10->4
-
-Summon Aka-Oni Gcost 10->4
-
-Summon Oni Gcost 12->7
-
-Summon Kuro-Oni Gcost 10->6 Effects 4->4+
-
-Summon Oni General Research 6->5 Gcost 20->14
-
-Contact Kitsune Gcost 20->13
-
-Summon Dai Oni Research 8->7 Gcost 55->45
-
-Ashigaru Def 9->10 Enc 5->4 Ap 10->11
-
-Samurai Archer Def 10->11 Enc 6->5 Ap 9->10 Rcost 25->24
-
-Samurai (1, Naginata) Def 10->11 Enc 6->5 Ap 9->10 Rcost 19->18
-
-Samurai (2, Katana) Def 11->12 Enc 6->5 Ap 9->10 Rcost 22->21
-
-O-ban Def 11->12 End 7->6 Ap 8->9 Rcost 26->25
-
-Go-Hatamoto Def 11->12 End 7->6 Ap 8->9 Rcost 25->24
-
-Aka-Oni Samurai Def 13->14 Enc 6->5 Ap 9->10 Rcost 22->21
-
-Samurai Cavalry Gold 40->25 Rcost 28->27 Def 14->15
-
-Sohei Def 12->13 Enc 6->5 Ap 9->10 Rcost 22->21
-
-Yamabushi Def 12->13 Enc 6->5 Ap 9->10 Rcost 19->18
-
-Gokenin Def 12->13 End 7->6 Ap 8->9 Rcost 26->25
-
-Mounted Gokenin Gold 55->45 Def 15->16 Rcost 28->27
-
-Hatamoto Gold 85->75 Def 14->15 Rcost 28->27
-
-Daimyo Def 15->16 Rcost 26->25
-
-Ujigami Def 13->14 Enc 6->5 Ap 8->9
-
-Kenzoku Def 15->16 Enc 5->4 Ap 8->9
-
-Shrimp Soldier +Non-Rust Armour
-
-Crab General +Non-Rust Armour
-
-Shark Warrior +Non-Rust Armour +Bite (2dmg -1def)"
-#end
-
-#selectnation 70 --LA Agartha
-#descr "Entrance Guard Def 14->15 Enc 10->9 Ap 5->6
-
-Agarthan Heavy Infantry Def 13->14
-
-Agarthan Infantry Def 14->15
-
-Blindfighter Str 11->12 Def 14->15 Enc 10->9 Ap 5->6
-
-Servant of the Oracles MM 1->2
-
-Blindlord Def 14->15 Enc 10->9 Ap 5->6 +H1 +Insp1 Led 80->40 Gold 140->135
-
-Cave Captain Def 14->15
-
-Gate Lord Def 14->15 Enc 10->9 Ap 5->6
-
-Cave Knight Gold 100->90 Def 16->17
-
-Drake Lord Def Def 16->17
-
-Agarthan Heavy Crossbowman Def 5->6"
-#end
-
-#selectnation 71 --LA Abysia
-#descr "No swanky new descr yet, sorry"
-#end
-
-#selectnation 72 --LA Caelum
-#descr "No swanky new descr yet, sorry"
-#end
-
-#selectnation 73 --LA C'tis
-#descr "No swanky new descr yet, sorry"
-#end
-
-#selectnation 74 --LA Pangaea
-#descr "No swanky new descr yet, sorry"
-#end
-
-#selectnation 75 --LA Midgard
-#descr "No swanky new descr yet, sorry"
-#end
-
-#selectnation 76 --LA Utgard
-#descr "No swanky new descr yet, sorry"
-#end
-
-#selectnation 77 --LA Bogarus
-#descr "No swanky new descr yet, sorry"
-#end
-
-#selectnation 78 --LA Patala
-#descr "No swanky new descr yet, sorry"
-#end
-
-#selectnation 79 --LA Gath
-#descr "No swanky new descr yet, sorry"
-#end
-
-#selectnation 80 --LA Ragha
-#descr "No swanky new descr yet, sorry"
-#end
-
-#selectnation 81 --LA Xibalba
-#descr "No swanky new descr yet, sorry"
-#end
-
-#selectnation 83 --EA Atlantis
-#descr "Scout Dmg 1->2
-
-Atlantian Spearman Dmg 2->3 Rcost 4->5
-
-Reef Dweller Rcost 10->13
-
-War Shambler Dmg 2->3 Rcost 7->8
-
-Coral Guard Rcost 26->34 Prot 17->18 Enc 7->6 Ap 7->8
-
-Living Pillar Rcost 56->49 Enc 10->8 Ap 5->7
-
-Mother of the Deep Dmg 5->6
-
-Coral Commander Rcost 26->34 Prot 17->18 Enc 7->6 Ap 7->8
-
-Shambler Reefmage (Mage of the Deep -1W -100%FWES +50%FES Gold 215->115 -AnyFort +CoastFort)"
-#end
-
-#selectnation 84 --EA R'lyeh
-#descr "Slave Trooper (1, Atlantian) Dmg 5->7 Rcost 2->3
-
-Slave Guardian (1, Atlantian) Dmg 5->7 HProt 16->14
-
-Lobo Guard +CoastRec
-
-Polypal Mother +FortRec +Divinsp 5
-
-Polypal Spawn amphibious, landdamage
-
-Slave Trooper (2, Merman) Dmg 2->3 Rcost 2->3
-
-Slave Trooper (3, Triton) Dmg 2->3 Rcost 1->2
-
-Aboleth Gold 215->195 MiscSlots 2->3
-
-Mind Lord Gold 420->345 MiscSlots 2->3 -10%DESW +100%WS +5%ED
-
-Slave Prince Rcost 20->17 Prot 17->15 +NoRust +CoastRec
-
-Slave Guardian (2, Merman) HProt 16->14 Rcost 12->11 +NoRust
-
-Slave Guardian (3, Triton) HProt 16->14 Rcost 13->12
-
-Abodai Gold 265->240 MiscSlots 2->3
-
-Androleth Gold 50->40 Def 8->9 Enc 6->5 AP 7->8
-
-Androdai Gold 190->125 -100%DEWS +110%DEW
-
-Grandmother Inspiring Researcher 0->1
-
-Slave Guardian (4, Human) (Enkidu spear guard -> human Gold 9 Rcost 9)
-
-Blessing of Limne (Construction 6, W4, Gcost 10, Creates 5 Fish Amulets)"
-#end
-
-#selectnation 85 --EA Pelagia
-#descr "Turtle Warrior + Chief Prot 9->10
-
-Turtle Tribe Triton Prot 7->8
-
-Coral Clan Soldier Rcost 15->20 Prot 13->14 Enc 7->6 Ap 16->17
-
-Pearl Guard Rcost 23->28 Prot 13->14 Enc 7->6 Ap 16->17
-
-Pelagian Captain 16->21 Prot 13->14 Enc 7->6 Ap 16->17
-
-Triton Rider Prot 8->9
-
-Sideraspist Hp 10->11 Mor 11->12 Def 10->11
-
-Blessing of Limne (Construction 6, W4, Gcost 10, Creates 5 Fish Amulets)"
-#end
-
-#selectnation 86 --EA Oceania
-#descr "Siren -1W +100%WA
-
-Ichtycentaur Prot 12->13
-
-Ichtysatyr Commander Prot 11->12
-
-Ichtysatyr Warrior Prot 9->10
-
-Ichtytaur Gold 40->35 +Gore (-1Att -1def)
-
-Aphroi Lord Prot 14->17
-
-Aphroi Prot 12->15"
-#end
-
-#selectnation 87 --MA Atlantis
-#descr "Atlantian Light Infantry Rcost 9->12
-
-Coral Guard Rcost 15->20 Prot 13->15 Enc 6->5 Ap 6->7
-
-Coral Queen Rcost 19->25
-
-War Shambler Rcost 19->23
-
-Mother Guard Rcost 26->34 Prot 16->17 Enc 7->6 Ap 7->8
-
-Consort Rcost 26->34 Prot 16->17 Enc 7->6 Ap 7->8
-
-Reef Warrior Rcost 11->14
-
-Atlantian Infantry Rcost 12->15 Prot 12->13
-
-Coral Guard Rcost 17->22 13->15 Enc 5->4 Ap 7->8"
-#end
-
-#selectnation 88 --MA R'lyeh
-#descr "Slave Trooper (1, Atlantian) Dmg 5->7 Rcost 2->3
-
-Slave Guardian (1, Atlantian) Dmg 5->7 HProt 16->14
-
-Slave Trooper (2, Merman) Dmg 2->3 Rcost 2->3
-
-Slave Trooper (3, Triton) Dmg 2->3 Rcost 1->2
-
-Slave Guardian (2, Merman) HProt 16->14 Rcost 12->11 +NoRust
-
-Slave Guardian (3, Triton) HProt 16->14 Rcost 13->12
-
-Traitor Prince -Trident +Meteorite Trident
-
-Hybrid Trooper +NoRust"
-#end
-
-#selectnation 89 --MA Pelagia
-#descr "Wave Warrior Def 10->11 Enc 6->5 Ap 19->20
-
-Wave Lord Def 10->11 Enc 6->5 Ap 19->20
-
-Pelagian Soldier Def 12->13 Enc 7->6 Ap 16->17
-
-Pelagian Captain Enc 9->7 Ap 14->16
-
-Amber Clan Guard Rcost 35->30 Def 12->15
-
-Coral Clan Hoplite Enc 9->7 Ap 14->16
-
-Amber Clan Noble Rcost 36->31 Def 13->16
-
-Merman Hoplite Enc 9->7 Ap +2
-
-Merman Commander Enc 9->7 Ap +2
-
-Champion of the Closed Realm Def 13->14 Enc 8->6 Ap +2
-
-Conqueror of the Closed Realm Def 13->14 Enc 8->6 Ap +2
-
-Apostate of the Closed Realm Def 16->17 Enc 6->5 Ap +1
-
-Blessing of Limne (Construction 6, W4, Gcost 10, Creates 5 Fish Amulets)"
-#end
-
-#selectnation 90 --MA Oceania
-#descr "Ichtysatyr Soldier Def 14->15 Enc 7->6 Ap +1
-
-Mermidon Enc 9->7 Ap +2
-
-Siren -1W +100%WA
-
-Ichtycentaur Prot 12->13
-
-Ichtysatyr Commander Prot 11->12
-
-Ichtysatyr Warrior Prot 9->10
-
-Ichtytaur Gold 40->35 +Gore (-1Att -1def)
-
-Aphroi Lord Prot 14->17
-
-Aphroi Prot 12->15
-
-Ichtysatyr Soldier Prot 9->10
-
-Ichtytaur Warrior Gold 50->35 +Gore (-1Att -1def) Def +1 Enc 6->5 Ap +1"
-#end
-
-#selectnation 91 --LA Atlantis
-#descr "Atlantian Light Infantry Res 9->12
-
-Atlantian Infantry Res 12->15 Prot 12->13
-
-Tent Owner Res 6->5 Dmg 3->2 -Ferrous
-
-Mournful -Ferrous
-
-Unsleeping Res 26->34 Prot 16->17 Enc 7->6 Ap 7->8
-
-Unsleeping Consort Res 26->34 Prot 16->17 Enc 7->6 Ap 7->8"
-#end
-
-#selectnation 92 --LA R'lyeh
-#descr "No swanky new descr yet, sorry"
-#end
-
-#selectnation 95 --EA Therodos
-#descr "Merman Scout +UWRec
-
-Therodian Hoplite Def 8->9 Enc 8->6 Ap 7->9
-
-Therodian Commander Def 9->10 Enc 8->6 Ap 7->9
-
-Melia Def 17->18 Enc 6->5 Ap 8->9 Awe 3->1
-
-Kabeiros Dmg 9->10
-
-Korybant Def 15->16 Enc 6->5 Ap 10->11 Sword->Sword Dance (+1Nratt) Reclimit 2->Scale Based (2 at D(3-2), 4 at D(1-0), 6 at G(1-2) 8 at G3
-
-Kourete Def 17->18 Enc 6->5 Ap 10->11 Sword->Sword Dance (+1Nratt) Reclimit 2->Scale Based (2 at D(3-2), 4 at D(1-0), 6 at G(1-2) 8 at G3
-
-Telkhine Adujant (Storm caller Gold 205->195 -1A -100%FAW +110%FAWD Mr 16->15)
-
-Therodian Swordsman (Therodian Hoplite Hp 10->12 Rcost 31->25 Mor 10->15 Prot 18->15 LongSpear->ShortSword Def 9->15 MapMove 1->2 AP 9->10)
-
-Triton Mercenary (Therodian Swordsman Gold 10->12 Hp 12->15 Rcost 25->23 Prot 15->14 MR 10->12 Mor 15->11 ShortSword->BronzeSword Str 10->12 Ap 10->17)
-
-Triton Mercenary Captain (Triton Mecr Att 11->12 Def 15->16 Gold 12->40)
-
-Merman Mercenary (Therodian Swordsman Gold 10->12 Hp 12->11 Prot 15->14 MR 10->12 Mor 15->12 ShortSword->BronzeSwordAp 10->10/19)
-
-Spectral Melia (Melia -awe -Unrestreduc +Spectral -N1 +D1 Spawns 1 in Cap turn 2 if Death)
-
-Call Ephor Gcost 7->5
-
-Spectral weapons HrdMrNg
-
-Summon the Waters of Stygia (Thaumaturgy 6, D5W2, WorldEnch, Gcost 50, Inc Death, Spawns more spectrals, Creates W sites in dead provinces)"
-#end
 
