@@ -303,16 +303,6 @@
 #descr "The wielder of this trident will be able to command the currents of the sea. They will aid his friends, keep him from harm, allow him to breathe underwater, and strike his enemies at his command.  When used during battle, the Wave Breaker strikes with incredible speed."
 #end
 
-#newspell
-#name "SelfBerserk"
-#researchlevel -1
-#school -1
-#effect 10
-#damage 256
-#spec 12599424
-#nreff 1
-#end
-
 ---Modified Items
 #selectweapon 537 -- Flick Barbs
 #end
@@ -538,16 +528,16 @@
 #aoe 1
 #end
 
-#newweapon 1413
+#newweapon 1413 -- for hunter's knife
 #name "Bleed"
 #dt_aff
 #dmg 8192
 #end
 
-#newweapon 1414
+#newweapon 1414 --ma machaka sacred
 #copyweapon 440
 #name "Spider Fear"
-#dmg 1
+#dmg 2
 #nratt 1
 #aoe 1
 #unrepel
@@ -571,7 +561,6 @@
 #name "Rhabdos"
 #secondaryeffect 216
 #end
-
 
 #newweapon 1417
 #name "Wind of Leprosy"
@@ -849,9 +838,11 @@
 #name "Toad Tribe Scout"
 #descr "The Toad Tribes are not of human stock, but of the same race as the Atlantians. Most likely they left the deeps for a life in the swamps in the distant past. The more agile of them are trained as scouts."
 #end
+
 #selectpoptype 83
 #addreccom 6303
 #end
+
 #selectmonster 1613
 #clearweapons
 #weapon 519
@@ -1292,6 +1283,7 @@
 #selectitem 56 --faithful
 #mainpath 4
 #secondarylevel 0
+#secondarypath -1
 #end
 
 #selectweapon 301 --firebola
@@ -1503,7 +1495,7 @@
 #mainlevel 2
 #secondarylevel 1
 #end
-#selectweapon 241
+#selectweapon 241 --wraithsword
 #dmg 15
 #end
 #selectitem 20 --ice pebble staff
@@ -1645,7 +1637,8 @@
 #armor "Furs"
 #mainpath 6
 #mainlevel 1
-#autospell "SelfBerserk"
+#bers
+#berserk 3
 #descr "This wolf pelt will enrage the wearer, increasing his strength and battle prowess, but reducing his defense."
 #end
 
@@ -1879,11 +1872,11 @@
 #end
 
 #selectitem 290	 --	Lycantropos Amulet - #heal, improved stats
-#att 3
-#def -3
-#str 6
+#str 3
 #heal
-#magicboost 53 -2
+#magicboost 53 -1
+#bers
+#berserk 3
 #descr "This iron amulet is crafted in the image of a wolf's head.  Its eyes are as red as the rage that fills the heart of the wearer.  The amulet grants the powers of a beast, letting him regenerate both major and minor wounds, increasing his strength and rage, and granting him night vision.  The powers of the amulet will eventually turn the wearer into a beast, but even wearing it may suppress magical skill."
 #end
 
@@ -1965,6 +1958,7 @@
 #selectitem 253	 --	Woundfend Amulet E1S1->S1
 #mainpath 4
 #secondarylevel 0
+#secondarypath -1
 #end
 
 --- Artefacts ---
@@ -2060,9 +2054,15 @@
 #armorpiercing
 #end
 -Unquenched Sword
+#newspell
+#name "Unquenched Flames"
+#copyspell 716
+#name "Unquenched Flames"
+#nextspell 823
+#end
 #selectitem 94
 #mainlevel 5
-#autospell "Living Fire"
+#autospell "Unquenched Flames"
 #end
 -Wondrous Box
 #selectitem 351
@@ -2577,6 +2577,7 @@
 #selectspell 574
 #aoe 1002
 #end
+
 #newspell 
 #name "doublehorror"
 #researchlevel -1
@@ -2586,10 +2587,12 @@
 #range 50
 #nreff 1
 #end
+
 #selectspell 622 --spirit curse
 #nextspell "doublehorror"
 #descr "The caster summons a malign spirit from the underworld and coerces it to curse an enemy. The curse is twofold, as it leaves the target prone to injuries and marks him for attention from otherworldly beings."
 #end
+
 ---------------
 --- Summons ---
 ---------------
@@ -2703,9 +2706,6 @@
 #fatiguecost 1000
 #researchlevel 7
 #spec 8388608 -- UW cast
-#end
-#selectweapon 574 --shatterfist
-#att 3
 #end
 #selectspell 705 --Troll King
 #fatiguecost 4500
@@ -3332,8 +3332,7 @@
 #selectmonster 2736 --onaqui
 #incunrest 7
 #end
----Therodos
---removed pending patch.  See v.34 and earlier for changes; alternatively reference thed dudes work
+
 ----EA: Buffed Nations------
 ----Abysia
 #selectnation 13 --abysia
@@ -3373,201 +3372,843 @@
 #selectmonster 1536 --ea demonbred
 #douse 1
 #end
-#newmonster 6900	 #copystats 1661 #name "Demonspawn"		 #copyspr 1661		 	#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The least flawed Demonspawn are selected as part of the Demonbred program, and the remainder are known as Misbred.  Demonspawn radiate the hellish heat characteristic of Abysians, but must be led by a mage or commander with undead leadership.  Some Demonspawn have a talent for magic."	 	#poorundeadleader #startaff 30	 #custommagic 16384 50			#douse 1						 		 #montag 1303 
+#newmonster 6900	 
+#copystats 1661
+#name "Demonspawn"		
+#copyspr 1661		 	
+#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The least flawed Demonspawn are selected as part of the Demonbred program, and the remainder are known as Misbred.  Demonspawn radiate the hellish heat characteristic of Abysians, but must be led by a mage or commander with undead leadership.  Some Demonspawn have a talent for magic."	 	
+#poorundeadleader 
+#startaff 30	 
+#custommagic 16384 50			
+#douse 1						 		 
+#montag 1303 
 #end				
-#newmonster 6901	 #copystats 983	 #name "Humanspawn"		 #copyspr 983		#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The Humanspawn frequently result from such experiments.  They breed true and grow quickly, making them useful in warfare.  They share the Abysian resistance to heat, but their flesh is cooler and will will not incinerate their own equiment.  The least flawed on the Humanspawn may serve as breeding stock for the Humanbred program."		 		 #slave	 #startaff 20	 #gcost 4	 #mor 10							 		 #montag 1303 
+#newmonster 6901	 
+#copystats 983	 
+#name "Humanspawn"		 
+#copyspr 983		
+#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The Humanspawn frequently result from such experiments.  They breed true and grow quickly, making them useful in warfare.  They share the Abysian resistance to heat, but their flesh is cooler and will will not incinerate their own equiment.  The least flawed on the Humanspawn may serve as breeding stock for the Humanbred program."		 		 
+#slave	 
+#startaff 20	 
+#gcost 4	
+#mor 10							 		 
+#montag 1303 
 #end			
-#newmonster 6902	 #copystats 1972	 #name "Battlespawn"	 #spr1 "./summod/warspawn_1.tga"	 #spr2 "./summod/warspawn_2.tga"		#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  Battlespawn are part of a breeding program to create larger, stronger specimens.  Intelligence has been difficult to retain with size."		#transformation 0 		 #startaff 20	 #clearweapons	 #weapon 165	 #cleararmor	 #armor 6	 #armor 20	 #darkvision 50	 #prot 2	 #berserk 1	 #gcost 10	 		 #montag 1303 
+#newmonster 6902	 
+#copystats 1972	 
+#name "Battlespawn"	
+#spr1 "./summod/warspawn_1.tga"	 
+#spr2 "./summod/warspawn_2.tga"	
+#descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  Battlespawn are part of a breeding program to create larger, stronger specimens.  Intelligence has been difficult to retain with size."		
+#transformation 0 		 
+#startaff 20	 
+#clearweapons
+#weapon 165	
+#cleararmor	
+#armor 6
+#armor 20
+#darkvision 50	
+#prot 2
+#berserk 1
+#gcost 10	 
+#montag 1303 
 #end			
-#newmonster 6903		 #name "Foul Spawn"	 #spr1 "./summod/foulspawn_1_1.tga"	#spr2 "./summod/foulspawn_1_2.tga"	#hp 12 #gcost 1	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."		#weapon 43	#weapon 29	#mor 10	#mr 10	#wastesurvival	#att 10	#str 13	#def 8	#prec 9	#maxage 100	#fireres 15	#heat 3	#coldres -5	#undisciplined	#prot 6	#undisciplined	#mapmove 2	#montag 1303 
+#newmonster 6903		
+#name "Foul Spawn"	 
+#spr1 "./summod/foulspawn_1_1.tga"
+#spr2 "./summod/foulspawn_1_2.tga"
+#hp 12 
+#gcost 1	
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	
+#weapon 43
+#weapon 29
+#mor 10	
+#mr 10
+#wastesurvival
+#att 10	
+#str 13
+#def 8	
+#prec 9
+#maxage 100
+#fireres 15	
+#heat 3	
+#coldres -5
+#undisciplined	
+#prot 6	
+#undisciplined
+#mapmove 2
+#montag 1303 
 #end
-#newmonster 6904		 #name "Foul Spawn"	 #spr1 "./summod/foulspawn_2_1.tga"	#spr2 "./summod/foulspawn_2_2.tga"	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	#hp 12	#str 12	#mor 11	#att 10	#def 8	#prec 9	#maxage 100	#coldres -5	#fireres 15	#mr 10	#prot 3	#undisciplined	#ap 10	#enc 2	#maxage 100	#coldres -5	#fireres 15	#mr 10	#prot 3	#undisciplined #ap 10 #enc 2 #wastesurvival #weapon 383 #weapon 85 #montag 1303 
+#newmonster 6904
+#name "Foul Spawn"	 
+#spr1 "./summod/foulspawn_2_1.tga"
+#spr2 "./summod/foulspawn_2_2.tga"
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	
+#hp 12	
+#str 12
+#mor 11	
+#att 10	
+#def 8	
+#prec 9	
+#maxage 100
+#coldres -5
+#fireres 15
+#mr 10	
+#prot 3
+#undisciplined
+#ap 10
+#enc 2	
+#maxage 100
+#coldres -5
+#fireres 15
+#mr 10
+#prot 3
+#undisciplined
+#ap 10 
+#enc 2 
+#wastesurvival 
+#weapon 383 
+#weapon 85
+#montag 1303 
 #end
-#newmonster 6905	 #copystats 454	 #name "Foul Spawn"	 #spr1 "./summod/foulspawn_3_1.tga"	 #spr2 "./summod/foulspawn_3_2.tga"		 #gcost 2	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	 		 #hp 13	 #str 12	 #mr 10	 #fireres 15	 #heat 3	 #maxage 40	#transformation 0 #wastesurvival				 		 #montag 1303 
+#newmonster 6905
+#copystats 454	
+#name "Foul Spawn"
+#spr1 "./summod/foulspawn_3_1.tga"
+#spr2 "./summod/foulspawn_3_2.tga"
+#gcost 2	
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	 	
+#hp 13	 
+#str 12	
+#mr 10	
+#fireres 15
+#heat 3	
+#maxage 40
+#transformation 0
+#wastesurvival				 		
+#montag 1303 
 #end			
-#newmonster 6906	 #copystats 457	 #name "Foul Spawn"	 #spr1 "./summod/foulspawn_4_1.tga"	 #spr2 "./summod/foulspawn_4_2.tga"		 #gcost 2	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	 		 #hp 12	 #str 14	 #mr 10	 #fireres 5	 #prot 3	 #maxage 40	#transformation 0 #wastesurvival				 		 #montag 1303 
+#newmonster 6906
+#copystats 457	
+#name "Foul Spawn"
+#spr1 "./summod/foulspawn_4_1.tga"
+#spr2 "./summod/foulspawn_4_2.tga"	
+#gcost 2
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	 		 
+#hp 12	
+#str 14
+#mr 10	
+#fireres 5	
+#prot 3	
+#maxage 40
+#transformation 0 
+#wastesurvival	
+#montag 1303 
 #end			
-#newmonster 6907	 #copystats 456	 #name "Foul Spawn"	 #spr1 "./summod/foulspawn_5_1.tga"	 #spr2 "./summod/foulspawn_5_2.tga"		 #gcost 2	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	#transformation 0 		 #hp 15	 #str 14	 #mr 10	 #fireres 5	 #prot 3	 #maxage 40	 #wastesurvival	 #montag 1303 
+#newmonster 6907
+#copystats 456	 #name "Foul Spawn"
+#spr1 "./summod/foulspawn_5_1.tga"	
+#spr2 "./summod/foulspawn_5_2.tga"	
+#gcost 2
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	#transformation 0 	
+#hp 15	
+#str 14	 
+#mr 10
+#fireres 5
+#prot 3	
+#maxage 40
+#wastesurvival	 
+#montag 1303 
 #end								
-#newmonster 6908		 #name "Foul Spawn"	 #spr1 "./summod/foulspawn_6_1.tga"	 #spr2 "./summod/foulspawn_6_2.tga"		 #gcost 2	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	#transformation 0 		 #hp 25	 #str 15	 #weapon 85	 #weapon 537	 #fireres 10	 #prot 10	 #mr 14	 #mor 15	 #undisciplined	 #def 12	 #prec 10	 #ap 13	 #mapmove 2	 #darkvision 100	 #poisonarmor	 #enc 3 #montag 1303 
+#newmonster 6908		 
+#name "Foul Spawn"
+#spr1 "./summod/foulspawn_6_1.tga"
+#spr2 "./summod/foulspawn_6_2.tga"	
+#gcost 2
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."
+#transformation 0 	
+#hp 25	 
+#str 15
+#weapon 85
+#weapon 537	 
+#fireres 10
+#prot 10	
+#mr 14	
+#mor 15
+#undisciplined	 
+#def 12
+#prec 10
+#ap 13
+#mapmove 2
+#darkvision 100	
+#poisonarmor
+#enc 3 
+#montag 1303 
 #end
-#newmonster 6909		 #name "Foul Spawn"	 #spr1 "./summod/foulspawn_7_1.tga"	 #spr2 "./summod/foulspawn_7_2.tga"		 #gcost 2	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	#transformation 0 		 #hp 22	 #str 15	 #weapon 65	#weapon 346 #att 14	 #fireres 10	#poisonres 10	 #prot 6	 #mor 15	 #undisciplined	 #mr 14	 #prec 10	 #ap 13	#mapmove 2	 #def 11	 #wastesurvival	 #darkvision 100 #enc 3 #montag 1303 
+#newmonster 6909	
+#name "Foul Spawn"	
+#spr1 "./summod/foulspawn_7_1.tga"	
+#spr2 "./summod/foulspawn_7_2.tga"	
+#gcost 2
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."
+#transformation 0 	
+#hp 22
+#str 15
+#weapon 65
+#weapon 346
+#att 14
+#fireres 10
+#poisonres 10	
+#prot 6	 #mor 15
+#undisciplined
+#mr 14
+#prec 10
+#ap 13
+#mapmove 2
+#def 11	
+#wastesurvival
+#darkvision 100
+#enc 3 
+#montag 1303 
 #end
-#newmonster 6910	 #copystats 458	 #name "Foul Spawn"	 #spr1 "./summod/foulspawn_8_1.tga"	 #spr2 "./summod/foulspawn_8_2.tga"		 #gcost 1	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	#transformation 0 		 #hp 12	 #str 13	 #mr 10	 #fireres 5	 #berserk 3	 #maxage 40					 		 #montag 1303 
+#newmonster 6910
+#copystats 458	
+#name "Foul Spawn"
+#spr1 "./summod/foulspawn_8_1.tga"
+#spr2 "./summod/foulspawn_8_2.tga"	
+#gcost 1
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	#transformation 0 		 
+#hp 12	
+#str 13	 
+#mr 10	 
+#fireres 5
+#berserk 3
+#maxage 40	
+#montag 1303 
 #end			
-#newmonster 6911	 #copystats 455	 #name "Foul Spawn"	 #spr1 "./summod/foulspawn_9_1.tga"	 #spr2 "./summod/foulspawn_9_2.tga"		 #gcost 1	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	 #transformation 0 		 #hp 13	 #str 13	 #mr 10	 #fireres 5	 #prot 3	 #maxage 40					 		 #montag 1303 
+#newmonster 6911
+#copystats 455	 
+#name "Foul Spawn"
+#spr1 "./summod/foulspawn_9_1.tga"
+#spr2 "./summod/foulspawn_9_2.tga"	
+#gcost 1
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	 #transformation 0 
+#hp 13	
+#str 13
+#mr 10	
+#fireres 5
+#prot 3	 
+#maxage 40		
+#montag 1303 
 #end			
-#newmonster 6912	 #copystats 530	 #copyspr 530	#transformation 0 	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."		#name "Foul Spawn"		#firstshape 530	 #montag 1303 
+#newmonster 6912
+#copystats 530
+#copyspr 530
+#transformation 0 
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	
+#name "Foul Spawn"	
+#firstshape 530	
+#montag 1303 
 #end											 					
-#newmonster 6913	 #copystats 467	 #copyspr 467	#transformation 0 	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."		#name "Foul Beast"		#firstshape 467	 #montag 1303 
+#newmonster 6913
+#copystats 467	 
+#copyspr 467
+#transformation 0 
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	
+#name "Foul Beast"	
+#firstshape 467	
+#montag 1303 
 #end											 					
-#newmonster 6914	 #copystats 659	 #copyspr 659	#transformation 0 	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."		#name "Grotesque"		#firstshape 659	 #montag 1303 
+#newmonster 6914	
+#copystats 659
+#copyspr 659
+#transformation 0 
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	
+#name "Grotesque"
+#firstshape 659	
+#montag 1303 
 #end											 					
-#newmonster 6915	 #copystats 487	 #copyspr 487	#transformation 0 	#descr "The horrible result of a cross-breeding experiment, the chimera has the body of a lion, the tail of a snake, the wings of a bat, and the heads of a lion and goat, through which it can breathe fire like a dragon."		#name "Chimera"		#firstshape 487	 #montag 1303 
+#newmonster 6915
+#copystats 487	
+#copyspr 487	
+#transformation 0 
+#descr "The horrible result of a cross-breeding experiment, the chimera has the body of a lion, the tail of a snake, the wings of a bat, and the heads of a lion and goat, through which it can breathe fire like a dragon."		#name "Chimera"	
+#firstshape 487	
+#montag 1303 
 #end																
-#newmonster 6916	 #copystats 468	 #copyspr 468	#transformation 0 	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."		#name "Foul Spawn"		#firstshape 468	 #montag 1303 
+#newmonster 6916
+#copystats 468	 
+#copyspr 468	
+#transformation 0 
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	
+#name "Foul Spawn"	
+#firstshape 468	 
+#montag 1303 
 #end																
-#newmonster 6917	 #copystats 468	 #copyspr 468	#transformation 0 	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."		#name "Foul Spawn"		#firstshape 468	 #montag 1303 
+#newmonster 6917
+#copystats 468	 
+#copyspr 468	
+#transformation 0 
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	
+#name "Foul Spawn"	
+#firstshape 468	 
+#montag 1303
 #end																
-#newmonster 6918	 #copystats 468	 #copyspr 468	#transformation 0 	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."		#name "Foul Spawn"		#firstshape 468	 #montag 1303 
+#newmonster 6918
+#copystats 468	 
+#copyspr 468	
+#transformation 0 
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	
+#name "Foul Spawn"	
+#firstshape 468	 
+#montag 1303
 #end																
-#newmonster 6919	 #copystats 468	 #copyspr 468	#transformation 0 	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."		#name "Foul Spawn"		#firstshape 468	 #montag 1303 
+#newmonster 6919
+#copystats 468	 
+#copyspr 468	
+#transformation 0 
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	
+#name "Foul Spawn"	
+#firstshape 468	 
+#montag 1303 
 #end																
-#newmonster 6920	 #copystats 468	 #copyspr 468	#transformation 0 	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."		#name "Foul Spawn"		#firstshape 468	 #montag 1303 
+#newmonster 6920
+#copystats 468	 
+#copyspr 468	
+#transformation 0 
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	
+#name "Foul Spawn"	
+#firstshape 468	 
+#montag 1303 
 #end																
-#newmonster 6921	 #copystats 468	 #copyspr 468	#transformation 0 	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."		#name "Foul Spawn"		#firstshape 468	 #montag 1303 
+#newmonster 6921
+#copystats 468	 
+#copyspr 468	
+#transformation 0 
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	
+#name "Foul Spawn"	
+#firstshape 468	 
+#montag 1303
 #end																
-#newmonster 6922	 #copystats 468	 #copyspr 468	#transformation 0 	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."		#name "Foul Spawn"		#firstshape 468	 #montag 1303 
+#newmonster 6922
+#copystats 468	 
+#copyspr 468	
+#transformation 0 
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	
+#name "Foul Spawn"	
+#firstshape 468	 
+#montag 1303 
 #end																
-#newmonster 6923	 #copystats 468	 #copyspr 468	#transformation 0 	#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."		#name "Foul Spawn"		#firstshape 468	 #montag 1303 
+#newmonster 6923
+#copystats 468	 
+#copyspr 468	
+#transformation 0 
+#descr "Horrible results of cross-breeding experiments, few foulspawn look alike.  They sometimes possess strange abilities such as waterbreathing or regeneration."	
+#name "Foul Spawn"	
+#firstshape 468	 
+#montag 1303 
 #end																
-#newmonster 6924	 #name "Demonspawn"	#copystats 6900 #copyspr 983 	#firstshape 6900 #custommagic 16384 50		#montag 1303 
+#newmonster 6924
+#name "Demonspawn"
+#copystats 6900
+#copyspr 983 
+#firstshape 6900 
+#custommagic 16384 50	
+#montag 1303 
 #end																					
-#newmonster 6925	 #name "Demonspawn"	#copystats 6900 #copyspr 983 	#firstshape 6900 #custommagic 16384 50		#montag 1303 
+#newmonster 6925
+#name "Demonspawn"
+#copystats 6900 
+#copyspr 983 
+#firstshape 6900
+#custommagic 16384 50	
+#montag 1303 
 #end																					
-#newmonster 6926	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901 #custommagic 16384 50		#montag 1303 
+#newmonster 6926
+#copystats 6901 
+#copyspr 983 	
+#firstshape 6901
+#montag 1303 
 #end																					
-#newmonster 6927	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901 #custommagic 16384 50		#montag 1303 
+#newmonster 6927	
+#copystats 6901 
+#copyspr 983 	
+#firstshape 6901
+#montag 1303 
 #end																					
-#newmonster 6928	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901	#montag 1303 
+#newmonster 6928
+#copystats 6901 
+#copyspr 983 	
+#firstshape 6901
+#montag 1303 
 #end																					
-#newmonster 6929	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901	#montag 1303 
+#newmonster 6929
+#copystats 6901 
+#copyspr 983 	
+#firstshape 6901
+#montag 1303 
 #end																					
-#newmonster 6930	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901	#montag 1303 
+#newmonster 6930
+#copystats 6901 
+#copyspr 983 	
+#firstshape 6901
+#montag 1303 
 #end																					
-#newmonster 6931	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901	#montag 1303 
+#newmonster 6931
+#copystats 6901 
+#copyspr 983 	
+#firstshape 6901
+#montag 1303 
 #end																					
-#newmonster 6932	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901	#montag 1303 
+#newmonster 6932
+#copystats 6901 
+#copyspr 983 	
+#firstshape 6901
+#montag 1303 
 #end																					
-#newmonster 6933	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901	#montag 1303 
+#newmonster 6933	
+#copystats 6901 
+#copyspr 983 	
+#firstshape 6901
+#montag 1303 
 #end																				
-#newmonster 6934	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901	#montag 1303 
+#newmonster 6934	 
+#copystats 6901 
+#copyspr 983 	
+#firstshape 6901
+#montag 1303 
 #end																					
-#newmonster 6935	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901	#montag 1303 
+#newmonster 6935
+#copystats 6901 
+#copyspr 983 	
+#firstshape 6901
+#montag 1303 
 #end																					
-#newmonster 6936	 #name "Humanspawn"	#copystats 6901 #copyspr 983 	#firstshape 6901	#montag 1303 
+#newmonster 6936
+#name "Humanspawn"
+#copystats 6901 
+#copyspr 983 	
+#firstshape 6901
+#montag 1303 
 #end																					
-#newmonster 6937	 #name "Battlespawn"	#copystats 6902 #copyspr 6902	#firstshape 6902	#montag 1303 
+#newmonster 6937
+#name "Battlespawn"
+#copystats 6902
+#copyspr 6902
+#firstshape 6902
+#montag 1303 
 #end																					
 #newevent #nation -2	#msg "One of the Anathements has noted that the fires of The Smouldercone seem slightly suppressed this month.  The Warlocks explained that this is part of a naturally occurring cycle, and is not related to the use of blood magic.  For reasons entirely unrelated to your ongoing endorsement of their breeding program, they have donated a small sum of gold to the treasury." #gold 50 #rarity 5 #req_rare 10 #req_unique 1 #req_owncapital 1 #req_monster 6901 #incscale 2 
 #end																							
-#newmonster 6938	 #name "Battlespawn"	#copystats 6902 #copyspr 6902	#firstshape 6902	#montag 1303 
+#newmonster 6938
+#name "Battlespawn"
+#copystats 6902
+#copyspr 6902
+#firstshape 6902
+#montag 1303 
 #end																					
-#newmonster 6939	 #name "Foul Spawn"	#copystats 6903 #copyspr 6903 #firstshape 6903 #montag 1303 
+#newmonster 6939	
+#name "Foul Spawn"	
+#copystats 6903 
+#copyspr 6903
+#firstshape 6903 
+#montag 1303 
 #end																							
-#newmonster 6940	 #name "Foul Spawn"	#copystats 6903 #copyspr 6903 #firstshape 6903 #montag 1303 
+#newmonster 6940	
+#name "Foul Spawn"	
+#copystats 6903 
+#copyspr 6903
+#firstshape 6903 
+#montag 1303 
 #end																							
-#newmonster 6941	 #name "Foul Spawn"	#copystats 6903 #copyspr 6903 #firstshape 6903 #montag 1303 
+#newmonster 6941		
+#name "Foul Spawn"	
+#copystats 6903 
+#copyspr 6903
+#firstshape 6903 
+#montag 1303 
 #end																							
-#newmonster 6942	 #name "Foul Spawn"	#copystats 6903 #copyspr 6903 #firstshape 6903 #montag 1303 
+#newmonster 6942	
+#name "Foul Spawn"	
+#copystats 6903 
+#copyspr 6903
+#firstshape 6903 
+#montag 1303 
 #end																							
-#newmonster 6943	 #name "Foul Spawn"	#copystats 6903 #copyspr 6903 #firstshape 6903 #montag 1303 
+#newmonster 6943	
+#name "Foul Spawn"	
+#copystats 6903 
+#copyspr 6903
+#firstshape 6903 
+#montag 1303 
 #end																							
-#newmonster 6944	 #name "Foul Spawn"	#copystats 6903 #copyspr 6903 #firstshape 6903 #montag 1303 
+#newmonster 6944	
+#name "Foul Spawn"	
+#copystats 6903 
+#copyspr 6903
+#firstshape 6903 
+#montag 1303 
 #end																							
-#newmonster 6945	 #name "Foul Spawn"	#copystats 6904 #copyspr 6904 #firstshape 6904 #montag 1303 
+#newmonster 6945
+#name "Foul Spawn"
+#copystats 6904
+#copyspr 6904
+#firstshape 6904
+#montag 1303 
 #end																							
-#newmonster 6946	 #name "Foul Spawn"	#copystats 6904 #copyspr 6904 #firstshape 6904 #montag 1303 
+#newmonster 6946
+#name "Foul Spawn"
+#copystats 6904
+#copyspr 6904
+#firstshape 6904
+#montag 1303 
 #end																							
-#newmonster 6947	 #name "Foul Spawn"	#copystats 6904 #copyspr 6904 #firstshape 6904 #montag 1303 
+#newmonster 6947
+#name "Foul Spawn"
+#copystats 6904
+#copyspr 6904
+#firstshape 6904
+#montag 1303 
 #end																							
-#newmonster 6948	 #name "Foul Spawn"	#copystats 6904 #copyspr 6904 #firstshape 6904 #montag 1303 
+#newmonster 6948	
+#name "Foul Spawn"
+#copystats 6904
+#copyspr 6904
+#firstshape 6904
+#montag 1303 
 #end																							
-#newmonster 6949	 #name "Foul Spawn"	#copystats 6904 #copyspr 6904 #firstshape 6904 #montag 1303 
+#newmonster 
+#name "Foul Spawn"
+#copystats 6904
+#copyspr 6904
+#firstshape 6904
+#montag 1303 
 #end																							
-#newmonster 6950	 #name "Foul Spawn"	#copystats 6905 #copyspr 6905 #firstshape 6905 #montag 1303 
+#newmonster 6950	 
+#name "Foul Spawn"	
+#copystats 6905
+#copyspr 6905 
+#firstshape 6905 
+#montag 1303 
 #end																							
-#newmonster 6951	 #name "Foul Spawn"	#copystats 6905 #copyspr 6905 #firstshape 6905 #montag 1303 
+#newmonster 6951	 
+#name "Foul Spawn"	
+#copystats 6905
+#copyspr 6905 
+#firstshape 6905 
+#montag 1303 
 #end																							
-#newmonster 6952	 #name "Foul Spawn"	#copystats 6905 #copyspr 6905 #firstshape 6905 #montag 1303 
+#newmonster 6952		 
+#name "Foul Spawn"	
+#copystats 6905
+#copyspr 6905 
+#firstshape 6905 
+#montag 1303 
 #end					 																		
-#newmonster 6953	 #name "Foul Spawn"	#copystats 6905 #copyspr 6905 #firstshape 6905 #montag 1303 
+#newmonster 6953	 
+#name "Foul Spawn"	
+#copystats 6905
+#copyspr 6905 
+#firstshape 6905 
+#montag 1303 
 #end																							
-#newmonster 6954	 #name "Foul Spawn"	#copystats 6905 #copyspr 6905 #firstshape 6905 #montag 1303 
+#newmonster 6954	 
+#name "Foul Spawn"	
+#copystats 6905
+#copyspr 6905 
+#firstshape 6905 
+#montag 1303 
 #end																							
-#newmonster 6955	 #name "Foul Spawn"	#copystats 6905 #copyspr 6905 #firstshape 6905 #montag 1303 
+#newmonster 6955
+#name "Foul Spawn"
+#copystats 6906
+#copyspr 6906 
+#firstshape 6906
+#montag 1303 
 #end																							
-#newmonster 6956	 #name "Foul Spawn"	#copystats 6906 #copyspr 6906 #firstshape 6906 #montag 1303 
+#newmonster 6956
+#name "Foul Spawn"
+#copystats 6906
+#copyspr 6906 
+#firstshape 6906
+#montag 1303 
 #end																							
-#newmonster 6957	 #name "Foul Spawn"	#copystats 6906 #copyspr 6906 #firstshape 6906 #montag 1303 
+#newmonster 6957	
+#name "Foul Spawn"
+#copystats 6906
+#copyspr 6906 
+#firstshape 6906
+#montag 1303 
 #end																							
-#newmonster 6958	 #name "Foul Spawn"	#copystats 6906 #copyspr 6906 #firstshape 6906 #montag 1303 
+#newmonster 6958
+#name "Foul Spawn"
+#copystats 6906
+#copyspr 6906 
+#firstshape 6906
+#montag 1303 
 #end																							
-#newmonster 6959	 #name "Foul Spawn"	#copystats 6906 #copyspr 6906 #firstshape 6906 #montag 1303 
+#newmonster 6959
+#name "Foul Spawn"
+#copystats 6906
+#copyspr 6906 
+#firstshape 6906
+#montag 1303 
 #end																							
-#newmonster 6960	 #name "Foul Spawn"	#copystats 6906 #copyspr 6906 #firstshape 6906 #montag 1303 
+#newmonster 6960
+#name "Foul Spawn"
+#copystats 6906
+#copyspr 6906 
+#firstshape 6906
+#montag 1303 
 #end																							
-#newmonster 6961	 #name "Foul Spawn"	#copystats 6906 #copyspr 6906 #firstshape 6906 #montag 1303 
+#newmonster 6961
+#name "Foul Spawn"
+#copystats 6906
+#copyspr 6906 
+#firstshape 6906
+#montag 1303 
 #end																							
-#newmonster 6962	 #name "Foul Spawn"	#copystats 6907 #copyspr 6907 #firstshape 6907 #montag 1303 
+#newmonster 6962	
+#copystats 6907 
+#copyspr 6907 
+#firstshape 6907
+#montag 1303 
 #end																							
-#newmonster 6963	 #name "Foul Spawn"	#copystats 6907 #copyspr 6907 #firstshape 6907 #montag 1303 
+#newmonster 6963	
+#copystats 6907 
+#copyspr 6907 
+#firstshape 6907
+#montag 1303 
 #end																							
-#newmonster 6964	 #name "Foul Spawn"	#copystats 6907 #copyspr 6907 #firstshape 6907 #montag 1303 
+#newmonster 6964	
+#copystats 6907 
+#copyspr 6907 
+#firstshape 6907
+#montag 1303 
 #end																							
-#newmonster 6965	 #name "Foul Spawn"	#copystats 6907 #copyspr 6907 #firstshape 6907 #montag 1303 
+#newmonster 6965
+#copystats 6907 
+#copyspr 6907 
+#firstshape 6907
+#montag 1303 
 #end																							
-#newmonster 6966	 #name "Foul Spawn"	#copystats 6907 #copyspr 6907 #firstshape 6907 #montag 1303 
+#newmonster 6966
+#copystats 6907 
+#copyspr 6907 
+#firstshape 6907
+#montag 1303 
 #end																							
-#newmonster 6967	 #name "Foul Spawn"	#copystats 6907 #copyspr 6907 #firstshape 6907 #montag 1303 
+#newmonster 6967
+#name "Foul Spawn"
+#copystats 6907 
+#copyspr 6907 
+#firstshape 6907
+#montag 1303 
 #end																							
-#newmonster 6968	 #name "Foul Spawn"	#copystats 6908 #copyspr 6908 #firstshape 6908 #montag 1303 
+#newmonster 6968	
+#name "Foul Spawn"
+#copystats 6908
+#copyspr 6908
+#firstshape 6908
+#montag 1303 
 #end																							
-#newmonster 6969	 #name "Foul Spawn"	#copystats 6908 #copyspr 6908 #firstshape 6908 #montag 1303 
+#newmonster 6969	 
+#name "Foul Spawn"
+#copystats 6908
+#copyspr 6908
+#firstshape 6908
+#montag 1303 
 #end																							
-#newmonster 6970	 #name "Foul Spawn"	#copystats 6908 #copyspr 6908 #firstshape 6908 #montag 1303 
+#newmonster 6970
+#name "Foul Spawn"
+#copystats 6908
+#copyspr 6908
+#firstshape 6908
+#montag 1303 
 #end																							
-#newmonster 6971	 #name "Foul Spawn"	#copystats 6908 #copyspr 6908 #firstshape 6908 #montag 1303 
+#newmonster 6971
+#name "Foul Spawn"
+#copystats 6908
+#copyspr 6908
+#firstshape 6908
+#montag 1303 
 #end																							
-#newmonster 6972	 #name "Foul Spawn"	#copystats 6909 #copyspr 6909 #firstshape 6909 #montag 1303 
+#newmonster 6972
+#name "Foul Spawn"
+#copystats 6909 
+#copyspr 6909 
+#firstshape 6909
+#montag 1303 
 #end																							
-#newmonster 6973	 #name "Foul Spawn"	#copystats 6909 #copyspr 6909 #firstshape 6909 #montag 1303 
+#newmonster 6973
+#name "Foul Spawn"
+#copystats 6909 
+#copyspr 6909 
+#firstshape 6909
+#montag 1303 
 #end																							
-#newmonster 6974	 #name "Foul Spawn"	#copystats 6909 #copyspr 6909 #firstshape 6909 #montag 1303 
+#newmonster 6974	 
+#name "Foul Spawn"
+#copystats 6909 
+#copyspr 6909 
+#firstshape 6909
+#montag 1303 
 #end																							
-#newmonster 6975	 #name "Foul Spawn"	#copystats 6909 #copyspr 6909 #firstshape 6909 #montag 1303 
+#newmonster 6975	
+#name "Foul Spawn"
+#copystats 6909 
+#copyspr 6909 
+#firstshape 6909
+#montag 1303 
 #end																							
-#newmonster 6976	 #name "Foul Spawn"	#copystats 6910 #copyspr 6910 #firstshape 6910 #montag 1303 
+#newmonster 6976
+#name "Foul Spawn"	
+#copystats 6910 
+#copyspr 6910
+#firstshape 6910 
+#montag 1303 
 #end																							
-#newmonster 6977	 #name "Foul Spawn"	#copystats 6910 #copyspr 6910 #firstshape 6910 #montag 1303 
+#newmonster 6977	
+#name "Foul Spawn"	
+#copystats 6910 
+#copyspr 6910
+#firstshape 6910 
+#montag 1303 
 #end																							
-#newmonster 6978	 #name "Foul Spawn"	#copystats 6910 #copyspr 6910 #firstshape 6910 #montag 1303 
+#newmonster 6978
+#name "Foul Spawn"	
+#copystats 6910 
+#copyspr 6910
+#firstshape 6910 
+#montag 1303 
 #end																							
-#newmonster 6979	 #name "Foul Spawn"	#copystats 6910 #copyspr 6910 #firstshape 6910 #montag 1303 
+#newmonster 6979	 
+#name "Foul Spawn"	
+#copystats 6910 
+#copyspr 6910
+#firstshape 6910 
+#montag 1303 
 #end																							
-#newmonster 6980	 #name "Foul Spawn"	#copystats 6910 #copyspr 6910 #firstshape 6910 #montag 1303 
+#newmonster 6980	
+#name "Foul Spawn"	
+#copystats 6910 
+#copyspr 6910
+#firstshape 6910 
+#montag 1303 
 #end																							
-#newmonster 6981	 #name "Foul Spawn"	#copystats 6910 #copyspr 6910 #firstshape 6910 #montag 1303 
+#newmonster 6981
+#name "Foul Spawn"
+#copystats 6910
+#copyspr 6910
+#firstshape 6910
+#montag 1303 
 #end																							
-#newmonster 6982	 #name "Foul Spawn"	#copystats 6910 #copyspr 6910 #firstshape 6910 #montag 1303 
+#newmonster 6982
+#name "Foul Spawn"
+#copystats 6910 
+#copyspr 6910
+#firstshape 6910
+#montag 1303 
 #end																							
-#newmonster 6983	 #name "Foul Spawn"	#copystats 6911 #copyspr 6911 #firstshape 6911 #montag 1303 
+#newmonster 6983
+#name "Foul Spawn"
+#copystats 6911
+#copyspr 6911 
+#firstshape 6911
+#montag 1303 
 #end																							
-#newmonster 6984	 #name "Foul Spawn"	#copystats 6911 #copyspr 6911 #firstshape 6911 #montag 1303 
+#newmonster 6984
+#name "Foul Spawn"
+#copystats 6911
+#copyspr 6911 
+#firstshape 6911
+#montag 1303  
 #end																							
-#newmonster 6985	 #name "Foul Spawn"	#copystats 6911 #copyspr 6911 #firstshape 6911 #montag 1303 
+#newmonster 6985
+#name "Foul Spawn"
+#copystats 6911
+#copyspr 6911 
+#firstshape 6911
+#montag 1303  
 #end																							
-#newmonster 6986	 #name "Foul Spawn"	#copystats 6911 #copyspr 6911 #firstshape 6911 #montag 1303 
+#newmonster 6986	
+#name "Foul Spawn"	
+#copystats 6911 
+#copyspr 6911
+#firstshape 6911
+#montag 1303 
 #end																							
-#newmonster 6987	 #name "Foul Spawn"	#copystats 6911 #copyspr 6911 #firstshape 6911 #montag 1303 
+#newmonster 6987
+#name "Foul Spawn"
+#copystats 6911 
+#copyspr 6911 
+#firstshape 6911 
+#montag 1303 
 #end																							
-#newmonster 6988	 #name "Foul Spawn"	#copystats 6911 #copyspr 6911 #firstshape 6911 #montag 1303 
+#newmonster 6988
+#name "Foul Spawn"
+#name "Foul Spawn"
+#copystats 6911
+#copyspr 6911 
+#firstshape 6911
+#montag 1303 
 #end																							
-#newmonster 6989	 #name "Foul Spawn"	#copystats 6911 #copyspr 6911 #firstshape 6911 #montag 1303 
+#newmonster 6989
+#name "Foul Spawn"
+#name "Foul Spawn"
+#copystats 6911
+#copyspr 6911 
+#firstshape 6911
+#montag 1303 
 #end
-#newmonster 6990	 #name "Demonspawn"	#copystats 6900 #copyspr 983 	#firstshape 6900	#montag 1303 
+#newmonster 6990
+#name "Demonspawn"
+#copystats 6900 
+#copyspr 983 	
+#firstshape 6900
+#montag 1303 
 #end																					
-#newmonster 6991	 #name "Demonspawn"	#copystats 6900 #copyspr 983 	#firstshape 6900	#montag 1303 
+#newmonster 6991
+#name "Demonspawn"
+#copystats 6900 
+#copyspr 983 	
+#firstshape 6900
+#montag 1303 
 #end																					
-#newmonster 6992	 #name "Demonspawn"	#copystats 6900 #copyspr 983 	#firstshape 6900	#montag 1303 
+#newmonster 6992
+#name "Demonspawn"
+#copystats 6900 
+#copyspr 983 	
+#firstshape 6900
+#montag 1303 
 #end																					
-#newmonster 6993	 #name "Foul Spawn"	#copystats 6904 #copyspr 6904 #firstshape 6904 #montag 1303 
+#newmonster 6993
+#name "Foul Spawn"
+#copystats 6904
+#copyspr 6904
+#firstshape 6904
+#montag 1303 
 #end																							
-#newmonster 6994	 #name "Foul Spawn"	#copystats 6904 #copyspr 6904 #firstshape 6904 #montag 1303 
+#newmonster 6994
+#name "Foul Spawn"
+#copystats 6904 
+#copyspr 6904
+#firstshape 6904 
+#montag 1303 
 #end																							
-#newmonster 6995	 #name "Foul Spawn"	#copystats 6903 #copyspr 6903 #firstshape 6903 #montag 1303 
+#newmonster 6995
+#name "Foul Spawn"
+#copystats 6903
+#copyspr 6903 
+#firstshape 6903
+#montag 1303 
 #end																							
-#newmonster 6996	 #name "Foul Spawn"	#copystats 6905 #copyspr 6905 #firstshape 6905 #montag 1303 
+#newmonster 6996
+#name "Foul Spawn"
+#copystats 6905 
+#copyspr 6905 
+#firstshape 6905
+#montag 1303 
 #end																							
 	
 #selectmonster 87
@@ -3615,33 +4256,65 @@
 #magicboost 7 -1
 #end
 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	1	--disease
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	4096	--blind
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	262144	--limp
+#newevent 
+#rarity 5 
+#nation -2 
+#req_commander 1 
+#req_targmnr 6900
+#req_targaff 	1	--disease
+#transform 6999 
+#end 
+#newevent 
+#rarity 5 
+#nation -2 
+#req_commander 1 
+#req_targmnr 6900
+#req_targaff 	4096	--blind
+#transform 6999 
+#end 
+#newevent  
+#rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	262144	--limp
 #transform 6999 #end 
 #newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	524288	--lost eye
 #transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	1048576	--weakness
+#newevent  
+#rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	1048576	--weakness
 #transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	2097152	--battlefright
+#newevent  
+#rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	2097152	--battlefright
 #transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	4194304	--mute
+#newevent  
+#rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	4194304	--mute
 #transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	8388608	--chestwound
+#newevent  
+#rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	8388608	--chestwound
 #transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	16777216	--crippled
+#newevent 
+#rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	16777216	--crippled
 #transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	33554432	--feeblemind
+#newevent  
+#rarity 5
+#nation -2 
+#req_commander 1 #req_targmnr 6900 #req_targaff 	33554432	--feeblemind
 #transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	67108864	--neverhealing
+#newevent  
+#rarity 5 
+#nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	67108864	--neverhealing
 #transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	1073741824	--armloss
-#transform 6999 #end 
-#newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targpath1 7 #transform 6998 #end
-#newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targpath1 7 #transform 6998 #end
-#newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targpath1 7 #transform 6998 #end
+#newevent 
+#rarity 5
+#nation -2 
+#req_commander 1 #req_targmnr 6900 #req_targaff 	1073741824	--armloss
+#transform 6999 
+#end 
+#newevent 
+#rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targpath1 7 
+#transform 6998
+#end
+#newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targpath1 7 #transform 6998
+#end
+#newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targpath1 7 #transform 6998
+#end
 #newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #transform 6997 #end																	
 #newspell
 #name "Abysian Crossbreeding"
@@ -3657,7 +4330,7 @@
 #descr "The Warlocks of Smouldercone are Blood mages of great renown.  They are famed for their experiments in the creation and breeding of new species.  They crossbreed hundreds of different creatures with abysians to create powerful and useful slaves.  Most offspring die early, but some survive and are bound to serve their creator.  While the results are frequently grotesque or deformed, occasionally a warlock will happen upon a resounding success."
 #effect 10001
 #damage -1303
-#nreff 1012
+#nreff 2013
 #fatiguecost 1500
 #end
 #newspell
@@ -5313,9 +5986,48 @@
 #path 8
 #end
 
-#newmonster 6353	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
+#newmonster 6353
+#spr1 "./summod/heart.tga" 
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart" 
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1 
+#hp 2 
+#gcost 0 
+#rcost 1 
+#unique 
+#mor 50 
+#noleader
+#mr 14 
+#maxage 495
+#heal
+#str 1 
+#prot 0 
+#att 0 
+#def 0 
+#prec 0
+#enc 1 
+#ap 1 
+#blind 
+#weapon 575
+#stealthy 40
+#neednoteat 
+#itemslots 4096
+#mapmove 0 
+#immobile 
 #end 	
-#newmonster 6380  	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
+#newmonster 6380  
+#name "Bakemono Kizoku" 
+#size 3 
+#immortal 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" 
+#spr2 "./summod/bakemonokizoku2.tga" 
+#gcost 395 
+#hp 33
+#prot 7 
+#mr 17 
+#mor 16
+#str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
 #end	
 #newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6380  	#req_nomnr 6353	#stealthcom 6353	#killmon 6352	#nolog #end 
 #newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6353 	#req_monster 6380	#killcom 6380 	#nolog #end  
