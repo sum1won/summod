@@ -2537,7 +2537,6 @@
 #nreff 1000
 #end
 #selectspell 908 --confusion
-#aoe 1000
 #end
 #selectspell 565 -- enfeeble
 #aoe 2006
