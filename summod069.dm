@@ -2425,15 +2425,26 @@
 
 -- Quickness --
 -Changed to single target, scaling only
-#selectspell 540
+#newspell
+#name "scaling quickness"
+#copyspell 540
+#name "scaling quickness"
 #aoe 0
 #nreff 1000
 #end
-
+#selectspell 540
+#nextspell "scaling quickness"
+#end
 -- Iron Warriors scales, but differently
-#selectspell 562
+#newspell
+#name "Scaling Iron"
+#copyspell 562
+#name "Scaling Iron"
 #aoe 0
 #nreff 1000
+#end
+#selectspell 562
+#nextspell "Scaling Iron"
 #end
 
 -- Wooden Warriors --
@@ -4894,15 +4905,14 @@ won't live more than a month or two."
 #custommagic 5120 5
 #end
 #selectmonster 1520--Aboleth
-#gcost 9990
+#gcost 10000
 #itemslots 28672
 #end
 #selectmonster 2883 --Abodai
-#gcost 9990
+#gcost 10000
 #itemslots 28672
 #end
 #selectmonster 2884 --androleth
-#gcost 10040
 #end
 #selectmonster 2885 --androdai
 #gcost 10030
@@ -9877,7 +9887,7 @@ Man is changed by summod.  Right now, magisters and judges have better paths and
 
 #end
 #selectmonster 1644 --magister
-#gold 10020
+#gcost 10020
 #clearmagic
 #fixedresearch 5
 #custommagic 1280 40
@@ -12050,8 +12060,9 @@ may make the battlefield deadly even for the priest's allies."
 #magicskill 6 1
 #magicskill 3 1
 #magicskill 8 1
-#custommagic 9216 20
 #custommagic 8192 50
+#custommagic 1024 25
+#custommagic 8192 10
 #holy
 #heretic 0
 #researchbonus 0
@@ -12148,7 +12159,7 @@ may make the battlefield deadly even for the priest's allies."
 #newmonster 6422 --mystes nonheretic/nonpoorresearcher, 2 events
 #copystats 1876
 #copyspr 1876
-#researchbonus -1
+#researchbonus 0
 #gcost 40
 #holy
 #descr "Throughout the Empire, mystery cults have spread and flourished with the influx of foreign culture. One of these, the Serpent Cult, has replaced the official state cult of the Theurgs, but many others ply their trade in secret. The Cult of Fertility in its aspect of The Great Mother is very popular among women and most of the members in its higher ranks are female. The Mystes is a low ranking follower of the Great Mother.  The liturgy of the mystery cult is heavily influenced by the Arcoscephalean priestesses, but the Mystes are not initiated in the art of healing. Unlike her elder sister, the Epoptes, the Mystes doesn't initiate others into the Cult. She wears a garland and a green dress. As the new god has chosen a member of the Cult of Fertility to be his prophet, they are less unwilling to share secrets with outsiders."
@@ -12244,13 +12255,13 @@ may make the battlefield deadly even for the priest's allies."
 #descr "Throughout the empire, mystery cults have spread and flourished with the influx of foreign culture. One of these, the Serpent Cult, has replaced the official state cult of the Theurgs, but many others ply their trade in secret. The Cult of Fertility is one of these. One of the forms it takes is in the practice of Revelry, which is influenced by Pangaea worship and orgiastic hedonism. The Reveler is a high ranking member of the cult and an organizer of orgies in the wild. While the practice of Revelry is no longer considered an affront to the eyes of the lord, it has become even more disruptive. He wears a garland and carries a goblet of wine. Revelers are generally looked upon with distaste and fear and some rumors claim that they practice cannibalism and blood sacrifices in their orgies."
 #heretic 0
 #researchbonus -2
-#incunrest 50
+#incunrest 10
 #holy
 #clearmagic
 #magicskill 6 1
 #custommagic 24576 50
 #prophetshape 6415
-#gcost 75
+#gcost 70
 #magicskill 8 1
 #end
 
@@ -12346,6 +12357,7 @@ may make the battlefield deadly even for the priest's allies."
 #spr2 "./summod/galli_2.tga"
 #clearmagic
 #magicboost 8 1
+#douse 1
 #holy
 #prophetshape 6415
 #beastmaster 1
@@ -12447,7 +12459,7 @@ may make the battlefield deadly even for the priest's allies."
 #magicboost 8 -3
 #prophetshape 6415
 #beastmaster 1
-#patience -3
+#patience -2
 #incunrest 10
 #heretic 1
 #end
@@ -12516,9 +12528,9 @@ may make the battlefield deadly even for the priest's allies."
 #pathlevel 1 2
 #restricted 61
 #onlyatsite 1817
-#fatiguecost 1000
+#fatiguecost 800
 #school 1
-#researchlevel 4
+#researchlevel 2
 #effect 10001
 #damage 6446
 #nreff 1
@@ -12533,9 +12545,9 @@ may make the battlefield deadly even for the priest's allies."
 #pathlevel 1 2
 #restricted 61
 #onlyatsite 1817
-#fatiguecost 1000
+#fatiguecost 800
 #school 1
-#researchlevel 5
+#researchlevel 3
 #effect 10001
 #damage 6445
 #nreff 1
@@ -12552,7 +12564,7 @@ may make the battlefield deadly even for the priest's allies."
 #onlyatsite 1817
 #fatiguecost 300
 #school 0
-#researchlevel 4
+#researchlevel 2
 #effect 10001
 #damage -1317
 #nreff 2004
@@ -12569,7 +12581,7 @@ may make the battlefield deadly even for the priest's allies."
 #onlyatsite 1817
 #fatiguecost 300
 #school 1
-#researchlevel 5
+#researchlevel 3
 #effect 10001
 #damage -1316
 #nreff 1003
@@ -12718,10 +12730,11 @@ may make the battlefield deadly even for the priest's allies."
 #beastmaster 1
 #inspirational 1
 #patience -2
+#onebattlespell "Strength of Giants"
 #fear 5
 #patrolbonus 10
 #name "Giant Boar"
-#descr "This mighty boar is a servant of the cult of fertility, and excels at finding the enemy.  Some Giant Boars are transformed Galli."
+#descr "This mighty boar is a servant of the cult of fertility, and excels at finding the enemy.  Some Giant Boars are transformed Galli, and the energies of the transformation strengthen the arms of those nearby."
 #end
 
 #newmonster 6449 --boar
@@ -12731,7 +12744,7 @@ may make the battlefield deadly even for the priest's allies."
 #summerpower 25
 #montag 1317
 #name "Boar of Fertility"
-#descr "This boar is a servant of the cult of fertility.  Send it seek out hidden foes."
+#descr "This boar is a servant of the cult of fertility.  Send it to seek out hidden foes."
 #patrolbonus 2
 #end
 
@@ -12868,8 +12881,9 @@ may make the battlefield deadly even for the priest's allies."
 #magicskill 6 1
 #magicskill 8 1
 #magicboost 8 -3
+#incunrest 20
 #custommagic 24576 50
-#gcost 75
+#gcost 70
 #descr "Throughout the empire, mystery cults have spread and flourished with the influx of foreign culture. One of these, the Serpent Cult, has replaced the official state cult of the Theurgs, but many others ply their trade in secret. The Cult of Fertility is one of these. One of the forms it takes is in the practice of Revelry, which is influenced by Pangaea worship and orgiastic hedonism. The Reveler is a high ranking member of the cult and an organizer of orgies in the wild. The practice of Revelry has proven to be remarkably destructive to the faith of the populace, and no other mystic is as detrimental to the worship of the True God. He wears a garland and carries a goblet of wine. Revelers are generally looked upon with distaste and fear and some rumors claim that they practice cannibalism and blood sacrifices in their orgies."
 #end
 
@@ -12880,7 +12894,7 @@ may make the battlefield deadly even for the priest's allies."
 #magicskill 6 1
 #magicskill 3 1
 #custommagic 8192 50
-#custommagic 9216 10
+#custommagic 9216 20
 #magicskill 8 1
 #magicboost 8 -3
 #gcost 100
