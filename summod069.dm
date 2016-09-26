@@ -2429,8 +2429,10 @@
 #name "scaling quickness"
 #copyspell 540
 #name "scaling quickness"
+#school -1
 #aoe 0
 #nreff 1000
+#research
 #end
 #selectspell 540
 #nextspell "scaling quickness"
@@ -2441,6 +2443,7 @@
 #copyspell 562
 #name "Scaling Iron"
 #aoe 0
+#school -1
 #nreff 1000
 #end
 #selectspell 562
