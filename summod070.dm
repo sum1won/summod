@@ -1,6 +1,6 @@
-#modname "Summod 0.69"
+#modname "Summod 0.70"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.69
+#version 0.70
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -2429,8 +2429,10 @@
 #name "scaling quickness"
 #copyspell 540
 #name "scaling quickness"
+#school -1
 #aoe 0
 #nreff 1000
+#research
 #end
 #selectspell 540
 #nextspell "scaling quickness"
@@ -2441,6 +2443,7 @@
 #copyspell 562
 #name "Scaling Iron"
 #aoe 0
+#school -1
 #nreff 1000
 #end
 #selectspell 562
@@ -4763,6 +4766,167 @@ Machaka is improved by summod.  This generally involves cost decreases, but your
 #firstshape 1840
 #heal
 #end
+
+#selectnation 29 --ea ur
+#addrecunit 2162
+#addrecunit 2163
+#addrecunit 2164
+#addrecunit 2165
+#defunit1 2174
+#defmult1 10
+#defunit1b 2163
+#defmult1b 12
+#defunit2 628 --lion
+#defmult2 10
+#defunit2b 1347 --sirrush
+#defmult2b 2
+#descr "Ur is a warm plain inhabited by Enkidus, large, hairy wild men with horns and unkempt hair. Once upon a time all
+Enkidus lived in the wild, frolicking with feral beasts, but when the Enkidus met with the Avvim, some
+Enkidus adopted their ways of life. Now there are three Enkidu tribes. The members of the first tribe live
+pastoral lives and are led by shamans of remarkable power. The second one is a ferocious, swamp-dwelling
+hunter-gatherer society led by Head Hunters and Bone Readers. The third tribe are the ones who adopted
+the Avvite way of life, agriculture and metalworking. It is they who founded Eridu, the First City. In the city a
+great temple was built and the kings of Eridu were inaugurated as priest-kings and rulers of the young nation.
+In the cities of Ur, where metalworking is common, medium and heavy infantry is raised. On the plains and
+in the swamps of the nation nomadic Enkidus gather and form quickly levied raiding parties. In the Swamps
+of Ur, near Eridu, live ancient dragon-kin known as Sirrushes. They are benevolent and powerful beings
+sacred to the Enkidus.
+
+Summod improves  Ur.  PD is better, your troops are generally better and/or cheaper, and your foreign-rec and swamp rec troops can be found in your capital, as your capital site is a swamp in any case.  Sirrushes have higher protection and are notably cheaper, too. Your shamans remain foreign-rec.  Notably, galas are healers and even more effective Elegists while in your capital."
+#end
+#selectsite 151 --adds swamp recruitables
+#homemon 2168
+#homemon 2183
+#homecom 2169
+#homecom 2170
+#homecom 2171
+#end
+
+#selectmonster 1347
+#prot 17
+#gcost 150
+#end
+
+--troop changes drop costs by 1-4 gold and improve defense.  Spear Guard are given elite style stats
+#selectmonster 2162
+#gcost 12
+#att 9
+#end
+
+#selectmonster 2163
+#gcost 15
+--#att 10
+#end
+
+#selectmonster 2164
+#gcost 15
+#def 10
+--#att 11
+#end
+
+#selectmonster 2165
+#gcost 15
+#def 10
+--#att 11
+#end
+
+#selectmonster 2168
+--#att 11
+#def 10
+#end
+
+#selectmonster 2169
+--#att 11
+#def 10
+#end
+
+#selectmonster 2170
+--#att 11
+#def 10
+#end
+
+#selectmonster 2172
+#gcost 15
+--#att 11
+#def 10
+#end
+
+#selectmonster 2174
+#gcost 18
+#att 11
+#def 11
+#mor 12
+#end
+
+#selectmonster 2175
+#gcost 18
+#def 11
+#end
+
+#selectmonster 2176
+#gcost 10020
+#def 12
+#end
+
+#newmonster 6310
+#copystats 2182
+#copyspr 2182
+#descr "In the center of the First City lies an enormous temple ground. Here priests and sacred warriors are trained. The Gala is an elegist, a lamentation-priest grieving the untimely dead and the dying god. Her dirges and lamentations will open the gates to the Underworld and allow the imprisoned god to return to once more bring fertility and prosperity to the land of Ur. When recalling a dead god the Gala always counts as at least two levels higher than her ordinary priest level.  However, when within the temple ground of the great city, they count as four levels higher than their ordinary priest level, and gain the ability to heal wounds.  This Gala is not in the capital, and lacks these additional divine powers."
+#end
+
+#selectmonster 2182
+#gcost 75
+#elegist 4
+#autohealer 1
+#descr "In the center of the First City lies an enormous temple ground. Here priests and sacred warriors are trained. The Gala is an elegist, a lamentation-priest grieving the untimely dead and the dying god. Her dirges and lamentations will open the gates to the Underworld and allow the imprisoned god to return to once more bring fertility and prosperity to the land of Ur. When recalling a dead god the Gala always counts as at least two levels higher than her ordinary priest level.  However, when within the temple ground of the great city, they count as four levels higher than their ordinary priest level, and gain the ability to heal wounds."
+#end
+
+#newevent 
+#nation -2
+#rarity 5
+#req_fornation 29
+#req_owncapital 1
+#notext
+#nolog
+#msg "wew lad"
+#req_targmnr 6310
+#transform 2182
+#end
+#newevent 
+#nation -2
+#rarity 5
+#req_fornation 29
+#req_owncapital 0
+#notext
+#nolog
+#msg "wew lad"
+#req_targmnr 2182
+#transform 6310
+#end
+#newevent 
+#nation -2
+#rarity 5
+#req_fornation 29
+#req_owncapital 1
+#notext
+#nolog
+#msg "wew lad"
+#req_targmnr 6310
+#transform 2182
+#end
+#newevent 
+#nation -2
+#rarity 5
+#req_fornation 29
+#req_owncapital 0
+#notext
+#nolog
+#msg "wew lad"
+#req_targmnr 2182
+#transform 6310
+#end
+
+
 ---EA UW--
 ---Add mass airbreathing item spell
 ---Mass Airbreathing spell ---
@@ -13034,6 +13198,3 @@ may make the battlefield deadly even for the priest's allies."
 #gcost 16
 #firstshape 1866
 #end
-
-
-
