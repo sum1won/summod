@@ -1,6 +1,6 @@
-#modname "Summod 0.70"
+#modname "Summod 0.71"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.70
+#version 0.71
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -2424,30 +2424,23 @@
 #end
 
 -- Quickness --
--Changed to single target, scaling only
 #newspell
-#name "scaling quickness"
+#name "Quicken"
 #copyspell 540
 #name "scaling quickness"
-#school -1
-#aoe 0
+#aoe 1001
 #nreff 1000
-#research
+#researchlevel 6
 #end
 #selectspell 540
-#nextspell "scaling quickness"
 #end
+#selectspell 603
+#aoe 2006
 -- Iron Warriors scales, but differently
-#newspell
-#name "Scaling Iron"
-#copyspell 562
-#name "Scaling Iron"
-#aoe 0
-#school -1
-#nreff 1000
+
 #end
 #selectspell 562
-#nextspell "Scaling Iron"
+#aoe 1000
 #end
 
 -- Wooden Warriors --
@@ -3362,10 +3355,10 @@ Xibalba is substantially nerfed by summod.  Bats are more expensive, foreign rec
 #end
 #selectmonster 2679 -- Ah Nakom
 #gcost 75
-#incunrest 4
+#incunrest 40
 #end
 #selectmonster 2736 --onaqui
-#incunrest 7
+#incunrest 70
 #end
 
 ----EA: Buffed Nations------
