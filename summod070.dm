@@ -706,7 +706,7 @@
 
 -- Sum1, what ID should I use here? I know it's not meant to carry on from weapon ID
 #newitem 1432
-#spr "tmpdeathgem/spr.tga"
+#spr "summod/undeadbranch.tga"
 #type 1
 #mainpath 5
 #mainlevel 1
