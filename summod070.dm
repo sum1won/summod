@@ -348,7 +348,20 @@
 #rcost 2  --from 1
 #end
 
-
+--new items
+#newitem 999
+#spr "tmpdeathgem/spr.tga"
+#type 1
+#mainpath 5
+#mainlevel 1
+#secondarypath 6
+#secondarylevel 1
+#constlevel 2
+#name "Rotting Promenade Branch"
+#descr "This undead branch will bear one rotting fruit empowered with lifeforce sapped from the bearer. It can be used to power death magic in battle, however it rots too quickly to be used in rituals."
+#tmpdeathgems 1
+#undcommand 0
+#end
 
 --derust
 #selectweapon 531 --mighty yari
