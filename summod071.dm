@@ -4785,7 +4785,7 @@ in the swamps of the nation nomadic Enkidus gather and form quickly levied raidi
 of Ur, near Eridu, live ancient dragon-kin known as Sirrushes. They are benevolent and powerful beings
 sacred to the Enkidus.
 
-Summod improves  Ur.  PD is better, your troops are generally better and/or cheaper, and your foreign-rec and swamp rec troops can be found in your capital, as your capital site is a swamp in any case.  Sirrushes have higher protection and are notably cheaper, too. Your shamans remain foreign-rec.  Notably, galas are healers and even more effective Elegists while in your capital."
+Summod improves  Ur.  PD is better, your troops are generally better and/or cheaper, and your foreign-rec and swamp rec troops can be found in your capital, as your capital site is a swamp in any case.  Sirrushes have higher protection and are notably cheaper, too. Your shamans remain foreign-rec.  Notably, your god clears all afflictions while in your capital, and galas are more effective Elegists."
 #end
 #selectsite 151 --adds swamp recruitables
 #homemon 2168
@@ -4800,7 +4800,7 @@ Summod improves  Ur.  PD is better, your troops are generally better and/or chea
 #gcost 150
 #end
 
---troop changes drop costs by 1-4 gold and improve defense.  Spear Guard are given elite style stats
+--troop changes drop costs by 1-4 gold and improve defense and attack.  Spear Guard are given elite style stats
 #selectmonster 2162
 #gcost 12
 #att 9
@@ -4808,39 +4808,39 @@ Summod improves  Ur.  PD is better, your troops are generally better and/or chea
 
 #selectmonster 2163
 #gcost 15
---#att 10
+#att 10
 #end
 
 #selectmonster 2164
 #gcost 15
 #def 10
---#att 11
+#att 11
 #end
 
 #selectmonster 2165
 #gcost 15
 #def 10
---#att 11
+#att 11
 #end
 
 #selectmonster 2168
---#att 11
+#att 11
 #def 10
 #end
 
 #selectmonster 2169
---#att 11
+#att 11
 #def 10
 #end
 
 #selectmonster 2170
---#att 11
+#att 11
 #def 10
 #end
 
 #selectmonster 2172
 #gcost 15
---#att 11
+#att 11
 #def 10
 #end
 
@@ -4861,62 +4861,355 @@ Summod improves  Ur.  PD is better, your troops are generally better and/or chea
 #def 12
 #end
 
-#newmonster 6310
-#copystats 2182
-#copyspr 2182
-#descr "In the center of the First City lies an enormous temple ground. Here priests and sacred warriors are trained. The Gala is an elegist, a lamentation-priest grieving the untimely dead and the dying god. Her dirges and lamentations will open the gates to the Underworld and allow the imprisoned god to return to once more bring fertility and prosperity to the land of Ur. When recalling a dead god the Gala always counts as at least two levels higher than her ordinary priest level.  However, when within the temple ground of the great city, they count as four levels higher than their ordinary priest level, and gain the ability to heal wounds.  This Gala is not in the capital, and lacks these additional divine powers."
-#end
+
 
 #selectmonster 2182
 #gcost 75
 #elegist 4
-#autohealer 1
-#descr "In the center of the First City lies an enormous temple ground. Here priests and sacred warriors are trained. The Gala is an elegist, a lamentation-priest grieving the untimely dead and the dying god. Her dirges and lamentations will open the gates to the Underworld and allow the imprisoned god to return to once more bring fertility and prosperity to the land of Ur. When recalling a dead god the Gala always counts as at least two levels higher than her ordinary priest level.  However, when within the temple ground of the great city, they count as four levels higher than their ordinary priest level, and gain the ability to heal wounds."
 #end
 
-#newevent 
-#nation -2
-#rarity 5
-#req_fornation 29
-#req_owncapital 1
-#notext
-#nolog
-#msg "wew lad"
-#req_targmnr 6310
-#transform 2182
+
+#newmonster 	6500	  #copystats	120	 #copyspr   	120	#cleanshape #homerealm 0 
+#end	  
+#newmonster 	6501	  #copystats	120	 #copyspr   	120	 #homerealm 0 #firstshape 	6500	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	120	  #transform  	6501
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog 
+#req_targmnr 	6500	  #transform 	6501
 #end
-#newevent 
-#nation -2
-#rarity 5
-#req_fornation 29
-#req_owncapital 0
-#notext
-#nolog
-#msg "wew lad"
-#req_targmnr 2182
-#transform 6310
+#newmonster 	6502	  #copystats	158	 #copyspr   	158	#cleanshape
+#homerealm 0 
+#end	   
+#newmonster 	6503	  #copystats	158	 #copyspr   	158	 #homerealm 0 #firstshape 	6502	 
 #end
-#newevent 
-#nation -2
-#rarity 5
-#req_fornation 29
-#req_owncapital 1
-#notext
-#nolog
-#msg "wew lad"
-#req_targmnr 6310
-#transform 2182
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	158	  #transform  	6503	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6502	 
+#transform 	6503	
 #end
-#newevent 
-#nation -2
-#rarity 5
-#req_fornation 29
-#req_owncapital 0
-#notext
-#nolog
-#msg "wew lad"
-#req_targmnr 2182
-#transform 6310
+#newmonster 	6504	  #copystats	159	 #copyspr   	159	#cleanshape #homerealm 0
+#end	
+#newmonster 	6505	  #copystats	159	 #copyspr   	159	 #homerealm 0 #firstshape 	6504	 
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	159	  #transform  	6505
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6504	 
+#transform 	6505	
+#end
+#newmonster 	6506	  #copystats	179	 #copyspr   	179	#cleanshape #homerealm 0 
+#end	
+#newmonster 	6507	  #copystats	179	 #copyspr   	179	 #homerealm 0 #firstshape 	6506	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	179	  #transform  	6507
+#end
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6506	
+#transform 	6507	
+#end
+#newmonster 	6508	  #copystats	180	 #copyspr   	180	#cleanshape #homerealm 0
+#end	
+#newmonster 	6509	  #copystats	180	 #copyspr   	180	 #homerealm 0 #firstshape 	6508	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	180	  #transform  	6509
+#end
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6508	 
+#transform 	6509	
+#end
+#newmonster 	6510	  #copystats	216	 #copyspr   	216	#cleanshape #homerealm 0 
+#end	
+#newmonster 	6511	  #copystats	216	 #copyspr   	216	 #homerealm 0 #firstshape 	6510	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	216	  #transform  	6511	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6510	  #transform 	6511	 
+#end
+#newmonster 	6512	  #copystats	226	 #copyspr   	226	#cleanshape #homerealm 0 
+#end	
+#newmonster 	6513	  #copystats	226	 #copyspr   	226	 #homerealm 0 #firstshape 	6512	 
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	226	  #transform  	6513	
+#end
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6512	  #transform 	6513	 
+#end
+#newmonster 	6514	  #copystats	244	 #copyspr   	244	#cleanshape #homerealm 0 
+#end	
+#newmonster 	6515	  #copystats	244	 #copyspr   	244	 #homerealm 0 #firstshape 	6514	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	244	  #transform  	6515	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6514	  #transform 	6515	 
+#end
+#newmonster 	6516	  #copystats	245	 #copyspr   	245	#cleanshape #homerealm 0 
+#end	
+#newmonster 	6517	  #copystats	245	 #copyspr   	245	 #homerealm 0 #firstshape 	6516	
+#end   
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	245	  #transform  	6517	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6516	  #transform 	6517	
+#end
+#newmonster 	6518	  #copystats	246	 #copyspr   	246	#cleanshape #homerealm 0 
+#end	
+#newmonster 	6519	  #copystats	246	 #copyspr   	246	 #homerealm 0 #firstshape 	6518	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	246	  #transform  	6519	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6518	  #transform 	6519	
+#end
+#newmonster 	6520	  #copystats	249	 #copyspr   	249	#cleanshape #homerealm 0
+#end	
+#newmonster 	6521	  #copystats	249	 #copyspr   	249	 #homerealm 0 #firstshape 	6520	 
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	249	  #transform  	6521	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6520	  #transform 	6521	
+#end
+#newmonster 	6522	  #copystats	250	 #copyspr   	250	#cleanshape #homerealm 0
+#end	
+#newmonster 	6523	  #copystats	250	 #copyspr   	250	 #homerealm 0 #firstshape 	6522	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	250	  #transform  	6523	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6522	  #transform 	6523	
+#end
+#newmonster 	6524	  #copystats	251	 #copyspr   	251	#cleanshape #homerealm 0 
+#end	
+#newmonster 	6525	  #copystats	251	 #copyspr   	251	 #homerealm 0 #firstshape 	6524	 
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	251	  #transform  	6525
+#end
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6524	  #transform 	6525	
+#end
+#newmonster 	6526	  #copystats	265	 #copyspr   	265	#cleanshape #homerealm 0
+#end	
+#newmonster 	6527	  #copystats	265	 #copyspr   	265	 #homerealm 0 #firstshape 	6526	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	265	  #transform  	6527	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6526	  #transform 	6527	
+#end
+#newmonster 	6528	  #copystats	266	 #copyspr   	266	#cleanshape #homerealm 0
+#end	
+#newmonster 	6529	  #copystats	266	 #copyspr   	266	 #homerealm 0 #firstshape 	6528	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	266	  #transform  	6529	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6528	  #transform 	6529	
+#end
+#newmonster 	6530	  #copystats	267	 #copyspr   	267	#cleanshape #homerealm 0
+#end	
+#newmonster 	6531	  #copystats	267	 #copyspr   	267	 #homerealm 0 #firstshape 	6530	 
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	267	  #transform  	6531	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6530	  #transform 	6531	
+#end
+#newmonster 	6532	  #copystats	268	 #copyspr   	268	#cleanshape #homerealm 0
+#end	 
+#newmonster 	6533	  #copystats	268	 #copyspr   	268	 #homerealm 0 #firstshape 	6532	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	268	  #transform  	6533
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6532	  #transform 	6533	
+#end
+#newmonster 	6534	  #copystats	485	 #copyspr   	485	#cleanshape #homerealm 0 
+#end	 
+#newmonster 	6535	  #copystats	485	 #copyspr   	485	 #homerealm 0 #firstshape 	6534	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	485	  #transform  	6535	
+#end
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6534	  #transform 	6535	
+#end
+#newmonster 	6536	  #copystats	655	 #copyspr   	655	#cleanshape #homerealm 0 
+#end	
+#newmonster 	6537	  #copystats	655	 #copyspr   	655	 #homerealm 0 #firstshape 	6536	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	655	  #transform  	6537
+#end
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6536	  #transform 	6537	
+#end
+#newmonster 	6538	  #copystats	656	 #copyspr   	656	#cleanshape #homerealm 0
+#end	 
+#newmonster 	6539	  #copystats	656	 #copyspr   	656	 #homerealm 0 #firstshape 	6538	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	656	  #transform  	6539	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6538	  #transform 	6539	
+#end
+#newmonster 	6540	  #copystats	661	 #copyspr   	661	#cleanshape #homerealm 0
+#end	 
+#newmonster 	6541	  #copystats	661	 #copyspr   	661	 #homerealm 0 #firstshape 	6540	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	661	  #transform  	6541
+#end
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6540	  #transform 	6541	
+#end
+#newmonster 	6542	  #copystats	872	 #copyspr   	872	#cleanshape #homerealm 0
+#end	
+#newmonster 	6543	  #copystats	872	 #copyspr   	872	 #homerealm 0 #firstshape 	6542	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	872	  #transform  	6543	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6542	  #transform 	6543	
+#end
+#newmonster 	6544	  #copystats	957	 #copyspr   	957	#cleanshape #homerealm 0
+#end	
+#newmonster 	6545	  #copystats	957	 #copyspr   	957	 #homerealm 0 #firstshape 	6544	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	957	  #transform  	6545
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6544	  #transform 	6545	
+#end
+#newmonster 	6546	  #copystats	1097	 #copyspr   	1097	#cleanshape #homerealm 0
+#end	
+#newmonster 	6547	  #copystats	1097	 #copyspr   	1097	 #homerealm 0 #firstshape 	6546	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	1097	  #transform  	6547	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6546	  #transform 	6547	
+#end
+#newmonster 	6548	  #copystats	1372	 #copyspr   	1372	#cleanshape #homerealm 0
+#end	
+#newmonster 	6549	  #copystats	1372	 #copyspr   	1372	 #homerealm 0 #firstshape 	6548	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	1372	  #transform  	6549	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6548	  #transform 	6549	
+#end
+#newmonster 	6550	  #copystats	1373	 #copyspr   	1373	#cleanshape #homerealm 0 
+#end	
+#newmonster 	6551	  #copystats	1373	 #copyspr   	1373	 #homerealm 0 #firstshape 	6550	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	1373	  #transform  	6551	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6550	  #transform 	6551	
+#end
+#newmonster 	6552	  #copystats	1374	 #copyspr   	1374	#cleanshape #homerealm 0
+#end	
+#newmonster 	6553	  #copystats	1374	 #copyspr   	1374	 #homerealm 0 #firstshape 	6552	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	1374	  #transform  	6553	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6552	  #transform 	6553	
+#end
+#newmonster 	6554	  #copystats	1384	 #copyspr   	1384	#cleanshape #homerealm 0
+#end	
+#newmonster 	6555	  #copystats	1384	 #copyspr   	1384	 #homerealm 0 #firstshape 	6554	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	1384	  #transform  	6555	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6554	  #transform 	6555	
+#end
+#newmonster 	6556	  #copystats	2137	 #copyspr   	2137	#cleanshape #homerealm 0 
+#end	
+#newmonster 	6557	  #copystats	2137	 #copyspr   	2137	 #homerealm 0 #firstshape 	6556	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2137	  #transform  	6557
+#end
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6556	  #transform 	6557	
+#end
+#newmonster 	6558	  #copystats	2138	 #copyspr   	2138	#cleanshape #homerealm 0
+#end	
+#newmonster 	6559	  #copystats	2138	 #copyspr   	2138	 #homerealm 0 #firstshape 	6558	
+#end
+#newevent
+#nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2138	  #transform  	6559	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6558	  #transform 	6559	
+#end
+#newmonster 	6560	  #copystats	2435	 #copyspr   	2435	#cleanshape #homerealm 0 
+#end	
+#newmonster 	6561	  #copystats	2435	 #copyspr   	2435	 #homerealm 0 #firstshape 	6560	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2435	  #transform  	6561
+#end
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6560	  #transform 	6561	
+#end
+#newmonster 	6562	  #copystats	2436	 #copyspr   	2436	#cleanshape #homerealm 0
+#end	
+#newmonster 	6563	  #copystats	2436	 #copyspr   	2436	 #homerealm 0 #firstshape 	6562	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2436	  #transform  	6563	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6562	  #transform 	6563	
+#end
+#newmonster 	6564	  #copystats	2437	 #copyspr   	2437	#cleanshape #homerealm 0
+#end	
+#newmonster 	6565	  #copystats	2437	 #copyspr   	2437	 #homerealm 0 #firstshape 	6564	 
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2437	  #transform  	6565	
+#end
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6564	
+#transform 	6565	
+#end
+#newmonster 	6566	  #copystats	2438	 #copyspr   	2438	#cleanshape #homerealm 0
+#end	
+#newmonster 	6567	  #copystats	2438	 #copyspr   	2438	 #homerealm 0 #firstshape 	6566	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2438	  #transform  	6567	
+#end
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog
+#req_targmnr 	6566	  #transform 	6567
+#end
+#newmonster 	6568	  #copystats	2462	 #copyspr   	2462	#cleanshape #homerealm 0 
+#end	
+#newmonster 	6569	  #copystats	2462	 #copyspr   	2462	 #homerealm 0 #firstshape 	6568	  
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2462	  #transform  	6569
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6568	 
+#transform 	6569	 
+#end
+#newmonster 	6570	  #copystats	2785	 #copyspr   	2785	#cleanshape #homerealm 0 
+#end	
+#newmonster 	6571	  #copystats	2785	 #copyspr   	2785	 #homerealm 0 #firstshape 	6570	 
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2785	  #transform  	6571	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6570	  #transform 	6571	
+#end
+#newmonster 	6572	  #copystats	2786	 #copyspr   	2786	#cleanshape #homerealm 0 
+#end	 
+#newmonster 	6573	  #copystats	2786	 #copyspr   	2786	 #homerealm 0 #firstshape 	6572	 
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2786	  #transform  	6573	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6572	
+#transform 	6573	
+#end
+#newmonster 	6574	  #copystats	2787	 #copyspr   	2787	#cleanshape #homerealm 0
+#end	 
+#newmonster 	6575	  #copystats	2787	 #copyspr   	2787	 #homerealm 0 #firstshape 	6574
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2787	  #transform  	6575
+#end  #newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog 
+#req_targmnr 	6574	  #transform 	6575	
+#end
+#newmonster 	6576	  #copystats	2788	 #copyspr   	2788	#cleanshape #homerealm 0 
+#end	
+#newmonster 	6577	  #copystats	2788	 #copyspr   	2788	 #homerealm 0 #firstshape 	6576	
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2788	  #transform  	6577
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog
+#req_targmnr 	6576	  #transform 	6577	
+#end
+#newmonster 	6578	  #copystats	2789	 #copyspr   	2789	#cleanshape #homerealm 0
+#end	
+#newmonster 	6579	  #copystats	2789	 #copyspr   	2789	 #homerealm 0 #firstshape 	6578	  
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2789	  #transform  	6579	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6578	 
+#transform 	6579	 
+#end
+#newmonster 	6580	  #copystats	2791	 #copyspr   	2791	#cleanshape #homerealm 0 
+#end	
+#newmonster 	6581	  #copystats	2791	 #copyspr   	2791	 #homerealm 0 #firstshape 	6580	 
+#end  
+#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2791	  #transform  	6581	
+#end 
+#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6580	
+#transform 	6581	
 #end
 
 
