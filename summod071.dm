@@ -706,6 +706,21 @@
 #rcost 1
 #end
 
+#newweapon 1432
+#name "Fire Darts"
+#copyweapon 21
+#name "Fire Darts"
+#rcost 1
+#dmg 0
+#att 1
+#range -1
+#nratt 1
+#ammo 5
+#pierce
+#secondaryeffectalways 216
+#end
+
+
 ---Item Counterbalances---
 
 #selectmonster 2648 --hatun runa
@@ -2169,9 +2184,16 @@
 
 --- Globals
 
-#selectspell 765 -- Mechanical Militia -4 research level, -20 gemcost
-#researchlevel 5
-#fatiguecost 6000
+
+#selectspell 925 --purgatory
+#researchlevel 6
+#end
+
+
+#selectspell 489 --Second Sun
+#fatiguecost 5000
+#researchlevel 7
+#pathlevel 0 6
 #end
 
 #selectspell 842 --Ghost Ship Armada
@@ -2190,19 +2212,27 @@
 #researchlevel 6
 #end
 
-#selectspell 489 --Second Sun
-#fatiguecost 5000
-#end
-
 #selectspell 602 -- Fata Morgana -10 gemcost, -1 pathreq
 #fatiguecost 8000
 #pathlevel 0 6
+#end
+
+
+#selectspell 765 -- Mechanical Militia -4 research level, -20 gemcost
+#researchlevel 7
+#fatiguecost 6000
 #end
 
 #selectspell 831 -- Riches from Beneath -30 gemcost, -1 pathreq
 #fatiguecost 4000
 #pathlevel 0 4
 #end
+
+#selectspell 760  --forge of the ancients
+#researchlevel 9
+#fatiguecost 6000
+#end
+
 
 #selectspell 934 -- Lure of the Deep -20 gemcost, -1 researchlevel
 #fatiguecost 5000
@@ -2228,6 +2258,7 @@
 
 #selectspell 1007 -- The Looming Hell -50 slavecost, -1 pathlevel
 #fatiguecost 10000
+#researchlevel 6
 #pathlevel 0 7
 #end
 
@@ -2244,14 +2275,6 @@
 #researchlevel 7
 #end
 
-#selectspell 760  --forge of the ancients
-#researchlevel 9
-#fatiguecost 6000
-#end
-
-#selectspell 913 --burden of time
-#researchlevel 6
-#end
 
 --- Misc Rituals
 
@@ -2548,6 +2571,20 @@
 #selectspell 565 -- enfeeble
 #aoe 2006
 #end 
+#newspell
+#name "Final Enfeeble"
+#copyspell 565
+#name "Final Enfeeble"
+#end
+#newspell
+#name "Continue Enfeeble"
+#copyspell 565
+#name "Continue Enfeeble"
+#nextspell "Final Enfeeble"
+#end
+#selectspell 565
+#nextspell "Continue Enfeeble"
+#end
 #selectspell 559 --bonemelter
 #range 25
 #pathlevel 1 1
@@ -3124,6 +3161,7 @@
 #end
 #selectspell 757 -Lumber Construct
 #fatiguecost 400
+#researchlevel 3
 #end
 #selectmonster 476
 #siegebonus 10
@@ -5311,7 +5349,7 @@ won't live more than a month or two."
 #coastcom1 1523
 #coastunit1 337
 #coastunit2 1516
-#coastunit3 6331
+--#coastunit3 6331
 #uwcom1 1401
 #end
 #newmonster 6331
@@ -5339,28 +5377,23 @@ won't live more than a month or two."
 #eyes 4
 #magicbeing
 #amphibian
-#landdamage 40
+#landdamage 50
 #end
 #selectmonster 2886 --grandmother
 #inspiringres 1
 #end
 #selectmonster 1521 --mindlord
 #clearmagic
-#gcost 10025
-#itemslots 28672
+#gcost 10050
 #magicskill 2 3
 #magicskill 4 3
-#custommagic 2560 100
+#custommagic 6656 100
 #custommagic 7680 100
 #custommagic 5120 5
 #end
 #selectmonster 1520--Aboleth
-#gcost 10000
-#itemslots 28672
 #end
 #selectmonster 2883 --Abodai
-#gcost 10000
-#itemslots 28672
 #end
 #selectmonster 2884 --androleth
 #end
@@ -5372,6 +5405,7 @@ won't live more than a month or two."
 #custommagic 5632 100
 #custommagic 5632 10
 #end
+
 ---- Pelagia
 #selectnation 85 --pelagia
 #end
@@ -11856,6 +11890,7 @@ may make the battlefield deadly even for the priest's allies."
 #nolog
 #notext
 #end
+
 #newevent
 #rarity 5 #req_fornation 61 #nation -2
 #msg "nope [Mithraea]."
@@ -12054,6 +12089,30 @@ may make the battlefield deadly even for the priest's allies."
 #mon 6424
 #mon 6425
 #mon 6436
+#end
+
+#newevent
+#rarity 5 #req_fornation 61 #nation -2
+#msg "nope [Mithraea]."
+#req_anycode -1104
+#req_fort 1
+#req_freesites 1
+#req_nositenbr 1816
+#addsite 1816 --mithraea
+#nolog
+#notext
+#end
+
+#newevent
+#rarity 5 #req_fornation 61 #nation -2
+#msg "nope [Mithraea]."
+#req_code -1104
+#req_fort 1
+#req_freesites 1
+#req_nositenbr 1816
+#addsite 1816 --mithraea
+#nolog
+#notext
 #end
 
 #newevent  #msg "Noprophet. [Mithraea]."
