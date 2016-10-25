@@ -2384,8 +2384,6 @@
 -- Reduce to Alt2, from Alt3, scales
 #selectspell 532
 #researchlevel 2
-#aoe 0
-#nreff 1001
 #end
 
 -- Bonds of Fire --
@@ -2451,18 +2449,18 @@
 #name "Quicken"
 #copyspell 540
 #name "scaling quickness"
-#aoe 1001
-#nreff 1000
+#aoe 1000
 #researchlevel 6
 #end
 #selectspell 540
 #end
 #selectspell 603
-#aoe 2006
+#aoe 2005
 -- Iron Warriors scales, but differently
 
 #end
 #selectspell 562
+#fatiguecost 40
 #aoe 1000
 #end
 
@@ -4597,21 +4595,32 @@ Skies, the Devala, which automatically casts Celestial Music, and the Devata, wh
 #noslowrec
 #gcost 110
 #end
-#selectmonster 1329
+#selectmonster 1329 --yaksha
+#awe 2
+#def 13
+#end
+#selectmonster --yakshini
 #awe 2
 #end
 #selectmonster 1326 -Guhyaka
 #weapon 21
+#gcost 10020
+#def 12
 #descr "A Guhyaka is a lowly Yaksha warrior.  They are semi-divine beings gifted with Celestial Splendor that strikes lowly beings with awe.  Their mystical powers have made them rulers over the Bandar Log and they are sacred to the monkey people.  Guhyakas are armed with spears and javelins"
 #end
 #selectmonster 1327 --yavana
-#gcost 10029
+#gcost 10025
+#awe 2
+#def 13
 #end
 #selectmonster 1328 --yavana archer
 #clearweapons
 #weapon 10
 #weapon 397
 #weapon 24
+#def 12
+#awe 2
+#gcost 10025
 #end
 #selectmonster 1333 --Bandar Warrior
 #gcost 10017
@@ -4669,6 +4678,9 @@ Skies, the Devala, which automatically casts Celestial Music, and the Devata, wh
 #end
 #selectspell 355 --gandharva
 #fatiguecost 1500
+#end
+#selectmonster 1335 --gandharva
+#weapon 1423
 #end
 #selectnation 11 --Machaka
 #descr "Machaka is an old sacral kingdom divided into totemic clans. The clans follow their totemic spirits and worship
