@@ -4599,7 +4599,7 @@ Skies, the Devala, which automatically casts Celestial Music, and the Devata, wh
 #awe 2
 #def 13
 #end
-#selectmonster --yakshini
+#selectmonster 1330 --yakshini
 #awe 2
 #end
 #selectmonster 1326 -Guhyaka
