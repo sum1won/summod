@@ -1,6 +1,6 @@
-#modname "Summod 0.71"
+#modname "Summod 0.72"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.71
+#version 0.72
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -4666,7 +4666,7 @@ Skies, the Devala, which automatically casts Celestial Music, and the Devata, wh
 #okmagicleader
 #magicskill 1 3
 #magicskill 4 3
-#onebattlespell 400
+#onebattlespell 472
 #descr "The Devata is a lesser god of the Celestial Sphere. Devatas once ruled parts of this world, but withdrew to the heavens ages ago. The Devata has a perfect body with four arms and blue skin. It is a powerful mage-priest and a formidable warrior. Devatas are sacred to the monkey people, and the enlightenment they bring can render the monkey people resistant to hostile enchantments."
 #end
 #selectspell 361 --devala
