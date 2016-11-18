@@ -1,7 +1,390 @@
-#modname "Summod 0.72"
-#description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.72
-#icon "./summod/summodall.tga"
+#modname "Rustmod 2.0"
+#description "Fixes rust issues, turns canonically nonferric weapons into actually nonferric"
+#version 2
+
+
+#newarmor 750
+#name "Laminated Mail"
+#rcost 12
+#type 5
+#prot 15
+#def -2
+#enc 3
+#end
+
+#newarmor 751
+#name "Treated Scale Hauberk"
+#prot 13
+#type 5
+#rcost 9
+#def -1
+#enc 2
+#end
+
+#newarmor 752  -- la patala
+#name "Bronzed Hauberk"
+#type 5
+#prot 18
+#rcost 20
+#enc 3
+#def -2
+#end
+
+--derust
+#selectweapon 531 --mighty yari
+#clear
+#rcost 1
+#dmg 7
+#att 1
+#len 5
+#nratt 1
+#twohanded
+#pierce
+#magic
+#end
+
+#selectweapon 256 --kryss
+#name "Bronzed Kryss"
+#clear
+#pierce
+#rcost 1
+#dmg 3
+#len 1
+#nratt 1
+#end
+
+#newweapon 1400
+#name "Metal Halberd"
+#rcost 4
+#dmg 10
+#att -1
+#def 1
+#len 4
+#twohanded
+#pierce
+#slash
+#end
+#newweapon 1402
+#dmg 3
+#nratt 1
+#len 4
+#pierce
+#name "Spear"
+#rcost 1
+#end
+
+#newweapon 1403
+#dmg 7
+#nratt 1
+#len 4
+#pierce
+#name "Trident"
+#rcost 2
+#end
+
+#newweapon 1404
+#dmg 2
+#nratt 1
+#att 1
+#len 0
+#pierce
+#name "Knife"
+#end
+
+#newweapon 1405
+#dmg 9
+#len 3
+#att 1
+#nratt 1
+#slash
+#rcost 3
+#name "Bronze Battleaxe"
+#end
+
+
+#newweapon 1407
+#name "Bronzed Falchion"
+#slash
+#dmg 7
+#len 2
+#rcost 4
+#end
+#newweapon 1415 --xibalbans
+#name "Light Stone Lance"
+#rcost 3
+#charge
+#pierce
+#dmg 3
+#len 4
+#nratt 1
+#end
+
+#selectmonster 96 --azure initiate
+#clearweapons  -- dagger
+#weapon 1404 --stone knife
+#end 
+
+#selectmonster 97 --azure mage
+#clearweapons  -- dagger
+#weapon 1404 --stone knife
+#end 
+
+#selectmonster 1820 --fir bolg militia unaffiliated
+#clearweapons
+#weapon 643
+#end
+
+--Tir na nog--
+#selectmonster 1749 --fir bolg militia
+#clearweapons
+#weapon 643
+#end
+
+#selectmonster 1751 --sidhe warrior
+#clearweapons
+#weapon 643
+#weapon 21
+#end
+
+#selectmonster 1757 -- fir bolg warrior
+#clearweapons
+#weapon 643
+#weapon 21
+#end
+
+--- fomoria
+#selectmonster 1813 -- fir bolg warrior
+#clearweapons
+#weapon 643
+#weapon 21
+#end
+
+--- Eriu
+#selectmonster 1787 -- fir bolg
+#clearweapons
+#weapon 643
+#weapon 21
+#end
+
+
+---Gath---
+#selectmonster 1992 --zebulonite soldier
+#clearweapons
+#weapon 643
+#end
+
+#selectmonster 1993 --Naphtali spearman
+#clearweapons
+#weapon 643
+#weapon 21
+#end
+
+--- Jomon ---
+#selectmonster 2101 -- Shrimp Soldier
+#cleararmor --scalemail
+#armor 750  -- laminated mail
+#end
+
+#selectmonster 2102 -- crab general
+#cleararmor --full scale mail
+#armor 750 --laminated mail
+#end
+
+#selectmonster 2103 --shark warrior
+#cleararmor --scale mail
+#armor 750 --laminated mail
+#end
+
+--- Atlantis ---
+
+#selectmonster 1703 --mournful
+#clearweapons --halberd
+#weapon 1400 --laminated halberd
+#end
+
+--- Rlyeh ---
+
+#selectmonster 1523--ea slave prince
+#clearweapons
+#cleararmor
+#weapon 670 --Trident
+#armor 751 -- treated scale hauberk
+#armor 1524
+#end
+
+#selectmonster 444 --traitor prince
+#clearweapons --trident
+#weapon 642--meteor trident
+#end
+
+#selectmonster 1524 --slaveguardian
+#clearweapons --spear
+#cleararmor
+#armor 140
+#armor 150
+#weapon 1402 --uwspear
+#end
+
+#selectmonster 1525 --slave guardian
+#clearweapons -- trident
+#cleararmor
+#armor 140
+#armor 150
+#weapon 1402 --uw spear
+#end 
+
+#selectmonster 1526 --slave guardian
+#clearweapons -- trident
+#cleararmor
+#armor 140
+#armor 150
+#weapon 670 --Trident
+#end 
+
+#selectmonster 1619 --slave guardian
+#clearweapons -- trident
+#weapon 670 --Trident
+#end 
+
+
+#selectmonster 424 -- Meteorite Guard
+#clearweapons --trident
+#weapon 642 --meteorite trident
+#end 
+
+#selectmonster 1574 -- triton dreamer
+#clearweapons --dagger
+#weapon 1404 --stone knife
+#end 
+
+#selectmonster 1569 -- mad triton
+#clearweapons --dagger
+#weapon 1404 --stone knife
+#end 
+
+#selectmonster 1572 --merman dreamer
+#clearweapons --dagger
+#weapon 1404 --stone knife
+#end 
+
+#selectmonster 1571	--deepone dreamer
+#clearweapons --dagger
+#weapon 1404 --stone knife
+#end 
+
+#selectmonster 971 --hybrid trooper
+#clearweapons --spear, tentacle
+#weapon 1402 --uwspear
+#weapon 85 --tentacle
+#end
+
+
+
+--- Agartha ---
+
+#selectmonster 2491
+#clearweapons --hammer
+#weapon 1404 --stone knife
+#end
+
+#selectmonster 1470 --ancientlord
+#clearweapons --battleaxe
+#weapon 1405 --bronze battleaxe
+#end
+
+#selectmonster 1469 -- ea pale one ancient
+#clearweapons -- spear
+#weapon 643 -- uwspear
+#end 
+
+
+--- Muuch ---
+
+#selectmonster 2745 -- sak muuch warrior
+#clearweapons -- spear
+#weapon 643 -- bronzespear
+#end
+
+#selectmonster 2725 --muuch warrior
+#clearweapons --spear
+#weapon 643 --bronzespear
+#end
+
+
+#selectmonster 2718 --ah itz
+#clearweapons --dagger
+#weapon 1404 --knife
+#end
+
+#selectmonster 2748 --ah ha
+#clearweapons --bronze spear
+#weapon 1404 --knife
+#end
+
+--- LA Mictlan ---
+#selectmonster  1421 --rain priest
+#clearweapons --dagger
+#weapon 1404 --knife
+#end
+
+#selectmonster 1423 --rain warrior
+#gcost 10015
+#end
+
+--- Nagas ---
+--nagarishi Kryss made bronze
+
+#selectmonster 1319 --naga warrior
+#clearweapons
+#weapon  1407 --Bronzed Falchion
+#weapon 141 --poison spit
+#weapon 595 --hypnotize
+#weapon 239 --venemous fangs
+#end
+
+#selectmonster 1320 --nagaraja
+#clearweapons
+#weapon  1407 --Bronzed Falchion
+#weapon 141 --poison spit
+#weapon 595 --hypnotize
+#weapon 239 --venemous fangs
+#end
+
+#selectmonster 1323 --nagaraja other form
+#clearweapons
+#cleararmor
+#weapon  1407 --Bronzed Falchion
+#end
+
+#selectmonster 2476 --naga chief
+#clearweapons
+#weapon 1407 --Bronzed Falchion
+#weapon 141 --poison spit
+#weapon 595 --hypnotize
+#weapon 239 --venemous fangs
+#end
+
+#selectmonster 2741 --Xibalban Warrior 
+#clearweapons
+#weapon 1415
+#end
+#selectmonster 2738 --Xibalban Warrior 
+#clearweapons
+#weapon 1415
+#end
+#selectmonster 2668 --Xibalban Warrior (EA)
+#clearweapons
+#weapon 1415
+#end
+#selectmonster 2734 --Xibalban Warrior (EA)
+#clearweapons
+#weapon 1415
+#end
+#selectmonster 2673 --Xibalban Warrior (EA)
+#clearweapons
+#weapon 1415
+#end
+
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
 
