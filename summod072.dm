@@ -3338,28 +3338,7 @@ being guides of the sun, their skills in solar magic is limited. The Zotz are nu
 colonies. Numbers rather than strength make them win their battles.
 
 Xibalba is substantially nerfed by summod.  Bats are more expensive, foreign recruit is slower, and beast bats are much worse in combat and at sieges.  Consult the changelog for more detail."
-#clearrec
-#addreccom 2691
-#addreccom 2681
-#addreccom 2680
-#addreccom 2679
-#addreccom 2678
-#addreccom 2677
-#addreccom 2676
-#addreccom 2674
-#addrecunit 2689
-#addrecunit 2688
-#addrecunit 2687
-#addrecunit 2671
-#addrecunit 2670
-#addrecunit 2669
-#addrecunit 2668
-#forestrec 2668
-#forestrec 2669
 #addreccom 6346
-#caverec 2668
-#caverec 2669
-#cavecom 2678
 #end
 #selectmonster 2674
 #slowrec
@@ -5527,7 +5506,7 @@ won't live more than a month or two."
 #mapmove 2
 #enc 4
 #mr 10
-#mor 15
+#mor 12
 #weapon 6
 #armor 9
 #armor 123
@@ -9900,32 +9879,7 @@ in dried-out caves and forced them into servitude. Now Xibalba is a Muuch kingdo
 population.
 
 Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds recruitable in any fort while discounting them."
-#clearrec
-#addreccom 2718
-#addreccom 2717
-#addreccom 2716
-#addreccom 2715
-#addrecunit 2726
-#addrecunit 2725
-#addrecunit 2724
-#addrecunit 2723
-#addrecunit 2722
-#addrecunit 2721
-#addrecunit 2730
-#addrecunit 2731
-#forestrec 2734
-#forestrec 2727
-#forestrec 2735
-#forestcom 2728
-#forestcom 2682
-#cavecom 2719
-#caverec 2735
-#caverec 2734
-#uwunit1 2887
-#uwunit2 2888
-#uwcom1 2717
-#uwcom2 2716
-#uwcom3 2715
+
 #end
 #selectsite 177
 #clear
@@ -9977,17 +9931,18 @@ Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds r
 #selectmonster 2724 --light obsword muuch
 #end
 #selectmonster 2725 --bronze spear muuch
-#gcost 10014
+#gcost 10013
 #att 11
 #def 10
 #mor 11
 #end
 #selectmonster 2726 --bronze obsword muuch
-#gcost 10014
+#gcost 10013
 #att 11
 #def 10
 #mor 11
 #end
+
 #selectnation 90 --oceania
 #descr "Oceania is an underwater realm of half-men. Since the Atlantians emerged from the deeps, the half-men have lost more
 and more of their former domains. Ravenous deep ones have consumed fish and kelp alike. The kelp groves have been
@@ -10046,6 +10001,7 @@ Summod improves Siren paths and improves the cost of icthytaurs."
 #pathlevel 0 2
 #path 1 5
 #pathlevel 1 2
+#fatiguecost 3400
 #end
 #selectmonster 1558--tlahuelpuchi
 #noleader
@@ -10224,6 +10180,12 @@ Xibalba is nerfed by summod.  Bats are more expensive.  Foreign recruit commande
 #uwunit2 2890
 #uwcom1 2748
 #uwcom2 2891
+#addreccom 6346
+#addreccom 6315
+#end
+#selectmonster 2674
+#slowrec
+#gcost 40
 #end
 #selectmonster 2750 --chilan cave
 #slowrec
