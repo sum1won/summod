@@ -1051,6 +1051,35 @@
 #summon 459
 #end
 
+#selectsite 800 -- The Throne of Spring
+#loc 17119
+#end
+
+#selectsite 801 -- The Throne of Summer
+#loc 17119
+#end
+
+#selectsite 802 -- The Throne of Autumn
+#loc 17119
+#end
+
+#selectsite 803 -- The Throne of Winter
+#loc 17119
+#end
+
+#selectsite 1052 -- Isle of the Saoi
+#clear
+#level 1
+#rarity 2
+#gems 2 1
+#gems 3 1
+#path 3
+#loc 32
+#com 2832 -- Strategis
+#mon 2838 -- Saos
+#end
+
+
 -- POPTYPE CHANGES
 #newmonster 6314
 #copystats 1681
@@ -2616,6 +2645,44 @@
 #precision 100
 #end
 
+#newspell
+#copyspell 101 -- AoE 1 disease
+#name "Friendly-only Disease"
+#aoe 666 -- 100% of battlefield
+#spec 20971648 -- AN, MR negates easily, friendly-only
+#end
+
+#selectspell 582 -- Skeletal Legion
+#researchlevel 4
+#descr "The caster transforms an entire army into skeletal beings, making them highly resistant to piercing attacks. The transformation can be harmful and the transformed soldiers might get diseased by the spell. High magic resistance will protect the affected soldiers from the disease."
+#nextspell "Friendly-only Disease"
+#end
+
+
+#selectspell 104 -- Area Battle Fright
+#name "Enemy-only Battle Fright"
+#aoe 666
+#spec 266368 -- AN, friendlyimmune, MR negates
+#end
+
+#newspell
+#copyspell 44 -- extra cripple
+#name "Battlefield Cripple"
+#aoe 663 -- 50% of battlefield
+#spec 27263104 -- AN, hard to hit ethereal, works UW, MR negates easily
+#end
+
+#selectspell 109 -- Battlefield Limp
+#name "Battlefield Limp then Cripple"
+#spec 27263104 
+#nextspell "Battlefield Cripple"
+#end
+
+#selectspell 597 -- Creeping Doom
+#spec 8388608 -- may cast UW
+#descr "This spell enlarges a number of insects to enormous proportions. The insects will aid the caster by attacking or at least disturb his enemies. If cast under water shrimps and small fish will appear instead."
+#end
+
 #selectspell 483 -- Rain of Stones (aoe 663 to halve effect)
 #fatiguecost 200
 #end
@@ -2623,7 +2690,7 @@
 #selectspell 617 --army of rats
 #researchlevel 8
 #pathlevel 0 6
-#fatiguecost 400
+#fatiguecost 300
 #end
 
 #selectspell 611 --polymorph, range scales
@@ -2652,7 +2719,7 @@
 #newspell
 #copyspell 618
 #name "Wild Tangle"
-#aoe 1000
+#aoe 1001
 #researchlevel 3
 #descr "Vines will ensnare anyone in the targeted area.  The ensnared victims cannot move or attack anyone until they have destroyed the vines holding them.  The stronger the victim is, the faster the vines will be destroyed, and the more fertile the province is, the stronger the vines will be. Strong mages will produce more vines."
 #end
@@ -2812,7 +2879,7 @@
 
 #selectspell 890 --Sailor's Death
 #aoe 0
-#nreff 1000
+#nreff 1002
 #end
 #selectspell 908 --confusion
 #end
@@ -2823,12 +2890,14 @@
 #name "Final Enfeeble"
 #copyspell 565
 #name "Final Enfeeble"
+#school -1
 #end
 #newspell
 #name "Continue Enfeeble"
 #copyspell 565
 #name "Continue Enfeeble"
 #nextspell "Final Enfeeble"
+#school -1
 #end
 #selectspell 565
 #nextspell "Continue Enfeeble"
