@@ -26,6 +26,256 @@
 ---Scales Change---
 #deathincome 2
 
+
+----------------------
+--- AI Recruitment ---
+----------------------
+
+---- AWFUL NATIONALS
+
+ 
+#selectmonster 11 -- retarius
+#ainorec
+#end	   
+#selectmonster 12 -- gladiator
+#ainorec
+#end	   
+#selectmonster 110 -- atlantian militia
+#ainorec
+#end	   
+#selectmonster 168 -- ctis militia
+#ainorec
+#end	   
+#selectmonster 227 -- satyr sneak
+#ainorec
+#end	   
+#selectmonster 721 -- mictlan warrior
+#ainorec
+#end	   
+#selectmonster 878 -- machak militia
+#ainorec
+#end	   
+#selectmonster 1056 -- pelagia militia
+#ainorec
+#end	   
+#selectmonster 2003 -- ashdod human slinger
+#ainorec
+#end	   
+#selectmonster 2004 -- ashdod human slave
+#ainorec
+#end	   
+#selectmonster 2126 -- machaka pygmy
+#ainorec
+#end	   
+#selectmonster 2254 -- Berytos militia
+#ainorec
+#end	 
+
+
+
+
+
+---- INDIES ----
+
+ 
+ 
+#selectmonster 17 -- archer
+#ainorec
+#end	   
+#selectmonster 18 -- Militia shielded
+#ainorec
+#end	   
+#selectmonster 24 -- light cavalry jav
+#ainorec
+#end	   
+#selectmonster 25 -- light cavalry bow
+#ainorec
+#end	   
+#selectmonster 26 -- light cavalry
+#ainorec
+#end	   
+#selectmonster 28 -- light infantry nojav
+#ainorec
+#end	   
+#selectmonster 29 -- light infantry
+#ainorec
+#end	   
+#selectmonster 30 -- light infantry
+#ainorec
+#end	   
+#selectmonster 31 -- militia
+#ainorec
+#end	   
+#selectmonster 33 -- archer
+#ainorec
+#end	   
+#selectmonster 38 -- heavy infantry spear
+#ainorec
+#end	   
+#selectmonster 50 -- slinger
+#ainorec
+#end	   
+#selectmonster 123 -- wolf tribe archer
+#ainorec
+#end	   
+#selectmonster 124 -- wolf tribe warrior
+#ainorec
+#end	   
+#selectmonster 125 -- woodsman blowpipe
+#ainorec
+#end	   
+#selectmonster 126 -- woodsman
+#ainorec
+#end	   
+#selectmonster 140 -- barbarian
+#ainorec
+#end	   
+#selectmonster 174 -- triton spear
+#ainorec
+#end	   
+#selectmonster 176 -- triton knife
+#ainorec
+#end	   
+#selectmonster 205 -- raptor clan
+#ainorec
+#end	   
+#selectmonster 423 -- Lizard warrior
+#ainorec
+#end	   
+#selectmonster 483 -- hoburg militia
+#ainorec
+#end	   
+#selectmonster 913 -- Ichtyid (no shield one)
+#ainorec
+#end	   
+#selectmonster 974 -- ichtyid (no shield one)
+#ainorec
+#end	   
+#selectmonster 1118 -- markata no bow
+#ainorec
+#end	   
+#selectmonster 1121 -- atavi archer
+#ainorec
+#end	   
+#selectmonster 1122 -- atavi infantry
+#ainorec
+#end	   
+#selectmonster 1592 -- bear tribe spear
+#ainorec
+#end	   
+#selectmonster 1593 -- bear tribe warrior
+#ainorec
+#end	   
+#selectmonster 1594 -- deer tribe warrior
+#ainorec
+#end	   
+#selectmonster 1595 -- deer tribe archer
+#ainorec
+#end	   
+#selectmonster 1600 -- Lion clan warrior
+#ainorec
+#end	   
+#selectmonster 1601 -- lion tribe archer
+#ainorec
+#end	   
+#selectmonster 1610 -- Jaguar tribe slinger
+#ainorec
+#end	   
+#selectmonster 1611 -- jaguar warrior
+#ainorec
+#end	 
+#selectmonster 2902 -- merrow militia
+#ainorec
+#end
+
+
+----- INDY MAYBES ------
+
+ 
+#selectmonster 39 -- heavy infantry (18 res)
+#ainorec
+#end	   
+#selectmonster 40 -- heavy infantry (res 22)
+#ainorec
+#end	   
+#selectmonster 206 -- shambler naked
+#ainorec
+#end	   	   
+#selectmonster 1066 -- merman indy land form
+#ainorec
+#end	   
+#selectmonster 1615 -- caveman
+#ainorec
+#end	   
+
+
+----- NATIONAL MAYBES -----
+
+#selectmonster 167 -- ctis light infantry
+#ainorec
+#end	   
+#selectmonster 201 -- peltast
+#ainorec
+#end	   
+#selectmonster 335 -- rlyeh Slave Trooper
+#ainorec
+#end	   
+#selectmonster 337 -- rlyeh Lobo
+#ainorec
+#end	   
+#selectmonster 1046 -- pelagain merman
+#ainorec
+#end	   
+#selectmonster 1394 -- bakemono sho
+#ainorec
+#end	   
+#selectmonster 1395 -- bakemono archer
+#ainorec
+#end	   
+#selectmonster 1398 -- bakemono sho
+#ainorec
+#end	   
+#selectmonster 1515 -- rlyeh Slave Trooper
+#ainorec
+#end	   
+#selectmonster 1517 -- rlyeh Slave Trooper
+#ainorec
+#end	   
+#selectmonster 1779 -- milesian slinger
+#ainorec
+#end	   
+#selectmonster 2153 -- war dog
+#ainorec
+#end	   
+#selectmonster 2404 -- oceanaia ichtysatyr
+#ainorec
+#end	   
+#selectmonster 2406 -- oceanaia ichtysatyr
+#ainorec
+#end	 
+#selectmonster 2670 --early xibalban dart thrower
+#ainorec
+#end
+#select
+#selectmonster 2722 --mid xibalban dart thrower
+#ainorec
+#end
+#select
+
+#selectmonster 2470 --late xibalban dart thrower
+#ainorec
+#end
+#select
+#selectmonster 2744 --late muuch xibalban dart thrower
+#ainorec
+#end
+#selectmonster 2907 --ysian militia
+#ainorec
+#end
+#selectmonster 2644 --nazca human
+#ainorec
+#end
+
 ----------------------
 --- Armour Changes ---
 ----------------------
