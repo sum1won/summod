@@ -2653,7 +2653,7 @@
 #end
 
 #selectspell 582 -- Skeletal Legion
-#researchlevel 4
+#researchlevel 5
 #descr "The caster transforms an entire army into skeletal beings, making them highly resistant to piercing attacks. The transformation can be harmful and the transformed soldiers might get diseased by the spell. High magic resistance will protect the affected soldiers from the disease."
 #nextspell "Friendly-only Disease"
 #end
