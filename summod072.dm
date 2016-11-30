@@ -11366,7 +11366,7 @@ for more detail."
 #notext
 #end
 
-#newevent --5X abandonment events for no second sun.
+#newevent --1X abandonment events for no second sun, other cult
 #nation -2
 #rarity 5
 #msg "no eus"
@@ -11374,10 +11374,11 @@ for more detail."
 #notext
 #req_monster 6436
 #req_noench 81
+#req_anycode -1102
 #killmon 6436
 #end
 
-#newevent
+#newevent --1X abandonment events for no second sun, other cult
 #nation -2
 #rarity 5
 #msg "no eus"
@@ -11385,39 +11386,7 @@ for more detail."
 #notext
 #req_monster 6436
 #req_noench 81
-#killmon 6436
-#end
-
-#newevent
-#nation -2
-#rarity 5
-#msg "no eus"
-#nolog
-#notext
-#req_monster 6436
-#req_noench 81
-#killmon 6436
-#end
-
-#newevent
-#nation -2
-#rarity 5
-#msg "no eus"
-#nolog
-#notext
-#req_monster 6436
-#req_noench 81
-#killmon 6436
-#end
-
-#newevent
-#nation -2
-#rarity 5
-#msg "no eus"
-#nolog
-#notext
-#req_monster 6436
-#req_noench 81
+#req_anycode -1106
 #killmon 6436
 #end
 
@@ -11429,6 +11398,7 @@ for more detail."
 #nolog
 #notext
 #req_monster 6436
+#req_anycode -1106
 #req_hostileench 81
 #killmon 6436
 #end
@@ -11440,6 +11410,7 @@ for more detail."
 #nolog
 #notext
 #req_monster 6436
+#req_anycode 1106
 #req_hostileench 81
 #killmon 6436
 #end
@@ -11451,6 +11422,7 @@ for more detail."
 #nolog
 #notext
 #req_monster 6436
+#req_anycode -1106
 #req_hostileench 81
 #killmon 6436
 #end
@@ -11462,6 +11434,7 @@ for more detail."
 #nolog
 #notext
 #req_monster 6436
+#req_anycode -1106
 #req_hostileench 81
 #killmon 6436
 #end
@@ -11472,11 +11445,59 @@ for more detail."
 #msg "no eus"
 #nolog
 #notext
+#req_anycode -1102
 #req_monster 6436
 #req_hostileench 81
 #killmon 6436
 #end
 
+#newevent
+#nation -2
+#rarity 5
+#msg "no eus"
+#nolog
+#notext
+#req_anycode -1102
+#req_monster 6436
+#req_hostileench 81
+#killmon 6436
+#end
+
+#newevent
+#nation -2
+#rarity 5
+#msg "no eus"
+#nolog
+#notext
+#req_anycode -1102
+#req_monster 6436
+#req_hostileench 81
+#killmon 6436
+#end
+
+#newevent
+#nation -2
+#rarity 5
+#msg "no eus"
+#nolog
+#notext
+#req_anycode -1100
+#req_monster 6436
+#req_hostileench 81
+#killmon 6436
+#end
+
+#newevent
+#nation -2
+#rarity 5
+#msg "no eus"
+#nolog
+#notext
+#req_anycode -1100
+#req_monster 6436
+#req_hostileench 81
+#killmon 6436
+#end
 
 #newevent  --- Cleanup.
 #rarity 5 #req_fornation 61 #nation -2
@@ -12458,7 +12479,6 @@ may make the battlefield deadly even for the priest's allies."
 #mapmove 2
 #fireres 10
 #holy
-#reclimit 3
 #end
 
 #newevent
@@ -12622,7 +12642,6 @@ may make the battlefield deadly even for the priest's allies."
 #nation -2
 #rarity 5
 #msg "taurboleum [Mithraea]."
-#req_site 1
 #req_monster 6434
 #req_targmnr 6420
 #transform 6433
@@ -12757,6 +12776,29 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 ----- CULT OF Fertility
+#newspell
+#copyspell 1005
+#name "Damage Reversal"
+#end
+#selectspell 1005
+#clear
+#name "Power of Gaia"
+#school -1
+#fatiguecost 300
+#descr "Increases the power of all friendly sacred nature mages"
+#effect 23
+#damage 1048576
+#path 0 0
+#pathlevel 0 5
+#spec 12632064
+#aoe 666
+#range 0
+#precision 100
+#sound 16
+#explspr 10113
+#end
+
+
 #newmonster  6415--mystes/epoptes prophetshape
 #copystats 552
 #name "Archgalli"
@@ -12780,6 +12822,7 @@ may make the battlefield deadly even for the priest's allies."
 #weapon 92
 #itemslots 15494
 #patience -3
+#onebattlespell 1005
 #end
 
 
@@ -13420,17 +13463,7 @@ may make the battlefield deadly even for the priest's allies."
 #copyspr 435
 #montag 1315
 #summerpower 25
-#batstartsum2 6317
-#transformation 0
-#descr "These Maenads were sent to kill the enemies of Pythium in the name of the new god and fertility!"
-#end
-
-#newmonster 6440
-#copystats 435 --maenad
-#copyspr 435
-#montag 1315
-#summerpower 25
-#batstartsum2 6317
+#batstartsum1d6 6317
 #transformation 0
 #descr "These Maenads were sent to kill the enemies of Pythium in the name of the new god and fertility!"
 #end
@@ -13591,7 +13624,6 @@ may make the battlefield deadly even for the priest's allies."
 #req_targmnr 6423
 #transform 6432
 #killmon 6438
-#req_site 1
 #req_rare 50
 #decscale 3
 #end
@@ -13602,7 +13634,6 @@ may make the battlefield deadly even for the priest's allies."
 #req_targmnr 6421
 #transform 6432
 #killmon 6438
-#req_site 1
 #req_rare 50
 #decscale 3
 #end
@@ -13613,7 +13644,6 @@ may make the battlefield deadly even for the priest's allies."
 #req_targmnr 6421
 #transform 6432
 #killmon 6438
-#req_site 1
 #end
 
 #newevent  #msg "Reveler. [Anaktoron]."
@@ -13622,7 +13652,6 @@ may make the battlefield deadly even for the priest's allies."
 #req_targmnr 6423
 #transform 6432
 #killmon 6438
-#req_site 1
 #end
 
 #newevent  #msg "boar. [Anaktoron]."
@@ -13631,7 +13660,6 @@ may make the battlefield deadly even for the priest's allies."
 #req_targmnr 6432
 #transform 6448
 #killmon 6446
-#req_site 1
 #req_targpath1 3
 #end
 
@@ -13641,7 +13669,6 @@ may make the battlefield deadly even for the priest's allies."
 #req_targmnr 6432
 #transform 6447
 #killmon 6445
-#req_site 1
 #end
 
 
