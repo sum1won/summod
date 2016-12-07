@@ -971,6 +971,16 @@
 #end
 
 
+#newweapon 1433
+#name "Great Bite"
+#dmg 6
+#att 1
+#def -1
+#bonus
+#slash
+#len 0
+#end
+
 ---Item Counterbalances---
 
 #selectmonster 2648 --hatun runa
@@ -5720,6 +5730,126 @@ won't live more than a month or two."
 #selectnation 85 --pelagia
 #end
 #selectnation 86 --oceania -- look pretty good already
+#end
+
+---EA Oceania
+
+#newmonster 6310
+#copystats 206 -- Shambler
+#spr1 "./summod/Demonshark_1.tga"
+#spr2 "./summod/Demonshark_2.tga"
+#name "Shark Fiend"
+#descr "Shark Fiends are monstrous demons with the heads of sharks. Summoned from Hell's seas, they are ungainly on land but incredibly swift underwater."
+#clearweapons
+#gcost 0
+#hp 30
+#prot 10
+#mr 15
+#mor 15
+#str 15
+#att 13
+#def 8
+#enc 4
+#ap 8
+#supplybonus -2
+#custommagic 16384 50 -- 1B when GoRed
+#demon
+#animal
+#itemslots 15366 -- no head slot
+#weapon 204 -- Shark Bite: 22 damage, str not added, +1 att, length 5, -1 def, slashing
+#weapon 33 -- Claws: 2 attacks, slashing
+#nametype 117 -- Deep Ones
+#watershape 6311
+#end
+
+#newmonster 6311
+#copystats 206 -- Shambler
+#spr1 "./summod/Demonshark_1.tga"
+#spr2 "./summod/Demonshark_2.tga"
+#name "Shark Fiend"
+#descr "Shark Fiends are monstrous demons with the heads of sharks. Summoned from Hell's seas, they are ungainly on land but incredibly fierce underwater."
+#clearweapons
+#gcost 0
+#hp 30
+#prot 10
+#mr 15
+#mor 30
+#str 16
+#att 13
+#def 11
+#enc 2
+#ap 16
+#supplybonus -2
+#custommagic 16384 50 -- 1B when GoRed
+#demon
+#animal
+#berserk 4
+#itemslots 15366 -- no head slot
+#weapon 204 -- Shark Bite: 22 damage, str not added, +1 att, length 5, -1 def, slashing
+#weapon 33 -- Claws: 2 attacks, slashing
+#nametype 117 -- Deep Ones
+#landshape 6310
+#end
+
+
+#newspell
+#copyspell 639 -- Call Kraken
+#name "Bind Shark Fiends"
+#descr "The caster sacrifices several blood slaves to lure and bind three Shark Fiends. Shark Fiends are amphibious demons with the heads of sharks. Summoned from Hell's seas, they are ungainly on land but incredibly swift underwater."
+#researchlevel 4
+#school 6
+#path 0 7
+#pathlevel 0 1
+#path 1 2
+#pathlevel 1 1
+#fatiguecost 1300
+#nreff 3
+#damage 6311
+#restricted 86 -- EA Oceania
+#restricted 90 -- MA Oceania
+#end
+
+#newmonster 6349 --Devilfish
+#name "Devilfish"
+#descr "Devilfish are the rulers of the Seas of Hell.  Mighty mages of storms and salt, they are among the few creatures with any semblence of control over Shark Fiends, a fact that prevetns the other powers of hell from intruding into their demense."
+#copystats 206 --shambler
+#size 4
+#gcost 0
+#hp 40
+#prot 8
+#mr 18
+#mor 30
+#str 16
+#att 13
+#def 13
+#enc 2
+#ap 16
+#demon
+#animal
+#flyer
+#stormimmune
+#magicskill 1 2
+#magicskill 2 2 
+#magicskill 7 3
+#end
+
+
+
+#newspell
+#copyspell 639 -- Call Kraken
+#name "Contact Devilfish"
+#descr "The caster sacrifices many blood slaves to obtain the service of a Devilfish. Devilfish rule the seas of hell, and are among the few creatures able to command Shark Fiends."
+#researchlevel 7
+#school 6
+#path 0 7
+#pathlevel 0 3
+#path 1 2
+#pathlevel 1 3
+#fatiguecost 5000
+#effect 21
+#damage 6349
+#restricted 86 -- EA Oceania
+#restricted 90 -- MA Oceania
 #end
 
 ---Cav changes
