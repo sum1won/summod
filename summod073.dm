@@ -1,6 +1,6 @@
-#modname "Summod 0.72"
+#modname "Summod 0.73"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.72
+#version 0.73
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -407,6 +407,7 @@
 #selectarmor 190 -- Coral Barding
 #prot 15 --From 10
 #rcost 20 --From 12
+#enc 2
 #end
 
 #selectarmor 85 -- Amber Shield
@@ -5736,8 +5737,8 @@ won't live more than a month or two."
 
 #newmonster 6310
 #copystats 206 -- Shambler
-#spr1 "./summod/Demonshark_1.tga"
-#spr2 "./summod/Demonshark_2.tga"
+#spr1 "./summod/sharkdemon_1.tga"
+#spr2 "./summod/sharkdemon_2.tga"
 #name "Shark Fiend"
 #descr "Shark Fiends are monstrous demons with the heads of sharks. Summoned from Hell's seas, they are ungainly on land but incredibly swift underwater."
 #clearweapons
@@ -5756,7 +5757,7 @@ won't live more than a month or two."
 #demon
 #animal
 #itemslots 15366 -- no head slot
-#weapon 204 -- Shark Bite: 22 damage, str not added, +1 att, length 5, -1 def, slashing
+#weapon 1433 -- Shark Bite: 22 damage, str not added, +1 att, length 5, -1 def, slashing
 #weapon 33 -- Claws: 2 attacks, slashing
 #nametype 117 -- Deep Ones
 #watershape 6311
@@ -5764,8 +5765,8 @@ won't live more than a month or two."
 
 #newmonster 6311
 #copystats 206 -- Shambler
-#spr1 "./summod/Demonshark_1.tga"
-#spr2 "./summod/Demonshark_2.tga"
+#spr1 "./summod/sharkdemon_1.tga"
+#spr2 "./summod/sharkdemon_2.tga"
 #name "Shark Fiend"
 #descr "Shark Fiends are monstrous demons with the heads of sharks. Summoned from Hell's seas, they are ungainly on land but incredibly fierce underwater."
 #clearweapons
@@ -5785,7 +5786,7 @@ won't live more than a month or two."
 #animal
 #berserk 4
 #itemslots 15366 -- no head slot
-#weapon 204 -- Shark Bite: 22 damage, str not added, +1 att, length 5, -1 def, slashing
+#weapon 1433 -- Shark Bite: 22 damage, str not added, +1 att, length 5, -1 def, slashing
 #weapon 33 -- Claws: 2 attacks, slashing
 #nametype 117 -- Deep Ones
 #landshape 6310
@@ -5796,13 +5797,13 @@ won't live more than a month or two."
 #copyspell 639 -- Call Kraken
 #name "Bind Shark Fiends"
 #descr "The caster sacrifices several blood slaves to lure and bind three Shark Fiends. Shark Fiends are amphibious demons with the heads of sharks. Summoned from Hell's seas, they are ungainly on land but incredibly swift underwater."
-#researchlevel 4
+#researchlevel 0 --4
 #school 6
 #path 0 7
 #pathlevel 0 1
 #path 1 2
 #pathlevel 1 1
-#fatiguecost 1300
+#fatiguecost 0 --1300
 #nreff 3
 #damage 6311
 #restricted 86 -- EA Oceania
@@ -5810,29 +5811,81 @@ won't live more than a month or two."
 #end
 
 #newmonster 6349 --Devilfish
+#copystats 639 --kraken
 #name "Devilfish"
 #descr "Devilfish are the rulers of the Seas of Hell.  Mighty mages of storms and salt, they are among the few creatures with any semblence of control over Shark Fiends, a fact that prevetns the other powers of hell from intruding into their demense."
-#copystats 206 --shambler
-#size 4
-#gcost 0
-#hp 40
-#prot 8
-#mr 18
-#mor 30
-#str 16
-#att 13
-#def 13
-#enc 2
-#ap 16
-#demon
-#animal
-#flyer
-#stormimmune
-#magicskill 1 2
+#spr1 "./summod/demonic_octopus_1.tga"
+#spr2 "./summod/demonic_octopus_2.tga"
+#magicskill 3 2
 #magicskill 2 2 
 #magicskill 7 3
 #end
 
+
+#newmonster 6440
+#name "Angelfish"
+#descr "Angelfish are winged guardians of the ocean with great magical powers and beauty."
+#spr1 "./summod/devilfish_1.tga"
+#spr2 "./summod/devilfish_2.tga"
+#size 4
+#gcost 0
+#hp 25
+#prot 8
+#mr 18
+#mor 30
+#str 16
+#att 12
+#def 12
+#enc 2
+#ap 16
+#animal
+#flying
+#amphibian
+#stormimmune
+#weapon 92
+#heal
+#magicskill 1 1
+#magicskill 2 1
+#magicskill 6 3
+#magicboost 1 1
+#custommagic 768 100
+#seduce 10
+#end
+
+#newmonster 6437
+#seduce 10
+#name "Angelfish"
+#descr "Angelfish are winged guardians of the ocean with great magical powers and beauty."
+#spr1 "./summod/devilfish_1.tga"
+#spr2 "./summod/devilfish_2.tga"
+#size 4
+#gcost 0
+#hp 25
+#prot 8
+#mr 18
+#mor 30
+#str 16
+#att 12
+#def 12
+#enc 2
+#ap 16
+#animal
+#amphibian
+#flying
+#stormimmune
+#weapon 92
+#heal
+#magicskill 1 1
+#magicskill 2 1
+#magicskill 6 3
+#magicboost 2 1
+#custommagic 768 100
+#landshape 6440
+#end
+
+#selectmonster 6440
+#watershape 6437
+#end
 
 
 #newspell
@@ -5846,10 +5899,51 @@ won't live more than a month or two."
 #path 1 2
 #pathlevel 1 3
 #fatiguecost 5000
-#effect 21
+#effect 10021
 #damage 6349
 #restricted 86 -- EA Oceania
 #restricted 90 -- MA Oceania
+#end
+
+#newspell
+#copyspell 639 -- Call Kraken
+#name "Contact Angelfish"
+#descr "The caster summons an angelfish, winged mages of incredible power and beauty."
+#researchlevel 7
+#school 0
+#path 0 6
+#pathlevel 0 3
+#path 1 2
+#pathlevel 1 3
+#fatiguecost 4000
+#effect 10021
+#damage 6440
+#restricted 86 -- EA Oceania
+#restricted 90 -- MA Oceania
+#end
+
+#selectmonster 1038
+#clearmagic
+#magicskill 2 2
+#magicskill 6 4
+#magicskill 3 1
+#magicskill 7 1
+#magicboost 3 -1
+#custommagic 18176 100
+#custommagic 26368 10
+#gcost 330
+#end
+
+#selectmonster 1039
+#gcost 330
+#clearmagic
+#magicskill 2 2
+#magicskill 6 4
+#magicskill 3 1
+#magicskill 7 1
+#magicboost 2 -1
+#custommagic 18176 100
+#custommagic 26368 10
 #end
 
 ---Cav changes
@@ -10621,6 +10715,7 @@ Xibalba is nerfed by summod.  Bats are more expensive.  Foreign recruit commande
 #addrecunit 2745
 #addrecunit 2746
 #forestcom 2751
+#forestcom 2674
 #forestrec 2738
 #forestrec 2739
 #caverec 2739
@@ -12670,6 +12765,10 @@ may make the battlefield deadly even for the priest's allies."
 #magicskill 8 1
 #magicboost 0 1
 #inspirational 2
+#cleararmor
+#armor 9
+#armor 127
+#armor 155
 #clearweapons
 #weapon 474
 #fireres 15
@@ -13993,3 +14092,5 @@ may make the battlefield deadly even for the priest's allies."
 #gcost 16
 #firstshape 1866
 #end
+
+
