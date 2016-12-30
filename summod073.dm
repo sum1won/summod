@@ -5811,11 +5811,36 @@ won't live more than a month or two."
 #end
 
 #newmonster 6349 --Devilfish
-#copystats 639 --kraken
 #name "Devilfish"
 #descr "Devilfish are the rulers of the Seas of Hell.  Mighty mages of storms and salt, they are among the few creatures with any semblence of control over Shark Fiends, a fact that prevetns the other powers of hell from intruding into their demense."
 #spr1 "./summod/demonic_octopus_1.tga"
 #spr2 "./summod/demonic_octopus_2.tga"
+#hp 85
+#prot 10
+#mr 17
+#mor 30
+#str 20
+#att 13
+#def 8
+#prec 6
+#enc 3
+#mapmove 1
+#ap 8
+#maxage 3000
+#startage 2000
+#poorleader
+#okundeadleader
+#darkvision
+#weapon 85
+#weapon 85
+#weapon 85
+#weapon 85
+#weapon 342
+#animal
+#bluntres
+#aquatic
+#heal
+#demon
 #magicskill 3 2
 #magicskill 2 2 
 #magicskill 7 3
