@@ -1,6 +1,6 @@
-#modname "Summod 0.73"
+#modname "Summod 0.74"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.73
+#version 0.74
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -52,7 +52,7 @@
 #selectmonster 721 -- mictlan warrior
 #ainorec
 #end	   
-#selectmonster 878 -- machak militia
+#selectmonster 878 -- machaka militia
 #ainorec
 #end	   
 #selectmonster 1056 -- pelagia militia
@@ -2926,6 +2926,7 @@
 #nreff 1002
 #end
 #selectspell 908 --confusion
+#aoe 2
 #end
 #selectspell 565 -- enfeeble
 #aoe 2006
@@ -3857,6 +3858,7 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #mapmove 2
 #montag 1303 
 #end
+
 #newmonster 6904
 #name "Foul Spawn"	 
 #spr1 "./summod/foulspawn_2_1.tga"
@@ -3905,7 +3907,8 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #transformation 0
 #wastesurvival				 		
 #montag 1303 
-#end			
+#end	
+
 #newmonster 6906
 #copystats 457	
 #name "Foul Spawn"
@@ -5763,15 +5766,30 @@ won't live more than a month or two."
 ---- Pelagia
 #selectnation 85 --pelagia
 #end
-#selectnation 86 --oceania -- look pretty good already
-#end
 
 ---EA Oceania
 
+
+#selectnation 86 --oceania -- look pretty good already
+#descr "Everything on land has a correspondence under water. Just like kingdoms formed on dry land, so did kingdoms form in the
+Sea, and just like the wild rebelled against encroaching civilization, so did the first triton kingdom suffer the wrath of the
+underwater wild. Oceania is an underwater realm of wild half-men, animals and guardians of the kelp forests. But Oceania
+is also a realm of the shores, where the stormy seas meet stable land. It is a nation of borders and transition, change and
+adaptability. Most of its inhabitants have the ability to change their shapes and cross the boundaries of the sea. Sirens,
+Capricorns and Ichtysatyrs all share the ability and affinity for change and adaptability. Sirens use it to change their shape
+and lure the unwary to a watery grave. Capricorns and Ichtysatyrs use it to raid and spread turmoil and chaos in coastal
+provinces. With the coming of the Awakening God the Capricorns lead the half-men in conquest above as well as beneath
+the waves. The dominion of the God of Oceania increases turmoil in coastal provinces.
+
+Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotaur, borrowed from Underwater Expanded.  Both also get an angelfish."
+
+#uwcom1 6347
+#end
+
 #newmonster 6310
 #copystats 206 -- Shambler
-#spr1 "./summod/sharkdemon_1.tga"
-#spr2 "./summod/sharkdemon_2.tga"
+#spr1 "./summod/sharkdemonland_1.tga"
+#spr2 "./summod/sharkdemonland_2.tga"
 #name "Shark Fiend"
 #descr "Shark Fiends are monstrous demons with the heads of sharks. Summoned from Hell's seas, they are ungainly on land but incredibly swift underwater."
 #clearweapons
@@ -5780,7 +5798,7 @@ won't live more than a month or two."
 #prot 10
 #mr 15
 #mor 15
-#str 15
+#str 16
 #att 13
 #def 8
 #enc 4
@@ -5798,8 +5816,8 @@ won't live more than a month or two."
 
 #newmonster 6311
 #copystats 206 -- Shambler
-#spr1 "./summod/sharkdemon_1.tga"
-#spr2 "./summod/sharkdemon_2.tga"
+#spr1 "./summod/sharkdemonsea_1.tga"
+#spr2 "./summod/sharkdemonsea_2.tga"
 #name "Shark Fiend"
 #descr "Shark Fiends are monstrous demons with the heads of sharks. Summoned from Hell's seas, they are ungainly on land but incredibly fierce underwater."
 #clearweapons
@@ -5812,7 +5830,7 @@ won't live more than a month or two."
 #att 13
 #def 11
 #enc 2
-#ap 16
+#ap 18
 #supplybonus -2
 #custommagic 16384 50 -- 1B when GoRed
 #demon
@@ -5830,13 +5848,13 @@ won't live more than a month or two."
 #copyspell 639 -- Call Kraken
 #name "Bind Shark Fiends"
 #descr "The caster sacrifices several blood slaves to lure and bind three Shark Fiends. Shark Fiends are amphibious demons with the heads of sharks. Summoned from Hell's seas, they are ungainly on land but incredibly swift underwater."
-#researchlevel 0 --4
+#researchlevel 4
 #school 6
 #path 0 7
 #pathlevel 0 1
 #path 1 2
 #pathlevel 1 1
-#fatiguecost 0 --1300
+#fatiguecost 1300
 #nreff 3
 #damage 6311
 #restricted 86 -- EA Oceania
@@ -5845,7 +5863,7 @@ won't live more than a month or two."
 
 #newmonster 6349 --Devilfish
 #name "Devilfish"
-#descr "Devilfish are the rulers of the Seas of Hell.  Mighty mages of storms and salt, they are among the few creatures with any semblence of control over Shark Fiends, a fact that prevetns the other powers of hell from intruding into their demense."
+#descr "Devilfish are the rulers of the Seas of Hell.  Mighty mages of storms and salt, they are among the few creatures with any semblance of control over Shark Fiends, a fact that prevents the other powers of hell from intruding into their demesne."
 #spr1 "./summod/demonic_octopus_1.tga"
 #spr2 "./summod/demonic_octopus_2.tga"
 #hp 85
@@ -5874,9 +5892,11 @@ won't live more than a month or two."
 #aquatic
 #heal
 #demon
-#magicskill 3 2
-#magicskill 2 2 
+#magicskill 3 1
+#magicskill 2 1 
 #magicskill 7 3
+#custommagic 1536
+#itemslots 12288
 #end
 
 
@@ -5908,6 +5928,7 @@ won't live more than a month or two."
 #magicboost 1 1
 #custommagic 768 100
 #seduce 10
+#itemslots 13446
 #end
 
 #newmonster 6437
@@ -5939,6 +5960,7 @@ won't live more than a month or two."
 #magicboost 2 1
 #custommagic 768 100
 #landshape 6440
+#itemslots 13446
 #end
 
 #selectmonster 6440
@@ -5985,9 +6007,8 @@ won't live more than a month or two."
 #magicskill 2 2
 #magicskill 6 4
 #magicskill 3 1
-#magicskill 7 1
 #magicboost 3 -1
-#custommagic 18176 100
+#custommagic 1792 100
 #custommagic 26368 10
 #gcost 330
 #end
@@ -5998,10 +6019,80 @@ won't live more than a month or two."
 #magicskill 2 2
 #magicskill 6 4
 #magicskill 3 1
+#magicboost 2 -1
+#custommagic 1792 100
+#custommagic 26368 10
+#end
+
+#newmonster 6347
+#spr1 "./summod/ichtytaur_hunter.tga"
+#spr2 "./summod/ichtytaur_hunter_attacking.tga"
+#name "Ichtytaur Hunter"
+#descr "Life underneath the waves corresponds in many ways to that on dry land. Halfmen, like humans, have underwater counterparts. Ichtytaurs appear as minotaurs with fish tails instead of hind legs. They are wild beings that roam the kelp forest much like their land counterparts, but are more adaptables. When civilisation encroached on the kelp forests, the ichtytaur retaliated brutally. When some brave or foolish nobles began to track and kill the ichtytaurs, some of their prey turned hunters themselves and put an end to this, feasting on their flesh, bathing in their blood and crafting weapons out of their bones. The smartest among these ichtytaurs sensed power in that gruesome feast and became crude but effective mages, who hunt and sacrifice men, women, and children hoping for power."
+#maxage 90
+#gcost 10045
+#rcost 1
+#hp 34
+#prot 4
+#mr 16
+#mor 14
+#size 3
+#str 18
+#att 13
+#def 12
+#prec 9
+#enc 3
+#mapmove 2
+#ap 22
+#mapmove 2
+#berserk 3
+#magicskill 2 1
+#magicskill 6 1
+#magicskill 7 1
+#magicboost 6 -1
+#custommagic 8704 100
+#researchbonus -8
+#clearweapons
+#weapon 670 -- Bone Trident
+#weapon 331 -- Gore
+#cleararmor
+#armor 44
+#armor 1
+#heal
+#amphibian
+#itemslots 13446
+#landshape 6348
+#end
+
+#newmonster 6348
+#spr1 "./summod/ichtytaur_hunter_land.tga"
+#spr2 "./summod/ichtytaur_hunter_land_attacking.tga"
+#descr "Life underneath the waves corresponds in many ways to that on dry land. Halfmen, like humans, have underwater counterparts. Ichtytaurs appear as minotaurs with fish tails instead of hind legs. They are wild beings that roam the kelp forest much like their land counterparts, but are more adaptables. When civilisation encroached on the kelp forests, the ichtytaur retaliated brutally. When some brave or foolish nobles began to track and kill the ichtytaurs, some of their prey turned hunters themselves and put an end to this, feasting on their flesh, bathing in their blood and crafting weapons out of their bones. The smartest among these ichtytaurs sensed power in that gruesome feast and became crude but effective mages, who hunt and sacrifice men, women, and children hoping for power."
+#hp 29
+#size 3
+#mr 14
+#mor 15
+#str 17
+#att 12
+#def 11
+#ap 15
+#size 3
+#berserk 3
+#magicskill 2 1
+#magicskill 6 1
 #magicskill 7 1
 #magicboost 2 -1
-#custommagic 18176 100
-#custommagic 26368 10
+#custommagic 8704 100
+#researchbonus -8
+#clearweapons
+#weapon 670 -- Bone Trident
+#weapon 331 -- Gore
+#cleararmor
+#armor 44
+#armor 1
+#heal
+#amphibian
+#watershape 6347
 #end
 
 ---Cav changes
@@ -14150,5 +14241,4 @@ may make the battlefield deadly even for the priest's allies."
 #gcost 16
 #firstshape 1866
 #end
-
 
