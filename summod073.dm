@@ -877,6 +877,7 @@
 #newweapon 1422 -- supaya madness
 #copyweapon 280
 #name "Spectral Spear"
+#mrnegates
 #end
 
 #newweapon 1423
