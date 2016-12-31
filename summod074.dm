@@ -2926,6 +2926,7 @@
 #nreff 1002
 #end
 #selectspell 908 --confusion
+#aoe 2
 #end
 #selectspell 565 -- enfeeble
 #aoe 2006
@@ -3857,6 +3858,7 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #mapmove 2
 #montag 1303 
 #end
+
 #newmonster 6904
 #name "Foul Spawn"	 
 #spr1 "./summod/foulspawn_2_1.tga"
@@ -3905,7 +3907,8 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #transformation 0
 #wastesurvival				 		
 #montag 1303 
-#end			
+#end	
+
 #newmonster 6906
 #copystats 457	
 #name "Foul Spawn"
