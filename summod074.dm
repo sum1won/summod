@@ -5788,8 +5788,8 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 
 #newmonster 6310
 #copystats 206 -- Shambler
-#spr1 "./summod/sharkdemon_1.tga"
-#spr2 "./summod/sharkdemon_2.tga"
+#spr1 "./summod/sharkdemonland_1.tga"
+#spr2 "./summod/sharkdemonland_2.tga"
 #name "Shark Fiend"
 #descr "Shark Fiends are monstrous demons with the heads of sharks. Summoned from Hell's seas, they are ungainly on land but incredibly swift underwater."
 #clearweapons
@@ -5816,8 +5816,8 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 
 #newmonster 6311
 #copystats 206 -- Shambler
-#spr1 "./summod/sharkdemon_1.tga"
-#spr2 "./summod/sharkdemon_2.tga"
+#spr1 "./summod/sharkdemonsea_1.tga"
+#spr2 "./summod/sharkdemonsea_2.tga"
 #name "Shark Fiend"
 #descr "Shark Fiends are monstrous demons with the heads of sharks. Summoned from Hell's seas, they are ungainly on land but incredibly fierce underwater."
 #clearweapons
