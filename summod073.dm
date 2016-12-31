@@ -1,6 +1,6 @@
-#modname "Summod 0.73"
+#modname "Summod 0.74"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.73
+#version 0.74
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -52,7 +52,7 @@
 #selectmonster 721 -- mictlan warrior
 #ainorec
 #end	   
-#selectmonster 878 -- machak militia
+#selectmonster 878 -- machaka militia
 #ainorec
 #end	   
 #selectmonster 1056 -- pelagia militia
@@ -5780,7 +5780,7 @@ won't live more than a month or two."
 #prot 10
 #mr 15
 #mor 15
-#str 15
+#str 16
 #att 13
 #def 8
 #enc 4
@@ -5812,7 +5812,7 @@ won't live more than a month or two."
 #att 13
 #def 11
 #enc 2
-#ap 16
+#ap 18
 #supplybonus -2
 #custommagic 16384 50 -- 1B when GoRed
 #demon
@@ -5830,13 +5830,13 @@ won't live more than a month or two."
 #copyspell 639 -- Call Kraken
 #name "Bind Shark Fiends"
 #descr "The caster sacrifices several blood slaves to lure and bind three Shark Fiends. Shark Fiends are amphibious demons with the heads of sharks. Summoned from Hell's seas, they are ungainly on land but incredibly swift underwater."
-#researchlevel 0 --4
+#researchlevel 4
 #school 6
 #path 0 7
 #pathlevel 0 1
 #path 1 2
 #pathlevel 1 1
-#fatiguecost 0 --1300
+#fatiguecost 1300
 #nreff 3
 #damage 6311
 #restricted 86 -- EA Oceania
@@ -5985,9 +5985,8 @@ won't live more than a month or two."
 #magicskill 2 2
 #magicskill 6 4
 #magicskill 3 1
-#magicskill 7 1
 #magicboost 3 -1
-#custommagic 18176 100
+#custommagic 1792 100
 #custommagic 26368 10
 #gcost 330
 #end
@@ -5998,10 +5997,79 @@ won't live more than a month or two."
 #magicskill 2 2
 #magicskill 6 4
 #magicskill 3 1
+#magicboost 2 -1
+#custommagic 1792 100
+#custommagic 26368 10
+#end
+
+#newmonster 6229
+#spr1 "./ExpandedMods/UW/ichtytaur_hunter.tga"
+#spr2 "./ExpandedMods/UW/ichtytaur_hunter_attacking.tga"
+#name "Ichtytaur Hunter"
+#descr "Life underneath the waves corresponds in many ways to that on dry land. Halfmen, like humans, have underwater counterparts. Ichtytaurs appear as minotaurs with fish tails instead of hind legs. They are wild beings that roam the kelp forest much like their land counterparts, but are more adaptables. When civilisation encroached on the kelp forests, the ichtytaur retaliated brutally. When some brave or foolish nobles began to track and kill the ichtytaurs, some of their prey turned hunters themselves and put an end to this, feasting on their flesh, bathing in their blood and crafting weapons out of their bones. The smartest among these ichtytaurs sensed power in that gruesome feast and became crude but effective mages, who hunt and sacrifice men, women, and children hoping for power."
+#maxage 90
+#gcost 10045
+#rcost 1
+#hp 34
+#prot 4
+#mr 16
+#mor 14
+#size 3
+#str 18
+#att 13
+#def 12
+#prec 9
+#enc 3
+#mapmove 2
+#ap 22
+#mapmove 2
+#berserk 3
+#magicskill 2 1
+#magicskill 6 1
+#magicskill 7 1
+#magicboost 6 -1
+#custommagic 8704 100
+#researchbonus -8
+#clearweapons
+#weapon 670 -- Bone Trident
+#weapon 331 -- Gore
+#cleararmor
+#armor 44
+#armor 1
+#heal
+#amphibian
+#landshape 6230
+#end
+
+#newmonster 6230
+#spr1 "./ExpandedMods/UW/ichtytaur_hunter_land.tga"
+#spr2 "./ExpandedMods/UW/ichtytaur_hunter_land_attacking.tga"
+#descr "Life underneath the waves corresponds in many ways to that on dry land. Halfmen, like humans, have underwater counterparts. Ichtytaurs appear as minotaurs with fish tails instead of hind legs. They are wild beings that roam the kelp forest much like their land counterparts, but are more adaptables. When civilisation encroached on the kelp forests, the ichtytaur retaliated brutally. When some brave or foolish nobles began to track and kill the ichtytaurs, some of their prey turned hunters themselves and put an end to this, feasting on their flesh, bathing in their blood and crafting weapons out of their bones. The smartest among these ichtytaurs sensed power in that gruesome feast and became crude but effective mages, who hunt and sacrifice men, women, and children hoping for power."
+#hp 29
+#size 3
+#mr 14
+#mor 15
+#str 17
+#att 12
+#def 11
+#ap 15
+#size 3
+#berserk 3
+#magicskill 2 1
+#magicskill 6 1
 #magicskill 7 1
 #magicboost 2 -1
-#custommagic 18176 100
-#custommagic 26368 10
+#custommagic 8704 100
+#researchbonus -8
+#clearweapons
+#weapon 670 -- Bone Trident
+#weapon 331 -- Gore
+#cleararmor
+#armor 44
+#armor 1
+#heal
+#amphibian
+#watershape 6229
 #end
 
 ---Cav changes
