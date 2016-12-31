@@ -1,6 +1,6 @@
-#modname "Summod 0.72"
+#modname "Summod 0.73"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.72
+#version 0.73
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -25,6 +25,256 @@
 
 ---Scales Change---
 #deathincome 2
+
+
+----------------------
+--- AI Recruitment ---
+----------------------
+
+---- AWFUL NATIONALS
+
+ 
+#selectmonster 11 -- retarius
+#ainorec
+#end	   
+#selectmonster 12 -- gladiator
+#ainorec
+#end	   
+#selectmonster 110 -- atlantian militia
+#ainorec
+#end	   
+#selectmonster 168 -- ctis militia
+#ainorec
+#end	   
+#selectmonster 227 -- satyr sneak
+#ainorec
+#end	   
+#selectmonster 721 -- mictlan warrior
+#ainorec
+#end	   
+#selectmonster 878 -- machak militia
+#ainorec
+#end	   
+#selectmonster 1056 -- pelagia militia
+#ainorec
+#end	   
+#selectmonster 2003 -- ashdod human slinger
+#ainorec
+#end	   
+#selectmonster 2004 -- ashdod human slave
+#ainorec
+#end	   
+#selectmonster 2126 -- machaka pygmy
+#ainorec
+#end	   
+#selectmonster 2254 -- Berytos militia
+#ainorec
+#end	 
+
+
+
+
+
+---- INDIES ----
+
+ 
+ 
+#selectmonster 17 -- archer
+#ainorec
+#end	   
+#selectmonster 18 -- Militia shielded
+#ainorec
+#end	   
+#selectmonster 24 -- light cavalry jav
+#ainorec
+#end	   
+#selectmonster 25 -- light cavalry bow
+#ainorec
+#end	   
+#selectmonster 26 -- light cavalry
+#ainorec
+#end	   
+#selectmonster 28 -- light infantry nojav
+#ainorec
+#end	   
+#selectmonster 29 -- light infantry
+#ainorec
+#end	   
+#selectmonster 30 -- light infantry
+#ainorec
+#end	   
+#selectmonster 31 -- militia
+#ainorec
+#end	   
+#selectmonster 33 -- archer
+#ainorec
+#end	   
+#selectmonster 38 -- heavy infantry spear
+#ainorec
+#end	   
+#selectmonster 50 -- slinger
+#ainorec
+#end	   
+#selectmonster 123 -- wolf tribe archer
+#ainorec
+#end	   
+#selectmonster 124 -- wolf tribe warrior
+#ainorec
+#end	   
+#selectmonster 125 -- woodsman blowpipe
+#ainorec
+#end	   
+#selectmonster 126 -- woodsman
+#ainorec
+#end	   
+#selectmonster 140 -- barbarian
+#ainorec
+#end	   
+#selectmonster 174 -- triton spear
+#ainorec
+#end	   
+#selectmonster 176 -- triton knife
+#ainorec
+#end	   
+#selectmonster 205 -- raptor clan
+#ainorec
+#end	   
+#selectmonster 423 -- Lizard warrior
+#ainorec
+#end	   
+#selectmonster 483 -- hoburg militia
+#ainorec
+#end	   
+#selectmonster 913 -- Ichtyid (no shield one)
+#ainorec
+#end	   
+#selectmonster 974 -- ichtyid (no shield one)
+#ainorec
+#end	   
+#selectmonster 1118 -- markata no bow
+#ainorec
+#end	   
+#selectmonster 1121 -- atavi archer
+#ainorec
+#end	   
+#selectmonster 1122 -- atavi infantry
+#ainorec
+#end	   
+#selectmonster 1592 -- bear tribe spear
+#ainorec
+#end	   
+#selectmonster 1593 -- bear tribe warrior
+#ainorec
+#end	   
+#selectmonster 1594 -- deer tribe warrior
+#ainorec
+#end	   
+#selectmonster 1595 -- deer tribe archer
+#ainorec
+#end	   
+#selectmonster 1600 -- Lion clan warrior
+#ainorec
+#end	   
+#selectmonster 1601 -- lion tribe archer
+#ainorec
+#end	   
+#selectmonster 1610 -- Jaguar tribe slinger
+#ainorec
+#end	   
+#selectmonster 1611 -- jaguar warrior
+#ainorec
+#end	 
+#selectmonster 2902 -- merrow militia
+#ainorec
+#end
+
+
+----- INDY MAYBES ------
+
+ 
+#selectmonster 39 -- heavy infantry (18 res)
+#ainorec
+#end	   
+#selectmonster 40 -- heavy infantry (res 22)
+#ainorec
+#end	   
+#selectmonster 206 -- shambler naked
+#ainorec
+#end	   	   
+#selectmonster 1066 -- merman indy land form
+#ainorec
+#end	   
+#selectmonster 1615 -- caveman
+#ainorec
+#end	   
+
+
+----- NATIONAL MAYBES -----
+
+#selectmonster 167 -- ctis light infantry
+#ainorec
+#end	   
+#selectmonster 201 -- peltast
+#ainorec
+#end	   
+#selectmonster 335 -- rlyeh Slave Trooper
+#ainorec
+#end	   
+#selectmonster 337 -- rlyeh Lobo
+#ainorec
+#end	   
+#selectmonster 1046 -- pelagain merman
+#ainorec
+#end	   
+#selectmonster 1394 -- bakemono sho
+#ainorec
+#end	   
+#selectmonster 1395 -- bakemono archer
+#ainorec
+#end	   
+#selectmonster 1398 -- bakemono sho
+#ainorec
+#end	   
+#selectmonster 1515 -- rlyeh Slave Trooper
+#ainorec
+#end	   
+#selectmonster 1517 -- rlyeh Slave Trooper
+#ainorec
+#end	   
+#selectmonster 1779 -- milesian slinger
+#ainorec
+#end	   
+#selectmonster 2153 -- war dog
+#ainorec
+#end	   
+#selectmonster 2404 -- oceanaia ichtysatyr
+#ainorec
+#end	   
+#selectmonster 2406 -- oceanaia ichtysatyr
+#ainorec
+#end	 
+#selectmonster 2670 --early xibalban dart thrower
+#ainorec
+#end
+#select
+#selectmonster 2722 --mid xibalban dart thrower
+#ainorec
+#end
+#select
+
+#selectmonster 2470 --late xibalban dart thrower
+#ainorec
+#end
+#select
+#selectmonster 2744 --late muuch xibalban dart thrower
+#ainorec
+#end
+#selectmonster 2907 --ysian militia
+#ainorec
+#end
+#selectmonster 2644 --nazca human
+#ainorec
+#end
 
 ----------------------
 --- Armour Changes ---
@@ -157,6 +407,7 @@
 #selectarmor 190 -- Coral Barding
 #prot 15 --From 10
 #rcost 20 --From 12
+#enc 2
 #end
 
 #selectarmor 85 -- Amber Shield
@@ -721,6 +972,16 @@
 #end
 
 
+#newweapon 1433
+#name "Great Bite"
+#dmg 6
+#att 1
+#def -1
+#bonus
+#slash
+#len 0
+#end
+
 ---Item Counterbalances---
 
 #selectmonster 2648 --hatun runa
@@ -800,6 +1061,35 @@
 #summon 456
 #summon 459
 #end
+
+#selectsite 800 -- The Throne of Spring
+#loc 17119
+#end
+
+#selectsite 801 -- The Throne of Summer
+#loc 17119
+#end
+
+#selectsite 802 -- The Throne of Autumn
+#loc 17119
+#end
+
+#selectsite 803 -- The Throne of Winter
+#loc 17119
+#end
+
+#selectsite 1052 -- Isle of the Saoi
+#clear
+#level 1
+#rarity 2
+#gems 2 1
+#gems 3 1
+#path 3
+#loc 32
+#com 2832 -- Strategis
+#mon 2838 -- Saos
+#end
+
 
 -- POPTYPE CHANGES
 #newmonster 6314
@@ -2366,6 +2656,44 @@
 #precision 100
 #end
 
+#newspell
+#copyspell 101 -- AoE 1 disease
+#name "Friendly-only Disease"
+#aoe 666 -- 100% of battlefield
+#spec 20971648 -- AN, MR negates easily, friendly-only
+#end
+
+#selectspell 582 -- Skeletal Legion
+#researchlevel 5
+#descr "The caster transforms an entire army into skeletal beings, making them highly resistant to piercing attacks. The transformation can be harmful and the transformed soldiers might get diseased by the spell. High magic resistance will protect the affected soldiers from the disease."
+#nextspell "Friendly-only Disease"
+#end
+
+
+#selectspell 104 -- Area Battle Fright
+#name "Enemy-only Battle Fright"
+#aoe 666
+#spec 266368 -- AN, friendlyimmune, MR negates
+#end
+
+#newspell
+#copyspell 44 -- extra cripple
+#name "Battlefield Cripple"
+#aoe 663 -- 50% of battlefield
+#spec 27263104 -- AN, hard to hit ethereal, works UW, MR negates easily
+#end
+
+#selectspell 109 -- Battlefield Limp
+#name "Battlefield Limp then Cripple"
+#spec 27263104 
+#nextspell "Battlefield Cripple"
+#end
+
+#selectspell 597 -- Creeping Doom
+#spec 8388608 -- may cast UW
+#descr "This spell enlarges a number of insects to enormous proportions. The insects will aid the caster by attacking or at least disturb his enemies. If cast under water shrimps and small fish will appear instead."
+#end
+
 #selectspell 483 -- Rain of Stones (aoe 663 to halve effect)
 #fatiguecost 200
 #end
@@ -2373,7 +2701,7 @@
 #selectspell 617 --army of rats
 #researchlevel 8
 #pathlevel 0 6
-#fatiguecost 400
+#fatiguecost 300
 #end
 
 #selectspell 611 --polymorph, range scales
@@ -2402,7 +2730,7 @@
 #newspell
 #copyspell 618
 #name "Wild Tangle"
-#aoe 1000
+#aoe 1001
 #researchlevel 3
 #descr "Vines will ensnare anyone in the targeted area.  The ensnared victims cannot move or attack anyone until they have destroyed the vines holding them.  The stronger the victim is, the faster the vines will be destroyed, and the more fertile the province is, the stronger the vines will be. Strong mages will produce more vines."
 #end
@@ -2562,7 +2890,7 @@
 
 #selectspell 890 --Sailor's Death
 #aoe 0
-#nreff 1000
+#nreff 1002
 #end
 #selectspell 908 --confusion
 #end
@@ -2573,12 +2901,14 @@
 #name "Final Enfeeble"
 #copyspell 565
 #name "Final Enfeeble"
+#school -1
 #end
 #newspell
 #name "Continue Enfeeble"
 #copyspell 565
 #name "Continue Enfeeble"
 #nextspell "Final Enfeeble"
+#school -1
 #end
 #selectspell 565
 #nextspell "Continue Enfeeble"
@@ -3338,28 +3668,7 @@ being guides of the sun, their skills in solar magic is limited. The Zotz are nu
 colonies. Numbers rather than strength make them win their battles.
 
 Xibalba is substantially nerfed by summod.  Bats are more expensive, foreign recruit is slower, and beast bats are much worse in combat and at sieges.  Consult the changelog for more detail."
-#clearrec
-#addreccom 2691
-#addreccom 2681
-#addreccom 2680
-#addreccom 2679
-#addreccom 2678
-#addreccom 2677
-#addreccom 2676
-#addreccom 2674
-#addrecunit 2689
-#addrecunit 2688
-#addrecunit 2687
-#addrecunit 2671
-#addrecunit 2670
-#addrecunit 2669
-#addrecunit 2668
-#forestrec 2668
-#forestrec 2669
 #addreccom 6346
-#caverec 2668
-#caverec 2669
-#cavecom 2678
 #end
 #selectmonster 2674
 #slowrec
@@ -5424,6 +5733,244 @@ won't live more than a month or two."
 #selectnation 86 --oceania -- look pretty good already
 #end
 
+---EA Oceania
+
+#newmonster 6310
+#copystats 206 -- Shambler
+#spr1 "./summod/sharkdemon_1.tga"
+#spr2 "./summod/sharkdemon_2.tga"
+#name "Shark Fiend"
+#descr "Shark Fiends are monstrous demons with the heads of sharks. Summoned from Hell's seas, they are ungainly on land but incredibly swift underwater."
+#clearweapons
+#gcost 0
+#hp 30
+#prot 10
+#mr 15
+#mor 15
+#str 15
+#att 13
+#def 8
+#enc 4
+#ap 8
+#supplybonus -2
+#custommagic 16384 50 -- 1B when GoRed
+#demon
+#animal
+#itemslots 15366 -- no head slot
+#weapon 1433 -- Shark Bite: 22 damage, str not added, +1 att, length 5, -1 def, slashing
+#weapon 33 -- Claws: 2 attacks, slashing
+#nametype 117 -- Deep Ones
+#watershape 6311
+#end
+
+#newmonster 6311
+#copystats 206 -- Shambler
+#spr1 "./summod/sharkdemon_1.tga"
+#spr2 "./summod/sharkdemon_2.tga"
+#name "Shark Fiend"
+#descr "Shark Fiends are monstrous demons with the heads of sharks. Summoned from Hell's seas, they are ungainly on land but incredibly fierce underwater."
+#clearweapons
+#gcost 0
+#hp 30
+#prot 10
+#mr 15
+#mor 30
+#str 16
+#att 13
+#def 11
+#enc 2
+#ap 16
+#supplybonus -2
+#custommagic 16384 50 -- 1B when GoRed
+#demon
+#animal
+#berserk 4
+#itemslots 15366 -- no head slot
+#weapon 1433 -- Shark Bite: 22 damage, str not added, +1 att, length 5, -1 def, slashing
+#weapon 33 -- Claws: 2 attacks, slashing
+#nametype 117 -- Deep Ones
+#landshape 6310
+#end
+
+
+#newspell
+#copyspell 639 -- Call Kraken
+#name "Bind Shark Fiends"
+#descr "The caster sacrifices several blood slaves to lure and bind three Shark Fiends. Shark Fiends are amphibious demons with the heads of sharks. Summoned from Hell's seas, they are ungainly on land but incredibly swift underwater."
+#researchlevel 0 --4
+#school 6
+#path 0 7
+#pathlevel 0 1
+#path 1 2
+#pathlevel 1 1
+#fatiguecost 0 --1300
+#nreff 3
+#damage 6311
+#restricted 86 -- EA Oceania
+#restricted 90 -- MA Oceania
+#end
+
+#newmonster 6349 --Devilfish
+#name "Devilfish"
+#descr "Devilfish are the rulers of the Seas of Hell.  Mighty mages of storms and salt, they are among the few creatures with any semblence of control over Shark Fiends, a fact that prevetns the other powers of hell from intruding into their demense."
+#spr1 "./summod/demonic_octopus_1.tga"
+#spr2 "./summod/demonic_octopus_2.tga"
+#hp 85
+#prot 10
+#mr 17
+#mor 30
+#str 20
+#att 13
+#def 8
+#prec 6
+#enc 3
+#mapmove 1
+#ap 8
+#maxage 3000
+#startage 2000
+#poorleader
+#okundeadleader
+#darkvision
+#weapon 85
+#weapon 85
+#weapon 85
+#weapon 85
+#weapon 342
+#animal
+#bluntres
+#aquatic
+#heal
+#demon
+#magicskill 3 2
+#magicskill 2 2 
+#magicskill 7 3
+#end
+
+
+#newmonster 6440
+#name "Angelfish"
+#descr "Angelfish are winged guardians of the ocean with great magical powers and beauty."
+#spr1 "./summod/devilfish_1.tga"
+#spr2 "./summod/devilfish_2.tga"
+#size 4
+#gcost 0
+#hp 25
+#prot 8
+#mr 18
+#mor 30
+#str 16
+#att 12
+#def 12
+#enc 2
+#ap 16
+#animal
+#flying
+#amphibian
+#stormimmune
+#weapon 92
+#heal
+#magicskill 1 1
+#magicskill 2 1
+#magicskill 6 3
+#magicboost 1 1
+#custommagic 768 100
+#seduce 10
+#end
+
+#newmonster 6437
+#seduce 10
+#name "Angelfish"
+#descr "Angelfish are winged guardians of the ocean with great magical powers and beauty."
+#spr1 "./summod/devilfish_1.tga"
+#spr2 "./summod/devilfish_2.tga"
+#size 4
+#gcost 0
+#hp 25
+#prot 8
+#mr 18
+#mor 30
+#str 16
+#att 12
+#def 12
+#enc 2
+#ap 16
+#animal
+#amphibian
+#flying
+#stormimmune
+#weapon 92
+#heal
+#magicskill 1 1
+#magicskill 2 1
+#magicskill 6 3
+#magicboost 2 1
+#custommagic 768 100
+#landshape 6440
+#end
+
+#selectmonster 6440
+#watershape 6437
+#end
+
+
+#newspell
+#copyspell 639 -- Call Kraken
+#name "Contact Devilfish"
+#descr "The caster sacrifices many blood slaves to obtain the service of a Devilfish. Devilfish rule the seas of hell, and are among the few creatures able to command Shark Fiends."
+#researchlevel 7
+#school 6
+#path 0 7
+#pathlevel 0 3
+#path 1 2
+#pathlevel 1 3
+#fatiguecost 5000
+#effect 10021
+#damage 6349
+#restricted 86 -- EA Oceania
+#restricted 90 -- MA Oceania
+#end
+
+#newspell
+#copyspell 639 -- Call Kraken
+#name "Contact Angelfish"
+#descr "The caster summons an angelfish, winged mages of incredible power and beauty."
+#researchlevel 7
+#school 0
+#path 0 6
+#pathlevel 0 3
+#path 1 2
+#pathlevel 1 3
+#fatiguecost 4000
+#effect 10021
+#damage 6440
+#restricted 86 -- EA Oceania
+#restricted 90 -- MA Oceania
+#end
+
+#selectmonster 1038
+#clearmagic
+#magicskill 2 2
+#magicskill 6 4
+#magicskill 3 1
+#magicskill 7 1
+#magicboost 3 -1
+#custommagic 18176 100
+#custommagic 26368 10
+#gcost 330
+#end
+
+#selectmonster 1039
+#gcost 330
+#clearmagic
+#magicskill 2 2
+#magicskill 6 4
+#magicskill 3 1
+#magicskill 7 1
+#magicboost 2 -1
+#custommagic 18176 100
+#custommagic 26368 10
+#end
+
 ---Cav changes
 ---Marveni
 #selectmonster 1208 --eponi knight --hoof attack, 5 gold discount
@@ -5527,7 +6074,7 @@ won't live more than a month or two."
 #mapmove 2
 #enc 4
 #mr 10
-#mor 15
+#mor 12
 #weapon 6
 #armor 9
 #armor 123
@@ -9900,32 +10447,7 @@ in dried-out caves and forced them into servitude. Now Xibalba is a Muuch kingdo
 population.
 
 Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds recruitable in any fort while discounting them."
-#clearrec
-#addreccom 2718
-#addreccom 2717
-#addreccom 2716
-#addreccom 2715
-#addrecunit 2726
-#addrecunit 2725
-#addrecunit 2724
-#addrecunit 2723
-#addrecunit 2722
-#addrecunit 2721
-#addrecunit 2730
-#addrecunit 2731
-#forestrec 2734
-#forestrec 2727
-#forestrec 2735
-#forestcom 2728
-#forestcom 2682
-#cavecom 2719
-#caverec 2735
-#caverec 2734
-#uwunit1 2887
-#uwunit2 2888
-#uwcom1 2717
-#uwcom2 2716
-#uwcom3 2715
+
 #end
 #selectsite 177
 #clear
@@ -9977,17 +10499,18 @@ Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds r
 #selectmonster 2724 --light obsword muuch
 #end
 #selectmonster 2725 --bronze spear muuch
-#gcost 10014
+#gcost 10013
 #att 11
 #def 10
 #mor 11
 #end
 #selectmonster 2726 --bronze obsword muuch
-#gcost 10014
+#gcost 10013
 #att 11
 #def 10
 #mor 11
 #end
+
 #selectnation 90 --oceania
 #descr "Oceania is an underwater realm of half-men. Since the Atlantians emerged from the deeps, the half-men have lost more
 and more of their former domains. Ravenous deep ones have consumed fish and kelp alike. The kelp groves have been
@@ -10046,6 +10569,7 @@ Summod improves Siren paths and improves the cost of icthytaurs."
 #pathlevel 0 2
 #path 1 5
 #pathlevel 1 2
+#fatiguecost 3400
 #end
 #selectmonster 1558--tlahuelpuchi
 #noleader
@@ -10216,6 +10740,7 @@ Xibalba is nerfed by summod.  Bats are more expensive.  Foreign recruit commande
 #addrecunit 2745
 #addrecunit 2746
 #forestcom 2751
+#forestcom 2674
 #forestrec 2738
 #forestrec 2739
 #caverec 2739
@@ -10224,6 +10749,12 @@ Xibalba is nerfed by summod.  Bats are more expensive.  Foreign recruit commande
 #uwunit2 2890
 #uwcom1 2748
 #uwcom2 2891
+#addreccom 6346
+#addreccom 6315
+#end
+#selectmonster 2674
+#slowrec
+#gcost 40
 #end
 #selectmonster 2750 --chilan cave
 #slowrec
@@ -11085,7 +11616,7 @@ for more detail."
 #notext
 #end
 
-#newevent --5X abandonment events for no second sun.
+#newevent --1X abandonment events for no second sun, other cult
 #nation -2
 #rarity 5
 #msg "no eus"
@@ -11093,10 +11624,11 @@ for more detail."
 #notext
 #req_monster 6436
 #req_noench 81
+#req_anycode -1102
 #killmon 6436
 #end
 
-#newevent
+#newevent --1X abandonment events for no second sun, other cult
 #nation -2
 #rarity 5
 #msg "no eus"
@@ -11104,39 +11636,7 @@ for more detail."
 #notext
 #req_monster 6436
 #req_noench 81
-#killmon 6436
-#end
-
-#newevent
-#nation -2
-#rarity 5
-#msg "no eus"
-#nolog
-#notext
-#req_monster 6436
-#req_noench 81
-#killmon 6436
-#end
-
-#newevent
-#nation -2
-#rarity 5
-#msg "no eus"
-#nolog
-#notext
-#req_monster 6436
-#req_noench 81
-#killmon 6436
-#end
-
-#newevent
-#nation -2
-#rarity 5
-#msg "no eus"
-#nolog
-#notext
-#req_monster 6436
-#req_noench 81
+#req_anycode -1106
 #killmon 6436
 #end
 
@@ -11148,6 +11648,7 @@ for more detail."
 #nolog
 #notext
 #req_monster 6436
+#req_anycode -1106
 #req_hostileench 81
 #killmon 6436
 #end
@@ -11159,6 +11660,7 @@ for more detail."
 #nolog
 #notext
 #req_monster 6436
+#req_anycode 1106
 #req_hostileench 81
 #killmon 6436
 #end
@@ -11170,6 +11672,7 @@ for more detail."
 #nolog
 #notext
 #req_monster 6436
+#req_anycode -1106
 #req_hostileench 81
 #killmon 6436
 #end
@@ -11181,6 +11684,7 @@ for more detail."
 #nolog
 #notext
 #req_monster 6436
+#req_anycode -1106
 #req_hostileench 81
 #killmon 6436
 #end
@@ -11191,11 +11695,59 @@ for more detail."
 #msg "no eus"
 #nolog
 #notext
+#req_anycode -1102
 #req_monster 6436
 #req_hostileench 81
 #killmon 6436
 #end
 
+#newevent
+#nation -2
+#rarity 5
+#msg "no eus"
+#nolog
+#notext
+#req_anycode -1102
+#req_monster 6436
+#req_hostileench 81
+#killmon 6436
+#end
+
+#newevent
+#nation -2
+#rarity 5
+#msg "no eus"
+#nolog
+#notext
+#req_anycode -1102
+#req_monster 6436
+#req_hostileench 81
+#killmon 6436
+#end
+
+#newevent
+#nation -2
+#rarity 5
+#msg "no eus"
+#nolog
+#notext
+#req_anycode -1100
+#req_monster 6436
+#req_hostileench 81
+#killmon 6436
+#end
+
+#newevent
+#nation -2
+#rarity 5
+#msg "no eus"
+#nolog
+#notext
+#req_anycode -1100
+#req_monster 6436
+#req_hostileench 81
+#killmon 6436
+#end
 
 #newevent  --- Cleanup.
 #rarity 5 #req_fornation 61 #nation -2
@@ -12177,7 +12729,6 @@ may make the battlefield deadly even for the priest's allies."
 #mapmove 2
 #fireres 10
 #holy
-#reclimit 3
 #end
 
 #newevent
@@ -12239,6 +12790,10 @@ may make the battlefield deadly even for the priest's allies."
 #magicskill 8 1
 #magicboost 0 1
 #inspirational 2
+#cleararmor
+#armor 9
+#armor 127
+#armor 155
 #clearweapons
 #weapon 474
 #fireres 15
@@ -12341,7 +12896,6 @@ may make the battlefield deadly even for the priest's allies."
 #nation -2
 #rarity 5
 #msg "taurboleum [Mithraea]."
-#req_site 1
 #req_monster 6434
 #req_targmnr 6420
 #transform 6433
@@ -12476,6 +13030,29 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 ----- CULT OF Fertility
+#newspell
+#copyspell 1005
+#name "Damage Reversal"
+#end
+#selectspell 1005
+#clear
+#name "Power of Gaia"
+#school -1
+#fatiguecost 300
+#descr "Increases the power of all friendly sacred nature mages"
+#effect 23
+#damage 1048576
+#path 0 0
+#pathlevel 0 5
+#spec 12632064
+#aoe 666
+#range 0
+#precision 100
+#sound 16
+#explspr 10113
+#end
+
+
 #newmonster  6415--mystes/epoptes prophetshape
 #copystats 552
 #name "Archgalli"
@@ -12499,6 +13076,7 @@ may make the battlefield deadly even for the priest's allies."
 #weapon 92
 #itemslots 15494
 #patience -3
+#onebattlespell 1005
 #end
 
 
@@ -13139,17 +13717,7 @@ may make the battlefield deadly even for the priest's allies."
 #copyspr 435
 #montag 1315
 #summerpower 25
-#batstartsum2 6317
-#transformation 0
-#descr "These Maenads were sent to kill the enemies of Pythium in the name of the new god and fertility!"
-#end
-
-#newmonster 6440
-#copystats 435 --maenad
-#copyspr 435
-#montag 1315
-#summerpower 25
-#batstartsum2 6317
+#batstartsum1d6 6317
 #transformation 0
 #descr "These Maenads were sent to kill the enemies of Pythium in the name of the new god and fertility!"
 #end
@@ -13310,7 +13878,6 @@ may make the battlefield deadly even for the priest's allies."
 #req_targmnr 6423
 #transform 6432
 #killmon 6438
-#req_site 1
 #req_rare 50
 #decscale 3
 #end
@@ -13321,7 +13888,6 @@ may make the battlefield deadly even for the priest's allies."
 #req_targmnr 6421
 #transform 6432
 #killmon 6438
-#req_site 1
 #req_rare 50
 #decscale 3
 #end
@@ -13332,7 +13898,6 @@ may make the battlefield deadly even for the priest's allies."
 #req_targmnr 6421
 #transform 6432
 #killmon 6438
-#req_site 1
 #end
 
 #newevent  #msg "Reveler. [Anaktoron]."
@@ -13341,7 +13906,6 @@ may make the battlefield deadly even for the priest's allies."
 #req_targmnr 6423
 #transform 6432
 #killmon 6438
-#req_site 1
 #end
 
 #newevent  #msg "boar. [Anaktoron]."
@@ -13350,7 +13914,6 @@ may make the battlefield deadly even for the priest's allies."
 #req_targmnr 6432
 #transform 6448
 #killmon 6446
-#req_site 1
 #req_targpath1 3
 #end
 
@@ -13360,7 +13923,6 @@ may make the battlefield deadly even for the priest's allies."
 #req_targmnr 6432
 #transform 6447
 #killmon 6445
-#req_site 1
 #end
 
 
@@ -13555,3 +14117,5 @@ may make the battlefield deadly even for the priest's allies."
 #gcost 16
 #firstshape 1866
 #end
+
+

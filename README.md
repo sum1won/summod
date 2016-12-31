@@ -576,7 +576,7 @@ Iron Will Scales
 
 Gift of Flight Scales
 
-Scaling version of Tangle Vines at conj 3
+Scaling version of Tangle Vines at conj 3, 2+
 
 Enlarge: Scales
 
@@ -622,7 +622,11 @@ All midlevel resists now scale
 
 Spirit curse horror marks and curses
 
-Army of Rats Alt9->Alt8; 6 gems->4, 
+Army of Rats Alt9->Alt8; 6 gems->3
+
+Skeletal Legion  Research level 5
+
+Creeping Doom works underwater
 
 #### Summon Spells
 
@@ -910,6 +914,12 @@ Maerlande -  I think growth is too obvious if you want money. If I remember corr
 
 sum1won: I?m including this discussion since I expect this is the biggest change in the mod.  I?d also note that I modeled income and total gold from growth and order, and the comparison suggests that growth is significantly better over the long term, and nearly as good over the short term.  The largest difference in gold is around turn 8-15 (varies depending on how aggressive expansion is) and never really rises above ~5% of income/total gold.  Largest difference I saw was a few hundred gold.
 
+##### AI 
+doesn't recruit certain particularly bad troops
+
+##### Thrones
+Season thrones aren't UW
+
 ##### Sites
 
 Steel ovens level 0->1
@@ -929,6 +939,8 @@ Animal Cemetary: Summons 4 carrion beasts instead of two
 Flesh Eaters Isle: Summons 4 ghouls instead of one
 
 The Slaughterhouse: Provides supply, summons some extra foulspawn
+
+Isle of Saos gives the correct units
 
 ##### Armor changes
 
@@ -1274,6 +1286,18 @@ Given a mass-forge spell to produce airbreathing amulets
 
 ###### Oceania, Coming of the Capricorns
 Minotaurs given Gore while underwater
+
+Capricorns 360 gold->330
+
+Capricorns get blood magic
+
+New summons:
+
+Angelfish:  A1W1N3, 100%AW, +1A on land, +1 W on water.  Conj 7, N3W3 caster requirement, 40 gem flying summon, UW only
+
+Devilfish:  W2E2B3 demonkraken, UW only, Blood 7, 50 slaves, B3W3 caster requirement, uw only
+
+Demonshark: Berserking 3 attack amphibious demon summon, research 4, 13 blood slaves
 
 ###### Therodos, Telkhine Spectre
 Popkill scales with growth/death scales.  Still ~0.5 at G0, but ~0.8 at D3 and ~0.2 at G3
