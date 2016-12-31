@@ -626,10 +626,7 @@
 
 --Spectral Weapons
 
-#selectmonster 2700 --supaya offset
-#clearweapons
-#weapon 1422
-#end
+
 #selectweapon 280 --spectral spear
 #clear
 #name "Spectral Spear"
@@ -878,6 +875,41 @@
 #copyweapon 280
 #name "Spectral Spear"
 #mrnegates
+#end
+
+#newmonster 6499
+#name "Supaya"
+#descr "The Supaya is the ghost of a Huaca, the semi-divine ancestors of the Nazcans.  While their bodies decayed long before the Nazcans begun to mummify their dead, the spirits of the ancestors can still be called upon by the most powerful of the Mallquis.  The Huaca ghost has lost its divine splendor, but is still revered as a divine being.  Supayas are ethereal and difficult to harm with mundane weapons."
+#size 3
+#hp 10
+#mr 14
+#mor 15
+#str 10
+#att 13
+#def 13
+#prec 12
+#enc 0
+#ap 14
+#mapmove 3
+#maxage 50
+#coldres 15
+#poisonres 25
+#holy
+#undead
+#ethereal
+#flying
+#amphibian
+#float
+#neednoteat
+#armor 156
+#weapon 1422
+#landshape 2700
+#end
+
+#selectmonster 2700 --supaya offset
+#clearweapons
+#weapon 1422
+#watershape 6499
 #end
 
 #newweapon 1423
