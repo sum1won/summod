@@ -5763,10 +5763,25 @@ won't live more than a month or two."
 ---- Pelagia
 #selectnation 85 --pelagia
 #end
-#selectnation 86 --oceania -- look pretty good already
-#end
 
 ---EA Oceania
+
+
+#selectnation 86 --oceania -- look pretty good already
+#descr "Everything on land has a correspondence under water. Just like kingdoms formed on dry land, so did kingdoms form in the
+Sea, and just like the wild rebelled against encroaching civilization, so did the first triton kingdom suffer the wrath of the
+underwater wild. Oceania is an underwater realm of wild half-men, animals and guardians of the kelp forests. But Oceania
+is also a realm of the shores, where the stormy seas meet stable land. It is a nation of borders and transition, change and
+adaptability. Most of its inhabitants have the ability to change their shapes and cross the boundaries of the sea. Sirens,
+Capricorns and Ichtysatyrs all share the ability and affinity for change and adaptability. Sirens use it to change their shape
+and lure the unwary to a watery grave. Capricorns and Ichtysatyrs use it to raid and spread turmoil and chaos in coastal
+provinces. With the coming of the Awakening God the Capricorns lead the half-men in conquest above as well as beneath
+the waves. The dominion of the God of Oceania increases turmoil in coastal provinces.
+
+Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotaur, borrowed from Underwater Expanded.  Both also get an angelfish."
+
+#uwcom1 6347
+#end
 
 #newmonster 6310
 #copystats 206 -- Shambler
@@ -5845,7 +5860,7 @@ won't live more than a month or two."
 
 #newmonster 6349 --Devilfish
 #name "Devilfish"
-#descr "Devilfish are the rulers of the Seas of Hell.  Mighty mages of storms and salt, they are among the few creatures with any semblence of control over Shark Fiends, a fact that prevetns the other powers of hell from intruding into their demense."
+#descr "Devilfish are the rulers of the Seas of Hell.  Mighty mages of storms and salt, they are among the few creatures with any semblance of control over Shark Fiends, a fact that prevents the other powers of hell from intruding into their demesne."
 #spr1 "./summod/demonic_octopus_1.tga"
 #spr2 "./summod/demonic_octopus_2.tga"
 #hp 85
@@ -5874,9 +5889,11 @@ won't live more than a month or two."
 #aquatic
 #heal
 #demon
-#magicskill 3 2
-#magicskill 2 2 
+#magicskill 3 1
+#magicskill 2 1 
 #magicskill 7 3
+#custommagic 1536
+#itemslots 12288
 #end
 
 
@@ -5908,6 +5925,7 @@ won't live more than a month or two."
 #magicboost 1 1
 #custommagic 768 100
 #seduce 10
+#itemslots 13446
 #end
 
 #newmonster 6437
@@ -5939,6 +5957,7 @@ won't live more than a month or two."
 #magicboost 2 1
 #custommagic 768 100
 #landshape 6440
+#itemslots 13446
 #end
 
 #selectmonster 6440
@@ -6002,9 +6021,9 @@ won't live more than a month or two."
 #custommagic 26368 10
 #end
 
-#newmonster 6229
-#spr1 "./ExpandedMods/UW/ichtytaur_hunter.tga"
-#spr2 "./ExpandedMods/UW/ichtytaur_hunter_attacking.tga"
+#newmonster 6347
+#spr1 "./summod/ichtytaur_hunter.tga"
+#spr2 "./summod/ichtytaur_hunter_attacking.tga"
 #name "Ichtytaur Hunter"
 #descr "Life underneath the waves corresponds in many ways to that on dry land. Halfmen, like humans, have underwater counterparts. Ichtytaurs appear as minotaurs with fish tails instead of hind legs. They are wild beings that roam the kelp forest much like their land counterparts, but are more adaptables. When civilisation encroached on the kelp forests, the ichtytaur retaliated brutally. When some brave or foolish nobles began to track and kill the ichtytaurs, some of their prey turned hunters themselves and put an end to this, feasting on their flesh, bathing in their blood and crafting weapons out of their bones. The smartest among these ichtytaurs sensed power in that gruesome feast and became crude but effective mages, who hunt and sacrifice men, women, and children hoping for power."
 #maxage 90
@@ -6038,12 +6057,13 @@ won't live more than a month or two."
 #armor 1
 #heal
 #amphibian
-#landshape 6230
+#itemslots 13446
+#landshape 6348
 #end
 
-#newmonster 6230
-#spr1 "./ExpandedMods/UW/ichtytaur_hunter_land.tga"
-#spr2 "./ExpandedMods/UW/ichtytaur_hunter_land_attacking.tga"
+#newmonster 6348
+#spr1 "./summod/ichtytaur_hunter_land.tga"
+#spr2 "./summod/ichtytaur_hunter_land_attacking.tga"
 #descr "Life underneath the waves corresponds in many ways to that on dry land. Halfmen, like humans, have underwater counterparts. Ichtytaurs appear as minotaurs with fish tails instead of hind legs. They are wild beings that roam the kelp forest much like their land counterparts, but are more adaptables. When civilisation encroached on the kelp forests, the ichtytaur retaliated brutally. When some brave or foolish nobles began to track and kill the ichtytaurs, some of their prey turned hunters themselves and put an end to this, feasting on their flesh, bathing in their blood and crafting weapons out of their bones. The smartest among these ichtytaurs sensed power in that gruesome feast and became crude but effective mages, who hunt and sacrifice men, women, and children hoping for power."
 #hp 29
 #size 3
@@ -6069,7 +6089,7 @@ won't live more than a month or two."
 #armor 1
 #heal
 #amphibian
-#watershape 6229
+#watershape 6347
 #end
 
 ---Cav changes
@@ -14218,5 +14238,4 @@ may make the battlefield deadly even for the priest's allies."
 #gcost 16
 #firstshape 1866
 #end
-
 
