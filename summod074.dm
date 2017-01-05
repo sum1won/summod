@@ -10571,7 +10571,8 @@ in dried-out caves and forced them into servitude. Now Xibalba is a Muuch kingdo
 population.
 
 Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds recruitable in any fort while discounting them."
-
+#addrecunit 2731
+#addrecunit 2730
 #end
 #selectsite 177
 #clear
@@ -10582,8 +10583,6 @@ Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds r
 #gems 2 1
 #homecom 2732
 #end
-#addrecunit 2731
-#addrecunit 2730
 #selectmonster 2730 --poison dart thrower 
 #end
 #selectweapon 620 --poisondart
