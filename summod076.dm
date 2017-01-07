@@ -6116,11 +6116,13 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 
 #newspell
 #copyspell 967
-#name "Chum the Waters"
+#name "Feeding Frenzy"
 #descr "This spell, one of the very few castable underwater, bloodies the water surrounding the caster, sending animals into a feeding frenzy."
 #spec 281475010265088
-#path 1 6
+#path 0 6
+#path 1 7
 #pathlevel 1 1
+#school 5
 #restricted 86 -- EA Oceania
 #restricted 90 -- MA Oceania
 #end
