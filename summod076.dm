@@ -488,6 +488,7 @@
 #nreff 1
 #aoe 6
 #spec 8390784
+#explspr -1
 #end
 #newspell
 #researchlevel -1
@@ -502,6 +503,7 @@
 #damage 1
 #spec 8390784
 #explspr 10219
+#flyspr -1
 #sound 24
 #nextspell "stunwave"
 #end
