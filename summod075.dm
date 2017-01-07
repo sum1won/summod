@@ -1,6 +1,6 @@
-#modname "Summod 0.74"
+#modname "Summod 0.75"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.74
+#version 0.75
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -5861,6 +5861,23 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #restricted 90 -- MA Oceania
 #end
 
+#newspell
+#copyspell 639 -- Call Kraken
+#name "Sharknado"
+#descr "The caster sacrifices many blood slaves to lure and bind a horde of Shark Fiends. Shark Fiends are amphibious demons with the heads of sharks. Summoned from Hell's seas, they are ungainly on land but incredibly swift underwater."
+#researchlevel 9
+#school 6
+#path 0 7
+#pathlevel 0 5
+#path 1 2
+#pathlevel 1 3
+#fatiguecost 4000
+#nreff 2000
+#damage 6311
+#restricted 86 -- EA Oceania
+#restricted 90 -- MA Oceania
+#end
+
 #newmonster 6349 --Devilfish
 #name "Devilfish"
 #descr "Devilfish are the rulers of the Seas of Hell.  Mighty mages of storms and salt, they are among the few creatures with any semblance of control over Shark Fiends, a fact that prevents the other powers of hell from intruding into their demesne."
@@ -6030,7 +6047,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #name "Ichtytaur Hunter"
 #descr "Life underneath the waves corresponds in many ways to that on dry land. Halfmen, like humans, have underwater counterparts. Ichtytaurs appear as minotaurs with fish tails instead of hind legs. They are wild beings that roam the kelp forest much like their land counterparts, but are more adaptables. When civilisation encroached on the kelp forests, the ichtytaur retaliated brutally. When some brave or foolish nobles began to track and kill the ichtytaurs, some of their prey turned hunters themselves and put an end to this, feasting on their flesh, bathing in their blood and crafting weapons out of their bones. The smartest among these ichtytaurs sensed power in that gruesome feast and became crude but effective mages, who hunt and sacrifice men, women, and children hoping for power."
 #maxage 90
-#gcost 10045
+#gcost 10035
 #rcost 1
 #hp 34
 #prot 4
@@ -6051,7 +6068,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #magicskill 7 1
 #magicboost 6 -1
 #custommagic 8704 100
-#researchbonus -8
+#researchbonus -4
 #clearweapons
 #weapon 670 -- Bone Trident
 #weapon 331 -- Gore
@@ -6065,6 +6082,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #end
 
 #newmonster 6348
+#name "Ichtytaur Hunter"
 #spr1 "./summod/ichtytaur_hunter_land.tga"
 #spr2 "./summod/ichtytaur_hunter_land_attacking.tga"
 #descr "Life underneath the waves corresponds in many ways to that on dry land. Halfmen, like humans, have underwater counterparts. Ichtytaurs appear as minotaurs with fish tails instead of hind legs. They are wild beings that roam the kelp forest much like their land counterparts, but are more adaptables. When civilisation encroached on the kelp forests, the ichtytaur retaliated brutally. When some brave or foolish nobles began to track and kill the ichtytaurs, some of their prey turned hunters themselves and put an end to this, feasting on their flesh, bathing in their blood and crafting weapons out of their bones. The smartest among these ichtytaurs sensed power in that gruesome feast and became crude but effective mages, who hunt and sacrifice men, women, and children hoping for power."
@@ -6077,13 +6095,14 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #def 11
 #ap 15
 #size 3
+#gcost 10035
 #berserk 3
 #magicskill 2 1
 #magicskill 6 1
 #magicskill 7 1
 #magicboost 2 -1
 #custommagic 8704 100
-#researchbonus -8
+#researchbonus -4
 #clearweapons
 #weapon 670 -- Bone Trident
 #weapon 331 -- Gore
@@ -11092,6 +11111,7 @@ Summod buffs Jomon.  Please observe your new Ashigaru archer, cheaper cavalry (n
 #newmonster 6309 -- ashigaru archer
 #copystats 1238
 #name "Ashigaru Archer"
+#descr "An Ashigaru archer is a peasant given a light bow instead of the usual twohanded polearm.  Like other Ashigaru, they are given light armor and shallow metal helms, which they use to cook rice when not being worn."
 #copyspr 1312
 #clearweapons
 #weapon 377
