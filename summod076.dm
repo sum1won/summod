@@ -1300,6 +1300,218 @@
 #gcost 10020
 #end
 
+#selectmonster  	3	
+#rcost	23	
+#end  	-- serpent ma pythium
+
+#selectmonster  	5	 
+#rcost	23	
+#end  	-- serpent ma pythium
+
+#selectmonster  	19	
+#rcost	15	
+#end  	-- indie
+
+#selectmonster  	21	
+#rcost	15	
+#end  	-- indie
+
+#selectmonster  	22	
+#rcost	15	
+#end  	-- indie
+
+#selectmonster  	23	
+#rcost	15	
+#end  	-- indie
+
+#selectmonster  	44	
+#rcost	15	
+#end  	-- indie
+
+#selectmonster  	45	
+#rcost	15	
+#end  	-- indie
+
+#selectmonster  	57	
+#rcost	15	
+#end  	-- full chain knight of man
+
+#selectmonster  	64	
+#rcost	19	
+#end  	-- Full chain knight of avalon
+
+#selectmonster  	69	
+#rcost	19	
+#end  	-- Black Knight
+
+#selectmonster  	70	
+#rcost	19	 
+#end  	-- Black Lord
+
+#selectmonster  	134	
+#rcost	15	
+#end  	-- Royal Guard
+
+#selectmonster  	135	
+#rcost	19	
+#end  	-- Knight of Chalice
+
+#selectmonster  	292	
+#rcost	15	
+#end  	-- indie
+
+#selectmonster  	389	
+#rcost	15	
+#end  	-- indie
+
+#selectmonster  	390	
+#rcost	19	
+#end  	-- indie
+
+#selectmonster  	391	
+#rcost	19	
+#end  	-- indie
+
+#selectmonster  	440	
+#rcost	23	
+#end  	-- MA Mari Palidan
+
+#selectmonster  	738	
+#rcost	23	
+#end  	-- Black Templar LA Ulm
+
+#selectmonster  	763	  #rcost	23	
+#end  	-- LA Pythium
+#selectmonster  	765	  #rcost	23	
+#end  	-- LA Pythium
+#selectmonster  	791	  #rcost	12	
+#end  	-- Red Guard
+#selectmonster  	792	  #rcost	12	
+#end  	-- MA TC General
+#selectmonster  	793	  #rcost	12	
+#end  	-- MA TC Prince General
+#selectmonster  	875	  #rcost	15	
+#end  	-- Indie
+#selectmonster  	930	  #rcost	12	
+#end  	--khan
+#selectmonster  	1172	  #rcost	12	
+#end  	--Sauro cat
+#selectmonster  	1173	  #rcost	12	
+#end  	--Sauro manflay
+#selectmonster  	1174	  #rcost	12	
+#end  	--Sauro priestess
+#selectmonster  	1175	  #rcost	12	
+#end  	--Sauro queen
+#selectmonster  	1187	  #rcost	12	
+#end  	-- full scale indie
+#selectmonster  	1237	  #rcost	23	
+#end  	--black plate Hochmeister LA Ulm
+#selectmonster  	1553	
+#rcost	12	
+#end  	--plate cuirass (scale appearance) Agema Companion
+
+#selectmonster  	1554	
+#rcost	12	
+#end  	--plate cuirass (scale appearance) Agema Commander
+
+#selectmonster  	1641	
+#rcost	15	
+#end  	-- LA Man knight
+
+#selectmonster  	1923	
+#rcost	12	
+#end  	--full chain (halfchain appearance) Malaiaa Druzhina
+
+#selectmonster  	2128	
+#rcost	19	
+#end  	-- MA Man Knight Commander Avalon
+
+#selectmonster  	2359	
+#rcost	23	
+#end  	-- Indie
+
+#selectmonster  	2584	
+#rcost	12	
+#end  	--chain haub savaran guard
+#selectmonster  	2585	
+#rcost	12	
+#end  	-- turan plate, savaran guard scale appearance)
+
+#selectmonster  	2588	
+#rcost	12	
+#end  	--turan spahbed plate, scale appearance)
+
+#selectmonster  	2605	
+#rcost	12	
+#end  	--turan shah plate, scale appearance)
+
+#selectmonster  	2629	
+#rcost	34	
+#end  	-- Ragha Zhayedan Spahbed
+
+#selectmonster  	2687	
+#rcost	34	
+#end  	-- Zhayedan
+
+#selectmonster  	2915	
+#rcost	15	
+#end  	-- Ys
+
+#selectmonster  	2916	 
+#rcost	15	 
+#end  	-- Ys
+
+#selectmonster  	2917	  
+#rcost	15	 
+#end  	-- Ys
+
+#selectmonster  	2918	  
+#rcost	15	  
+#end  	-- Ys
+
+#selectmonster  	2919	  
+#rcost	15	  
+#end  	-- Ys
+
+#selectmonster  	2920	  
+#rcost	15	  
+#end  	-- Ys
+
+--- CHARIOTS	
+#selectmonster 	927 -- EA TC Noble
+#rsize 2
+#rcost 10
+#gcost 10025
+#end
+
+#selectmonster 	1665 -- EA TC Noble Commander
+#rsize 2
+#rcost 8
+#gcost 10025
+#end
+	
+#selectmonster 	1365 -- EA Ctis lizard chariot
+#rsize 2
+#rcost 8
+#gcost 10025
+#cleararmor
+#armor 7
+#armor 20
+#end
+
+#selectmonster 	1078 -- EA arco chariot
+#rsize 2
+#rcost 8
+#gcost 10020
+#end
+
+#selectmonster 	1078 -- EA arco chariot archer
+#rsize 2
+#rcost 8
+#gcost 10030
+#end
+
+
 -------------------------
 --- Rust Unit changes ---
 -------------------------
