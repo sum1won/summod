@@ -5612,7 +5612,7 @@ Summod improves  Ur.  PD is better, your troops are generally better and/or chea
 ---Add mass airbreathing item spell
 ---Mass Airbreathing spell ---
 #newmonster 6344
-#copystats 197
+#copystats 168
 #name "sacrement of limne"
 #descr "this unit exists only to provide sacrement to limne"
 #immobile
@@ -6113,6 +6113,18 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #amphibian
 #watershape 6347
 #end
+
+#newspell
+#copyspell 967
+#name "Chum the Waters"
+#descr "This spell, one of the very few castable underwater, bloodies the water surrounding the caster, sending animals into a feeding frenzy."
+#spec 281475010265088
+#path 1 6
+#pathlevel 1 1
+#restricted 86 -- EA Oceania
+#restricted 90 -- MA Oceania
+#end
+
 
 ---Cav changes
 ---Marveni
@@ -10665,7 +10677,7 @@ deeps and conquer the world. The Capricorns, wild mages of the sea and the shore
 sea once theirs. Sirens, mermaids with shapeshifting powers, who lure men to watery graves with their beautiful songs, aid
 them in conquering the shores.
 
-Summod improves Siren paths and improves the cost of icthytaurs."
+Summod improves Siren paths and improves the cost of icthytaurs, and the cost and equipment of icthytaur soldiers.  It also adds new summons and bloodspells"
 #end
 #selectmonster 1054 --siren
 #clearmagic
@@ -10691,16 +10703,30 @@ Summod improves Siren paths and improves the cost of icthytaurs."
 #selectmonster 2412 --ichtyaur
 #weapon 331
 #gcost 10035
+#berserk 3
 #end
 #selectmonster 2413 --ichtyaur
 #gcost 10035
 #end
 #selectmonster 2414 --ichtyaur
+#spr1 "./summod/myrmitaur_1.tga"
+#spr2 "./summod/myrmitaur_2.tga"
+#clearweapon
 #weapon 331
 #gcost 10040
+#weapon 641
+#armor 135
+#armor 1
+#berserk 3
 #end
 #selectmonster 2415 --ichtyaur
+#spr1 "./summod/myrmitaurland_1.tga"
+#spr2 "./summod/myrmitaurland_2.tga"
+#clearweapon
 #gcost 10040
+#weapon 641
+#armor 135
+#armor 1
 #end
 --------Eriu
 #selectnation 38
