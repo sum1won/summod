@@ -7839,15 +7839,15 @@ you after serving for a few months."
 #newmonster 6412
 #name "Terracotta Chariot"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a chariotsman, it even has a chariot."
-#spr1 "./summod/TerracottaHorseman1.tga"
-#spr2 "./summod/TerracottaHorseman2.tga"
+#spr1 "./summod/TerracottaChariot1.tga"
+#spr2 "./summod/TerracottaChariot2.tga"
 #gcost 0
-#prot 10
+#prot 12
 #mr 12
 #mor 50
-#str 10
-#att 10
-#def 10
+#str 11
+#att 11
+#def 11
 #prec 5
 #enc 0
 #mapmove 3
@@ -7865,7 +7865,7 @@ you after serving for a few months."
 #trample
 #weapon 10
 #armor 1
-#hp 12
+#hp 13
 #ap 12
 #montag 1306
 #end
