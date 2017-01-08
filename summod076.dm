@@ -6679,17 +6679,51 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #watershape 6347
 #end
 
+
+#newspell 
+#name "Demon Berserk"
+#school -1
+#effect 10
+#aoe 665
+#damage 256
+#spec 281475035430920
+#researchlevel 0
+#path 0 1
+#pathlevel 1 1
+#descr "Has an improved chance of berserking demons who are also animals"
+#end
+
 #newspell
-#copyspell 967
+#name "Animal Berserk"
+#school -1
+#effect 10
+#damage 256
+#aoe 665
+#spec 281475035430912
+#researchlevel 0
+#path 0 1
+#pathlevel 1 1
+#descr "Has a chance of berserking animals"
+#nextspell "Demon Berserk"
+#end
+
+#newspell
 #name "Feeding Frenzy"
-#descr "This spell, one of the very few castable underwater, bloodies the water surrounding the caster, sending animals into a feeding frenzy."
-#spec 281475010265088
+#descr "This spell puts the scent of blood into the nose of every animal on the battlefield, sending them into a feeding frenzy."
+#effect 10
+#damage 128
+#spec 281475018653696
 #path 0 6
+#pathlevel 0 2
+#aoe 666
 #path 1 7
 #pathlevel 1 1
 #school 5
+#fatiguecost 200
+#researchlevel 4
 #restricted 86 -- EA Oceania
 #restricted 90 -- MA Oceania
+#nextspell "Animal Berserk"
 #end
 
 
