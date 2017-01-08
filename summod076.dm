@@ -449,7 +449,7 @@ These scouts will become commanders after recruitment."
 #homemon  6496
 #end
 #selectsite  101  
-#homemon  6496
+#homemon  6495
 #end
 #selectsite  100
 #homemon  6496
