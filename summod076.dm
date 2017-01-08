@@ -4306,7 +4306,7 @@ Xibalba is substantially nerfed by summod.  Bats are more expensive, foreign rec
 #end
 
 ----EA: Buffed Nations------
-----Abysia
+----ea Abysia
 #selectnation 13 --abysia
 #descr "Abysia is a hot wasteland, at the center of which lies a great volcano whose lava-lit caverns are inhabited by
 magma-born humanoids. Their flesh radiates heat and they are not harmed by flames. Abysians are stronger
@@ -4324,9 +4324,11 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #selectspell 196 --summon scorpion man
 #effect 10021 --summons as commander instead of as unit
 #fatiguecost 1000
+#researchlevel 6
 #end
 #selectmonster 1649 --scorpion man
 #itemslots 13446
+#armor 20 --adds iron cap
 #end
 #selectmonster 1699--anathemant dragon
 #gcost 10000
