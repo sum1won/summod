@@ -1241,6 +1241,19 @@ Rephaite Warriors 115 gold -> 100
 horites throw rocks
 
 ###### Ur, The First City
+Ur pretenders automatically heal all afflictions while at the capital.
+
+Elegist is now +3 instead of +1, making them 4X as effective instead of 2X.
+
+PD is less garbage, and includes sirrush, great lions, and more Enkidu of better quality.
+
+You can now recruit more foreignrec and swamprec troops at your capital.
+
+Your troop quality is improved.  Generally -1 to -2 gold from vanilla, and +1 attack
+
+Spearguard became elites, and received +2 goldcost and +defense.
+
+
 
 ###### Berytos, The Phoenix Empire
 

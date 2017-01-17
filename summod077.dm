@@ -1,6 +1,6 @@
-#modname "Summod 0.76"
+#modname "Summod 0.77"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.76
+#version 0.77
 #icon "./summod/summodall.tga"
 
 --This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -276,6 +276,357 @@
 #ainorec
 #end
 
+----------------
+--- SCOUTMOD ---
+----------------
+
+#newmonster 6495 --amphibious scout
+#copystats 432
+#copyspr 432
+#gcost 25
+#slowrec
+#reclimit 1
+#descr "Scouts are trained to pass unseen through enemy territory and to travel efficiently even in mountainous and forested terrain. Their reports on enemy army movements and the resources in enemy lands are invaluable to the prudent warlord.
+
+These scouts will become commanders after recruitment."
+#end
+
+#newmonster 6496 --scout
+#copystats 426
+#copyspr 426
+#gcost 25
+#slowrec
+#reclimit 1
+#descr "Scouts are trained to pass unseen through enemy territory and to travel efficiently even in mountainous and forested terrain. Their reports on enemy army movements and the resources in enemy lands are invaluable to the prudent warlord.
+
+These scouts will become commanders after recruitment."
+#end
+
+
+#newevent ---scoutspawn
+#rarity 5
+#nation -2
+#req_monster 6495
+#killmon 6495
+#com 432
+#msg "scout"
+#nolog
+#notext
+#end
+
+#newevent ---scoutspawn
+#rarity 5
+#nation -2
+#req_monster 6496
+#killmon 6496
+#com 426
+#msg "scout"
+#nolog
+#notext
+#end
+
+#selectsite  185
+#homemon  6495
+#end
+#selectsite  182
+#homemon  6495
+#end
+#selectsite  181
+#homemon  6495
+#end
+#selectsite  178
+#homemon  6495
+#end
+#selectsite  162
+#homemon  6495
+#end
+#selectsite  129
+#homemon  6495
+#end
+#selectsite  126  
+#homemon  6495
+#end
+#selectsite  116
+#homemon  6495
+#end
+#selectsite  45  
+#homemon  6495
+#end
+#selectsite  175  
+#homemon  6496
+#end
+#selectsite  172  
+#homemon  6496
+#end
+#selectsite  170  
+#homemon  6496
+#end
+#selectsite  160
+#homemon  6496
+#end
+#selectsite  159
+#homemon  6496
+#end
+#selectsite  158
+#homemon  6496
+#end
+#selectsite  157
+#homemon  6496
+#end
+#selectsite  156
+#homemon  6496
+#end
+#selectsite  153
+#homemon  6496
+#end
+#selectsite  152  
+#homemon  6496
+#end
+#selectsite  150  
+#homemon  6496
+#end
+#selectsite  149  
+#homemon  6496
+#end
+#selectsite  147
+#homemon  6496
+#end
+#selectsite  144
+#homemon  6496
+#end
+#selectsite  142  
+#homemon  6496
+#end
+#selectsite  140
+#homemon  6496
+#end
+#selectsite  139
+#homemon  6496
+#end
+#selectsite  136  
+#homemon  6496
+#end
+#selectsite  135  
+#homemon  6496
+#end
+#selectsite  134
+#homemon  6496
+#end
+#selectsite  131
+#homemon  6496
+#end
+#selectsite  127
+#homemon  6496
+#end
+#selectsite  122
+#homemon  6496  
+#end
+#selectsite  119
+#homemon  6496
+#end
+#selectsite  118
+#homemon  6496
+#end
+#selectsite  117
+#homemon  6496
+#end
+#selectsite  114
+#homemon  6496
+#end
+#selectsite  113
+#homemon  6496
+#end
+#selectsite  110
+#homemon  6496
+#end
+#selectsite  107
+#homemon  6496
+#end
+#selectsite  106
+#homemon  6496
+#end
+#selectsite  102
+#homemon  6496
+#end
+#selectsite  101  
+#homemon  6495
+#end
+#selectsite  100
+#homemon  6496
+#end
+#selectsite  99
+#homemon  6496
+#end
+#selectsite  96
+#homemon  6496
+#end
+#selectsite  95
+#homemon  6496
+#end
+#selectsite  94
+#homemon  6496
+#end
+#selectsite  93
+#homemon  6496
+#end
+#selectsite  92
+#homemon  6496
+#end
+#selectsite  87  
+#homemon  6496
+#end
+#selectsite  86  
+#homemon  6496
+#end
+#selectsite  82  
+#homemon  6496
+#end
+#selectsite  81
+#homemon  6496
+#end
+#selectsite  80
+#homemon  6496
+#end
+#selectsite  79
+#homemon  6496
+#end
+#selectsite  78
+#homemon  6496
+#end
+#selectsite  77
+#homemon  6496
+#end
+#selectsite  73
+#homemon  6496
+#end
+#selectsite  72
+#homemon  6496
+#end
+#selectsite  71
+#homemon  6496
+#end
+#selectsite  69
+#homemon  6496
+#end
+#selectsite  68  
+#homemon  6496
+#end
+#selectsite  67
+#homemon  6496
+#end
+#selectsite  66  
+#homemon  6496
+#end
+#selectsite  65
+#homemon  6496
+#end
+#selectsite  64
+#homemon  6496
+#end
+#selectsite  61
+#homemon  6496
+#end
+#selectsite  58
+#homemon  6496
+#end
+#selectsite  57
+#homemon  6496
+#end
+#selectsite  56  
+#homemon  6496
+#end
+#selectsite  54
+#homemon  6496
+#end
+#selectsite  52
+#homemon  6496
+#end
+#selectsite  51
+#homemon  6496
+#end
+#selectsite  49
+#homemon  6496
+#end
+#selectsite  48
+#homemon  6496
+#end
+#selectsite  47
+#homemon  6496
+#end
+#selectsite  46
+#homemon  6496
+#end
+#selectsite  42
+#homemon  6496  
+#end
+#selectsite  40
+#homemon  6496
+#end
+#selectsite  39
+#homemon  6496
+#end
+#selectsite  37
+#homemon  6496
+#end
+#selectsite  36
+#homemon  6496
+#end
+#selectsite  34
+#homemon  6496
+#end
+#selectsite  33  
+#homemon  6496
+#end
+#selectsite  25
+#homemon  6496
+#end
+#selectsite  24
+#homemon  6496
+#end
+#selectsite  23
+#homemon  6496  
+#end
+#selectsite  18
+#homemon  6496
+#end
+#selectsite  16
+#homemon  6496
+#end
+#selectsite  15  
+#homemon  6496
+#end
+#selectsite  14
+#homemon  6496
+#end
+#selectsite  13
+#homemon  6496
+#end
+#selectsite  12
+#homemon  6496  
+#end
+#selectsite  10
+#homemon  6496
+#end
+#selectsite  9
+#homemon  6496
+#end
+#selectsite  8
+#homemon  6496
+#end
+#selectsite  6  
+#homemon  6496
+#end
+#selectsite  4  
+#homemon  6496
+#end
+#selectsite  2  
+#homemon  6496
+#end
+#selectsite  1  
+#homemon  6496
+#end 
+
+
 ----------------------
 --- Armour Changes ---
 ----------------------
@@ -488,6 +839,7 @@
 #nreff 1
 #aoe 6
 #spec 8390784
+#explspr -1
 #end
 #newspell
 #researchlevel -1
@@ -502,6 +854,7 @@
 #damage 1
 #spec 8390784
 #explspr 10219
+#flyspr -1
 #sound 24
 #nextspell "stunwave"
 #end
@@ -1299,6 +1652,218 @@
 #selectmonster 1187 - cataphract
 #gcost 10020
 #end
+
+#selectmonster  	3	
+#rcost	23	
+#end  	-- serpent ma pythium
+
+#selectmonster  	5	 
+#rcost	23	
+#end  	-- serpent ma pythium
+
+#selectmonster  	19	
+#rcost	15	
+#end  	-- indie
+
+#selectmonster  	21	
+#rcost	15	
+#end  	-- indie
+
+#selectmonster  	22	
+#rcost	15	
+#end  	-- indie
+
+#selectmonster  	23	
+#rcost	15	
+#end  	-- indie
+
+#selectmonster  	44	
+#rcost	15	
+#end  	-- indie
+
+#selectmonster  	45	
+#rcost	15	
+#end  	-- indie
+
+#selectmonster  	57	
+#rcost	15	
+#end  	-- full chain knight of man
+
+#selectmonster  	64	
+#rcost	19	
+#end  	-- Full chain knight of avalon
+
+#selectmonster  	69	
+#rcost	19	
+#end  	-- Black Knight
+
+#selectmonster  	70	
+#rcost	19	 
+#end  	-- Black Lord
+
+#selectmonster  	134	
+#rcost	15	
+#end  	-- Royal Guard
+
+#selectmonster  	135	
+#rcost	19	
+#end  	-- Knight of Chalice
+
+#selectmonster  	292	
+#rcost	15	
+#end  	-- indie
+
+#selectmonster  	389	
+#rcost	15	
+#end  	-- indie
+
+#selectmonster  	390	
+#rcost	19	
+#end  	-- indie
+
+#selectmonster  	391	
+#rcost	19	
+#end  	-- indie
+
+#selectmonster  	440	
+#rcost	23	
+#end  	-- MA Mari Palidan
+
+#selectmonster  	738	
+#rcost	23	
+#end  	-- Black Templar LA Ulm
+
+#selectmonster  	763	  #rcost	23	
+#end  	-- LA Pythium
+#selectmonster  	765	  #rcost	23	
+#end  	-- LA Pythium
+#selectmonster  	791	  #rcost	12	
+#end  	-- Red Guard
+#selectmonster  	792	  #rcost	12	
+#end  	-- MA TC General
+#selectmonster  	793	  #rcost	12	
+#end  	-- MA TC Prince General
+#selectmonster  	875	  #rcost	15	
+#end  	-- Indie
+#selectmonster  	930	  #rcost	12	
+#end  	--khan
+#selectmonster  	1172	  #rcost	12	
+#end  	--Sauro cat
+#selectmonster  	1173	  #rcost	12	
+#end  	--Sauro manflay
+#selectmonster  	1174	  #rcost	12	
+#end  	--Sauro priestess
+#selectmonster  	1175	  #rcost	12	
+#end  	--Sauro queen
+#selectmonster  	1187	  #rcost	12	
+#end  	-- full scale indie
+#selectmonster  	1237	  #rcost	23	
+#end  	--black plate Hochmeister LA Ulm
+#selectmonster  	1553	
+#rcost	12	
+#end  	--plate cuirass (scale appearance) Agema Companion
+
+#selectmonster  	1554	
+#rcost	12	
+#end  	--plate cuirass (scale appearance) Agema Commander
+
+#selectmonster  	1641	
+#rcost	15	
+#end  	-- LA Man knight
+
+#selectmonster  	1923	
+#rcost	12	
+#end  	--full chain (halfchain appearance) Malaiaa Druzhina
+
+#selectmonster  	2128	
+#rcost	19	
+#end  	-- MA Man Knight Commander Avalon
+
+#selectmonster  	2359	
+#rcost	23	
+#end  	-- Indie
+
+#selectmonster  	2584	
+#rcost	12	
+#end  	--chain haub savaran guard
+#selectmonster  	2585	
+#rcost	12	
+#end  	-- turan plate, savaran guard scale appearance)
+
+#selectmonster  	2588	
+#rcost	12	
+#end  	--turan spahbed plate, scale appearance)
+
+#selectmonster  	2605	
+#rcost	12	
+#end  	--turan shah plate, scale appearance)
+
+#selectmonster  	2629	
+#rcost	34	
+#end  	-- Ragha Zhayedan Spahbed
+
+#selectmonster  	2687	
+#rcost	34	
+#end  	-- Zhayedan
+
+#selectmonster  	2915	
+#rcost	15	
+#end  	-- Ys
+
+#selectmonster  	2916	 
+#rcost	15	 
+#end  	-- Ys
+
+#selectmonster  	2917	  
+#rcost	15	 
+#end  	-- Ys
+
+#selectmonster  	2918	  
+#rcost	15	  
+#end  	-- Ys
+
+#selectmonster  	2919	  
+#rcost	15	  
+#end  	-- Ys
+
+#selectmonster  	2920	  
+#rcost	15	  
+#end  	-- Ys
+
+--- CHARIOTS	
+#selectmonster 	927 -- EA TC Noble
+#rsize 2
+#rcost 10
+#gcost 10025
+#end
+
+#selectmonster 	1665 -- EA TC Noble Commander
+#rsize 2
+#rcost 8
+#gcost 10025
+#end
+	
+#selectmonster 	1365 -- EA Ctis lizard chariot
+#rsize 2
+#rcost 8
+#gcost 10025
+#cleararmor
+#armor 7
+#armor 20
+#end
+
+#selectmonster 	1078 -- EA arco chariot
+#rsize 2
+#rcost 8
+#gcost 10020
+#end
+
+#selectmonster 	1078 -- EA arco chariot archer
+#rsize 2
+#rcost 8
+#gcost 10030
+#end
+
 
 -------------------------
 --- Rust Unit changes ---
@@ -3741,7 +4306,7 @@ Xibalba is substantially nerfed by summod.  Bats are more expensive, foreign rec
 #end
 
 ----EA: Buffed Nations------
-----Abysia
+----ea Abysia
 #selectnation 13 --abysia
 #descr "Abysia is a hot wasteland, at the center of which lies a great volcano whose lava-lit caverns are inhabited by
 magma-born humanoids. Their flesh radiates heat and they are not harmed by flames. Abysians are stronger
@@ -3759,9 +4324,11 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #selectspell 196 --summon scorpion man
 #effect 10021 --summons as commander instead of as unit
 #fatiguecost 1000
+#researchlevel 6
 #end
 #selectmonster 1649 --scorpion man
 #itemslots 13446
+#armor 20 --adds iron cap
 #end
 #selectmonster 1699--anathemant dragon
 #gcost 10000
@@ -6030,8 +6597,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #gcost 330
 #end
 
-#selectmonster 1039
-#gcost 330
+#selectmonster 1039 --capricorn
 #clearmagic
 #magicskill 2 2
 #magicskill 6 4
@@ -6114,15 +6680,51 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #watershape 6347
 #end
 
-#newspell
-#copyspell 967
-#name "Chum the Waters"
-#descr "This spell, one of the very few castable underwater, bloodies the water surrounding the caster, sending animals into a feeding frenzy."
-#spec 281475010265088
-#path 1 6
+
+#newspell 
+#name "Demon Berserk"
+#school -1
+#effect 10
+#aoe 665
+#damage 256
+#spec 281475035430920
+#researchlevel 0
+#path 0 1
 #pathlevel 1 1
+#descr "Has an improved chance of berserking demons who are also animals"
+#end
+
+#newspell
+#name "Animal Berserk"
+#school -1
+#effect 10
+#damage 256
+#aoe 665
+#spec 281475035430912
+#researchlevel 0
+#path 0 1
+#pathlevel 1 1
+#descr "Has a chance of berserking animals"
+#nextspell "Demon Berserk"
+#end
+
+#newspell
+#name "Feeding Frenzy"
+#descr "This spell puts the scent of blood into the nose of every animal on the battlefield, sending them into a feeding frenzy."
+#effect 10
+#damage 128
+#spec 281475018653696
+#path 0 6
+#pathlevel 0 2
+#aoe 666
+#path 1 7
+#pathlevel 1 1
+#school 5
+#fatiguecost 200
+#researchlevel 4
 #restricted 86 -- EA Oceania
 #restricted 90 -- MA Oceania
+#nextspell "Animal Berserk"
 #end
 
 
@@ -6354,14 +6956,14 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #newevent
 #rarity 5
 #req_rare 1
-#req_fornation 95
 #req_pop0ok
 #req_death 1
 #req_growth -1
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fornation 95 
+#req_fullowner 95
 #nation -2
 #req_dominion 4
 #req_maxdominion 5
@@ -6373,14 +6975,14 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #newevent
 #rarity 5
 #req_rare 2
-#req_fornation 95
 #req_pop0ok
 #req_death 1
 #req_growth -1
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fornation 95 
+#req_fullowner 95
 #nation -2
 #req_dominion 6
 #req_maxdominion 8
@@ -6392,14 +6994,14 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #newevent
 #rarity 5
 #req_rare 3
-#req_fornation 95
 #req_pop0ok
 #req_death 1
 #req_growth -1
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fornation 95 
+#req_fullowner 95
 #nation -2
 #req_dominion 9
 #msg "Undead Melia in fort, death 1 dom 9-10"
@@ -6411,14 +7013,14 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #newevent
 #rarity 5
 #req_rare 2
-#req_fornation 95
 #req_pop0ok
 #req_death 2
 #req_growth -2
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fornation 95 
+#req_fullowner 95
 #nation -2
 #req_dominion 4
 #req_maxdominion 5
@@ -6437,7 +7039,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fullowner 95
 #nation -2
 #req_dominion 6
 #req_maxdominion 8
@@ -6455,7 +7057,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fullowner 95
 #nation -2
 #req_dominion 9
 #msg "Undead Melia in fort, death 2 dom 9-10"
@@ -6467,13 +7069,13 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #newevent
 #rarity 5
 #req_rare 3
-#req_fornation 95
 #req_pop0ok
 #req_death 3
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fullowner 95
+#req_fornation 95 
 #nation -2
 #req_dominion 4
 #req_maxdominion 5
@@ -6485,13 +7087,13 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #newevent
 #rarity 5
 #req_rare 6
-#req_fornation 95
 #req_pop0ok
 #req_death 3
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fornation 95 
+#req_fullowner 95
 #nation -2
 #req_dominion 6
 #req_maxdominion 8
@@ -6503,13 +7105,13 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #newevent
 #rarity 5
 #req_rare 9
-#req_fornation 95
 #req_pop0ok
+#req_fornation 95 
 #req_death 3
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fullowner 95
 #nation -2
 #req_dominion 9
 #msg "Undead Melia in fort, death 3 dom 9-10"
@@ -6560,7 +7162,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_unique 20
 #req_pop0ok
 #req_maxpop 150
-#req_fullowner
+#req_fullowner 95
 #req_foundsite 0
 #nation -2
 #msg "Site for depleted province [Stygian Stagnant Waters]"
@@ -6572,11 +7174,12 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #rarity 5
 #req_fornation 95
 #req_enchdom 200
+#req_rare 50
 #req_pop0ok
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fullowner 95
 #nation -2
 #msg "Spectral Kouretes freespawn"
 #1d3units 2843
@@ -6585,14 +7188,14 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #end
 #newevent
 #rarity 5
-#req_rare 20
+#req_rare 10
 #req_fornation 95
 #req_enchdom 200
 #req_pop0ok
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fullowner 95
 #nation -2
 #msg "Undead Melia freespawn"
 #com 6330
@@ -7625,15 +8228,15 @@ you after serving for a few months."
 #newmonster 6412
 #name "Terracotta Chariot"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a chariotsman, it even has a chariot."
-#spr1 "./summod/TerracottaHorseman1.tga"
-#spr2 "./summod/TerracottaHorseman2.tga"
+#spr1 "./summod/TerracottaChariot1.tga"
+#spr2 "./summod/TerracottaChariot2.tga"
 #gcost 0
-#prot 10
+#prot 12
 #mr 12
 #mor 50
-#str 10
-#att 10
-#def 10
+#str 11
+#att 11
+#def 11
 #prec 5
 #enc 0
 #mapmove 3
@@ -7651,7 +8254,7 @@ you after serving for a few months."
 #trample
 #weapon 10
 #armor 1
-#hp 12
+#hp 13
 #ap 12
 #montag 1306
 #end
