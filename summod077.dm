@@ -6597,8 +6597,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #gcost 330
 #end
 
-#selectmonster 1039
-#gcost 330
+#selectmonster 1039 --capricorn
 #clearmagic
 #magicskill 2 2
 #magicskill 6 4
