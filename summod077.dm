@@ -6957,14 +6957,14 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #newevent
 #rarity 5
 #req_rare 1
-#req_fornation 95
 #req_pop0ok
 #req_death 1
 #req_growth -1
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fornation 95 
+#req_fullowner 95
 #nation -2
 #req_dominion 4
 #req_maxdominion 5
@@ -6976,14 +6976,14 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #newevent
 #rarity 5
 #req_rare 2
-#req_fornation 95
 #req_pop0ok
 #req_death 1
 #req_growth -1
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fornation 95 
+#req_fullowner 95
 #nation -2
 #req_dominion 6
 #req_maxdominion 8
@@ -6995,14 +6995,14 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #newevent
 #rarity 5
 #req_rare 3
-#req_fornation 95
 #req_pop0ok
 #req_death 1
 #req_growth -1
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fornation 95 
+#req_fullowner 95
 #nation -2
 #req_dominion 9
 #msg "Undead Melia in fort, death 1 dom 9-10"
@@ -7014,14 +7014,14 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #newevent
 #rarity 5
 #req_rare 2
-#req_fornation 95
 #req_pop0ok
 #req_death 2
 #req_growth -2
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fornation 95 
+#req_fullowner 95
 #nation -2
 #req_dominion 4
 #req_maxdominion 5
@@ -7040,7 +7040,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fullowner 95
 #nation -2
 #req_dominion 6
 #req_maxdominion 8
@@ -7058,7 +7058,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fullowner 95
 #nation -2
 #req_dominion 9
 #msg "Undead Melia in fort, death 2 dom 9-10"
@@ -7070,13 +7070,13 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #newevent
 #rarity 5
 #req_rare 3
-#req_fornation 95
 #req_pop0ok
 #req_death 3
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fullowner 95
+#req_fornation 95 
 #nation -2
 #req_dominion 4
 #req_maxdominion 5
@@ -7088,13 +7088,13 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #newevent
 #rarity 5
 #req_rare 6
-#req_fornation 95
 #req_pop0ok
 #req_death 3
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fornation 95 
+#req_fullowner 95
 #nation -2
 #req_dominion 6
 #req_maxdominion 8
@@ -7106,13 +7106,13 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #newevent
 #rarity 5
 #req_rare 9
-#req_fornation 95
 #req_pop0ok
+#req_fornation 95 
 #req_death 3
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fullowner 95
 #nation -2
 #req_dominion 9
 #msg "Undead Melia in fort, death 3 dom 9-10"
@@ -7163,7 +7163,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_unique 20
 #req_pop0ok
 #req_maxpop 150
-#req_fullowner
+#req_fullowner 95
 #req_foundsite 0
 #nation -2
 #msg "Site for depleted province [Stygian Stagnant Waters]"
@@ -7175,11 +7175,12 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #rarity 5
 #req_fornation 95
 #req_enchdom 200
+#req_rare 50
 #req_pop0ok
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fullowner 95
 #nation -2
 #msg "Spectral Kouretes freespawn"
 #1d3units 2843
@@ -7188,14 +7189,14 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #end
 #newevent
 #rarity 5
-#req_rare 20
+#req_rare 10
 #req_fornation 95
 #req_enchdom 200
 #req_pop0ok
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner
+#req_fullowner 95
 #nation -2
 #msg "Undead Melia freespawn"
 #com 6330
