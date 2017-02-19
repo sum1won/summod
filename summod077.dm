@@ -3374,16 +3374,14 @@ These scouts will become commanders after recruitment."
 #newspell
 #name "Quicken"
 #copyspell 540
-#name "scaling quickness"
+#name "Quicken"
 #aoe 1000
 #researchlevel 6
 #end
 #selectspell 540
 #end
 #selectspell 603
-#aoe 2005
--- Iron Warriors scales, but differently
-
+#aoe 2005-- Iron Warriors scales, but differently
 #end
 #selectspell 562
 #fatiguecost 40
