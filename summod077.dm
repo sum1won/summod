@@ -256,16 +256,13 @@
 #selectmonster 2670 --early xibalban dart thrower
 #ainorec
 #end
-#select
 #selectmonster 2722 --mid xibalban dart thrower
 #ainorec
 #end
-#select
 
 #selectmonster 2470 --late xibalban dart thrower
 #ainorec
 #end
-#select
 #selectmonster 2744 --late muuch xibalban dart thrower
 #ainorec
 #end
