@@ -3068,8 +3068,8 @@ These scouts will become commanders after recruitment."
 -- -2 Gemcost, casting requirement reduced to N4 from N5, -1 research level
 #selectspell 852
 #fatiguecost 800
-#path 6 0
-#pathlevel 6 4
+#path 0 6
+#pathlevel 0 4
 #researchlevel 5
 #end
 
@@ -7403,7 +7403,7 @@ won't live more than a month or two."
 #descr "The success of R'lyeh is largely due to their powers of mind control. By enslaving other peoples, they have built a slave-based society with few dissidents. The slaves are used even in war and comprise most of the armies of R'lyeh.  On colonizing land, the servants of the Aboleths have discovered a populous race whose enslavement can help further their ambitions."
 #end
 #selectmonster 1401 --polypal mother
-#divineins 5
+#divineins
 #fixedresearch 5
 #end
 #selectmonster 1404 --polypal spawn
