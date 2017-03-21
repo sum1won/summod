@@ -851,7 +851,7 @@ These scouts will become commanders after recruitment."
 #damage 1
 #spec 8390784
 #explspr 10219
-#flyspr -1
+#flightspr -1
 #sound 24
 #nextspell "stunwave"
 #end
@@ -1842,19 +1842,19 @@ These scouts will become commanders after recruitment."
 
 --- CHARIOTS	
 #selectmonster 	927 -- EA TC Noble
-#rsize 2
+#ressize  2
 #rcost 10
 #gcost 10025
 #end
 
 #selectmonster 	1665 -- EA TC Noble Commander
-#rsize 2
+#ressize  2
 #rcost 8
 #gcost 10025
 #end
 	
 #selectmonster 	1365 -- EA Ctis lizard chariot
-#rsize 2
+#ressize  2
 #rcost 8
 #gcost 10025
 #cleararmor
@@ -1863,13 +1863,13 @@ These scouts will become commanders after recruitment."
 #end
 
 #selectmonster 	1078 -- EA arco chariot
-#rsize 2
+#ressize  2
 #rcost 8
 #gcost 10020
 #end
 
 #selectmonster 	1078 -- EA arco chariot archer
-#rsize 2
+#ressize  2
 #rcost 8
 #gcost 10030
 #end
@@ -8074,7 +8074,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_temple 1
 #req_lab 1
 #req_fornation 95 
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #req_dominion 4
 #req_maxdominion 5
@@ -8093,7 +8093,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_temple 1
 #req_lab 1
 #req_fornation 95 
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #req_dominion 6
 #req_maxdominion 8
@@ -8112,7 +8112,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_temple 1
 #req_lab 1
 #req_fornation 95 
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #req_dominion 9
 #msg "Undead Melia in fort, death 1 dom 9-10"
@@ -8131,7 +8131,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_temple 1
 #req_lab 1
 #req_fornation 95 
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #req_dominion 4
 #req_maxdominion 5
@@ -8150,7 +8150,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #req_dominion 6
 #req_maxdominion 8
@@ -8168,7 +8168,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #req_dominion 9
 #msg "Undead Melia in fort, death 2 dom 9-10"
@@ -8185,7 +8185,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner 95
+#req_fullowner
 #req_fornation 95 
 #nation -2
 #req_dominion 4
@@ -8204,7 +8204,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_temple 1
 #req_lab 1
 #req_fornation 95 
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #req_dominion 6
 #req_maxdominion 8
@@ -8222,7 +8222,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #req_dominion 9
 #msg "Undead Melia in fort, death 3 dom 9-10"
@@ -8273,7 +8273,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_unique 20
 #req_pop0ok
 #req_maxpop 150
-#req_fullowner 95
+#req_fullowner
 #req_foundsite 0
 #nation -2
 #msg "Site for depleted province [Stygian Stagnant Waters]"
@@ -8290,7 +8290,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #msg "Spectral Kouretes freespawn"
 #1d3units 2843
@@ -8306,7 +8306,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #msg "Undead Melia freespawn"
 #com 6330
@@ -13579,7 +13579,7 @@ Summod improves Siren paths and improves the cost of icthytaurs, and the cost an
 #selectmonster 2414 --ichtyaur
 #spr1 "./summod/myrmitaur_1.tga"
 #spr2 "./summod/myrmitaur_2.tga"
-#clearweapon
+#clearweapons
 #weapon 331
 #gcost 10040
 #weapon 641
@@ -13590,7 +13590,7 @@ Summod improves Siren paths and improves the cost of icthytaurs, and the cost an
 #selectmonster 2415 --ichtyaur
 #spr1 "./summod/myrmitaurland_1.tga"
 #spr2 "./summod/myrmitaurland_2.tga"
-#clearweapon
+#clearweapons
 #gcost 10040
 #weapon 641
 #armor 135
@@ -15447,7 +15447,7 @@ for more detail."
 #mapmove 2
 #ap 6
 #poisonres 5
-#coldblooded
+#coldblood
 #swampsurvival
 #animal
 #undisciplined
