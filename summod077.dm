@@ -1269,6 +1269,18 @@ These scouts will become commanders after recruitment."
 #dmg 3
 #end
 
+#newweapon 1424
+#name "Stone Glaive"
+#len 4
+#rcost 6
+#dmg 7
+#att -1
+#def 1
+#slash
+#pierce
+#twohanded
+#end
+
 #newweapon 1425 --- EA THERODOS WEAPONS
 #name "Slash"
 #dmg 5
