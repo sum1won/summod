@@ -7588,7 +7588,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #startage 2000
 #poorleader
 #okundeadleader
-#darkvision
+#darkvision 100
 #weapon 85
 #weapon 85
 #weapon 85
@@ -7602,7 +7602,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #magicskill 3 1
 #magicskill 2 1 
 #magicskill 7 3
-#custommagic 1536
+#custommagic 1536 100
 #itemslots 12288
 #end
 
