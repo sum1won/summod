@@ -9516,7 +9516,7 @@ you after serving for a few months."
 #armor 4
 #montag 1305
 #end
-#newmonster 6406
+#newmonster
 #name "Terracotta Guardsman"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a guardsman."
 #spr1 "./summod/TerracottaGlaive1.tga"
@@ -13767,7 +13767,7 @@ Xibalba is nerfed by summod.  Bats are more expensive.  Foreign recruit commande
 #addreccom 2750
 #addreccom 2751
 #addreccom 2753
-#addreccom 6346
+#addreccom 6582
 #addreccom 6315
 #addrecunit 2738
 #addrecunit 2739
@@ -13787,8 +13787,6 @@ Xibalba is nerfed by summod.  Bats are more expensive.  Foreign recruit commande
 #uwunit2 2890
 #uwcom1 2748
 #uwcom2 2891
-#addreccom 6346
-#addreccom 6315
 #end
 #selectmonster 2674
 #slowrec
@@ -13808,7 +13806,7 @@ Xibalba is nerfed by summod.  Bats are more expensive.  Foreign recruit commande
 #slowrec
 #gcost 40
 #end
-#newmonster 6346 --Batab fort
+#newmonster 6582 --Batab fort
 #copystats 2782
 #copyspr 2782
 #noslowrec
