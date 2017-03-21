@@ -22,10 +22,8 @@
 --event                -none
 ----------------------
 
-
 ---Scales Change---
 #deathincome 2
-
 
 ----------------------
 --- AI Recruitment ---
@@ -70,8 +68,6 @@
 #selectmonster 2254 -- Berytos militia
 #ainorec
 #end	 
-
-
 
 
 
@@ -208,7 +204,6 @@
 #ainorec
 #end	   
 
-
 ----- NATIONAL MAYBES -----
 
 #selectmonster 167 -- ctis light infantry
@@ -256,22 +251,23 @@
 #selectmonster 2670 --early xibalban dart thrower
 #ainorec
 #end
-#select
+
 #selectmonster 2722 --mid xibalban dart thrower
 #ainorec
 #end
-#select
 
 #selectmonster 2470 --late xibalban dart thrower
 #ainorec
 #end
-#select
+
 #selectmonster 2744 --late muuch xibalban dart thrower
 #ainorec
 #end
+
 #selectmonster 2907 --ysian militia
 #ainorec
 #end
+
 #selectmonster 2644 --nazca human
 #ainorec
 #end
@@ -328,309 +324,406 @@ These scouts will become commanders after recruitment."
 #selectsite  185
 #homemon  6495
 #end
+
 #selectsite  182
 #homemon  6495
 #end
+
 #selectsite  181
 #homemon  6495
 #end
+
 #selectsite  178
 #homemon  6495
 #end
+
 #selectsite  162
 #homemon  6495
 #end
+
 #selectsite  129
 #homemon  6495
 #end
+
 #selectsite  126  
 #homemon  6495
 #end
+
 #selectsite  116
 #homemon  6495
 #end
+
 #selectsite  45  
 #homemon  6495
 #end
+
 #selectsite  175  
 #homemon  6496
 #end
+
 #selectsite  172  
 #homemon  6496
 #end
+
 #selectsite  170  
 #homemon  6496
 #end
+
 #selectsite  160
 #homemon  6496
 #end
+
 #selectsite  159
 #homemon  6496
 #end
+
 #selectsite  158
 #homemon  6496
 #end
+
 #selectsite  157
 #homemon  6496
 #end
+
 #selectsite  156
 #homemon  6496
 #end
+
 #selectsite  153
 #homemon  6496
 #end
+
 #selectsite  152  
 #homemon  6496
 #end
+
 #selectsite  150  
 #homemon  6496
 #end
+
 #selectsite  149  
 #homemon  6496
 #end
+
 #selectsite  147
 #homemon  6496
 #end
+
 #selectsite  144
 #homemon  6496
 #end
+
 #selectsite  142  
 #homemon  6496
 #end
+
 #selectsite  140
 #homemon  6496
 #end
+
 #selectsite  139
 #homemon  6496
 #end
+
 #selectsite  136  
 #homemon  6496
 #end
+
 #selectsite  135  
 #homemon  6496
 #end
+
 #selectsite  134
 #homemon  6496
 #end
+
 #selectsite  131
 #homemon  6496
 #end
+
 #selectsite  127
 #homemon  6496
 #end
+
 #selectsite  122
 #homemon  6496  
 #end
+
 #selectsite  119
 #homemon  6496
 #end
+
 #selectsite  118
 #homemon  6496
 #end
+
 #selectsite  117
 #homemon  6496
 #end
+
 #selectsite  114
 #homemon  6496
 #end
+
 #selectsite  113
 #homemon  6496
 #end
+
 #selectsite  110
 #homemon  6496
 #end
+
 #selectsite  107
 #homemon  6496
 #end
+
 #selectsite  106
 #homemon  6496
 #end
+
 #selectsite  102
 #homemon  6496
 #end
+
 #selectsite  101  
 #homemon  6495
 #end
+
 #selectsite  100
 #homemon  6496
 #end
+
 #selectsite  99
 #homemon  6496
 #end
+
 #selectsite  96
 #homemon  6496
 #end
+
 #selectsite  95
 #homemon  6496
 #end
+
 #selectsite  94
 #homemon  6496
 #end
+
 #selectsite  93
 #homemon  6496
 #end
+
 #selectsite  92
 #homemon  6496
 #end
+
 #selectsite  87  
 #homemon  6496
 #end
+
 #selectsite  86  
 #homemon  6496
 #end
+
 #selectsite  82  
 #homemon  6496
 #end
+
 #selectsite  81
 #homemon  6496
 #end
+
 #selectsite  80
 #homemon  6496
 #end
+
 #selectsite  79
 #homemon  6496
 #end
+
 #selectsite  78
 #homemon  6496
 #end
+
 #selectsite  77
 #homemon  6496
 #end
+
 #selectsite  73
 #homemon  6496
 #end
+
 #selectsite  72
 #homemon  6496
 #end
+
 #selectsite  71
 #homemon  6496
 #end
+
 #selectsite  69
 #homemon  6496
 #end
+
 #selectsite  68  
 #homemon  6496
 #end
+
 #selectsite  67
 #homemon  6496
 #end
+
 #selectsite  66  
 #homemon  6496
 #end
+
 #selectsite  65
 #homemon  6496
 #end
+
 #selectsite  64
 #homemon  6496
 #end
+
 #selectsite  61
 #homemon  6496
 #end
+
 #selectsite  58
 #homemon  6496
 #end
+
 #selectsite  57
 #homemon  6496
 #end
+
 #selectsite  56  
 #homemon  6496
 #end
+
 #selectsite  54
 #homemon  6496
 #end
+
 #selectsite  52
 #homemon  6496
 #end
+
 #selectsite  51
 #homemon  6496
 #end
+
 #selectsite  49
 #homemon  6496
 #end
+
 #selectsite  48
 #homemon  6496
 #end
+
 #selectsite  47
 #homemon  6496
 #end
+
 #selectsite  46
 #homemon  6496
 #end
+
 #selectsite  42
 #homemon  6496  
 #end
+
 #selectsite  40
 #homemon  6496
 #end
+
 #selectsite  39
 #homemon  6496
 #end
+
 #selectsite  37
 #homemon  6496
 #end
+
 #selectsite  36
 #homemon  6496
 #end
+
 #selectsite  34
 #homemon  6496
 #end
+
 #selectsite  33  
 #homemon  6496
 #end
+
 #selectsite  25
 #homemon  6496
 #end
+
 #selectsite  24
 #homemon  6496
 #end
+
 #selectsite  23
 #homemon  6496  
 #end
+
 #selectsite  18
 #homemon  6496
 #end
+
 #selectsite  16
 #homemon  6496
 #end
+
 #selectsite  15  
 #homemon  6496
 #end
+
 #selectsite  14
 #homemon  6496
 #end
+
 #selectsite  13
 #homemon  6496
 #end
+
 #selectsite  12
 #homemon  6496  
 #end
+
 #selectsite  10
 #homemon  6496
 #end
+
 #selectsite  9
 #homemon  6496
 #end
+
 #selectsite  8
 #homemon  6496
 #end
+
 #selectsite  6  
 #homemon  6496
 #end
+
 #selectsite  4  
 #homemon  6496
 #end
+
 #selectsite  2  
 #homemon  6496
 #end
+
 #selectsite  1  
 #homemon  6496
 #end 
 
-
 ----------------------
 --- Armour Changes ---
 ----------------------
-
 
 -- Full Ring Mail --  Primarily affects Logrians
 -- +1 def, -1 resource cost
@@ -824,7 +917,6 @@ These scouts will become commanders after recruitment."
 
 
 
-
 ---------------
 --- Weapons ---
 ---------------
@@ -841,6 +933,7 @@ These scouts will become commanders after recruitment."
 #spec 8390784
 #explspr -1
 #end
+
 #newspell
 #researchlevel -1
 #school -1
@@ -854,7 +947,7 @@ These scouts will become commanders after recruitment."
 #damage 1
 #spec 8390784
 #explspr 10219
-#flyspr -1
+#flightspr -1
 #sound 24
 #nextspell "stunwave"
 #end
@@ -901,6 +994,7 @@ These scouts will become commanders after recruitment."
 #nextspell 1077
 #descr "Shields the wielder from harm while friendly currents aid his allies."
 #end
+
 #selectitem 78 --wavebreaker
 #autospell "Current Command"
 #spell "Water Strike"
@@ -979,7 +1073,6 @@ These scouts will become commanders after recruitment."
 
 --Spectral Weapons
 
-
 #selectweapon 280 --spectral spear
 #clear
 #name "Spectral Spear"
@@ -990,6 +1083,7 @@ These scouts will become commanders after recruitment."
 #len 4
 #nratt 1
 #end
+
 #selectweapon 281 --spectral sword
 #clear
 #name "Spectral Sword"
@@ -1001,6 +1095,7 @@ These scouts will become commanders after recruitment."
 #magic
 #hardmrneg
 #end
+
 #selectweapon 572 --spectral long spear
 #clear
 #name "Spectral Long Spear"
@@ -1014,7 +1109,6 @@ These scouts will become commanders after recruitment."
 #end
 
 ---New Weapons
-
 
 #newweapon 1400
 #name "Metal Halberd"
@@ -1214,6 +1308,7 @@ These scouts will become commanders after recruitment."
 #rcost 1
 #norepel
 #end
+
 #newweapon 1421 --- EA THERODOS WEAPONS
 #name "Bash"
 #dmg 4
@@ -1272,6 +1367,18 @@ These scouts will become commanders after recruitment."
 #dmg 3
 #end
 
+#newweapon 1424
+#name "Stone Glaive"
+#len 4
+#rcost 6
+#dmg 7
+#att -1
+#def 1
+#slash
+#pierce
+#twohanded
+#end
+
 #newweapon 1425 --- EA THERODOS WEAPONS
 #name "Slash"
 #dmg 5
@@ -1282,6 +1389,7 @@ These scouts will become commanders after recruitment."
 #len 1
 #rcost 1
 #end
+
 #newweapon 1426 --- EA THERODOS WEAPONS
 #name "Stab"
 #dmg 5
@@ -1293,6 +1401,7 @@ These scouts will become commanders after recruitment."
 #rcost 1
 #norepel
 #end
+
 #newweapon 1427 --- EA THERODOS WEAPONS
 #name "Bash"
 #dmg 5
@@ -1302,6 +1411,7 @@ These scouts will become commanders after recruitment."
 #bonus
 #norepel
 #end
+
 #newweapon 1428 --- EA THERODOS WEAPONS
 #name "Slash"
 #dmg 5
@@ -1312,6 +1422,7 @@ These scouts will become commanders after recruitment."
 #magic
 #hardmrneg
 #end
+
 #newweapon 1429 --- EA THERODOS WEAPONS
 #name "Stab"
 #dmg 5
@@ -1323,6 +1434,7 @@ These scouts will become commanders after recruitment."
 #bonus
 #norepel
 #end
+
 #newweapon 1430 --- EA THERODOS WEAPONS
 #name "Bash"
 #dmg 5
@@ -1333,6 +1445,7 @@ These scouts will become commanders after recruitment."
 #bonus
 #norepel
 #end
+
 #newweapon 1431 --- EA THERODOS WEAPONS
 #name "Slash"
 #dmg 4
@@ -1513,6 +1626,7 @@ These scouts will become commanders after recruitment."
 #stealthy 10
 #noleader
 #end
+
 #selectpoptype 65
 #addreccom 6302
 #end
@@ -1557,18 +1671,21 @@ These scouts will become commanders after recruitment."
 #clearweapons
 #weapon 18
 #end
+
 #selectmonster 140
 #spr1 "./summod/barbarian1.tga"
 #spr2 "./summod/barbarian2.tga"
 #clearweapons
 #weapon 18
 #end
+
 #selectmonster 141
 #spr1 "./summod/barbarianB1.tga"
 #spr2 "./summod/barbarianB2.tga"
 #clearweapons
 #weapon 18
 #end
+
 #selectmonster 147
 #spr1 "./summod/barbarianC1.tga"
 #spr2 "./summod/barbarianC2.tga"
@@ -1577,6 +1694,7 @@ These scouts will become commanders after recruitment."
 #cleararmor
 #armor 12
 #end
+
 #selectpoptype 25
 #clearrec
 #addreccom 141
@@ -1595,9 +1713,11 @@ These scouts will become commanders after recruitment."
 #selectmonster 19 --Heavy Cav (Indie)
 #gcost 25
 #end
+
 #selectmonster 20 --Heavy Cav (Indie)
 #gcost 25
 #end
+
 #selectmonster 21 --Heavy Cav (Indie)
 #gcost 25
 #end
@@ -1644,6 +1764,7 @@ These scouts will become commanders after recruitment."
 #selectmonster 370 --Jade Maiden
 #gcost 10020
 #end
+
  
 #selectmonster 369 --Nightmare 
 #gcost 10040
@@ -1733,31 +1854,44 @@ These scouts will become commanders after recruitment."
 #rcost	23	
 #end  	-- Black Templar LA Ulm
 
-#selectmonster  	763	  #rcost	23	
+#selectmonster  	763	 
+#rcost	23	
 #end  	-- LA Pythium
-#selectmonster  	765	  #rcost	23	
+#selectmonster  	765	 
+#rcost	23	
 #end  	-- LA Pythium
-#selectmonster  	791	  #rcost	12	
+#selectmonster  	791	 
+#rcost	12	
 #end  	-- Red Guard
-#selectmonster  	792	  #rcost	12	
+#selectmonster  	792	 
+#rcost	12	
 #end  	-- MA TC General
-#selectmonster  	793	  #rcost	12	
+#selectmonster  	793	 
+#rcost	12	
 #end  	-- MA TC Prince General
-#selectmonster  	875	  #rcost	15	
+#selectmonster  	875	 
+#rcost	15	
 #end  	-- Indie
-#selectmonster  	930	  #rcost	12	
+#selectmonster  	930	 
+#rcost	12	
 #end  	--khan
-#selectmonster  	1172	  #rcost	12	
+#selectmonster  	1172	 
+#rcost	12	
 #end  	--Sauro cat
-#selectmonster  	1173	  #rcost	12	
+#selectmonster  	1173	 
+#rcost	12	
 #end  	--Sauro manflay
-#selectmonster  	1174	  #rcost	12	
+#selectmonster  	1174	 
+#rcost	12	
 #end  	--Sauro priestess
-#selectmonster  	1175	  #rcost	12	
+#selectmonster  	1175	 
+#rcost	12	
 #end  	--Sauro queen
-#selectmonster  	1187	  #rcost	12	
+#selectmonster  	1187	 
+#rcost	12	
 #end  	-- full scale indie
-#selectmonster  	1237	  #rcost	23	
+#selectmonster  	1237	 
+#rcost	23	
 #end  	--black plate Hochmeister LA Ulm
 #selectmonster  	1553	
 #rcost	12	
@@ -1832,19 +1966,20 @@ These scouts will become commanders after recruitment."
 
 --- CHARIOTS	
 #selectmonster 	927 -- EA TC Noble
-#rsize 2
+#ressize  2
 #rcost 10
 #gcost 10025
 #end
 
 #selectmonster 	1665 -- EA TC Noble Commander
-#rsize 2
+#ressize 2
 #rcost 8
 #gcost 10025
 #end
+
 	
 #selectmonster 	1365 -- EA Ctis lizard chariot
-#rsize 2
+#ressize 2
 #rcost 8
 #gcost 10025
 #cleararmor
@@ -1853,13 +1988,13 @@ These scouts will become commanders after recruitment."
 #end
 
 #selectmonster 	1078 -- EA arco chariot
-#rsize 2
+#ressize 2
 #rcost 8
 #gcost 10020
 #end
 
 #selectmonster 	1078 -- EA arco chariot archer
-#rsize 2
+#ressize 2
 #rcost 8
 #gcost 10030
 #end
@@ -1997,7 +2132,6 @@ These scouts will become commanders after recruitment."
 #weapon 670 --Trident
 #end 
 
-
 #selectmonster 424 -- Meteorite Guard
 #clearweapons --trident
 #weapon 642 --meteorite trident
@@ -2048,7 +2182,6 @@ These scouts will become commanders after recruitment."
 #weapon 643 -- uwspear
 #end 
 
-
 --- Muuch ---
 
 #selectmonster 2745 -- sak muuch warrior
@@ -2084,6 +2217,7 @@ These scouts will become commanders after recruitment."
 #clearweapons
 #weapon 1424
 #end
+
 #selectmonster 2894 --returned lord
 #spr1 "./summod/retlord_1.tga"
 #spr2 "./summod/retlord_2.tga"
@@ -2213,98 +2347,126 @@ These scouts will become commanders after recruitment."
 #selectweapon 242 --hunter's knife
 #secondaryeffect 1413
 #end
+
 #selectitem 3 --ice sword
 #coldres 3
 #end
+
 #selectitem 43 --lightningspear
 #mainlevel 2
 #constlevel 6
 #shockres 5
 #end
+
 #selectweapon 278 --lightningspear
 #secondaryeffect 1408 --areashock
 #end
+
 #selectweapon 99 --main gauche parrying
 #def 6
 #end
+
 #selectitem 65--rat tail
 #beastmaster 2
 #end
+
 #selectitem 69 -- rod of phoenix
 #mainlevel 3
 #end
+
 #selectitem 14 --sceptre of authority
 #command 50
 #end
+
 #selectweapon 395 --shadowbrand
 #dmg 8
 #end
+
 #selectitem 83
 #mainlevel 1
 #end
+
 #selectitem 21 --smasher
 #mainlevel 1
 #end
+
 #selectweapon 61 --snake bladder
 #aoe 5
 #end
+
 #selectweapon 219 --falsefetters for star of thralldom
 #aoe 5
 #end
+
 #selectweapon 173 --star of heroes
 #nratt 2
 #end
+
 #selectitem 50 --sword of swiftness
 #autospell "Quicken Self"
 #end
+
 #selectweapon 106
 #def 1
 #end
+
 #selectitem 67 --summer sword
 #mainlevel 1
 #constlevel 6
 #supplybonus 200
 #end
+
 #selectweapon 208--thunderwhip
 #dmg 12
 #secondaryeffect 411
 #end
+
 #selectitem 64 --vinewhip
 #constlevel 2
 #mainlevel 1
 #end
+
 #selectitem 40 --wand of wildfire
 #mainlevel 2
 #end
+
 --- Shields ---
 #selectitem 137 --charcoal shield
 #mainlevel 1
 #end
+
 #selectitem 128 --enchanted shield
 #mr 1
 #end
+
 #selectitem 136 --goldenhoplon
 #mainlevel 1
 #fireres 10
 #end
+
 #selectitem 144 --lanternshield
 #mainlevel 1
 #end
+
 #selectarmor 42 --leadshield
 #def 7
 #enc 2
 #end
+
 #selectitem 138 --luckyshield
 #mainlevel 1
 #end
+
 #selectarmor 67
 #def 6
 #end
+
 #selectitem 143 --scultata voltranus
 #autospell "Shockwave"
 #autospellrepeat 1
 #descr "This formidable tower shieldis enchanted with Earth to make it strong.  On its surface is an enchanted symbol that will shock nearby enemies.  The wielder is partially protected from lightning.  Tower shields cannot be used by mounted troops."
 #end
+
 #selectitem 139
 #autospell "Horror Taint"
 #autospellrepeat 1
@@ -2312,173 +2474,220 @@ These scouts will become commanders after recruitment."
 #descr "The large, round shield is carved with disturbing patterns. Any disturbance to their integrity will mark the stiker for attack, though anyone in the vicinity of the shield runs the risk of being marked."
 #tainted 5
 #end
+
 #selectitem 133 --shield of valor
 #inspirational 1
 #end
+
 #selectitem 141 --totem shield
 #autospell "Totem Heal"
 #autospellrepeat 1
 #descr "The head painted on this shield is home to a spirit that will bestow curses and boons.  The bearer's living allies will be healed, while those attacking the bearer will be cursed."
 #end
+
 #selectitem 131 --weightless kite
 #mainlevel 1
 #end
+
 #selectarmor 66
 #def 6
 #prot 19
 #end
+
 #selectitem 130 --weightless tower
 #mainlevel 1
 #end
+
 --- 2H Weapons ---
 #selectitem 30 --baneblade
 #fear 3
 #end
+
 #selectweapon 41
 #dmg 12
 #end
+
 #selectitem 83 --banefirexbow
 #constlevel 4
 #end
+
 #selectweapon 434
 #ammo 24
 #end
+
 #selectitem 89 --banner of north star
 #end
+
 #selectweapon 155 --bow of botulf
 #ammo 24
 #end
+
 #selectitem 73--bow of war
 #constlevel 4
 #end
+
 #selectweapon 154
 #ammo 24
 #dmg 13
 #end
+
 #selectitem 71 --carmine cleaver
 #mainlevel 1
 #fireshield 10
 #end
+
 #selectitem 58
 #descr "The Doom Glaive is a truly fearsome weapon used by some undead warriors.  Those close to where it strikes will be cursed for the rest of their lives.  Those lives are likely to be very short, as many victims die and age within minutes.  Those hit directly by the glaive are more likely to suffer from accelerated aging."
 #end
+
 #selectweapon 430 --doomglaive
 #secondaryeffect 1409
 #end
+
 #selectitem 10
 #mr 1
 #end
+
 #selectweapon 220
 #def 3
 #end
+
 #selectweapon 180 --ethereal xbow
 #ammo 24
 #end
+
 #selectitem 79 --gatecleaver
 #mainlevel 2
 #end
+
 #selectitem 34 --gloves of glad
 #mainlevel 1
 #end
+
 #selectweapon 128
 #dmg 5
 #def 3
 #end
+
 #selectweapon 565 --golden arbalest
 #nratt 3
 #ammo 24
 #end
+
 #selectitem 23 --halberd of might
 #str 8
 #end
+
 #selectweapon 130 --hammer of mountains
 #att 2
 #end
+
 #selectitem 91 --hellsword
 #mainlevel 2
 #secondarylevel 1
 #end
+
 #selectweapon 241 --wraithsword
 #dmg 15
 #end
+
 #selectitem 20 --ice pebble staff
 #mainlevel 2
 #end
+
 #selectweapon 181 --implementor axe
 #dmg 12
 #secondaryeffect 440 --lesser fear
 #end
+
 #selectitem 84 --ivory bow
 #mainlevel 1
 #end
+
 #selectweapon 566
 #dmg 18
 #att 5
 #ammo 24
 #end
+
 #selectweapon 161  --JMC
 #att 6
 #ammo 24
 #end
+
 #selectweapon 152 --longbow of accuracy
 #dmg 18
 #ammo 24
 #end
+
 #selectweapon 133 --midgetmasher
 #dmg 0
 #aoe 1
 #end
+
 #selectitem 80 --moonblade
 #mainlevel 2
 #ethereal
 #descr "A blade tempered in stellar light, it causes additional damage to magical beings while protecting it's wielder from mundane sources of damage."
 #end
+
 #selectitem 27 --piercer
 #secondarylevel 0
 #secondarypath -1
 #end
+
 #selectweapon 168
 #ammo 24
 #end
+
 #selectitem 38 --flame focus
 #firerange 2
 #end
+
 #selectitem 47 --staff of corrosion
 #mainlevel 1
 #end
+
 #selectitem 70 --staff of elemental mastery
 #firerange 2
 #airrange 2
 #waterrange 2
 #earthrange 2
 #end
+
 #selectitem 76 --staff of elemental mastery
 #firerange 2
 #airrange 2
 #waterrange 2
 #earthrange 2
 #end
+
 #selectitem 74 --staff of storms
 #mainlevel 4
 #secondarypath 1
 #secondarylevel 1
 #end
+
 #selectitem 86 --standard of damned
 #mainlevel 3
 #undcommand 100
 #descr "The standard drains life energy from enemies and adds it to the owner of the standard.  It causes fear in nearby enemies, and allows the wielder to lead a legion of undead."
 #end
+
 #selectitem 66 --skull standard
 #inspirational 1
 #descr "The goatlike skull of a Pain is inspired witha rune of horror and placed on top of a foul standard.  The skull takes courage from enemies and grants it to allied troops."
 #end
+
 #selectitem 44 --Thunderbow
 #weapon 0
 #weapon 1412
 #end
+
 #selectweapon 137 --entangle for Vine Bow, Vine Whip
 #aoe 1
 #end
+
 #selectweapon 332 --vision's foe
 #nratt -2
 #ammo 24
@@ -2488,6 +2697,7 @@ These scouts will become commanders after recruitment."
 #fear 5
 #mainlevel 2
 #end
+
 #selectweapon 110
 #dmg 13
 #end
@@ -2530,6 +2740,7 @@ These scouts will become commanders after recruitment."
 #selectitem 175 --berserker pelt
 #constlevel 12
 #end
+
 #newitem
 #copyitem 55
 #name "Berserker Pelt"
@@ -2588,6 +2799,7 @@ These scouts will become commanders after recruitment."
 #fireres -5
 #descr "Armour made from the skin of a hydra, it gives total poison immunity and grants the wearer the regenerative powers of the hydra, but is vulnerable to fire."
 #end
+
 #selectarmor 43
 #prot 15
 #end
@@ -2774,7 +2986,7 @@ These scouts will become commanders after recruitment."
 #undcommand 10
 #end
 
-#selectitem 290	 --	Lycantropos Amulet - #heal, improved stats
+#selectitem 290	 --	Lycantropos Amulet -#heal, improved stats
 #str 3
 #heal
 #magicboost 53 -1
@@ -2870,92 +3082,113 @@ These scouts will become commanders after recruitment."
 #selectitem 207
 #mainlevel 3
 #end
+
 #selectarmor 35
 #enc 3
 #end
+
 -Amon Hotep
 #selectitem 167
 #mainlevel 5
 #end
+
 -Atlas of Creation
 #selectitem 337
 #secondarylevel 4
 #end
+
 -Boots of Antaeus
 #selectitem 228
 #mainlevel 4
 #end
+
 -Carcator
 #selectitem 346
 #mainlevel 2
 #end
+
 -Draupnir
 #selectitem 375
 #mainlevel 4
 #end
+
 -Fenris' Pelt
 #selectitem 211
 #mainlevel 3
 #end
+
 -Gate Stone
 #selectitem 336
 #mainlevel 7
 #secondarylevel 7
 #end
+
 -Hammer of The Forge Lord
 #selectitem 104
 #mainlevel 5
 #secondarylevel 3
 #fixforgebonus 8
 #end
+
 -Monolith Armor
 #selectitem 208
 #mainlevel 4
 #reinvigoration 6
 #end
+
 #selectarmor 47
 #prot 32
 #end
+
 -Nethgul
 #selectitem 342
 #mainlevel 2
 #end
+
 -Sun Slayer
 #selectitem 117
 #mainlevel 5
 #end
+
 -Tempest
 #selectitem 97
 #mainlevel 5
 #end
+
 -The Ark
 #selectitem 325
 #mainlevel 5
 #secondarylevel 5
 #end
+
 -The Horror Harmonica
 #selectitem 344
 #mainlevel 5
 #secondarylevel 3
 #end
+
 -Manual of Crossbreeding
 #selectitem 357
 #mainlevel 2
 #secondarylevel 2
 #end
+
 -Staff from the Sun
 #selectitem 125
 #mainlevel 4
 #end
+
 -Summit
 #selectitem 101
 #mainlevel 4
 #end
+
 #selectweapon 162
 #att 15
 #def 9
 #armorpiercing
 #end
+
 -Unquenched Sword
 #newspell
 #name "Unquenched Flames"
@@ -2963,37 +3196,45 @@ These scouts will become commanders after recruitment."
 #name "Unquenched Flames"
 #nextspell 823
 #end
+
 #selectitem 94
 #mainlevel 5
 #autospell "Unquenched Flames"
 #end
+
 -Wondrous Box
 #selectitem 351
 #mainlevel 3
 #poisonres 5
 #end
+
 -Percival the Pocket Knight
 #selectitem 334
 #mainlevel 1
 #end
+
 #selectmonster 959
 #hp 16
 #att 13
 #def 13
 #str 13
 #end
+
 -The Sharpest Tooth
 #selectitem 119
 #mainlevel 1
 #end
+
 -Holger the Head
 #selectitem 333
 #secondarypath -1
 #secondarylevel 0
 #end
+
 #selectmonster 1139
 #onebattlespell "Personal Luck"
 #end
+
 -Harvest Blade
 #selectitem 122
 #mainlevel 2
@@ -3058,8 +3299,8 @@ These scouts will become commanders after recruitment."
 -- -2 Gemcost, casting requirement reduced to N4 from N5, -1 research level
 #selectspell 852
 #fatiguecost 800
-#path 6 0
-#pathlevel 6 4
+#path 0 6
+#pathlevel 0 4
 #researchlevel 5
 #end
 
@@ -3071,7 +3312,6 @@ These scouts will become commanders after recruitment."
 #end
 
 --- Globals
-
 
 #selectspell 925 --purgatory
 #researchlevel 6
@@ -3233,6 +3473,7 @@ These scouts will become commanders after recruitment."
 #name "Life for a Life"
 #descr "The Blood mage sacrifices a virgin and in exchange his foes are slain on the battlefield. Lifeless beings are immune to this spell, everyone else will take severe and irresistible damage from it."
 #end
+
 #selectspell 999
 #school -1
 #end
@@ -3378,11 +3619,14 @@ These scouts will become commanders after recruitment."
 #aoe 1000
 #researchlevel 6
 #end
+
 #selectspell 540
 #end
+
 #selectspell 603
 #aoe 2005-- Iron Warriors scales, but differently
 #end
+
 #selectspell 562
 #fatiguecost 40
 #aoe 1000
@@ -3488,9 +3732,11 @@ These scouts will become commanders after recruitment."
 #aoe 0
 #nreff 1002
 #end
+
 #selectspell 908 --confusion
 #aoe 2
 #end
+
 #selectspell 565 -- enfeeble
 #aoe 2006
 #end 
@@ -3500,6 +3746,7 @@ These scouts will become commanders after recruitment."
 #name "Final Enfeeble"
 #school -1
 #end
+
 #newspell
 #name "Continue Enfeeble"
 #copyspell 565
@@ -3507,41 +3754,53 @@ These scouts will become commanders after recruitment."
 #nextspell "Final Enfeeble"
 #school -1
 #end
+
 #selectspell 565
 #nextspell "Continue Enfeeble"
 #end
+
 #selectspell 559 --bonemelter
 #range 25
 #pathlevel 1 1
 #end
+
 #selectspell 526 --weakness
 #nreff 1000
 #end
+
 #selectspell 859 --unravelling
 #pathlevel 0 5
 #fatiguecost 400
 #end
+
 #selectspell 560 --lightning resistance
 #aoe 1012
 #end
+
 #selectspell 554 --cold resistance
 #aoe 1012
 #end
+
 #selectspell 558 --fire resistance
 #aoe 1012
 #end
+
 #selectspell 806 --fire ward
 #aoe 1013
 #end
+
 #selectspell 810 --winter ward
 #aoe 1013
 #end
+
 #selectspell 805 --poison ward
 #aoe 1013
 #end
+
 #selectspell 807 --thunder ward
 #aoe 1013
 #end
+
 #selectspell 574
 #aoe 1002
 #end
@@ -3569,91 +3828,116 @@ These scouts will become commanders after recruitment."
 #gemprod 0 1
 #descr "Flame Spirits can sometimes be found roaming in hot regions. They burn intensely and are always accompanied by a few Will o' the Wisps who thrive in the magic heat that surrounds the Flame Spirits.  Flame Spirits are skilled fire mages, and can summon more of their kind over time."
 #end
+
 -- Summon Fire Drake --
 -- -2 Gemcost
 #selectspell 654
 #fatiguecost 500
 #end
+
 #selectspell 673 --Summer Lions
 #nreff 1004
 #descr "The caster summons and binds several Summer Lions. The Summer Lion is one of the four seasonal spirits. It is a large, ethereal lion, radiating heat like the summer sun. It is a magical, mindless being that must be commanded by a mage."
 #end
+
 #selectmonster 515
 #prot 7
 #end
+
 #selectspell 796 --Terracotta Army
 #nreff 3013
 #end
+
 #selectmonster 2134
 #clearweapons
 #weapon 2
 #end
+
 ---Earth
 #selectspell 661 --cave drake
 #fatiguecost 400
 #end
+
 #selectspell 756 --Crusher
 #fatiguecost 1000
 #spec 8388608 -- UW cast
 #end
+
 #selectmonster 475
 #weapon 562
 #siegebonus 30
 #end
+
 #selectspell 752 --Clockwork Soldiers
 #fatiguecost 600
 #end
+
 #selectmonster 2321
 #reinvigoration -10
 #prot 20
 #ap 12
 #end
+
 #selectmonster 982 --Clockwork Horrors
 #reinvigoration -12
 #end
+
 #selectspell 832 --Enliven Statues
 #fatiguecost 1500
 #end
+
 #selectmonster 512 -Fall Bear
 #weapon 322 --bite
 #prot 10
 #end
+
 #selectspell 686
 #nreff 1005
 #descr "The caster summons and binds several Fall Bears. The Fall Bear is one of the four seasonal spirits. It is a large, ethereal bear. It is a magical, mindless being that must be commanded by a mage."
 #end
+
 #selectspell 833 --Hidden in sand
 #fatiguecost 6000
 #end
+
 #selectmonster 1978-- Dust Priest
 #pooramphibian
 #end
+
 #selectmonster 1979 -- Dust King
 #pooramphibian
 #end
+
 #selectmonster 1980 -- Dust Warrior
 #pooramphibian
 #end
+
 #selectmonster 1981 -- Dust Walker
 #pooramphibian
 #end
+
 -Hidden underneath
 #selectspell 1028
 #fatiguecost 6000
 #spec 8388608 -- UW cast
 #end
+
 #selectmonster 2522  --released sage
 #hp 13
 #end
+
 #selectmonster 2523  --released king
 #hp 18
 #end
+
 #selectmonster 2524  --released warrior
 #hp 17
 #end
+
 #selectmonster 2525  --released one
 #hp 13
 #end
+
 -- Iron Dragon
 #selectspell 764
 #effect 10021
@@ -3661,57 +3945,72 @@ These scouts will become commanders after recruitment."
 #fatiguecost 2000
 #spec 8388608 -- UW cast
 #end
+
 #selectmonster 531
 #noleader
 #end
+
 #selectspell 761 -Mechanical Men
 #nreff 2008
 #end
+
 #selectmonster 532
 #prot 19
 #end
+
 #selectspell 763 -- Siege Golem 
 #fatiguecost 1000
 #researchlevel 7
 #spec 8388608 -- UW cast
 #end
+
 #selectspell 705 --Troll King
 #fatiguecost 4500
 #end
+
 #selectspell 687 --Trolls
 #fatiguecost 1000
 #end
+
 ---Air
 #selectspell 637 --Amphiptere
 #fatiguecost 400
 #end
+
 #selectmonster 1412
 #prec 12
 #end
+
 #selectspell 678 --Draconians
 #fatiguecost 4000
 #end
+
 #selectmonster 593
 #weapon 408 
 #prot 12
 #end
+
 #selectmonster 620
 #weapon 408
 #prot 13
 #end
+
 #selectspell 675 --spring hawks
 #nreff 2006
 #fatiguecost 3000
 #descr "The caster summons and binds Spring Hawks.  The Spring Hawk is one of the four seasonal spirits.  It is a large, ethereal bird that discharges lightning bolts.  It is a magical, mindless being that must be commanded by a mage."
 #end
+
 #selectmonster 513
 #prot 2
 #end
+
 #selectmonster 520 --Wyvern
 #size 4
 #prot 13
 #weapon 408
 #end
+
 ---Water
 #newmonster 6308
 #copystats 564
@@ -3728,56 +4027,73 @@ These scouts will become commanders after recruitment."
 #poisonarmor
 #descr "A noble Sea Troll is visiting the nation indefinitely. Perhaps foolishly, the Sea Troll Courts hope that with this show of strength and might, they may receive favor when the Pretender God ascends to godhood. This ambassador is able to bring the troops he commands beneath the waves. Sea Trolls are robust humanoid creatures of immense size. They are larger than ordinary trolls, but their skin is softer. Sea trolls are known to regenerate wounds and they can enter the sea."
 #end
+
 #selectspell 718 --asp turtle
 #fatiguecost 800
 #end
+
 #selectspell 720 --Catoblepas
 #fatiguecost 1000
 #end
+
 #selectspell 788 --claymen
 #fatiguecost 1000
 #nreff 3013
 #end
+
 #selectmonster 2159 -- Gelatinous Cube --
 #ap 6
 #heal
 #end
+
 #selectspell 798
 #fatiguecost 300
 #end
+
 #selectspell 830 -- Hidden in snow
 #fatiguecost 6000
 #end
+
 #selectmonster 1200 -- Unfrozen Mage
 #pooramphibian
 #end
+
 #selectmonster 1201-- Unfrozen Lord
 #pooramphibian
 #end
+
 #selectmonster 1202 -- Unfrozen Warrior
 #pooramphibian
 #end
+
 #selectmonster 1203 -- Unfrozen
 #pooramphibian
 #end
+
 #selectspell 659 --icedrake
 #fatiguecost 500
 #end
+
 #selectspell 703 -Kokythiad
 #fatiguecost 3500
 #end
+
 #selectspell 683 -Naiad
 #fatiguecost 3000
 #end
+
 #selectspell 684 -Naiad warriors
 #fatiguecost 2000
 #end
+
 #selectspell 702 -Sea King
 #fatiguecost 4500
 #end
+
 #selectspell 681 -Sea Trolls
 #fatiguecost 1000
 #end
+
 #selectmonster 564 -Sea Troll
 #clearweapons
 #weapon 29 
@@ -3804,6 +4120,7 @@ These scouts will become commanders after recruitment."
 #descr "Watchers are usually placed at a high place with a view over the surrounding landscape and given the task of guarding a province from prying eyes.  Watchers have incredible vision and count as fifty soldiers when patrolling a province.  They can blast enemies with lightning. This watcher is ready to be transported to a destination no more than one month away."
 #firstshape 768
 #end
+
 #newmonster 6305 --unsettled watcher
 #copystats 768
 #copyspr 768
@@ -3824,27 +4141,33 @@ These scouts will become commanders after recruitment."
 #descr "Watchers are usually placed at a high place with a view over the surrounding landscape and given the task of guarding a province from prying eyes.  Watchers have incredible vision and count as fifty soldiers when patrolling a province.  They can blast enemies with lightning. This watcher is ready to be transported to a destination."
 #firstshape 6304
 #end
+
 #selectmonster 768--watcher
 #weapon 562
 #end
+
 #selectspell 808
 #effect 10001
 #damage 6305
 #spec 8388608
 #descr "The mage creates a stone statue and gives it awareness and magical powers.  The Watcher must be transported to it's destination shortly after being created, where it will be given the task of guarding a landscape from prying eyes.  They have incredible vision and count as fifty soldiers when patrolling a province, but must be lead by a mage to function.  They can blast enemies with lightning, or swing at them with their stony fists if they approach the Watcher's pedestal."
 #end
+
 #selectspell 682 --winterwolves
 #nreff 2004
 #fatiguecost 2004
 #descr "The caster summons and binds several Winter Wolves. The Winter Wolf is one of the four seasonal spirits. It is a large, ethereal wolf surrounded by an icy wind. It is a magical, mindless being that must be commanded by a mage."
 #end
+
 #selectmonster 511 
 #prot 4
 #hp 16
 #end
+
 #selectspell 640 --summon yetis
 #fatiguecost 1200
 #end
+
 ---Astral
 #selectspell 744 --Abomination
 #fatiguecost 1500
@@ -3858,6 +4181,7 @@ These scouts will become commanders after recruitment."
 #effect 10089
 #damage 994
 #end
+
 #selectmonster 994
 #shockres 5
 #fireres 5
@@ -3865,6 +4189,7 @@ These scouts will become commanders after recruitment."
 #mr 20
 #hp 210
 #end
+
 #selectmonster 995
 #shockres 5
 #fireres 5
@@ -3874,6 +4199,7 @@ These scouts will become commanders after recruitment."
 #regeneration 12
 #hp 260
 #end
+
 #selectmonster 996
 #shockres 3
 #fireres 3
@@ -3884,6 +4210,7 @@ These scouts will become commanders after recruitment."
 #hp 350
 #regeneration 15
 #end
+
 #selectmonster 997
 #shockres 5
 #fireres 5
@@ -3901,9 +4228,11 @@ These scouts will become commanders after recruitment."
 #weapon 63
 #weapon 284
 #end
+
 #selectspell 707 --ether gate
 #fatiguecost 6500
 #end
+
 #selectmonster 737 --ether lord
 #hp 30
 #end 
@@ -3913,9 +4242,11 @@ These scouts will become commanders after recruitment."
 #selectspell 762 --golem
 #fatiguecost 2500
 #end
+
 #selectspell 766 -- Juggernaut Construction
 #fatiguecost 1000
 #end
+
 #newmonster 6306
 #name "Unsettled Telestic Animate"
 #copystats 473
@@ -3933,6 +4264,7 @@ These scouts will become commanders after recruitment."
 #ap 1
 #firstshape 473
 #end
+
 #newmonster 6307
 #name "Unsettled Telestic Animate"
 #copystats 473
@@ -3950,12 +4282,14 @@ These scouts will become commanders after recruitment."
 #ap 1
 #firstshape 6306
 #end
+
 #selectspell 910
 #effect 10021
 #damage 6307
 #spec 8388608
 #descr "The mage crafts a statue and places a golden plate inscribed with divine names in its head.  The statue is thus animated by divine power and will speak the will of the pretender god.  The statue has great priestly powers, but is only capable of locomotion for its first month of existence."
 #end
+
 ---Death
 -- Arouse Hunger --
 -- +2 Ghouls per cast
@@ -3963,12 +4297,15 @@ These scouts will become commanders after recruitment."
 #nreff 3006
 #descr "The necromancer curses twenty beings in a far away province with undeath. The victims will become ghouls that serve the necromancer."
 #end
+
 #selectmonster 185 --Bane
 #hp 25
 #end
+
 #selectspell 646
 #fatiguecost 600
 #end
+
 #selectspell 803 -- Behemoth
 #fatiguecost 800
 #end
@@ -3977,6 +4314,7 @@ These scouts will become commanders after recruitment."
 #ap 6
 #mapmove 2
 #end
+
 #selectspell 849
 #fatiguecost 1000
 #end
@@ -3990,6 +4328,7 @@ These scouts will become commanders after recruitment."
 #pathlevel 0 4
 #pathlevel 1 2
 #end
+
 #selectmonster 1099
 #banefireshield 10
 #fear 10
@@ -3999,11 +4338,13 @@ These scouts will become commanders after recruitment."
 #slashres
 #descr "A poison golem is a metal giant made of dark alloys from the Underworld. The poison golem is made for a single purpose, destruction, and its mere presence is harmful to the living. The very land in which it stays will slowly wither and die. The construct is always surrounded by sickly green flames of the Underworld, and can travel through the underwo outside of battle, improving its ability to avoid difficult terrain."
 #end
+
 #newmonster 6301
 #copystats 1099
 #copyspr 1099
 #firstshape 6300
 #end
+
 #newmonster 6300
 #copystats 1099
 #copyspr 1099
@@ -4025,6 +4366,7 @@ These scouts will become commanders after recruitment."
 #fatiguecost 1000
 #nreff 2016
 #end
+
 #selectweapon 199 --banefire bow
 #armorpiercing
 #end
@@ -4053,84 +4395,108 @@ These scouts will become commanders after recruitment."
 #selectspell 619 --summon animals
 #fatiguecost 800
 #end
+
 #selectspell 725 --animal horde
 #fatiguecost 1800
 #end
+
 #selectspell 649 --ambush of tigers
 #nreff 2010
 #end
+
 #selectmonster 1140
 #stealthy 40
 #end
+
 #selectmonster 633 --Werewolf (Call of the Wild)
 #hp 25
 #end
+
 #selectmonster 2229 -Forest Giant
 #weapon 609
 #def 11
 #end
+
 #selectspell 710-Forest troll tribe
 #fatiguecost 3300
 #end
+
 #selectmonster 2220
 #stealthy 40
 #end
+
 #selectmonster 2219
 #stealthy 40
 #end
+
 #selectspell 695-Forest Trolls
 #fatiguecost 700
 #end
+
 #selectspell 715 -Lamia queen
 #fatiguecost 2000
 #end
+
 #selectspell 757 -Lumber Construct
 #fatiguecost 400
 #researchlevel 3
 #end
+
 #selectmonster 476
 #siegebonus 10
 #end
+
 #selectspell 754 -Manikin
 #fatiguecost 2000
 #nreff 4012
 #end
+
 #selectspell 758 -Mandragora
 #fatiguecost 800
 #end
+
 #selectspell 648 --pride of lions
 #nreff 3007
 #end
+
 #selectspell 669 -Kithaironic Lion
 #pathlevel 0 2
 #fatiguecost 600
 #nreff 2
 #descr "The caster summons a pair of Kithaironic Lions and binds them to his service.  Lions are large and have iron-like hides."
 #end
+
 #selectmonster 514
 #prot 20
 #end
+
 #selectmonster 559 --Sleeper
 #holy
 #end
+
 #selectmonster 694 --Sloth of bears
 #weapon 322
 #end
+
 #selectspell 651 --vine men
 #nreff 5
 #end
+
 #selectspell 666 ---  vine ogres
 #nreff 3
 #end
+
 #selectspell 668 -- Summon Swamp Drake 
 #fatiguecost 600
 #end
+
 #selectspell 748 -- Tarrasque  -5 Gemcost, summon as a commander instead of a unit, improved stats
 #fatiguecost 2000
 #effect 10089
 #damage 925
 #researchlevel 6
 #end
+
 #selectmonster 925
 #heal
 #unique
@@ -4157,47 +4523,59 @@ These scouts will become commanders after recruitment."
 #selectspell 993 --blood rite
 #nreff 7
 #end
+
 #selectspell 964 -Crossbreeding
 #fatiguecost 1200
 #end
+
 #selectspell 1003 -Improved Crossbreeding
 #fatiguecost 1600
 #end
+
 #selectspell 979 --dark vines
 #fatiguecost 3000
 #nreff 5
 #end
+
 #selectmonster 2794 --demonic locust
 #heretic 2
 #end
+
 #selectmonster 304 --Devil
 #fireshield 6
 #end
+
 #selectspell 985 --5 gates
 #fatiguecost 2400
 #end
+
 #selectmonster 638-Spine Devil
 #prec 11
 #descr "Spine devils are spine-covered demons summoned from the Abyss by sacrificing virgins. The spines covering their bodies are venemous and anyone attacking them with short weapons may get pricked and poisoned. They fight by throwing their spines or slashing with their venemous claws."
 #weapon 1418
 #end
+
 #selectspell 955
 #nreff 3
 #fatiguecost 1200
 #descr "The caster sacrifices several blood slaves to contact and bind three spine devils.  Spine devils are spine-covered demons summoned from the Abyss by sacrificing virgins. The spines covering their bodies are venemous and anyone attacking them with short weapons may get pricked and poisoned. They fight by throwing their spines or slashing with their venemous claws."
 #end
+
 #selectmonster 526 -Serpent Fiend
 #str 16
 #att 15
 #end
+
 #selectspell 966
 #fatiguecost 1200
 #nreff 3
 #descr "The caster sacrifices several blood slaves to contact and bind three Serpent Fiends.  Serpent Fiends are bat-winged, serpent-like demons summoned from the abyss.  Their bite is highly venemous."
 #end
+
 #selectspell 977 --succubus
 #fatiguecost 4400
 #end
+
 -------nations-------
 ----EA Nerfed Nations
 ---- Lanka
@@ -4212,31 +4590,39 @@ been renewed.
 
 Summod changes Lanka substantially.  Atavi and Bandar are slightly better, Dakini are more expensive, and your independent priests now cost much more upkeep.  Consult the manual for more detailed information"
 #end
+
 #selectspell 369 --summon dakini
 #fatiguecost 6600
 #end
+
 #selectspell 368 --summon sanhyabalas
 #nreff 4
 #end
+
 #selectspell 370 --summon samanishada
 #fatiguecost 3000
 #pathlevel 0 2
 #end
+
 #selectmonster 1762 -- Bandar Warrior
 #gcost 10017
 #end
+
 #selectmonster 1130 --Light Bandar Archer
 #gcost 10017
 #end
+
 #selectmonster 240
 #descr "Priests sometimes accompany armies, inspiring and blessing the soldiers.  Priests can also banish undead beings and demons.  Some priests hired to reanimate corpses may require extra pay to qualm their moral opposition."
 #end
+
 #newmonster 6351
 #copystats 240
 #copyspr 240
 #gcost 150
 #descr "Priests sometimes accompany armies, inspiring and blessing the soldiers.  Priests can also banish undead beings and demons.  This priest is receiving much higher monthly wages to convince him to engage in reanimating corpses."
 #end
+
 #newevent ---Bribe
 #rarity 5
 #nation -2
@@ -4250,6 +4636,7 @@ Summod changes Lanka substantially.  Atavi and Bandar are slightly better, Dakin
 #nolog
 #notext
 #end
+
 --- Xibalba
 #selectnation 31 --ea xibalba
 #descr "Xibalba is a vast realm of dark caverns beneath the forests of Mictlan. According to legend, the sun and the moon passed
@@ -4267,17 +4654,20 @@ colonies. Numbers rather than strength make them win their battles.
 Xibalba is substantially nerfed by summod.  Bats are more expensive, foreign recruit is slower, and beast bats are much worse in combat and at sieges.  Consult the changelog for more detail."
 #addreccom 6346
 #end
+
 #selectmonster 2674
 #slowrec
 #gcost 40
 #end
-#newmonster 6346 --not slow recruit batab
+
+#newmonster 6346 --EA not slow recruit batab
 #copystats 2674
 #copyspr 2674
 #size 2
 #gcost 40
 #noslowrec
 #end
+
 #selectmonster 2668 --Xibalban Warrior (EA)
 #gcost 8
 #clearweapons
@@ -4287,6 +4677,7 @@ Xibalba is substantially nerfed by summod.  Bats are more expensive, foreign rec
 #selectmonster 2669
 #gcost 8
 #end
+
 #selectmonster 1357 --beastbat
 #castledef -1
 #siegebonus -1
@@ -4295,10 +4686,12 @@ Xibalba is substantially nerfed by summod.  Bats are more expensive, foreign rec
 #animal
 #undisciplined
 #end
+
 #selectmonster 2679 -- Ah Nakom
 #gcost 75
 #incunrest 40
 #end
+
 #selectmonster 2736 --onaqui
 #incunrest 70
 #end
@@ -4319,15 +4712,18 @@ province. However, population will still die slowly in Abysia-controlled provinc
 
 Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages are cheaper with more crosspaths, and you can summon magma children, and cast a new, special crossbreeding spell.  The unafflicted demonspawn are especially useful if made into commanders.  Also check out the new battefield wide fire boosting spell at conjuration 5."
 #end
+
 #selectspell 196 --summon scorpion man
 #effect 10021 --summons as commander instead of as unit
 #fatiguecost 1000
 #researchlevel 6
 #end
+
 #selectmonster 1649 --scorpion man
 #itemslots 13446
 #armor 20 --adds iron cap
 #end
+
 #selectmonster 1699--anathemant dragon
 #gcost 10000
 #startage 31
@@ -4356,6 +4752,7 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #selectmonster 1536 --ea demonbred
 #douse 1
 #end
+
 #newmonster 6900	 
 #copystats 1661
 #name "Demonspawn"		
@@ -4456,6 +4853,7 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #weapon 85
 #montag 1303 
 #end
+
 #newmonster 6905
 #copystats 454	
 #name "Foul Spawn"
@@ -4492,7 +4890,8 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #montag 1303 
 #end			
 #newmonster 6907
-#copystats 456	 #name "Foul Spawn"
+#copystats 456	
+#name "Foul Spawn"
 #spr1 "./summod/foulspawn_5_1.tga"	
 #spr2 "./summod/foulspawn_5_2.tga"	
 #gcost 2
@@ -4532,6 +4931,7 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #enc 3 
 #montag 1303 
 #end
+
 #newmonster 6909	
 #name "Foul Spawn"	
 #spr1 "./summod/foulspawn_7_1.tga"	
@@ -4546,7 +4946,8 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #att 14
 #fireres 10
 #poisonres 10	
-#prot 6	 #mor 15
+#prot 6	
+#mor 15
 #undisciplined
 #mr 14
 #prec 10
@@ -4558,6 +4959,7 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #enc 3 
 #montag 1303 
 #end
+
 #newmonster 6910
 #copystats 458	
 #name "Foul Spawn"
@@ -4788,7 +5190,16 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #firstshape 6902
 #montag 1303 
 #end																					
-#newevent #nation -2	#msg "One of the Anathements has noted that the fires of The Smouldercone seem slightly suppressed this month.  The Warlocks explained that this is part of a naturally occurring cycle, and is not related to the use of blood magic.  For reasons entirely unrelated to your ongoing endorsement of their breeding program, they have donated a small sum of gold to the treasury." #gold 50 #rarity 5 #req_rare 10 #req_unique 1 #req_owncapital 1 #req_monster 6901 #incscale 2 
+#newevent
+#nation -2
+#msg "One of the Anathements has noted that the fires of The Smouldercone seem slightly suppressed this month.  The Warlocks explained that this is part of a naturally occurring cycle, and is not related to the use of blood magic.  For reasons entirely unrelated to your ongoing endorsement of their breeding program, they have donated a small sum of gold to the treasury."
+#gold 50
+#rarity 5
+#req_rare 10
+#req_unique 1
+#req_owncapital 1
+#req_monster 6901
+#incscale 2 
 #end																							
 #newmonster 6938
 #name "Battlespawn"
@@ -5151,6 +5562,7 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #firstshape 6911
 #montag 1303 
 #end
+
 #newmonster 6990
 #name "Demonspawn"
 #copystats 6900 
@@ -5221,7 +5633,11 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #descr "Deep in the Smouldercone, the Warlocks of Abysia experiment with their brethren to create superior beings.  The Demonbred are the most successful of these beings, and selected from the very best of the Demonspawn.  This Demonspawn showed some affinity for magic, and was selected to aid in finding new experimental subjects by his masters, who he is bound to obey by his nature."
 #clearspec
 #clearmagic
-#hp 17 #str 14 #mr 14 #att 11 #def 9
+#hp 17
+#str 14
+#mr 14
+#att 11
+#def 9
 #heat 3
 #fireres 25
 #maxage 250
@@ -5263,49 +5679,119 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #transform 6999 
 #end 
 #newevent  
-#rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	262144	--limp
-#transform 6999 #end 
-#newevent  #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	524288	--lost eye
-#transform 6999 #end 
-#newevent  
-#rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	1048576	--weakness
-#transform 6999 #end 
-#newevent  
-#rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	2097152	--battlefright
-#transform 6999 #end 
-#newevent  
-#rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	4194304	--mute
-#transform 6999 #end 
-#newevent  
-#rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	8388608	--chestwound
-#transform 6999 #end 
+#rarity 5
+#nation -2
+#req_commander 1
+#req_targmnr 6900
+#req_targaff 	262144	--limp
+#transform 6999
+#end 
 #newevent 
-#rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	16777216	--crippled
-#transform 6999 #end 
+#rarity 5
+#nation -2
+#req_commander 1
+#req_targmnr 6900
+#req_targaff 	524288	--lost eye
+#transform 6999
+#end 
+#newevent  
+#rarity 5
+#nation -2
+#req_commander 1
+#req_targmnr 6900
+#req_targaff 	1048576	--weakness
+#transform 6999
+#end 
+#newevent  
+#rarity 5
+#nation -2
+#req_commander 1
+#req_targmnr 6900
+#req_targaff 	2097152	--battlefright
+#transform 6999
+#end 
+#newevent  
+#rarity 5
+#nation -2
+#req_commander 1
+#req_targmnr 6900
+#req_targaff 	4194304	--mute
+#transform 6999
+#end 
+#newevent  
+#rarity 5
+#nation -2
+#req_commander 1
+#req_targmnr 6900
+#req_targaff 	8388608	--chestwound
+#transform 6999
+#end 
+#newevent 
+#rarity 5
+#nation -2
+#req_commander 1
+#req_targmnr 6900
+#req_targaff 	16777216	--crippled
+#transform 6999
+#end 
 #newevent  
 #rarity 5
 #nation -2 
-#req_commander 1 #req_targmnr 6900 #req_targaff 	33554432	--feeblemind
-#transform 6999 #end 
+#req_commander 1
+#req_targmnr 6900
+#req_targaff 	33554432	--feeblemind
+#transform 6999
+#end 
 #newevent  
 #rarity 5 
-#nation -2 #req_commander 1 #req_targmnr 6900 #req_targaff 	67108864	--neverhealing
-#transform 6999 #end 
+#nation -2
+#req_commander 1
+#req_targmnr 6900
+#req_targaff 	67108864	--neverhealing
+#transform 6999
+#end 
 #newevent 
 #rarity 5
 #nation -2 
-#req_commander 1 #req_targmnr 6900 #req_targaff 	1073741824	--armloss
+#req_commander 1
+#req_targmnr 6900
+#req_targaff 	1073741824	--armloss
 #transform 6999 
 #end 
 #newevent 
-#rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targpath1 7 
+#rarity 5
+#nation -2
+#req_commander 1
+#req_targmnr 6900
+#req_targpath1 7 
 #transform 6998
 #end
-#newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targpath1 7 #transform 6998
+
+#newevent
+#rarity 5
+#nation -2
+#req_commander 1
+#req_targmnr 6900
+#req_targpath1 7
+#transform 6998
 #end
-#newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #req_targpath1 7 #transform 6998
+
+#newevent
+#rarity 5
+#nation -2
+#req_commander 1
+#req_targmnr 6900
+#req_targpath1 7
+#transform 6998
 #end
-#newevent #rarity 5 #nation -2 #req_commander 1 #req_targmnr 6900 #transform 6997 #end																	
+
+#newevent
+#rarity 5
+#nation -2
+#req_commander 1
+#req_targmnr 6900
+#transform 6997
+#end																	
 #newspell
 #name "Abysian Crossbreeding"
 #restricted 13
@@ -5323,6 +5809,7 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #nreff 2013
 #fatiguecost 1500
 #end
+
 #newspell
 #name "Improved Abysian Crossbreeding"
 #restricted 13
@@ -5340,6 +5827,7 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #nreff 3034
 #fatiguecost 2200
 #end
+
 #newspell--children of rhuax r2
 #name "Children of Rhuax"
 #school 0
@@ -5358,19 +5846,23 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 #restricted 45
 #restricted 71
 #end
+
 ---Ctis
 #selectmonster 783 --snek dancer
 #end
+
 #selectweapon 318 --snekstaff
 #dmg 5
 #att 2
 #def 3
 #secondaryeffect 51
 #end
+
 #selectmonster 321
 #magicboost 4 1
 #magicboost 6 1
 #end
+
 ---Helheim
 #selectnation 21 --helheim
 #descr "Helheim is a land of shadows, windswept moors and silent mountains. Here lies Gnipahålan, the Stone Cave,
@@ -5392,14 +5884,17 @@ Helheim is buffed by summod. Your Helkarls are now better mages, with more than 
 #startunittype2 1508
 #startunitnbrs2 10
 #end
+
 #selectmonster 1502 --helkarl
 #okleader
 #custommagic 4352 100
 #custommagic 4096 10
 #end
+
 #selectspell 325 --summon valkyrie
 #pathlevel 0 2
 #end
+
 #selectspell 326
 #clear
 #name "Awaken Draugar"
@@ -5420,6 +5915,7 @@ Helheim is buffed by summod. Your Helkarls are now better mages, with more than 
 #path 0 5
 #pathlevel 0 2
 #end
+
 #newspell
 #name "Awaken Draugar"
 #restricted 21
@@ -5433,6 +5929,7 @@ Helheim is buffed by summod. Your Helkarls are now better mages, with more than 
 #path 0 5
 #pathlevel 0 2
 #end
+
 #newspell --Rouse Draugar
 #name "Rouse Draugar"
 #effect 10001
@@ -5448,6 +5945,7 @@ Helheim is buffed by summod. Your Helkarls are now better mages, with more than 
 #nreff 2006
 #descr "The Draug is a corporeal undead van.  They are incredibly strong and can change their size at will or if wounded.  Draugar stink of decay and rotting flesh and are surrounded by ice cold winds.  With this ritual, a Hangadrott can coerce a troop of the mightiest Draugar are coerced to leave their mounds and kill the enemies of the realm."
 #end
+
 #selectnation 28 --hinnom
 #descr "Hinnom is a dry wasteland inhabited by giants. At the dawn of time, on the sacred Mount Hermon, six Angels in full
 celestial splendor descended to aid and instruct the giants of the land. The Avvim were a people strong and
@@ -5464,32 +5962,40 @@ their sons to rule the Avvim.
 Hinnom is improved by Summod.  Melqarts can be recruited in any fort, and pop-eating giants receive a costdiscount and blood hunt bonus, if they didn't have one already.  Horites throw rocks."
 #addreccom 2031 --melqart
 #end
+
 #selectmonster 2030 --rephaite warrior
 #gcost 10080
 #end
+
 #selectmonster 2031 --melqart
 #gcost 10100
 #end
+
 #selectmonster 2032 --ba'al
 #douse 2
 #gcost 10100
 #end
+
 #selectmonster 2018 --horite
 #weapon 605
 #gcost 10020
 #end
+
 #selectmonster 2019 --horite champ
 #weapon 605
 #gcost 10025
 #end
+
 #selectmonster 2034 --horite hunter
 #gcost 10023
 #end
+
 #selectmonster 2033 --kohen
 #okleader
 #douse 1
 #gcost 10080
 #end
+
 #selectnation 25 --kailasa
 #descr "On the sacred Mount Kailasa, beings from an earlier era still linger. They are blessed with mystical powers but are
 few in number. With the emergence of the New God they have mustered aid from a most unsuspected
@@ -5500,29 +6006,35 @@ Summod buffs kailasa by making the Guhyaka General normal recruit speed, improvi
 generally, and improving your summons in cost and ability. Of note are the Rudra, which is stronger and autocasts Wrathful
 Skies, the Devala, which automatically casts Celestial Music, and the Devata, which autocasts Antimagic."
 #end
+
 #selectmonster 2542 --Guhyaka General
 #weapon 21
 #noslowrec
 #gcost 110
 #end
+
 #selectmonster 1329 --yaksha
 #awe 2
 #def 13
 #end
+
 #selectmonster 1330 --yakshini
 #awe 2
 #end
+
 #selectmonster 1326 -Guhyaka
 #weapon 21
 #gcost 10020
 #def 12
 #descr "A Guhyaka is a lowly Yaksha warrior.  They are semi-divine beings gifted with Celestial Splendor that strikes lowly beings with awe.  Their mystical powers have made them rulers over the Bandar Log and they are sacred to the monkey people.  Guhyakas are armed with spears and javelins"
 #end
+
 #selectmonster 1327 --yavana
 #gcost 10025
 #awe 2
 #def 13
 #end
+
 #selectmonster 1328 --yavana archer
 #clearweapons
 #weapon 10
@@ -5532,18 +6044,22 @@ Skies, the Devala, which automatically casts Celestial Music, and the Devata, wh
 #awe 2
 #gcost 10025
 #end
+
 #selectmonster 1333 --Bandar Warrior
 #gcost 10017
 #end
+
 #selectmonster 1350 --Bandar Swordsmen --"elite statline"
 #att 12
 #def 10
 #hp 20
 #prec 10
 #end
+
 #selectspell 362 --rudra
 #fatiguecost 4500
 #end
+
 #selectmonster 1906 --rudra
 #hp 48
 #str 20
@@ -5553,13 +6069,16 @@ Skies, the Devala, which automatically casts Celestial Music, and the Devata, wh
 #prot 4
 #onebattlespell 467
 #end
+
 #selectspell 360 --devata
 #fatiguecost 4000
 #end
+
 #newspell
 #copyspell 472
 #name "Astral Fires"
 #end
+
 #selectspell 472
 #clear
 #copyspell 800
@@ -5567,6 +6086,7 @@ Skies, the Devala, which automatically casts Celestial Music, and the Devata, wh
 #spec 281474989310080
 #school -1
 #end
+
 #selectmonster 1336 --devata
 #hp 40
 #prot 2
@@ -5579,19 +6099,24 @@ Skies, the Devala, which automatically casts Celestial Music, and the Devata, wh
 #onebattlespell 472
 #descr "The Devata is a lesser god of the Celestial Sphere. Devatas once ruled parts of this world, but withdrew to the heavens ages ago. The Devata has a perfect body with four arms and blue skin. It is a powerful mage-priest and a formidable warrior. Devatas are sacred to the monkey people, and the enlightenment they bring can render the monkey people resistant to hostile enchantments."
 #end
+
 #selectspell 361 --devala
 #fatiguecost 4000
 #end
+
 #selectmonster 1713 --devala
 #magicskill 4 4
 #onebattlespell 363
 #end
+
 #selectspell 355 --gandharva
 #fatiguecost 1500
 #end
+
 #selectmonster 1335 --gandharva
 #weapon 1423
 #end
+
 #selectnation 11 --Machaka
 #descr "Machaka is an old sacral kingdom divided into totemic clans. The clans follow their totemic spirits and worship
 them as bringers of civilization and tell myths about their interactions with men. For centuries the Lion Clan
@@ -5614,106 +6139,135 @@ Machaka is improved by summod.  This generally involves cost decreases, but your
 #addforeigncom 881 --machaka chief
 #forestrec 2126 --pygmy
 #end
+
 #selectmonster 2295 --spiderclan sorceror
 #noslowrec
 #end
+
 #selectmonster 2298 --machaka milita
 #gcost 10007
 #end
+
 #selectmonster 2300 --machaka warrior -- cheaper, 
 #gcost 10008
 #clearweapons
 #weapon 315
 #end
+
 #selectmonster 2301 --spiderclan archer
 #gcost 10013
 #end
+
 #selectweapon 519
 #rcost 3
 #end
+
 #selectmonster 2302 --spider clan warrior
 #armor 44
 #end
+
 #selectmonster 884 --great spider -- improve.
 #gcost 20
 #size 4
 #str 16
 #mr 8
 #end
+
 #selectmonster 2308 --spider rider -- improve, size 4
 #size 4
 #gcost 10020
 #end
+
 --EA Sauro
 #selectmonster 1167 --lancer--3 gold discount
 #gcost 10002
 #end
+
 #selectmonster 1168 --raider --3 gold discount
 #gcost 10002
 #end
+
 #selectmonster 1170 --slancer--3 gold discount
 #gcost 10007
 #end
+
 #selectmonster 1171 --sraider --3 gold discount
 #gcost 10007
 #end
+
 #selectmonster 1172 --scataphract 5 gold discount
 #gcost 10015
 #end
+
 #selectmonster 1173 --s manflayer
 #end
+
 #selectmonster 1174 --warrior priestess 20 gold discount
 #gcost 10000
 #end
+
 #selectmonster 1175 -- warrior queen 20 gold discount
 #gcost 10000
 #end
+
 #selectmonster 1176 --androphag 15 gold discount
 #gcost 10028
 #end
+
 #selectmonster 1177 --manflayer
 #gcost 10020
 #end
+
 #selectmonster 1178 --witchking
 #end
+
 #selectmonster 1185 --oiorpata --ten gold discount
 #gcost 10015
 #end
+
 #selectmonster 1186 --warrior sorceress
 #end
+
 #selectmonster 1831 --hydra
 #gcost 180
 #heal
 #end
+
 #selectmonster 1832--hydra
 #gcost 180
 #firstshape 1831
 #heal
 #end
+
 #selectmonster 1833--hydra
 #gcost 180
 #firstshape 1831
 #heal
 #end
+
 #selectmonster 1834--hydra
 #gcost 180
 #firstshape 1831
 #heal
 #end
+
 #selectmonster 1835--hydra
 #gcost 180
 #firstshape 1831
 #heal
 #end
+
 #selectmonster 1840--hydra hatchling
 #gcost 28
 #heal
 #end
+
 #selectmonster 1841--hydra hatchling
 #gcost 28
 #firstshape 1840
 #heal
 #end
+
 #selectmonster 1842--hydra hatchling
 #gcost 28
 #firstshape 1840
@@ -5747,6 +6301,7 @@ sacred to the Enkidus.
 
 Summod improves  Ur.  PD is better, your troops are generally better and/or cheaper, and your foreign-rec and swamp rec troops can be found in your capital, as your capital site is a swamp in any case.  Sirrushes have higher protection and are notably cheaper, too. Your shamans remain foreign-rec.  Notably, your god clears all afflictions while in your capital, and galas are more effective Elegists."
 #end
+
 #selectsite 151 --adds swamp recruitables
 #homemon 2168
 #homemon 2183
@@ -5829,346 +6384,1410 @@ Summod improves  Ur.  PD is better, your troops are generally better and/or chea
 #end
 
 
-#newmonster 	6500	  #copystats	120	 #copyspr   	120	#cleanshape #homerealm 0 
+#newmonster 	6500	 
+#copystats	120	
+#copyspr   	120
+#cleanshape
+#homerealm 0 
 #end	  
-#newmonster 	6501	  #copystats	120	 #copyspr   	120	 #homerealm 0 #firstshape 	6500	
+#newmonster 	6501	 
+#copystats	120	
+#copyspr   	120	
+#homerealm 0
+#firstshape 	6500	
 #end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	120	  #transform  	6501
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	120	 
+#transform  	6501
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog 
-#req_targmnr 	6500	  #transform 	6501
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog 
+#req_targmnr 	6500	 
+#transform 	6501
 #end
-#newmonster 	6502	  #copystats	158	 #copyspr   	158	#cleanshape
+
+#newmonster 	6502	 
+#copystats	158	
+#copyspr   	158
+#cleanshape
 #homerealm 0 
 #end	   
-#newmonster 	6503	  #copystats	158	 #copyspr   	158	 #homerealm 0 #firstshape 	6502	 
+#newmonster 	6503	 
+#copystats	158	
+#copyspr   	158	
+#homerealm 0
+#firstshape 	6502	 
 #end
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	158	  #transform  	6503	
+
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	158	 
+#transform  	6503	
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6502	 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6502	 
 #transform 	6503	
 #end
-#newmonster 	6504	  #copystats	159	 #copyspr   	159	#cleanshape #homerealm 0
+
+#newmonster 	6504	 
+#copystats	159	
+#copyspr   	159
+#cleanshape
+#homerealm 0
 #end	
-#newmonster 	6505	  #copystats	159	 #copyspr   	159	 #homerealm 0 #firstshape 	6504	 
+#newmonster 	6505	 
+#copystats	159	
+#copyspr   	159	
+#homerealm 0
+#firstshape 	6504	 
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	159	  #transform  	6505
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	159	 
+#transform  	6505
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6504	 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6504	 
 #transform 	6505	
 #end
-#newmonster 	6506	  #copystats	179	 #copyspr   	179	#cleanshape #homerealm 0 
+
+#newmonster 	6506	 
+#copystats	179	
+#copyspr   	179
+#cleanshape
+#homerealm 0 
 #end	
-#newmonster 	6507	  #copystats	179	 #copyspr   	179	 #homerealm 0 #firstshape 	6506	
+#newmonster 	6507	 
+#copystats	179	
+#copyspr   	179	
+#homerealm 0
+#firstshape 	6506	
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	179	  #transform  	6507
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	179	 
+#transform  	6507
 #end
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6506	
+
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6506	
 #transform 	6507	
 #end
-#newmonster 	6508	  #copystats	180	 #copyspr   	180	#cleanshape #homerealm 0
+
+#newmonster 	6508	 
+#copystats	180	
+#copyspr   	180
+#cleanshape
+#homerealm 0
 #end	
-#newmonster 	6509	  #copystats	180	 #copyspr   	180	 #homerealm 0 #firstshape 	6508	
+#newmonster 	6509	 
+#copystats	180	
+#copyspr   	180	
+#homerealm 0
+#firstshape 	6508	
 #end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	180	  #transform  	6509
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	180	 
+#transform  	6509
 #end
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6508	 
+
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6508	 
 #transform 	6509	
 #end
-#newmonster 	6510	  #copystats	216	 #copyspr   	216	#cleanshape #homerealm 0 
+
+#newmonster 	6510	 
+#copystats	216	
+#copyspr   	216
+#cleanshape
+#homerealm 0 
 #end	
-#newmonster 	6511	  #copystats	216	 #copyspr   	216	 #homerealm 0 #firstshape 	6510	
+#newmonster 	6511	 
+#copystats	216	
+#copyspr   	216	
+#homerealm 0
+#firstshape 	6510	
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	216	  #transform  	6511	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6510	  #transform 	6511	 
-#end
-#newmonster 	6512	  #copystats	226	 #copyspr   	226	#cleanshape #homerealm 0 
-#end	
-#newmonster 	6513	  #copystats	226	 #copyspr   	226	 #homerealm 0 #firstshape 	6512	 
-#end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	226	  #transform  	6513	
-#end
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6512	  #transform 	6513	 
-#end
-#newmonster 	6514	  #copystats	244	 #copyspr   	244	#cleanshape #homerealm 0 
-#end	
-#newmonster 	6515	  #copystats	244	 #copyspr   	244	 #homerealm 0 #firstshape 	6514	
-#end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	244	  #transform  	6515	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6514	  #transform 	6515	 
-#end
-#newmonster 	6516	  #copystats	245	 #copyspr   	245	#cleanshape #homerealm 0 
-#end	
-#newmonster 	6517	  #copystats	245	 #copyspr   	245	 #homerealm 0 #firstshape 	6516	
-#end   
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	245	  #transform  	6517	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6516	  #transform 	6517	
-#end
-#newmonster 	6518	  #copystats	246	 #copyspr   	246	#cleanshape #homerealm 0 
-#end	
-#newmonster 	6519	  #copystats	246	 #copyspr   	246	 #homerealm 0 #firstshape 	6518	
-#end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	246	  #transform  	6519	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6518	  #transform 	6519	
-#end
-#newmonster 	6520	  #copystats	249	 #copyspr   	249	#cleanshape #homerealm 0
-#end	
-#newmonster 	6521	  #copystats	249	 #copyspr   	249	 #homerealm 0 #firstshape 	6520	 
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	249	  #transform  	6521	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6520	  #transform 	6521	
-#end
-#newmonster 	6522	  #copystats	250	 #copyspr   	250	#cleanshape #homerealm 0
-#end	
-#newmonster 	6523	  #copystats	250	 #copyspr   	250	 #homerealm 0 #firstshape 	6522	
-#end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	250	  #transform  	6523	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6522	  #transform 	6523	
-#end
-#newmonster 	6524	  #copystats	251	 #copyspr   	251	#cleanshape #homerealm 0 
-#end	
-#newmonster 	6525	  #copystats	251	 #copyspr   	251	 #homerealm 0 #firstshape 	6524	 
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	251	  #transform  	6525
-#end
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6524	  #transform 	6525	
-#end
-#newmonster 	6526	  #copystats	265	 #copyspr   	265	#cleanshape #homerealm 0
-#end	
-#newmonster 	6527	  #copystats	265	 #copyspr   	265	 #homerealm 0 #firstshape 	6526	
-#end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	265	  #transform  	6527	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6526	  #transform 	6527	
-#end
-#newmonster 	6528	  #copystats	266	 #copyspr   	266	#cleanshape #homerealm 0
-#end	
-#newmonster 	6529	  #copystats	266	 #copyspr   	266	 #homerealm 0 #firstshape 	6528	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	266	  #transform  	6529	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6528	  #transform 	6529	
-#end
-#newmonster 	6530	  #copystats	267	 #copyspr   	267	#cleanshape #homerealm 0
-#end	
-#newmonster 	6531	  #copystats	267	 #copyspr   	267	 #homerealm 0 #firstshape 	6530	 
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	267	  #transform  	6531	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6530	  #transform 	6531	
-#end
-#newmonster 	6532	  #copystats	268	 #copyspr   	268	#cleanshape #homerealm 0
-#end	 
-#newmonster 	6533	  #copystats	268	 #copyspr   	268	 #homerealm 0 #firstshape 	6532	
-#end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	268	  #transform  	6533
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6532	  #transform 	6533	
-#end
-#newmonster 	6534	  #copystats	485	 #copyspr   	485	#cleanshape #homerealm 0 
-#end	 
-#newmonster 	6535	  #copystats	485	 #copyspr   	485	 #homerealm 0 #firstshape 	6534	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	485	  #transform  	6535	
-#end
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6534	  #transform 	6535	
-#end
-#newmonster 	6536	  #copystats	655	 #copyspr   	655	#cleanshape #homerealm 0 
-#end	
-#newmonster 	6537	  #copystats	655	 #copyspr   	655	 #homerealm 0 #firstshape 	6536	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	655	  #transform  	6537
-#end
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6536	  #transform 	6537	
-#end
-#newmonster 	6538	  #copystats	656	 #copyspr   	656	#cleanshape #homerealm 0
-#end	 
-#newmonster 	6539	  #copystats	656	 #copyspr   	656	 #homerealm 0 #firstshape 	6538	
-#end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	656	  #transform  	6539	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6538	  #transform 	6539	
-#end
-#newmonster 	6540	  #copystats	661	 #copyspr   	661	#cleanshape #homerealm 0
-#end	 
-#newmonster 	6541	  #copystats	661	 #copyspr   	661	 #homerealm 0 #firstshape 	6540	
-#end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	661	  #transform  	6541
-#end
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6540	  #transform 	6541	
-#end
-#newmonster 	6542	  #copystats	872	 #copyspr   	872	#cleanshape #homerealm 0
-#end	
-#newmonster 	6543	  #copystats	872	 #copyspr   	872	 #homerealm 0 #firstshape 	6542	
-#end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	872	  #transform  	6543	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6542	  #transform 	6543	
-#end
-#newmonster 	6544	  #copystats	957	 #copyspr   	957	#cleanshape #homerealm 0
-#end	
-#newmonster 	6545	  #copystats	957	 #copyspr   	957	 #homerealm 0 #firstshape 	6544	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	957	  #transform  	6545
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6544	  #transform 	6545	
-#end
-#newmonster 	6546	  #copystats	1097	 #copyspr   	1097	#cleanshape #homerealm 0
-#end	
-#newmonster 	6547	  #copystats	1097	 #copyspr   	1097	 #homerealm 0 #firstshape 	6546	
-#end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	1097	  #transform  	6547	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6546	  #transform 	6547	
-#end
-#newmonster 	6548	  #copystats	1372	 #copyspr   	1372	#cleanshape #homerealm 0
-#end	
-#newmonster 	6549	  #copystats	1372	 #copyspr   	1372	 #homerealm 0 #firstshape 	6548	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	1372	  #transform  	6549	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6548	  #transform 	6549	
-#end
-#newmonster 	6550	  #copystats	1373	 #copyspr   	1373	#cleanshape #homerealm 0 
-#end	
-#newmonster 	6551	  #copystats	1373	 #copyspr   	1373	 #homerealm 0 #firstshape 	6550	
-#end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	1373	  #transform  	6551	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6550	  #transform 	6551	
-#end
-#newmonster 	6552	  #copystats	1374	 #copyspr   	1374	#cleanshape #homerealm 0
-#end	
-#newmonster 	6553	  #copystats	1374	 #copyspr   	1374	 #homerealm 0 #firstshape 	6552	
-#end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	1374	  #transform  	6553	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6552	  #transform 	6553	
-#end
-#newmonster 	6554	  #copystats	1384	 #copyspr   	1384	#cleanshape #homerealm 0
-#end	
-#newmonster 	6555	  #copystats	1384	 #copyspr   	1384	 #homerealm 0 #firstshape 	6554	
-#end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	1384	  #transform  	6555	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6554	  #transform 	6555	
-#end
-#newmonster 	6556	  #copystats	2137	 #copyspr   	2137	#cleanshape #homerealm 0 
-#end	
-#newmonster 	6557	  #copystats	2137	 #copyspr   	2137	 #homerealm 0 #firstshape 	6556	
-#end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2137	  #transform  	6557
-#end
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6556	  #transform 	6557	
-#end
-#newmonster 	6558	  #copystats	2138	 #copyspr   	2138	#cleanshape #homerealm 0
-#end	
-#newmonster 	6559	  #copystats	2138	 #copyspr   	2138	 #homerealm 0 #firstshape 	6558	
-#end
 #newevent
-#nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2138	  #transform  	6559	
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	216	 
+#transform  	6511	
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6558	  #transform 	6559	
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6510	 
+#transform 	6511	 
 #end
-#newmonster 	6560	  #copystats	2435	 #copyspr   	2435	#cleanshape #homerealm 0 
+
+#newmonster 	6512	 
+#copystats	226	
+#copyspr   	226
+#cleanshape
+#homerealm 0 
 #end	
-#newmonster 	6561	  #copystats	2435	 #copyspr   	2435	 #homerealm 0 #firstshape 	6560	
+#newmonster 	6513	 
+#copystats	226	
+#copyspr   	226	
+#homerealm 0
+#firstshape 	6512	 
 #end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2435	  #transform  	6561
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	226	 
+#transform  	6513	
 #end
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6560	  #transform 	6561	
+
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6512	 
+#transform 	6513	 
 #end
-#newmonster 	6562	  #copystats	2436	 #copyspr   	2436	#cleanshape #homerealm 0
+
+#newmonster 	6514	 
+#copystats	244	
+#copyspr   	244
+#cleanshape
+#homerealm 0 
 #end	
-#newmonster 	6563	  #copystats	2436	 #copyspr   	2436	 #homerealm 0 #firstshape 	6562	
+#newmonster 	6515	 
+#copystats	244	
+#copyspr   	244	
+#homerealm 0
+#firstshape 	6514	
+#end  
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	244	 
+#transform  	6515	
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2436	  #transform  	6563	
-#end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6562	  #transform 	6563	
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6514	 
+#transform 	6515	 
 #end
-#newmonster 	6564	  #copystats	2437	 #copyspr   	2437	#cleanshape #homerealm 0
+
+#newmonster 	6516	 
+#copystats	245	
+#copyspr   	245
+#cleanshape
+#homerealm 0 
 #end	
-#newmonster 	6565	  #copystats	2437	 #copyspr   	2437	 #homerealm 0 #firstshape 	6564	 
+#newmonster 	6517	 
+#copystats	245	
+#copyspr   	245	
+#homerealm 0
+#firstshape 	6516	
+#end   
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	245	 
+#transform  	6517	
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2437	  #transform  	6565	
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6516	 
+#transform 	6517	
 #end
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6564	
+
+#newmonster 	6518	 
+#copystats	246	
+#copyspr   	246
+#cleanshape
+#homerealm 0 
+#end	
+#newmonster 	6519	 
+#copystats	246	
+#copyspr   	246	
+#homerealm 0
+#firstshape 	6518	
+#end  
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	246	 
+#transform  	6519	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6518	 
+#transform 	6519	
+#end
+
+#newmonster 	6520	 
+#copystats	249	
+#copyspr   	249
+#cleanshape
+#homerealm 0
+#end	
+#newmonster 	6521	 
+#copystats	249	
+#copyspr   	249	
+#homerealm 0
+#firstshape 	6520	 
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	249	 
+#transform  	6521	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6520	 
+#transform 	6521	
+#end
+
+#newmonster 	6522	 
+#copystats	250	
+#copyspr   	250
+#cleanshape
+#homerealm 0
+#end	
+#newmonster 	6523	 
+#copystats	250	
+#copyspr   	250	
+#homerealm 0
+#firstshape 	6522	
+#end  
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	250	 
+#transform  	6523	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6522	 
+#transform 	6523	
+#end
+
+#newmonster 	6524	 
+#copystats	251	
+#copyspr   	251
+#cleanshape
+#homerealm 0 
+#end	
+#newmonster 	6525	 
+#copystats	251	
+#copyspr   	251	
+#homerealm 0
+#firstshape 	6524	 
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	251	 
+#transform  	6525
+#end
+
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6524	 
+#transform 	6525	
+#end
+
+#newmonster 	6526	 
+#copystats	265	
+#copyspr   	265
+#cleanshape
+#homerealm 0
+#end	
+#newmonster 	6527	 
+#copystats	265	
+#copyspr   	265	
+#homerealm 0
+#firstshape 	6526	
+#end  
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	265	 
+#transform  	6527	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6526	 
+#transform 	6527	
+#end
+
+#newmonster 	6528	 
+#copystats	266	
+#copyspr   	266
+#cleanshape
+#homerealm 0
+#end	
+#newmonster 	6529	 
+#copystats	266	
+#copyspr   	266	
+#homerealm 0
+#firstshape 	6528	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	266	 
+#transform  	6529	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6528	 
+#transform 	6529	
+#end
+
+#newmonster 	6530	 
+#copystats	267	
+#copyspr   	267
+#cleanshape
+#homerealm 0
+#end	
+#newmonster 	6531	 
+#copystats	267	
+#copyspr   	267	
+#homerealm 0
+#firstshape 	6530	 
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	267	 
+#transform  	6531	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6530	 
+#transform 	6531	
+#end
+
+#newmonster 	6532	 
+#copystats	268	
+#copyspr   	268
+#cleanshape
+#homerealm 0
+#end	 
+#newmonster 	6533	 
+#copystats	268	
+#copyspr   	268	
+#homerealm 0
+#firstshape 	6532	
+#end  
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	268	 
+#transform  	6533
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6532	 
+#transform 	6533	
+#end
+
+#newmonster 	6534	 
+#copystats	485	
+#copyspr   	485
+#cleanshape
+#homerealm 0 
+#end	 
+#newmonster 	6535	 
+#copystats	485	
+#copyspr   	485	
+#homerealm 0
+#firstshape 	6534	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	485	 
+#transform  	6535	
+#end
+
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6534	 
+#transform 	6535	
+#end
+
+#newmonster 	6536	 
+#copystats	655	
+#copyspr   	655
+#cleanshape
+#homerealm 0 
+#end	
+#newmonster 	6537	 
+#copystats	655	
+#copyspr   	655	
+#homerealm 0
+#firstshape 	6536	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	655	 
+#transform  	6537
+#end
+
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6536	 
+#transform 	6537	
+#end
+
+#newmonster 	6538	 
+#copystats	656	
+#copyspr   	656
+#cleanshape
+#homerealm 0
+#end	 
+#newmonster 	6539	 
+#copystats	656	
+#copyspr   	656	
+#homerealm 0
+#firstshape 	6538	
+#end  
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	656	 
+#transform  	6539	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6538	 
+#transform 	6539	
+#end
+
+#newmonster 	6540	 
+#copystats	661	
+#copyspr   	661
+#cleanshape
+#homerealm 0
+#end	 
+#newmonster 	6541	 
+#copystats	661	
+#copyspr   	661	
+#homerealm 0
+#firstshape 	6540	
+#end  
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	661	 
+#transform  	6541
+#end
+
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6540	 
+#transform 	6541	
+#end
+
+#newmonster 	6542	 
+#copystats	872	
+#copyspr   	872
+#cleanshape
+#homerealm 0
+#end	
+#newmonster 	6543	 
+#copystats	872	
+#copyspr   	872	
+#homerealm 0
+#firstshape 	6542	
+#end  
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	872	 
+#transform  	6543	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6542	 
+#transform 	6543	
+#end
+
+#newmonster 	6544	 
+#copystats	957	
+#copyspr   	957
+#cleanshape
+#homerealm 0
+#end	
+#newmonster 	6545	 
+#copystats	957	
+#copyspr   	957	
+#homerealm 0
+#firstshape 	6544	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	957	 
+#transform  	6545
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6544	 
+#transform 	6545	
+#end
+
+#newmonster 	6546	 
+#copystats	1097	
+#copyspr   	1097
+#cleanshape
+#homerealm 0
+#end	
+#newmonster 	6547	 
+#copystats	1097	
+#copyspr   	1097	
+#homerealm 0
+#firstshape 	6546	
+#end  
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	1097	 
+#transform  	6547	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6546	 
+#transform 	6547	
+#end
+
+#newmonster 	6548	 
+#copystats	1372	
+#copyspr   	1372
+#cleanshape
+#homerealm 0
+#end	
+#newmonster 	6549	 
+#copystats	1372	
+#copyspr   	1372	
+#homerealm 0
+#firstshape 	6548	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	1372	 
+#transform  	6549	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6548	 
+#transform 	6549	
+#end
+
+#newmonster 	6550	 
+#copystats	1373	
+#copyspr   	1373
+#cleanshape
+#homerealm 0 
+#end	
+#newmonster 	6551	 
+#copystats	1373	
+#copyspr   	1373	
+#homerealm 0
+#firstshape 	6550	
+#end  
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	1373	 
+#transform  	6551	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6550	 
+#transform 	6551	
+#end
+
+#newmonster 	6552	 
+#copystats	1374	
+#copyspr   	1374
+#cleanshape
+#homerealm 0
+#end	
+#newmonster 	6553	 
+#copystats	1374	
+#copyspr   	1374	
+#homerealm 0
+#firstshape 	6552	
+#end  
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	1374	 
+#transform  	6553	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6552	 
+#transform 	6553	
+#end
+
+#newmonster 	6554	 
+#copystats	1384	
+#copyspr   	1384
+#cleanshape
+#homerealm 0
+#end	
+#newmonster 	6555	 
+#copystats	1384	
+#copyspr   	1384	
+#homerealm 0
+#firstshape 	6554	
+#end  
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	1384	 
+#transform  	6555	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6554	 
+#transform 	6555	
+#end
+
+#newmonster 	6556	 
+#copystats	2137	
+#copyspr   	2137
+#cleanshape
+#homerealm 0 
+#end	
+#newmonster 	6557	 
+#copystats	2137	
+#copyspr   	2137	
+#homerealm 0
+#firstshape 	6556	
+#end  
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	2137	 
+#transform  	6557
+#end
+
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6556	 
+#transform 	6557	
+#end
+
+#newmonster 	6558	 
+#copystats	2138	
+#copyspr   	2138
+#cleanshape
+#homerealm 0
+#end	
+#newmonster 	6559	 
+#copystats	2138	
+#copyspr   	2138	
+#homerealm 0
+#firstshape 	6558	
+#end
+
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	2138	 
+#transform  	6559	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6558	 
+#transform 	6559	
+#end
+
+#newmonster 	6560	 
+#copystats	2435	
+#copyspr   	2435
+#cleanshape
+#homerealm 0 
+#end	
+#newmonster 	6561	 
+#copystats	2435	
+#copyspr   	2435	
+#homerealm 0
+#firstshape 	6560	
+#end  
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	2435	 
+#transform  	6561
+#end
+
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6560	 
+#transform 	6561	
+#end
+
+#newmonster 	6562	 
+#copystats	2436	
+#copyspr   	2436
+#cleanshape
+#homerealm 0
+#end	
+#newmonster 	6563	 
+#copystats	2436	
+#copyspr   	2436	
+#homerealm 0
+#firstshape 	6562	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	2436	 
+#transform  	6563	
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6562	 
+#transform 	6563	
+#end
+
+#newmonster 	6564	 
+#copystats	2437	
+#copyspr   	2437
+#cleanshape
+#homerealm 0
+#end	
+#newmonster 	6565	 
+#copystats	2437	
+#copyspr   	2437	
+#homerealm 0
+#firstshape 	6564	 
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	2437	 
+#transform  	6565	
+#end
+
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6564	
 #transform 	6565	
 #end
-#newmonster 	6566	  #copystats	2438	 #copyspr   	2438	#cleanshape #homerealm 0
+
+#newmonster 	6566	 
+#copystats	2438	
+#copyspr   	2438
+#cleanshape
+#homerealm 0
 #end	
-#newmonster 	6567	  #copystats	2438	 #copyspr   	2438	 #homerealm 0 #firstshape 	6566	
+#newmonster 	6567	 
+#copystats	2438	
+#copyspr   	2438	
+#homerealm 0
+#firstshape 	6566	
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2438	  #transform  	6567	
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	2438	 
+#transform  	6567	
 #end
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog
-#req_targmnr 	6566	  #transform 	6567
+
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6566	 
+#transform 	6567
 #end
-#newmonster 	6568	  #copystats	2462	 #copyspr   	2462	#cleanshape #homerealm 0 
+
+#newmonster 	6568	 
+#copystats	2462	
+#copyspr   	2462
+#cleanshape
+#homerealm 0 
 #end	
-#newmonster 	6569	  #copystats	2462	 #copyspr   	2462	 #homerealm 0 #firstshape 	6568	  
+#newmonster 	6569	 
+#copystats	2462	
+#copyspr   	2462	
+#homerealm 0
+#firstshape 	6568	  
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2462	  #transform  	6569
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	2462	 
+#transform  	6569
 #end  
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6568	 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6568	 
 #transform 	6569	 
 #end
-#newmonster 	6570	  #copystats	2785	 #copyspr   	2785	#cleanshape #homerealm 0 
+
+#newmonster 	6570	 
+#copystats	2785	
+#copyspr   	2785
+#cleanshape
+#homerealm 0 
 #end	
-#newmonster 	6571	  #copystats	2785	 #copyspr   	2785	 #homerealm 0 #firstshape 	6570	 
+#newmonster 	6571	 
+#copystats	2785	
+#copyspr   	2785	
+#homerealm 0
+#firstshape 	6570	 
 #end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2785	  #transform  	6571	
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	2785	 
+#transform  	6571	
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6570	  #transform 	6571	
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6570	 
+#transform 	6571	
 #end
-#newmonster 	6572	  #copystats	2786	 #copyspr   	2786	#cleanshape #homerealm 0 
+
+#newmonster 	6572	 
+#copystats	2786	
+#copyspr   	2786
+#cleanshape
+#homerealm 0 
 #end	 
-#newmonster 	6573	  #copystats	2786	 #copyspr   	2786	 #homerealm 0 #firstshape 	6572	 
+#newmonster 	6573	 
+#copystats	2786	
+#copyspr   	2786	
+#homerealm 0
+#firstshape 	6572	 
 #end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2786	  #transform  	6573	
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	2786	 
+#transform  	6573	
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6572	
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6572	
 #transform 	6573	
 #end
-#newmonster 	6574	  #copystats	2787	 #copyspr   	2787	#cleanshape #homerealm 0
+
+#newmonster 	6574	 
+#copystats	2787	
+#copyspr   	2787
+#cleanshape
+#homerealm 0
 #end	 
-#newmonster 	6575	  #copystats	2787	 #copyspr   	2787	 #homerealm 0 #firstshape 	6574
+#newmonster 	6575	 
+#copystats	2787	
+#copyspr   	2787	
+#homerealm 0
+#firstshape 	6574
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2787	  #transform  	6575
-#end  #newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog 
-#req_targmnr 	6574	  #transform 	6575	
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	2787	 
+#transform  	6575
+#end 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog 
+#req_targmnr 	6574	 
+#transform 	6575	
 #end
-#newmonster 	6576	  #copystats	2788	 #copyspr   	2788	#cleanshape #homerealm 0 
+
+#newmonster 	6576	 
+#copystats	2788	
+#copyspr   	2788
+#cleanshape
+#homerealm 0 
 #end	
-#newmonster 	6577	  #copystats	2788	 #copyspr   	2788	 #homerealm 0 #firstshape 	6576	
+#newmonster 	6577	 
+#copystats	2788	
+#copyspr   	2788	
+#homerealm 0
+#firstshape 	6576	
 #end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2788	  #transform  	6577
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	2788	 
+#transform  	6577
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog
-#req_targmnr 	6576	  #transform 	6577	
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6576	 
+#transform 	6577	
 #end
-#newmonster 	6578	  #copystats	2789	 #copyspr   	2789	#cleanshape #homerealm 0
+
+#newmonster 	6578	 
+#copystats	2789	
+#copyspr   	2789
+#cleanshape
+#homerealm 0
 #end	
-#newmonster 	6579	  #copystats	2789	 #copyspr   	2789	 #homerealm 0 #firstshape 	6578	  
+#newmonster 	6579	 
+#copystats	2789	
+#copyspr   	2789	
+#homerealm 0
+#firstshape 	6578	  
 #end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2789	  #transform  	6579	
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	2789	 
+#transform  	6579	
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6578	 
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6578	 
 #transform 	6579	 
 #end
-#newmonster 	6580	  #copystats	2791	 #copyspr   	2791	#cleanshape #homerealm 0 
+
+#newmonster 	6580	 
+#copystats	2791	
+#copyspr   	2791
+#cleanshape
+#homerealm 0 
 #end	
-#newmonster 	6581	  #copystats	2791	 #copyspr   	2791	 #homerealm 0 #firstshape 	6580	 
+#newmonster 	6581	 
+#copystats	2791	
+#copyspr   	2791	
+#homerealm 0
+#firstshape 	6580	 
 #end  
-#newevent #nation -2 #rarity 5 #notext #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	2791	  #transform  	6581	
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	2791	 
+#transform  	6581	
 #end 
-#newevent #nation -2 #rarity 5 #notext #req_owncapital 1 #req_fornation 29 #req_targgod 1 #nolog #req_targmnr 	6580	
+#newevent
+#nation -2
+#rarity 5
+#notext
+#req_owncapital 1
+#req_fornation 29
+#req_targgod 1
+#nolog
+#req_targmnr 	6580	
 #transform 	6581	
 #end
 
@@ -6182,6 +7801,7 @@ Summod improves  Ur.  PD is better, your troops are generally better and/or chea
 #descr "this unit exists only to provide sacrement to limne"
 #immobile
 #end
+
 #newspell
 #name "Blessing of Limne"
 #restricted 84
@@ -6206,37 +7826,52 @@ Summod improves  Ur.  PD is better, your troops are generally better and/or chea
 #req_monster 6344
 #nation -2
 #magicitem 9
-#msg "Amulet of the Fish. [Amulet of the Fish]." #notext #nolog
+#msg "Amulet of the Fish. [Amulet of the Fish]."
+#notext
+#nolog
 #end
+
 #newevent
 #rarity 5
 #req_monster 6344
 #nation -2
 #magicitem 9
-#msg "Amulet of the Fish. [Amulet of the Fish]." #notext #nolog
+#msg "Amulet of the Fish. [Amulet of the Fish]."
+#notext
+#nolog
 #end
+
 #newevent 
 #rarity 5
 #req_monster 6344
 #nation -2
 #magicitem 9
-#msg "Amulet of the Fish. [Amulet of the Fish]." #notext #nolog
+#msg "Amulet of the Fish. [Amulet of the Fish]."
+#notext
+#nolog
 #end
+
 #newevent
 #rarity 5
 #req_monster 6344
 #nation -2
 #magicitem 9
-#msg "Amulet of the Fish. [Amulet of the Fish]." #notext #nolog
+#msg "Amulet of the Fish. [Amulet of the Fish]."
+#notext
+#nolog
 #end
+
 #newevent
 #rarity 5
 #req_monster 6344
 #nation -2
 #magicitem 9
-#msg "Amulet of the Fish. [Amulet of the Fish]." #notext #nolog
+#msg "Amulet of the Fish. [Amulet of the Fish]."
+#notext
+#nolog
 #killmon 6344
 #end
+
 ---atlantis ea
 #newmonster 6350 --Sorceror of the Shallows
 #copystats 1692
@@ -6254,9 +7889,11 @@ Summod improves  Ur.  PD is better, your troops are generally better and/or chea
 #okleader
 #researchbonus -3
 #end
+
 #selectnation 83 --atlantis
 #coastcom2 6350
 #end
+
 ---Rlyeh
 #selectnation 84 
 #descr "In the deepest of oceans lives the strange fishlike race called the Aboleths. These beings are highly intelligent and
@@ -6274,6 +7911,7 @@ won't live more than a month or two."
 --#coastunit3 6331
 #uwcom1 1401
 #end
+
 #newmonster 6331
 #copystats 61
 #name "Slave Guardian"
@@ -6289,10 +7927,12 @@ won't live more than a month or two."
 #slave
 #descr "The success of R'lyeh is largely due to their powers of mind control. By enslaving other peoples, they have built a slave-based society with few dissidents. The slaves are used even in war and comprise most of the armies of R'lyeh.  On colonizing land, the servants of the Aboleths have discovered a populous race whose enslavement can help further their ambitions."
 #end
+
 #selectmonster 1401 --polypal mother
-#divineins 5
+#divineins
 #fixedresearch 5
 #end
+
 #selectmonster 1404 --polypal spawn
 #clearspec
 #darkvision 100
@@ -6301,9 +7941,11 @@ won't live more than a month or two."
 #amphibian
 #landdamage 50
 #end
+
 #selectmonster 2886 --grandmother
 #inspiringres 1
 #end
+
 #selectmonster 1521 --mindlord
 #clearmagic
 #gcost 10050
@@ -6313,12 +7955,16 @@ won't live more than a month or two."
 #custommagic 7680 100
 #custommagic 5120 5
 #end
+
 #selectmonster 1520--Aboleth
 #end
+
 #selectmonster 2883 --Abodai
 #end
+
 #selectmonster 2884 --androleth
 #end
+
 #selectmonster 2885 --androdai
 #gcost 10030
 #clearmagic
@@ -6333,7 +7979,6 @@ won't live more than a month or two."
 #end
 
 ---EA Oceania
-
 
 #selectnation 86 --oceania -- look pretty good already
 #descr "Everything on land has a correspondence under water. Just like kingdoms formed on dry land, so did kingdoms form in the
@@ -6463,7 +8108,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #startage 2000
 #poorleader
 #okundeadleader
-#darkvision
+#darkvision 100
 #weapon 85
 #weapon 85
 #weapon 85
@@ -6477,7 +8122,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #magicskill 3 1
 #magicskill 2 1 
 #magicskill 7 3
-#custommagic 1536
+#custommagic 1536 100
 #itemslots 12288
 #end
 
@@ -6732,17 +8377,21 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #weapon 56
 #gcost 10010
 #end
+
 #selectmonster 1207 --eponi chief
 #weapon 56
 #gcost 10010
 #end
+
 ---ea ermor
 #selectmonster 1107 --equite --5 gold discount
 #gcost 10015
 #end
+
 #selectmonster 1108 --equite of the shroud
 #gcost 10020
 #end
+
 --EA TC
 #selectmonster 788 --horseman (also ma tc)
 #gcost 10003
@@ -6756,6 +8405,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #selectspell 1065 --summon ephor
 #fatiguecost 500
 #end
+
 --for sacreds
 #selectmonster 2839 --kourete
 #clearweapons
@@ -6764,6 +8414,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #weapon 1421
 #itemslots 15488
 #end
+
 #selectmonster 2843 --spectral kourete
 #clearweapons
 #weapon 1428
@@ -6771,6 +8422,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #weapon 1430
 #itemslots 15488
 #end
+
 #selectmonster 2837 --korybant
 #cleararmor
 #clearweapons
@@ -6782,6 +8434,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #armor 20
 #itemslots 15488
 #end
+
 #newmonster 6324
 #name "Telkhine Adjutant"
 #descr "The Telkhine Adjutants are mages of the storm, well versed in the magic of water and air.  Trained to accompany the Telkhines themselves when on campaign, since the Malediction they have suffered badly due to the extensive training they require.  Still, their skills are sufficient to lead the navy of Therodos and bring its ships to safe harbor."
@@ -6813,6 +8466,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #custommagic 4992 100
 #custommagic 4992 10
 #end
+
 #newmonster 6325
 #name "Therodian Swordsman"
 #descr "The armies of ancient Therodos were vastly superior to their neighbors.  Well-drilled hoplites clad in Telkhine iron conquered all lands that the God-Kings would covet.  When the Telkhine kingdom was shattered and drowned, the skills of metalcrafting were kept by the Kaberoi guilds. Modeled after the successor empires, swordsmen were recruited to bolster the armies of Therodos, where they are armed with the iron of the guilds."
@@ -6836,6 +8490,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #armor 209
 #nametype 107
 #end
+
 #newmonster 6326 --Triton Merc
 #copystats 2385
 #spr1 "./summod/pelagian_mercenary.tga"
@@ -6850,6 +8505,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #armor 209
 #gcost 10012
 #end
+
 #newmonster 6327 --Triton Commander
 #copystats 1069
 #spr1 "./summod/pelagian_mercenary_capitain.tga"
@@ -6864,6 +8520,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #armor 209
 #gcost 10012
 #end
+
 #newmonster 6328 --merman Merc
 #copystats 2810
 #name "Merman Mercenary"
@@ -6882,6 +8539,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #armor 209
 #landshape 6329
 #end
+
 #newmonster 6329 --merman merc land
 #copystats 2809
 #name "Merman Mercenary"
@@ -6900,10 +8558,12 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #armor 209
 #watershape 6328
 #end
+
 ---Melias
 #selectmonster 2833 --Melia Classic
 #awe 1
 #end
+
 #newmonster 6330--Spectral melia --placeholder
 #copystats 2833
 #spr1 "./summod/spectral_melia.tga"
@@ -6937,6 +8597,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #okleader
 #nametype 160
 #end
+
 #newevent
 #rarity 5
 #req_unique 1
@@ -6950,6 +8611,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #notext
 #nolog
 #end
+
 --Death 1 events
 #newevent
 #rarity 5
@@ -6961,7 +8623,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_temple 1
 #req_lab 1
 #req_fornation 95 
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #req_dominion 4
 #req_maxdominion 5
@@ -6970,6 +8632,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #notext
 #nolog
 #end
+
 #newevent
 #rarity 5
 #req_rare 2
@@ -6980,7 +8643,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_temple 1
 #req_lab 1
 #req_fornation 95 
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #req_dominion 6
 #req_maxdominion 8
@@ -6989,6 +8652,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #notext
 #nolog
 #end
+
 #newevent
 #rarity 5
 #req_rare 3
@@ -6999,7 +8663,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_temple 1
 #req_lab 1
 #req_fornation 95 
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #req_dominion 9
 #msg "Undead Melia in fort, death 1 dom 9-10"
@@ -7007,6 +8671,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #notext
 #nolog
 #end
+
 --Death 2 events
 #newevent
 #rarity 5
@@ -7018,7 +8683,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_temple 1
 #req_lab 1
 #req_fornation 95 
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #req_dominion 4
 #req_maxdominion 5
@@ -7027,6 +8692,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #notext
 #nolog
 #end
+
 #newevent
 #rarity 5
 #req_rare 4
@@ -7037,7 +8703,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #req_dominion 6
 #req_maxdominion 8
@@ -7045,6 +8711,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #notext
 #nolog
 #end
+
 #newevent
 #rarity 5
 #req_rare 6
@@ -7055,7 +8722,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #req_dominion 9
 #msg "Undead Melia in fort, death 2 dom 9-10"
@@ -7063,6 +8730,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #notext
 #nolog
 #end
+
 --Death 3 events
 #newevent
 #rarity 5
@@ -7072,7 +8740,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner 95
+#req_fullowner
 #req_fornation 95 
 #nation -2
 #req_dominion 4
@@ -7082,6 +8750,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #notext
 #nolog
 #end
+
 #newevent
 #rarity 5
 #req_rare 6
@@ -7091,7 +8760,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_temple 1
 #req_lab 1
 #req_fornation 95 
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #req_dominion 6
 #req_maxdominion 8
@@ -7100,6 +8769,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #notext
 #nolog
 #end
+
 #newevent
 #rarity 5
 #req_rare 9
@@ -7109,7 +8779,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #req_dominion 9
 #msg "Undead Melia in fort, death 3 dom 9-10"
@@ -7117,6 +8787,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #notext
 #nolog
 #end
+
 --Global enchantment
 #newspell
 #school 5
@@ -7133,6 +8804,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #restricted 95
 #spec 8388608
 #end
+
 #newsite 1755
 #name "Stygian Stagnant Waters"
 #path 5
@@ -7141,6 +8813,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #gems 2 1
 #incscale 3
 #end
+
 #newevent
 #rarity 5
 #req_enchdom 200
@@ -7152,6 +8825,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #notext
 #nolog
 #end
+
 #newevent
 #rarity 5
 #req_fornation 95
@@ -7160,7 +8834,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_unique 20
 #req_pop0ok
 #req_maxpop 150
-#req_fullowner 95
+#req_fullowner
 #req_foundsite 0
 #nation -2
 #msg "Site for depleted province [Stygian Stagnant Waters]"
@@ -7168,6 +8842,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #notext
 #nolog
 #end
+
 #newevent
 #rarity 5
 #req_fornation 95
@@ -7177,13 +8852,14 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #msg "Spectral Kouretes freespawn"
 #1d3units 2843
 #notext
 #nolog
 #end
+
 #newevent
 #rarity 5
 #req_rare 10
@@ -7193,13 +8869,14 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #req_fort 1
 #req_temple 1
 #req_lab 1
-#req_fullowner 95
+#req_fullowner
 #nation -2
 #msg "Undead Melia freespawn"
 #com 6330
 #notext
 #nolog
 #end
+
 ---Sites
 #newmonster 6318 --kourete 2
 #copystats 2839
@@ -7208,6 +8885,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #firstshape 2839
 #copyspr 2839
 #end
+
 #newmonster 6319 --kourete 4
 #copystats 2839
 #name "Kourete"
@@ -7215,6 +8893,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #firstshape 2839
 #copyspr 2839
 #end
+
 #newmonster 6320 --kourete 6
 #copystats 2839
 #copyspr 2839
@@ -7222,24 +8901,28 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #reclimit 6
 #firstshape 2839
 #end
+
 #newmonster 6321 --Korybant 2
 #copystats 2837
 #firstshape 2837
 #copyspr 2837
 #reclimit 2
 #end
+
 #newmonster 6322 --Korybant 4
 #copystats 2837
 #firstshape 2837
 #copyspr 2837
 #reclimit 4
 #end
+
 #newmonster 6323 --Korybant 6
 #copystats 2837
 #firstshape 2837
 #copyspr 2837
 #reclimit 6
 #end
+
 #newsite 1807-- Telkhinis
 #name "Sunken Agora"
 #path 3
@@ -7247,6 +8930,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #level 0
 #mon 6318
 #end
+
 #newsite 1808-- Telkhinis
 #name "Sunken Odeon"
 #mon 6319
@@ -7254,6 +8938,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #rarity 5
 #level 0
 #end
+
 #newsite 1809-- Telkhinis
 #name "Sunken Orchestra"
 #mon 6320
@@ -7261,6 +8946,7 @@ Summod gives Oceania blood summons.  EA Oceania gets a new blood hunting minotau
 #rarity 5
 #level 0
 #end
+
 #selectnation 95
 #descr "Therodos was once a kingdom of sages and craftsmen ruled by the Telkhines, sea daimones of almost godlike powers.
 When the Telkhines made themselves god-kings and threatened the divine order, their entire kingdom was drowned and
@@ -7281,6 +8967,7 @@ Therodos is substantially changed by summod. Your sacred accessibility improves 
 #coastunit1 6325
 #startunittype1 6328
 #end
+
 ----------------------
 #newevent 
 #msg "Telkhinis 7. [Sunken Agora]."  
@@ -7297,6 +8984,7 @@ Therodos is substantially changed by summod. Your sacred accessibility improves 
 #req_nositenbr 1807 
 #addsite 1807 
 #end
+
 #newevent 
 #msg "Telkhinis 8. [Sunken Odeon]."  
 #req_owncapital 1 
@@ -7304,15 +8992,19 @@ Therodos is substantially changed by summod. Your sacred accessibility improves 
 #req_fort 1 
 #nation -2 
 #req_fornation 95 
-#notext #nolog 
+#notext
+#nolog 
 #req_growth 1 
 #req_death -2 
 #req_freesites 1 
 #req_nositenbr 1808 
 #addsite 1808 
 #end
-#newevent #msg "Telkhinis 9. [Sunken Orchestra]."  
-#req_owncapital 1 #rarity 5 
+
+#newevent
+#msg "Telkhinis 9. [Sunken Orchestra]."  
+#req_owncapital 1
+#rarity 5 
 #req_fort 1 
 #nation -2 
 #req_fornation 95 
@@ -7323,7 +9015,9 @@ Therodos is substantially changed by summod. Your sacred accessibility improves 
 #req_nositenbr 1809 
 #addsite 1809 
 #end
-#newevent #msg "Deathremoval. [Sunken Agora]." 
+
+#newevent
+#msg "Deathremoval. [Sunken Agora]." 
 #rarity 5 
 #nation -2 
 #req_fornation 95 
@@ -7333,7 +9027,9 @@ Therodos is substantially changed by summod. Your sacred accessibility improves 
 #req_site 1
 #removesite 1807  
 #end
-#newevent #msg "Telkhinis3 [Sunken Agora]." 
+
+#newevent
+#msg "Telkhinis3 [Sunken Agora]." 
 #req_owncapital 1  
 #rarity 5 
 #nation -2 
@@ -7344,7 +9040,9 @@ Therodos is substantially changed by summod. Your sacred accessibility improves 
 #req_site 1
 #removesite 1807  
 #end
-#newevent #msg "Deathremoval. [Sunken Odeon]." 
+
+#newevent
+#msg "Deathremoval. [Sunken Odeon]." 
 #req_owncapital 1  
 #rarity 5 
 #nation -2 
@@ -7355,6 +9053,7 @@ Therodos is substantially changed by summod. Your sacred accessibility improves 
 #req_site 1
 #removesite 1808  
 #end
+
 #newevent 
 #msg "Telkhinis5 [Sunken Odeon]." 
 #req_owncapital 1 
@@ -7367,7 +9066,9 @@ Therodos is substantially changed by summod. Your sacred accessibility improves 
 #req_site 1 
 #removesite 1808  
 #end
-#newevent #msg "Deathremoval. [Sunken Orchestra]." 
+
+#newevent
+#msg "Deathremoval. [Sunken Orchestra]." 
 #req_owncapital 1 
 #rarity 5 
 #nation -2 
@@ -7378,6 +9079,7 @@ Therodos is substantially changed by summod. Your sacred accessibility improves 
 #req_site 1 
 #removesite 1809  
 #end
+
 #newevent 
 #msg "Nofort. [Sunken Agora]." 
 #rarity 5  
@@ -7387,22 +9089,62 @@ Therodos is substantially changed by summod. Your sacred accessibility improves 
 #req_site 1
 #removesite 1807
 #end
+
 #newevent 
 #msg "Nofort. [Sunken Odeon]." 
 #rarity 5  
 #req_fort 0 
 #nation -2 
 #notext 
-#nolog   #req_site 1
+#nolog  
+#req_site 1
 #removesite 1808 
 #end
-#newevent  #msg "Nofort. [Sunken Orchestra]." 
-#rarity 5  #req_fort 0 #nation -2 #notext #nolog  #req_site 1
+
+#newevent 
+#msg "Nofort. [Sunken Orchestra]." 
+#rarity 5 
+#req_fort 0
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1809 
 #end
-#newevent #msg "Enemy. [Sunken Agora]." #rarity 5 #req_notnation 95 #nation -2 #notext #nolog  #req_site 1 #removesite 1807 #end
-#newevent #msg "Enemy. [Sunken Odeon]." #rarity 5 #req_notnation 95 #nation -2 #notext #nolog  #req_site 1 #removesite 1808 #end
-#newevent  #msg "Enemy. [Sunken Orchestra]." #rarity 5 #req_notnation 95 #nation -2 #notext #nolog #req_site 1 #removesite 1809 #end
+
+#newevent
+#msg "Enemy. [Sunken Agora]."
+#rarity 5
+#req_notnation 95
+#nation -2
+#notext
+#nolog 
+#req_site 1
+#removesite 1807
+#end
+
+#newevent
+#msg "Enemy. [Sunken Odeon]."
+#rarity 5
+#req_notnation 95
+#nation -2
+#notext
+#nolog 
+#req_site 1
+#removesite 1808
+#end
+
+#newevent 
+#msg "Enemy. [Sunken Orchestra]."
+#rarity 5
+#req_notnation 95
+#nation -2
+#notext
+#nolog
+#req_site 1
+#removesite 1809
+#end
+
 #newsite 1812
 #name "Agora"
 #mon 6321
@@ -7410,6 +9152,7 @@ Therodos is substantially changed by summod. Your sacred accessibility improves 
 #rarity 5
 #level 0
 #end
+
 #newsite 1810
 #name "Odeon"
 #mon 6322
@@ -7417,6 +9160,7 @@ Therodos is substantially changed by summod. Your sacred accessibility improves 
 #rarity 5
 #level 0
 #end
+
 #newsite 1811
 #name "Orchestra"
 #mon 6323
@@ -7424,25 +9168,191 @@ Therodos is substantially changed by summod. Your sacred accessibility improves 
 #rarity 5
 #level 0
 #end
-#newevent #req_freesites 1 #msg "Agora.  [Agora]. " #req_nositenbr 1812 #rarity 5 #req_fort 1 #req_coast 1 #nation -2 #req_fornation 95 #notext #nolog #req_death 0 #req_growth -1  #addsite 1812 #end
-#newevent #req_freesites 1  #msg "Odeon. [Odeon]." #req_nositenbr 1810 #rarity 5 #req_fort 1 #req_coast 1  #nation -2 #req_fornation 95 #notext #nolog #req_growth 1 #req_death -2   #addsite 1810 #end
-#newevent #req_freesites 1  #msg "Orchestra. [Orchestra]." #req_nositenbr 1811 #rarity 5 #req_fort 1 #req_coast 1  #nation -2 #req_fornation 95 #notext #nolog #req_growth 3    #addsite 1811 #end
-#newevent #msg "Agora. [Agora]."  #rarity 5 #nation -2 #req_fornation 95 #notext #nolog #req_death 2 #req_site 1 #removesite 1812 #end
-#newevent #msg "Agora. [Agora]." #rarity 5 #nation -2 #req_fornation 95 #notext #nolog #req_growth 1 #req_site 1 #removesite 1812  #end
-#newevent #msg "Odeon. [Odeon]." #rarity 5 #nation -2 #req_fornation 95 #notext #nolog #req_death 0 #req_site 1 #removesite 1810 #end
-#newevent #msg "Odeon. [Odeon]." #rarity 5 #nation -2 #req_fornation 95 #notext #nolog #req_growth 3 #req_site 1 #removesite 1810  #end
-#newevent #msg "Orchestra. [Orchestra]." #rarity 5 #nation -2 #req_fornation 95 #notext #nolog #req_death -2 #req_site 1 #removesite 1811 #end
-#newevent #req_site 1 #msg "Agora. [Agora]." #rarity 5  #req_fort 0  #nation -2 #notext #nolog  #req_site 1 #removesite 1812 #end
-#newevent #req_site 1 #msg "Odeon. [Odeon]."  #rarity 5  #req_fort 0  #nation -2 #notext #nolog #req_site 1  #removesite 1810 #end
-#newevent #req_site 1 #msg "Orchestra. [Orchestra]."  #rarity 5  #req_fort 0  #nation -2 #notext #nolog #req_site 1  #removesite 1811 #end
-#newevent #req_site 1 #msg "Agora. [Agora]."  #rarity 5 #req_notnation 95  #nation -2 #notext #nolog #req_site 1  #removesite 1812 #end
-#newevent #req_site 1 #msg "Odeon. [Odeon]."  #rarity 5 #req_notnation 95  #nation -2 #notext #nolog #req_site 1   #removesite 1810 #end
-#newevent #req_site 1 #msg "Orchestra. [Orchestra]."  #rarity 5 #req_notnation 95  #nation -2 #notext #nolog #req_site 1   #removesite 1811 #end
+
+#newevent
+#req_freesites 1
+#msg "Agora.  [Agora]. "
+#req_nositenbr 1812
+#rarity 5
+#req_fort 1
+#req_coast 1
+#nation -2
+#req_fornation 95
+#notext
+#nolog
+#req_death 0
+#req_growth -1 
+#addsite 1812
+#end
+
+#newevent
+#req_freesites 1 
+#msg "Odeon. [Odeon]."
+#req_nositenbr 1810
+#rarity 5
+#req_fort 1
+#req_coast 1 
+#nation -2
+#req_fornation 95
+#notext
+#nolog
+#req_growth 1
+#req_death -2  
+#addsite 1810
+#end
+
+#newevent
+#req_freesites 1 
+#msg "Orchestra. [Orchestra]."
+#req_nositenbr 1811
+#rarity 5
+#req_fort 1
+#req_coast 1 
+#nation -2
+#req_fornation 95
+#notext
+#nolog
+#req_growth 3   
+#addsite 1811
+#end
+
+#newevent
+#msg "Agora. [Agora]." 
+#rarity 5
+#nation -2
+#req_fornation 95
+#notext
+#nolog
+#req_death 2
+#req_site 1
+#removesite 1812
+#end
+
+#newevent
+#msg "Agora. [Agora]."
+#rarity 5
+#nation -2
+#req_fornation 95
+#notext
+#nolog
+#req_growth 1
+#req_site 1
+#removesite 1812 
+#end
+
+#newevent
+#msg "Odeon. [Odeon]."
+#rarity 5
+#nation -2
+#req_fornation 95
+#notext
+#nolog
+#req_death 0
+#req_site 1
+#removesite 1810
+#end
+
+#newevent
+#msg "Odeon. [Odeon]."
+#rarity 5
+#nation -2
+#req_fornation 95
+#notext
+#nolog
+#req_growth 3
+#req_site 1
+#removesite 1810 
+#end
+
+#newevent
+#msg "Orchestra. [Orchestra]."
+#rarity 5
+#nation -2
+#req_fornation 95
+#notext
+#nolog
+#req_death -2
+#req_site 1
+#removesite 1811
+#end
+
+#newevent
+#req_site 1
+#msg "Agora. [Agora]."
+#rarity 5 
+#req_fort 0 
+#nation -2
+#notext
+#nolog 
+#req_site 1
+#removesite 1812
+#end
+
+#newevent
+#req_site 1
+#msg "Odeon. [Odeon]." 
+#rarity 5 
+#req_fort 0 
+#nation -2
+#notext
+#nolog
+#req_site 1 
+#removesite 1810
+#end
+
+#newevent
+#req_site 1
+#msg "Orchestra. [Orchestra]." 
+#rarity 5 
+#req_fort 0 
+#nation -2
+#notext
+#nolog
+#req_site 1 
+#removesite 1811
+#end
+
+#newevent
+#req_site 1
+#msg "Agora. [Agora]." 
+#rarity 5
+#req_notnation 95 
+#nation -2
+#notext
+#nolog
+#req_site 1 
+#removesite 1812
+#end
+
+#newevent
+#req_site 1
+#msg "Odeon. [Odeon]." 
+#rarity 5
+#req_notnation 95 
+#nation -2
+#notext
+#nolog
+#req_site 1  
+#removesite 1810
+#end
+
+#newevent
+#req_site 1
+#msg "Orchestra. [Orchestra]." 
+#rarity 5
+#req_notnation 95 
+#nation -2
+#notext
+#nolog
+#req_site 1  
+#removesite 1811
+#end
 
 --- Telkhine Poison
 #selectmonster 2873
 #incscale 3
 #end
+
 #selectmonster 2874
 #incscale 3
 #end
@@ -7472,12 +9382,15 @@ Duskelders are slightly more resistant to magic duel."
 #idealcold 1
 #fortcost 50
 #end
+
 #selectsite 24
 #gems 5 5
 #end
+
 #selectsite 25
 #gems 5 10
 #end
+
 #selectmonster 184 --knights of the unholy shroud
 #att 11
 #clearweapons
@@ -7489,6 +9402,7 @@ Duskelders are slightly more resistant to magic duel."
 #armor 21
 #armor 169
 #end
+
 #selectmonster 253 --dusk elder
 #magicskill 0 1
 #magicskill 4 2
@@ -7496,6 +9410,7 @@ Duskelders are slightly more resistant to magic duel."
 #magicboost 4 -1
 #descr "The mages of Old Ermor performed rituals that corrupted and destroyed the old Empire. These mages are now summoned from the dead to wage war against the living and they are now known as Spectators or Dusk Elders. The mages do not possess solid bodies, but their spirits are connected to the Netherworld.  This has made their powers of Death magic greater than ever before, and they are more resistant to magic duels. The mere touch of these mages will drain the life energy of the target and replenish the power of the mage. They are ethereal and very difficult to harm without magic weapons."
 #end
+
 #newsite 1802
 #name "Deadland"
 #path 5 
@@ -7504,6 +9419,7 @@ Duskelders are slightly more resistant to magic duel."
 #incscale 3
 #gems 5 1
 #end
+
 #newsite 1803
 #name "Purified Deadland"
 #decscale 3
@@ -7512,33 +9428,133 @@ Duskelders are slightly more resistant to magic duel."
 #rarity 5
 #gems 4 1
 #end
-#newevent #rarity 5 #nation -2 #req_fornation 34   #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
-#msg "Purification destroyed. [Purified Deadland]." #removesite 1803 #notext  #addsite 1802  #nolog #end
 
-#newevent #rarity 5 #nation -2 #req_fornation 34   
-#req_pop0ok #req_capital 0 #req_dominion 1 #req_site 1
-#msg "Carrionland destroyed. [Carrionland]." #removesite 1804 #nolog #notext #addsite 1802 #end
+#newevent
+#rarity 5
+#nation -2
+#req_fornation 34  
+#req_pop0ok
+#req_capital 0
+#req_dominion 2
+#req_site 1 
+#msg "Purification destroyed. [Purified Deadland]."
+#removesite 1803
+#notext 
+#addsite 1802 
+#nolog
+#end
 
-#newevent #rarity 5 #nation -2 #req_fornation 34   
-#req_pop0ok #req_capital 0 #req_site 1 
-#msg "Dreamland destroyed. [Dreamland]." #removesite 1805 #nolog #notext  #addsite 1802 #end
+#newevent
+#rarity 5
+#nation -2
+#req_fornation 34   
+#req_pop0ok
+#req_capital 0
+#req_dominion 1
+#req_site 1
+#msg "Carrionland destroyed. [Carrionland]."
+#removesite 1804
+#nolog
+#notext
+#addsite 1802
+#end
 
-#newevent #req_freesites 1 #rarity 5  #req_fornation 34   #req_land 1
-#nation -2 #req_pop0ok #req_capital 0 #req_maxpop 150 #req_dominion 2 #req_nositenbr 1802
-#msg "Deadland Created. [Deadland]." #addsite 1802 #notext #nolog #req_unique 30 #end
+#newevent
+#rarity 5
+#nation -2
+#req_fornation 34   
+#req_pop0ok
+#req_capital 0
+#req_site 1 
+#msg "Dreamland destroyed. [Dreamland]."
+#removesite 1805
+#nolog
+#notext 
+#addsite 1802
+#end
 
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 34 #req_land 1 #req_unique 7
-#nation -2 #req_pop0ok #req_capital 0 #req_dominion 1 #req_site 0 #notext #addsite -1 
-#msg "Deadland Created. [Deadland]" #nolog #end
+#newevent
+#req_freesites 1
+#rarity 5 
+#req_fornation 34  
+#req_land 1
+#nation -2
+#req_pop0ok
+#req_capital 0
+#req_maxpop 150
+#req_dominion 2
+#req_nositenbr 1802
+#msg "Deadland Created. [Deadland]."
+#addsite 1802
+#notext
+#nolog
+#req_unique 30
+#end
 
-#newevent #rarity 5 #req_monster 149 #req_fornation 40 
-#nation -2 #req_pop0ok #req_capital 0 #req_dominion 3 #req_rare 30 #req_site 1 
-#msg "An inquisitor has purified this land! [Deadland]."#nolog #notext #removesite 1802 #addsite 1803  #end
-#newevent #rarity 5 #req_monster 222 #req_fornation 40  
-#nation -2 #req_pop0ok #req_capital 0 #req_dominion 3 #notext #req_site 1 #msg "A High inquisitor has purified this land! [Deadland]."#nolog #removesite 1802 #addsite 1803  #end
-#newevent #rarity 5 #req_monster 583 #req_fornation 40  
-#nation -2 #req_pop0ok #req_capital 0 #req_dominion 3  #req_nositenbr 1804 #notext #req_site 1 #msg "His Eminence has purified this land! [Deadland]."#nolog #removesite 1802 #addsite 1803  #end
+#newevent
+#req_freesites 1
+#rarity 5  
+#req_fornation 34
+#req_land 1
+#req_unique 7
+#nation -2
+#req_pop0ok
+#req_capital 0
+#req_dominion 1
+#req_site 0
+#notext
+#addsite -1 
+#msg "Deadland Created. [Deadland]"
+#nolog
+#end
+
+#newevent
+#rarity 5
+#req_monster 149
+#req_fornation 40 
+#nation -2
+#req_pop0ok
+#req_capital 0
+#req_dominion 3
+#req_rare 30
+#req_site 1 
+#msg "An inquisitor has purified this land! [Deadland]."#nolog
+#notext
+#removesite 1802
+#addsite 1803 
+#end
+
+#newevent
+#rarity 5
+#req_monster 222
+#req_fornation 40  
+#nation -2
+#req_pop0ok
+#req_capital 0
+#req_dominion 3
+#notext
+#req_site 1
+#msg "A High inquisitor has purified this land! [Deadland]."#nolog
+#removesite 1802
+#addsite 1803 
+#end
+
+#newevent
+#rarity 5
+#req_monster 583
+#req_fornation 40  
+#nation -2
+#req_pop0ok
+#req_capital 0
+#req_dominion 3 
+#req_nositenbr 1804
+#notext
+#req_site 1
+#msg "His Eminence has purified this land! [Deadland]."#nolog
+#removesite 1802
+#addsite 1803 
+#end
+
 #newsite 1804
 #name "Carrionland"
 #path 6 
@@ -7547,6 +9563,7 @@ Duskelders are slightly more resistant to magic duel."
 #decscale 3
 #gems 6 1
 #end
+
 #selectnation 49 --asphodel
 #descr "Asphodel was once part of Pangaea, a woodland nation inhabited by wild beings connected with nature.
 Halfmen such as satyrs, centaurs and minotaurs serve the lords of the Sacred Groves deep in the forests.
@@ -7561,35 +9578,97 @@ forest realm haunted by living carrion.
 
 Summod removes the ability of vines to repel and parry weapons, but grants asphodel the ability to generate nature gems in templed forests they control."
 #end
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 49 #nation -2 
-#req_pop0ok #req_capital 0 
+
+#newevent
+#req_freesites 1
+#rarity 5  
+#req_fornation 49
+#nation -2 
+#req_pop0ok
+#req_capital 0 
 #req_maxpop 100 
-#req_dominion 4 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1  #req_land 1
-#msg "Purified Deadland reclaimed. [Purified Deadland]." #removesite 1803 #addsite 1804 #nolog #notext #end
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 49 #nation -2 
-#req_pop0ok #req_capital 0 
+#req_dominion 4
+#req_temple 1
+#req_fort 0
+#req_forest 1
+#req_site 1 
+#req_land 1
+#msg "Purified Deadland reclaimed. [Purified Deadland]."
+#removesite 1803
+#addsite 1804
+#nolog
+#notext
+#end
+
+#newevent
+#req_freesites 1
+#rarity 5  
+#req_fornation 49
+#nation -2 
+#req_pop0ok
+#req_capital 0 
 #req_maxpop 100 
-#req_dominion 4 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1  #req_land 1
-#msg "Deadland reclaimed. [Deadland]." #removesite 1802  #addsite 1804 #nolog #notext #end
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 49 #nation -2 
-#req_pop0ok #req_capital 0 
+#req_dominion 4
+#req_temple 1
+#req_fort 0
+#req_forest 1
+#req_site 1 
+#req_land 1
+#msg "Deadland reclaimed. [Deadland]."
+#removesite 1802 
+#addsite 1804
+#nolog
+#notext
+#end
+
+#newevent
+#req_freesites 1
+#rarity 5  
+#req_fornation 49
+#nation -2 
+#req_pop0ok
+#req_capital 0 
 #req_maxpop 100 
-#req_dominion 4 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1 #req_land 1
-#msg "Dreamland reclaimed. [Dreamland]." #removesite 1805  #addsite 1804 #nolog #notext #end
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 49 #nation -2 
-#req_pop0ok #req_capital 0 
+#req_dominion 4
+#req_temple 1
+#req_fort 0
+#req_forest 1
+#req_site 1
+#req_land 1
+#msg "Dreamland reclaimed. [Dreamland]."
+#removesite 1805 
+#addsite 1804
+#nolog
+#notext
+#end
+
+#newevent
+#req_freesites 1
+#rarity 5  
+#req_fornation 49
+#nation -2 
+#req_pop0ok
+#req_capital 0 
 #req_maxpop 100 
-#req_dominion 5 #req_rare 20 #req_temple 1 #req_fort 0 #req_forest 1 #req_land 1 #req_nositenbr 1804 #req_site 0 #addsite 1804 
-#msg "Carrionland Created. [Carrionland]." #nolog #notext #end
+#req_dominion 5
+#req_rare 20
+#req_temple 1
+#req_fort 0
+#req_forest 1
+#req_land 1
+#req_nositenbr 1804
+#req_site 0
+#addsite 1804 
+#msg "Carrionland Created. [Carrionland]."
+#nolog
+#notext
+#end
 
 
 --------SCELERIA CHANGES
 #selectnation 35
 #end
+
 --------Pythium
 #selectnation 36
 #descr "The Emerald Empire of Pythium is a splinter empire of the great Empire of Ermor. As dark arts were practiced in
@@ -7605,6 +9684,7 @@ but now the old practice has been adopted along with the usage of serpent mounts
 
 Pythium's angel summons are cheaper in summod.  Angels of Fury now self-bless."
 #end
+
 --------Marignon
 #selectnation 40
 #descr "Marignon is a feudal theocracy. The Inquisition controls all aspects of the country, including warfare. The feudal
@@ -7622,6 +9702,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #startunitnbrs1 15
 #startunitnbrs2 15
 #end
+
 #newevent 
 #nation -2
 #nolog
@@ -7634,6 +9715,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1d6units 217
 #end
+
 #newevent 
 #nation -2
 #nolog
@@ -7646,6 +9728,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1d3units 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
@@ -7658,6 +9741,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1d3units 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
@@ -7670,6 +9754,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1unit 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
@@ -7682,6 +9767,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1unit 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
@@ -7694,6 +9780,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1unit 217
 #end
+
 #newevent 
 #nation -2
 #nolog
@@ -7706,6 +9793,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #2d6units 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
@@ -7718,6 +9806,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1d3units 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
@@ -7730,6 +9819,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1unit 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
@@ -7742,6 +9832,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1unit 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
@@ -7754,6 +9845,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1unit 217
 #end
+
 #newevent 
 #nation -2
 #nolog
@@ -7766,6 +9858,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #3d6units 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
@@ -7778,6 +9871,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1d3units 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
@@ -7790,6 +9884,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1unit 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
@@ -7802,6 +9897,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1unit 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
@@ -7814,6 +9910,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1unit 217
 #end
+
 #newevent 
 #nation -2
 #nolog
@@ -7826,6 +9923,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #4d6units 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
@@ -7838,6 +9936,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1d3units 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
@@ -7850,6 +9949,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1unit 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
@@ -7862,6 +9962,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1unit 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
@@ -7874,38 +9975,49 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_targorder 30
 #1unit 217
 #end
+
 --marignon pillage.  Pillage order is 30.
 #selectmonster 149 --inquisitor
 #end
+
 #selectmonster 222 --high inquisitor
 #noslowrec
 #custommagic 2048 50
 #end
+
 #selectmonster 134 --royal guard
 #gcost 10020 --10 gold discount
 #end
+
 #selectmonster 135 --knight of chalice
 #gcost 10020 --10 gold discount
 #end
+
 #selectmonster 440 --paladin
 #gcost 10020 --20 gold discount
 #end
+
 #selectmonster 133 --man at arms
 #gcost 13
 #end
+
 #selectmonster 224 --witch hunter
 #gcost 10000
 #custommagic 3456 10
 #end
+
 #selectmonster 223 --grandmaster
 #end
+
 #selectmonster 217 --flagellant
 #gcost 10007
 #end
+
 ----Angel Changes
 #newspell
 #copyspell 162
 #end
+
 #selectspell 162
 #clear
 #name "Bless Self"
@@ -7917,25 +10029,30 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 
 #selectspell 319 --Contact Harbinger
 #end
+
 #selectspell 320 --angelic host
 #pathlevel 0 4
 #path 1 0
 #pathlevel 1 1
 #fatiguecost 4000
 #end
+
 #selectspell 321 --heavenly wrath
 #fatiguecost 2500
 #end
+
 #selectspell 322 --heavenly choir
 #fatiguecost 8800
 #pathlevel 0 5
 #pathlevel 1 3
 #end
+
 #selectmonster 1369 --Angel of Wrath
 #bloodvengeance 0
 #damagerev 2
 #onebattlespell 162
 #end
+
 #selectmonster 1367 --Heavenly Choir
 #weapon 1423
 #end
@@ -7989,21 +10106,26 @@ you after serving for a few months."
 #addrecunit 1901
 #addrecunit 1902	
 #end
+
 #selectspell 176 --internal alchemy
 #fatiguecost 200
 #restricted 10
 #restricted 42
 #restricted 67
 #end
+
 #selectspell 175 --thousand year ginseng
 #fatiguecost 200
 #end
+
 #selectspell 343 -- Celestial Servant
 #fatiguecost 200
 #end
+
 #selectspell 796
 #notfornation 42
 #end
+
 #newspell
 #name "Terracotta Leader"
 #school -1
@@ -8011,6 +10133,7 @@ you after serving for a few months."
 #nreff 1
 #damage -1306
 #end
+
 #newspell
 #name "Terracotta Army"
 #descr "The caster crafts an army of terracotta soldiers and imbues them with false life. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons."
@@ -8027,6 +10150,7 @@ you after serving for a few months."
 #fatiguecost 1000
 #nextspell "Terracotta Leader"
 #end
+
 #newmonster 6407
 #name "Terracotta Infantryman"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as an infantryman."
@@ -8058,7 +10182,8 @@ you after serving for a few months."
 #armor 4
 #montag 1305
 #end
-#newmonster 6406
+
+#newmonster
 #name "Terracotta Guardsman"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a guardsman."
 #spr1 "./summod/TerracottaGlaive1.tga"
@@ -8088,6 +10213,7 @@ you after serving for a few months."
 #weapon 308
 #montag 1305
 #end
+
 #newmonster 6408
 #name "Terracotta Crossbowman"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a crossbowman."
@@ -8119,6 +10245,7 @@ you after serving for a few months."
 #weapon 6
 #montag 1305
 #end
+
 #newmonster 6409
 #name "Terracotta Horseman"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a horseman, it even has a horse."
@@ -8154,6 +10281,7 @@ you after serving for a few months."
 #montag 1306
 #firstshape 6411
 #end
+
 #newmonster 6410
 #name "Terracotta Horseman"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a horseman, it even has a horse."
@@ -8189,6 +10317,7 @@ you after serving for a few months."
 #montag 1306
 #firstshape 6411
 #end
+
 #newmonster 6411
 #name "Terracotta Horseman"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a horseman, it even has a horse."
@@ -8223,6 +10352,7 @@ you after serving for a few months."
 #ap 16
 #montag 1306
 #end
+
 #newmonster 6412
 #name "Terracotta Chariot"
 #descr "A ceramic statue given false life through magic rituals. Terracotta Soldiers are highly resistant to fire, but are somewhat brittle if struck by blunt weapons. This one is armed as a chariotsman, it even has a chariot."
@@ -8311,9 +10441,11 @@ you after serving for a few months."
 #prec 8
 #xpshape 24
 #end
+
 #newmonster 6334
 #name "Experienced Conscript Footman"
-#copystats 794 #copyspr 794
+#copystats 794
+#copyspr 794
 #spr1 "./summod/conpike_1.tga"
 #spr2 "./summod/conpike_2.tga"
 #mor 8
@@ -8324,9 +10456,11 @@ you after serving for a few months."
 #firstshape -1310
 #descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #end
+
 #newmonster 6335
 #name "Conscript Footman"
-#copystats 795 #copyspr 795
+#copystats 795
+#copyspr 795
 #montag 1304
 #gcost 10007
 #descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
@@ -8339,9 +10473,11 @@ you after serving for a few months."
 #xpshape 24
 #prec 8
 #end
+
 #newmonster 6336
 #name "Experienced Conscript Footman"
-#copystats 795 #copyspr 795
+#copystats 795
+#copyspr 795
 #spr1 "./summod/conglaive_1.tga"
 #spr2 "./summod/conglaive_2.tga"
 #mor 8
@@ -8352,9 +10488,11 @@ you after serving for a few months."
 #firstshape -1311
 #descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #end
+
 #newmonster 6337
 #name "Conscript Footman"
-#copystats 796 #copyspr 796
+#copystats 796
+#copyspr 796
 #montag 1304
 #gcost 10007
 #descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
@@ -8367,9 +10505,11 @@ you after serving for a few months."
 #prec 8
 #xpshape 24
 #end
+
 #newmonster 6338
 #name "Experienced Conscript Footman"
-#copystats 796 #copyspr 796
+#copystats 796
+#copyspr 796
 #spr1 "./summod/conshield_1.tga"
 #spr2 "./summod/conshield_2.tga"
 #mor 8
@@ -8380,9 +10520,11 @@ you after serving for a few months."
 #firstshape -1312
 #descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #end
+
 #newmonster 6339
 #name "Conscript Archer"
-#copystats 797 #copyspr 797
+#copystats 797
+#copyspr 797
 #montag 1304
 #gcost 10007
 #descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
@@ -8394,9 +10536,11 @@ you after serving for a few months."
 #prec 8
 #xpshape 24
 #end
+
 #newmonster 6340
 #name "Experienced Conscript Archer"
-#copystats 797 #copyspr 797
+#copystats 797
+#copyspr 797
 #spr1 "./summod/conarcher_1.tga"
 #spr2 "./summod/conarcher_2.tga"
 #mor 8
@@ -8407,6 +10551,7 @@ you after serving for a few months."
 #firstshape -1313
 #descr "Conscripts are, like most footmen, armored in leather and linen and armed with polearms and bows. The imperial beuarcracy demands a tax of money or labor, and those who can't pay either assist in local defense or are pressed into the army for a term of up to two years. After serving their term, some conscripts join the army as regulars, but others go home to their families."
 #end
+
 #newmonster 6341
 #name "Conscript Archer"
 #copystats 797
@@ -8422,6 +10567,7 @@ you after serving for a few months."
 #prec 8
 #firstshape 6339
 #end
+
 #newmonster 6491
 #copystats 794
 #copyspr 794
@@ -8430,6 +10576,7 @@ you after serving for a few months."
 #uwdamage 100
 #montag 1310
 #end
+
 #newmonster 6492
 #copystats 795
 #copyspr 795
@@ -8438,6 +10585,7 @@ you after serving for a few months."
 #uwdamage 100
 #montag 1311
 #end
+
 #newmonster 6493
 #copystats 796
 #copyspr 796
@@ -8446,6 +10594,7 @@ you after serving for a few months."
 #uwdamage 100
 #montag 1312
 #end
+
 #newmonster 6494
 #copystats 797
 #copyspr 797
@@ -8454,15 +10603,19 @@ you after serving for a few months."
 #uwdamage 100
 #montag 1313
 #end
+
 #selectmonster 794
 #montag 1310
 #end
+
 #selectmonster 795
 #montag 1311
 #end
+
 #selectmonster 796
 #montag 1312
 #end
+
 #selectmonster 797
 #montag 1313
 #end
@@ -8497,21 +10650,26 @@ which now scare the enemy."
 #addforeignunit 879
 #addforeignunit 880
 #end
+
 #selectmonster 895 --eye of the lord
 #slowrec
 #end
+
 #selectmonster 896 --ear of the lord
 #gcost 10000
 #end
+
 #selectmonster 897 --Voice of the lord
 #slowrec
 #end
+
 #selectmonster 877 --Banespider
 #str 12
 #gcost 10030
 #att 14
 #def 14
 #end
+
 #selectmonster 876 --spider warrior
 #clearweapons
 #weapon 10 --falchion
@@ -8519,16 +10677,20 @@ which now scare the enemy."
 #def 12
 #gcost 10020
 #end
+
 #selectmonster 879 --machaka archer
 #gcost 10009
 #end
+
 #selectmonster 880 --machaka warrior javelin
 #gcost 10009
 #end
+
 #selectmonster 1599 --machaka warrior spearshield (gave fur)
 #gcost 10009
 #armor 44
 #end
+
 #selectmonster 893  --sorceror
 #clearmagic
 #custommagic 5248 100
@@ -8538,6 +10700,7 @@ which now scare the enemy."
 #magicskill 6 2
 #custommagic 13440 10
 #end
+
 #selectmonster 891  --sorceress
 #gcost 10015
 #clearmagic
@@ -8546,6 +10709,7 @@ which now scare the enemy."
 #magicskill 5 1
 #custommagic 13440 40
 #end
+
 #selectmonster 892 --witchdoctor
 #clearmagic
 #magicskill 6 1
@@ -8554,9 +10718,11 @@ which now scare the enemy."
 #researchbonus -6
 #gcost 10000
 #end
+
 #selectmonster 882 --hoplite
 #gcost 10013
 #end
+
 #selectmonster 885 --spider rider
 #gcost 10015
 #size 4
@@ -8565,6 +10731,7 @@ which now scare the enemy."
 #weapon 357
 #weapon 262
 #end
+
 #selectmonster 886 --spider knight
 #size 4
 #gcost 10025
@@ -8574,6 +10741,7 @@ which now scare the enemy."
 #weapon 1
 #weapon 262
 #end
+
 #selectmonster 887  --spider lord
 #size 4
 #gcost 10025
@@ -8583,6 +10751,7 @@ which now scare the enemy."
 #weapon 1
 #weapon 262
 #end
+
 #selectmonster 898 --sorceress shape
 #size 4
 #str 16
@@ -8592,22 +10761,27 @@ which now scare the enemy."
 #str 18
 #weapon 1414
 #end
+
 #selectmonster 889 --Black Hunter
 #weapon 1414
 #end
+
 #selectmonster 2208
 #str 18
 #weapon 1414
 #end
+
 #selectmonster 888
 #str 18
 #gcost 70
 #mr 10
 #weapon 1414
 #end
+
 #selectmonster 890
 #weapon 1414
 #end
+
 --------Caelum
 #selectnation 46
 #descr "Caelum is a magocracy of winged humanoids who inhabit the highest mountain peaks. They are the offspring of the
@@ -8629,17 +10803,21 @@ troops, such as huge Mammoths.
 Summod gives caelum composite bows, so it is as good at archery as claimed.  They also get the cap-only Ice Enchanter, who 
 provides useful crosspaths and smithing."
 #end
+
 #selectsite 11
 #homecom 6332
 #end
+
 #selectmonster 128 --spire horn warrior
 #clearweapons --shortbow, ice knife
 #weapon 35 --ice knife
 #weapon 264 --composite bow
 #end
+
 #selectweapon 606 --frost bow
 #dmg 11
 #end
+
 #newmonster 6332
 #copystats 1283
 #spr1 "./summod/iceenchanter_1.tga"
@@ -8653,6 +10831,7 @@ provides useful crosspaths and smithing."
 #custommagic 2816 100
 #iceforging 7
 #end
+
 -------Bandar Log
 #selectnation 53
 #descr "In the dense forests of the Bandar realm, apes of uncanny brightness have emerged. Under the influence
@@ -8668,45 +10847,58 @@ Summod buffs Bandar Log by improving the monkeys generally, including white ones
 cost and ability. Of note are the Rudra, which is stronger and autocasts Wrathful Skies, the Devala, which 
 automatically casts Celestial Music, and the Devata, which autocasts Antimagic."
 #end
+
 #selectmonster 1332 --apsara
 #weapon 1423
 #end
+
 #selectspell 350 --nagas
 #fatiguecost 1500
 #end
+
 #selectspell 356 --nagaraja
 #fatiguecost 2500
 #end
+
 #selectmonster 1123--Vanara Archer -1 gold
 #gcost 10009
 #end
+
 #selectmonster 1124--Vanara Chakram Thrower -1 gold
 #gcost 10009
 #end
+
 #selectmonster 1125--Vanara Infantry -1 gold
 #gcost 10009
 #end
+
 #selectmonster 1126 --Vanara Swordsmen -1 gold
 #gcost 10012
 #end
+
 #selectmonster 1131 --Bandar Archer -1 gold
 #gcost 10017
 #end
+
 #selectmonster 1132--Bandar Warrior -1 gold
 #gcost 10017
 #att 12
 #end
+
 #selectmonster 1133--Bandar Warrior -1 gold
 #gcost 10017
 #att 12
 #end
+
 #selectmonster 1134--Royal Swordsman -1 gold
 #gcost 10022
 #att 13
 #end
+
 #selectmonster 1142 --whiteone
 #gcost 10016
 #end
+
 -------Shinyu
 #selectnation 54
 #descr "When the entrance to the Netherworld closed, the Oni became fewer and fewer. Their Bakemono slaves
@@ -8728,6 +10920,7 @@ immortality and enhanced abilities."
 #startunitnbrs2 15
 #startunitnbrs1 15
 #end
+
 #newmonster 6352--summonchecker
 #copystats 1396
 #spr1 "./summod/ritualhelp1.tga"
@@ -8742,77 +10935,122 @@ immortality and enhanced abilities."
 #stealthy 0
 #gcost 10
 #end
+
 #selectmonster 1530
 #gcost 45
 #end
+
 #selectmonster 1396
 #att 12
 #gcost 10025
 #end
+
 #selectmonster 1397
 #gcost 10025
 #end
-#selectmonster 1390 #hp 10 #slave #end
-#selectmonster 1391 #hp 10 #slave #end
-#selectmonster 1392 #slave #end
-#selectmonster 1393 #slave #end
-#selectmonster 1394 #slave #end
-#selectmonster 1395 #slave #end
-#selectmonster 1549 #taskmaster 2 #end
-#selectmonster 1398 #inspirational 1 #end
+
+#selectmonster 1390
+#hp 10
+#slave
+#end
+
+#selectmonster 1391
+#hp 10
+#slave
+#end
+
+#selectmonster 1392
+#slave
+#end
+
+#selectmonster 1393
+#slave
+#end
+
+#selectmonster 1394
+#slave
+#end
+
+#selectmonster 1395
+#slave
+#end
+
+#selectmonster 1549
+#taskmaster 2
+#end
+
+#selectmonster 1398
+#inspirational 1
+#end
+
 #selectmonster 1608 --bakemono shaman
 #custommagic 128 20
 #custommagic 1024 20
 #custommagic 4096 20
 #gcost 10010
 #end
+
 #selectspell 191 --gozu mezu
 #fatiguecost 500
 #end
+
 #selectspell 375 --ko oni
 #nreff 2005
 #end
+
 #selectspell 377 --ao oni
 #fatiguecost 400
 #end
+
 #selectspell 378 --karusu tengu
 #fatiguecost 1000
 #pathlevel 0 3
 #researchlevel 5
 #nreff 1009
 #end
+
 #selectspell 379 -aka oni
 #fatiguecost 400
 #end
+
 #selectspell 380 --konoha tengu
 #researchlevel 2
 #end
+
 #selectspell 381 --ghost general
 #end
+
 #selectspell 382 --summon oni
 #fatiguecost 700
 #end
+
 #selectspell 385 --kurooni
 #fatiguecost 600
 #nreff 1002
 #end
+
 #selectspell 383 --dai tengu
 #fatiguecost 4000
 #end
+
 #selectspell 384 --nushi
 #fatiguecost 2000
 #end
+
 #selectspell 386 --oni general
 #fatiguecost 1400
 #researchlevel 5
 #end
+
 #selectspell 387--kitsune
 #fatiguecost 2300
 #end
+
 #selectspell 388 -dai oni
 #researchlevel 7
 #fatiguecost 3500
 #end
+
 #newspell
 #name "Hide Heart"
 #descr "With this ritual, a Bakemono Sorceror will attempt to hide his heart in an isolated mountain, granting him a form of immortality tied to that mountain. This ritual requires an unfortified mountain with a small temple to properly function, and will not work if cast without a Sorceror present."
@@ -8827,6 +11065,7 @@ immortality and enhanced abilities."
 #effect 10001
 #damage 6352
 #end
+
 #newsite 1801
 #name "Hiding Place"
 #rarity 5
@@ -8897,8 +11136,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6380  	#req_nomnr 6353	#stealthcom 6353	#killmon 6352	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6353 	#req_monster 6380	#killcom 6380 	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6380  
+#req_nomnr 6353
+#stealthcom 6353
+#killmon 6352
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6353 
+#req_monster 6380
+#killcom 6380 
+#nolog
+#end  
 #newmonster 6354	
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -8962,8 +11227,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6381	#req_nomnr 6354	#stealthcom 6354	#killmon 6353	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6354	#req_monster 6381	#killcom 6381	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6381
+#req_nomnr 6354
+#stealthcom 6354
+#killmon 6353
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6354
+#req_monster 6381
+#killcom 6381
+#nolog
+#end  
 #newmonster 6355
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -9027,8 +11318,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6382	#req_nomnr 6355	#stealthcom 6355	#killmon 6354	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6355	#req_monster 6382	#killcom 6382	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6382
+#req_nomnr 6355
+#stealthcom 6355
+#killmon 6354
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6355
+#req_monster 6382
+#killcom 6382
+#nolog
+#end  
 #newmonster 6356	
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -9092,8 +11409,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6383	#req_nomnr 6356	#stealthcom 6356	#killmon 6355	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6356	#req_monster 6383	#killcom 6383	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6383
+#req_nomnr 6356
+#stealthcom 6356
+#killmon 6355
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6356
+#req_monster 6383
+#killcom 6383
+#nolog
+#end  
 #newmonster 6357
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -9157,8 +11500,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6384	#req_nomnr 6357	#stealthcom 6357	#killmon 6356	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6357	#req_monster 6384	#killcom 6384	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6384
+#req_nomnr 6357
+#stealthcom 6357
+#killmon 6356
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6357
+#req_monster 6384
+#killcom 6384
+#nolog
+#end  
 #newmonster 6358
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -9222,9 +11591,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6385	#req_nomnr 6358	#stealthcom 6358	#killmon 6357	#nolog 
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6385
+#req_nomnr 6358
+#stealthcom 6358
+#killmon 6357
+#nolog 
 #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6358	#req_monster 6385	#killcom 6385	#nolog #end  
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6358
+#req_monster 6385
+#killcom 6385
+#nolog
+#end  
 #newmonster 6359
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -9288,9 +11682,63 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6386	#req_nomnr 6359	#stealthcom 6359	#killmon 6358	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6359	#req_monster 6386	#killcom 6386	#nolog #end  
-#newmonster 6360	#spr1 "./summod/heart.tga" #spr2 "./summod/heart2.tga"  #name "Sorceror Heart" #descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province." #size 1 #hp 2 #gcost 0 #rcost 1 #unique #mor 50 #noleader #mr 14 #maxage 495 #heal #str 1 #prot 0 #att 0 #def 0 #prec 0 #enc 1 #ap 1 #blind #weapon 575 #stealthy 40 #neednoteat #itemslots 4096 #mapmove 0 #immobile 
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6386
+#req_nomnr 6359
+#stealthcom 6359
+#killmon 6358
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6359
+#req_monster 6386
+#killcom 6386
+#nolog
+#end  
+#newmonster 6360
+#spr1 "./summod/heart.tga"
+#spr2 "./summod/heart2.tga" 
+#name "Sorceror Heart"
+#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
+#size 1
+#hp 2
+#gcost 0
+#rcost 1
+#unique
+#mor 50
+#noleader
+#mr 14
+#maxage 495
+#heal
+#str 1
+#prot 0
+#att 0
+#def 0
+#prec 0
+#enc 1
+#ap 1
+#blind
+#weapon 575
+#stealthy 40
+#neednoteat
+#itemslots 4096
+#mapmove 0
+#immobile 
 #end 	
 #newmonster 6387		
 #name "Bakemono Kizoku"
@@ -9325,8 +11773,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6387	#req_nomnr 6360	#stealthcom 6360	#killmon 6359	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6360	#req_monster 6387	#killcom 6387	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6387
+#req_nomnr 6360
+#stealthcom 6360
+#killmon 6359
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6360
+#req_monster 6387
+#killcom 6387
+#nolog
+#end  
 #newmonster 6361
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -9357,10 +11831,66 @@ immortality and enhanced abilities."
 #mapmove 0 
 #immobile 
 #end 	
-#newmonster 6388	#name "Bakemono Kizoku" #size 3 #immortal #descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." #spr1 "./summod/bakemonokizoku1.tga" #spr2 "./summod/bakemonokizoku2.tga" #gcost 395 #hp 33 #prot 7 #mr 17 #mor 16 #str 18 #att 12 #def 12 #prec 10 #enc 2 #maxage 250 #startage 50 #mountainsurvival #weapon 379 #armor 129 #holy #darkvision 50 #unique #magicskill 0 2 #magicskill 2 1 #magicskill 3 2 #magicskill 5 3 #magicskill 8 1 #custommagic 5760 100 #custommagic 5760 10 
+#newmonster 6388
+#name "Bakemono Kizoku"
+#size 3
+#immortal
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn."
+#spr1 "./summod/bakemonokizoku1.tga"
+#spr2 "./summod/bakemonokizoku2.tga"
+#gcost 395
+#hp 33
+#prot 7
+#mr 17
+#mor 16
+#str 18
+#att 12
+#def 12
+#prec 10
+#enc 2
+#maxage 250
+#startage 50
+#mountainsurvival
+#weapon 379
+#armor 129
+#holy
+#darkvision 50
+#unique
+#magicskill 0 2
+#magicskill 2 1
+#magicskill 3 2
+#magicskill 5 3
+#magicskill 8 1
+#custommagic 5760 100
+#custommagic 5760 10 
 #end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6388	#req_nomnr 6361	#stealthcom 6361	#killmon 6360	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6361	#req_monster 6388	#killcom 6388	#nolog #end  
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6388
+#req_nomnr 6361
+#stealthcom 6361
+#killmon 6360
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6361
+#req_monster 6388
+#killcom 6388
+#nolog
+#end  
 #newmonster 6362
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -9424,8 +11954,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6389	#req_nomnr 6362	#stealthcom 6362	#killmon 6361	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6362	#req_monster 6389	#killcom 6389	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6389
+#req_nomnr 6362
+#stealthcom 6362
+#killmon 6361
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6362
+#req_monster 6389
+#killcom 6389
+#nolog
+#end  
 #newmonster 6363
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -9489,8 +12045,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6390	#req_nomnr 6363	#stealthcom 6363	#killmon 6362	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6363	#req_monster 6390	#killcom 6390	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6390
+#req_nomnr 6363
+#stealthcom 6363
+#killmon 6362
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6363
+#req_monster 6390
+#killcom 6390
+#nolog
+#end  
 #newmonster 6364
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -9554,8 +12136,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6391	#req_nomnr 6364	#stealthcom 6364	#killmon 6363	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6364	#req_monster 6391	#killcom 6391	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6391
+#req_nomnr 6364
+#stealthcom 6364
+#killmon 6363
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6364
+#req_monster 6391
+#killcom 6391
+#nolog
+#end  
 #newmonster 6365
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -9619,8 +12227,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6392	#req_nomnr 6365	#stealthcom 6365	#killmon 6364	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6365	#req_monster 6392	#killcom 6392	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6392
+#req_nomnr 6365
+#stealthcom 6365
+#killmon 6364
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6365
+#req_monster 6392
+#killcom 6392
+#nolog
+#end  
 #newmonster 6366
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -9684,9 +12318,33 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6393	#req_nomnr 6366	#stealthcom 6366	#killmon 6365	#nolog 
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6393
+#req_nomnr 6366
+#stealthcom 6366
+#killmon 6365
+#nolog 
 #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6366	#req_monster 6393	#killcom 6393	#nolog 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6366
+#req_monster 6393
+#killcom 6393
+#nolog 
 #end  
 #newmonster 6367
 #spr1 "./summod/heart.tga" 
@@ -9751,8 +12409,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6394	#req_nomnr 6367	#stealthcom 6367	#killmon 6366	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6367	#req_monster 6394	#killcom 6394	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6394
+#req_nomnr 6367
+#stealthcom 6367
+#killmon 6366
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6367
+#req_monster 6394
+#killcom 6394
+#nolog
+#end  
 #newmonster 6368
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -9816,8 +12500,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6395	#req_nomnr 6368	#stealthcom 6368	#killmon 6367	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6368	#req_monster 6395	#killcom 6395	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6395
+#req_nomnr 6368
+#stealthcom 6368
+#killmon 6367
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6368
+#req_monster 6395
+#killcom 6395
+#nolog
+#end  
 #newmonster 6369
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -9881,8 +12591,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6396	#req_nomnr 6369	#stealthcom 6369	#killmon 6368	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6369	#req_monster 6396	#killcom 6396	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6396
+#req_nomnr 6369
+#stealthcom 6369
+#killmon 6368
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6369
+#req_monster 6396
+#killcom 6396
+#nolog
+#end  
 #newmonster 6370
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -9946,8 +12682,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6397	#req_nomnr 6370	#stealthcom 6370	#killmon 6369	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6370	#req_monster 6397	#killcom 6397	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6397
+#req_nomnr 6370
+#stealthcom 6370
+#killmon 6369
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6370
+#req_monster 6397
+#killcom 6397
+#nolog
+#end  
 #newmonster
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -10011,8 +12773,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6398	#req_nomnr 6371	#stealthcom 6371	#killmon 6370	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6371	#req_monster 6398	#killcom 6398	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6398
+#req_nomnr 6371
+#stealthcom 6371
+#killmon 6370
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6371
+#req_monster 6398
+#killcom 6398
+#nolog
+#end  
 #newmonster 6372
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -10076,8 +12864,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6399	#req_nomnr 6372	#stealthcom 6372	#killmon 6371	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6372	#req_monster 6399	#killcom 6399	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6399
+#req_nomnr 6372
+#stealthcom 6372
+#killmon 6371
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6372
+#req_monster 6399
+#killcom 6399
+#nolog
+#end  
 #newmonster 6373
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -10141,8 +12955,33 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6400	#req_nomnr 6373	#stealthcom 6373	#killmon 6372	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6373	#req_monster 6400	#killcom 6400	#nolog #end  
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6400
+#req_nomnr 6373
+#stealthcom 6373
+#killmon 6372
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6373
+#req_monster 6400
+#killcom 6400
+#nolog
+#end  
 #newmonster 6374
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -10206,8 +13045,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6401	#req_nomnr 6374	#stealthcom 6374	#killmon 6373	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6374	#req_monster 6401	#killcom 6401	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6401
+#req_nomnr 6374
+#stealthcom 6374
+#killmon 6373
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6374
+#req_monster 6401
+#killcom 6401
+#nolog
+#end  
 #newmonster 6375
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -10271,8 +13136,33 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6402	#req_nomnr 6375	#stealthcom 6375	#killmon 6374	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6375	#req_monster 6402	#killcom 6402	#nolog #end  
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6402
+#req_nomnr 6375
+#stealthcom 6375
+#killmon 6374
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6375
+#req_monster 6402
+#killcom 6402
+#nolog
+#end  
 #newmonster 6376
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -10336,8 +13226,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6403	#req_nomnr 6376	#stealthcom 6376	#killmon 6375	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6376	#req_monster 6403	#killcom 6403	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6403
+#req_nomnr 6376
+#stealthcom 6376
+#killmon 6375
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6376
+#req_monster 6403
+#killcom 6403
+#nolog
+#end  
 #newmonster 6377
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -10401,8 +13317,34 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6404	#req_nomnr 6377	#stealthcom 6377	#killmon 6376	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6377	#req_monster 6404	#killcom 6404	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6404
+#req_nomnr 6377
+#stealthcom 6377
+#killmon 6376
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6377
+#req_monster 6404
+#killcom 6404
+#nolog
+#end  
 #newmonster 6378
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -10466,8 +13408,35 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6405	#req_nomnr 6378	#stealthcom 6378	#killmon 6377	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6378	#req_monster 6405	#killcom 6405	#nolog #end  
+
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6405
+#req_nomnr 6378
+#stealthcom 6378
+#killmon 6377
+#nolog
+#end 
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6378
+#req_monster 6405
+#killcom 6405
+#nolog
+#end  
+
 #newmonster 6379
 #spr1 "./summod/heart.tga" 
 #spr2 "./summod/heart2.tga" 
@@ -10497,7 +13466,8 @@ immortality and enhanced abilities."
 #itemslots 4096
 #mapmove 0 
 #immobile 
-#end 	
+#end
+
 #newmonster 6406	
 #name "Bakemono Kizoku"
 #size 3 
@@ -10531,9 +13501,44 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end	
-#newevent #req_mountain 1 #req_pop0ok #req_freesites 1 #nation -2 #rarity 5  #req_site 0 #hiddensite -1  #msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]."  #req_nomonster "Sorceror Heart" #req_monster 6352  #req_targmnr 1427 #transform 6406	#req_nomnr 6379	#stealthcom 6379	#killmon 6378	#nolog #end 
-#newevent #msg "With the destruction of his heart, the Kizoku dies!"#nation -2 #rarity 5 #req_pop0ok #req_nomnr 6379	#req_monster 6406	#killcom 6406	#nolog #end  	
-#newevent #nation -2 #rarity 5 #req_pop0ok  #req_site 1 #msg "Site removed [Hiding Place]." #notext #removesite 1801 #nolog #end
+#newevent
+#req_mountain 1
+#req_pop0ok
+#req_freesites 1
+#nation -2
+#rarity 5 
+#req_site 0
+#hiddensite -1 
+#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
+#req_nomonster "Sorceror Heart"
+#req_monster 6352 
+#req_targmnr 1427
+#transform 6406
+#req_nomnr 6379
+#stealthcom 6379
+#killmon 6378
+#nolog
+#end
+
+#newevent
+#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
+#rarity 5
+#req_pop0ok
+#req_nomnr 6379
+#req_monster 6406
+#killcom 6406
+#nolog
+#end  	
+#newevent
+#nation -2
+#rarity 5
+#req_pop0ok 
+#req_site 1
+#msg "Site removed [Hiding Place]."
+#notext
+#removesite 1801
+#nolog
+#end
 
 ------MA Man
 #selectnation 37
@@ -10558,9 +13563,11 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #startunitnbrs2 10
 #startscout 56
 #end
+
 #selectmonster 57 --Knight
 #gcost 10020
 #end
+
 #newmonster 6456 --avalon clone
 #copystats 64
 #copyspr 64
@@ -10568,10 +13575,12 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #xpshape 150
 #gcost 10035
 #end
+
 #selectmonster 64 --Avalon knight
 #gcost 10035
 #firstshape  6456
 #end
+
 #newmonster 6472 --(Knight Commander of Avvalon)--
 #copystats 2128
 #copyspr 2128
@@ -10579,35 +13588,43 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #xpshape 30
 #gcost 10040
 #end
+
 #newmonster 6473 --(Knight Commander of Avvalon)--
 #copystats 2128
 #copyspr 2128
 #size 3
 #descr "The Knights of Avalon ride the legendary Unicorns of Avalon, mounts of unsurpassed speed trained by the Witch Mothers. Clad in the brightest silver and enchanted by the Witches, the Knights of Avalon radiate confidence and resolve. The mystical power of their mounts protects them from long-lasting battle wounds. Due to exceptional feats this knight may be accepted into the Earth if there is a vacancy."
 #end
+
 #selectmonster 2128 --Knight Commander
 #gcost 10040
 #firstshape 6472
 #end
+
 #selectmonster 2129 --Logrian cav
 #gcost 10005
 #end
+
 #selectmonster 65  --warden
 #mapmove 2
 #end
+
 #selectmonster 212 --lord warden
 #mapmove 2
 #magicskill 8 1
 #end
+
 #selectmonster 53 --logrian warrior
 #gcost 10011
 #end
+
 #selectmonster 62 ---longspear
 #cleararmor
 #armor 13
 #armor 20
 #armor 2
 #end
+
 #selectmonster 153 --crone
 #gcost 9980
 #clearmagic
@@ -10619,6 +13636,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #custommagic 9984 10
 #userestricteditem 1102
 #end
+
 #selectmonster 152 --mother of avalon
 #descr "As a Daughter of Avalon gains knowledge and responsibility, she is given three tests. When she passes them, she becomes a Mother and is given a green dress and religious authority. The Mothers are potent priest-enchantresses who travel the lands of Man searching for sites of magical power, guiding the common people in prayer and aiding commanders in battle. They are skilled at stealth and are able commanders in their own right. They are often accompanied by Wardens sworn to protect them. The Mothers, like all Witches of Avalon, are considered sacred by the populace of Man. The Mothers of Avalon are skilled in the magic of Air and Nature and many learn other arts on their travels. They can also use spellsongs once sung by the Sidhe of Tir na n'Og."
 #clearmagic
@@ -10630,6 +13648,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #gcost 9970
 #userestricteditem 1102
 #end
+
 #newsite 1813-- Telkhinis
 #name "Forest Glade"
 #path 6
@@ -10638,6 +13657,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #mon 6456
 #com 2128
 #end
+
 #newevent 
 #msg "Glade. [Forest Glade]."  
 #req_owncapital 0 
@@ -10653,17 +13673,41 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #req_nositenbr 1813 
 #addsite 1813
 #end
-#newevent  #msg "Nofort. [Forest Glade]." 
-#rarity 5  #req_fort 0 #nation -2 #notext #nolog  #req_site 1 #req_unmagic 1
+
+#newevent 
+#msg "Nofort. [Forest Glade]." 
+#rarity 5 
+#req_fort 0
+#nation -2
+#notext
+#nolog 
+#req_site 1
+#req_unmagic 1
 #removesite 1813 
 #end
-#newevent  #msg "Nomagic. [Forest Glade]." 
-#rarity 5  #req_unmagic 1 #nation -2 #notext #nolog  #req_site 1
+
+#newevent 
+#msg "Nomagic. [Forest Glade]." 
+#rarity 5 
+#req_unmagic 1
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1813 
 #end
-#newevent #msg "Enemy. [Forest Glade]." 
-#rarity 5 #req_notnation 37 #nation -2 #notext #nolog  #req_site 1 #removesite 1813 
+
+#newevent
+#msg "Enemy. [Forest Glade]." 
+#rarity 5
+#req_notnation 37
+#nation -2
+#notext
+#nolog 
+#req_site 1
+#removesite 1813 
 #end
+
 #newmonster 6470 --(Knight Commander)
 #copystats 57
 #spr1 "./summod/knightcom_1.tga"
@@ -10677,11 +13721,13 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #size 3
 #xpshape 75
 #end
+
 #newmonster 6471
 #copystats 6470
 #copyspr 6470
 #firstshape 6473
 #end
+
 #newevent --1--
 #rarity 5
 #req_fornation 37
@@ -10691,6 +13737,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #msg "This knight has committed enough valorous deeds to be admitted to the Knights of the Glade, a storied company of mighty men!" 
 #transform 6457
 #end
+
 #newevent --4--
 #rarity 5
 #req_fornation 37
@@ -10698,9 +13745,12 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #req_nomnr 6458
 #nation -2
 #nolog
-#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#msg "This knight has become a ranking member of the Knights of the Glade!"
+#req_rare 30
+#addequip 1
 #transform 6458
 #end
+
 #newevent
 #rarity -1
 #nation -2
@@ -10712,6 +13762,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #addequip 1
 #req_unique 2
 #end
+
 #newevent --5--
 #rarity 5
 #req_fornation 37
@@ -10719,9 +13770,12 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #req_nomnr 6459
 #nation -2
 #nolog
-#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#msg "This knight has become a ranking member of the Knights of the Glade!"
+#req_rare 30
+#addequip 1
 #transform 6459
 #end
+
 #newevent --6--
 #rarity 5
 #req_fornation 37
@@ -10729,9 +13783,12 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #req_nomnr 6460
 #nation -2
 #nolog
-#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#msg "This knight has become a ranking member of the Knights of the Glade!"
+#req_rare 30
+#addequip 1
 #transform 6460
 #end
+
 #newevent --7--
 #rarity 5
 #req_fornation 37
@@ -10739,9 +13796,12 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #req_nomnr 6461
 #nation -2
 #nolog
-#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#msg "This knight has become a ranking member of the Knights of the Glade!"
+#req_rare 30
+#addequip 1
 #transform 6461
 #end
+
 #newevent --8--
 #rarity 5
 #req_fornation 37
@@ -10749,7 +13809,9 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #req_nomnr 6462
 #nation -2
 #nolog
-#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#msg "This knight has become a ranking member of the Knights of the Glade!"
+#req_rare 30
+#addequip 1
 #transform 6462
 #end 
 #newevent --9--
@@ -10759,9 +13821,12 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #req_nomnr 6463
 #nation -2
 #nolog
-#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#msg "This knight has become a ranking member of the Knights of the Glade!"
+#req_rare 30
+#addequip 1
 #transform 6463
 #end
+
 #newevent --10--
 #rarity 5
 #req_fornation 37
@@ -10769,9 +13834,12 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #req_nomnr 6464
 #nation -2
 #nolog
-#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#msg "This knight has become a ranking member of the Knights of the Glade!"
+#req_rare 30
+#addequip 1
 #transform 6464
 #end
+
 #newevent --11--
 #rarity 5
 #req_fornation 37
@@ -10779,7 +13847,9 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #req_nomnr 6465
 #nation -2
 #nolog
-#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#msg "This knight has become a ranking member of the Knights of the Glade!"
+#req_rare 30
+#addequip 1
 #transform 6465
 #end 
 #newevent --12--
@@ -10789,9 +13859,12 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #req_nomnr 6466
 #nation -2
 #nolog
-#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#msg "This knight has become a ranking member of the Knights of the Glade!"
+#req_rare 30
+#addequip 1
 #transform 6466
 #end
+
 #newevent --13--
 #rarity 5
 #req_fornation 37
@@ -10799,9 +13872,12 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #req_nomnr 6467
 #nation -2
 #nolog
-#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#msg "This knight has become a ranking member of the Knights of the Glade!"
+#req_rare 30
+#addequip 1
 #transform 6467
 #end
+
 #newevent --14--
 #rarity 5
 #req_fornation 37
@@ -10809,9 +13885,12 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #req_nomnr 6468
 #nation -2
 #nolog
-#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#msg "This knight has become a ranking member of the Knights of the Glade!"
+#req_rare 30
+#addequip 1
 #transform 6468
 #end
+
 #newevent --3--
 #rarity 5
 #req_fornation 37
@@ -10819,9 +13898,12 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #req_nomnr 6469
 #nation -2
 #nolog
-#msg "This knight has become a ranking member of the Knights of the Glade!" #req_rare 30 #addequip 1
+#msg "This knight has become a ranking member of the Knights of the Glade!"
+#req_rare 30
+#addequip 1
 #transform 6469
 #end
+
 #newmonster 6457
 #name "Knight of the Glade"
 #descr "A Knight of the Glade, gallant and bold, entrusted with special duties and honours.  Knights of the Glade who are commanders are eligible for a special seat if one is open."
@@ -10853,6 +13935,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #standard 1
 #itemslots 31878
 #end
+
 #newmonster 6469 --1 Lancelot--
 #copystats 6457
 #name "Knight of the Lake"
@@ -10866,6 +13949,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #holy
 #descr "A Knight of the Glade, gallant and bold, the Knight of the Lake is known for exceptional prowess in combat."
 #end
+
 #newmonster 6458 --2 Percival--
 #copystats 6457
 #name "Knight of the Chalice"
@@ -10876,6 +13960,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #holy
 #descr "A Knight of the Glade, gallant and bold, the Knight of the Chalice is trusted with healing the wounded."
 #end
+
 #newmonster 6459 --3 Degore--
 #copystats 6457
 #name "Knight of the Cup"
@@ -10886,6 +13971,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #size 3
 #descr "A Knight of the Glade, gallant and bold, the Knight of the Cup is entrusted with ensuring the troops are well-provisioned."
 #end
+
 #newmonster 6460 --4 Bedivere--
 #copystats 6457
 #name "Mighty Knight"
@@ -10897,6 +13983,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #size 3
 #descr "A Knight of the Glade, gallant and bold, the Mighty Knight is among the strongest of his company"
 #end
+
 #newmonster 6461 --5 Kay--
 #copystats 6457
 #name "Knight of Recruits"
@@ -10907,6 +13994,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #descr "A Knight of the Glade, gallant and bold, the Knight of Recruits mentors inexperienced knights."
 #size 3
 #end
+
 #newmonster 6462 --6 Galahad--
 #copystats 6457
 #name "Pious Knight"
@@ -10917,6 +14005,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #magicskill 8 2
 #descr "A Knight of the Glade, gallant and bold, entrusted with special duties and honours, the Pious Knight is among the holiest of his company."
 #end
+
 #newmonster 6463 --7 Bors--
 #copystats 6457
 #name "Fearless Knight"
@@ -10927,6 +14016,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #holy
 #descr "A Knight of the Glade, gallant and bold, the Fearless Knight is the bravest of his comrades."
 #end
+
 #newmonster 6464 --8 Gawain--
 #copystats 6457
 #name "Maidens Knight"
@@ -10938,6 +14028,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #descr "A Knight of the Glade, gallant and bold, the Maiden Knight is known for his knowledge of herbs."
 #userestricteditem 1102
 #end
+
 #newmonster 6465 --9 Tristan--
 #copystats 6457
 #name "Courtly Knight"
@@ -10949,6 +14040,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #stealthy 0
 #descr "A Knight of the Glade, gallant and bold, entrusted with special duties and honours, the Courtly Knights manners are beyond reproach."
 #end
+
 #newmonster 6466 --10 Brunor--
 #copystats 6457
 #holy
@@ -10959,6 +14051,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #enc 2
 #size 3
 #end
+
 #newmonster 6467 --11 Hector--
 #copystats 6457
 #name "Passionate Knight"
@@ -10969,6 +14062,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #berserk 5
 #size 3
 #end
+
 #newmonster 6468 --12 Robin--
 #copystats 6457
 #name "Brave Knight"
@@ -10981,6 +14075,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #ap 35
 #descr "A Knight of the Glade, gallant and bold, entrusted with special duties and honours, the Brave Knight is renowned for his speed when combat is near."
 #end
+
 #newspell
 #copyspell 908
 #restricted 37
@@ -10995,11 +14090,14 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #fatiguecost 20
 #descr "With this spell, a Witch of Avalon can throw a group of enemy soldiers into confusion, causing them to treat friends as enemies and enemies as friends."
 #end
+
 #selectmonster 2439--logrian druid
 #end
+
 #selectmonster 60
 #fixedresearch 4
 #end
+
 #newmonster 6343
 #copystats 152
 #spr1 "./summod/bonded_1.tga"
@@ -11009,6 +14107,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #batstartsum1 65
 #userestricteditem 1102
 #end
+
 #newevent
 #rarity 5
 #nation -2
@@ -11020,6 +14119,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #transform 6343
 #killmon 65
 #end
+
 #newspell
 #copyspell 611
 #name "Hex of Minerva"
@@ -11032,6 +14132,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #damage 1560
 #restricted 37
 #end
+
 #newspell
 #copyspell 598 --transformation
 #name "Transformation"
@@ -11039,10 +14140,12 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #researchlevel 6
 #restricted 37
 #end
+
 #selectspell 598 --transformation
 #fatiguecost 800
 #notfornation 37
 #end
+
 #newspell
 #copyspell 887
 #name "Slumber"
@@ -11055,6 +14158,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #restricted 37
 #descr "With this spell, a powerful witch makes all living units unnaturally tired."
 #end
+
 #newspell
 #copyspell 152
 #name "Base of Courage"
@@ -11062,6 +14166,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #range 2
 #spec 140738030141568
 #end
+
 #newspell
 #copyspell 759
 #name "Blade of Morgan"
@@ -11069,6 +14174,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #aoe 1
 #school -1
 #end
+
 #newspell
 #copyspell 574
 #name "Defense of Morgan"
@@ -11077,6 +14183,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #school -1
 #nextspell "Blade of Morgan"
 #end
+
 #newspell
 #copyspell "Base of Courage"
 #name "Incantantion of Morgan"
@@ -11092,6 +14199,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #descr "The first and greatest of the Witches of Avalon crafted spells to aid their strongest champions.  Morgan ensorcelled her champions with the qualities of water, making them resistant to enemy weapons while allowing their blades to flow past enemy armor."
 #nextspell "Defense of Morgan"
 #end
+
 ---
 #newspell
 #copyspell 867
@@ -11101,6 +14209,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #school -1
 #nextspell "Mossbody"
 #end
+
 #newspell
 #copyspell "Base of Courage"
 #name "Aegis of Niniane"
@@ -11116,6 +14225,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #descr "The first and greatest of the Witches of Avalon crafted spells to aid their strongest champions.  Niniane called on the power of Avalon to shield her champions from the frost, fire, and lightning, though it would also keep them from harm for a time."
 #nextspell "Cloak of Niniane"
 #end
+
 ---------------------------------------
 #newspell
 #copyspell 753
@@ -11125,6 +14235,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #school -1
 #nextspell "Earth Might"
 #end
+
 #newspell
 #copyspell "Base of Courage"
 #name "Fortification of Isolde"
@@ -11140,6 +14251,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #descr "The first and greatest of the Witches of Avalon crafted spells to aid their strongest champions.  Isolde chose to strengthen the arms and armor of her champions."
 #nextspell "Armor of Isolde"
 #end
+
 -------
 #newspell
 #copyspell 525
@@ -11147,6 +14259,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #aoe 1
 #school -1
 #end
+
 #newspell
 #copyspell 536
 #name "Defense of Ygraine"
@@ -11155,6 +14268,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #school -1
 #nextspell "Block of Ygraine"
 #end
+
 #newspell
 #copyspell "Base of Courage"
 #name "Cloak of Ygraine"
@@ -11170,6 +14284,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #descr "The first and greatest of the Witches of Avalon crafted spells to aid their strongest champions. Ygraine chose to protect her chosen warriors from the weapons of their enemies, making them difficult to strike with sword or bow."
 #nextspell "Defense of Ygraine"
 #end
+
 #newitem
 #spr "./summod/Rowanstaff.tga"
 #constlevel 4
@@ -11187,6 +14302,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #restricteditem 1102
 #spell "Bewitchment"
 #end
+
 -------Xibalba
 #selectnation 58
 #descr "Xibalba is a vast realm of dark water-filled caverns beneath the forests of Mictlan. According to legend, the sun and the
@@ -11206,6 +14322,7 @@ Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds r
 #addrecunit 2731
 #addrecunit 2730
 #end
+
 #selectsite 177
 #clear
 #name "The Sacred Cenote"
@@ -11215,17 +14332,22 @@ Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds r
 #gems 2 1
 #homecom 2732
 #end
+
 #selectmonster 2730 --poison dart thrower 
 #end
+
 #selectweapon 620 --poisondart
 #ammo 6
 #end
+
 #selectweapon 624
 #dmg 50
 #end
+
 #selectmonster 2731 --Obsidian Warrior
 #gcost 10017
 #end
+
 #selectmonster 2716 --Muuch Kuhul
 #gcost 10000
 #clearmagic
@@ -11237,30 +14359,38 @@ Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds r
 #custommagic 13824 100
 #custommagic 13824 10
 #end
+
 #selectmonster 2734 --zotz
 #gcost 8
 #clearweapons
 #weapon 1415
 #end
+
 #selectmonster 2735 --zotz
 #gcost 8
 #end
+
 #selectweapon 619 --obs dart
 #ammo 6
 #end
+
 #selectmonster 2727 --jungle warrior
 #mapmove 2
 #end
+
 #selectmonster 2723 --light spear muuch
 #end
+
 #selectmonster 2724 --light obsword muuch
 #end
+
 #selectmonster 2725 --bronze spear muuch
 #gcost 10013
 #att 11
 #def 10
 #mor 11
 #end
+
 #selectmonster 2726 --bronze obsword muuch
 #gcost 10013
 #att 11
@@ -11280,6 +14410,7 @@ them in conquering the shores.
 
 Summod improves Siren paths and improves the cost of icthytaurs, and the cost and equipment of icthytaur soldiers.  It also adds new summons and bloodspells"
 #end
+
 #selectmonster 1054 --siren
 #clearmagic
 #magicboost 1 -1
@@ -11287,6 +14418,7 @@ Summod improves Siren paths and improves the cost of icthytaurs, and the cost an
 #magicskill 2 1
 #custommagic 768 100
 #end
+
 #selectmonster 1055 --sirenland
 #clearmagic
 #magicboost 2 -1
@@ -11294,25 +14426,30 @@ Summod improves Siren paths and improves the cost of icthytaurs, and the cost an
 #magicskill 2 1
 #custommagic 768 100
 #end
+
 #selectmonster 2380 --ichtyaur
 #weapon 331
 #gcost 10035
 #end
+
 #selectmonster 2381 --ichtyaur
 #gcost 10035
 #end
+
 #selectmonster 2412 --ichtyaur
 #weapon 331
 #gcost 10035
 #berserk 3
 #end
+
 #selectmonster 2413 --ichtyaur
 #gcost 10035
 #end
+
 #selectmonster 2414 --ichtyaur
 #spr1 "./summod/myrmitaur_1.tga"
 #spr2 "./summod/myrmitaur_2.tga"
-#clearweapon
+#clearweapons
 #weapon 331
 #gcost 10040
 #weapon 641
@@ -11320,21 +14457,25 @@ Summod improves Siren paths and improves the cost of icthytaurs, and the cost an
 #armor 1
 #berserk 3
 #end
+
 #selectmonster 2415 --ichtyaur
 #spr1 "./summod/myrmitaurland_1.tga"
 #spr2 "./summod/myrmitaurland_2.tga"
-#clearweapon
+#clearweapons
 #gcost 10040
 #weapon 641
 #armor 135
 #armor 1
 #end
+
 --------Eriu
 #selectnation 38
 #end
+
 --------Mictlan
 #selectnation 41
 #end
+
 #selectspell 340 --tlahuelpuchi
 #path 0 7
 #pathlevel 0 2
@@ -11342,24 +14483,29 @@ Summod improves Siren paths and improves the cost of icthytaurs, and the cost an
 #pathlevel 1 2
 #fatiguecost 3400
 #end
+
 #selectmonster 1558--tlahuelpuchi
 #noleader
 #end
+
 #selectspell  338  --summon civatetevo
 #path 0 7
 #pathlevel 0 2
 #path 1 5
 #pathlevel 1 0
 #end
+
 #selectmonster 1422 --civatetevo
 #douse 1
 #end
+
 #selectmonster 725 --sun warrior
 #hp 13
 #str 11
 #mapmove 2
 #gcost 10011
 #end
+
 ---------Abysia
 #selectnation 45
 #descr "Abysia is a hot wasteland, at the center of which lies a great volcano whose lava-lit caverns are inhabited by
@@ -11375,27 +14521,32 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 you can summon magma children, and cast a new, special crossbreeding spell.  The unafflicted demonspawn are especially 
 useful if made into commanders.  Also check out the new battefield wide fire boosting spell at conjuration 5."
 #end
+
 ---------Ashdod
 #selectnation 55
 #end
----notices
 
+---notices
 
 --MA TC
 #selectmonster 788 --horseman (also EA tc)
 #gcost 10003
 #end
+
 --MA pythium
 #selectmonster 3 --serpent cat
 #gcost 10030
 #end
+
 #selectmonster 5 --serpent lord
 #gcost 10030
 #end
+
 --MA Ulm
 #selectmonster 70 --black lord
 #gcost 10025
 #end
+
 #selectmonster 69 --black knight
 #gcost 10025
 #end
@@ -11431,6 +14582,7 @@ Ragha is nerfed by summod. Your units are generally more expensive, and if a Zha
 #gold -40
 #size 5
 #end
+
 #selectmonster 2628
 #firstshape 6316
 #gold -40
@@ -11473,9 +14625,11 @@ Ragha is nerfed by summod. Your units are generally more expensive, and if a Zha
 #selectmonster 2589 --airya archer
 #gcost 10011
 #end
+
 #selectmonster 2590 --airya light infantry
 #gcost 10011
 #end
+
 #selectmonster 2591 --airya infantry
 #gcost 10011
 #end
@@ -11500,7 +14654,7 @@ Xibalba is nerfed by summod.  Bats are more expensive.  Foreign recruit commande
 #addreccom 2750
 #addreccom 2751
 #addreccom 2753
-#addreccom 6346
+#addreccom 6582
 #addreccom 6315
 #addrecunit 2738
 #addrecunit 2739
@@ -11520,48 +14674,56 @@ Xibalba is nerfed by summod.  Bats are more expensive.  Foreign recruit commande
 #uwunit2 2890
 #uwcom1 2748
 #uwcom2 2891
-#addreccom 6346
-#addreccom 6315
 #end
+
 #selectmonster 2674
 #slowrec
 #gcost 40
 #end
+
 #selectmonster 2750 --chilan cave
 #slowrec
 #gcost 180
 #end
+
 #newmonster 6315 --chilan fort
 #copystats 2750
 #noslowrec
 #copyspr 2750
 #gcost 180
 #end
+
 #selectmonster 2782 --batab cave or forest
 #slowrec
 #gcost 40
 #end
-#newmonster 6346 --Batab fort
+
+#newmonster 6582 --LA Batab fort
 #copystats 2782
 #copyspr 2782
 #noslowrec
 #gcost 40
 #end
+
 #selectmonster 2738
 #clearweapons
 #weapon 1415
 #gcost 10008
 #end
+
 #selectmonster 2739
 #gcost 10008
 #end
+
 #selectmonster 2740
 #gcost 10009
 #end
+
 #selectmonster 2741
 #clearweapons
 #weapon 1415
 #end
+
 #selectnation 71
 #end
 
@@ -11576,13 +14738,16 @@ and sacred warriors.
 
 Your heavy armor is less encumbering, fire mages are cheaper with more crosspaths, and you can cast a new, special crossbreeding spell.  The unafflicted demonspawn are especially useful if made into commanders.  Also check out the new battefield wide fire boosting spell at conjuration 5."
 #end
+
 #selectmonster 991 --newt
 #gcost 10000
 #end
+
 #selectmonster 1969 --anathemant salamander
 #custommagic 7296 20
 #gcost 10005
 #end
+
 #selectmonster 1970 --anathemant dragon
 #custommagic 7296 20
 #gcost 10010
@@ -11604,18 +14769,22 @@ tasks and warfare, the dead of Agartha now walk side by side with the living.
 
 Summod makes blindlords much cheaper, and servant of oracles become mapmove 2."
 #end
+
 #selectmonster 1443 --servant of oracles
 #mapmove 2
 #end
+
 #selectmonster 1444 --blindlord
 #gcost 10025
 #magicskill 8 1
 #okleader
 #inspirational 1
 #end
+
 #selectmonster 1437
 #str 12
 #end
+
 #selectmonster 1450
 #gcost 90
 #end
@@ -11624,6 +14793,7 @@ Summod makes blindlords much cheaper, and servant of oracles become mapmove 2."
 #selectmonster 1554 --agema commander
 #gcost 10015
 #end
+
 #selectmonster 1553 --companion
 #gcost 10015
 #end
@@ -11632,6 +14802,7 @@ Summod makes blindlords much cheaper, and servant of oracles become mapmove 2."
 #selectmonster 738 --black templar
 #gcost 10025
 #end
+
 #selectmonster 1237 --hochmeister
 #gcost 10000
 #end
@@ -11684,6 +14855,7 @@ and are the only remnant of the Old Ways.
 Man is changed by summod.  Right now, magisters and judges have better paths and don't require labs.  Magisters are also garanteed researchers, and more of your units are mapmove 2."
 
 #end
+
 #selectmonster 1644 --magister
 #gcost 10020
 #clearmagic
@@ -11711,6 +14883,7 @@ Man is changed by summod.  Right now, magisters and judges have better paths and
 #selectmonster 1648 --warden
 #mapmove 2
 #end
+
 #selectmonster 1666 --lord warden
 #mapmove 2
 #end
@@ -11735,6 +14908,7 @@ and look for other realms to conquer.
 
 Summod buffs Jomon.  Please observe your new Ashigaru archer, cheaper cavalry (now with bows), and general stat improvements.  The spells of the five fold path are more effective, and scale.  Please also note that all of your summons are much cheaper, and Tatsu are now level 3 mages, instead of level 2."
 #end
+
 #newmonster 6309 -- ashigaru archer
 #copystats 1238
 #name "Ashigaru Archer"
@@ -11744,71 +14918,91 @@ Summod buffs Jomon.  Please observe your new Ashigaru archer, cheaper cavalry (n
 #weapon 377
 #weapon 23
 #end
+
 #selectmonster 1246 --samurai cav
 #spr1 "./summod/SamuraiCav_1.tga"
 #spr2 "./summod/SamuraiCav_2.tga"
 #gcost 10015
 #weapon 24
 #end
+
 #selectmonster 1250 --mounted gokenin
 #spr1 "./summod/MountGokenin_1.tga"
 #spr2 "./summod/MountGokenin_2.tga"
 #gcost 10000
 #weapon 24
 #end
+
 #selectmonster 1251 --Hatamoto
 #spr1 "./summod/hatamoto_1.tga"
 #spr2 "./summod/hatamoto_2.tga"
 #gcost 10000
 #weapon 24
 #end
+
 #selectmonster 1253 --Daimyo
 #gcost 10000
 #end
+
 #selectmonster 1239 --samurai archer
 #hp 10
 #end
+
 #selectmonster 1240 --samurai
 #hp 10
 #end
+
 #selectmonster 1241 --samurai
 #hp 10
 #end
+
 #selectmonster 1243  --oban
 #end
+
 #selectmonster 1244 --goatamato
 #end
+
 #selectmonster 1245 --akaoni sam
 #gcost 10014
 #end
+
 #selectmonster 1247 --sohei
 #gcost 10016
 #end
+
 #selectmonster 1248 --yamabushi
 #gcost 10016
 #end
+
 #selectmonster 2098 --fivefold path
 #custommagic 10112 20
 #end
+
 #selectspell 183 --meditation sign
 #damage 5015
 #end
+
 #selectspell 182
 #range 5010
 #end
+
 #selectspell 181
 #range 5000
 #end
+
 #selectspell 180
 #aoe 2002
 #end
+
 #selectspell 189 --tatsu
 #fatiguecost 2500
 #end
+
 #selectmonster 2099 --tatsu
 #clearmagic
 #custommagic 10112 300
 #end
+
 #selectnation 69
 #addrecunit 6309
 #end
@@ -11816,16 +15010,20 @@ Summod buffs Jomon.  Please observe your new Ashigaru archer, cheaper cavalry (n
 --Bogarus
 #selectnation 77
 #end
+
 #selectmonster 1922 --Grdi Druzhina
 #gcost 10010
 #end
+
 #selectmonster 1923 --Malaia Druzhina
 #gcost 10020
 #end
+
 #selectmonster 1924 --styag
 #gcost 10015
 #ap 20
 #end
+
 #selectmonster 1925 --black hood
 #gcost 10000
 #end
@@ -11936,12 +15134,15 @@ Summod substantially changes Lemuria. Your forts are those of middle age, yet ar
 #holy
 #magicskill 8 1
 #end
+
 #selectsite 158
 #gems 5 5
 #end
+
 #selectsite 159
 #gems 5 9
 #end
+
 #selectmonster 2333
 #clearmagic
 #magicskill 5 1
@@ -11949,24 +15150,85 @@ Summod substantially changes Lemuria. Your forts are those of middle age, yet ar
 #custommagic 6144 100
 #magicskill 8 1
 #end
-#newevent #rarity 5 #nation -2 #req_fornation 62   #req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
-#msg "Purification destroyed. [Purified Deadland]." #removesite 1803 #nolog #notext  #addsite 1802  #end
-#newevent #rarity 5 #nation -2 #req_fornation 62   
-#req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1
-#msg "Carrionland destroyed. [Carrionland]." #removesite 1804 #nolog #notext  #addsite 1802  #end
-#newevent #rarity 5 #nation -2 #req_fornation 62   
-#req_pop0ok #req_capital 0 #req_dominion 2 #req_site 1 
-#msg "Dreamland destroyed. [Dreamland]." #removesite 1805 #nolog #notext  #addsite 1802  #end
 
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 62 #req_land 1
-#nation -2 #req_pop0ok #req_capital 0 
-#req_unique 5 #req_site 0 #addsite -1  
-#msg "Deadland Created. [Deadland]" #nolog #notext  #end
+#newevent
+#rarity 5
+#nation -2
+#req_fornation 62  
+#req_pop0ok
+#req_capital 0
+#req_dominion 2
+#req_site 1 
+#msg "Purification destroyed. [Purified Deadland]."
+#removesite 1803
+#nolog
+#notext 
+#addsite 1802 
+#end
 
-#newevent #req_freesites 1 #rarity 5  #req_fornation 62   #req_land 1
-#nation -2 #req_pop0ok #req_capital 0 #req_maxpop 130 #req_dominion 2 #req_site 0 #addsite -1
-#msg "Deadland Created. [Deadland]"   #nolog #notext #req_unique 35 #end
+#newevent
+#rarity 5
+#nation -2
+#req_fornation 62   
+#req_pop0ok
+#req_capital 0
+#req_dominion 2
+#req_site 1
+#msg "Carrionland destroyed. [Carrionland]."
+#removesite 1804
+#nolog
+#notext 
+#addsite 1802 
+#end
+
+#newevent
+#rarity 5
+#nation -2
+#req_fornation 62   
+#req_pop0ok
+#req_capital 0
+#req_dominion 2
+#req_site 1 
+#msg "Dreamland destroyed. [Dreamland]."
+#removesite 1805
+#nolog
+#notext 
+#addsite 1802 
+#end
+
+#newevent
+#req_freesites 1
+#rarity 5  
+#req_fornation 62
+#req_land 1
+#nation -2
+#req_pop0ok
+#req_capital 0 
+#req_unique 5
+#req_site 0
+#addsite -1  
+#msg "Deadland Created. [Deadland]"
+#nolog
+#notext 
+#end
+
+#newevent
+#req_freesites 1
+#rarity 5 
+#req_fornation 62  
+#req_land 1
+#nation -2
+#req_pop0ok
+#req_capital 0
+#req_maxpop 130
+#req_dominion 2
+#req_site 0
+#addsite -1
+#msg "Deadland Created. [Deadland]"  
+#nolog
+#notext
+#req_unique 35
+#end
 
 
 #selectnation 92 --rlyeh
@@ -12052,127 +15314,220 @@ Summod changes Rlyeh.  Your freespawn are upkeep free and can be stationed in pr
 #decscale 5
 #gems 5 1
 #end
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 92 #nation -2 
-#req_pop0ok #req_capital 0 
+
+#newevent
+#req_freesites 1
+#rarity 5  
+#req_fornation 92
+#nation -2 
+#req_pop0ok
+#req_capital 0 
 #req_maxpop 100 
-#req_dominion 5 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1 
-#msg "Purified Deadland reclaimed. [Purified Deadland]." #removesite 1803 #nolog #notext #end
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 92 #nation -2 
-#req_pop0ok #req_capital 0 
+#req_dominion 5
+#req_temple 1
+#req_fort 0
+#req_forest 1
+#req_site 1 
+#msg "Purified Deadland reclaimed. [Purified Deadland]."
+#removesite 1803
+#nolog
+#notext
+#end
+
+#newevent
+#req_freesites 1
+#rarity 5  
+#req_fornation 92
+#nation -2 
+#req_pop0ok
+#req_capital 0 
 #req_maxpop 100 
-#req_dominion 5 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1 
-#msg "Deadland reclaimed. [Deadland]." #removesite 1802 #nolog #notext #end
-#newevent #req_freesites 1 #rarity 5  
-#req_fornation 92 #nation -2 
-#req_pop0ok #req_capital 0 
+#req_dominion 5
+#req_temple 1
+#req_fort 0
+#req_forest 1
+#req_site 1 
+#msg "Deadland reclaimed. [Deadland]."
+#removesite 1802
+#nolog
+#notext
+#end
+
+#newevent
+#req_freesites 1
+#rarity 5  
+#req_fornation 92
+#nation -2 
+#req_pop0ok
+#req_capital 0 
 #req_maxpop 100 
-#req_dominion 5 #req_temple 1 #req_fort 0 #req_forest 1 #req_site 1
-#msg "Carrionland reclaimed. [Carrionland]." #removesite 1804 #nolog #notext #end
-#newevent #req_freesites 1 #rarity 5  #msg "Dreamland Created. [Dreamland]."
-#req_fornation 92 #nation -2 
-#req_pop0ok #req_capital 0 
+#req_dominion 5
+#req_temple 1
+#req_fort 0
+#req_forest 1
+#req_site 1
+#msg "Carrionland reclaimed. [Carrionland]."
+#removesite 1804
+#nolog
+#notext
+#end
+
+#newevent
+#req_freesites 1
+#rarity 5 
+#msg "Dreamland Created. [Dreamland]."
+#req_fornation 92
+#nation -2 
+#req_pop0ok
+#req_capital 0 
 #req_maxpop 100 
-#req_dominion 1 #req_rare 10 #req_temple 1 #req_fort 0 #req_coast 1 #req_nositenbr 1805  #addsite 1805  
-#nolog #notext #end
-#newevent #req_freesites 1 #rarity 5 #msg "Dreamland Created." 
-#req_fornation 92 #nation -2 
-#req_pop0ok #req_capital 0 
+#req_dominion 1
+#req_rare 10
+#req_temple 1
+#req_fort 0
+#req_coast 1
+#req_nositenbr 1805 
+#addsite 1805  
+#nolog
+#notext
+#end
+
+#newevent
+#req_freesites 1
+#rarity 5
+#msg "Dreamland Created." 
+#req_fornation 92
+#nation -2 
+#req_pop0ok
+#req_capital 0 
 #req_maxpop 100 
-#req_dominion 5 #req_temple 1 #req_fort 0 #req_coast 1 #req_nositenbr 1805 #addsite 1805  
-#nolog #notext #end
+#req_dominion 5
+#req_temple 1
+#req_fort 0
+#req_coast 1
+#req_nositenbr 1805
+#addsite 1805  
+#nolog
+#notext
+#end
+
 #newevent
 #rarity 5
 #nation -2
-#nolog #notext
+#nolog
+#notext
 #req_site 1
 #msg "Deadland. [Deadland]."
 #end
+
 #newevent
 #rarity 5
 #nation -2
-#nolog #notext
+#nolog
+#notext
 #req_site 1
 #msg "Reclaimed. [Purified Deadland]."
 #end
+
 #newevent
 #rarity 5
 #nation -2
-#nolog #notext
+#nolog
+#notext
 #req_site 1
 #msg "Carrion [Carrionland]."
 #end
+
 #newevent
 #rarity 5
 #nation -2
-#nolog #notext
+#nolog
+#notext
 #req_site 1 
 #msg "Dreamland. [Dreamland]."
 #end
+
 #selectmonster 962
 #gcost 0
 #end
+
 #selectmonster 963
 #gcost 0
 #end
+
 #selectmonster 1007
 #gcost 0
 #end
+
 #selectmonster 1009
 #gcost 0
 #end
+
 #selectmonster 1563
 #end
+
 #selectmonster 1564
 #gcost 0
 #end
+
 #selectmonster 1566
 #gcost 0
 #resources 1
 #end
+
 #selectmonster 1567
 #gcost 0
 #resources 1
 #end
+
 #selectmonster 1568
 #gcost 0
 #resources 1
 #end
+
 #selectmonster 1569
 #gcost 0
 #resources 1
 #end
+
 #selectmonster 1570
 #gcost 0
 #resources 1
 #end
+
 #selectmonster 1571
 #gcost 0
 #resources 1
 #end
+
 #selectmonster 1572
 #gcost 0
 #resources 1
 #end
+
 #selectmonster 1573
 #gcost 0
 #resources 1
 #end
+
 #selectmonster 1574
 #gcost 0
 #resources 1
 #end
+
 #selectmonster 1575
 #gcost 0
 #end
+
 #selectmonster 1576
 #gcost 0
 #resources 1
 #end
+
 #selectmonster 1639
 #gcost 0
 #end
+
 #selectmonster 1640
 #gcost 0
 #end
@@ -12241,7 +15596,9 @@ for more detail."
 ---Toggle
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_owncapital 1
 #req_fornation 61
@@ -12252,7 +15609,9 @@ for more detail."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_code 0
 #req_monster 6439 --serpent prophet
@@ -12263,7 +15622,9 @@ for more detail."
 
 
 #newevent  --- if you can't name a prophet normally
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #req_code -1100
 #req_monster 761
 #req_targorder 7
@@ -12273,7 +15634,9 @@ for more detail."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "The new god has named a priest of the Serpent Cult to be his prophet! The Serpent Cult swells in power and authority, and their temples appear in every city.  Serpent Assassins and Hydras can be recruited in these temples, and, more importantly, they allow new rituals that either summon more Hydras or transform your priests into mighty Serpents."
 #req_anycode -1101
 #req_code -1100
@@ -12281,7 +15644,9 @@ for more detail."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "The new god has named a priest of the Serpent Cult to be his prophet! The Serpent Cult swells in power and authority, and their temples appear in every city.  Serpent Assassins and Hydras can be recruited in these temples, and, more importantly, they allow new rituals that either summon more Hydras or transform your priests into mighty Serpents."
 #req_monster 6439
 #req_code -1100
@@ -12289,7 +15654,9 @@ for more detail."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_anycode -1102
 #req_code -1101
@@ -12299,7 +15666,9 @@ for more detail."
 #end
 
 #newevent  --- Cleanup.
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_code -1102
 #req_targorder 7
@@ -12312,7 +15681,9 @@ for more detail."
 
 ---
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_code 0
 #req_anycode -1100
@@ -12323,7 +15694,9 @@ for more detail."
 #end
 
 #newevent  --- if you can't name a prophet normally
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #req_code -1100
 #req_monster 1873
 #req_targorder 7
@@ -12333,7 +15706,9 @@ for more detail."
 #end
 
 #newevent --capital prophet
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "The new god has named a Heliodromus to be his prophet! The Cult of the Solar Bull swells in power and authority, and Mithrea, temples to the god in his guise as the Solar Bull are erected in every city!  New rituals can be cast in those temples, which can summon the progeny of the Solar Bull, and transform Leos into mighty champions who are the only ones who can wield specially enchanted items.  Cultists can be recruited in these temples, and they will further increase in power if a Second Sun appears in the sky - a true sign of the Solar Bull."
 #req_monster 6414
 #req_code -1100
@@ -12342,7 +15717,9 @@ for more detail."
 #end
 
 #newevent --noncapital prophet
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "The new god has named a Heliodromus to be his prophet! The Cult of the Solar Bull swells in power and authority, and Mithrea, temples to the god in his guise as the Solar Bull are erected in every city!  New rituals can be cast in those temples, which can summon the progeny of the Solar Bull, and transform Leos into mighty champions who are the only ones who can wield specially enchanted items.  Cultists can be recruited in these temples, and they will further increase in power if a Second Sun appears in the sky - a true sign of the Solar Bull."
 #req_anycode -1103
 #req_code -1100
@@ -12351,7 +15728,9 @@ for more detail."
 #end
 
 #newevent --leakclose I mean what, serriously, this annotation does not help me whatsoever, and I probably wrote it
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_anycode -1104
 #req_code -1103
@@ -12361,7 +15740,9 @@ for more detail."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "The Second Sun is a sign of the power of the new god in his aspect of the Solar Bull.  Sacred servants of the Solar Bull shall flood out from every temple!"
 #req_code -1104
 #req_friendlyench 81
@@ -12369,7 +15750,9 @@ for more detail."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_code -1107
 #req_hostileench 81 --hostilesun
@@ -12379,7 +15762,9 @@ for more detail."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_code -1107
 #req_noench 81 --nosun
@@ -12522,7 +15907,9 @@ for more detail."
 #end
 
 #newevent  --- Cleanup.
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_code -1104
 #req_targorder 7
@@ -12535,7 +15922,9 @@ for more detail."
 
 ----Cult of fertility
 #newevent --notice of prophetization
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_code 0
 #req_anycode -1100
@@ -12546,7 +15935,9 @@ for more detail."
 #end
 
 #newevent  --- if you can't name a prophet normally
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_code -1100
 #req_monster 1880 --reveler
@@ -12558,7 +15949,9 @@ for more detail."
 #end
 
 #newevent  --- if you can't name a prophet normally
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_code -1100
 #req_monster 1875 --epoptes
@@ -12570,23 +15963,31 @@ for more detail."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals." #req_anycode -1105
+#rarity 5
+#req_fornation 61
+#nation -2
+#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals."
+#req_anycode -1105
 #req_code -1100
 #req_monster 6415
 #code -1106
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
-#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals." #req_anycode -1105
+#rarity 5
+#req_fornation 61
+#nation -2
+#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals."
+#req_anycode -1105
 #req_code -1100
 #req_anycode -1105
 #code -1106
 #end
 
 #newevent --clears eventcode
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_anycode -1106
 #req_code -1105
@@ -12596,7 +15997,9 @@ for more detail."
 #end
 
 #newevent  --- Cleanup.
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_code -1106
 #req_targorder 7
@@ -12629,7 +16032,9 @@ for more detail."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Temple of the Serpents]."
 #req_anycode -1102
 #req_fort 1
@@ -12641,7 +16046,9 @@ for more detail."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Temple of the Serpents]."
 #req_code -1102
 #req_fort 1
@@ -12652,41 +16059,71 @@ for more detail."
 #notext
 #end
 
-#newevent  #msg "Noprophet. [Temple of the Serpents]."
+#newevent 
+#msg "Noprophet. [Temple of the Serpents]."
 #rarity 5
 #req_anycode -1106
-#nation -2 #notext #nolog  #req_site 1
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1815
 #end
 
-#newevent  #msg "Noprophet. [Temple of the Serpents]."
+#newevent 
+#msg "Noprophet. [Temple of the Serpents]."
 #rarity 5
 #req_anycode -1104
-#nation -2 #notext #nolog  #req_site 1
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1815
 #end
 
-#newevent  #msg "Noprophet. [Temple of the Serpents]."
+#newevent 
+#msg "Noprophet. [Temple of the Serpents]."
 #rarity 5
 #req_code -1106
-#nation -2 #notext #nolog  #req_site 1
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1815
 #end
 
-#newevent  #msg "Noprophet. [Temple of the Serpents]."
+#newevent 
+#msg "Noprophet. [Temple of the Serpents]."
 #rarity 5
 #req_code -1104
-#nation -2 #notext #nolog  #req_site 1
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1815
 #end
 
-#newevent  #msg "Nofort. [Temple of the Serpents]."
-#rarity 5  #req_fort 0 #nation -2 #notext #nolog  #req_site 1
+#newevent 
+#msg "Nofort. [Temple of the Serpents]."
+#rarity 5 
+#req_fort 0
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1815
 #end
 
-#newevent #msg "Enemy. [Temple of the Serpents]." #rarity 5 #req_notnation 61 #nation -2 #notext #nolog  #req_site 1
-#removesite 1815 #end
+#newevent
+#msg "Enemy. [Temple of the Serpents]."
+#rarity 5
+#req_notnation 61
+#nation -2
+#notext
+#nolog 
+#req_site 1
+#removesite 1815
+#end
 
 #newmonster 6426 --serpent priest holyboost
 #copystats 761
@@ -12704,7 +16141,9 @@ for more detail."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Temple of the Serpents]."
 #req_site 1
 #req_capital 1
@@ -12715,7 +16154,9 @@ for more detail."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Temple of the Serpents]."
 #req_anycode -1102
 #req_targmnr 761
@@ -12725,7 +16166,9 @@ for more detail."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Temple of the Serpents]."
 #req_site 1
 #req_targmnr 761
@@ -12734,66 +16177,90 @@ for more detail."
 #notext
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6426
 #transform 761
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1106
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6426
 #transform 761
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1106
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6426
 #transform 761
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6426
 #transform 761
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1106
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6426
 #transform 761
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6426
 #transform 761
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1106
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6426
 #transform 761
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6426
 #transform 761
 #end
@@ -12806,7 +16273,9 @@ for more detail."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Temple of the Serpents]."
 #req_site 1
 #req_capital 1
@@ -12817,7 +16286,9 @@ for more detail."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Temple of the Serpents]."
 #req_anycode -1102
 #req_targmnr 830
@@ -12827,7 +16298,9 @@ for more detail."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Temple of the Serpents]."
 #req_site 1
 #req_targmnr 830
@@ -12836,66 +16309,90 @@ for more detail."
 #notext
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6450
 #transform 830
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1106
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6450
 #transform 830
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1106
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6450
 #transform 830
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6450
 #transform 830
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1106
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6450
 #transform 830
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6450
 #transform 830
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1106
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6450
 #transform 830
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6450
 #transform 830
 #end
@@ -12915,7 +16412,7 @@ for more detail."
 #mapmove 2
 #ap 6
 #poisonres 5
-#coldblooded
+#coldblood
 #swampsurvival
 #animal
 #undisciplined
@@ -12979,6 +16476,7 @@ for more detail."
 #damage 1859
 #descr "With an appropriate sacrifice, a member of the Serpent Cult can enter a Serpent Temple and summon three hatchlings. This spell may only be cast at a Serpent Temple after the god has endorsed the cult."
 #end
+
 #newspell --summon hydra
 #name "Summon Hydra"
 #onlyatsite 1815
@@ -13062,8 +16560,12 @@ for more detail."
 #nreff 1
 #end
 
-#newevent  #msg "serpentpriest. [Temple of the Serpents]."
-#rarity 5  #nation -2 #notext #nolog
+#newevent 
+#msg "serpentpriest. [Temple of the Serpents]."
+#rarity 5 
+#nation -2
+#notext
+#nolog
 #req_monster 6430
 #req_targmnr 6426
 #transform 6428
@@ -13071,8 +16573,12 @@ for more detail."
 #req_site 1
 #end
 
-#newevent  #msg "serpentacolyte. [Temple of the Serpents]."
-#rarity 5  #nation -2 #notext #nolog
+#newevent 
+#msg "serpentacolyte. [Temple of the Serpents]."
+#rarity 5 
+#nation -2
+#notext
+#nolog
 #req_monster 6431
 #req_targmnr 830
 #transform 6429
@@ -13117,6 +16623,7 @@ for more detail."
 #researchlevel -1
 #explspr 0
 #end
+
 #newspell
 #copyspell "Howl"
 #name "Marsh Hatchlings"
@@ -13128,6 +16635,7 @@ for more detail."
 #nextspell "Marsh Hydra"
 #explspr 0
 #end
+
 #newspell
 #copyspell "Howl"
 #name "Marsh Snakes"
@@ -13218,7 +16726,9 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_anycode -1104
 #req_targmnr 1873
@@ -13228,7 +16738,9 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Mithraea]."
 #req_site 1
 #req_targmnr 1873
@@ -13237,66 +16749,90 @@ may make the battlefield deadly even for the priest's allies."
 #notext
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6419
 #transform 1873
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1106
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6419
 #transform 1873
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1106
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6419
 #transform 1873
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6419
 #transform 1873
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1106
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6419
 #transform 1873
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6419
 #transform 1873
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1106
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6419
 #transform 1873
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6419
 #transform 1873
 #end
@@ -13332,7 +16868,9 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_anycode -1104
 #req_targmnr 1872
@@ -13342,7 +16880,9 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Mithraea]."
 #req_site 1
 #req_targmnr 1872
@@ -13351,66 +16891,90 @@ may make the battlefield deadly even for the priest's allies."
 #notext
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1106
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6420
 #transform 1872
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6420
 #transform 1872
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1106
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6420
 #transform 1872
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6420
 #transform 1872
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6420
 #transform 1872
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1106
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6420
 #transform 1872
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6420
 #transform 1872
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1106
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6420
 #transform 1872
 #end
@@ -13428,7 +16992,9 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Mithraea]."
 #req_anycode -1104
 #req_fort 1
@@ -13440,7 +17006,9 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Mithraea]."
 #req_code -1104
 #req_fort 1
@@ -13451,41 +17019,71 @@ may make the battlefield deadly even for the priest's allies."
 #notext
 #end
 
-#newevent  #msg "Noprophet. [Mithraea]."
+#newevent 
+#msg "Noprophet. [Mithraea]."
 #rarity 5
 #req_anycode -1106
-#nation -2 #notext #nolog  #req_site 1
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1816
 #end
 
-#newevent  #msg "Noprophet. [Mithraea]."
+#newevent 
+#msg "Noprophet. [Mithraea]."
 #rarity 5
 #req_anycode -1102
-#nation -2 #notext #nolog  #req_site 1
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1816
 #end
 
-#newevent  #msg "Noprophet. [Mithraea]."
+#newevent 
+#msg "Noprophet. [Mithraea]."
 #rarity 5
 #req_code -1106
-#nation -2 #notext #nolog  #req_site 1
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1816
 #end
 
-#newevent  #msg "Noprophet. [Mithraea]."
+#newevent 
+#msg "Noprophet. [Mithraea]."
 #rarity 5
 #req_code -1102
-#nation -2 #notext #nolog  #req_site 1
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1816
 #end
 
-#newevent  #msg "Nofort. [Mithraea]."
-#rarity 5  #req_fort 0 #nation -2 #notext #nolog  #req_site 1
+#newevent 
+#msg "Nofort. [Mithraea]."
+#rarity 5 
+#req_fort 0
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1816
 #end
 
-#newevent #msg "Enemy. [Mithraea]." #rarity 5 #req_notnation 61 #nation -2 #notext #nolog  #req_site 1
-#removesite 1816 #end
+#newevent
+#msg "Enemy. [Mithraea]."
+#rarity 5
+#req_notnation 61
+#nation -2
+#notext
+#nolog 
+#req_site 1
+#removesite 1816
+#end
 
 #newmonster 6436
 #copystats 1866
@@ -13806,6 +17404,7 @@ may make the battlefield deadly even for the priest's allies."
 #copyspell 1005
 #name "Damage Reversal"
 #end
+
 #selectspell 1005
 #clear
 #name "Power of Gaia"
@@ -13863,8 +17462,11 @@ may make the battlefield deadly even for the priest's allies."
 #com 6422
 #com 6423
 #end
+
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Anaktoron]."
 #req_anycode -1106
 #req_fort 1
@@ -13874,8 +17476,11 @@ may make the battlefield deadly even for the priest's allies."
 #nolog
 #notext
 #end
+
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Anaktoron]."
 #req_code -1106
 #req_fort 1
@@ -13886,41 +17491,71 @@ may make the battlefield deadly even for the priest's allies."
 #notext
 #end
 
-#newevent  #msg "Noprophet. [Anaktoron]."
+#newevent 
+#msg "Noprophet. [Anaktoron]."
 #rarity 5
 #req_anycode -1102
-#nation -2 #notext #nolog  #req_site 1
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1817
 #end
 
-#newevent  #msg "Noprophet. [Anaktoron]."
+#newevent 
+#msg "Noprophet. [Anaktoron]."
 #rarity 5
 #req_anycode -1104
-#nation -2 #notext #nolog  #req_site 1
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1817
 #end
 
-#newevent  #msg "Noprophet. [Anaktoron]."
+#newevent 
+#msg "Noprophet. [Anaktoron]."
 #rarity 5
 #req_code -1104
-#nation -2 #notext #nolog  #req_site 1
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1817
 #end
 
-#newevent  #msg "Noprophet. [Anaktoron]."
+#newevent 
+#msg "Noprophet. [Anaktoron]."
 #rarity 5
 #req_code -1102
-#nation -2 #notext #nolog  #req_site 1
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1817
 #end
 
-#newevent  #msg "Nofort. [Anaktoron]."
-#rarity 5  #req_fort 0 #nation -2 #notext #nolog  #req_site 1
+#newevent 
+#msg "Nofort. [Anaktoron]."
+#rarity 5 
+#req_fort 0
+#nation -2
+#notext
+#nolog 
+#req_site 1
 #removesite 1817
 #end
 
-#newevent #msg "Enemy. [Anaktoron]." #rarity 5 #req_notnation 61 #nation -2 #notext #nolog  #req_site 1
-#removesite 1817 #end
+#newevent
+#msg "Enemy. [Anaktoron]."
+#rarity 5
+#req_notnation 61
+#nation -2
+#notext
+#nolog 
+#req_site 1
+#removesite 1817
+#end
 
 
 #newmonster 6421 --epoptes nonheretic/nonpoorresearcher, 2 events
@@ -13944,7 +17579,9 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Anaktoron]."
 #req_site 1
 #req_targmnr 1875
@@ -13954,7 +17591,9 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_anycode -1106
 #req_targmnr 1875
@@ -13963,66 +17602,90 @@ may make the battlefield deadly even for the priest's allies."
 #notext
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6421
 #transform 1875
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6421
 #transform 1875
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6421
 #transform 1875
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6421
 #transform 1875
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6421
 #transform 1875
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6421
 #transform 1875
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6421
 #transform 1875
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6421
 #transform 1875
 #end
@@ -14037,7 +17700,9 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Anaktoron]."
 #req_site 1
 #req_targmnr 1876
@@ -14047,7 +17712,9 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_anycode -1106
 #req_targmnr 1876
@@ -14056,66 +17723,90 @@ may make the battlefield deadly even for the priest's allies."
 #notext
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6422
 #transform 1876
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6422
 #transform 1876
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6422
 #transform 1876
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6422
 #transform 1876
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6422
 #transform 1876
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6422
 #transform 1876
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6422
 #transform 1876
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6422
 #transform 1876
 #end
@@ -14137,7 +17828,9 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Anaktoron]."
 #req_site 1
 #req_targmnr 1880
@@ -14147,7 +17840,9 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope"
 #req_anycode -1106
 #req_targmnr 1880
@@ -14156,66 +17851,90 @@ may make the battlefield deadly even for the priest's allies."
 #notext
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6423
 #transform 1880
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6423
 #transform 1880
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6423
 #transform 1880
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_anycode -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6423
 #transform 1880
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6423
 #transform 1880
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6423
 #transform 1880
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6423
 #transform 1880
 #end
 
-#newevent  #msg "Noprophet."
+#newevent 
+#msg "Noprophet."
 #rarity 5
 #req_code -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6423
 #transform 1880
 #end
@@ -14237,7 +17956,9 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Anaktoron]."
 #req_site 1
 #req_targmnr 6451
@@ -14247,7 +17968,9 @@ may make the battlefield deadly even for the priest's allies."
 #end
 
 #newevent
-#rarity 5 #req_fornation 61 #nation -2
+#rarity 5
+#req_fornation 61
+#nation -2
 #msg "nope [Anaktoron]."
 #req_anycode -1106
 #req_targmnr 6451
@@ -14256,66 +17979,90 @@ may make the battlefield deadly even for the priest's allies."
 #notext
 #end
 
-#newevent  #msg "Noprophet." --galli to heretic1
+#newevent 
+#msg "Noprophet." --galli to heretic1
 #rarity 5
 #req_anycode -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6432
 #transform 6451
 #end
 
-#newevent  #msg "Noprophet." --galli to heretic1
+#newevent 
+#msg "Noprophet." --galli to heretic1
 #rarity 5
 #req_anycode -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6432
 #transform 6451
 #end
 
-#newevent  #msg "Noprophet." --galli to heretic2
+#newevent 
+#msg "Noprophet." --galli to heretic2
 #rarity 5
 #req_anycode -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6432
 #transform 6451
 #end
 
-#newevent  #msg "Noprophet." --galli to heretic2
+#newevent 
+#msg "Noprophet." --galli to heretic2
 #rarity 5
 #req_anycode -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6432
 #transform 6451
 #end
 
-#newevent  #msg "Noprophet." --galli to heretic1
+#newevent 
+#msg "Noprophet." --galli to heretic1
 #rarity 5
 #req_code -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6432
 #transform 6451
 #end
 
-#newevent  #msg "Noprophet." --galli to heretic1
+#newevent 
+#msg "Noprophet." --galli to heretic1
 #rarity 5
 #req_code -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6432
 #transform 6451
 #end
 
-#newevent  #msg "Noprophet." --galli to heretic2
+#newevent 
+#msg "Noprophet." --galli to heretic2
 #rarity 5
 #req_code -1104
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6432
 #transform 6451
 #end
 
-#newevent  #msg "Noprophet." --galli to heretic2
+#newevent 
+#msg "Noprophet." --galli to heretic2
 #rarity 5
 #req_code -1102
-#nation -2 #notext #nolog
+#nation -2
+#notext
+#nolog
 #req_targmnr 6432
 #transform 6451
 #end
@@ -14644,8 +18391,12 @@ may make the battlefield deadly even for the priest's allies."
 
 
 --- 4 events transforming into Galli.
-#newevent  #msg "Reveler. [Anaktoron]."
-#rarity 5  #nation -2 #notext #nolog
+#newevent 
+#msg "Reveler. [Anaktoron]."
+#rarity 5 
+#nation -2
+#notext
+#nolog
 #req_monster 6438
 #req_targmnr 6423
 #transform 6432
@@ -14654,8 +18405,12 @@ may make the battlefield deadly even for the priest's allies."
 #decscale 3
 #end
 
-#newevent  #msg "Epoptes. [Anaktoron]."
-#rarity 5  #nation -2 #notext #nolog
+#newevent 
+#msg "Epoptes. [Anaktoron]."
+#rarity 5 
+#nation -2
+#notext
+#nolog
 #req_monster 6438
 #req_targmnr 6421
 #transform 6432
@@ -14664,24 +18419,36 @@ may make the battlefield deadly even for the priest's allies."
 #decscale 3
 #end
 
-#newevent  #msg "Epoptes. [Anaktoron]."
-#rarity 5  #nation -2 #notext #nolog
+#newevent 
+#msg "Epoptes. [Anaktoron]."
+#rarity 5 
+#nation -2
+#notext
+#nolog
 #req_monster 6438
 #req_targmnr 6421
 #transform 6432
 #killmon 6438
 #end
 
-#newevent  #msg "Reveler. [Anaktoron]."
-#rarity 5  #nation -2 #notext #nolog
+#newevent 
+#msg "Reveler. [Anaktoron]."
+#rarity 5 
+#nation -2
+#notext
+#nolog
 #req_monster 6438
 #req_targmnr 6423
 #transform 6432
 #killmon 6438
 #end
 
-#newevent  #msg "boar. [Anaktoron]."
-#rarity 5  #nation -2 #notext #nolog
+#newevent 
+#msg "boar. [Anaktoron]."
+#rarity 5 
+#nation -2
+#notext
+#nolog
 #req_monster 6446
 #req_targmnr 6432
 #transform 6448
@@ -14689,8 +18456,12 @@ may make the battlefield deadly even for the priest's allies."
 #req_targpath1 3
 #end
 
-#newevent  #msg "lion. [Anaktoron]."
-#rarity 5  #nation -2 #notext #nolog
+#newevent 
+#msg "lion. [Anaktoron]."
+#rarity 5 
+#nation -2
+#notext
+#nolog
 #req_monster 6445
 #req_targmnr 6432
 #transform 6447
@@ -14710,10 +18481,12 @@ may make the battlefield deadly even for the priest's allies."
 #gcost 250
 #descr "Serpent Priests are the leaders of the Pythian Serpent Cult. The Serpent Cult is one of the many mystery cults that spread to Pythium during the collapse of Ermor. Sauromancers from C'tis were invited by the Emperor and his Theurgs to battle the growing threat and with them came the Serpent Cult. The Serpent Cult was heralded as the answer to the Ermorian threat and quickly received Imperial acceptance. Soon it replaced the Order of the Theurgs as the state cult and grew in influence and power. In the years that have passed since the lizards left Pythium, the Cult has changed. Serpents are venerated and the priests of the Cult wear serpent masks and carry serpent staffs as signs of their office. Serpent Priests constantly expose themselves to poisons and their skin has a deathly pallor. They are skilled in Nature magic and some Water magic.  However, without the official imprimateur of the new god, they are still lacking in divine authority."
 #end
+
 #selectmonster 865
 #prophetshape 6439
 #userestricteditem 1105
 #end
+
 #selectmonster 830 --serpent acolyte
 #gcost 10010
 #magicboost 8 -1
@@ -14726,6 +18499,7 @@ may make the battlefield deadly even for the priest's allies."
 #gcost 100
 #descr "Throughout the Empire, mystery cults have spread and flourished with the influx of foreign culture. One of these, the Serpent Cult, has replaced the official state cult of the Theurgs, but many others ply their trade in secret. The Cult of the Solar Bull is very popular among the soldiers of the Limes and most of its higher members are former soldiers or Centurions. The Heliodromus, Sun-Courier, is the a high ranking member of the Cult of the Solar Bull. He, for it is only males that are allowed in the Cult, performs the Taurobolium, ritual sacrifice of a bull. The Heliodromus carries a golden sacrificial knife. Like all mystics of the Empire, the Heliodromus leads worshippers astray and lowers the Dominion in which he resides. He wears an exotic hat, reputedly similar to those of the foreign founders of the Cult. The Heliodromus forswears his former life upon initiation and does not lead armies. The Heliodromii are secretive and do not share their wisdom with outsiders. This makes them rather poor researchers."
 #end
+
 #selectmonster 1872 --leo
 #userestricteditem 1106
 #end
@@ -14754,6 +18528,7 @@ may make the battlefield deadly even for the priest's allies."
 #magicboost 8 -3
 #gcost 100
 #end
+
 #selectmonster 1876 --mystes
 #descr "Throughout the Empire, mystery cults have spread and flourished with the influx of foreign culture. One of these, the Serpent Cult, has replaced the official state cult of the Theurgs, but many others ply their trade in secret. The Cult of Fertility in its aspect of The Great Mother is very popular among women and most of the members in its higher ranks are female. The Mystes is a low ranking follower of the Great Mother.  The liturgy of the mystery cult is heavily influenced by the Arcoscephalean priestesses, but the Mystes are not initiated in the art of healing. Unlike her elder sister, the Epoptes, the Mystes doesn't initiate others into the Cult. She wears a garland and a green dress. The Epoptes and Mystes are secretive and do not share their wisdom with outsiders. This makes them rather poor researchers."
 #end
@@ -14763,6 +18538,7 @@ may make the battlefield deadly even for the priest's allies."
 #selectmonster 765 --serpent lord
 #gcost 10030
 #end
+
 #selectmonster 763 --serpent cata
 #gcost 10030
 #end
@@ -14770,6 +18546,7 @@ may make the battlefield deadly even for the priest's allies."
 #selectmonster 1850
 #gcost 210
 #end
+
 #selectmonster 1859
 #gcost 28
 #end
@@ -14883,6 +18660,7 @@ may make the battlefield deadly even for the priest's allies."
 #gcost 13
 #firstshape 1865
 #end
+
 #newmonster 6425 --primane
 #copystats 1866
 #copyspr 1866
