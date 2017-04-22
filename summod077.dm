@@ -2974,6 +2974,7 @@ These scouts will become commanders after recruitment."
 #name "Unquenched Flames"
 #copyspell 716
 #name "Unquenched Flames"
+#school -1
 #nextspell 823
 #end
 #selectitem 94
