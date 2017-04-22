@@ -10123,11 +10123,12 @@ provides useful crosspaths and smithing."
 #spr2 "./summod/iceenchanter_2.tga"
 #name "Ice Enchanter"
 #descr "Ice Enchanters are the elite of the Ice Crafters, who are Caelian craftsmen and mages of frozen water.  They make the magical ice used in Caelum, and build palaces, weapons, armor, and common tools from it.  The most talented become Enchanters, who forge other magical items and even use the lore of other clans. Ice Enchanters use fewer magical gems when forging magical items."
-#gcost 10040
+#gcost 10050
 #clearmagic
 #magicskill 2 2
 #custommagic 6272 100
 #custommagic 2816 100
+#slowrec
 #iceforging 7
 #end
 -------Bandar Log
