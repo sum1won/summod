@@ -13032,6 +13032,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #msg "This knight has become a ranking member of the Knights of the Glade!"
 #req_rare 30
 #addequip 1
+#pathboost 6
 #transform 6464
 #end
 #newevent --11--
@@ -13056,6 +13057,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #msg "This knight has become a ranking member of the Knights of the Glade!"
 #req_rare 30
 #addequip 1
+#pathboost 8 
 #transform 6466
 #end
 #newevent --13--
@@ -13186,7 +13188,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #spr2 "./summod/roundgala_2.tga"
 #size 3
 #holy
-#magicskill 8 2
+#magicboost 8 1
 #descr "A Knight of the Glade, gallant and bold, entrusted with special duties and honours, the Pious Knight is among the holiest of his company."
 #end
 #newmonster 6463 --7 Bors--
