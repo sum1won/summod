@@ -890,18 +890,9 @@ These scouts will become commanders after recruitment."
 #school -1
 #end
 
-#newspell
-#name "Current Command"
-#copyspell 779
-#name "Current Command"
-#school -1
-#nextspell 1077
-#descr "Shields the wielder from harm while friendly currents aid his allies."
-#end
 #selectitem 78 --wavebreaker
-#autospell "Current Command"
 #spell "Water Strike"
-#descr "The wielder of this trident will be able to command the currents of the sea. They will aid his friends, keep him from harm, allow him to breathe underwater, and strike his enemies at his command.  When used during battle, the Wave Breaker strikes with incredible speed."
+#descr "The wielder of this trident will be able to command the currents of the sea. They will aid his friends, and strike his enemies at his command.  When used during battle, the Wave Breaker strikes with incredible speed."
 #end
 
 ---Modified Items
