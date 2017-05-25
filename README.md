@@ -130,9 +130,9 @@ Table of Contents
 
 ******************************************************
 
-#### Magic Items
+### Magic Items
 
-##### One-handed Weapons
+#### One-handed Weapons
 
 Axe of Hate: N2->N1
 
@@ -200,7 +200,7 @@ Vine Whip: N2->N1, const 4->2, AoE1
 
 Wand of Wildfire: F3->F2
 
-##### Shields
+#### Shields
 
 Charcoal Shield: E2F1->E1F1
 
