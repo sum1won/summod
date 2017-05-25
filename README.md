@@ -21,7 +21,7 @@ Table of Contents
  6. [Boots](#boots)
  7. [Miscellaneous Items](#miscellaneous-items)
  8. [Artifacts](#artifacts)
-2. [Non Summon Spells](#non-summon-spells)
+2. [Non-summon Spells](#non-summon-spells)
  1. [Site-search Spells](#site-search-spells)
  2. [Domes](#domes)
  3. [Globals](#globals)
@@ -116,7 +116,7 @@ Table of Contents
     * [Agartha, Ktonian Dead](#agartha-ktonian-dead)
     * [Abysia, Blood of Humans](#abysia-blood-of-humans)
     * [Caelum, Return of the Raptors](#caelum-return-of-the-raptors)
-	* [C'tis, Desert Tombs](ctis-desert-tombs)
+    * [C'tis, Desert Tombs](ctis-desert-tombs)
     * [Pangaea, New Era](#pangaea-new-era)
     * [Midgrd, Age of Men](#midgrd-age-of-men)
     * [Utgrd, Well of Urd](#utgrd-well-of-urd)
@@ -355,73 +355,133 @@ Chi Boots att 1->2
 ##### Miscellaneous Items
 
 Arcane Lens (Range +2)
-Acorn Necklace N1E1->N1
-Amulet of Fish W1A1->W1
-Amulet of breathing A1
-Amulet of Missile Protection A2->A1
-Astral Serpent -> N1
-Barkskin Amulet N2->N1
-Barrel of Air A4, const 2, 150 points
-Bear Claw Talisman E1, const 2
-Blood Pendant Range 2
-Bracers of Protection - Def +2 -> +3, Prot +2 -> +3
-Cauldron of Elven Halls A3 -> A2
-Cat charm n2->n1
-Catseye Amulet 100 darkvision; D1E1->D1
-Champions Skull Insp 1, D2->D1
-Copper Arm - E3F1 -> E2F1, forgebonus 1
-Elixir of Life N2F2->N1F1
-Enormous Cauldron -> moved to const 0, supply 120
-Eye Pendant D3E3->D3E2, patrolbonus 20, diseasehealer 3
-Enchanted mirror A2->A1
-Gossamer Cloth -> A2N2->A1N1, const 2-> 0, hides 25-> 50
-Imp Familiar 1->10 undead leadership
-Lycantropos Amulet - #heal, -pathboost
-Manuel of Water Breathing N3W1->N3, const 6-> 4, Breathing 50->200 points
-Miraculous Cure-All Disease-Healer 1->5
-Mirror of False Impressions-> A4->A2
-Pebble Pouch Range Strength/3->Strength, nratt 1-> 3
-Pendant of Luck -> casts twist fate at the start of battle
-Pills of Water Breathing, A2->A1, const 4->6, 20->80 points
-Ring of Warning -> Patrol 10->25
-Sea King Goblet, W3->W2, const 6->4, 100->150 points
-Skull talisman research requirement 0->2
-Slave Matrix - E1S1 -> S1
-Stone Idol - E2S2 -> E1S1
-Stone Bird - Atk 0->2
-Stone Sphere - S2E1 -> S1E1
-Wall Shaker A3->A2
-Water Lens range 1->2
-Woundfend Amulet E1S1->S1
 
+Acorn Necklace N1E1->N1
+
+Amulet of Fish W1A1->W1
+
+Amulet of breathing A1
+
+Amulet of Missile Protection A2->A1
+
+Astral Serpent -> N1
+
+Barkskin Amulet N2->N1
+
+Barrel of Air A4, const 2, 150 points
+
+Bear Claw Talisman E1, const 2
+
+Blood Pendant Range 2
+
+Bracers of Protection - Def +2 -> +3, Prot +2 -> +3
+
+Cauldron of Elven Halls A3 -> A2
+
+Cat charm n2->n1
+
+Catseye Amulet 100 darkvision; D1E1->D1
+
+Champions Skull Insp 1, D2->D1
+
+Copper Arm - E3F1 -> E2F1, forgebonus 1
+
+Elixir of Life N2F2->N1F1
+
+Enormous Cauldron -> moved to const 0, supply 120
+
+Eye Pendant D3E3->D3E2, patrolbonus 20, diseasehealer 3
+
+Enchanted mirror A2->A1
+
+Gossamer Cloth -> A2N2->A1N1, const 2-> 0, hides 25-> 50
+
+Imp Familiar 1->10 undead leadership
+
+Lycantropos Amulet - #heal, -pathboost
+
+Manuel of Water Breathing N3W1->N3, const 6-> 4, Breathing 50->200 points
+
+Miraculous Cure-All Disease-Healer 1->5
+
+Mirror of False Impressions-> A4->A2
+
+Pebble Pouch Range Strength/3->Strength, nratt 1-> 3
+
+Pendant of Luck -> casts twist fate at the start of battle
+
+Pills of Water Breathing, A2->A1, const 4->6, 20->80 points
+
+Ring of Warning -> Patrol 10->25
+
+Sea King Goblet, W3->W2, const 6->4, 100->150 points
+
+Skull talisman research requirement 0->2
+
+Slave Matrix - E1S1 -> S1
+
+Stone Idol - E2S2 -> E1S1
+
+Stone Bird - Atk 0->2
+
+Stone Sphere - S2E1 -> S1E1
+
+Wall Shaker A3->A2
+
+Water Lens range 1->2
+
+Woundfend Amulet E1S1->S1
 
 ##### Artifacts
 
 Amon Hotep - F6S5 -> F5S5
+
 Atlas of Creation - E5S5 -> E5S4
+
 Boots of Antaeus - E5N1 -> E3N1
+
 Carcator inspiring researcher 1
+
 Draupnir - E5 -> E4
+
 Fenris Pelt - N4 -> N3
+
 Gate Stone - E8S8 -> E7S7
+
 Hammer of Forge Lord -25% forgebonus
+
 Nethgul - S3W2 -> S2W2
+
 Sun Slayer - D6 -> D5
+
 Tempest - A6 -> A5
+
 The Ark - F6S6 -> F5S5
+
 Horror Harmonica - S6D4 -> S5D3
+
 Crossbreeding Manual - B3N3 -> B2N2
+
 Staff from the Sun - S5F1 -> S4F1
+
 Summit - E6 -> E4, Att 12->15 , def 6->9, armor piercing
+
 Unquenched Sword - F7 -> F5; Casts living Fire at start of battle
+
 Wondrous Box - N5 -> N3
+
 Aseftik's Armor - 4 -> 3 enc, E4 -> E3
+
 Monolith Armor E5 -> E4, reinvigoration 6
+
 Percival Pocket Knight - E2N1 -> E1N1, hp 11->16, att 11->13, def 16->18, str 11->13
+
 Holger The Head - E1D1 -> E1, +luck
+
 Harvest Blade - B3N1 -> B2N1, fear 5 -> fear 15
 
 #### Non-summon Spells
+
 
 ##### Site-search Spells
 
@@ -1759,9 +1819,9 @@ Pan EDNB random is 10%->30%
 
 Minotaurs 5 gold discount (50->45; 40->35).
 
-###### MidgÃÂ¥rd, Age of Men
+###### Midgard, Age of Men
 
-###### UtgÃÂ¥rd, Well of Urd
+###### Utgard, Well of Urd
 
 ###### Bogarus, Age of Heroes
 Grid Druzhina 30->25 gold
