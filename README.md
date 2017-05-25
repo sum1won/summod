@@ -434,51 +434,51 @@ Woundfend Amulet: E1S1->S1
 
 #### Artifacts
 
-Amon Hotep - F6S5 -> F5S5
+Amon Hotep: F6S5->F5S5
 
-Atlas of Creation - E5S5 -> E5S4
+Atlas of Creation: E5S5->E5S4
 
-Boots of Antaeus - E5N1 -> E3N1
+Boots of Antaeus: E5N1->E3N1
 
-Carcator inspiring researcher 1
+Carcator: inspiring researcher 1
 
-Draupnir - E5 -> E4
+Draupnir: E5->E4
 
-Fenris Pelt - N4 -> N3
+Fenris Pelt: N4->N3
 
-Gate Stone - E8S8 -> E7S7
+Gate Stone: E8S8-> E7S7
 
-Hammer of Forge Lord -25% forgebonus
+Hammer of Forge Lord: forgebonus 4->8 
 
-Nethgul - S3W2 -> S2W2
+Nethgul: S3W2->S2W2
 
-Sun Slayer - D6 -> D5
+Sun Slayer: D6->D5
 
-Tempest - A6 -> A5
+Tempest: A6->A5
 
-The Ark - F6S6 -> F5S5
+The Ark: F6S6->F5S5
 
-Horror Harmonica - S6D4 -> S5D3
+Horror Harmonica: S6D4->S5D3
 
-Crossbreeding Manual - B3N3 -> B2N2
+Crossbreeding Manual: B3N3->B2N2
 
-Staff from the Sun - S5F1 -> S4F1
+Staff from the Sun: S5F1->S4F1
 
-Summit - E6 -> E4, Att 12->15 , def 6->9, armor piercing
+The Summit: E6->E4, att 12->15 , def 6->9, armor piercing
 
-Unquenched Sword - F7 -> F5; Casts living Fire at start of battle
+Unquenched Sword: F7->F5; casts Living Fire at start of battle
 
-Wondrous Box - N5 -> N3
+Wondrous Box: N5->N3
 
-Aseftik's Armor - 4 -> 3 enc, E4 -> E3
+Aseftik's Armor: enc 4->3, E4->E3
 
-Monolith Armor E5 -> E4, reinvigoration 6
+Monolith Armor: E5->E4, reinvigoration 6
 
-Percival Pocket Knight - E2N1 -> E1N1, hp 11->16, att 11->13, def 16->18, str 11->13
+Percival the Pocket Knight: E2N1->E1N1, hp 11->16, att 11->13, def 16->18, str 11->13
 
-Holger The Head - E1D1 -> E1, +luck
+Holger the Head: E1D1->E1, +luck
 
-Harvest Blade - B3N1 -> B2N1, fear 5 -> fear 15
+Harvest Blade: B3N1->B2N1, fear 5->15
 
 ### Non-summon Spells
 
