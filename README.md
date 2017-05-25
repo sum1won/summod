@@ -17,7 +17,7 @@ Table of Contents
  2. [Shields](#shields)
  3. [Twohanded Weapons](#twohanded-weapons)
  4. [Armour](#armor)
- 5. [Helmets] (#helmets)
+ 5. [Helmets](#helmets)
  6. [Boots](#boots)
  7. [Miscellaneous Items](#miscellaneous-items)
  8. [Artifacts](#artifacts)
