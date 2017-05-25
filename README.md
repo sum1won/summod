@@ -42,7 +42,7 @@ Table of Contents
    * [Weapons](#weapons)
    * [Indie Changes](#indie-changes)
 5. [National Changes](#national-changes)  
-      Early Age
+        Early Age
     * [Arcoscephale, Golden Era](#arcoscephale-golden-era)
     * [Ermor, New Faith](#ermor-new-faith)
     * [Ulm, Enigma of Steel](#ulm-enigma-of-steel)
@@ -73,7 +73,7 @@ Table of Contents
     * [Pelagia, Pearl Kings](#pelagia-pearl-kings)
     * [Oceania, Coming of the Capricorns](#oceania-coming-of-the-capricorns)
     * [Therodos, Telkhine Spectre](#therodos-telkhine-spectre)  
-      Middle Age
+    Middle Age
     * [Arcoscephale, The Old Kingdom](#arcoscephale-the-old-kingdom)
     * [Ermor, Ashen Empire](#ermor-ashen-empire)
     * [Sceleria, The Reformed Empire](#sceleria-the-reformed-empire)
@@ -103,7 +103,7 @@ Table of Contents
     * [R'lyeh, Fallen Star](#rlyeh-fallen-star)
     * [Pelagia, Triton Kings](#pelagia-triton-kings)
     * [Oceania, Mermidons](#oceania-mermidons)  
-      Late Age
+    Late Age
     * [Arcoscephale, Sibylline Guidance](#arcoscephale-sibylline-guidance)
     * [Pythium, Serpent Cult](#pythium-serpent-cult)
     * [Lemuria, Soul Gates](#lemuria-soul-gates)
