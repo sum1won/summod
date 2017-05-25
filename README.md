@@ -312,125 +312,125 @@ Wraith Crown: D6->D4
 
 #### Armor
 
-Berserker Pelt +3 strength +3 attack -3 defense
+Berserker Pelt: +3 strength +3 attack -3 defense
 
-Blacksteel Full Plate Enc4 -> Enc3
+Blacksteel Full Plate: Enc4 -> Enc3
 
-Blue dragon Scale Mail W2->W1
+Blue dragon Scale Mail: W2->W1
 
-Bone Armor D5 -> D4
+Bone Armor: D5 -> D4
 
-Brightmail Haubergeon - Awe, Const4->Const 6
+Brightmail Haubergeon: Awe, Const4->Const 6
 
-Chain Mail of Displacement, gives mirror image in combat
+Chain Mail of Displacement: gives mirror image in combat
 
-Direwolf Pelt +1->+3 att/def bonus
+Direwolf Pelt: +1->+3 att/def bonus
 
-Enchanted Armor +1 MR
+Enchanted Armor: +1 MR
 
-Green Dragon Scale N2->N1
+Green Dragon Scale: N2->N1
 
-Hydra Skin Armor - Prot 12 -> 15 ; fire vulnerability 5
+Hydra Skin Armor: prot 12 -> 15 ; fire vulnerability 5
 
-Jade Armor - 2W1E -> 1W1E
+Jade Armor: 2W1E -> 1W1E
 
-Lightweight Scale Mail - Const2 -> Const0
+Lightweight Scale Mail: Const2 -> Const0
 
-Marble Armor - Prot 16 -> 19
+Marble Armor: Prot 16 -> 19
 
-Red Dragon Scale Mail F2-> F1; FR15->10
+Red Dragon Scale Mail: F2-> F1; FR15->10
 
-Robe of Invulnerability D4-> D2
+Robe of Invulnerability: D4-> D2
 
-Silver Hauberk A2E1 -> A1E1
+Silver Hauberk: A2E1 -> A1E1
 
-Weightless Scale Mail - A2 -> A1
+Weightless Scale Mail: - A2 -> A1
 
 #### Boots
 
-Brimstone Boots provide reinvigoration 2
+Brimstone Boots: provide reinvigoration 2
 
-Chi Boots att 1->2
+Chi Boots: att 1->2
 
 #### Miscellaneous Items
 
-Arcane Lens (Range +2)
+Arcane Lens: ritual range bonus 1->2
 
-Acorn Necklace N1E1->N1
+Acorn Necklace: N1E1->N1
 
-Amulet of Fish W1A1->W1
+Amulet of Fish: W1A1->W1
 
-Amulet of breathing A1
+Amulet of Breathing: A1
 
-Amulet of Missile Protection A2->A1
+Amulet of Missile Protection: A2->A1
 
-Astral Serpent -> N1
+Astral Serpent: N1S1->N1
 
-Barkskin Amulet N2->N1
+Barkskin Amulet: N2->N1
 
-Barrel of Air A4, const 2, 150 points
+Barrel of Air: A4, const 2, 150 points
 
-Bear Claw Talisman E1, const 2
+Bear Claw Talisman: E1, const 2
 
-Blood Pendant Range 2
+Blood Pendant: Range 2
 
-Bracers of Protection - Def +2 -> +3, Prot +2 -> +3
+Bracers of Protection: Def +2 -> +3, Prot +2 -> +3
 
-Cauldron of Elven Halls A3 -> A2
+Cauldron of Elven Halls: A3->A2
 
-Cat charm n2->n1
+Cat Charm: N2->N1
 
-Catseye Amulet 100 darkvision; D1E1->D1
+Catseye Amulet: 100 darkvision, D1E1->D1
 
-Champions Skull Insp 1, D2->D1
+Champions Skull: Insp 1, D2->D1
 
-Copper Arm - E3F1 -> E2F1, forgebonus 1
+Copper Arm: E3F1->E1F1, forgebonus 1
 
-Elixir of Life N2F2->N1F1
+Elixir of Life: N2F2->N1F1
 
-Enormous Cauldron -> moved to const 0, supply 120
+Enormous Cauldron: moved to const 0, supply 120
 
-Eye Pendant D3E3->D3E2, patrolbonus 20, diseasehealer 3
+Eye Pendant: D3E3->D3E2, patrolbonus 20, diseasehealer 3
 
-Enchanted mirror A2->A1
+Enchanted Mirror: A2->A1
 
-Gossamer Cloth -> A2N2->A1N1, const 2-> 0, hides 25-> 50
+Gossamer Cloth: A2N2->A1N1, const 2->0, hides 25->50
 
-Imp Familiar 1->10 undead leadership
+Imp Familiar: 1->10 undead leadership
 
-Lycantropos Amulet - #heal, -pathboost
+Lychantropos' Amulet: str4->3, berserk+3, #heal, -1 pathboost
 
-Manuel of Water Breathing N3W1->N3, const 6-> 4, Breathing 50->200 points
+Manuel of Water Breathing: N3W1->N3, const 6->4, breathing 50->200 points
 
-Miraculous Cure-All Disease-Healer 1->5
+Miraculous Cure All Elixir: disease healer 1->5
 
-Mirror of False Impressions-> A4->A2
+Mirror of False Impressions: A4->A2
 
-Pebble Pouch Range Strength/3->Strength, nratt 1-> 3
+Pebble Pouch: range str/3->str, nratt 1->3
 
-Pendant of Luck -> casts twist fate at the start of battle
+Pendant of Luck: casts Twist of Fate at the start of battle
 
-Pills of Water Breathing, A2->A1, const 4->6, 20->80 points
+Pills of Water Breathing: A2->A1, const 4->6, 20->80 points
 
-Ring of Warning -> Patrol 10->25
+Ring of Warning: patrol 10->25
 
-Sea King Goblet, W3->W2, const 6->4, 100->150 points
+Sea King's Goblet: W3->W2, const 6->4, 100->150 points
 
-Skull talisman research requirement 0->2
+Skull Talisman: const 0->2
 
-Slave Matrix - E1S1 -> S1
+Slave Matrix: E1S1->S1
 
-Stone Idol - E2S2 -> E1S1
+Stone Idol: E2S2->E1S1
 
-Stone Bird - Atk 0->2
+Stone Bird: atk 0->2
 
-Stone Sphere - S2E1 -> S1E1
+Stone Sphere: S2E1->S1E1
 
-Wall Shaker A3->A2
+Wall Shaker: A3->A2
 
-Water Lens range 1->2
+Water Lens: ritual range 1->2
 
-Woundfend Amulet E1S1->S1
+Woundfend Amulet: E1S1->S1
 
 #### Artifacts
 
