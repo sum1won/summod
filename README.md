@@ -72,8 +72,8 @@ Table of Contents
     * [R'lyeh, Time of Aboleths](#rlyeh-time-of-aboleths)
     * [Pelagia, Pearl Kings](#pelagia-pearl-kings)
     * [Oceania, Coming of the Capricorns](#oceania-coming-of-the-capricorns)
-    * [Therodos, Telkhine Spectre](#therodos-telkhine-spectre)
- 2. [Middle Age](#middle-age)
+    * [Therodos, Telkhine Spectre](#therodos-telkhine-spectre)  
+      Middle Age
     * [Arcoscephale, The Old Kingdom](#arcoscephale-the-old-kingdom)
     * [Ermor, Ashen Empire](#ermor-ashen-empire)
     * [Sceleria, The Reformed Empire](#sceleria-the-reformed-empire)
@@ -102,8 +102,8 @@ Table of Contents
     * [Atlantis, Kings of the Deep](#atlantis-kings-of-the-deep)
     * [R'lyeh, Fallen Star](#rlyeh-fallen-star)
     * [Pelagia, Triton Kings](#pelagia-triton-kings)
-    * [Oceania, Mermidons](#oceania-mermidons)
- 3. [Late Age](#late-age)
+    * [Oceania, Mermidons](#oceania-mermidons)  
+      Late Age
     * [Arcoscephale, Sibylline Guidance](#arcoscephale-sibylline-guidance)
     * [Pythium, Serpent Cult](#pythium-serpent-cult)
     * [Lemuria, Soul Gates](#lemuria-soul-gates)
