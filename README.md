@@ -12,7 +12,7 @@ Changelog
 
 Table of Contents
 
-1. [Magic Items](#magic-items)
+1. [Magic Items](#magic-items)  
   * [One-handed Weapons](#one-handed-weapons)
   * [Shields](#shields)
   * [Two-handed Weapons](#two-handed-weapons)
