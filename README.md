@@ -132,187 +132,187 @@ Table of Contents
 
 #### Magic Items
 
-##### Onehanded Weapons
+##### One-handed Weapons
 
-Axe of Hate-> N1
+Axe of Hate: N2->N1
 
-Bane Blade - Fear 1
+Bane Blade: fear 1
 
-Demon Whip -- +20 demonic leadership
+Demon Whip: 20 demonic leadership
 
-Dragon Sceptre -> Const 4
+Dragon Sceptre: const 6->4
 
-Duskdagger Bleeding, Slashing, +2 damage, +2 attack
+Duskdagger: Bleeding, Slashing, +2 damage, +2 attack
 
 ElfBane: dispels glamour
 
-Evening Star - 2 attacks
+Evening Star: 2 attacks
 
-Enchanted Sword MR +1
+Enchanted Sword: MR 1
 
-Enchanted Spear MR +1
+Enchanted Spear: MR 1
 
-Faithful - e1s1->S1
+Faithful: E1S1->S1
 
-Fire Bola  3X bolas
+Fire Bola: 3X bolas
 
-Fire Brand	Primary damage 12->8
+Fire Brand: primary damage 12->8
 
-Fire Sword FR 3
+Fire Sword: FR 3
 
-Frost Brand	damage 16 -> 6, att 4->2
+Frost Brand: primary damage 16->6, att 4->2
 
-Heartfinder Sword - B3 -> B2
+Heartfinder Sword: B3->B2
 
-Hunter?s Knife causes bleeding
+Hunter's Knife: bleeding
 
-Ice Sword CR 3
+Ice Sword: CR 3
 
 Knife of Damned: horror mark on hit
 
-Lightning Spear Gains a secondary: AoE 3 dam 2 shock, const 4-> 6, lr 5, A1->2
+Lightning Spear: Gains a secondary: AoE 3 dam 2 shock, const 4->6, LR5, A1->2
 
-Main Gauche of Parrying - 4->6 def
+Main Gauche of Parrying: def 4->6
 
-Rat Tail -> Beastmaster 2
+Rat Tail: beastmaster 2
 
-Rod of Phoenix F4->F3
+Rod of the Phoenix: F4->F3
 
-Sceptre of Authority Leadership 25->50
+Sceptre of Authority: leadership 25->50
 
-Shadow Brand - D2E1 -> D1E1; damage 12->8
+Shadow Brand: D2E1->D1E1, damage 12->8
 
-Smasher - E2 -> E1
+Smasher: E2->E1
 
-Snek Bladder Stick?  aoe 4->5
+Snake Bladder Stick: AoE 4->5
 
-Star of Heroes -> two attacks
+Star of Heroes: two attacks
 
-Star of Thraldom - fetters aoe 1 -> 4
+Star of Thraldom: fetters AoE 1->4
 
-Summer Sword - N2E1 -> N1E1
+Summer Sword: N2E1 -> N1E1
 
-Sword of Swiftness - Def 4->1, autocasts quickness, const 6
+Sword of Swiftness: Def 4->1, autocasts quickness, const 4->6
 
-Thunder Whip -> aoe stun
+Thunder Whip: AoE stun
 
-Vine Whip - N2 -> N1, const 4->2, aoe1
+Vine Whip: N2->N1, const 4->2, AoE1
 
-Wand of Wildfire F3->F2
+Wand of Wildfire: F3->F2
 
 ##### Shields
 
-Charcoal Shield E2F1->E1F1
+Charcoal Shield: E2F1->E1F1
 
-Enchanted shield MR 1
+Enchanted shield: MR 1
 
-Golden Hoplon F3->F1 
+Golden Hoplon: F3->F1
 
-Lantern Shield, D2F1->D1F1
+Lantern Shield: D2F1->D1F1
 
-Lead Shield MR 4->5, Parry 6->7
+Lead Shield: MR 4->5, parry 6->7
 
-Lucky Coin S2->S1, parry 4->6
+Lucky Coin: S2->S1, parry 4->6
 
-Scultata Voltranus uses a modified shockwave
+Scultata Voltranus: uses a modified shockwave
 
-Shield of Accursed S2b1->s1b1, tainted 5, autocasts a range 10, low precision horror mark
+Shield of the Accursed: S2B1->S1B1, tainted 5, autocasts a range 10, low-precision horror mark
 
-Shield of Valor: Insp. 1
+Shield of Valor: inspirational 1
 
-Totem Shield -> Autocasts an aoe 3 level 1 healing spell
+Totem Shield: autocasts an AoE3 level 1 healing spell
 
-Weightless Tower Shield A1
+Weightless Tower Shield: A2->A1
 
-Weightless Kite Shield A1, def 7->6, prot 21->19 
+Weightless Kite Shield: A1, def 7->6, prot 21->19
 
-##### Twohanded Weapons
+##### Two-handed Weapons
 
-Bane Blade Fear 1, dmg 9 -> 12
+Bane Blade: fear 3, dmg 9->12
 
-Banefire Crossbow - Const 6->4 , ammo 12->24
+Banefire Crossbow: const 6->4 , ammo 12->24
 
-Bow of War -  level 4 , ammo 12->24, dmg 11->13
+Bow of War: const 6->4, ammo 12->24, dmg 11->13
 
-Bow of Botulf -> Ammo 12-> 24
+Bow of Botulf: ammo 12->24
 
-Carmine Cleaver F2E1-> F1E1, Fireshield 7->10
+Carmine Cleaver: F2E1->F1E1, fireshield 7->10
 
-Doom Glaive Decay difficult to resist
+Doom Glaive: decay->difficult to resist
 
-Enchanted Pike +1 MR
+Enchanted Pike: MR 1
 
-Ethereal Xbow  12-> 24 ammo
+Ethereal Xbow: ammo 12->24
 
-Gate Cleaver 	15->10 gems, const 4
+Gate Cleaver: E3->E2
 
-Gloves of the Gladiator - n2->n1, dam 3->5, def 1->3
+Gloves of the Gladiator: N2->N1, dam 3->5, def 1->3
 
-Golden Arbalest - 3->4 attacks ammo 12-> 24
+Golden Arbalest: attacks 3->4, ammo 12->24
 
-Halberd of Might - +4->10 Strength
+Halberd of Might: strength bonus 4->10
 
-Hammer of the Mountains - att -1 -> 2
+Hammer of the Mountains: att -1->2
 
-Hell Sword B3F2 -> B2F1, dmg 9 -> 15
+Hell Sword: B3F2->B2F1, dmg 9->15
 
-Ice Pebble Staff - W3->W2
+Ice Pebble Staff: W3->W2
 
-Implementor Axe -> Fear 5-> 10, Dmg 10->12
+Implementor Axe: Fear 5->10, dmg 10->12
 
-Ivory Bow - D3A1 -> D1A1, dmg 15->18, prec 2->5, ammo 12->24
+Ivory Bow: D3A1->D1A1, dmg 15->18, prec 2->5, ammo 12->24
 
-Just Man?s Cross - prec 4->10 ammo `12->24
+Just Man's Cross: prec 4->10, ammo 12->24
 
-Longbow of Accuracy -> Ammo 12-> 24
+Longbow of Accuracy: ammo 12->24
 
-Midget Masher - AoE1, damage 13 -> 0
+Midget Masher: AoE1, dam 13->0
 
-Moon Blade S1->S2, Ethereal
+Moon Blade: S1->S2, ethereal
 
-Piercer E1A1->E1, ammo 24
+Piercer: E1A1->E1, ammo 12->24
 
-Standard of the Damned - D4 -> D3, 100 undead leadership
+Standard of the Damned: D4->D3, 100 undead leadership
 
-Staff of Corrosion W2F1->W1F1
+Staff of Corrosion: W2F1->W1F1
 
-Staff of Elemental Mastery Range boost->2
+Staff of Elemental Mastery: range boost 1->2
 
-Staff of Flame Focus -> Range boost 4
+Staff of Flame Focus: range boost 1->2
 
-Staff of Storms A5->A4
+Staff of Storms: A5->A4
 
-Skull Standard Inspirational 1
+Skull Standard: inspirational 1
 
-Thunder Bow AoE1, ammo 12-> 24
+Thunder Bow: AoE1, ammo 12->24
 
-Vine Bow->Aoe Entangle
+Vine Bow: AoE1 entangle
 
-Vision?s Foe ammo 12->24
+Vision's Foe: ammo 12->24
 
-Wraith Sword D4 -> D2, Fear, Dam 9->13
+Wraith Sword: D4->D2, fear, dam 9->13
 
-Wavebreaker autocasts watershield, allows casting of waterstrike
+Wavebreaker: autocasts watershield, allows casting of waterstrike
 
 ##### Helmets
 
-Crown of Command also gives magicleadership 50 undeadleadership 50
+Crown of Command: magicleadership 25->75, undeadleadership 50
 
-Helmet of Heroes Command +50
+Helmet of Heroes: leadership 50
 
-Iron Face - 4E -> 3E
+Iron Face: 4E->3E
 
-Mistletoe Garland - twist fate, const2->4
+Mistletoe Garland: autocasts twist of fate, const2->4
 
-Spirit Helmet - +5 shockres
+Spirit Helmet: SR 5
 
-Spirit Mask D2N1->D1N1
+Spirit Mask: D2N1->D1N1
 
-Wraith Crown - D6 -> D4
+Wraith Crown: D6->D4
 
 ##### Armor
 
-Berserker Pelt  +3 strength +3 attack -3 defense
+Berserker Pelt +3 strength +3 attack -3 defense
 
 Blacksteel Full Plate Enc4 -> Enc3
 
@@ -355,134 +355,75 @@ Chi Boots att 1->2
 ##### Miscellaneous Items
 
 Arcane Lens (Range +2)
-
 Acorn Necklace N1E1->N1
-
 Amulet of Fish W1A1->W1
-
 Amulet of breathing A1
-
 Amulet of Missile Protection A2->A1
-
 Astral Serpent -> N1
-
 Barkskin Amulet N2->N1
-
 Barrel of Air A4, const 2, 150 points
-
 Bear Claw Talisman E1, const 2
-
 Blood Pendant Range 2
-
 Bracers of Protection - Def +2 -> +3, Prot +2 -> +3
-
 Cauldron of Elven Halls A3 -> A2
-
 Cat charm n2->n1
-
 Catseye Amulet 100 darkvision; D1E1->D1
-
 Champions Skull Insp 1, D2->D1
-
 Copper Arm - E3F1 -> E2F1, forgebonus 1
-
 Elixir of Life N2F2->N1F1
-
 Enormous Cauldron -> moved to const 0, supply 120
-
 Eye Pendant D3E3->D3E2, patrolbonus 20, diseasehealer 3
-
 Enchanted mirror A2->A1
-
 Gossamer Cloth -> A2N2->A1N1, const 2-> 0, hides 25-> 50
-
 Imp Familiar 1->10 undead leadership
-
 Lycantropos Amulet - #heal, -pathboost
-
 Manuel of Water Breathing N3W1->N3, const 6-> 4, Breathing 50->200 points
-
 Miraculous Cure-All Disease-Healer 1->5
-
 Mirror of False Impressions-> A4->A2
-
 Pebble Pouch Range Strength/3->Strength, nratt 1-> 3
-
 Pendant of Luck -> casts twist fate at the start of battle
-
 Pills of Water Breathing, A2->A1, const 4->6, 20->80 points
-
 Ring of Warning -> Patrol 10->25
-
 Sea King Goblet, W3->W2, const 6->4, 100->150 points
-
 Skull talisman research requirement 0->2
-
 Slave Matrix - E1S1 -> S1
-
 Stone Idol - E2S2 -> E1S1
-
 Stone Bird - Atk 0->2
-
 Stone Sphere - S2E1 -> S1E1
-
 Wall Shaker A3->A2
-
 Water Lens range 1->2
-
 Woundfend Amulet E1S1->S1
+
 
 ##### Artifacts
 
 Amon Hotep - F6S5 -> F5S5
-
 Atlas of Creation - E5S5 -> E5S4
-
 Boots of Antaeus - E5N1 -> E3N1
-
-Carcator  inspiring researcher 1
-
+Carcator inspiring researcher 1
 Draupnir - E5 -> E4
-
 Fenris Pelt - N4 -> N3
-
 Gate Stone - E8S8 -> E7S7
-
 Hammer of Forge Lord -25% forgebonus
-
 Nethgul - S3W2 -> S2W2
-
 Sun Slayer - D6 -> D5
-
 Tempest - A6 -> A5
-
 The Ark - F6S6 -> F5S5
-
 Horror Harmonica - S6D4 -> S5D3
-
 Crossbreeding Manual - B3N3 -> B2N2
-
 Staff from the Sun - S5F1 -> S4F1
-
 Summit - E6 -> E4, Att 12->15 , def 6->9, armor piercing
-
 Unquenched Sword - F7 -> F5; Casts living Fire at start of battle
-
 Wondrous Box - N5 -> N3
-
 Aseftik's Armor - 4 -> 3 enc, E4 -> E3
-
 Monolith Armor E5 -> E4, reinvigoration 6
-
 Percival Pocket Knight - E2N1 -> E1N1, hp 11->16, att 11->13, def 16->18, str 11->13
-
 Holger The Head - E1D1 -> E1, +luck
-
 Harvest Blade - B3N1 -> B2N1, fear 5 -> fear 15
 
 #### Non-summon Spells
 
-##### Sitesearch Spells
+##### Site-search Spells
 
 Acashic Knowledge - Conj 6 -> 5, 25 -> 20 gems
 
@@ -1274,28 +1215,24 @@ Beastbats are -1 siegedefense (For total siegedefense of 1.44 each instead of 2.
 New Coastal Shambler Mage -- Relatively expensive for W1, 1 WSFE ,5SFE
 
 ###### R'lyeh, Time of Aboleths
-Aboleth 215->195
-
-and Mindlord 420->360
-
-Mindlord given an extra W/S random
+Mindlord 420->360; given an extra +100%WSD +0.5%ED
 
 Androdai discounted, random changed to EWD from EWSD
 
-Androleth discounted 50-> 40 gold
-
 Polypal Mothers can research
 
-Polypals Spawn can go on land, but die after 2 turns.
+Grandmothers have Inspired Researcher
 
-Merman Slaves, lobo guard, slave mage recruitable on land
+Polypal Spawn can go on land, but die after 2 turns
 
-Given a mass-forge spell to produce airbreathing amulet
+Merman Slaves, Lobo Guard, Slave Mages recruitable on land
+
+Given a mass-forge spell to produce air breathing amulets (Blessing of Limne Const6 W4 10 gems)
 
 ###### Pelagia, Pearl Kings
 Sideraspists slightly improved.  
 
-Given a mass-forge spell to produce airbreathing amulets
+Given a mass-forge spell to produce air breathing amulets (Blessing of Limne Const6 W4 10 gems)
 
 ###### Oceania, Coming of the Capricorns
 Minotaurs given Gore while underwater
