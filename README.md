@@ -41,7 +41,7 @@ Table of Contents
    * [Armor Changes](#armor-changes)
    * [Weapons](#weapons)
    * [Indie Changes](#indie-changes)
-5. [National Changes](#national-changes)
+5. [National Changes](#national-changes)  
     Early Age
     * [Arcoscephale, Golden Era](#arcoscephale-golden-era)
     * [Ermor, New Faith](#ermor-new-faith)
