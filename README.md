@@ -42,7 +42,7 @@ Table of Contents
    * [Weapons](#weapons)
    * [Indie Changes](#indie-changes)
 5. [National Changes](#national-changes)  
-    Early Age
+      Early Age
     * [Arcoscephale, Golden Era](#arcoscephale-golden-era)
     * [Ermor, New Faith](#ermor-new-faith)
     * [Ulm, Enigma of Steel](#ulm-enigma-of-steel)
