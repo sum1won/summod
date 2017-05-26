@@ -192,11 +192,11 @@ Star of Thraldom: False Fetters AoE 1->5
 
 Summer Sword: const 4->6, N2E1->N1E1, supply bonus 100->200
 
-?Sword of Swiftness: def 4->1, autocasts quickness, const 4->6
+?Sword of Swiftness: def 4->1, autocasts Quickness, const 4->6
 
 Thunder Whip: dmg 10->12, +secondary effect(AoE 1, dmg 10, stun)
 
-Vine Whip: const 4->2, N2->N1, +AoE 1
+Vine Whip: const 4->2, N2->N1, entanglement->AoE 1
 
 Wand of Wildfire: F3->F2
 
@@ -210,17 +210,17 @@ Golden Hoplon: F2->F1, FR15->10
 
 Lantern Shield: D2F1->D1F1
 
-?Lead Shield: MR 4->5, enc 3->2, def3->7
+?Lead Shield: MR4->5, enc 3->2, def 3->7
 
 Lucky Coin: S2->S1, parry 4->6
 
-Scutata Voltrunus: autocasts a modified Shockwave
+Scutata Voltrunus: (repeat)autocasts a modified Shock Wave
 
-Shield of the Accursed: S2B1->S1B1, +tainted 5, autocasts modified Horror Mark(rng 10, prec -5) 
+Shield of the Accursed: S2B1->S1B1, +tainted 5, (repeat)autocasts modified Horror Mark(rng 10, prec -5) 
 
 Shield of Valor: +inspirational 1
 
-Totem Shield: autocasts a healing spell (AoE3, rng 8, heal 1+) 
+Totem Shield: (repeat)autocasts a healing spell (AoE3, rng 8, heal 1+) 
 
 Weightless Tower Shield: A2->A1
 
@@ -228,7 +228,7 @@ Weightless Kite Shield: A2->A1, def 7->6, prot 21->19
 
 #### Two-handed Weapons
 
-Bane Blade: fear 3, dmg 9->12
+Bane Blade: +fear 3, dmg 9->12
 
 ?Banefire Crossbow: const 6->4 , ammo 12->24
 
@@ -240,7 +240,7 @@ Carmine Cleaver: F2E1->F1E1, fireshield 7->10
 
 Doom Glaive: decay->difficult to resist
 
-Enchanted Pike: +MR1, def1->3
+Enchanted Pike: +MR1, def 1->3
 
 Ethereal Crossbow: ammo 12->24
 
@@ -276,11 +276,11 @@ Skull Standard: +inspirational 1
 
 Staff of Corrosion: W2F1->W1F1
 
-Staff of Elemental Mastery: range boost 1->2
+Staff of Elemental Mastery: ritual range boost 1->2
 
-Staff of Flame Focus: range boost 1->2
+Staff of Flame Focus: ritual range boost 1->2
 
-Staff of Storms: A5->A4
+Staff of Storms: A5->A4 (gem cost still 25)
 
 Standard of the Damned: D4->D3, +100 undead leadership
 
@@ -290,21 +290,21 @@ Vine Bow: +AoE1 entangle
 
 Vision's Foe: ammo 12->24, nratt-3->-2
 
-Wraith Sword: D4->D2, +fear, dam 9->13
+Wraith Sword: D4->D2, +fear, dmg 9->13
 
 Wavebreaker: +autocasts Water Shield, +allows casting of Water Strike
 
 #### Helmets
 
-Crown of Command: magicleadership 25->75, undeadleadership 50
+Crown of Command: +undead leadership 50, magic leadership 25->50
 
-Helmet of Heroes: leadership 50
+Helmet of Heroes: +leadership 50
 
 Iron Face: 4E->3E
 
-Mistletoe Garland: autocasts twist of fate, const2->4
+Mistletoe Garland: const2->4, autocasts Twist of Fate 
 
-Spirit Helmet: SR 5
+Spirit Helmet: +SR5
 
 Spirit Mask: D2N1->D1N1
 
@@ -312,39 +312,39 @@ Wraith Crown: D6->D4
 
 #### Armor
 
-Berserker Pelt: +3 strength +3 attack -3 defense
+Berserker Pelt: berserk 0->3
 
-Blacksteel Full Plate: Enc4 -> Enc3
+Blacksteel Full Plate: enc 4->3
 
-Blue dragon Scale Mail: W2->W1
+Blue Dragon Scale Mail: W2->W1, CR15->10
 
-Bone Armor: D5 -> D4
+Bone Armor: D5->D4
 
-Brightmail Haubergeon: Awe, Const4->Const 6
+Brightmail Haubergeon: +awe 1, const 4->6
 
-Chain Mail of Displacement: gives mirror image in combat
+Chain Mail of Displacement: autocasts Mirror Image
 
-Direwolf Pelt: +1->+3 att/def bonus
+Direwolf Pelt: att 1->3, def 1->3
 
-Enchanted Armor: +1 MR
+Enchanted Ring Mail Armor: +MR1
 
-Green Dragon Scale: N2->N1
+Green Dragon Scale Mail: N2->N1, PR15->10
 
-Hydra Skin Armor: prot 12 -> 15 ; fire vulnerability 5
+Hydra Skin Armor: prot 12->15, FR-5
 
-Jade Armor: 2W1E -> 1W1E
+Jade Armor: 2W1E->1W1E
 
-Lightweight Scale Mail: Const2 -> Const0
+Lightweight Scale Mail: Const 2->0, prot 11->14
 
-Marble Armor: Prot 16 -> 19
+Marble Armor: prot 16->19, enc 3->2
 
-Red Dragon Scale Mail: F2-> F1; FR15->10
+Red Dragon Scale Mail: F2->F1, FR15->10
 
-Robe of Invulnerability: D4-> D2
+Robe of Invulnerability: D4->D2
 
-Silver Hauberk: A2E1 -> A1E1
+Silver Hauberk: A2E1->A1E1
 
-Weightless Scale Mail: - A2 -> A1
+Weightless Scale Mail: A2->A1
 
 #### Boots
 
