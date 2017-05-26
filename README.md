@@ -494,61 +494,61 @@ Wondrous Box of Monsters: N5->N3, +PR5
 
 #### Site-search Spells
 
-Acashic Knowledge - Conj 6 -> 5, 25 -> 20 gems
+Acashic Knowledge: conj 6->5, 25->20 gems
 
-Dark Knowledge - 4 -> 3 gems
+Dark Knowledge: 4->3 gems
 
-Arcane Probing - 3 -> 2 gems
+Arcane Probing: 3->2 gems
 
-Auspex - range 2 -> 3
+Auspex: range 2->3
  
 #### Domes
 
-Dome of Arcane Warding - 10 -> 6 gems, lvl 4
+Dome of Arcane Warding: ench 6->4, 10->6 gems 
 
-Dome of Flaming Death - 8 -> 5 gems, lvl 4 -> 5
+Dome of Corruption: ench 7->5, 20->13 slaves
 
-Dome of Corruption - 20 -> 13 slaves, lvl 4 -> 5
+Dome of Flaming Death: ench7->5, 8->5 gems
 
-Dome of Solid Air - 20 -> 12 gems, lvl 5
+Dome of Solid Air: ench 6->5, 20->12 gems
 
-Frost Dome - W4, 15 -> 8 gems, lvl 5 -> 4
+Forest Dome: ench 6->5, 10->8 gems
 
-Forest Dome - 10 -> 8 gems, lvl 5
+Frost Dome: ench 6->4, W5->W4, 15->8 gems
 
 #### Globals
 
-Strands of Arcane Power - Evo 9 -> 8
+Astral Corruption: blood 7->9, 166->222 slaves
 
-Mechanical Militia - 80 -> 60 gems, research 9->5
+?Burden of Time: thau 6->7
 
-Riches from Beneath -  70->40 gems, E5->E4
+Celestial Rainbow: W7N5->W6N4, 80->60 gems
 
-Ghost Ship Armada - 60 -> 40 gems
+Fata Morgana: A7->A6, 90->80 gems
 
-Second Sun - 80 -> 50 gems, pathrec 6, research 6
+Forge of the Ancients: conj 7->9, 80->60 gems
 
-Fata Morgana - 90 -> 60 gems -- Pathrec 6
+Ghost Ship Armada: 60->40 gems
 
-Astral Corruption - 166 -> 222 gems; Research level 9
+Guardians of the Deep: conj 8->6, 60->40 gems
 
-Looming Hell - Research 9->6 150->100 slavecost, B8->7
+Lure of the Deep: thau 8->7, 70->50 gems
 
-Guardians of the Deep - 60 -> 40 gems, Conj 8 -> 6
+Mechanical Militia: const 9->7, 80->60 gems
 
-Lure of the Deep 70-> 50 gemcost Research 8->7
+Purgatory: thau 7->6
 
-Purgatory  60 -> 50 gemcost, Research 7->6
+Riches from Beneath: E5->E4, 70->40 gems 
 
-TKO Research 8->7, Paths F6N4-> F4N2
+Second Sun: evo 8->7, F8->F6, 80->50 gems
 
-Celestial Rainbow Path W7N5-> W5N3, gemcost 80->60
+Strands of Arcane Power: evo 9->8
 
-Wrath of Sea -  Ench 8->6  gemcost 70->50
+The Kindly Ones: conj 8->7, F6N4->F5N3
 
-Forge of the ancients- 80-> 50 gems
+The Looming Hell: blood 9->6, B8-B7, 150->100 slaves
 
-Burden of Time research 6->7
+Wrath of the Sea: ench 8->6, 70->50 gems
   
 #### Misc Spells
 
