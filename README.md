@@ -552,91 +552,91 @@ Wrath of the Sea: ench 8->6, 70->50 gems
   
 #### Misc Spells
 
-Gift of Reason - 20 -> 14 gems
+Acashic Record: 10->5 gems
 
-Divine Name - 25 -> 16 gems
+Breath of the Desert: F3A1->F3
 
-Acashic Record - 10 -> 5 gems
+Divine Name: 25->14 gems
 
-Breath of the Desert F3A1->F3D1
+Dragon Master: ench 8->6, 30->14 gems
 
-Dragon Master -lvl 8 -> 5, 30 -> 14 gems
+Gift of Reason: 20->12 gems
 
-Raven Feast A4->A3
+Raven Feast: A4->A3
 
 #### Battlemagic
 
-Battlefield fire booster at conj 5, f3, 3 gems
+Battlefield fire booster: conj 5, F3, 3 gems
 
-Bonds of Fire research level 2->1
+Bonds of Fire: thau 2->1
 
-Prison of Fire research level 5->3
+Prison of Fire: thau 4->3
 
-Rain of Stones costs 1->2 gems
+Rain of Stones: 1->2 gems
 
-Numbness reduce research 3->2
+Numbness: alt 3->2, W3->W2
 
-Quickness Scales
+Quickness: +scales
 
-Earthmight: Scales, E2->E1
+Earthmight: +scales, E2->E1
 
-Iron Warriors: Scales, but only to single targets
+Iron Warriors: +scales(only to single targets)
 
-Iron Will Scales
+Iron Will: +scales
 
-Gift of Flight Scales
+Gift of Flight: +scales
 
 Scaling version of Tangle Vines at conj 3, 2+
 
-Enlarge: Scales
+Enlarge: +scales
 
-Mossbody Scales
+Mossbody: +scales
 
-Cheat Fate Scales
+Cheat Fate: +scales
 
-Wooden Warriors Scales
+Wooden Warriors: +scales
 
-Army of Giants Scales
+Army of Giants: +scales
 
-Berserkers Scales	
+Berserkers: +scales	
 
-Touch of Madness : Thau 4->2, range 15->1
+Touch of Madness: thau 4->2, range 15->1
 
-Sulphur Haze, castable UW
+Sulphur Haze: +castable UW
 
-Rust Mist, castable UW
+Rust Mist: +castable UW
 
-Ice Strike castable UW
+Ice Strike: +castable UW
 
-Siren Blessing (new spell) A3, ench3, remove amphibian penalty, 
+Siren's Blessing(new spell): ench 3, A3, removes amphibian penalty 
 
-Gulf Stream (new spell) F3, Ench 5, imitates friendly currents
+Gulf Stream(new spell): ench 5, F3, imitates friendly currents
 
-Confusion ->  AoE3/Scaling
+Confusion: AoE3/Scaling
 
-Weakness -> AoE1/Scaling
+Weakness: AoE1/Scaling
 
-Enfeeble -> AoE 6->10, scaling
+Enfeeble: AoE 6->10, scaling
 
-Unraveling - S6-> S5; 6 pearls -> 4
+Unraveling: S6->S5, 6->4 pearls
 
-Bonemelter-> Range 20>25
+Bonemelter: range 20->25
 
-Sailor?s Death AoE1-> 1 target, 3+ effects
+Sailor's Death: AoE1-> 1 target, 3+ effects
 
-Curse of the Desert -> AoE 5-> AoE 5+
+Curse of the Desert: AoE 5->5+
 
-Astral Bolt-> Damage 10+->10++
+Astral Bolt: Dmg 10+->10++
 
-All midlevel resists now scale
+All mid-level resists now scale
 
-Spirit curse horror marks and curses
+Spirit Curse: horror marks and curses
 
-Army of Rats Alt9->Alt8; 6 gems->3
+Army of Rats: alt 9->8, 6->3 gems
 
-Skeletal Legion  Research level 5
+Skeletal Legion:  Research level 5
 
-Creeping Doom works underwater
+Creeping Doom: +castable UW
 
 ### Summon Spells
 
