@@ -384,8 +384,6 @@ Cauldron of Elven Halls: const 4->0
 
 Champions Skull: D2->D1, +inspirational 1
 
-Copper Arm: E3F1->E1F1, +forgebonus 1
-
 Crystal Heart: E2S2->E1S1
 
 Dancing Trident: dmg 19->21, def 1->2, att 0->3
@@ -412,8 +410,6 @@ Miraculous Cure All Elixir: N5->N4, disease healer 1->5
 
 Mirror of False Impressions: A4->A2
 
-Pebble Pouch: range str/3->str, nratt 1->3
-
 Pendant of Luck: +autocast Twist of Fate
 
 Pills of Water Breathing: A2->A1, const 4->6, breathing 20->80 points
@@ -432,6 +428,10 @@ Stone Bird: att 0->2
 
 Stone Sphere: S2E1->S1E1
 
+The Copper Arm: E3F1->E1F1, +forgebonus 1
+
+The Pebble Pouch: range str/3->str, nratt 1->3
+
 Wall Shaker: A3->A2
 
 Water Lens: ritual range 1->2
@@ -442,21 +442,31 @@ Woundfend Amulet: E1S1->S1
 
 Amon Hotep: F6S5->F5S5
 
+Aseftik's Armor: enc 4->3, E4->E3
+
 Atlas of Creation: E5S5->E5S4
 
 Boots of Antaeus: E5N1->E3N1
 
-Carcator: inspiring researcher 1
+?Carcator the Pocket Lich: D4->D2, inspiring researcher 1
 
 Draupnir: E5->E4
 
 Fenris Pelt: N4->N3
 
-Gate Stone: E8S8-> E7S7
+Gate Stone: E8S8->E7S7
 
 Hammer of Forge Lord: forgebonus 4->8 
 
+Harvest Blade: B3N1->B2N1, fear 5->15
+
+Holger the Head: E1D1->E1, +casts luck on himself
+
+Monolith Armor: E5->E4, prot 30->32, reinvigoration 6
+
 Nethgul: S3W2->S2W2
+
+Percival the Pocket Knight: E2N1->E1N1, hp 11->16, att 11->13, def 16->19, str 11->13
 
 Sun Slayer: D6->D5
 
@@ -464,27 +474,19 @@ Tempest: A6->A5
 
 The Ark: F6S6->F5S5
 
-Horror Harmonica: S6D4->S5D3
+The Horror Harmonica: S6D4->S5D3
 
-Crossbreeding Manual: B3N3->B2N2
+The Manual of Crossbreeding: B3N3->B2N2
 
-Staff from the Sun: S5F1->S4F1
+The Sharpest Tooth: N2S1->N1S1
 
-The Summit: E6->E4, att 12->15 , def 6->9, armor piercing
+The Staff from the Sun: S5F1->S4F1
 
-Unquenched Sword: F7->F5; casts Living Fire at start of battle
+The Summit: E6->E4, att 12->15 , def 6->9, +armor piercing
 
-Wondrous Box: N5->N3
+Unquenched Sword: F7->F5, autocast Living Fire
 
-Aseftik's Armor: enc 4->3, E4->E3
-
-Monolith Armor: E5->E4, reinvigoration 6
-
-Percival the Pocket Knight: E2N1->E1N1, hp 11->16, att 11->13, def 16->18, str 11->13
-
-Holger the Head: E1D1->E1, +luck
-
-Harvest Blade: B3N1->B2N1, fear 5->15
+Wondrous Box of Monsters: N5->N3, +PR5
 
 ### Non-summon Spells
 
