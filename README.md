@@ -136,15 +136,15 @@ Table of Contents
 
 Axe of Hate: N2->N1
 
-Bane Blade: fear 1
+Bane Blade: +fear 1
 
-Demon Whip: 20 demonic leadership
+Demon Whip: +20 undead(demon) leadership
 
 Dragon Sceptre: const 6->4
 
-Duskdagger: Bleeding, Slashing, +2 damage, +2 attack
+Duskdagger: +bleeding, +slashing, +2 dmg, +2 att
 
-ElfBane: dispels glamour
+Elf Bane: +dispels glamour
 
 Evening Star: 2 attacks
 
@@ -154,7 +154,7 @@ Enchanted Spear: MR 1
 
 Faithful: E1S1->S1
 
-Fire Bola: 3X bolas
+Fire Bola: nratt1->3
 
 Fire Brand: primary damage 12->8
 
