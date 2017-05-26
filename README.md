@@ -138,7 +138,7 @@ Axe of Hate: N2->N1
 
 Bane Blade: +fear 1
 
-Demon Whip: +20 undead(demon) leadership
+Demon Whip: +undead leadership 20
 
 Dragon Sceptre: const6->4
 
@@ -348,69 +348,75 @@ Weightless Scale Mail: A2->A1
 
 #### Boots
 
-Brimstone Boots: provide reinvigoration 2
+Brimstone Boots: +reinvigoration 2
 
-Chi Boots: att 1->2
+Chi Boots: nratt 1->2
 
 #### Miscellaneous Items
 
-Arcane Lens: ritual range bonus 1->2
-
 Acorn Necklace: N1E1->N1
-
-Amulet of Fish: W1A1->W1
 
 Amulet of Breathing: A1
 
 Amulet of Missile Protection: A2->A1
 
+Amulet of the Fish: W1A1->W1
+
+Arcane Lens: ritual range bonus 1->2
+
 Astral Serpent: N1S1->N1
 
-Barkskin Amulet: N2->N1
+Barkskin Amulet: const 2->0, N2->N1
 
-Barrel of Air: A4, const 2, 150 points
+Barrel of Air: const 6->2, 150 points
 
-Bear Claw Talisman: E1, const 2
+Bear Claw Talisman: E2->E1, const 0->2
 
-Blood Pendant: Range 2
+Blood Pendant: ritual range 1->2
 
-Bracers of Protection: Def +2 -> +3, Prot +2 -> +3
-
-Cauldron of Elven Halls: A3->A2
+Bracers of Protection: def 2->3, prot 2->3
 
 Cat Charm: N2->N1
 
-Catseye Amulet: 100 darkvision, D1E1->D1
+?Catseye Amulet: D1E1->D1, 100 darkvision 
 
-Champions Skull: Insp 1, D2->D1
+Cauldron of Elven Halls: const 4->0
 
-Copper Arm: E3F1->E1F1, forgebonus 1
+Champions Skull: D2->D1, +inspirational 1
 
-Elixir of Life: N2F2->N1F1
+Copper Arm: E3F1->E1F1, +forgebonus 1
 
-Enormous Cauldron: moved to const 0, supply 120
+Crystal Heart: E2S2->E1S1
 
-Eye Pendant: D3E3->D3E2, patrolbonus 20, diseasehealer 3
+Dancing Trident: dmg 19->21, def 1->2, att 0->3
+
+Effigy of War: false army 50->80
+
+Elixir of Life: N2F2->N1F1 
 
 Enchanted Mirror: A2->A1
 
-Gossamer Cloth: A2N2->A1N1, const 2->0, hides 25->50
+Enormous Cauldron: const 2->0, supply 100->120
 
-Imp Familiar: 1->10 undead leadership
+Eye Pendant: D3E3->D3E2, patrolbonus 10->20, diseasehealer 1->3
 
-Lychantropos' Amulet: str4->3, berserk+3, #heal, -1 pathboost
+Gossamer Cloth: const 2->4, hides 25->100
 
-Manuel of Water Breathing: N3W1->N3, const 6->4, breathing 50->200 points
+Imp Familiar:  undead leadership 1->10
 
-Miraculous Cure All Elixir: disease healer 1->5
+Lychantropos' Amulet: str 4->3, berserk 0->3, #heal, -1 pathboost(all)
+
+Manual of Water Breathing: N3W1->N3, breathing 50->200 points
+
+Miraculous Cure All Elixir: N5->N4, disease healer 1->5
 
 Mirror of False Impressions: A4->A2
 
 Pebble Pouch: range str/3->str, nratt 1->3
 
-Pendant of Luck: casts Twist of Fate at the start of battle
+Pendant of Luck: +autocast Twist of Fate
 
-Pills of Water Breathing: A2->A1, const 4->6, 20->80 points
+Pills of Water Breathing: A2->A1, const 4->6, breathing 20->80 points
 
 Ring of Warning: patrol 10->25
 
@@ -422,7 +428,7 @@ Slave Matrix: E1S1->S1
 
 Stone Idol: E2S2->E1S1
 
-Stone Bird: atk 0->2
+Stone Bird: att 0->2
 
 Stone Sphere: S2E1->S1E1
 
