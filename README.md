@@ -140,63 +140,63 @@ Bane Blade: +fear 1
 
 Demon Whip: +20 undead(demon) leadership
 
-Dragon Sceptre: const 6->4
+Dragon Sceptre: const6->4
 
-Duskdagger: +bleeding, +slashing, +2 dmg, +2 att
+Duskdagger: +bleeding, +slashing, dmg 2->4, att 2->4
 
 Elf Bane: +dispels glamour
 
-Evening Star: 2 attacks
+Evening Star: nratt 1->2 
 
-Enchanted Sword: MR 1
+Enchanted Sword: +MR1
 
-Enchanted Spear: MR 1
+Enchanted Spear: +MR1
 
-Faithful: E1S1->S1
+?Faithful: E1S1->S1
 
-Fire Bola: nratt1->3
+Fire Bola: nratt 1->3
 
-Fire Brand: primary damage 12->8
+Fire Brand: primary dmg 12->8
 
-Fire Sword: FR 3
+Fire Sword: +FR3
 
-Frost Brand: primary damage 16->6, att 4->2
+Frost Brand: primary dmg 16->6, att 4->2
 
 Heartfinder Sword: B3->B2
 
-Hunter's Knife: bleeding
+Hunter's Knife: +bleeding
 
-Ice Sword: CR 3
+Ice Sword: +CR3
 
-Knife of Damned: horror mark on hit
+Knife of Damned: +horror mark on hit
 
-Lightning Spear: Gains a secondary: AoE 3 dam 2 shock, const 4->6, LR5, A1->2
+Lightning Spear: const 4->6, +LR5, A1->2, +secondary effect(AoE 3, dmg 2, shock) 
 
 Main Gauche of Parrying: def 4->6
 
-Rat Tail: beastmaster 2
+Rat Tail: +beastmaster 2
 
 Rod of the Phoenix: F4->F3
 
 Sceptre of Authority: leadership 25->50
 
-Shadow Brand: D2E1->D1E1, damage 12->8
+Shadow Brand: const 6->4, D2E1->D1E1, dmg 12->8
 
 Smasher: E2->E1
 
-Snake Bladder Stick: AoE 4->5
+?Snake Bladder Stick: AoE 4->5
 
-Star of Heroes: two attacks
+Star of Heroes: nratt 1->2
 
-Star of Thraldom: fetters AoE 1->4
+Star of Thraldom: False Fetters AoE 1->5
 
-Summer Sword: N2E1 -> N1E1
+Summer Sword: const 4->6, N2E1->N1E1, supply bonus 100->200
 
-Sword of Swiftness: Def 4->1, autocasts quickness, const 4->6
+?Sword of Swiftness: def 4->1, autocasts quickness, const 4->6
 
-Thunder Whip: AoE stun
+Thunder Whip: dmg 10->12, +secondary effect(AoE 1, dmg 10, stun)
 
-Vine Whip: N2->N1, const 4->2, AoE1
+Vine Whip: const 4->2, N2->N1, +AoE 1
 
 Wand of Wildfire: F3->F2
 
@@ -204,17 +204,17 @@ Wand of Wildfire: F3->F2
 
 Charcoal Shield: E2F1->E1F1
 
-Enchanted shield: MR 1
+Enchanted shield: +MR1
 
-Golden Hoplon: F3->F1
+Golden Hoplon: F2->F1, FR15->10
 
 Lantern Shield: D2F1->D1F1
 
-Lead Shield: MR 4->5, parry 6->7
+?Lead Shield: MR 4->5, enc 3->2, def3->7
 
 Lucky Coin: S2->S1, parry 4->6
 
-Scultata Voltranus: uses a modified shockwave
+Scutata Voltrunus: autocast a modified shockwave
 
 Shield of the Accursed: S2B1->S1B1, tainted 5, autocasts a range 10, low-precision horror mark
 
