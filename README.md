@@ -214,23 +214,23 @@ Lantern Shield: D2F1->D1F1
 
 Lucky Coin: S2->S1, parry 4->6
 
-Scutata Voltrunus: autocast a modified shockwave
+Scutata Voltrunus: autocasts a modified Shockwave
 
-Shield of the Accursed: S2B1->S1B1, tainted 5, autocasts a range 10, low-precision horror mark
+Shield of the Accursed: S2B1->S1B1, +tainted 5, autocasts modified Horror Mark(rng 10, prec -5) 
 
-Shield of Valor: inspirational 1
+Shield of Valor: +inspirational 1
 
-Totem Shield: autocasts an AoE3 level 1 healing spell
+Totem Shield: autocasts a healing spell (AoE3, rng 8, heal 1+) 
 
 Weightless Tower Shield: A2->A1
 
-Weightless Kite Shield: A1, def 7->6, prot 21->19
+Weightless Kite Shield: A2->A1, def 7->6, prot 21->19
 
 #### Two-handed Weapons
 
 Bane Blade: fear 3, dmg 9->12
 
-Banefire Crossbow: const 6->4 , ammo 12->24
+?Banefire Crossbow: const 6->4 , ammo 12->24
 
 Bow of War: const 6->4, ammo 12->24, dmg 11->13
 
@@ -240,17 +240,17 @@ Carmine Cleaver: F2E1->F1E1, fireshield 7->10
 
 Doom Glaive: decay->difficult to resist
 
-Enchanted Pike: MR 1
+Enchanted Pike: +MR1, def1->3
 
-Ethereal Xbow: ammo 12->24
+Ethereal Crossbow: ammo 12->24
 
 Gate Cleaver: E3->E2
 
 Gloves of the Gladiator: N2->N1, dam 3->5, def 1->3
 
-Golden Arbalest: attacks 3->4, ammo 12->24
+Golden Arbalest: nratt 2->3, ammo 12->24
 
-Halberd of Might: strength bonus 4->10
+Halberd of Might: strength bonus 4->8
 
 Hammer of the Mountains: att -1->2
 
@@ -258,21 +258,21 @@ Hell Sword: B3F2->B2F1, dmg 9->15
 
 Ice Pebble Staff: W3->W2
 
-Implementor Axe: Fear 5->10, dmg 10->12
+Implementor Axe: dmg 10->12, +on-hit effect(Lesser Fear)
 
 Ivory Bow: D3A1->D1A1, dmg 15->18, prec 2->5, ammo 12->24
 
-Just Man's Cross: prec 4->10, ammo 12->24
+Just Man's Cross: prec 4->6, ammo 12->24
 
-Longbow of Accuracy: ammo 12->24
+Longbow of Accuracy: dmg 15->18, ammo 12->24
 
-Midget Masher: AoE1, dam 13->0
+Midget Masher: AoE1, dmg 13->0
 
-Moon Blade: S1->S2, ethereal
+Moon Blade: S1->S2, +ethereal
 
 Piercer: E1A1->E1, ammo 12->24
 
-Standard of the Damned: D4->D3, 100 undead leadership
+Skull Standard: +inspirational 1
 
 Staff of Corrosion: W2F1->W1F1
 
@@ -282,17 +282,17 @@ Staff of Flame Focus: range boost 1->2
 
 Staff of Storms: A5->A4
 
-Skull Standard: inspirational 1
+Standard of the Damned: D4->D3, +100 undead leadership
 
-Thunder Bow: AoE1, ammo 12->24
+Thunder Bow: +AoE1, dmg 0->-3, ammo 12->24
 
-Vine Bow: AoE1 entangle
+Vine Bow: +AoE1 entangle
 
-Vision's Foe: ammo 12->24
+Vision's Foe: ammo 12->24, nratt-3->-2
 
-Wraith Sword: D4->D2, fear, dam 9->13
+Wraith Sword: D4->D2, +fear, dam 9->13
 
-Wavebreaker: autocasts watershield, allows casting of waterstrike
+Wavebreaker: +autocasts Water Shield, +allows casting of Water Strike
 
 #### Helmets
 
