@@ -794,67 +794,44 @@ Lamia Queen: 25->20 gems
 
 Lumber Construct: const 5->3, 5->4 gems (+siege 10)
 
-Manticore:
-Flick barbs damage changed from 10 nostrength to -10 strength so buffs help?
+Kithaironic Lion: N3E1->N2E1, 3->6 gems, summons 1->2
 
-Kithaironic Lion:
-	Casting requirements reduced, doubled mage turn efficiency
+Pride of Lions: summons 10++->13+++
 
-Pride of Lions:
-10++ -> 13+++ lions
+Sleeper: (+sacred)
 
-Sleeper:
-Sacred
+Sloth of Bears: (+bite attack)
 
-Sloth of Bears:
-Claw -> Bite, claw
+Swamp Drake: 8->6 gems
 
-Swamp Drake:
-8-> 5 cost
+Vine Men: summons 3->5
 
-Vine Men:
-3 -> 5 men
+Vine Ogres: summons 2->3
 
-Vine Ogres:
-2 -> 3 ogres
-
-Tarrasque:
-commander, noleader
-25 gems->20
-Level 6 unique
-buffs: (recuperation, prot 18->20, enc 2, slash/pierce resist).  Has an attack that can swallow enemies.
+Tarrasque: conj 9->6(unique), 25->20 gems (bite->bite and swallow, +prot 18->20, enc 4->2, commander, +noleader,  
++recuperation, +slash/pierce/blunt resist, +FR/CR/SR 2, +digest 3, +acid digest 2)
 
 #### Blood
 
-Bind Succubus:
-66->44 gems
+Bind Succubus: 66->44 gems
 
-Blood Rite:
-summons 3->7 vampires
+Blood Rite: summons 3->7(vampires)
 
-Cross Breeding:
-15 -> 12 slaves
+Cross Breeding: 15->12 slaves
 
-Improved Cross Breeding:
-20 -> 16 slaves
+Improved Cross Breeding: 20->16 slaves
 
-Dark Vines:
-summons 5 at 30 slaves
+Dark Vines: 12->30 slaves, summons 2->5
 
-Devil:
-Fire shield 6
+Devil: (+fire shield 6)
 
-Plague of Locusts:
-heretic 1->2
+Plague of Locusts: (heretic 1->2)
 
-Ritual of Five Gates:
-28->25
+Ritual of Five Gates: 28->24 slaves
 
-Spine Devil:
-Given Flick barbs, precision 10, 3X summonspeed
+Spine Devil: 3->12 slaves, summons 1->3, (prec 5->11, +throw spines attack)
 
-Serpent Fiend:
-+3 att, +4 strength, 3X summon speed
+Serpent Fiend: 4->12 slaves, summons 1->3, (att 12->15, str 12->16)
 
 ### General Changes
 
