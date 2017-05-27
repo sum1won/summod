@@ -838,39 +838,39 @@ Serpent Fiend: 4->12 slaves, summons 1->3, (att 12->15, str 12->16)
 #### Scales:  
 Growth/Death: Income 3%->2% per scale
 
-Ohlmann - both excellent in short term gold, and excellent in long term gold. Production is a bit weak, because it don't give much money and resources become weaker quite fast. I also think that sloth 3 is not punitive enough
+Ohlmann - both excellent in short term gold, and excellent in long term gold. Production is a bit weak, because it doesn't give much money and resources become weaker quite fast. I also think that sloth 3 is not punitive enough.
 
 Maerlande -  I think growth is too obvious if you want money. If I remember correctly, Calahan used +2% for growth and gave production the other percent in his version of CBM for serious competition. I think that makes quite a difference to put a bit more decision between these two. Right now, I find growth is almost always a better choice.
 
-sum1won: I?m including this discussion since I expect this is the biggest change in the mod.  I?d also note that I modeled income and total gold from growth and order, and the comparison suggests that growth is significantly better over the long term, and nearly as good over the short term.  The largest difference in gold is around turn 8-15 (varies depending on how aggressive expansion is) and never really rises above ~5% of income/total gold.  Largest difference I saw was a few hundred gold.
+sum1won: I'm including this discussion since I expect this is the biggest change in the mod.  I'd also note that I modeled income and total gold from growth and order, and the comparison suggests that growth is significantly better over the long term, and nearly as good over the short term.  The largest difference in gold is around turn 8-15 (varies depending on how aggressive expansion is) and never really rises above ~5% of income/total gold.  Largest difference I saw was a few hundred gold.
 
 #### AI 
-doesn't recruit certain particularly bad troops
+Doesn't recruit certain particularly bad troops
 
 #### Thrones
 Season thrones aren't UW
 
 #### Sites
 
-Steel ovens level 0->1
+Steel Ovens: level 0->1
 
-Cedar pillar level 0->1
+Cedar Pillar: level 0->1
 
-Well of Pestilence rarity swapped with bonedoor tower
+Well of Pestilence: rarity swapped with Bonedoor Tower
 
-Ancient ruin summons 5 various bugs instead of 1 spider
+Ancient Ruin: summons 5 various bugs instead of 1 spider
 
-Farm of Plenty less common
+Farm of Plenty: less common
 
-Caveman cave gives 10 resources
+Caveman Cave: gives 10 resources
 
-Animal Cemetary: Summons 4 carrion beasts instead of two
+Animal Cemetary: summons 4 carrion beasts instead of two
 
-Flesh Eaters Isle: Summons 4 ghouls instead of one
+Flesh Eaters Isle: summons 4 ghouls instead of one
 
-The Slaughterhouse: Provides supply, summons some extra foulspawn
+The Slaughterhouse: provides supply, summons some extra foulspawn
 
-Isle of Saos gives the correct units
+Isle of Saos: gives the correct units
 
 #### Armor changes
 
