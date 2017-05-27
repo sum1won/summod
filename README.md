@@ -566,7 +566,7 @@ Raven Feast: A4->A3
 
 #### Battlemagic
 
-Battlefield fire booster: conj 5, F3, 3 gems
+(New Spell) Pyriphlogos Incantation: battlefield-wide fire booster, conj 5, F3, 3 gems
 
 Bonds of Fire: thau 2->1
 
@@ -586,7 +586,7 @@ Iron Will: +scales
 
 Gift of Flight: +scales
 
-Scaling version of Tangle Vines at conj 3, 2+
+New scaling version of Tangle Vines(Wild Tangle) conj 3, AoE　2+
 
 Enlarge: +scales
 
@@ -608,15 +608,15 @@ Rust Mist: +castable UW
 
 Ice Strike: +castable UW
 
-Siren's Blessing(new spell): ench 3, A3, removes amphibian penalty 
+(New spell) Siren's Blessing: ench 3, A3, removes amphibian penalty 
 
-Gulf Stream(new spell): ench 5, F3, imitates friendly currents
+(New spell) Gulf Stream: ench 5, F3, imitates friendly currents
 
-Confusion: AoE3/Scaling
+Confusion: AoE3/scales
 
-Weakness: AoE1/Scaling
+?Weakness: AoE1/scales
 
-Enfeeble: AoE 6->10, scaling
+Enfeeble: AoE 6->10+
 
 Unraveling: S6->S5, 6->4 pearls
 
@@ -624,17 +624,17 @@ Bonemelter: range 20->25
 
 Sailor's Death: AoE1-> 1 target, 3+ effects
 
-Curse of the Desert: AoE 5->5+
+Curse of the Desert: AoE 5->6+
 
 Astral Bolt: Dmg 10+->10++
 
 All mid-level resists now scale
 
-Spirit Curse: horror marks and curses
+Spirit Curse: horror marks in addition to cursing
 
 Army of Rats: alt 9->8, 6->3 gems
 
-Skeletal Legion:  Research level 5
+Skeletal Legion: alt 6->5
 
 Creeping Doom: +castable UW
 
