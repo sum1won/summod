@@ -578,6 +578,8 @@ Numbness: alt 3->2, W3->W2
 
 Quickness: +scales
 
+Quickening: AoE 9+->9++
+
 Earthmight: +scales, E2->E1
 
 Iron Warriors: +scales(only to single targets)
