@@ -193,9 +193,9 @@ Star of Thraldom: False Fetters AoE 1->5
 
 Summer Sword: const 4->6, N2E1->N1E1, supply bonus 100->200
 
-?Sword of Swiftness: def 4->1, autocasts Quickness, const 4->6
+?Sword of Swiftness: const 4->6, def 4->1, autocasts Quickness
 
-Thunder Whip: dmg 10->12, +secondary effect(AoE 1, dmg 10, stun)
+Thunder Whip: dmg 10->12, +secondary effect(AoE 1, dmg 10 stun)
 
 Vine Whip: const 4->2, N2->N1, entanglement->AoE 1
 
@@ -289,7 +289,7 @@ Thunder Bow: +AoE1, dmg 0->-3, ammo 12->24
 
 Vine Bow: +AoE1 entangle
 
-Vision's Foe: ammo 12->24, nratt-3->-2
+Vision's Foe: nratt-3->-2, ammo 12->24
 
 Wraith Sword: D4->D2, +fear, dmg 9->13
 
@@ -303,7 +303,7 @@ Helmet of Heroes: +leadership 50
 
 Iron Face: 4E->3E
 
-Mistletoe Garland: const2->4, autocasts Twist of Fate 
+Mistletoe Garland: const 2->4, autocasts Twist of Fate 
 
 Spirit Helmet: +SR5
 
@@ -321,7 +321,7 @@ Blue Dragon Scale Mail: W2->W1, CR15->10
 
 Bone Armor: D5->D4
 
-Brightmail Haubergeon: +awe 1, const 4->6
+Brightmail Haubergeon: const 4->6, +awe 1 
 
 Chain Mail of Displacement: autocasts Mirror Image
 
@@ -335,7 +335,7 @@ Hydra Skin Armor: prot 12->15, FR-5
 
 Jade Armor: 2W1E->1W1E
 
-Lightweight Scale Mail: Const 2->0, prot 11->14
+Lightweight Scale Mail: const 2->0, prot 11->14
 
 Marble Armor: prot 16->19, enc 3->2
 
@@ -357,7 +357,7 @@ Chi Boots: nratt 1->2
 
 Acorn Necklace: N1E1->N1
 
-Amulet of Breathing: A1
+Amulet of Breathing: A2->A1
 
 Amulet of Missile Protection: A2->A1
 
@@ -369,9 +369,9 @@ Astral Serpent: N1S1->N1
 
 Barkskin Amulet: const 2->0, N2->N1
 
-Barrel of Air: const 6->2, 150 points
+Barrel of Air: const 6->2
 
-Bear Claw Talisman: E2->E1, const 0->2
+Bear Claw Talisman: const 0->2, E2->E1
 
 Blood Pendant: ritual range 1->2
 
@@ -413,11 +413,11 @@ Mirror of False Impressions: A4->A2
 
 Pendant of Luck: +autocast Twist of Fate
 
-Pills of Water Breathing: A2->A1, const 4->6, breathing 20->80 points
+Pills of Water Breathing: const 4->6, A2->A1, breathing 20->80 points
 
 Ring of Warning: patrol 10->25
 
-Sea King's Goblet: W3->W2, const 6->4, 100->150 points
+Sea King's Goblet: const 6->4, W3->W2, 100->150 points
 
 Skull Talisman: const 0->2
 
@@ -461,13 +461,13 @@ Hammer of Forge Lord: forgebonus 4->8
 
 Harvest Blade: B3N1->B2N1, fear 5->15
 
-Holger the Head: E1D1->E1, +casts luck on himself
+Holger the Head: E1D1->E1, (+casts luck on himself)
 
-Monolith Armor: E5->E4, prot 30->32, reinvigoration 6
+Monolith Armor: E5->E4, prot 30->32, +reinvigoration 6
 
 Nethgul: S3W2->S2W2
 
-Percival the Pocket Knight: E2N1->E1N1, hp 11->16, att 11->13, def 16->19, str 11->13
+Percival the Pocket Knight: E2N1->E1N1, (hp 11->16, att 11->13, def 16->19, str 11->13)
 
 Sun Slayer: D6->D5
 
@@ -485,7 +485,7 @@ The Staff from the Sun: S5F1->S4F1
 
 The Summit: E6->E4, att 12->15 , def 6->9, +armor piercing
 
-Unquenched Sword: F7->F5, autocast Living Fire
+Unquenched Sword: F7->F5, autocasts Unquenched Fire(Living Fire+Heat from Hell)
 
 Wondrous Box of Monsters: N5->N3, +PR5
 
@@ -694,72 +694,68 @@ Contact Trolls: 15->10 gems
 
 #### Air
 
-Amphiptere
-Prec 10->12
-5 gems->4
+Amphiptere: 5 gems->4, (prec 10->12)
 
-Draconians
+
+Draconians:
 45 -> 40 gems
 Talons attack added
 Prot 9 -> 12
 
-Spring Hawks
+Spring Hawks:
 +50% gemcost, 5+-> 10++ hawks
 prot 2
 
-Watcher
+Watcher:
 Can be transported to an adjacent province for the first month it exists, after which it becomes immobile.
 
-Wyvern
+Wyvern:
 Size 5 -> 4
 Prot 12 -> 13
 Talon
 
 #### Water
 
-Catoblepas
+Catoblepas:
 15 ->10 gems
 
-Claymen
+Claymen:
 5 gems-> 10, 16+++ per summon
 
-Gelatinous Cube
+Gelatinous Cube:
 +2 AP -> 6 AP
 recuperation
 4 gems->3
 
 Hidden in Snow: 75->60 gems, (+poor amphibian)
 
-Kokythiad
+Kokythiad:
 40 -> 35 gems
 
-Naiad
+Naiad:
 35 -> 30 gems
 
-Naiad Warriors
+Naiad Warriors:
 30 -> 20 gems
 
-Ice Drake
+Ice Drake:
 7->5 gems
 
-Sea King's Court
-55 -> 50 gems
+Sea King's Court: 55->45 gems
 
-Sea Trolls
-15 -> 10 gems
-Fist -> 2x Claw
+Contact Sea Trolls: 15->10 gems, (fist->2xclaw)
 
-Winter Wolves - Amount and cost increased 2X, hp 16, prot 4
+Winter Wolves: Amount and cost increased 2X, hp 16, prot 4
 
-Yetis
+Yetis:
 15 gems->12
 
 #### Astral
 
-Abomination
+Abomination:
 25 -> 15 gems
 
-Eater of the Dead
+Eater of the Dead:
 50 pearls->25
 Very low fire and shock res added; increases with level
 Pierceresist
@@ -769,37 +765,37 @@ Plague at the highest level
 Reduced Summon Reqs
 Conj 8->Conj 7
 
-Ether gate
+Ether gate:
 90 -> 65 gems
 Ether Lord 25 hp->30; Ether Warrior 23 hp -> 27
 
-Juggernaut
+Juggernaut:
 25 gems -> 10
 
-Telestic Animation
+Telestic Animation:
 Can transport itself to an adjacent province for the first month of its existence, after which it reverts to an immobile form.
 
 #### Death
 
-Arouse Hunger
+Arouse Hunger:
 9+++ >12+++ ghouls
 
-Bane
+Bane:
 23 hp -> 25 hp
 7->6 gems
 
-Behemoth
+Behemoth:
 10->8 gems
 
-Create Revenant
+Create Revenant:
 Castable UW
 
-Leviathan 12->10 gems, landap 4->6
+Leviathan: 12->10 gems, landap 4->6
 
-Pale Rider
+Pale Rider:
 Castable UW
 
-Poison Golem
+Poison Golem:
 35 -> 25 gems
 pierce, slash resist
 att->11
@@ -807,87 +803,87 @@ Fear
 Banefireshield 10
 Mapmovement teleportation
 
-Reanimation
+Reanimation:
 5 gems for 10 skeletons->1 gem for 4 skeletons
 
-Reanimate Archers
+Reanimate Archers:
 5 gems->10
 10 effects to 20++
 Banefire bows are AP
 
-Revive Wights
+Revive Wights:
 20 gems-> 12
 poor amphibian
  
-Ziz
+Ziz:
 D3A2->D3A1
 Biggest problem with Ziz is that your mages have better things to do than summon large birds one at a time.
 
 #### Nature
 
-Ambush of Tigers
+Ambush of Tigers:
 scales to 12++, tigers stealthy
 
-Animal Horde
+Animal Horde:
 25 -> 18 gems
 
-(Summon) Animals
+(Summon) Animals:
 10>8 gems
 
-Call of the wild
+Call of the Wild:
 Werewolf 20 -> 25 hp
 
-Construct Manikin
+Construct Manikin:
 12 -> 20 gems
 16++++ scale rate
 (doubled mage-efficiency, increased base amount, scale rate constant, gem cost slightly reduced
 
-Construct Mandragora
+Construct Mandragora:
 10 -> 8 gems
 
-Forest Giant
+Forest Giant:
 Grab and Swallow weapon added
 
-Forest Troll Tribe
+Forest Troll Tribe:
 37 gems->33
 Contact Forest Trolls 
 10->7 gems 
 stealthy
 
-Lamia Queen
+Lamia Queen:
 25 -> 20 gems
 Contact Lamias
 N3->N2
 
-Lumber Construct
+Lumber Construct:
 5 -> 4 gems
 Siege 10
 
-Manticore
+Manticore:
 Flick barbs damage changed from 10 nostrength to -10 strength so buffs help?
 
-Kithaironic Lion
+Kithaironic Lion:
 	Casting requirements reduced, doubled mage turn efficiency
 
-Pride of Lions
+Pride of Lions:
 10++ -> 13+++ lions
 
-Sleeper
+Sleeper:
 Sacred
 
-Sloth of Bears
+Sloth of Bears:
 Claw -> Bite, claw
 
-Swamp Drake
+Swamp Drake:
 8-> 5 cost
 
-Vine Men
+Vine Men:
 3 -> 5 men
 
-Vine Ogres
+Vine Ogres:
 2 -> 3 ogres
 
-Tarrasque
+Tarrasque:
 commander, noleader
 25 gems->20
 Level 6 unique
@@ -895,34 +891,34 @@ buffs: (recuperation, prot 18->20, enc 2, slash/pierce resist).  Has an attack t
 
 #### Blood
 
-Bind Succubus
+Bind Succubus:
 66->44 gems
 
-Blood Rite
+Blood Rite:
 summons 3->7 vampires
 
-Cross Breeding
+Cross Breeding:
 15 -> 12 slaves
 
-Improved Cross Breeding
+Improved Cross Breeding:
 20 -> 16 slaves
 
-Dark Vines
+Dark Vines:
 summons 5 at 30 slaves
 
-Devil
+Devil:
 Fire shield 6
 
-Plague of Locusts
+Plague of Locusts:
 heretic 1->2
 
-Ritual of Five Gates
+Ritual of Five Gates:
 28->25
 
-Spine Devil
+Spine Devil:
 Given Flick barbs, precision 10, 3X summonspeed
 
-Serpent Fiend
+Serpent Fiend:
 +3 att, +4 strength, 3X summon speed
 
 ### General Changes
