@@ -403,7 +403,7 @@ Gossamer Cloth: const 2->4, hides 25->100
 
 Imp Familiar:  undead leadership 1->10
 
-Lychantropos' Amulet: str 4->3, berserk 0->3, #heal, -1 pathboost(all)
+Lychantropos' Amulet: str 4->3, berserk 0->3, +recuperation, -1 pathboost(all)
 
 Manual of Water Breathing: N3W1->N3, breathing 50->200 points
 
@@ -674,7 +674,7 @@ Crusher: +castable UW, 15->10 gems (stone fist 1->2, +siege bonus 30)
 
 Cave Drake: 5->4 gems
 
-Enliven Statues: 20->15 gems
+Living Statues: 20->15 gems
 
 Fall Bears: summons 5+->8+ (+bite attack, prot 0->10)
 
@@ -690,65 +690,45 @@ Siege Golem: +castable UW, const 9->7, 20->10 gems
 
 Troll King's Court: 55->45 gems
 
-Contact Trolls: 15->10 gems
+Trolls: 15->10 gems
 
 #### Air
 
-Amphiptere: 5 gems->4, (prec 10->12)
+Amphiptere: 5->4 gems, (prec 10->12)
 
+Draconians: 45->40 gems (+talons attack, prot 9->12)
 
-Draconians:
-45 -> 40 gems
-Talons attack added
-Prot 9 -> 12
+Spring Hawks: 20->30 gems, summons 5+->12++ (prot 0->2)
 
-Spring Hawks:
-+50% gemcost, 5+-> 10++ hawks
-prot 2
+Watcher: Can be transported to an adjacent province for the first month it exists, after which it becomes immobile.
 
-Watcher:
-Can be transported to an adjacent province for the first month it exists, after which it becomes immobile.
-
-Wyvern:
-Size 5 -> 4
-Prot 12 -> 13
-Talon
+Wyvern: (size 5->4, prot 12->13 +talons attack)
 
 #### Water
 
-Catoblepas:
-15 ->10 gems
+Catoblepas: 15->10 gems
 
-Claymen:
-5 gems-> 10, 16+++ per summon
+Claymen: 5->10 gems, summons 5+->16+++
 
-Gelatinous Cube:
-+2 AP -> 6 AP
-recuperation
-4 gems->3
+Gelatinous Cube: 4->3 gems, (AP 2->6, +recuperation)
 
 Hidden in Snow: 75->60 gems, (+poor amphibian)
 
-Kokythiad:
-40 -> 35 gems
+Kokythiad: 40->35 gems
 
-Naiad:
-35 -> 30 gems
+Naiad: 35->30 gems
 
-Naiad Warriors:
-30 -> 20 gems
+Naiad Warriors: 30->20 gems
 
-Ice Drake:
-7->5 gems
+Ice Drake: 7->5 gems
 
 Sea King's Court: 55->45 gems
 
-Contact Sea Trolls: 15->10 gems, (fist->2xclaw)
+Sea Trolls: 15->10 gems, (fist->2xclaw)
 
-Winter Wolves: Amount and cost increased 2X, hp 16, prot 4
+Winter Wolves: 10->20 gems, summons 5+->10++ (hp 13->16, prot 0->4)
 
-Yetis:
-15 gems->12
+Yetis: 15->12 gems
 
 #### Astral
 
