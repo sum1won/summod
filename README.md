@@ -880,17 +880,17 @@ Full Ring Mail def -2 to -1, res 7->6 (Logrians)
 
 Chain Hauberk -2 to -1 def
 
-Full Chain Mail def -3 to -2 - LA Man, MA Man, LA Agartha, MA MArignon *
+Full Chain Mail def -3 to -2 - LA Man, MA Man, LA Agartha, MA MArignon*
 
-Plate cuirass  def -1 to 0, enc 2->1 (LA Pythium, LA Pangaea LA Ulm, LA/MA Marignon, LA Caelum (two units), LA Ragha (one unit), Therodos (Korybants -increase enc, drop defense), MA Pelagia (one unit), MA/LA Arco 
+Plate Cuirass def -1 to 0, enc 2->1 (LA Pythium, LA Pangaea LA Ulm, LA/MA Marignon, LA Caelum (two units), LA Ragha (one unit), Therodos (Korybants -increase enc, drop defense), MA Pelagia (one unit), MA/LA Arco 
 
 Plate Hauberk def -3 to -1, enc 4 to 2 (LA Pythium, Abysia, MA Machaka, LA Marignon, Ghandarvas, MA/LA Arco)**
 
-Full Plate Mail def -3 to -2, enc 5 to 3 (LA Agartha (lots), MA/LA Marignon (Royal Guard), MA Machaka (Black Hunters).
+Full Plate Mail def -3 to -2, enc 5 to 3 (LA Agartha (lots), MA/LA Marignon (Royal Guard), MA Machaka (Black Hunters)).
 
-Full Chain Ulm def -3 to -2  (MA Ulm) 
+Full Chain Ulm def -3 to -2 (MA Ulm) 
 
-Full Plate Ulm def -3 to -2, (MA Ulm) 
+Full Plate Ulm def -3 to -2 (MA Ulm) 
 
 Bronze Cuirass def -1 to 0, enc 3 to 2 (Therodos, MA Pangaea, MA Pelagia)
 
@@ -898,7 +898,7 @@ Bronze Hauberk enc 5->3 (MA Pan, Pelagia, Oceania, EA Arco, LA Gath)
 
 Spider Armor rescost 26->20, def -3 to -2, enc 4->3 (Machaka)
 
-Ashigaru Armor def -1 to 0, enc 2 to 1(Shinyu, Yomi, slightly Jomon)*
+Ashigaru Armor def -1 to 0, enc 2 to 1 (Shinyu, Yomi, slightly Jomon)*
 
 Samurai Armor def -2 to -1, enc 3->2 (Jomon, Shinyu, Yomi)*
 
@@ -906,13 +906,13 @@ Heavy Samurai Armor def -3 to -2, enc 4->3 (Jomon, Yomi)*
 
 Basalt Armor enc 6->4 rescost 30->25 (EA Atlantis)
 
-Hoplon Enc 1->2	(This fully offsets the benefits Therodos gets from the cuirass changes).
+Hoplon enc 1->2	(This fully offsets the benefits Therodos gets from the cuirass changes).
 
-Jingasa rcost 2->1
+Jingasa rescost 2->1
 
-Coral cuirass Prot 10->12, enc 2->1, rescost 7->10 (MA, LA Atlantis)?
+Coral Cuirass prot 10->12, enc 2->1, rescost 7->10 (MA, LA Atlantis)?
 
-Coral Hauberk Prot 12->14, def -2->-1, enc 3->2, rescost 10->15 (EA Pelagia, MA, LA Atlantis)?
+Coral Hauberk prot 12->14, def -2->-1, enc 3->2, rescost 10->15 (EA Pelagia, MA, LA Atlantis)?
 
 Coral Barding prot 11->16, rescost 12->20 (Oceania Aphroi)?
 
@@ -920,17 +920,17 @@ Turtle Shell Armor prot 9->10 (EA Pelagia, EA/MA Oceania)?
 
 Turtle Shell Barding prot 9->10 (Oceania Icthycentaurs)?
 
-Centaur Barding (Bronze) 16->17 prot, enc 4->3 MA Pan 
+Centaur Barding (Bronze) 16->17 prot, enc 4->3 (MA Pan) 
 
-Centaur Barding (Iron) 17->18 prot, enc 3->2 LA Pan 
+Centaur Barding (Iron) 17->18 prot, enc 3->2 (LA Pan) 
 
-Amber hauberk rescost 18->15
+Amber Hauberk rescost 18->15
 
 Amber Shield def 4->6
 
-adds Laminated scale mail
+Adds Laminated Scale Mail
 
-Adds treated scale hauberk
+Adds Treated Scale Hauberk
 
 #### Weapons
 
@@ -948,13 +948,13 @@ Throw Spines changed to strength-10 damage
 
 Obsidian Clubsword -> Damage 5, att 1
 
-Yari rcost 1->2
+Yari rescost 1->2
 
-Wakizashi rcost 4->2
+Wakizashi rescost 4->2
 
-Added nonrust equipment from nonrust mod:
+Added non-rust equipment from nonrust mod:
 
-Laminated glaive
+Laminated Glaive
 
 Laminated Yari
 
@@ -972,37 +972,37 @@ Bronzed Kryss
 
 #### Indie changes
 
-Barbarians no longer look like Skwisgaar.  They now wield axes.
+Barbarians: no longer look like Skwisgaar. They now wield axes.
 
-Hoburg crossbows 7->9g
+Hoburg Crossbows: 7->9g
 
-Heavy Cav (Indie) 19, 20, 21-- Dropped cost to 25
+Heavy Cav (Indie) 19, 20, 21: dropped cost to 25
 
-Knight, (indie)22  cost35->30
+Knight (Indie) 22: cost 35->30
 
-Light Cav (Indie) 24, 25, 26 -> Dropped cost to 15; javelin light cav get light lances
+Light Cav (Indie) 24, 25, 26: dropped cost to 15; javelin light cav get light lances
 
-Horse Tribe Chief/Brother (55->45)
+Horse Tribe Chief/Brother: cost 55->45
 
-Imperial Commander  2117 65->55
+Imperial Commander 2117: cost 65->55
 
-Horse Tribe Cav Cost 25->15
+Horse Tribe Cav: cost 25->15
 
-Horse Brother 25->15
+Horse Brother: cost 25->15
 
-Jade Maiden 370  50 -> 45
+Jade Maiden 370: cost 50->45
 
-Nightmare  369 85 -> 70
+Nightmare 369: cost 85->70
 
-Cataphract 1187 30 -> 35
+Cataphract 1187: cost 30->35
 
-Hog Knights Rsize 2->1
+Hog Knights: Rsize 2->1
 
-Ichtyid, triton, merman, Frog Clan poptypes now provide indie scouts
+*Ichtyid, Triton, Terman, Frog Clan poptypes now provide indie scouts
 
-Amphibious poptypes now provide better troops and shamans.
+*Amphibious poptypes now provide better troops and shamans
 
-Various amphibious indies given non-ferric equipment
+*Various amphibious indies given non-ferric equipment
 
 ### National Changes
 
