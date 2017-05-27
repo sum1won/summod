@@ -614,7 +614,7 @@ Ice Strike: +castable UW
 
 Confusion: AoE3/scales
 
-?Weakness: AoE1/scales
+Weakness: +scales(only to single targets)
 
 Enfeeble: AoE 6->10+
 
