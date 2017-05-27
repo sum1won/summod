@@ -41,7 +41,7 @@ Table of Contents
    * [Scales](#scales)
    * [Armor Changes](#armor-changes)
    * [Weapons](#weapons)
-   * [Indie Changes](#indie-changes).
+   * [Indie Changes](#indie-changes)
 5. [National Changes](#national-changes)  
 6. [Early Age](#early-age)
     * [Arcoscephale, Golden Era](#arcoscephale-golden-era)
@@ -706,6 +706,8 @@ Wyvern: (size 5->4, prot 12->13 +talons attack)
 
 #### Water
 
+Asp Turtle: 13->8 gems
+
 Catoblepas: 15->10 gems
 
 Claymen: 5->10 gems, summons 5+->16+++
@@ -732,14 +734,16 @@ Yetis: 15->12 gems
 
 #### Astral
 
-Abomination: conj 25->15 gems
+Abomination: conj 25->15 pearls
 
 Eater of the Dead: 8->6, D4S4->D3S2, 50->25 pearls, (+FR5, +SR5, +pierceresist
 acid shield at three highest levels, slimer at two highest levels, plague at the highest level)
 
-Ether gate: 90->65 gems, (ether lord hp 25->30; ether warriors hp 22->25)
+Ether gate: 90->65 pearls, (ether lord hp 25->30; ether warriors hp 22->25)
 
-Juggernaut: 25->10 gems
+Golem: 30->25 pearls
+
+Juggernaut: 25->10 pearls
 
 Telestic Animation: can transport itself to an adjacent province for the first month of its existence, 
 after which it reverts to an immobile form.
@@ -763,6 +767,8 @@ Poison Golem: 35->25 gems, (banefireshield 5->10, +pierce/slash resist, +fear 10
 Reanimation: 5->1 gems, summons 10->4(skeletons)
 
 Reanimate Archers: 5->10 gems, summons 10->20++(skeletal archers)(banefire bows-> armor piercing)
+
+Mound King: +castable UW
 
 Revive Wights: 20->12 gems
 
@@ -838,9 +844,9 @@ Serpent Fiend: 4->12 slaves, summons 1->3, (att 12->15, str 12->16)
 #### Scales:  
 Growth/Death: Income 3%->2% per scale
 
-Ohlmann - both excellent in short term gold, and excellent in long term gold. Production is a bit weak, because it doesn't give much money and resources become weaker quite fast. I also think that sloth 3 is not punitive enough.
+Ohlmann: both excellent in short term gold, and excellent in long term gold. Production is a bit weak, because it doesn't give much money and resources become weaker quite fast. I also think that sloth 3 is not punitive enough.
 
-Maerlande -  I think growth is too obvious if you want money. If I remember correctly, Calahan used +2% for growth and gave production the other percent in his version of CBM for serious competition. I think that makes quite a difference to put a bit more decision between these two. Right now, I find growth is almost always a better choice.
+Maerlande:  I think growth is too obvious if you want money. If I remember correctly, Calahan used +2% for growth and gave production the other percent in his version of CBM for serious competition. I think that makes quite a difference to put a bit more decision between these two. Right now, I find growth is almost always a better choice.
 
 sum1won: I'm including this discussion since I expect this is the biggest change in the mod.  I'd also note that I modeled income and total gold from growth and order, and the comparison suggests that growth is significantly better over the long term, and nearly as good over the short term.  The largest difference in gold is around turn 8-15 (varies depending on how aggressive expansion is) and never really rises above ~5% of income/total gold.  Largest difference I saw was a few hundred gold.
 
@@ -972,8 +978,6 @@ Bronzed Kryss
 
 #### Indie changes
 
-Barbarians: no longer look like Skwisgaar. They now wield axes.
-
 Hoburg Crossbows: 7->9g
 
 Heavy Cav (Indie) 19, 20, 21: dropped cost to 25
@@ -998,11 +1002,13 @@ Cataphract 1187: cost 30->35
 
 Hog Knights: Rsize 2->1
 
-*Ichtyid, Triton, Terman, Frog Clan poptypes now provide indie scouts
+*Barbarians no longer look like Skwisgaar; they now wield axes.
 
-*Amphibious poptypes now provide better troops and shamans
+*Ichtyid, Triton, Terman, Frog Clan poptypes now provide indie scouts.
 
-*Various amphibious indies given non-ferric equipment
+*Amphibious poptypes now provide better troops and shamans.
+
+*Various amphibious indies given non-ferric equipment.
 
 ### National Changes
 
@@ -1011,66 +1017,64 @@ Hog Knights: Rsize 2->1
 ##### Arcoscephale, Golden Era
 
 ##### Ermor, New Faith
-Equites 35->30 gold
+Equites: 35->30 gold
 
-equites sacred shroud 50->45 gold 
+Equites of the Sacred Shroud: 50->45 gold 
 
 ##### Ulm, Enigma of Steel
 
 ##### Marverni, Time of Druids
-Eponi 30->25 gold, addition of a hoof attack
+Eponi 30->25 gold, +hoof attack
 
 ##### Sauromatia, Amazon Queens
-Lancer, Raider, Sauromatian Lancer, Sauromatian Raider - 20->17 gold 
+Lancer, Raider, Sauromatian Lancer, Sauromatian Raider: 20->17 gold 
 
-Cataphract - 35->30 gold
+Cataphract: 35->30 gold
 
-Androphag -- 75->55 gold 
+Androphag: 75->55 gold 
 
-Oioropata -- 45->35 gold 
+Oioropata: 45->35 gold 
 
-WarriorPriestess, warrior queen - 130/170->110/150 gold 
+Warrior Priestess, Warrior Queen: 130/170->110/150 gold 
 
-Manflayer 95->70 gold 
+Manflayer: 95->70 gold 
 
-Hydra 250->180 gold, recuperation
+Hydra: 250->180 gold, +recuperation
 
-Hydra Hatchling 35->28 gold, recuperation
+Hydra Hatchling: 35->28 gold, +recuperation
 
 ##### T'ien Ch'i, Spring and Autumn
 
 ##### Machaka, Lion Kings
-Machaka Warriors Foreign Recruit, 10->9 gold
+Machaka Warriors: +foreign recruit, 10->9 gold
 
-machaka militia foreign recruit
+Machaka Militia: +foreign recruit
 
-Machaka Chief Foreign Recruit (40 gold)
+Machaka Chief: +foreign recruit (40 gold)
 
-Pygmy Warriors Forest Recruitable
+Pygmy Warriors: +forest recruit
 
-Spider clan Archers cheaper
+Spider Clan Archers: cheaper
 
-Spider clan Warriors have furs
+Spider Clan Warriors: have furs
 
-Spider clan Sorcerer not STR
+Spider Clan Sorcerer: not slow-to-recruit
 
-Spider Rider 	Size 4	Gold 40->25
+Spider Rider: size 4,	gold 40->25
 
-Great Spider changes from MA Machaka (Size 4, 8 MR, 20 goldcost, 17 strength)
+Great Spider: changes from MA Machaka (Size 4, 8 MR, 20 goldcost, 17 strength)
 
 ##### Mictlan, Reign of Blood
-sun warriors cost 18->15; Hp 12->13; Strength 10->11
+Sun Warriors: cost 18->15; hp 12->13; str 10->11
 
-Tlahuelpuchi cost 25->50->33
+Tlahuelpuchi: B2->B2D2, 25->34 slaves
 
-Pathreq B2->B2D2
-
-Civateteo pathreq B2D2->B2, douse 1
+Civateteo: B2D2->B2, (+douse 1)
 
 ##### Abysia, Children of Flame
-Anathemant Dragon - 265Gold->240;  +0,5ESDB
+Anathemant Dragon: cost 265->240, +0.5ESDB, startage 35->31(-old)
 
-Anathement salamander	0.1 ESDB	175 gold->150
+Anathement Salamander	0.1 ESDB	175 gold->150
 
 Annointed of Rhuax 	Random chance moved to 0.5 from 0.1
 
