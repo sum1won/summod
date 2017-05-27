@@ -331,7 +331,7 @@ Enchanted Ring Mail Armor: +MR1
 
 Green Dragon Scale Mail: N2->N1, PR15->10
 
-Hydra Skin Armor: prot 12->15, FR-5
+Hydra Skin Armor: prot 12->15, -FR5
 
 Jade Armor: 2W1E->1W1E
 
