@@ -570,11 +570,13 @@ Raven Feast: A4->A3
 
 Bonds of Fire: thau 2->1
 
+?Bone Grinding: cripple on 50% of battlefield?
+
 Prison of Fire: thau 4->3
 
 Rain of Stones: 1->2 gems
 
-Numbness: alt 3->2, W3->W2
+Numbness: alt 3->2
 
 Quickness: +scales
 
@@ -596,11 +598,19 @@ Mossbody: +scales
 
 Cheat Fate: +scales
 
+Luck: +scales
+
+Battle Fortune: +scales
+
+Protection: +scales
+
 Wooden Warriors: +scales(AoE 5->6+)
+
+Wave Warriors: +scales
 
 Army of Giants: +scales
 
-Berserkers: +scales	
+Berserkers: thau 2->4, range 1->15, +scales	
 
 Touch of Madness: thau 4->2, range 15->1
 
@@ -614,7 +624,7 @@ Ice Strike: +castable UW
 
 (New spell) Gulf Stream: ench 5, F3, imitates friendly currents
 
-Confusion: AoE3/scales
+Confusion: AoE 1->2
 
 Weakness: +scales(only to single targets)
 
@@ -622,23 +632,25 @@ Enfeeble: AoE 6->10+
 
 Unraveling: S6->S5, 6->4 pearls
 
-Bonemelter: range 20->25
+Bonemelter: W3N2->W3N1, range 20->25
 
-Sailor's Death: AoE1-> 1 target, 3+ effects
+Sailor's Death: AoE1-> 1 target, 5+ effects
 
 Curse of the Desert: AoE 5->6+
 
-Astral Bolt: Dmg 10+->10++
+Arcane Bolt: Dmg 10+->10++
 
 All mid-level resists now scale
 
 Spirit Curse: horror marks in addition to cursing
 
-Army of Rats: alt 9->8, 6->3 gems
+Army of Rats: alt 9->8, N7-N6, 5->3 gems
 
-Skeletal Legion: alt 6->5
+Skeletal Legion: alt 6->5 (fixed to actaully disease friendly units now (MR negates easily)?
 
 Creeping Doom: +castable UW
+
+Polymorph: range 20->20+
 
 ### Summon Spells
 
