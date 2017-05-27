@@ -732,28 +732,17 @@ Yetis: 15->12 gems
 
 #### Astral
 
-Abomination:
-25 -> 15 gems
+Abomination: conj 25->15 gems
 
-Eater of the Dead:
-50 pearls->25
-Very low fire and shock res added; increases with level
-Pierceresist
-Acid Shield at three highest levels
-Slimer at two highest levels
-Plague at the highest level
-Reduced Summon Reqs
-Conj 8->Conj 7
+Eater of the Dead: 8->6, D4S4->D3S2, 50->25 pearls, (+FR5, +SR5, +pierceresist
+acid shield at three highest levels, slimer at two highest levels, plague at the highest level)
 
-Ether gate:
-90 -> 65 gems
-Ether Lord 25 hp->30; Ether Warrior 23 hp -> 27
+Ether gate: 90->65 gems, (ether lord hp 25->30; ether warriors hp 22->25)
 
-Juggernaut:
-25 gems -> 10
+Juggernaut: 25->10 gems
 
-Telestic Animation:
-Can transport itself to an adjacent province for the first month of its existence, after which it reverts to an immobile form.
+Telestic Animation: Can transport itself to an adjacent province for the first month of its existence, 
+after which it reverts to an immobile form.
 
 #### Death
 
