@@ -580,7 +580,7 @@ Quickness: +scales
 
 Quickening: AoE 9+->9++
 
-Earthmight: +scales, E2->E1
+Earthmight: E2->E1, +scales
 
 Iron Warriors: +scales(only to single targets)
 
@@ -588,7 +588,7 @@ Iron Will: +scales
 
 Gift of Flight: +scales
 
-New scaling version of Tangle Vines(Wild Tangle) conj 3, AoE　2+
+(New Spell) Wild Tangle: conj 3, AoE　2+, scaling version of Tangle Vines
 
 Enlarge: +scales
 
@@ -596,7 +596,7 @@ Mossbody: +scales
 
 Cheat Fate: +scales
 
-Wooden Warriors: +scales
+Wooden Warriors: +scales(AoE 5->6+)
 
 Army of Giants: +scales
 
