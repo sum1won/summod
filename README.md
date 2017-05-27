@@ -772,43 +772,27 @@ Ziz: D3A2->D3A1
 
 #### Nature
 
-Ambush of Tigers:
-scales to 12++, tigers stealthy
+Ambush of Tigers: 10++->14++, (+stealthy 40)
 
-Animal Horde:
-25 -> 18 gems
+Animal Horde: 25->18 gems
 
-(Summon) Animals:
-10>8 gems
+Summon Animals: 10->8 gems
 
-Call of the Wild:
-Werewolf 20 -> 25 hp
+Call of the Wild: (werewolf hp 20->25)
 
-Construct Manikin:
-12 -> 20 gems
-16++++ scale rate
-(doubled mage-efficiency, increased base amount, scale rate constant, gem cost slightly reduced
+Construct Manikin: 12->20 gems, summons 10++->16++++
 
-Construct Mandragora:
-10 -> 8 gems
+Construct Mandragora: 10->8 gems
 
-Forest Giant:
-Grab and Swallow weapon added
+Forest Giant: (+grab and swallow attack)
 
-Forest Troll Tribe:
-37 gems->33
-Contact Forest Trolls 
-10->7 gems 
-stealthy
+Forest Troll Tribe: 37->33 gems, (+stealthy 40)
 
-Lamia Queen:
-25 -> 20 gems
-Contact Lamias
-N3->N2
+Contact Forest Trolls: 10->7 gems, (+stealthy 40)
 
-Lumber Construct:
-5 -> 4 gems
-Siege 10
+Lamia Queen: 25->20 gems
+
+Lumber Construct: const 5->3, 5->4 gems (+siege 10)
 
 Manticore:
 Flick barbs damage changed from 10 nostrength to -10 strength so buffs help?
