@@ -700,7 +700,7 @@ Draconians: 45->40 gems (+talons attack, prot 9->12)
 
 Spring Hawks: 20->30 gems, summons 5+->12++ (prot 0->2)
 
-Watcher: Can be transported to an adjacent province for the first month it exists, after which it becomes immobile.
+Watcher: can be transported to an adjacent province for the first month it exists, after which it becomes immobile.
 
 Wyvern: (size 5->4, prot 12->13 +talons attack)
 
@@ -741,52 +741,34 @@ Ether gate: 90->65 gems, (ether lord hp 25->30; ether warriors hp 22->25)
 
 Juggernaut: 25->10 gems
 
-Telestic Animation: Can transport itself to an adjacent province for the first month of its existence, 
+Telestic Animation: can transport itself to an adjacent province for the first month of its existence, 
 after which it reverts to an immobile form.
 
 #### Death
 
-Arouse Hunger:
-9+++ >12+++ ghouls
+Arouse Hunger: summons 9+++->15+++(ghouls)
 
-Bane:
-23 hp -> 25 hp
-7->6 gems
+Bane: 7->6 gems, (hp 23->25 hp)
 
-Behemoth:
-10->8 gems
+Behemoth: 10->8 gems
 
-Create Revenant:
-Castable UW
+Revenant: +castable UW
 
-Leviathan: 12->10 gems, landap 4->6
+Leviathan: 12->10 gems, land AP 4->6, mapmove 1->2
 
-Pale Rider:
-Castable UW
+Pale Riders: +castable UW
 
-Poison Golem:
-35 -> 25 gems
-pierce, slash resist
-att->11
-Fear
-Banefireshield 10
-Mapmovement teleportation
+Poison Golem: 35->25 gems, (banefireshield 5->10, +pierce/slash resist, +fear 10, +mapmovement teleportation)
 
-Reanimation:
-5 gems for 10 skeletons->1 gem for 4 skeletons
+Reanimation: 5->1 gems, summons 10->4(skeletons)
 
-Reanimate Archers:
-5 gems->10
-10 effects to 20++
-Banefire bows are AP
+Reanimate Archers: 5->10 gems, summons 10->20++(skeletal archers)(banefire bows-> armor piercing)
 
-Revive Wights:
-20 gems-> 12
-poor amphibian
+Revive Wights: 20->12 gems
+
+Legion of Wights: conj 9->8
  
-Ziz:
-D3A2->D3A1
-Biggest problem with Ziz is that your mages have better things to do than summon large birds one at a time.
+Ziz: D3A2->D3A1
 
 #### Nature
 
