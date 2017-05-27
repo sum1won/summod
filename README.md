@@ -656,41 +656,41 @@ Polymorph: range 20->20+
 
 #### Fire
 
-Flame Spirit - Generates 1F/month
+Flame Spirit: (+generates 1F gem/month)
 
-Summer Lions prot 7, summon 7+
+Summer Lions: summons 5+->7+, (prot 0->7)
 
-Terracotta Army 16+++, armed with pikes; TC gets a national version
+Terracotta Army: summons 10++->16+++ (spear->pike), T'ien Ch'i gets a national version of the spell
 
-Fire Drake  7 gems -> 5
+Fire Drake: 7->5 gems
 
 #### Earth
  
-Clockwork Soldiers 8 -> 6 gems Reinvigoration -15 -> -10 Prot 18 -> 20 AP 10 -> 12 Castable UW
+Clockwork Soldiers: +castable UW, 8->6 gems (reinvigoration -15->-10, prot 18->20, AP 10->12)
 
-Clockwork Horrors Reinvigoration -15 -> -12; Castable UW
+Clockwork Horrors: +castable UW, (reinvigoration -15->-12)
 
-Crusher - Stone Fist -> 2 Stone Fists; Crusher 10 gems; Siege 30; Castable UW
+Crusher: +castable UW, 15->10 gems (stone fist 1->2, +siege bonus 30)
 
-Cave drake 1 gem cheaper
+Cave Drake: 5->4 gems
 
-Enliven Statues; 20 -> 15 gems
+Enliven Statues: 20->15 gems
 
-Fall bears - Bite attack added ; Prot 10 ; 2 more per summon
+Fall Bears: summons 5+->8+ (+bite attack, prot 0->10)
 
-Hidden in Cave - 75 -> 60 gems;  poor amphibian; Castable UW; Sage, Walker 8 hp->13 hp; Warrior -> 17 hp; King -> 18 hp
+Hidden Underneath: +castable UW, 75->60 gems, (sage/released one hp 8->13, warrior hp 10->17, king hp 12->18)
 
-Hidden in Sand - 75 -> 60 gems; poor amphibian
+Hidden in Sand: 75->60 gems, (+poor amphibian)
 
-Iron Dragon - noleader; commander; 25->20 gems
+Iron Dragon: +castable UW, 30->20 gems, (+commander, +noleader) 
 
-Mechanical Men - 10+2/level -> 12+2/level per summoning; Castable UW; prot 19
+Mechanical Men: +castable UW, summons 10++->12++, (prot 18->19)
 
-Siege Golem - 10 gems from 20; research 9->7; Castable UW
+Siege Golem: +castable UW, const 9->7, 20->10 gems 
 
-Troll King?s Court - 55->45 gems;
+Troll King's Court: 55->45 gems
 
-(Contact) Trolls - 15 -> 10 gems
+Contact Trolls: 15->10 gems
 
 #### Air
 
@@ -728,9 +728,7 @@ Gelatinous Cube
 recuperation
 4 gems->3
 
-Hidden in snow
-75 -> 60 gems
- poor amphibian
+Hidden in Snow: 75->60 gems, (+poor amphibian)
 
 Kokythiad
 40 -> 35 gems
