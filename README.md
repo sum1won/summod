@@ -9,7 +9,7 @@ The mod's purpose is a general "gameplay improvement mod." This primarily involv
 
 RANGES USED:   Units 6300-6999;  Weapons 1400-1500;  Armor 750-780;  Sites 1800-1850;  Nametypes   ; Montag 1300-1320;  Item 700-799;  Spell; restrictitem 1100-1150;  Nations;  mercenary; event; Sprites: 118
 ****************************************************************************************************************
-Changelog
+Changelog (v0.77)
 
 Table of Contents
 
@@ -153,8 +153,6 @@ Enchanted Sword: +MR1
 
 Enchanted Spear: +MR1
 
-?Faithful: E1S1->S1
-
 Fire Bola: nratt 1->3
 
 Fire Brand: primary dmg 12->8
@@ -185,15 +183,13 @@ Shadow Brand: const 6->4, D2E1->D1E1, dmg 12->8
 
 Smasher: E2->E1
 
-?Snake Bladder Stick: AoE 4->5
-
 Star of Heroes: nratt 1->2
 
 Star of Thraldom: False Fetters AoE 1->5
 
 Summer Sword: const 4->6, N2E1->N1E1, supply bonus 100->200
 
-?Sword of Swiftness: const 4->6, def 4->1, autocasts Quickness
+Sword of Swiftness: def 4->1, autocasts Quickness
 
 Thunder Whip: dmg 10->12, +secondary effect(AoE 1, dmg 10 stun)
 
@@ -211,7 +207,7 @@ Golden Hoplon: F2->F1, FR15->10
 
 Lantern Shield: D2F1->D1F1
 
-?Lead Shield: MR4->5, enc 3->2, def 3->7
+Lead Shield: enc 3->2, def 3->7
 
 Lucky Coin: S2->S1, parry 4->6
 
@@ -231,7 +227,7 @@ Weightless Kite Shield: A2->A1, def 7->6, prot 21->19
 
 Bane Blade: +fear 3, dmg 9->12
 
-?Banefire Crossbow: const 6->4 , ammo 12->24
+Banefire Crossbow: const 6->4 , ammo 12->24
 
 Bow of War: const 6->4, ammo 12->24, dmg 11->13
 
@@ -247,7 +243,7 @@ Ethereal Crossbow: ammo 12->24
 
 Gate Cleaver: E3->E2
 
-Gloves of the Gladiator: N2->N1, dam 3->5, def 1->3
+Gloves of the Gladiator: N2->N1, dmg 3->5, def 1->3
 
 Golden Arbalest: nratt 2->3, ammo 12->24
 
@@ -379,7 +375,7 @@ Bracers of Protection: def 2->3, prot 2->3
 
 Cat Charm: N2->N1
 
-?Catseye Amulet: D1E1->D1, 100 darkvision 
+Catseye Amulet: D1E1->D1
 
 Cauldron of Elven Halls: const 4->0
 
@@ -449,7 +445,7 @@ Atlas of Creation: E5S5->E5S4
 
 Boots of Antaeus: E5N1->E3N1
 
-?Carcator the Pocket Lich: D4->D2, inspiring researcher 1
+Carcator the Pocket Lich: D4->D2
 
 Draupnir: E5->E4
 
@@ -519,8 +515,6 @@ Frost Dome: ench 6->4, W5->W4, 15->8 gems
 #### Globals
 
 Astral Corruption: blood 7->9, 166->222 slaves
-
-?Burden of Time: thau 6->7
 
 Celestial Rainbow: W7N5->W6N4, 80->60 gems
 
