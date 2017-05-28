@@ -1050,49 +1050,49 @@ Machaka Warriors: +foreign recruit, 10->9 gold
 
 Machaka Militia: +foreign recruit
 
-Machaka Chief: +foreign recruit (40 gold)
+Machaka Chief: +foreign recruit
 
 Pygmy Warriors: +forest recruit
 
-Spider Clan Archers: cheaper
+Spider Clan Archers: 15->13 gold
 
-Spider Clan Warriors: have furs
+Spider Clan Warriors: +furs
 
-Spider Clan Sorcerer: not slow-to-recruit
+Spider Clan Sorcerer: +not slow-to-recruit
 
-Spider Rider: size 4,	gold 40->25
+Spider Rider: size 5->4,	gold 40->25
 
 Great Spider: changes from MA Machaka (Size 4, 8 MR, 20 goldcost, 17 strength)
 
 ##### Mictlan, Reign of Blood
-Sun Warriors: cost 18->15; hp 12->13; str 10->11
+Sun Warriors: cost 18->15, hp 12->13, str 10->11
 
 Tlahuelpuchi: B2->B2D2, 25->34 slaves
 
 Civateteo: B2D2->B2, (+douse 1)
 
 ##### Abysia, Children of Flame
-Anathemant Dragon: cost 265->240, +0.5ESDB, startage 35->31(-old)
+Anathemant Dragon: 265->240 gold, +0.5ESDB, startage 35->31
 
-Anathement Salamander	0.1 ESDB	175 gold->150
+Anathement Salamander	0.1 ESDB, 175->150 gold
 
-Annointed of Rhuax 	Random chance moved to 0.5 from 0.1
+Annointed of Rhuax: random chance moved to 0.5 from 0.1
 
-Addition of ?Childen of Rhuax? spell - Abysian version of Rhuax pact, requiring F4E1.
+(New Spell) Childen of Rhuax: Abysian version of Rhuax Pact, requiring F4E1.
 
-Summon scorpion man now summons a commander, costs 10 gems, has torso  credit to  johannes
+Summon Scorpion Man: now summons a commander, costs 10 gems, has torso (credit to johannes)
 
-Addition ?abysian crossbreeding? (abysian themed version of the crossbreeding spell.)  
+(New Spell) Abysian Cross Breeding: Abysian-themed version of the Cross Breeding spell  
 
-GoRing Demonspawn results in either a misbred commander (if they have afflictions), a blood hunter, or an assassin.
+*Casting Gift of Reason on Demonspawn results in either a misbred commander (if they have afflictions), a blood hunter, or an assassin.
 
 ##### Caelum, Eagle Kings
 
 ##### C'tis, Lizard Kings
 
-Serpent Dancers carry stronger weapons
+Serpent Dancers: stronger weapons (snake staff: att 1->2, dmg 3->5, on-hit poison 5[weak]->15[strong])
 
-Shaman Prophetshape gets a small magicboost
+Shaman Prophetshape gets a small pathboost (S/N +1)
 
 ##### Pangaea, Age of Revelry
 
