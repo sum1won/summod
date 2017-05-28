@@ -1160,24 +1160,26 @@ Bandar Archer: 18->17 gold
 
 Summon Dakini: 50->66 slaves (applies to Lanka, Bandar Log, Patala)
 
-Samanishada: 35->30 slaves, pathlevel 0-2
+Summon Samanishada: B3D1->B2D1, 35->30 slaves
 
-Sandhyabalas: summons 3->4
+Summon Sandhyabalas: summons 3->4
 
 *Lanka's indie priests have 2.5X upkeep costs. Will not display until turn after recruitment. Indie flavor text changed to reflect this.
 
 ##### Yomi, Oni Kings
 
 ##### Hinnom, Sons of the Fallen
-Kohen: douse 1, basecost -10, leadership 80->40  gold 240->225
-
-Ba'al: 455 gold-> 430
-
-Melqarts: 485 gold->460, not cap only
-
-Rephaite Warriors: 115 gold -> 100
-
 Horites: +throw rocks
+
+Horite Champions: +throw rocks
+
+Rephaite Warriors: 115->100 gold
+
+Kohen: 240->200 gold, leadership 80->40, +douse 1 
+
+Ba'al: 455->430 gold, +douse 2
+
+Melqarts: 485->460 gold, +not cap only
 
 ##### Ur, The First City
 *Ur pretenders automatically heal all afflictions while at the capital.
