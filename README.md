@@ -1132,15 +1132,15 @@ Yavana Archers: 35->30 gold, def 11->12, awe 1->2, dagger->falchion
 
 Yavanas: 40->30 gold, def 14->15, awe 1->2
 
-Guhyakas: 30->26 gold, def 11->12, +javelins 
+Guhyakas: 30->26 gold, def 11->12, +javelin
 
-Ghuyaka General: not slow-to-recruit, +javilin
+Ghuyaka General: not slow-to-recruit, +javelin
 
 Yakshas: def 11->13, awe 1->2
 
 Yakshini: awe 1->2
 
-Summon changes (apply to Kailasa, Bandar Log, Patala)
+*Summon changes apply to Kailasa, Bandar Log and Patala
 
 Devata: 45->40 gems, (S2->3, hp 28->40, str 17->18, att 14->15, def 12->14, 45->75 magical leadership,		
 autocasts an animal-only Antimagic)
@@ -1158,33 +1158,33 @@ Bandar Warriors: 18->17 gold (note: bandar changes are there because bandar are 
 
 Bandar Archer: 18->17 gold   
 
-Summon Dakini: 50->66 slaves (Applies to Lanka, Bandar Log, Patala)
+Summon Dakini: 50->66 slaves (applies to Lanka, Bandar Log, Patala)
 
-Samanishada: 35->30 slaves; pathlevel 0-2
+Samanishada: 35->30 slaves, pathlevel 0-2
 
 Sandhyabalas: summons 3->4
 
-Lanka's indie priests have 2.5X upkeep costs. Will not display until turn after recruitment. Indie flavor text changed to reflect this.
+*Lanka's indie priests have 2.5X upkeep costs. Will not display until turn after recruitment. Indie flavor text changed to reflect this.
 
 ##### Yomi, Oni Kings
 
 ##### Hinnom, Sons of the Fallen
 Kohen: douse 1, basecost -10, leadership 80->40  gold 240->225
 
-Ba'al 455 gold-> 430
+Ba'al: 455 gold-> 430
 
-Melqarts 485 gold->460, not cap only
+Melqarts: 485 gold->460, not cap only
 
-Rephaite Warriors 115 gold -> 100
+Rephaite Warriors: 115 gold -> 100
 
-horites throw rocks
+Horites: +throw rocks
 
 ##### Ur, The First City
-Ur pretenders automatically heal all afflictions while at the capital.
+*Ur pretenders automatically heal all afflictions while at the capital.
 
 Elegist is now +3 instead of +1, making them 4X as effective instead of 2X.
 
-PD is less garbage, and includes sirrush, great lions, and more Enkidu of better quality.
+*PD is less garbage, and includes sirrush, great lions, and more Enkidu of better quality.
 
 You can now recruit more foreignrec and swamprec troops at your capital.
 
@@ -1211,7 +1211,7 @@ Beastbats are -1 siegedefense (For total siegedefense of 1.44 each instead of 2.
 New Coastal Shambler Mage -- Relatively expensive for W1, 1 WSFE ,5SFE
 
 ##### R'lyeh, Time of Aboleths
-Mindlord 420->360; given an extra +100%WSD +0.5%ED
+Mindlord: 420->360 gold, +1.0%WSD, +1.0WESD, +0.05%ED
 
 Androdai discounted, random changed to EWD from EWSD
 
