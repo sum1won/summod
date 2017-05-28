@@ -1074,17 +1074,17 @@ Civateteo: B2D2->B2, (+douse 1)
 ##### Abysia, Children of Flame
 Anathemant Dragon: 265->240 gold, +0.5ESDB, startage 35->31
 
-Anathement Salamander	0.1 ESDB, 175->150 gold
+Anathement Salamander: +0.1 ESDB, 175->150 gold
 
-Annointed of Rhuax: random chance moved to 0.5 from 0.1
+Annointed of Rhuax: 0.1->0.5 FESB
 
-(New Spell) Childen of Rhuax: Abysian version of Rhuax Pact, requiring F4E1.
-
-Summon Scorpion Man: now summons a commander, costs 10 gems, has torso (credit to johannes)
+(New Spell) Childen of Rhuax: Abysian version of Rhuax Pact, conj 3, F4E1, 2 gems
 
 (New Spell) Abysian Cross Breeding: Abysian-themed version of the Cross Breeding spell  
 
-*Casting Gift of Reason on Demonspawn results in either a misbred commander (if they have afflictions), a blood hunter, or an assassin.
+Summon Scorpion Man: conj 8->6, 12->10 gems, (+commander, +iron cap, +torso slot)(credit to johannes)
+
+*Casting Gift of Reason on demonspawn results in either a misbred commander (if they have afflictions), a blood hunter, or an assassin.
 
 ##### Caelum, Eagle Kings
 
@@ -1092,11 +1092,11 @@ Summon Scorpion Man: now summons a commander, costs 10 gems, has torso (credit t
 
 Serpent Dancers: stronger weapons (snake staff: att 1->2, dmg 3->5, on-hit poison 5[weak]->15[strong])
 
-Shaman Prophetshape gets a small pathboost (S/N +1)
+*Shaman Prophetshape gets a pathboost (S/N +1)
 
 ##### Pangaea, Age of Revelry
 
-Minotaurs 5 gold discount
+Minotaurs: 40->35 gold
 
 ##### Agartha, Pale Ones
 
@@ -1106,60 +1106,65 @@ Minotaurs 5 gold discount
 
 ##### Vanheim, Age of Vanir
 
+Summon Valkyries: A3D1->A2D1, (from EA Helheim change)
+
 ##### Helheim, Dusk and Death
 
-Helkarl - +110%AD magic, normal leadership (195 total cost).
+Helkarl: 165->195 gold, +1.1 AD, leadership 80->40
 
-Helheim summons stronger Draugar than other nations. 
+Summon Valkyries: A3D1->A2D1, (also benefits EA/MA Vanheim)
 
-New spell: Bind Draugar.  Conj 7,  30 gems, 15++, D4A1,
+(New Spell) Rouse Draugar: conj 7, D4A1, 30 gems, summons 14++
 
-Summon Valkyries, 7 -> 10 valks summoned (Also benefits EA/MA Vanheim)
+*Helheim summons stronger Draugar than other nations. 
 
 ##### Niefelheim, Sons of Winter
 
 ##### Kailasa, Rise of the Ape Kings
-ghukuya generals not str
 
-Bandar Warriors, 18g -> 17g, Att 11 -> 12
+Bandar Warriors: 18->17 gold
 
-Bandar Archers - elite statline
+Bandar Swordsmen: hp 18->20, att 11->12, def 10->11, prec 9->10
 
-Bandar Archer, 18g -> 17g   
+Light Bandar Archer: 18->17 gold   
 
-Yavana Archers carry falchions
+Yavana Archers: 35->30 gold, def 11->12, awe 1->2, dagger->falchion
 
-Yavanas 40->35 gold
+Yavanas: 40->30 gold, def 14->15, awe 1->2
 
-Yakshas awe 2
+Guhyakas: 30->26 gold, def 11->12, +javelins 
 
-Guhyakas: Javelins 
+Ghuyaka General: not slow-to-recruit, +javilin
 
-Summon changes: (apply to Kailasa, Bandar Log, Patala)
+Yakshas: def 11->13, awe 1->2
 
-Devata 40 gems, S2->S3, HP 28->40 Str 17->19 Att 14->15 Def 12->13 Prc 11->13, 45->75 magical leadership		
-Autocasts an animal-only antimagic
+Yakshini: awe 1->2
 
-Devala 40 gems; S3->S4, Autocasts Celestial Music
+Summon changes (apply to Kailasa, Bandar Log, Patala)
 
-Rudra 45 gems, HP 32->48, STR 18->21, Def 13->15, Prot 2->4, Att 15->17, Prec 13->15, autospell wrathful skies
+Devata: 45->40 gems, (S2->3, hp 28->40, str 17->18, att 14->15, def 12->14, 45->75 magical leadership,		
+autocasts an animal-only Antimagic)
 
-Gandharva 18->15 pearls
+Devala: 55->40 gems, (S3->4, +autocasts Celestial Music)
 
-Apasaras: Weak ranged attack granted
+Rudra: 55->45 gems, (hp 32->48, prot 2->4, str 18->20, def 13->15, att 15->17, prec 13->15, autocasts Wrathful Skies)
+
+Gandharva: 18->15 pearls, (+weak magial ranged attack)
+
+Apsaras: (+weak magial ranged attack)
 
 ##### Lanka, Land of Demons
-Bandar Warriors, 18g -> 17g, Att 11 -> 12 (note: Bandar changes are there because bandar are   being universally changed)
+Bandar Warriors: 18->17 gold (note: bandar changes are there because bandar are being universally changed)
 
-Bandar Archer, 18g -> 17g   
+Bandar Archer: 18->17 gold   
 
-Summon Dakini: 50->66 Bloodslaves (Applies to Lanka, BL, Patala)
+Summon Dakini: 50->66 slaves (Applies to Lanka, Bandar Log, Patala)
 
-Samanishada 35 -> 30 slaves; pathlevel 0-2
+Samanishada: 35->30 slaves; pathlevel 0-2
 
-Sandhyabalas 3 -> 4 summoned
+Sandhyabalas: summons 3->4
 
-Lanka?s indie priests have 2.5X upkeep costs.  Will not display until turn after recruitment.  Indie flavor text changed to reflect this.
+Lanka's indie priests have 2.5X upkeep costs. Will not display until turn after recruitment. Indie flavor text changed to reflect this.
 
 ##### Yomi, Oni Kings
 
@@ -1471,6 +1476,8 @@ Spawns occasional N1 sites on sufficiently decayed templed forest provinces
 Minotaurs 5 gold discount (50->45; 40->35)
 
 ##### Vanheim, Arrival of Man
+
+Summon Valkyries: A3D1->A2D1, (from EA Helheim change)
 
 ##### Jotunheim, Iron Woods
 
