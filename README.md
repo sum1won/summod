@@ -882,83 +882,83 @@ Isle of Saos: gives the correct units
 
 Surveyed armor, made changes
 
-Full Ring Mail def -2 to -1, res 7->6 (Logrians) 
+Full Ring Mail: def -2->-1, rescost 7->6 (Logrians) 
 
-Chain Hauberk -2 to -1 def
+Chain Hauberk: def -2->-1
 
-Full Chain Mail def -3 to -2 - LA Man, MA Man, LA Agartha, MA MArignon*
+Full Chain Mail: def -3->-2 (LA Man, MA Man, LA Agartha, MA MArignon)*
 
-Plate Cuirass def -1 to 0, enc 2->1 (LA Pythium, LA Pangaea LA Ulm, LA/MA Marignon, LA Caelum (two units), LA Ragha (one unit), Therodos (Korybants -increase enc, drop defense), MA Pelagia (one unit), MA/LA Arco 
+Plate Cuirass: def -1->0, enc 2->1 (LA Pythium, LA Pangaea LA Ulm, LA/MA Marignon, LA Caelum (two units), LA Ragha (one unit), Therodos (Korybants -increase enc, drop defense), MA Pelagia (one unit), MA/LA Arco) 
 
-Plate Hauberk def -3 to -1, enc 4 to 2 (LA Pythium, Abysia, MA Machaka, LA Marignon, Ghandarvas, MA/LA Arco)**
+Plate Hauberk: def -3->-1, enc 4->2 (LA Pythium, Abysia, MA Machaka, LA Marignon, Ghandarvas, MA/LA Arco)**
 
-Full Plate Mail def -3 to -2, enc 5 to 3 (LA Agartha (lots), MA/LA Marignon (Royal Guard), MA Machaka (Black Hunters)).
+Full Plate Mail: def -3->-2, enc 5->3 (LA Agartha (lots), MA/LA Marignon (Royal Guard), MA Machaka (Black Hunters)).
 
-Full Chain Ulm def -3 to -2 (MA Ulm) 
+Full Chain Ulm: def -3->-2 (MA Ulm) 
 
-Full Plate Ulm def -3 to -2 (MA Ulm) 
+Full Plate Ulm: def -3->-2 (MA Ulm) 
 
-Bronze Cuirass def -1 to 0, enc 3 to 2 (Therodos, MA Pangaea, MA Pelagia)
+Bronze Cuirass: def -1->0, enc 3->2 (Therodos, MA Pangaea, MA Pelagia)
 
-Bronze Hauberk enc 5->3 (MA Pan, Pelagia, Oceania, EA Arco, LA Gath)
+Bronze Hauberk: enc 5->3 (MA Pan, Pelagia, Oceania, EA Arco, LA Gath)
 
-Spider Armor rescost 26->20, def -3 to -2, enc 4->3 (Machaka)
+Spider Armor: rescost 26->20, def -3->-2, enc 4->3 (Machaka)
 
-Ashigaru Armor def -1 to 0, enc 2 to 1 (Shinyu, Yomi, slightly Jomon)*
+Ashigaru Armor: def -1->0, enc 2->1 (Shinyu, Yomi, slightly Jomon)*
 
-Samurai Armor def -2 to -1, enc 3->2 (Jomon, Shinyu, Yomi)*
+Samurai Armor: def -2->-1, enc 3->2 (Jomon, Shinyu, Yomi)*
 
-Heavy Samurai Armor def -3 to -2, enc 4->3 (Jomon, Yomi)*
+Heavy Samurai Armor: def -3->-2, enc 4->3 (Jomon, Yomi)*
 
-Basalt Armor enc 6->4 rescost 30->25 (EA Atlantis)
+Basalt Armor: enc 6->4, rescost 30->25 (EA Atlantis)
 
-Hoplon enc 1->2	(This fully offsets the benefits Therodos gets from the cuirass changes).
+Hoplon: enc 1->2 (this fully offsets the benefits Therodos gets from the cuirass changes)
 
-Jingasa rescost 2->1
+Jingasa: rescost 2->1
 
-Coral Cuirass prot 10->12, enc 2->1, rescost 7->10 (MA, LA Atlantis)?
+Coral Cuirass: prot 10->12, enc 2->1, rescost 7->10 (MA, LA Atlantis)?
 
-Coral Hauberk prot 12->14, def -2->-1, enc 3->2, rescost 10->15 (EA Pelagia, MA, LA Atlantis)?
+Coral Hauberk: prot 12->14, def -2->-1, enc 3->2, rescost 10->15 (EA Pelagia, MA, LA Atlantis)?
 
-Coral Barding prot 11->16, rescost 12->20 (Oceania Aphroi)?
+Coral Barding: prot 11->16, rescost 12->20 (Oceania Aphroi)?
 
-Turtle Shell Armor prot 9->10 (EA Pelagia, EA/MA Oceania)?
+Turtle Shell Armor: prot 9->10 (EA Pelagia, EA/MA Oceania)?
 
-Turtle Shell Barding prot 9->10 (Oceania Icthycentaurs)?
+Turtle Shell Barding: prot 9->10 (Oceania Icthycentaurs)?
 
-Centaur Barding (Bronze) 16->17 prot, enc 4->3 (MA Pan) 
+Centaur Barding (Bronze): prot 16->17, enc 4->3 (MA Pan) 
 
-Centaur Barding (Iron) 17->18 prot, enc 3->2 (LA Pan) 
+Centaur Barding (Iron): prot 17->18, enc 3->2 (LA Pan) 
 
-Amber Hauberk rescost 18->15
+Amber Hauberk: rescost 18->15
 
-Amber Shield def 4->6
+Amber Shield: def 4->6
 
-Adds Laminated Scale Mail
+*Added Laminated Scale Mail
 
-Adds Treated Scale Hauberk
+*Added Treated Scale Hauberk
 
 #### Weapons
 
-Mace - 5 dmg -> 6 dmg (Nazca, Marignon, Bandar Log/Patala/Kailasa/Lanka, Mictlan)
+Mace: dmg 5->6 (Nazca, Marignon, Bandar Log/Patala/Kailasa/Lanka, Mictlan)
 
-Hammer - 7 dmg -> 8 dmg (MA Ulm, Claymen)
+Hammer: dmg 7->8 (MA Ulm, Claymen)
 
-Maul dmg 9->10  (MA Ulm)
+Maul: dmg 9->10  (MA Ulm)
 
-Machaka Spear - 3 res -> 2 res, -1 -> 0 Atk (EA/MA Machaka)
+Machaka Spear: rescost 3->2, att -1->0 (EA/MA Machaka)
 
-Chakram - 2 -> 5 ammo (Bandar Log, Patala)
+Chakram: ammo 2->5 ammo (Bandar Log, Patala)
 
-Throw Spines changed to strength-10 damage
+Throw Spines: changed to dmg str-10
 
-Obsidian Clubsword -> Damage 5, att 1
+Obsidian Clubsword(1-h): dmg 4->5, att 0->1
 
-Yari rescost 1->2
+Yari: rescost 1->2
 
-Wakizashi rescost 4->2
+Wakizashi: rescost 4->2
 
-Added non-rust equipment from nonrust mod:
+Added non-rust equipment from non-rust mod:
 
 Laminated Glaive
 
