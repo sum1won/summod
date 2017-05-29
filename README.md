@@ -1196,6 +1196,18 @@ Summon Sandhyabalas: summons 3->4
 
 ##### Yomi, Oni Kings
 
+*Summon changes from MA Shinuyama
+
+Summon Karasu Tengus: conj 2->5, N1A1->N3A1, 3->10 gems, summons 3->12+
+
+Summon Konoha Tengus: conj 3->2
+
+Summon Dai Tengu: 55->40 gems
+
+Contact Nushi 25->20 gems
+
+Summon Gozu-Mezu: 7->5 gems
+
 ##### Hinnom, Sons of the Fallen
 Horites: +throw rocks
 
