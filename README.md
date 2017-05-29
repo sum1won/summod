@@ -1195,9 +1195,9 @@ Summon Devala: 55->40 gems, (S3->4, +autocasts Celestial Music)
 
 Summon Rudra: 55->45 gems, (hp 32->48, prot 2->4, str 18->20, def 13->15, att 15->17, prec 13->15, autocast Wrathful Skies)
 
-Summon Gandharva: 18->15 pearls, (+weak magial ranged attack)
+Summon Gandharva: 18->15 pearls, (+weak anti-undead/demon ranged attack)
 
-Summon Apsaras: (+weak magial ranged attack)
+Summon Apsaras: (+weak anti-undead/demon ranged attack)
 
 ##### Lanka, Land of Demons
 
@@ -1374,11 +1374,11 @@ Dusk Elders: slightly more resistant to magic duel (equivalent to having +S1)
 ##### Sceleria, The Reformed Empire
 
 ##### Pythium, Emerald Empire
-Angel of Fury cost->25 pearls, self-blesses, damage reflection
+Angel of Fury: 35->25 pearls, +self-blesses, +damage reflection 2
 
-Angelic Host S5->S4F1, 50->40 pearls
+Angelic Host: S5->S4F1, 50->40 pearls
 
-Heavely Choir S6F2->S5F3, 144->88 pearls, choir angels now get an anti-undead ranged attack
+Heavely Choir: S7F2->S5F3, 144->88 pearls, (Angels of the Heavely Choir: +weak anti-undead/demon ranged attack)
 
 Serpent Cataphract 60->45
 Serpent Lord 90->75 gold discount
@@ -1612,9 +1612,9 @@ Summon Devala: 55->40 gems, (S3->4, +autocasts Celestial Music)
 
 Summon Rudra: 55->45 gems, (hp 32->48, prot 2->4, str 18->20, def 13->15, att 15->17, prec 13->15, autocast Wrathful Skies)
 
-Gandharva: 18->15 pearls, (+weak magial ranged attack)
+Gandharva: 18->15 pearls, (+weak anti-undead/demon ranged attack)
 
-Apsaras: (+weak magial ranged attack)
+Apsaras: (+weak anti-undead/demon ranged attack)
 
 *Summon changes from EA Lanka
 
@@ -1904,9 +1904,9 @@ Summon Devala: 55->40 gems, (S3->4, +autocasts Celestial Music)
 
 Summon Rudra: 55->45 gems, (hp 32->48, prot 2->4, str 18->20, def 13->15, att 15->17, prec 13->15, autocast Wrathful Skies)
 
-Gandharva: 18->15 pearls, (+weak magial ranged attack)
+Gandharva: 18->15 pearls, (+weak anti-undead/demon ranged attack)
 
-Apsaras: (+weak magial ranged attack)
+Apsaras: (+weak anti-undead/demon ranged attack)
 
 *Summon changes from EA Lanka
 
@@ -1917,6 +1917,7 @@ Summon Samanishada: B3D1->B2D1, 35->30 slaves
 Summon Sandhyabalas: summons 3->4
 
 ##### Gath, Last of the Giants
+
 ##### Ragha, Dual Kingdom
 PD now use a greater proprotion of light infantry.
 
