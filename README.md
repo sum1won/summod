@@ -560,11 +560,11 @@ Raven Feast: A4->A3
 
 #### Battlemagic
 
-(New spell) Gulf Stream: ench 5, F3, imitates friendly currents
+(New Spell) Gulf Stream: ench 5, F3, imitates friendly currents
 
 (New Spell) Pyriphlogos Incantation: battlefield-wide fire booster, conj 5, F3, 3 gems
 
-(New spell) Siren's Blessing: ench 3, A3, removes amphibian penalty 
+(New Spell) Siren's Blessing: ench 3, A3, removes amphibian penalty 
 
 (New Spell) Wild Tangle: conj 3, AoE　2+, scaling version of Tangle Vines
 
@@ -851,7 +851,7 @@ Doesn't recruit certain particularly bad troops
 
 #### Thrones
 
-Season thrones aren't UW
+Seasonal thrones no longer placed UW
 
 #### Sites
 
@@ -1057,15 +1057,15 @@ Daughter of Typhon: conj 9->8, 30->20 gems
 
 Horseman: 20->18 gold
 
-Celestial Servant: 3->2 gems (from T'ien Ch'i MA changes)
+Celestial Servant: 3->2 gems (from MA T'ien Ch'i changes)
 
-Internal Alchemy: 10->2 gems (from T'ien Ch'i MA changes)
+Internal Alchemy: 10->2 gems (from MA T'ien Ch'i changes)
 
 ##### Machaka, Lion Kings
 
 Machaka Militia: +foreign recruit
 
-Machaka Warriors: +foreign recruit, 10->8 gold, (spear->Machaka spear)
+Machaka Warriors: 10->8 gold, spear->Machaka spear, +foreign recruit
 
 Machaka Chief: +foreign recruit
 
