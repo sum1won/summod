@@ -1055,6 +1055,8 @@ Daughter of Typhon: conj 9->8, 30->20 gems
 
 ##### T'ien Ch'i, Spring and Autumn
 
+Horseman: 20->18 gold
+
 Celestial Servant: 3->2 gems (from T'ien Ch'i MA changes)
 
 Internal Alchemy: 10->2 gems (from T'ien Ch'i MA changes)
@@ -1305,25 +1307,25 @@ Mindlord: 420->360 gold, 1.1%WESD -> 1.0%WSD 1.0%WESD 0.05%ED
 
 (New Spell) Blessing of Limne: const 6, W4, 10 gems, mass-forge spell to produce Amulets of the Fish
 
-##### Pelagia, Pearl Kings
-Sideraspists slightly improved.  
+##### Pelagia, Pearl Kings  
 
 (New Spell) Blessing of Limne: const 6, W4, 10 gems, mass-forge spell to produce Amulets of the Fish
 
 ##### Oceania, Coming of the Capricorns
-Minotaurs given Gore while underwater
 
-Capricorns 360 gold->330
+Ichtytaurs: 40->35 gold, +gore attack while underwater
 
-Capricorns get blood magic
+Capricorns 360->330 gold, +E1/-W1 pathboost on land, +small chance of a blood random.
 
-New summons:
+(New Spell) Contact Angelfish: conj 7, N3W3, 40 gems, UW only, (A1W2N3 +1.0AW, +1A/-1W on land, flyer)
 
-Angelfish:  A1W1N3, 100%AW, +1A on land, +1 W on water.  Conj 7, N3W3 caster requirement, 40 gem flying summon, UW only
+(New Spell) Contact Devilfish: blood 7, B3W3, 50 slaves, UW only, (W1E1B3 demon-kraken, aquatic)
 
-Devilfish:  W2E2B3 demonkraken, UW only, Blood 7, 50 slaves, B3W3 caster requirement, uw only
+(New Spell) Bind Shark Fiends: blood 4, 13 slaves, (demon-shark, berserking, 3 attacks, amphibious)
 
-Demonshark: Berserking 3 attack amphibious demon summon, research 4, 13 blood slaves
+(New Spell) Feeding Frenzy: thau 4, N2B1, 2 gems, UW only, battlefield-wide animal and demon berserk
+
+(New Spell) Sharknado: blood 9, B5W3, 40 slaves, UW only, summons 10++ Shark Fiends
 
 ##### Therodos, Telkhine Spectre
 Popkill scales with growth/death scales.  Still ~0.5 at G0, but ~0.8 at D3 and ~0.2 at G3
