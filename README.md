@@ -1049,9 +1049,9 @@ Warrior Queen: 175->145 gold
 
 Manflayer: 155->135 gold 
 
-Hydra: 250->180 gold, +recuperation
-
 Hydra Hatchling: 35->28 gold, +recuperation
+
+Hydra: 250->180 gold, +recuperation
 
 Daughter of Typhon: conj 9->8, 30->20 gems
 
@@ -1374,16 +1374,24 @@ Dusk Elders: slightly more resistant to magic duel (equivalent to having +S1)
 ##### Sceleria, The Reformed Empire
 
 ##### Pythium, Emerald Empire
-Angel of Fury: 35->25 pearls, +self-blesses, +damage reflection 2
+Angel of Fury: 35->25 pearls, blood vengeance 4->0, +damage reflection 2, +self-blesses
 
 Angelic Host: S5->S4F1, 50->40 pearls
 
 Heavely Choir: S7F2->S5F3, 144->88 pearls, (Angels of the Heavely Choir: +weak anti-undead/demon ranged attack)
 
-Serpent Cataphract 60->45
-Serpent Lord 90->75 gold discount
+Serpent Cataphract: 60->45 gold, rescost 56->49
+
+Serpent Lord: 90->75 gold, rescost 56->49
+
+Hydra Hatchling: 35->28 gold, +recuperation (changes from EA Sauromantia)
+
+Hydra: 250->180 gold, +recuperation (changes from EA Sauromantia)
 
 ##### Man, Tower of Avalon
+
+Long Spear: scale mail cuirass->chain mail hauberk
+
 Knight 45->35 gold
 
 Avalon knight 65->50 gold
@@ -1403,8 +1411,6 @@ Warden mm1->2
 Lord warden mm1->2, H1
 
 Logrian 12->11 gold
-
-Long spear chain mail cuirass->hauberk
 
 Logrian random AFEN->AFE
 
