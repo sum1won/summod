@@ -1243,17 +1243,17 @@ Melqarts: 485->460 gold, +not cap only
 
 *PD is less garbage, and includes sirrush, great lions, and more Enkidu of better quality.
 
-Enkidu: 16->12 gold, att 10->9, +fort recruitable
+Enkidu: 16->12 gold, att 10->9, +fort recruit
 
-Enkidu Archer 16->15 gold, att 9->10, +fort recruitable
+Enkidu Archer 16->15 gold, att 9->10, +fort recruit
 
 Enkidu Soldier: 16->15 gold, att 10->11, def 11->12
 
-Enkidu Warrior: 16->15 gold, att 10->11, def 11->12, +fort recruitable
+Enkidu Warrior: 16->15 gold, att 10->11, def 11->12, +fort recruit
 
-Enkidu Hunter, Head Hunter, Hunter Chief: att 10->11, def 8->9, +cap recruitable
+Enkidu Hunter, Head Hunter, Hunter Chief: att 10->11, def 8->9, +cap recruit
 
-Enkidu Reaver, Bone Reader: +cap recruitable
+Enkidu Reaver, Bone Reader: +cap recruit
 
 Enkidu Spear Guard: 16->18 gold, mor 10->11, att 10->11, def 11->13
 
@@ -1268,41 +1268,47 @@ Sirrush: 200->170 gold, (prot 15->17)
 ##### Berytos, The Phoenix Empire
 
 ##### Xibalba, Vigil of the Sun
-Lances replaced with Stone lances, which are non-iron and +2 resources
 
-Batabs are slow to recruit if recruited outside a fort
+*Lances replaced with Stone lances, which are non-iron and +2 resources
 
-7 gold bats now cost 8
+Xibalban Warrior: 7->8 gold
 
-Ah nakom are 75 gold from 70
-
-Ah nakom and Onaqui now produce more unrest
 Large Scorpion: rescost 1->34
 
 Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
 
+Batab: +slow to recruit if recruited outside a fort
+
+Ah Nakom: 70->75 gold, increase unrest 2->4/month
+
+Onaqui: increase unrest 2->4/month
+
 ##### Atlantis, Emergence of the Deep Ones
-New Coastal Shambler Mage -- Relatively expensive for W1, 1 WSFE ,5SFE
+
+(New Unit) Shambler Reefmage: relatively expensive for W1 1.0%FWE 0.5%FES, coast recruit
 
 ##### R'lyeh, Time of Aboleths
-Mindlord: 420->360 gold, +1.0%WSD, +1.0WESD, +0.05%ED
 
-Androdai discounted, random changed to EWD from EWSD
+*Ferrous equipment replaced with UW equivalents
 
-Polypal Mothers can research
+Slave Trooper(net), Lobo Guard: +coast recruit
 
-Grandmothers have Inspired Researcher
+Polypal Spawn: can go on land but die after 2 turns
 
-Polypal Spawn can go on land, but die after 2 turns
+Androdai: 190->125 gold, 1.0%WESD->1.1%WED
 
-Merman Slaves, Lobo Guard, Slave Mages recruitable on land
+Polypal Mothers: +can research
 
-Given a mass-forge spell to produce air breathing amulets (Blessing of Limne Const6 W4 10 gems)
+Grandmother: +inspired researcher
+
+Mindlord: 420->360 gold, 1.1%WESD -> 1.0%WSD 1.0%WESD 0.05%ED
+
+(New Spell) Blessing of Limne: const 6, W4, 10 gems, mass-forge spell to produce Amulets of the Fish
 
 ##### Pelagia, Pearl Kings
 Sideraspists slightly improved.  
 
-Given a mass-forge spell to produce air breathing amulets (Blessing of Limne Const6 W4 10 gems)
+(New Spell) Blessing of Limne: const 6, W4, 10 gems, mass-forge spell to produce Amulets of the Fish
 
 ##### Oceania, Coming of the Capricorns
 Minotaurs given Gore while underwater
