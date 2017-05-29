@@ -1009,6 +1009,7 @@ Hog Knights: Rsize 2->1
 #### Early Age
 
 ##### Arcoscephale, Golden Era
+Chariot Archer: 55->45 gold
 
 ##### Ermor, New Faith
 Equites: 35->30 gold
@@ -1018,31 +1019,42 @@ Equites of the Sacred Shroud: 50->45 gold
 ##### Ulm, Enigma of Steel
 
 ##### Marverni, Time of Druids
-Eponi 30->25 gold, +hoof attack
+Eponi Knights: 30->25 gold, +hoof attack
+
+Eponi Chieftan: 100->95 gold, +hoof attack
 
 ##### Sauromatia, Amazon Queens
-Lancer, Raider, Sauromatian Lancer, Sauromatian Raider: 20->17 gold 
+Lancer, Raider: 20->17 gold 
 
-Cataphract: 35->30 gold
+Sauromatian Lancer, Sauromatian Raider: 25->22 gold  
+
+Sauromatian Cataphract: 35->30 gold
 
 Androphag: 75->55 gold 
 
-Oioropata: 45->35 gold 
+Oioropata: 50->35 gold 
 
-Warrior Priestess, Warrior Queen: 130/170->110/150 gold 
+Warrior Priestess: 130->110 gold 
 
-Manflayer: 95->70 gold 
+Warrior Queen: 175->145 gold 
+
+Manflayer: 155->135 gold 
 
 Hydra: 250->180 gold, +recuperation
 
 Hydra Hatchling: 35->28 gold, +recuperation
 
+Daughter of Typhon: conj 9->8, 30->20 gems
+
 ##### T'ien Ch'i, Spring and Autumn
+Celestial Servant: 3->2 gems (from T'ien Ch'i MA changes)
+
+Internal Alchemy: 10->2 gems (from T'ien Ch'i MA changes)
 
 ##### Machaka, Lion Kings
-Machaka Warriors: +foreign recruit, 10->9 gold
-
 Machaka Militia: +foreign recruit
+
+Machaka Warriors: +foreign recruit, 10->8 gold, (spear->Machaka spear)
 
 Machaka Chief: +foreign recruit
 
@@ -1054,23 +1066,23 @@ Spider Clan Warriors: +furs
 
 Spider Clan Sorcerer: +not slow-to-recruit
 
-Spider Rider: size 5->4,	gold 40->25
+Spider Rider: size 5->4, 50->35 gold
 
-Great Spider: changes from MA Machaka (Size 4, 8 MR, 20 goldcost, 17 strength)
+Great Spider: +20 gold, size 5->4, MR5->8, str 11->16 (from MA Machaka changes)
 
 ##### Mictlan, Reign of Blood
-Sun Warriors: cost 18->15, hp 12->13, str 10->11
+Sun Warriors: 18->14 gold, hp 12->13, mapmove 1->2
 
 Tlahuelpuchi: B2->B2D2, 25->34 slaves
 
 Civateteo: B2D2->B2, (+douse 1)
 
 ##### Abysia, Children of Flame
-Anathemant Dragon: 265->240 gold, +0.5ESDB, startage 35->31
+Anathemant Dragon: 265->240 gold, +0.5ESDB, startage 35(32)->31(32)
 
 Anathement Salamander: +0.1 ESDB, 175->150 gold
 
-Annointed of Rhuax: 0.1->0.5 FESB
+Annointed of Rhuax: 0.1->0.5 FESB, +douse 1
 
 (New Spell) Childen of Rhuax: Abysian version of Rhuax Pact, conj 3, F4E1, 2 gems
 
@@ -1084,7 +1096,11 @@ Summon Scorpion Man: conj 8->6, 12->10 gems, (+commander, +iron cap, +torso slot
 
 ##### C'tis, Lizard Kings
 
+Lizard Chariot: 50->40 gold, 26->20 rescost, (bronze scale mail curaiss->iron, bronze cap->iron)
+
 Serpent Dancers: stronger weapons (snake staff: att 1->2, dmg 3->5, on-hit poison 5[weak]->15[strong])
+
+Summon Scorpion Man: conj 8->6, 12->10 gems, (+commander, +iron cap, +torso slot)(from Abysia changes-credit to johannes)
 
 *Shaman Prophetshape gets a pathboost (S/N +1)
 
@@ -1092,15 +1108,29 @@ Serpent Dancers: stronger weapons (snake staff: att 1->2, dmg 3->5, on-hit poiso
 
 Minotaurs: 40->35 gold
 
+Minotaur Warriors: 50->35 gold
+
 ##### Agartha, Pale Ones
+
+Ancient One: spear->UW spear
+
+Ancient Lord: battleaxe->bronze battleaxe
+
+Engraver: hammer->(stone)knife
 
 ##### Tir na n'Og, Land of the Ever Young
 
+Fir Bolg Militia, Fir Bolg Warrior, Shide Warrior: stone spear->bronze spear
+
 ##### Fomoria, The Cursed Ones
+
+Fir Bolg Warrior: stone spear->bronze spear
 
 ##### Vanheim, Age of Vanir
 
 Summon Valkyries: A3D1->A2D1, (from EA Helheim change)
+
+Awaken Draugar: 12->10 gems
 
 ##### Helheim, Dusk and Death
 
@@ -1108,11 +1138,15 @@ Helkarl: 165->195 gold, +1.1 AD, leadership 80->40
 
 Summon Valkyries: A3D1->A2D1, (also benefits EA/MA Vanheim)
 
+Awaken Draugar: 12->10 gems
+
 (New Spell) Rouse Draugar: conj 7, D4A1, 30 gems, summons 14++
 
 *Helheim summons stronger Draugar than other nations. 
 
 ##### Niefelheim, Sons of Winter
+
+Awaken Draugar: 12->10 gems
 
 ##### Kailasa, Rise of the Ape Kings
 
@@ -1136,16 +1170,16 @@ Yakshini: awe 1->2
 
 *Summon changes apply to Kailasa, Bandar Log and Patala
 
-Devata: 45->40 gems, (S2->3, hp 28->40, str 17->18, att 14->15, def 12->14, 45->75 magical leadership,		
+Summon Devata: 45->40 gems, (S2->3, hp 28->40, str 17->18, att 14->15, def 12->14, 45->75 magical leadership,		
 autocasts an animal-only Antimagic)
 
-Devala: 55->40 gems, (S3->4, +autocasts Celestial Music)
+Summon Devala: 55->40 gems, (S3->4, +autocasts Celestial Music)
 
-Rudra: 55->45 gems, (hp 32->48, prot 2->4, str 18->20, def 13->15, att 15->17, prec 13->15, autocasts Wrathful Skies)
+Summon Rudra: 55->45 gems, (hp 32->48, prot 2->4, str 18->20, def 13->15, att 15->17, prec 13->15, autocast Wrathful Skies)
 
-Gandharva: 18->15 pearls, (+weak magial ranged attack)
+Summon Gandharva: 18->15 pearls, (+weak magial ranged attack)
 
-Apsaras: (+weak magial ranged attack)
+Summon Apsaras: (+weak magial ranged attack)
 
 ##### Lanka, Land of Demons
 Bandar Warriors: 18->17 gold (note: bandar changes are there because bandar are being universally changed)
@@ -1459,11 +1493,13 @@ New Monster: Ice Enchanter.  W2 with an FSD random and a AWS random
 
 ##### C'tis, Miasma
 
-Shaman Prophetshape gets +1S, +1N
+*Shaman Prophetshape gets a pathboost (S/N +1)
 
 ##### Pangaea, Age of Bronze
 
-Minotaurs 5 gold discount (50->45; 40->35)
+Minotaurs: 40->35 gold
+
+War Warriors: 50->45 gold
 
 ##### Asphodel, Carrion Woods
 
@@ -1477,7 +1513,11 @@ Summon Valkyries: A3D1->A2D1, (from EA Helheim change)
 
 ##### Jotunheim, Iron Woods
 
+Awaken Draugar: 12->10 gems
+
 ##### Vanarus, Land of the Chuds
+
+Awaken Draugar: 12->10 gems
 
 ##### Bandar Log, Land of the Apes
 
@@ -1495,25 +1535,33 @@ Nagas 20->15 gems
 
 Nagaraja 30->25 gems
 
-Devata 40 gems, S2->S3, HP 28->40 Str 17->19 Att 14->15 Def 12->13 Prc 11->13, 45->75 magical leadership		
-Autocasts an animal-only antimagic
+*Summon changes from EA Kailasa
 
-Devala 40 gems; S3->S4, Autocasts Celestial Music
+Contact Yaksha: (def 11->13, awe 1->2)
 
-Rudra 45 gems, HP 32->48, STR 18->21, Def 13->15, Prot 2->4, Att 15->17, Prec 13->15, autospell wrathful skies
+Contact Yakshini: (awe 1->2)
 
-Gandharva 18->15 pearls
+Summon Devata: 45->40 gems, (S2->3, hp 28->40, str 17->18, att 14->15, def 12->14, 45->75 magical leadership,		
+autocasts an animal-only Antimagic)
 
-Apasaras: Weak ranged attack 
+Summon Devala: 55->40 gems, (S3->4, +autocasts Celestial Music)
 
-Summon Dakini: 50->66 Bloodslaves (Applies to Lanka, BL, Patala)
+Summon Rudra: 55->45 gems, (hp 32->48, prot 2->4, str 18->20, def 13->15, att 15->17, prec 13->15, autocast Wrathful Skies)
 
-Samanishada 35 -> 30 slaves; pathlevel 0-2
+Gandharva: 18->15 pearls, (+weak magial ranged attack)
 
-Sandhyabalas 3 -> 4 summoned
+Apsaras: (+weak magial ranged attack)
+
+*Summon changes from EA Lanka
+
+Summon Dakini: 50->66 slaves (applies to Lanka, Bandar Log, Patala)
+
+Summon Samanishada: B3D1->B2D1, 35->30 slaves
+
+Summon Sandhyabalas: summons 3->4
 
 ##### Shinuyama, Land of the Bakemono
-Kappa Shaman UW Recruitable
+Kappa Shaman: +UW recruit
 
 Size 2 Bakemono are now slaves
 
@@ -1527,9 +1575,9 @@ Dai Bakemono 30->25 gold
 
 Dai Bakemono without bow 11->12 attack
 
-Underwater Fort-rec kappa mage for 55 gold
+(New Unit) Kappa Mage: W1, 45 gold, UW fort recuit
 
-Gozu-Mezu 7->5 gems
+Summon Gozu-Mezu: 7->5 gems
 
 Summon Ko Oni effects 5+ >7++
 
@@ -1755,7 +1803,13 @@ Minotaurs 5 gold discount (50->45; 40->35).
 
 ##### Midgard, Age of Men
 
+Summon Valkyries: A3D1->A2D1, (from EA Helheim change)
+
+Awaken Draugar: 12->10 gems
+
 ##### Utgard, Well of Urd
+
+Awaken Draugar: 12->10 gems
 
 ##### Bogarus, Age of Heroes
 Grid Druzhina 30->25 gold
@@ -1773,22 +1827,30 @@ Bandar Warriors 18->17 gold  11->12 attack
 
 All Vanara Units -1 gold
 
-Devata 40 gems, S2->S3, HP 28->40 Str 17->19 Att 14->15 Def 12->13 Prc 11->13, 45->75 magical leadership		
-Autocasts an animal-only antimagic
+*Summon changes from EA Kailasa
 
-Devala 40 gems; S3->S4, Autocasts Celestial Music
+Contact Yaksha: (def 11->13, awe 1->2)
 
-Rudra 45 gems, HP 32->48, STR 18->21, Def 13->15, Prot 2->4, Att 15->17, Prec 13->15, autospell wrathful skies
+Contact Yakshini: (awe 1->2)
 
-Gandharva 18->15 pearls
+Summon Devata: 45->40 gems, (S2->3, hp 28->40, str 17->18, att 14->15, def 12->14, 45->75 magical leadership,		
+autocasts an animal-only Antimagic)
 
-Apasaras: Weak ranged attack granted
+Summon Devala: 55->40 gems, (S3->4, +autocasts Celestial Music)
 
-Summon Dakini: 50->66 Bloodslaves 
+Summon Rudra: 55->45 gems, (hp 32->48, prot 2->4, str 18->20, def 13->15, att 15->17, prec 13->15, autocast Wrathful Skies)
 
-Samanishada 35 -> 30 slaves; pathlevel 0-2
+Gandharva: 18->15 pearls, (+weak magial ranged attack)
 
-Sandhyabalas 3 -> 4 summoned
+Apsaras: (+weak magial ranged attack)
+
+*Summon changes from EA Lanka
+
+Summon Dakini: 50->66 slaves (applies to Lanka, Bandar Log, Patala)
+
+Summon Samanishada: B3D1->B2D1, 35->30 slaves
+
+Summon Sandhyabalas: summons 3->4
 
 ##### Gath, Last of the Giants
 ##### Ragha, Dual Kingdom
