@@ -1363,15 +1363,13 @@ Telkhine: +increase death scale
 ##### Arcoscephale, The Old Kingdom
 
 ##### Ermor, Ashen Empire
-Ermor receives a D1 site that spawns in land (not water provinces) they control with high dominion and low population, and reduced cap income. 
+*Ermor receives a D1 site that spawns in land (not water provinces) they control with high dominion and low population, and reduced cap income. Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor.
 
-50% more for all forts.  
+*50% more gold cost for all forts.  
 
-Starts at Cold1
+*Starts at Cold 1.
 
-Dusk Elders are slightly more resistant to magic duel
-
-Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor
+Dusk Elders: slightly more resistant to magic duel (equivalent to having +S1)
 
 ##### Sceleria, The Reformed Empire
 
