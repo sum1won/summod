@@ -183,6 +183,8 @@ Shadow Brand: const 6->4, D2E1->D1E1, dmg 12->8
 
 Smasher: E2->E1
 
+Snake Bladder Stick: AoE 4->5
+
 Star of Heroes: nratt 1->2
 
 Star of Thraldom: False Fetters AoE 1->5
@@ -1338,11 +1340,19 @@ Starting army is a mix of living and dead units
 
 Addition of Undead Melia.  Taking death scales automatically provides it, with a small chance per fort of spawning additional undead melia.  This scales with dominion and death scales.  
 
-Old STR battlemage available in coastal forts.  Sailing, holy, W2A1 (1.1 FWAD).
+(New Unit) Therodian Swordsman: heavy infantry, coast recuit
+
+(New Unit) Merman Mercenary: heavy infantry, amphibian, UW recruit
+
+(New Unit) Triton Mercenary:
+
+(New Unit) Telkhine Adjutant: Old STR battlemage available in coastal forts.  Sailing, holy, W2A1 (1.1 FWAD).
 
 Swordsmen (Mermen, Human, and Tritons) recruitable in underwater and coastal forts
 
 Global that increases popkill/death scales in Therodos territory, produces sacred freespawn, and has a chance at generating sites that produce water gems.
+
+Telkhine: +increase death scale
 
 #### Middle Age
 
