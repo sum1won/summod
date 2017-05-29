@@ -492,11 +492,11 @@ Wondrous Box of Monsters: N5->N3, +PR5
 
 Acashic Knowledge: conj 6->5, 25->20 gems
 
-Dark Knowledge: 4->3 gems
-
 Arcane Probing: 3->2 gems
 
 Auspex: range 2->3
+
+Dark Knowledge: 4->3 gems
  
 #### Domes
 
@@ -560,11 +560,17 @@ Raven Feast: A4->A3
 
 #### Battlemagic
 
+(New spell) Gulf Stream: ench 5, F3, imitates friendly currents
+
 (New Spell) Pyriphlogos Incantation: battlefield-wide fire booster, conj 5, F3, 3 gems
+
+(New spell) Siren's Blessing: ench 3, A3, removes amphibian penalty 
+
+(New Spell) Wild Tangle: conj 3, AoE　2+, scaling version of Tangle Vines
 
 Bonds of Fire: thau 2->1
 
-?Bone Grinding: cripple on 50% of battlefield?
+?Bone Grinding: cripple 100%->50% of battlefield?
 
 Prison of Fire: thau 4->3
 
@@ -583,8 +589,6 @@ Iron Warriors: +scales(only to single targets)
 Iron Will: +scales
 
 Gift of Flight: +scales
-
-(New Spell) Wild Tangle: conj 3, AoE　2+, scaling version of Tangle Vines
 
 Enlarge: +scales
 
@@ -613,10 +617,6 @@ Sulphur Haze: +castable UW
 Rust Mist: +castable UW
 
 Ice Strike: +castable UW
-
-(New spell) Siren's Blessing: ench 3, A3, removes amphibian penalty 
-
-(New spell) Gulf Stream: ench 5, F3, imitates friendly currents
 
 Confusion: AoE 1->2
 
@@ -652,11 +652,11 @@ Polymorph: range 20->20+
 
 Flame Spirit: (+generates 1F gem/month)
 
+Fire Drake: 7->5 gems
+
 Summer Lions: summons 5+->7+, (prot 0->7)
 
 Terracotta Army: summons 10++->16+++ (spear->pike), T'ien Ch'i gets a national version of the spell
-
-Fire Drake: 7->5 gems
 
 #### Earth
  
@@ -668,8 +668,6 @@ Crusher: +castable UW, 15->10 gems (stone fist 1->2, +siege bonus 30)
 
 Cave Drake: 5->4 gems
 
-Living Statues: 20->15 gems
-
 Fall Bears: summons 5+->8+ (+bite attack, prot 0->10)
 
 Hidden Underneath: +castable UW, 75->60 gems, (sage/released one hp 8->13, warrior hp 10->17, king hp 12->18)
@@ -677,6 +675,8 @@ Hidden Underneath: +castable UW, 75->60 gems, (sage/released one hp 8->13, warri
 Hidden in Sand: 75->60 gems, (+poor amphibian)
 
 Iron Dragon: +castable UW, 30->20 gems, (+commander, +noleader) 
+
+Living Statues: 20->15 gems
 
 Mechanical Men: +castable UW, summons 10++->12++, (prot 18->19)
 
@@ -710,13 +710,13 @@ Gelatinous Cube: 4->3 gems, (AP 2->6, +recuperation)
 
 Hidden in Snow: 75->60 gems, (+poor amphibian)
 
+Ice Drake: 7->5 gems
+
 Kokythiad: 40->35 gems
 
 Naiad: 35->30 gems
 
 Naiad Warriors: 30->20 gems
-
-Ice Drake: 7->5 gems
 
 Sea King's Court: 55->45 gems
 
@@ -750,9 +750,9 @@ Bane: 7->6 gems, (hp 23->25 hp)
 
 Behemoth: 10->8 gems
 
-Revenant: +castable UW
-
 Leviathan: 12->10 gems, land AP 4->6, mapmove 1->2
+
+Mound King: +castable UW
 
 Pale Riders: +castable UW
 
@@ -762,7 +762,7 @@ Reanimation: 5->1 gems, summons 10->4(skeletons)
 
 Reanimate Archers: 5->10 gems, summons 10->20++(skeletal archers)(banefire bows-> armor piercing)
 
-Mound King: +castable UW
+Revenant: +castable UW
 
 Revive Wights: 20->12 gems
 
@@ -790,11 +790,11 @@ Forest Troll Tribe: 37->33 gems, (+stealthy 40)
 
 Contact Forest Trolls: 10->7 gems, (+stealthy 40)
 
+Kithaironic Lion: N3E1->N2E1, 3->6 gems, summons 1->2
+
 Lamia Queen: 25->20 gems
 
 Lumber Construct: const 5->3, 5->4 gems (+siege 10)
-
-Kithaironic Lion: N3E1->N2E1, 3->6 gems, summons 1->2
 
 Pride of Lions: summons 10++->13+++
 
@@ -804,12 +804,12 @@ Sloth of Bears: (+bite attack)
 
 Swamp Drake: 8->6 gems
 
+Tarrasque: conj 9->6(unique), 25->20 gems (bite->bite and swallow, +prot 18->20, enc 4->2, commander, +noleader,  
++recuperation, +slash/pierce/blunt resist, +FR/CR/SR 2, +digest 3, +acid digest 2)
+
 Vine Men: summons 3->5
 
 Vine Ogres: summons 2->3
-
-Tarrasque: conj 9->6(unique), 25->20 gems (bite->bite and swallow, +prot 18->20, enc 4->2, commander, +noleader,  
-+recuperation, +slash/pierce/blunt resist, +FR/CR/SR 2, +digest 3, +acid digest 2)
 
 #### Blood
 
@@ -836,6 +836,7 @@ Serpent Fiend: 4->12 slaves, summons 1->3, (att 12->15, str 12->16)
 ### General Changes
 
 #### Scales:  
+
 Growth/Death: Income 3%->2% per scale
 
 Ohlmann: both excellent in short term gold, and excellent in long term gold. Production is a bit weak, because it doesn't give much money and resources become weaker quite fast. I also think that sloth 3 is not punitive enough.
@@ -845,9 +846,11 @@ Maerlande:  I think growth is too obvious if you want money. If I remember corre
 sum1won: I'm including this discussion since I expect this is the biggest change in the mod.  I'd also note that I modeled income and total gold from growth and order, and the comparison suggests that growth is significantly better over the long term, and nearly as good over the short term.  The largest difference in gold is around turn 8-15 (varies depending on how aggressive expansion is) and never really rises above ~5% of income/total gold.  Largest difference I saw was a few hundred gold.
 
 #### AI 
+
 Doesn't recruit certain particularly bad troops
 
 #### Thrones
+
 Season thrones aren't UW
 
 #### Sites
@@ -1084,6 +1087,9 @@ Tlahuelpuchi: B2->B2D2, 25->34 slaves
 
 Civateteo: B2D2->B2, (+douse 1)
 
+*From Xibalba changes
+Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
+
 ##### Abysia, Children of Flame
 
 Anathemant Dragon: 265->240 gold, +0.5ESDB, startage 35(32)->31(32)
@@ -1271,8 +1277,9 @@ Batabs are slow to recruit if recruited outside a fort
 Ah nakom are 75 gold from 70
 
 Ah nakom and Onaqui now produce more unrest
+Large Scorpion: rescost 1->34
 
-Beastbats are -1 siegedefense (For total siegedefense of 1.44 each instead of 2.44 each).
+Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
 
 ##### Atlantis, Emergence of the Deep Ones
 New Coastal Shambler Mage -- Relatively expensive for W1, 1 WSFE ,5SFE
