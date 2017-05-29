@@ -819,6 +819,12 @@ These scouts will become commanders after recruitment."
 #enc 1
 #end
 
+#new armor 755
+#copystats 127
+#name "treated metal helm"
+#end
+
+
 
 
 
@@ -1973,7 +1979,7 @@ These scouts will become commanders after recruitment."
 #cleararmor
 #weapon 670 --Trident
 #armor 751 -- treated scale hauberk
-#armor 1524
+#armor 755
 #end
 
 #selectmonster 444 --traitor prince
