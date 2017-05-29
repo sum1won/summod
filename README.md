@@ -1009,9 +1009,11 @@ Hog Knights: Rsize 2->1
 #### Early Age
 
 ##### Arcoscephale, Golden Era
+
 Chariot Archer: 55->45 gold
 
 ##### Ermor, New Faith
+
 Equites: 35->30 gold
 
 Equites of the Sacred Shroud: 50->45 gold 
@@ -1019,11 +1021,13 @@ Equites of the Sacred Shroud: 50->45 gold
 ##### Ulm, Enigma of Steel
 
 ##### Marverni, Time of Druids
+
 Eponi Knights: 30->25 gold, +hoof attack
 
 Eponi Chieftan: 100->95 gold, +hoof attack
 
 ##### Sauromatia, Amazon Queens
+
 Lancer, Raider: 20->17 gold 
 
 Sauromatian Lancer, Sauromatian Raider: 25->22 gold  
@@ -1047,11 +1051,13 @@ Hydra Hatchling: 35->28 gold, +recuperation
 Daughter of Typhon: conj 9->8, 30->20 gems
 
 ##### T'ien Ch'i, Spring and Autumn
+
 Celestial Servant: 3->2 gems (from T'ien Ch'i MA changes)
 
 Internal Alchemy: 10->2 gems (from T'ien Ch'i MA changes)
 
 ##### Machaka, Lion Kings
+
 Machaka Militia: +foreign recruit
 
 Machaka Warriors: +foreign recruit, 10->8 gold, (spear->Machaka spear)
@@ -1071,6 +1077,7 @@ Spider Rider: size 5->4, 50->35 gold
 Great Spider: +20 gold, size 5->4, MR5->8, str 11->16 (from MA Machaka changes)
 
 ##### Mictlan, Reign of Blood
+
 Sun Warriors: 18->14 gold, hp 12->13, mapmove 1->2
 
 Tlahuelpuchi: B2->B2D2, 25->34 slaves
@@ -1078,6 +1085,7 @@ Tlahuelpuchi: B2->B2D2, 25->34 slaves
 Civateteo: B2D2->B2, (+douse 1)
 
 ##### Abysia, Children of Flame
+
 Anathemant Dragon: 265->240 gold, +0.5ESDB, startage 35(32)->31(32)
 
 Anathement Salamander: +0.1 ESDB, 175->150 gold
@@ -1182,6 +1190,7 @@ Summon Gandharva: 18->15 pearls, (+weak magial ranged attack)
 Summon Apsaras: (+weak magial ranged attack)
 
 ##### Lanka, Land of Demons
+
 Bandar Warriors: 18->17 gold (note: bandar changes are there because bandar are being universally changed)
 
 Bandar Archer: 18->17 gold   
@@ -1209,6 +1218,7 @@ Contact Nushi 25->20 gems
 Summon Gozu-Mezu: 7->5 gems
 
 ##### Hinnom, Sons of the Fallen
+
 Horites: +throw rocks
 
 Horite Champions: +throw rocks
@@ -1222,17 +1232,32 @@ Ba'al: 455->430 gold, +douse 2
 Melqarts: 485->460 gold, +not cap only
 
 ##### Ur, The First City
-*Ur pretenders automatically heal all afflictions while at the capital.
 
-Elegist is now +3 instead of +1, making them 4X as effective instead of 2X.
+*Ur pretenders automatically heal all afflictions while at the capital.
 
 *PD is less garbage, and includes sirrush, great lions, and more Enkidu of better quality.
 
-You can now recruit more foreignrec and swamprec troops at your capital.
+Enkidu: 16->12 gold, att 10->9, +fort recruitable
 
-Your troop quality is improved.  Generally -1 to -2 gold from vanilla, and +1 attack
+Enkidu Archer 16->15 gold, att 9->10, +fort recruitable
 
-Spearguard became elites, and received +2 goldcost and +defense.
+Enkidu Soldier: 16->15 gold, att 10->11, def 11->12
+
+Enkidu Warrior: 16->15 gold, att 10->11, def 11->12, +fort recruitable
+
+Enkidu Hunter, Head Hunter, Hunter Chief: att 10->11, def 8->9, +cap recruitable
+
+Enkidu Reaver, Bone Reader: +cap recruitable
+
+Enkidu Spear Guard: 16->18 gold, mor 10->11, att 10->11, def 11->13
+
+Ur Guard: 19->18, def 12->13
+
+Enki's Chosen: 29->26 gold, def 12->14
+
+Gala: (elegist 2->4)
+
+Sirrush: 200->170 gold, (prot 15->17)
 
 ##### Berytos, The Phoenix Empire
 
