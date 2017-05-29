@@ -1330,29 +1330,33 @@ Capricorns 360->330 gold, +E1/-W1 pathboost on land, +small chance of a blood ra
 (New Spell) Sharknado: blood 9, B5W3, 40 slaves, UW only, summons 10++ Shark Fiends
 
 ##### Therodos, Telkhine Spectre
-Popkill scales with growth/death scales.  Still ~0.5 at G0, but ~0.8 at D3 and ~0.2 at G3
+*Popkill scales with growth/death scales.  Still ~0.5 at G0, but ~0.8 at D3 and ~0.2 at G3
 
-Sacreds are reclimit 2 at D3, reclimit 4 at D1, reclimit 6 at G1, and reclimit 8 at G3
+*Sacreds are reclimit 2 at D3, reclimit 4 at D1, reclimit 6 at G1, and reclimit 8 at G3
 
-Sacred attack replaced with a 50% chance of 3 attacks
+*Starting army is a now a mix of living and dead units.
 
-Starting army is a mix of living and dead units
+Kourete, Spectral Kourete, Korybant: sword->50% chance of 3 attacks (slash, stab, bash)
 
-Addition of Undead Melia.  Taking death scales automatically provides it, with a small chance per fort of spawning additional undead melia.  This scales with dominion and death scales.  
+Melia: awe 3->1
+
+(New Unit) Spectral Melia. Taking death scales automatically provides it, with a small chance per fort of spawning additional Spectral Melia. This scales with dominion and death scales.  
 
 (New Unit) Therodian Swordsman: heavy infantry, coast recuit
 
 (New Unit) Merman Mercenary: heavy infantry, amphibian, UW recruit
 
-(New Unit) Triton Mercenary:
+(New Unit) Triton Mercenary: heavy infantry, aquatic, UW recruit
 
-(New Unit) Telkhine Adjutant: Old STR battlemage available in coastal forts.  Sailing, holy, W2A1 (1.1 FWAD).
+(New Unit) Triton Mercenary Captain: heavy infantry, aquatic, UW recruit
 
-Swordsmen (Mermen, Human, and Tritons) recruitable in underwater and coastal forts
+(New Unit) Telkhine Adjutant: A1W2 +1.1FAWD, slow-to-recruit, sailing, holy, old, coast recruit  
 
-Global that increases popkill/death scales in Therodos territory, produces sacred freespawn, and has a chance at generating sites that produce water gems.
+Call Ephor: 7->5 gems
 
 Telkhine: +increase death scale
+
+(New Spell) Summon the Waters of Stygia: conj 8, W5A2, 69 gems, global, increases popkill/death scales in Therodos territory, produces sacred freespawn, and has a chance at generating sites that produce water gems.
 
 #### Middle Age
 
