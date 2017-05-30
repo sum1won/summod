@@ -1223,7 +1223,7 @@ Summon Konoha Tengus: conj 3->2
 
 Summon Dai Tengu: 55->40 gems
 
-Contact Nushi 25->20 gems
+Contact Nushi* 25->20 gems
 
 Summon Gozu-Mezu: 7->5 gems
 
