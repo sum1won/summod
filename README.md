@@ -1396,52 +1396,43 @@ Logrian Warrior: 12->11 gold
 
 Logrian Cavalry: 30->20 gold
 
-Warden of Avalon: mm1->2
+Warden of Avalon: mapmovement 1->2
 
-Knight 45->35 gold
+Lord Warden: mapmovement 1->2, +H1
 
-Avalon knight 65->50 gold
+Knight of Man: 45->35 gold, rescost(base) 20->15
 
-Knight commander of avalon 110 ->100 gold
+(New Unit) Knight Commander of Man, 60 gold
 
-New Knight Commander of Man, 60 gold
+Knight of Avalon: 65->50 gold, rescost(base) 25->19, +recruitable in sufficiently magical forted forests
 
-Round Table Implementation (Knights of Avalon and Knight Commanders can turn into Knights of the Round Table).
+Knight Commander of Avalon: 126->115 gold, rescost(base) 25->19 
 
-Knights of Avalon are recruitable in sufficiently magical forted forests
+*Round Table Implementation (Knights of Avalon and Knight Commanders of Avalon can turn into Knights of the Round Table).
 
+Mother of Avalon: 195->185 gold, N1H1 +2.0AN +.2WE -> A1N2 +1.0AWE +.25N
 
+*Bonding Wardens is a common event; bonds a Warden to a Mother as a 1batstartsummon
 
+Crone of Avalon: 335->325 gold, A2N3H1 +1.1AWEN -> A2N3H1 +1.0AN +1.0WE
 
-Lord warden mm1->2, H1
+*Man gets the Transformation spell at 5 gems (3 gem discount).
 
-Logrian random AFEN->AFE
+(New Spell) Bewitchment: ench 5, N1A1, AoE 1+ confusion effect, range 25, fatigue 20 
 
-Crone Randoms: AEWN-> AN/.5EWF
+(New Spell) Hex of Minerva: alt 7, N2, 1 gem, AoE 5+, essentially an AoE Polymorph
 
-New Spell: n1a1 "Bewitchment" Aoe1+ confusion effect range 25 fatigue 20 ench 5
+(New Spell) Slumber: evo 8, N4, 1 gem, battlefield-wide, dam 30++++(sleep/stun), mr negates 
 
-Man gets transformation at 5 gems
+(New Spell) Incantantion of Morgan: alt 6, W1N2, Aoe 5, Liquid Body + Weapons of Sharpness
 
-Man gets a Hex spell that is essentially a small-aoe polymorph.  N2, Alt 7, 1 gem, aoe 3+
+(New Spell) Aegis of Niniane: ench 5, N3H1 Aoe 5, Mossbody + Elemental Resistance
 
-Slumber spell added.  Battlefield wide 30++++ fatigue damage mr negates spell.  Evo 8, N4, 1 gem.
+(New Spell) Cloak Of Ygraine: alt 3, A2N2, AoE 5, Luck + Twist Fate
 
-W1N2: Incantantion of Morgan: Aoe 5, Research 6 alt liquid body, weapons of sharpness
+(New Spell) Fortification of Isolde: ench 3, E1N2, AoE 5, Legions of Steel + Weapons of Sharpness, Aoe 5
 
-N3H1: Aegis of Niniane: Aoe 5, Resarch 5 ench Mossbody/Elemental Resistance
-
-A2N2: Cloak Of Ygraine: Luck + Twist Fate, research 3 alt, Aoe 5
-
-E1N2: Fortification of Isolde: Legions of Steel, Weapons of Sharpness, Aoe 5, Research 3 ench
-
-Mother of Avalon paths N(AN)(AN).2(WE)->N2A1(WE).25(N)
-
-Crone paths improved (ANWE)->(AN)(WE)
-
-Bonding Wardens is a common event; bonds a warden to a mother as a 1batstartsummon
-
-New Item: Rowan Staff.  MA Man only, usable by mothers and Crones. N2A2, +2 pen, +2 precision, allows 5 fatigue casting of Bewitchment.
+(New Item) Rowan Staff: N2A2, MA Man only, usable by Mothers and Crones, +2 pen, +2 prec, allows 5 fatigue casting of Bewitchment.
 
 ##### Eriu, Last of the Tuatha
 
