@@ -1059,6 +1059,10 @@ Daughter of Typhon: conj 9->8, 30->20 gems
 
 Horseman: 20->18 gold
 
+Noble: 50->40 gold, rescost(base) 25->10
+
+Noble Commander: 110->100 gold, rescost(base) 25->8
+
 Celestial Servant: 3->2 gems (from MA T'ien Ch'i changes)
 
 Internal Alchemy: 10->2 gems (from MA T'ien Ch'i changes)
@@ -1319,7 +1323,9 @@ Mindlord: 420->360 gold, 1.1%WESD -> 1.0%WSD 1.0%WESD 0.05%ED
 
 Ichtytaurs: 40->35 gold, +gore attack while underwater
 
-Capricorns 360->330 gold, +E1/-W1 pathboost on land, +small chance of a blood random.
+Sirens: W2->W1 +1.0AW (A1W1 Sirens will be A2 in landshape)
+
+Capricorns: 360->330 gold, +E1/-W1 pathboost on land, +small chance of a blood random.
 
 (New Spell) Contact Angelfish: conj 7, N3W3, 40 gems, UW only, (A1W2N3 +1.0AW, +1A/-1W on land, flyer)
 
@@ -1365,7 +1371,7 @@ Telkhine: +increase death scale
 ##### Arcoscephale, The Old Kingdom
 
 ##### Ermor, Ashen Empire
-*Ermor receives a D1 site that spawns in land (not water provinces) they control with high dominion and low population, and reduced cap income. Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor.
+*Ermor receives a D1 site that spawns in provinces (not water provinces) they control with high dominion and low population, and reduced cap income. Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor.
 
 *50% more gold cost for all forts.  
 
@@ -1443,9 +1449,9 @@ Fir Bolg: stone spear->bronze spear
 
 ##### Ulm, Forges of Ulm
 
-Black Knight 50->40 gold, rescost(base) 25->19
+Black Knight: 50->40 gold, rescost(base) 25->19
 
-Black Lord 110->100 gold, rescost(base) 25->19
+Black Lord: 110->100 gold, rescost(base) 25->19
 
 ##### Marignon, Fiery Justice
 
@@ -1459,11 +1465,13 @@ Knight of the Chalice: 55->45 gold, rescost(base) 25->19
 
 Paladin: 155->135 gold, rescost(base) 30->23
 
-Witchhunter 185->175 gold, 0.1 FAES random
+Witchhunter: 185->175 gold, +0.1FAES 
 
-High inquistor- not str, 0.5 S random added
+High Inquistor: not slow-to-recruit, +0.5S 
 
-*Members of the inquisition (nonwitchfinders) can pillage in friendly provinces (with population) to generate flagellants.  More flagellants are generated the higher the rank of the inquisitor.  Higher dominion and the presence of a temple also provide bonuses.
+*Members of the Inquisition (nonwitchfinders) can pillage in friendly provinces (with population) to generate flagellants.  More flagellants are generated the higher the rank of the inquisitor.  Higher dominion and the presence of a temple also provide bonuses.
+
+*(From MA Ermor changes) Ermor receives a D1 site that spawns in provinces (not water provinces) they control with high dominion and low population, and reduced cap income. Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor.
 
 Angel of Fury: 35->25 pearls, blood vengeance 4->0, +damage reflection 2, +self-blesses
 
@@ -1472,40 +1480,45 @@ Angelic Host: S5->S4F1, 50->40 pearls
 Heavely Choir: S7F2->S5F3, 144->88 pearls, (Angels of the Heavely Choir: +weak anti-undead/demon ranged attack)
 
 ##### Mictlan, Reign of the Lawgiver
-Tlahuelpuchi cost 25->33 Pathreq B2->B2D2
 
-Civateteo pathreq B2D2->B2, douse 1
+Sun Warriors: 18->14 gold, hp 12->13, mapmove 1->2
 
-Sun Warriors 12->13 hp, 11->12 strength, 18->15 gold
+Tlahuelpuchi: B2->B2D2, 25->34 slaves
+
+Civateteo: B2D2->B2, (+douse 1)
+
+*From Xibalba changes
+Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
 
 ##### T'ien Ch'i, Imperial Bureaucracy
-Conscription:  Eunuchs foreignrec.  They can summon montag conscripts. Conscripts are militia-stat versions of the 3 footmen and the archer (ratio 1:1:1:2).  On reaching 24 exp, conscripts either desert or become regular units via expshape.
 
-Masters of the Way W (WS) from W (WSAF)
+Eunuchs: 35->75 gold, +foreign recruit, +conscription
+*Conscription: Eunuchs can summon montag conscripts. Conscripts are militia-stat versions of the 3 footmen and the archer (ratio 1:1:1:2). On reaching 24 exp, conscripts either desert or become regular units via expshape.
 
-Celestial Master MM1->2
+Horsemen: 20->18 gold 
 
-Celestial Servant 3->2 gems
+Heavy Horsemen: 35->27 gold
 
-Horsemen, 20->18 gold 
+Imperial Horsemen: 40->30 gold 
 
-Heavy Horsemen, 35->27 discount
+Red Guard: springpower 50->25, 55->45 gold
 
-Imperial Horsemen 40-30 gold dicount
+Prince General: 240->160 gold, +H1, springpower 50->25  
 
-Redguard Springpower 50->25, 55->45 gold
+Masters of the Way: W1H1 1.0AWSN->W1H1 1.0AES
 
-Prince General H1 Springpower 50->25, 240->210 gold 
+Celestial Master: mapmove 1->2
 
-Celestial Servent 3-> 2 gems
+Celestial Servant: 3->2 gems
 
-Internal Alchemy 10-> 2 gems
+Internal Alchemy: 10->2 gems
 
-Thousand Year Ginseng 8->2 gems
+Thousand Year Ginseng: 8->2 gems
 
-Terracotta warriors summons national versions of terracotta troops.
+(New Spell) Terracotta Warriors: summons national versions of terracotta troops.
 
 ##### Machaka, Reign of Sorcerors
+
 Starting army is 20/20
 
 Pygmies are forestrec
