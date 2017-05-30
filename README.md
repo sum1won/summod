@@ -1271,6 +1271,8 @@ Sirrush: 200->170 gold, (prot 15->17)
 
 ##### Berytos, The Phoenix Empire
 
+Telkhine: +increase death scale (from EA Therodos changes)
+
 ##### Xibalba, Vigil of the Sun
 
 *Lances replaced with Stone lances, which are non-iron and +2 resources
@@ -1374,6 +1376,7 @@ Dusk Elders: slightly more resistant to magic duel (equivalent to having +S1)
 ##### Sceleria, The Reformed Empire
 
 ##### Pythium, Emerald Empire
+
 Angel of Fury: 35->25 pearls, blood vengeance 4->0, +damage reflection 2, +self-blesses
 
 Angelic Host: S5->S4F1, 50->40 pearls
@@ -1430,39 +1433,43 @@ Crone of Avalon: 335->325 gold, A2N3H1 +1.1AWEN -> A2N3H1 +1.0AN +1.0WE
 
 (New Spell) Cloak Of Ygraine: alt 3, A2N2, AoE 5, Luck + Twist Fate
 
-(New Spell) Fortification of Isolde: ench 3, E1N2, AoE 5, Legions of Steel + Weapons of Sharpness, Aoe 5
+(New Spell) Fortification of Isolde: ench 3, E1N2, AoE 5, Legions of Steel + Weapons of Sharpness
 
-(New Item) Rowan Staff: N2A2, MA Man only, usable by Mothers and Crones, +2 pen, +2 prec, allows 5 fatigue casting of Bewitchment.
+(New Item) Rowan Staff: const 4, N2A2, MA Man only, usable by Mothers and Crones, +2 pen, +2 prec, allows 5 fatigue casting of Bewitchment.
 
 ##### Eriu, Last of the Tuatha
 
-##### Ulm, Forges of Ulm
-Black Lord 110->100 gold discount
+Fir Bolg: stone spear->bronze spear
 
-Black Knight 50->40 gold discount
+##### Ulm, Forges of Ulm
+
+Black Knight 50->40 gold, rescost(base) 25->19
+
+Black Lord 110->100 gold, rescost(base) 25->19
 
 ##### Marignon, Fiery Justice
-Angel of Fury cost->25 pearls, self-blesses, damage reflection
 
-Angelic Host S5->S4F1, 50->40 pearls
+Flagellant: 10->9 gold 
 
-Heavely Choir ->S5F3, 88 pearls, choir angels now get an anti-undead ranged attack
+Man at Arms: 14->13 gold 
 
-Man at Arms 14->13 gold 
+Royal Guard: 45->35 gold, rescost(base) 20->15
 
-Flagellant 10->9 gold 
+Knight of the Chalice: 55->45 gold, rescost(base) 25->19
+
+Paladin: 155->135 gold, rescost(base) 30->23
 
 Witchhunter 185->175 gold, 0.1 FAES random
 
-Royal Guard - 45->35 gold 
-
-Knight of the Chalice  - 55->45 gold
-
-Paladin - 155->135 gold 
-
 High inquistor- not str, 0.5 S random added
 
-Members of the inquisition (nonwitchfinders) can pillage in friendly provinces (with population) to generate flagellants.  More flagellants are generated the higher the rank of the inquisitor.  Higher dominion and the presence of a temple also provide bonuses.
+*Members of the inquisition (nonwitchfinders) can pillage in friendly provinces (with population) to generate flagellants.  More flagellants are generated the higher the rank of the inquisitor.  Higher dominion and the presence of a temple also provide bonuses.
+
+Angel of Fury: 35->25 pearls, blood vengeance 4->0, +damage reflection 2, +self-blesses
+
+Angelic Host: S5->S4F1, 50->40 pearls
+
+Heavely Choir: S7F2->S5F3, 144->88 pearls, (Angels of the Heavely Choir: +weak anti-undead/demon ranged attack)
 
 ##### Mictlan, Reign of the Lawgiver
 Tlahuelpuchi cost 25->33 Pathreq B2->B2D2
