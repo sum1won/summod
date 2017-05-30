@@ -758,7 +758,7 @@ Mound King: +castable UW
 
 Pale Riders: +castable UW
 
-Poison Golem: 35->25 gems, (banefireshield 5->10, +pierce/slash resist, +fear 10, +mapmovement teleportation)
+Poison Golem: 35->25 gems, (banefireshield 5->10, +pierce/slash resist, +fear 10, +mapmove teleportation)
 
 Reanimation: 5->1 gems, summons 10->4(skeletons)
 
@@ -1396,7 +1396,9 @@ Logrian Warrior: 12->11 gold
 
 Logrian Cavalry: 30->20 gold
 
-Warden of Avalon: mm1->2
+Warden of Avalon: mapmove 1->2
+
+Monk: fixedresearch 3->4
 
 Knight 45->35 gold
 
@@ -1409,9 +1411,6 @@ New Knight Commander of Man, 60 gold
 Round Table Implementation (Knights of Avalon and Knight Commanders can turn into Knights of the Round Table).
 
 Knights of Avalon are recruitable in sufficiently magical forted forests
-
-
-
 
 Lord warden mm1->2, H1
 
