@@ -1392,6 +1392,12 @@ Hydra: 250->180 gold, +recuperation (changes from EA Sauromantia)
 
 Long Spear: scale mail cuirass->chain mail hauberk
 
+Logrian Warrior: 12->11 gold
+
+Logrian Cavalry: 30->20 gold
+
+Warden of Avalon: mm1->2
+
 Knight 45->35 gold
 
 Avalon knight 65->50 gold
@@ -1404,13 +1410,10 @@ Round Table Implementation (Knights of Avalon and Knight Commanders can turn int
 
 Knights of Avalon are recruitable in sufficiently magical forted forests
 
-Logrian Cav 30->20 gold
 
-Warden mm1->2
+
 
 Lord warden mm1->2, H1
-
-Logrian 12->11 gold
 
 Logrian random AFEN->AFE
 
