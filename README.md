@@ -1632,7 +1632,7 @@ Royal Swordsmen: 26->22 gold, att 12->13
 
 White Ones: 24->20 gold
 
-Nagas: 20->15 gems, (falchion->bronze falchion)
+Nagas Warriors: 20->15 gems, (falchion->bronze falchion)
 
 Nagarajas: 30->25 gems, (falchion->bronze falchion)
 
@@ -1955,11 +1955,15 @@ Summon Scorpion Man: conj 8->6, 12->10 gems, (+commander, +iron cap, +torso slot
 
 ##### C'tis, Desert Tombs
 
+Summon Scorpion Man: conj 8->6, 12->10 gems, (+commander, +iron cap, +torso slot)(credit to johannes)
+
 ##### Pangaea, New Era
 
-Pan EDNB random is 10%->30%
+Minotaur Soldier: 40->35
 
-Minotaurs 5 gold discount (50->45; 40->35).
+Grove Guard: 50->45
+
+Pan: 0.1EDNB->0.4
 
 ##### Midgard, Age of Men
 
@@ -1972,20 +1976,24 @@ Awaken Draugar: 12->10 gems
 Awaken Draugar: 12->10 gems
 
 ##### Bogarus, Age of Heroes
+
+Black Hood 25->15 gold 
+
 Grid Druzhina 30->25 gold
 
 Malaia Druzhina 45->35 gold
 
-Styag 40->30 gold
-
-Black Hood 25->15 gold 
+Styag 40->30 gold, AP 23->20
 
 ##### Patala, Reign of the Nagas
-Bandar Archers 18->17 gold
 
-Bandar Warriors 18->17 gold  11->12 attack
+All Vanara Units: -1 gold
 
-All Vanara Units -1 gold
+Light/Bandar Archers 18->17 gold
+
+Bandar Warriors 18->17 gold, 11->12 attack
+
+Nagas Warriors, Naga Chief, Nagaraja: falchion->bronze falchion
 
 *Summon changes from EA Kailasa
 
@@ -2014,26 +2022,35 @@ Summon Sandhyabalas: summons 3->4
 
 ##### Gath, Last of the Giants
 
+Zebulunite Soldier: stone->bronze spear
+
+Naphtali Spearman: stone->bronze spear
+
 ##### Ragha, Dual Kingdom
-PD now use a greater proprotion of light infantry.
+*PD now uses a greater proprotion of light infantry.
 
-Zhayedans cost 40 gold each time they lose a rider
+Paighans: 8->9 gold, mor 9->8
 
-Karapans cost 100->110 gold
+Airya Archers, Infantry, Light Infantry: 10->11 gold
 
-Athravans are coldrec 1, to reduce flying sacred parties
+Savaran Cataphract, Saravan Guard: rescost(base) 15->13
+
+Karapans: 100->110 gold
+
+Zhayedans: cost 40 gold each time they lose a rider
+
+Zhayedan Spahbed: rescost(base) 31->34
+
+Athravans: +coldrec 1 (to reduce flying sacred parties)
 
 Turan Sorcerors are heatrec 2, 225->265 gold
 
 Airya Seraphs are coldrec 2, 225->265 gold
 
-Paighans have militia morale, are 8->9 gold
-
 Turan infantry are all +1 goldcost
 
 Turan Elephants are +10 goldcost
 
-Airya archers and infantry are +1 goldcost
 
 ##### Xibalba, Return of the Zotz
 
