@@ -104,6 +104,7 @@ Table of Contents
         * [R'lyeh, Fallen Star](#rlyeh-fallen-star)
         * [Pelagia, Triton Kings](#pelagia-triton-kings)
         * [Oceania, Mermidons](#oceania-mermidons)  
+        * [Ys, Morgen Queens](#ys-morgen-queens)
     3. [Late Age](late-age)
         * [Arcoscephale, Sibylline Guidance](#arcoscephale-sibylline-guidance)
         * [Pythium, Serpent Cult](#pythium-serpent-cult)
@@ -1756,12 +1757,17 @@ Capricorns: 360->330 gold, +E1/-W1 pathboost on land, +small chance of a blood r
 
 (New Spell) Sharknado: blood 9, B5W3, 40 slaves, UW only, summons 10++ Shark Fiends
 
+##### Ys, Morgen Queens
+
+Morvarc'h Knight, Morgen Champion, Morgen Queen: (base)rescost 20->15
+
 #### Late Age
 
 ##### Arcoscephale, Sibylline Guidance
-Agema Commander 105->100 gold 
 
-Agema Companion 35->30 gold 
+Agema Companion 35->30 gold, (base)rescost 15->12
+
+Agema Commander 105->100 gold, (base)rescost 15->12
 
 ##### Pythium, Serpent Cult
 Folds in LA Pythium overhaul mod. Troops slightly improved, but the main thing is a mechanic that lets you switch between active cults, with different bonuses provided for any of the three possible choices.
