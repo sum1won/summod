@@ -1108,7 +1108,7 @@ Annointed of Rhuax: 0.1->0.5 FESB, +douse 1
 
 (New Spell) Childen of Rhuax: Abysian version of Rhuax Pact, conj 3, F4E1, 2 gems
 
-(New Spell) Abysian Cross Breeding: Abysian-themed version of the Cross Breeding spell  
+(New Spell) Abysian (Improved) Cross Breeding: Abysian-themed version of the (Improved) Cross Breeding spell  
 
 Summon Scorpion Man: conj 8->6, 12->10 gems, (+commander, +iron cap, +torso slot)(credit to johannes)
 
@@ -1519,65 +1519,73 @@ Thousand Year Ginseng: 8->2 gems
 
 ##### Machaka, Reign of Sorcerors
 
-Starting army is 20/20
+*Starting army is 20/20
 
-Pygmies are forestrec
+Pygmies: +forest recruit
 
-Witchdoctors are forestrec, 100 gold, -5 researchbonus, and N (FED)(EDN)from 80 gold FDN
+Machaka Warriors: 10->9 gold, +furs (the ones without javelins), +foreign recruit
 
-Sorcerors are 195->180 gold, FDN2 (EDF) 0.25N from FDN2 1.1(EDNF)
+Machaka Archers: 10->9 gold, +foreign recruit
 
-Sorceresses are 85->90 gold, 0.1->0.4 FEDN
+Hoplites: 14->13 gold
 
-Machaka Archers are 10->9 gold
+Spider Warriors: 25->20 gold, def +1, dagger->poison dagger
 
-Machaka Warriors are 10->9 gold, the ones without javelins wear furs
+Great Spiders(non-sacred mounts): size 5->4, MR5->8, str 11->16, +cost upkeep
 
-Machaka Warriors and Chiefs are Foreignrec
+Spider Riders: 40->30 gold, size 5->4, spear->light lance
 
-Voices of the Lord are 115->90 gold, STR, and Foreignrec
+Spider Knights: 55->40 gold, size 5->4, +single-use light lance
 
-Eyes of the Lord are 90->80 STR and Foreignrec
+Spider Lord: 115->100 gold, size 5->4, +single-use light lance
 
-Ears of the Lord are 65->50 gold and Foreignrec
+Hunter Spiders(sacred mounts) MR5->10, str 16->18, +fear weapon, +cost upkeep	
 
-Bane Spiders are 110->80 gold and have 11->12 strength, 13->14 attack, 10->12 defense
+Machaka Chief: +foreign recruit
 
-Spider Warriors have +1 defense, 25->20 gold, and have dagger->poison dagger
+Bane Spiders: 110->80 gold, str 11->12, att 13->14, def 10->12 
 
-Nonsacred spiders are now size 4, have higher strength and MR, and cost upkeep. 
+Ears of the Lord:  65->50 gold, +foreign recruit
 
-So, spider Knights are 55->40 gold, wield lances, and are size 4
-Spider Riders are 40->25 gold, and size 4 with light lances
+Eyes of the Lord:  90->80 gold, +slow-to-recruit, +foreign recruit
 
-Hunter Spiders (Black spiders) now have a fear weapon	
+Voices of the Lord:  115->105 gold, +slow-to-recruit, +foreign recruit
 
-Spider form has MR 5->10 and strength 16->18, and upkeep 0->50
+Witchdoctors: 80->100 gold, F1D1N1->N1 +1.0FDN +1.0 FED, -4->-6 researchbonus, +forest recruit
 
-Hoplites are 14->13 gold
+Sorceresses:  85->90 gold, 0.1FEDN->0.4 
+
+Sorcerors: 195->180 gold, F1D1N2 +1.0FEDN -> F1D1N2 +1.0FED +0.25N +0.1FEDN
 
 ##### Agartha, Golem Cult
 
 ##### Abysia, Blood and Fire
-Addition of ?Childen of Rhuax? spell - Abysian version of Rhuax pact, requiring F4E1.
 
-Summon scorpion man now summons a commander, costs 10 gems, has torso  credit to  johannes
+Demonbred: DV 50%-100%
 
-Addition ?abysian crossbreeding? (abysian themed version of the crossbreeding spell.)  
+*Spell changes from EA Abysia
 
-GoRing Demonspawn results in either a misbred commander (if they have afflictions), a blood hunter, or an assassin.
+(New Spell) Childen of Rhuax: Abysian version of Rhuax Pact, conj 3, F4E1, 2 gems
+
+(New Spell) Abysian (Improved) Cross Breeding: Abysian-themed version of the (Improved) Cross Breeding spell  
+
+Summon Scorpion Man: conj 8->6, 12->10 gems, (+commander, +iron cap, +torso slot)(credit to johannes)
+
+*Casting Gift of Reason on demonspawn results in either a misbred commander (if they have afflictions), a blood hunter, or an assassin.
 
 ##### Caelum, Reign of the Seraphim
 
-Spire Horn Archers (128) get a composite bow instead of a shortbow
+Spire Horn Archers: shortbow->composite bow
 
-Ice Bow does 9->11 damage
+Frost Bow: dmg 9->11
 
-New Monster: Ice Enchanter.  W2 with an FSD random and a AWS random
+(New Unit) Ice Enchanter: 205 gold, W2 +1.0FSD +1.0AWS, cap only, forgebonus 1, iceforging 7
 
 ##### C'tis, Miasma
 
 *Shaman Prophetshape gets a pathboost (S/N +1)
+
+Summon Scorpion Man: conj 8->6, 12->10 gems, (+commander, +iron cap, +torso slot)(from Abysia changes-credit to johannes)
 
 ##### Pangaea, Age of Bronze
 
@@ -1587,13 +1595,17 @@ War Warriors: 50->45 gold
 
 ##### Asphodel, Carrion Woods
 
-Spawns occasional N1 sites on sufficiently decayed templed forest provinces
+*Spawns occasional N1 sites on sufficiently decayed templed forest provinces
 
-Minotaurs 5 gold discount (50->45; 40->35)
+Minotaurs: 40->35 gold
+
+War Warriors: 50->45 gold
 
 ##### Vanheim, Arrival of Man
 
 Summon Valkyries: A3D1->A2D1, (from EA Helheim change)
+
+Awaken Draugar: 12->10 gems
 
 ##### Jotunheim, Iron Woods
 
