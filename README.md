@@ -1924,28 +1924,32 @@ Dai Oni: conj 8->7, 45->35 gems
 Kitsune: 30->23 gems
 
 ##### Agartha, Ktonian Dead
-Blindlord; 140->110 gold, insp 1, goodleader->okleader
 
-Blindfighter Strength 11->12
+Blindfighter: str 11->12
 
-Cave Knight 10 gold discount
+Cave Knight: 100->90 gold
 
-Servant of Oracles given mm2
+Blindlord: 140->110 gold, +H1, goodleader->okleader, +inspirational 1
+
+Servant of Oracles: mapmove 1->2
 
 ##### Abysia, Blood of Humans
-Addition of ?Childen of Rhuax? spell - Abysian version of Rhuax pact, requiring F4E1.
 
-Summon scorpion man now summons a commander, costs 10 gems, has torso  credit to  johannes
+Newts: 85->70 gold
 
-Addition ?abysian crossbreeding? (abysian themed version of the crossbreeding spell.)  
+Anathemant Salamanders 210->195 gold, +0.2FESD
 
-GoRing Demonspawn results in either a misbred commander (if they have afflictions), a blood hunter, or an assassin.
+Anathemant Dragons  310->295 gold, +0.2FESD
 
-Newts discounted by 85->70 gold
+*Spell changes from EA Abysia
 
-Anathemant Salamanders 175->160 gold, given 0.2 FESD  random
+(New Spell) Childen of Rhuax: Abysian version of Rhuax Pact, conj 3, F4E1, 2 gems
 
-Anathemant Dragons  310->295 gold, given 0.2 FESD additional random
+(New Spell) Abysian (Improved) Cross Breeding: Abysian-themed version of the (Improved) Cross Breeding spell  
+
+Summon Scorpion Man: conj 8->6, 12->10 gems, (+commander, +iron cap, +torso slot)(credit to johannes)
+
+*Casting Gift of Reason on demonspawn results in either a misbred commander (if they have afflictions), a blood hunter, or an assassin.
 
 ##### Caelum, Return of the Raptors
 
