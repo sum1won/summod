@@ -1374,7 +1374,9 @@ Telkhine: +increase death scale
 ##### Arcoscephale, The Old Kingdom
 
 ##### Ermor, Ashen Empire
-*Ermor receives a D1 site that spawns in provinces (not water provinces) they control with high dominion and low population, and reduced cap income. Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor.
+*Ermor receives a D1 site that spawns in provinces (not water provinces) they control with high dominion and low population. Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor.
+
+*Reduced capital income.
 
 *50% more gold cost for all forts.  
 
@@ -1474,7 +1476,7 @@ High Inquistor: not slow-to-recruit, +0.5S
 
 *Members of the Inquisition (nonwitchfinders) can pillage in friendly provinces (with population) to generate flagellants.  More flagellants are generated the higher the rank of the inquisitor.  Higher dominion and the presence of a temple also provide bonuses.
 
-*(From MA Ermor changes) Ermor receives a D1 site that spawns in provinces (not water provinces) they control with high dominion and low population, and reduced cap income. Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor.
+*(From MA Ermor changes) Ermor receives a D1 site that spawns in provinces (not water provinces) they control with high dominion and low population. Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor.
 
 Angel of Fury: 35->25 pearls, blood vengeance 4->0, +damage reflection 2, +self-blesses
 
@@ -1783,119 +1785,143 @@ Fertility cult can convert casters into Galli, who are their clergy, and their m
 Reference is made to https://docs.google.com/document/d/1nkTDn9yhYQrRcN6k0dTjzs5DpuKxiauV76wA0zQnkTs for the full changelog.
 
 ##### Lemuria, Soul Gates
-Spectrals weapons are now hardmrnegates.  
 
-Receive a D1 site that spawns in land (not water provinces) they control with high dominion and low population,
+*Receive a D1 site that spawns in land (not water provinces) they control with high dominion and low population.
 
-reduced cap income.  
+*Reduced capital income.  
 
-Prefers cold 1
+*Prefers Cold 1.
 
-Pays 50% more for all forts, but recruits from fortera 2
+*Pays 50% more for all forts, but recruits from fortera 2.
 
-Starts with a D2 mage; 
+*Spectral weapons are now hardmrnegates.  
 
-acolytes D1H1-> D1H1(DS)
+*Chance of spawning Tribunes and Centurions in capital during expansion.
 
-PD uses centurions.  Acolytes appear at 20 pd.
+*Starts with a D2 mage.
 
-Chance of spawning tribunes and centurions in capital during expansion.
+PD uses Centurions. Acolytes appear at 20 PD.
+
+Acolytes: D1H1->D1H1 +1.0SD
 
 ##### Man, Towers of Chelms
-Tower Knight 45gold->35
 
-Axemen mm1-> mm2
+Axemen, Heavy Axemen: mapmove 1->2
 
-Warden, Lord Warden MM2
+Long Spear: scale mail cuirass->chain mail hauberk
 
-Magister Arcane: Siege bonus, siege defense 10
+Wardens, Lord Warden: mapmove 1->2
 
-Magister: Always provides research, magic paths changed from 0.5A, 0.5E, 0.25S to 0.40 AE, 0.5 S, 100->70 gold.
+Tower Knight: 45->35 gold, (base)rescost 20->15
 
-Judge 70->50 gold, paths changed from 0.25F, 0.25D to 0.45F, 0.45D, no longer needs forts
+Judge: 70->50 gold, 0.25F 0.25D->0.45F 0.45D
+
+Magister Arcane: +siege bonus 10, +castle defense 10
+
+Magister: 100->70 gold, 0.5A 0.5E 0.25S->0.40 AE 0.5S, +fixedresearch 5
 
 ##### Ulm, Black Forest
-Black Templar 70->50 gold 
 
-Hochmeister 120->105 gold 
+Black Templar: 70->50 gold, (base)rescost 30->23
+
+Hochmeister: 120->110 gold 
 
 ##### Marignon, Conquerors of the Sea
-Angel of Fury cost->25 pearls, self-blesses, damage reflection
 
-Angelic Host S5->S4F1, 50->40 pearls
+Starting Army: City Guard->Pikeneers
 
-Heavely Choir S6F2->S5F3, 88 pearls, choir angels now get an anti-undead ranged attack
+Flagellant: 10->9 gold
 
-Starting Army city guard -> Pikeneers
+?Goetic Masters: are stronger ritual casters
 
-Goetic Masters are stronger ritual casters
+Angel of Fury: 35->25 pearls, blood vengeance 4->0, +damage reflection 2, +self-blesses
+
+Angelic Host: S5->S4F1, 50->40 pearls
+
+Heavely Choir: S7F2->S5F3, 144->88 pearls, (Angels of the Heavely Choir: +weak anti-undead/demon ranged attack)
 
 ##### Mictlan, Blood and Rain
-Rain Warriors 23->20 gold
 
-Returned have stone glaives (7 damage) instead of spears
+Rain Warriors: 23->19 gold
 
-sun warriors cost 18->15; Hp 12->13; Strength 10->11
+Returned/Lord of the Deep: stone spears-> stone glaives (7 damage)
 
-Tlahuelpuchi cost 25-33 Pathreq B2->B2D2
+Rain Priest: Dagger->(UW)Knife
 
-Civateteo pathreq B2D2->B2, douse 1
+Tlahuelpuchi: B2->B2D2, 25->34 slaves
+
+Civateteo: B2D2->B2, (+douse 1)
+
+*From Xibalba changes
+Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
 
 ##### T'ien Ch'i, Barbarian Kings
-Khan 140->130 gold
 
-Light Barbarian Horsemen 20->17 gold
+Barbarian Horsemen: 20->17 gold
+
+Khan: 140->130 gold
+
+*From EA T'ien Ch'i changes:
+
+Celestial Servant: 3->2 gems
+
+Internal Alchemy: 10->2 gems
 
 ##### Jomon, Human Daimyos
-Ashigaru Archer added (As Ashigaru is to Bandit: 8 gold, not stealthy)
 
-Samurai, Samurai archer 9->10 hp
+(New Unit) Ashigaru Archer: 8 gold, Ashigaru yari->short bow/wakizashi
+
+Samurai, Samurai Archer: 9->10 hp
 
 Aka-Oni Samurai 15->14 gold
 
-Samurai Cav 40->30 gold, Longbow
+Sohei, Yamabushi: 26->20 gold
 
-Sohei, Yamabushi 26 gold -> 21
+Shrimp Soldier, Shark Warrior, Crab General: full scale mail->laminated mail
 
-Mounted Gokenin, Hatamoto given Longbows
+Samurai Cavalry: 40->30 gold, +longbow
 
-Fivefold path monks: 1.00->1.20 randoms
+Mounted Gokenin: 55->45 gold, +longbow
 
-meditation sign: 20+5/level fatigue reduction
+Hatamoto: 85->75 gold, +longbows
 
-earth-touching sign: range scales
+Daimyo: 125-125 gold
 
-welcome sign: range scales
+Monk of the Fivefold Path: 1.00FAWEN->1.20 
 
-Courage sign: Aoe 2++->4++
+Earth-touching Sign: +range scales
 
-Tatsu 200% randoms->300%, 19 gems->25
+Welcome Sign: +range scales
 
-Gozu-Mezu 7->5 gems
+Fear-not Sign: Aoe 2++->4++
 
-Summon Ko Oni effects 5+ >7++
+Constact Tatsu: 19->25 gems, 2.0FAWEN->3.0
 
-Summon Ao Oni  10->4 gems
+Summon Karasu Tengus: conj 2->5, N1A1->N3A1, 3->10 gems, summons 3->12+
 
-Summon Aka Oni 10->4 gems
+Summon Konoha Tengus: conj 3->2
 
-Summon Oni - 12->7 gems
+Summon Dai Tengu: 55->40 gems
 
-Summon Kuro Oni 10->6 gems, 4->4+ effects
+Contact Nushi: 25->20 gems
 
-Oni General  Research 6->5, 20->14 gems
+Summon Gozu-Mezu: 7->5 gems
 
-Dai Oni 45->35 gems, research 8->7
+Summon Ko Oni: summons 5+->7++
 
-Karusu Tengu Conj 2-> 5, 3->10 gems, 3->10+ effects
+Summon Ao Oni:  10->4 gems
 
-Konoha Tengu research level 3->2
+Summon Aka Oni: 10->4 gems
 
-Dai Tengu 55->40 gems
+Summon Oni: 12->7 gems
 
-Nushi 25->20 gems
+Summon Kuro Oni: 10->6 gems, summons 4->4+
 
-Kitsune 30->23 gems
+Oni General: conj 6->5, 20->14 gems
+
+Dai Oni: conj 8->7, 45->35 gems
+
+Kitsune: 30->23 gems
 
 ##### Agartha, Ktonian Dead
 Blindlord; 140->110 gold, insp 1, goodleader->okleader
