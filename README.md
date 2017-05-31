@@ -758,7 +758,7 @@ Mound King: +castable UW
 
 Pale Riders: +castable UW
 
-Poison Golem: 35->25 gems, (banefireshield 5->10, +pierce/slash resist, +fear 10, +mapmovement teleportation)
+Poison Golem: 35->25 gems, (banefireshield 5->10, +pierce/slash resist, +fear 10, +mapmove teleportation)
 
 Reanimation: 5->1 gems, summons 10->4(skeletons)
 
@@ -1085,7 +1085,7 @@ Spider Clan Sorcerer: +not slow-to-recruit
 
 Spider Rider: size 5->4, 50->35 gold
 
-Great Spider: +20 gold, size 5->4, MR5->8, str 11->16 (from MA Machaka changes)
+Great Spider: size 5->4, MR5->8, str 11->16, +cost upkeep (from MA Machaka changes)
 
 ##### Mictlan, Reign of Blood
 
@@ -1227,7 +1227,7 @@ Summon Konoha Tengus: conj 3->2
 
 Summon Dai Tengu: 55->40 gems
 
-Contact Nushi* 25->20 gems
+Contact Nushi: 25->20 gems
 
 Summon Gozu-Mezu: 7->5 gems
 
@@ -1280,6 +1280,8 @@ Telkhine: +increase death scale (from EA Therodos changes)
 ##### Xibalba, Vigil of the Sun
 
 *Lances replaced with Stone lances, which are non-iron and +2 resources
+
+Obsidian Dart: ammo 4->6 (Xibalban Dart Thrower)
 
 Xibalban Warrior: 7->8 gold
 
@@ -1405,9 +1407,9 @@ Logrian Warrior: 12->11 gold
 
 Logrian Cavalry: 30->20 gold
 
-Warden of Avalon: mapmovement 1->2
+Warden of Avalon: mapmove 1->2
 
-Lord Warden: mapmovement 1->2, +H1
+Lord Warden: mapmove 1->2, +H1
 
 Knight of Man: 45->35 gold, rescost(base) 20->15
 
@@ -1657,76 +1659,102 @@ Summon Samanishada: B3D1->B2D1, 35->30 slaves
 Summon Sandhyabalas: summons 3->4
 
 ##### Shinuyama, Land of the Bakemono
+
+*Size 2 Bakemono units are now slaves.
+
+Dai Bakemono(both): 30->25 gold
+
+Dai Bakemono(without bow): 11->12 attack
+
+Shuten-Doji: +taskmaster 2
+
+Bakemono General: +inspirational 1
+
+Bakemono Shaman: +0.2F +0.2E +0.2D
+
 Kappa Shaman: +UW recruit
-
-Size 2 Bakemono are now slaves
-
-Shuten-Doji Taskmaster 2
-
-Bakemono General Inspiration 1
-
-Bakemono Shaman get 0.2 F, 0.2 E, 0.2 D randoms
-
-Dai Bakemono 30->25 gold
-
-Dai Bakemono without bow 11->12 attack
 
 (New Unit) Kappa Mage: W1, 45 gold, UW fort recuit
 
+Summon Karasu Tengus: conj 2->5, N1A1->N3A1, 3->10 gems, summons 3->12+
+
+Summon Konoha Tengus: conj 3->2
+
+Summon Dai Tengu: 55->40 gems
+
+Contact Nushi: 25->20 gems
+
 Summon Gozu-Mezu: 7->5 gems
 
-Summon Ko Oni effects 5+ >7++
+Summon Ko Oni: summons 5+->7++
 
-Summon Ao Oni  10->4 gems
+Summon Ao Oni:  10->4 gems
 
-Summon Aka Oni 10->4 gems
+Summon Aka Oni: 10->4 gems
 
-Summon Oni - 12->7 gems
+Summon Oni: 12->7 gems
 
-Summon Kuro Oni 10->6 gems, 4->4+ effects
+Summon Kuro Oni: 10->6 gems, summons 4->4+
 
-Oni General  Research 6->5, 20->14 gems
+Oni General: conj 6->5, 20->14 gems
 
-Dai Oni 45->35 gems, research 8->7
+Dai Oni: conj 8->7, 45->35 gems
 
-Karusu Tengu Conj 2-> 5, 3->10 gems, 3->10+ effects
+Kitsune: 30->23 gems
 
-Konoha Tengu research level 3->2
-
-Dai Tengu 55->40 gems
-
-Nushi 25->20 gems
-
-Kitsune 30->23 gems
-
-New Ritual ?Hide Heart? (D2F2, 16 gems, research 5) produces a ?Ritual Assistant? that, when alone with a Sorceror on a mountain that isn?t already occupied, generates a hidden heart and makes the sorceror immortal.  However, if the heart is destroyed, the sorceror dies.
+(New Spell) Hide Heart: ench 5, D2F2, 16 gems, produces a 'Ritual Assistant' that, when alone with a Sorceror on a mountain that isn't already occupied, generates a hidden heart and makes the sorceror immortal.  However, if the heart is destroyed, the sorceror dies.
 
 ##### Ashdod, Reign of the Anakim
 
 ##### Nazca, Kingdom of the Sun
 
 ##### Xibalba, Flooded Caves
-Jungle Muuch mm2
 
-Darts ammo 4->6
+Obsidian Dart: ammo 4->6 (Muuch Dart Thrower)
 
-Muuch Warrior (Bronze): +1 morale, attack, defense, +4 gold
+Poison Dart: ammo 4->6, stun damage 25->50 (same as blowpipe)(Chak Muuch Assassin/Dart Thrower)
 
-Red Muuch not cap limited
+Zotz Warriors: 7->8 gold, lance->stone lance(non-iron and +2 resources)
 
-Poison Dart stun damage increased to 50 (same as blowpipe)
+Muuch Jungle Warrior: mapmove 1->2
 
-Obsidian Warrior 26->22 gcost
+Muuch Warriors(bronze armor): 10->13 gold, mor 10->11, att 10->11, def 9->10, stone->bronze spear
 
-muuch kahal paths W2E1D1(WEDN)-> W1E1D1 (WD) (WEDN) or (WED)(WDN)
+Chak Muuch Obsidian Warrior: 26->22 gcost, +not cap-only
+
+Chak Muuch Dart Thrower: +not cap-only
+
+Ah Itz: stone dagger->knife
+
+Muuch K'uhul: 290->265 gold, W2E1D1H1 +1.0WEDN -> W1E1D1H1 +1.0WD +1.1WEDN), stone dagger->knife
 
 ##### Atlantis, Kings of the Deep
 
 ##### R'lyeh, Fallen Star
 
+*Ferrous equipment replaced with UW equivalents
+
 ##### Pelagia, Triton Kings
 
 ##### Oceania, Mermidons
+
+Ichtytaurs: 40->35 gold, +gore attack while underwater, berserk 2->3 (beserk change to align with EA)
+
+*Below are changes from EA Oceania
+
+Sirens: W2->W1 +1.0AW (A1W1 Sirens will be A2 in landshape)
+
+Capricorns: 360->330 gold, +E1/-W1 pathboost on land, +small chance of a blood random.
+
+(New Spell) Contact Angelfish: conj 7, N3W3, 40 gems, UW only, (A1W2N3 +1.0AW, +1A/-1W on land, flyer)
+
+(New Spell) Contact Devilfish: blood 7, B3W3, 50 slaves, UW only, (W1E1B3 demon-kraken, aquatic)
+
+(New Spell) Bind Shark Fiends: blood 4, 13 slaves, (demon-shark, berserking, 3 attacks, amphibious)
+
+(New Spell) Feeding Frenzy: thau 4, N2B1, 2 gems, UW only, battlefield-wide animal and demon berserk
+
+(New Spell) Sharknado: blood 9, B5W3, 40 slaves, UW only, summons 10++ Shark Fiends
 
 #### Late Age
 
@@ -1972,6 +2000,9 @@ Turan Elephants are +10 goldcost
 Airya archers and infantry are +1 goldcost
 
 ##### Xibalba, Return of the Zotz
+
+Obsidian Dart: ammo 4->6 (Zotz/Sak Muuch Dart Thrower)
+
 Beastbats 1.44 siege defense from 2.44, undisciplined, lower MR.
 
 Chilans Recruited in Caves are STR
