@@ -2027,6 +2027,7 @@ Zebulunite Soldier: stone->bronze spear
 Naphtali Spearman: stone->bronze spear
 
 ##### Ragha, Dual Kingdom
+
 *PD now uses a greater proprotion of light infantry.
 
 Paighans: 8->9 gold, mor 9->8
@@ -2035,32 +2036,37 @@ Airya Archers, Infantry, Light Infantry: 10->11 gold
 
 Savaran Cataphract, Saravan Guard: rescost(base) 15->13
 
-Karapans: 100->110 gold
+Turan Infantry 11->12 gold
+
+Turan Heavy Infantry 13->14 gold
+
+Turan Spahbed, Shah: rescost(base) 15->12
+
+Turan War Elephants 100->110 gold
 
 Zhayedans: cost 40 gold each time they lose a rider
 
 Zhayedan Spahbed: rescost(base) 31->34
 
+Karapans: 100->110 gold
+
 Athravans: +coldrec 1 (to reduce flying sacred parties)
 
-Turan Sorcerors are heatrec 2, 225->265 gold
+Turan Sorcerors: 225->260 gold, heatrec 1->2
 
-Airya Seraphs are coldrec 2, 225->265 gold
-
-Turan infantry are all +1 goldcost
-
-Turan Elephants are +10 goldcost
-
+Airya Seraphs: 225->260 gold, coldrec 1->2
 
 ##### Xibalba, Return of the Zotz
 
 Obsidian Dart: ammo 4->6 (Zotz/Sak Muuch Dart Thrower)
 
+Zotz: lances->stone (recost +2)
+
 Beastbats 1.44 siege defense from 2.44, undisciplined, lower MR.
 
 Chilans Recruited in Caves are STR
 
-Zotz lances are stone, and cost +2 resources
+
 
 Zotz cost a minimum of 8 gold.
 
