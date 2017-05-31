@@ -1617,19 +1617,19 @@ Awaken Draugar: 12->10 gems
 
 ##### Bandar Log, Land of the Apes
 
-White Ones -5 gold
+All Vanara Units: -1 gold
 
-Royal Swordsmen -4 gold, +1 atk
+Light/Bandar Archers 18->17 gold
 
-Bandar Archers 18->17 gold
+Bandar Warriors 18->17 gold, 11->12 attack
 
-Bandar Warriors 18->17 gold  11->12 attack
+Royal Swordsmen: 26->22 gold, att 12->13
 
-All Vanara Units -1 gold
+White Ones: 24->20 gold
 
-Nagas 20->15 gems
+Nagas: 20->15 gems, (falchion->bronze falchion)
 
-Nagaraja 30->25 gems
+Nagarajas: 30->25 gems, (falchion->bronze falchion)
 
 *Summon changes from EA Kailasa
 
