@@ -734,7 +734,7 @@ Abomination: conj 25->15 pearls
 Eater of the Dead: 8->6, D4S4->D3S2, 50->25 pearls, (+FR5, +SR5, +pierceresist
 acid shield at three highest levels, slimer at two highest levels, plague at the highest level)
 
-Ether gate: 90->65 pearls, (ether lord hp 25->30; ether warriors hp 22->25)
+Ether Gate: 90->65 pearls, (ether lord hp 25->30; ether warriors hp 22->25)
 
 Golem: 30->25 pearls
 
