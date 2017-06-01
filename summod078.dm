@@ -2264,7 +2264,7 @@ These scouts will become commanders after recruitment."
 #selectitem 21 --smasher
 #mainlevel 1
 #end
-#selectweapon 61 --snake bladder
+#selectweapon 183 --snake bladder
 #aoe 5
 #end
 #selectweapon 219 --falsefetters for star of thralldom
