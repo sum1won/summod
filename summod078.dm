@@ -2356,7 +2356,7 @@ These scouts will become commanders after recruitment."
 #selectweapon 41
 #dmg 12
 #end
-#selectitem 83 --banefirexbow
+#selectitem 82 --banefirexbow
 #constlevel 4
 #end
 #selectweapon 434
