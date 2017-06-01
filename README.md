@@ -1030,7 +1030,7 @@ Equites of the Sacred Shroud: 50->45 gold
 
 Eponi Knights: 30->25 gold, +hoof attack
 
-Eponi Chieftan: 100->95 gold, +hoof attack
+Eponi Chieftain: 100->95 gold, +hoof attack
 
 ##### Sauromatia, Amazon Queens
 
@@ -1107,7 +1107,7 @@ Anathement Salamander: +0.1 ESDB, 175->150 gold
 
 Annointed of Rhuax: 0.1->0.5 FESB, +douse 1
 
-(New Spell) Childen of Rhuax: Abysian version of Rhuax Pact, conj 3, F4E1, 2 gems
+(New Spell) Children of Rhuax: Abysian version of Rhuax Pact, conj 3, F4E1, 2 gems
 
 (New Spell) Abysian (Improved) Cross Breeding: Abysian-themed version of the (Improved) Cross Breeding spell  
 
@@ -1119,7 +1119,7 @@ Summon Scorpion Man: conj 8->6, 12->10 gems, (+commander, +iron cap, +torso slot
 
 ##### C'tis, Lizard Kings
 
-Lizard Chariot: 50->40 gold, 26->20 rescost, (bronze scale mail curaiss->iron, bronze cap->iron)
+Lizard Chariot: 50->40 gold, 26->20 rescost, (bronze scale mail cuiraiss->iron, bronze cap->iron)
 
 Serpent Dancers: stronger weapons (snake staff: att 1->2, dmg 3->5, on-hit poison 5[weak]->15[strong])
 
@@ -1310,11 +1310,11 @@ Polypal Spawn: can go on land but die after 2 turns
 
 Androdai: 190->125 gold, 1.0%WESD->1.1%WED
 
-Polypal Mothers: +can research
+Polypal Mother: +can research
 
 Grandmother: +inspired researcher
 
-Mindlord: 420->360 gold, 1.1%WESD -> 1.0%WSD 1.0%WESD 0.05%ED
+Mind Lord: 420->360 gold, 1.1%WESD -> 1.0%WSD 1.0%WESD 0.05%ED
 
 (New Spell) Blessing of Limne: const 6, W4, 10 gems, mass-forge spell to produce Amulets of the Fish
 
@@ -1392,15 +1392,15 @@ Angel of Fury: 35->25 pearls, blood vengeance 4->0, +damage reflection 2, +self-
 
 Angelic Host: S5->S4F1, 50->40 pearls
 
-Heavely Choir: S7F2->S5F3, 144->88 pearls, (Angels of the Heavely Choir: +weak anti-undead/demon ranged attack)
+Heavenly Choir: S7F2->S5F3, 144->88 pearls, (Angels of the Heavenly Choir: +weak anti-undead/demon ranged attack)
 
 Serpent Cataphract: 60->45 gold, rescost 56->49
 
 Serpent Lord: 90->75 gold, rescost 56->49
 
-Hydra Hatchling: 35->28 gold, +recuperation (changes from EA Sauromantia)
+Hydra Hatchling: 35->28 gold, +recuperation (changes from EA Sauromatia)
 
-Hydra: 250->180 gold, +recuperation (changes from EA Sauromantia)
+Hydra: 250->180 gold, +recuperation (changes from EA Sauromatia)
 
 ##### Man, Tower of Avalon
 
@@ -1438,11 +1438,11 @@ Crone of Avalon: 335->325 gold, A2N3H1 +1.1AWEN -> A2N3H1 +1.0AN +1.0WE
 
 (New Spell) Slumber: evo 8, N4, 1 gem, battlefield-wide, dam 30++++(sleep/stun), mr negates 
 
-(New Spell) Incantantion of Morgan: alt 6, W1N2, Aoe 5, Liquid Body + Weapons of Sharpness
+(New Spell) Incantantion of Morgan: alt 6, W1N2, AoE 5, Liquid Body + Weapons of Sharpness
 
-(New Spell) Aegis of Niniane: ench 5, N3H1 Aoe 5, Mossbody + Elemental Resistance
+(New Spell) Aegis of Niniane: ench 5, N3H1 AoE 5, Mossbody + Elemental Resistance
 
-(New Spell) Cloak Of Ygraine: alt 3, A2N2, AoE 5, Luck + Twist Fate
+(New Spell) Cloak of Ygraine: alt 3, A2N2, AoE 5, Luck + Twist Fate
 
 (New Spell) Fortification of Isolde: ench 3, E1N2, AoE 5, Legions of Steel + Weapons of Sharpness
 
@@ -1470,11 +1470,11 @@ Knight of the Chalice: 55->45 gold, rescost(base) 25->19
 
 Paladin: 155->135 gold, rescost(base) 30->23
 
-Witchhunter: 185->175 gold, +0.1FAES 
+Witch Hunter: 185->175 gold, +0.1FAES 
 
-High Inquistor: not slow-to-recruit, +0.5S 
+High Inquisitor: not slow-to-recruit, +0.5S 
 
-*Members of the Inquisition (nonwitchfinders) can pillage in friendly provinces (with population) to generate flagellants.  More flagellants are generated the higher the rank of the inquisitor.  Higher dominion and the presence of a temple also provide bonuses.
+*Members of the Inquisition (non-witch finders) can pillage in friendly provinces (with population) to generate flagellants.  More flagellants are generated the higher the rank of the inquisitor.  Higher dominion and the presence of a temple also provide bonuses.
 
 *(From MA Ermor changes) Ermor receives a D1 site that spawns in provinces (not water provinces) they control with high dominion and low population. Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor.
 
@@ -1482,7 +1482,7 @@ Angel of Fury: 35->25 pearls, blood vengeance 4->0, +damage reflection 2, +self-
 
 Angelic Host: S5->S4F1, 50->40 pearls
 
-Heavely Choir: S7F2->S5F3, 144->88 pearls, (Angels of the Heavely Choir: +weak anti-undead/demon ranged attack)
+Heavenly Choir: S7F2->S5F3, 144->88 pearls, (Angels of the Heavenly Choir: +weak anti-undead/demon ranged attack)
 
 ##### Mictlan, Reign of the Lawgiver
 
@@ -1570,7 +1570,7 @@ Demonbred: DV 50%-100%
 
 *Spell changes from EA Abysia
 
-(New Spell) Childen of Rhuax: Abysian version of Rhuax Pact, conj 3, F4E1, 2 gems
+(New Spell) Children of Rhuax: Abysian version of Rhuax Pact, conj 3, F4E1, 2 gems
 
 (New Spell) Abysian (Improved) Cross Breeding: Abysian-themed version of the (Improved) Cross Breeding spell  
 
@@ -1580,7 +1580,7 @@ Summon Scorpion Man: conj 8->6, 12->10 gems, (+commander, +iron cap, +torso slot
 
 ##### Caelum, Reign of the Seraphim
 
-Spire Horn Archers: shortbow->composite bow
+Spire Horn Archers: short bow->composite bow
 
 Frost Bow: dmg 9->11
 
@@ -1600,7 +1600,7 @@ War Warriors: 50->45 gold
 
 ##### Asphodel, Carrion Woods
 
-*Spawns occasional N1 sites on sufficiently decayed templed forest provinces
+*Spawns occasional N1 sites on sufficiently decayed, templed forest provinces
 
 Minotaurs: 40->35 gold
 
@@ -1677,7 +1677,7 @@ Bakemono Shaman: +0.2F +0.2E +0.2D
 
 Kappa Shaman: +UW recruit
 
-(New Unit) Kappa Mage: W1, 45 gold, UW fort recuit
+(New Unit) Kappa Mage: W1, 45 gold, UW fort recruit
 
 Summon Karasu Tengus: conj 2->5, N1A1->N3A1, 3->10 gems, summons 3->12+
 
@@ -1705,7 +1705,7 @@ Dai Oni: conj 8->7, 45->35 gems
 
 Kitsune: 30->23 gems
 
-(New Spell) Hide Heart: ench 5, D2F2, 16 gems, produces a 'Ritual Assistant' that, when alone with a Sorceror on a mountain that isn't already occupied, generates a hidden heart and makes the sorceror immortal.  However, if the heart is destroyed, the sorceror dies.
+(New Spell) Hide Heart: ench 5, D2F2, 16 gems, produces a 'Ritual Assistant' that, when alone with a Sorceror on a mountain that isn't already occupied, generates a hidden heart and makes the Sorceror immortal.  However, if the heart is destroyed, the Sorceror dies.
 
 ##### Ashdod, Reign of the Anakim
 
@@ -1723,7 +1723,7 @@ Muuch Jungle Warrior: mapmove 1->2
 
 Muuch Warriors(bronze armor): 10->13 gold, mor 10->11, att 10->11, def 9->10, stone->bronze spear
 
-Chak Muuch Obsidian Warrior: 26->22 gcost, +not cap-only
+Chak Muuch Obsidian Warrior: 26->22 gold, +not cap-only
 
 Chak Muuch Dart Thrower: +not cap-only
 
@@ -1741,7 +1741,7 @@ Muuch K'uhul: 290->265 gold, W2E1D1H1 +1.0WEDN -> W1E1D1H1 +1.0WD +1.1WEDN), sto
 
 ##### Oceania, Mermidons
 
-Ichtytaurs: 40->35 gold, +gore attack while underwater, berserk 2->3 (beserk change to align with EA)
+Ichtytaurs: 40->35 gold, +gore attack while underwater, berserk 2->3 (berserk change to align with EA)
 
 *Below are changes from EA Oceania
 
@@ -1838,7 +1838,7 @@ Angel of Fury: 35->25 pearls, blood vengeance 4->0, +damage reflection 2, +self-
 
 Angelic Host: S5->S4F1, 50->40 pearls
 
-Heavely Choir: S7F2->S5F3, 144->88 pearls, (Angels of the Heavely Choir: +weak anti-undead/demon ranged attack)
+Heavenly Choir: S7F2->S5F3, 144->88 pearls, (Angels of the Heavenly Choir: +weak anti-undead/demon ranged attack)
 
 ##### Mictlan, Blood and Rain
 
@@ -1893,7 +1893,7 @@ Earth-touching Sign: +range scales
 
 Welcome Sign: +range scales
 
-Fear-not Sign: Aoe 2++->4++
+Fear-not Sign: AoE 2++->4++
 
 Constact Tatsu: 19->25 gems, 2.0FAWEN->3.0
 
@@ -1943,7 +1943,7 @@ Anathemant Dragons  310->295 gold, +0.2FESD
 
 *Spell changes from EA Abysia
 
-(New Spell) Childen of Rhuax: Abysian version of Rhuax Pact, conj 3, F4E1, 2 gems
+(New Spell) Children of Rhuax: Abysian version of Rhuax Pact, conj 3, F4E1, 2 gems
 
 (New Spell) Abysian (Improved) Cross Breeding: Abysian-themed version of the (Improved) Cross Breeding spell  
 
@@ -2028,7 +2028,7 @@ Naphtali Spearman: stone->bronze spear
 
 ##### Ragha, Dual Kingdom
 
-*PD now uses a greater proprotion of light infantry.
+*PD now uses a greater proportion of Light Infantry.
 
 Paighans: 8->9 gold, mor 9->8
 
@@ -2070,7 +2070,7 @@ Sak Muuch Warrior: stone->bronze spear
 
 Batab: +slow-to-recruit outside forts
 
-Ah Ha': brone spear->(UW) knife
+Ah Ha': bronze spear->(UW) knife
 
 Chilan: +slow-to-recruit outside forts
 
@@ -2088,4 +2088,4 @@ Mournful: Halberd->(UW) Halberd
 
 *Ferrous equipment replaced with UW equivalents.
 
-(New Spell) Create Voidrift: thau 6, S5W2, 10 pearls, ritual that can create a site that allows void-summoning.
+(New Spell) Sunder Reality: thau 6, S5W2, 10 pearls, ritual that can create a site that allows void-summoning.
