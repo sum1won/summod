@@ -17,7 +17,7 @@ Table of Contents
    * [One-handed Weapons](#one-handed-weapons)
    * [Shields](#shields)
    * [Two-handed Weapons](#two-handed-weapons)
-   * [Armour](#armor)
+   * [Armor](#armor)
    * [Helmets](#helmets)
    * [Boots](#boots)
    * [Miscellaneous Items](#miscellaneous-items)
@@ -27,7 +27,7 @@ Table of Contents
    * [Domes](#domes)
    * [Globals](#globals)
    * [Misc Spells](#misc-spells)
-   * [Battlemagic](#battlemagic)
+   * [Battle Magic](#battle-magic)
 3. [Summon Spells](#summon-spells)
    * [Fire](#fire)
    * [Earth](#earth)
@@ -142,7 +142,7 @@ Bane Blade: +fear 1
 
 Demon Whip: +undead leadership 20
 
-Dragon Sceptre: const6->4
+Dragon Sceptre: const 6->4
 
 Duskdagger: +bleeding, +slashing, dmg 2->4, att 2->4
 
@@ -230,7 +230,7 @@ Weightless Kite Shield: A2->A1, def 7->6, prot 21->19
 
 Bane Blade: +fear 3, dmg 9->12
 
-Banefire Crossbow: const 6->4 , ammo 12->24
+Banefire Crossbow: const 6->4, ammo 12->24
 
 Bow of War: const 6->4, ammo 12->24, dmg 11->13
 
@@ -292,7 +292,7 @@ Vision's Foe: nratt-3->-2, ammo 12->24
 
 Wraith Sword: D4->D2, +fear, dmg 9->13
 
-Wavebreaker: +autocasts Water Shield, +allows casting of Water Strike
+Wave Breaker: +autocasts Water Shield, +allows casting of Water Strike
 
 #### Helmets
 
@@ -314,7 +314,7 @@ Wraith Crown: D6->D4
 
 Berserker Pelt: berserk 0->3
 
-Blacksteel Full Plate: enc 4->3
+Black Steel Full Plate: enc 4->3
 
 Blue Dragon Scale Mail: W2->W1, CR15->10
 
@@ -322,9 +322,9 @@ Bone Armor: D5->D4
 
 Brightmail Haubergeon: const 4->6, +awe 1 
 
-Chain Mail of Displacement: autocasts Mirror Image
+Chain Mail of Displacement: +autocasts Mirror Image
 
-Direwolf Pelt: att 1->3, def 1->3
+Dire Wolf Pelt: att 1->3, def 1->3
 
 Enchanted Ring Mail Armor: +MR1
 
@@ -378,7 +378,7 @@ Bracers of Protection: def 2->3, prot 2->3
 
 Cat Charm: N2->N1
 
-Catseye Amulet: D1E1->D1
+Cat's Eye Amulet: D1E1->D1
 
 Cauldron of Elven Halls: const 4->0
 
@@ -410,7 +410,7 @@ Miraculous Cure All Elixir: N5->N4, disease healer 1->5
 
 Mirror of False Impressions: A4->A2
 
-Pendant of Luck: +autocast Twist of Fate
+Pendant of Luck: +autocasts Twist of Fate
 
 Pills of Water Breathing: const 4->6, A2->A1, breathing 20->80 points
 
@@ -436,7 +436,7 @@ Wall Shaker: A3->A2
 
 Water Lens: ritual range 1->2
 
-Woundfend Amulet: E1S1->S1
+Wound Fend Amulet: E1S1->S1
 
 #### Artifacts
 
@@ -452,7 +452,7 @@ Carcator the Pocket Lich: D4->D2
 
 Draupnir: E5->E4
 
-Fenris Pelt: N4->N3
+Fenris' Pelt: N4->N3
 
 Gate Stone: E8S8->E7S7
 
@@ -482,7 +482,7 @@ The Sharpest Tooth: N2S1->N1S1
 
 The Staff from the Sun: S5F1->S4F1
 
-The Summit: E6->E4, att 12->15 , def 6->9, +armor piercing
+The Summit: E6->E4, att 12->15, def 6->9, +armor piercing
 
 Unquenched Sword: F7->F5, autocasts Unquenched Fire(Living Fire+Heat from Hell)
 
@@ -561,7 +561,7 @@ Gift of Reason: 20->12 gems
 
 Raven Feast: A4->A3
 
-#### Battlemagic
+#### Battle Magic
 
 (New Spell) Gulf Stream: ench 5, F3, imitates friendly currents
 
@@ -585,7 +585,7 @@ Quickness: +scales
 
 Quickening: AoE 9+->9++
 
-Earthmight: E2->E1, +scales
+Earth Might: E2->E1, +scales
 
 Iron Warriors: +scales(only to single targets)
 
@@ -629,7 +629,7 @@ Enfeeble: AoE 6->10+
 
 Unraveling: S6->S5, 6->4 pearls
 
-Bonemelter: W3N2->W3N1, range 20->25
+Bone Melter: W3N2->W3N1, range 20->25
 
 Sailor's Death: AoE1-> 1 target, 5+ effects
 
@@ -643,7 +643,7 @@ Spirit Curse: horror marks in addition to cursing
 
 Army of Rats: alt 9->8, N7-N6, 5->3 gems
 
-Skeletal Legion: alt 6->5 (fixed to actaully disease friendly units now (MR negates easily)?
+Skeletal Legion: alt 6->5 (fixed to actually disease friendly units now (MR negates easily)?
 
 Creeping Doom: +castable UW
 
@@ -763,7 +763,7 @@ Poison Golem: 35->25 gems, (banefireshield 5->10, +pierce/slash resist, +fear 10
 
 Reanimation: 5->1 gems, summons 10->4(skeletons)
 
-Reanimate Archers: 5->10 gems, summons 10->20++(skeletal archers)(banefire bows-> armor piercing)
+Reanimate Archers: 5->10 gems, summons 10->20++(skeletal archers, banefire bows->armor piercing)
 
 Revenant: +castable UW
 
@@ -850,11 +850,11 @@ sum1won: I'm including this discussion since I expect this is the biggest change
 
 #### AI 
 
-Doesn't recruit certain particularly bad troops
+*Doesn't recruit certain particularly bad troops.
 
 #### Thrones
 
-Seasonal thrones no longer placed UW
+*Seasonal thrones no longer placed UW.
 
 #### Sites
 
@@ -870,9 +870,9 @@ Farm of Plenty: less common
 
 Caveman Cave: gives 10 resources
 
-Animal Cemetary: summons 4 carrion beasts instead of two
+Animal Cemetery: summons 4 carrion beasts instead of two
 
-Flesh Eaters Isle: summons 4 ghouls instead of one
+Flesh Eater's Isle: summons 4 ghouls instead of one
 
 The Slaughterhouse: provides supply, summons some extra foulspawn
 
@@ -880,13 +880,13 @@ Isle of Saos: gives the correct units
 
 #### Armor changes
 
-Surveyed armor, made changes
+*Surveyed armor, made changes
 
 Full Ring Mail: def -2->-1, rescost 7->6 (Logrians) 
 
 Chain Hauberk: def -2->-1
 
-Full Chain Mail: def -3->-2 (LA Man, MA Man, LA Agartha, MA MArignon)*
+Full Chain Mail: def -3->-2 (LA Man, MA Man, LA Agartha, MA Marignon)*
 
 Plate Cuirass: def -1->0, enc 2->1 (LA Pythium, LA Pangaea LA Ulm, LA/MA Marignon, LA Caelum (two units), LA Ragha (one unit), Therodos (Korybants -increase enc, drop defense), MA Pelagia (one unit), MA/LA Arco) 
 
@@ -980,7 +980,7 @@ Bronzed Kryss
 
 Hoburg Crossbows: 7->9g
 
-Heavy Cav (Indie) 19, 20, 21: dropped cost to 25
+Heavy Cavalry (Indie) 19, 20, 21: dropped cost to 25
 
 Knight (Indie) 22: cost 35->30
 
@@ -990,9 +990,9 @@ Horse Tribe Chief/Brother: cost 55->45
 
 Imperial Commander 2117: cost 65->55
 
-Horse Tribe Cav: cost 25->15
+Horse Tribe Cavalry: cost 25->18
 
-Horse Brother: cost 25->15
+Horse Brother: cost 25->18
 
 Jade Maiden 370: cost 50->45
 
