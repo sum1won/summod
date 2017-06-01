@@ -2204,8 +2204,8 @@ These scouts will become commanders after recruitment."
 
 #selectitem 56 --faithful
 #mainpath 4
-#secondarylevel 0
 #secondarypath -1
+#secondarylevel 0
 #end
 
 #selectweapon 301 --firebola
