@@ -2202,7 +2202,7 @@ These scouts will become commanders after recruitment."
 #mr 1
 #end
 
-#selectitem 56 --faithful
+#selectitem 26 --faithful
 #mainpath 4
 #secondarypath -1
 #secondarylevel 0
