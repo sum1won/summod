@@ -695,7 +695,7 @@ Draconians: 45->40 gems (+talons attack, prot 9->12)
 
 Spring Hawks: 20->30 gems, summons 5+->12++ (prot 0->2)
 
-Watcher: +sone fist, +can be transported to an adjacent province for the first month it exists, after which it becomes immobile.
+Watcher: +stone fist, +can be transported to an adjacent province for the first month it exists, after which it becomes immobile.
 
 Wyvern: (size 5->4, prot 12->13 +talons attack)
 
@@ -1590,7 +1590,7 @@ Summon Scorpion Man: conj 8->6, 12->10 gems, (+commander, +iron cap, +torso slot
 
 Minotaurs: 40->35 gold
 
-War Warriors: 50->45 gold
+War Minotaurs: 50->45 gold
 
 ##### Asphodel, Carrion Woods
 
