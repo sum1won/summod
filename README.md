@@ -641,7 +641,7 @@ Spirit Curse: horror marks in addition to cursing
 
 Army of Rats: alt 9->8, N7-N6, 5->3 gems
 
-Skeletal Legion: alt 6->5 (fixed to actually disease friendly units now (MR negates easily)?
+Skeletal Legion: alt 6->5
 
 Creeping Doom: +castable UW
 
@@ -878,7 +878,7 @@ Isle of Saos: gives the correct units
 
 #### Armor changes
 
-*Surveyed armor, made changes
+*Surveyed armor and made changes.
 
 Full Ring Mail: def -2->-1, rescost 7->6 (Logrians) 
 
@@ -890,7 +890,7 @@ Plate Cuirass: def -1->0, enc 2->1 (LA Pythium, LA Pangaea LA Ulm, LA/MA Marigno
 
 Plate Hauberk: def -3->-1, enc 4->2 (LA Pythium, Abysia, MA Machaka, LA Marignon, Ghandarvas, MA/LA Arco)**
 
-Full Plate Mail: def -3->-2, enc 5->3 (LA Agartha (lots), MA/LA Marignon (Royal Guard), MA Machaka (Black Hunters)).
+Full Plate Mail: def -3->-2, enc 5->3 (LA Agartha (lots), MA/LA Marignon (Royal Guard), MA Machaka (Black Hunters))
 
 Full Chain Ulm: def -3->-2 (MA Ulm) 
 
@@ -914,15 +914,15 @@ Hoplon: enc 1->2 (this fully offsets the benefits Therodos gets from the cuirass
 
 Jingasa: rescost 2->1
 
-Coral Cuirass: prot 10->12, enc 2->1, rescost 7->10 (MA, LA Atlantis)?
+Coral Cuirass: prot 10->12, enc 2->1, rescost 7->10 (MA, LA Atlantis)*
 
-Coral Hauberk: prot 12->14, def -2->-1, enc 3->2, rescost 10->15 (EA Pelagia, MA, LA Atlantis)?
+Coral Hauberk: prot 12->14, def -2->-1, enc 3->2, rescost 10->15 (EA Pelagia, MA, LA Atlantis)*
 
-Coral Barding: prot 11->16, rescost 12->20 (Oceania Aphroi)?
+Coral Barding: prot 11->16, rescost 12->20 (Oceania Aphroi)*
 
-Turtle Shell Armor: prot 9->10 (EA Pelagia, EA/MA Oceania)?
+Turtle Shell Armor: prot 9->10 (EA Pelagia, EA/MA Oceania)*
 
-Turtle Shell Barding: prot 9->10 (Oceania Icthycentaurs)?
+Turtle Shell Barding: prot 9->10 (Oceania Icthycentaurs)*
 
 Centaur Barding (Bronze): prot 16->17, enc 4->3 (MA Pan) 
 
@@ -946,7 +946,7 @@ Maul: dmg 9->10  (MA Ulm)
 
 Machaka Spear: rescost 3->2, att -1->0 (EA/MA Machaka)
 
-Chakram: ammo 2->5 ammo (Bandar Log, Patala)
+Chakram: ammo 2->5 (Bandar Log, Patala)
 
 Throw Spines: changed to dmg str-10
 
@@ -958,23 +958,17 @@ Wakizashi: rescost 4->2
 
 Added non-rust equipment from non-rust mod:
 
-Laminated Glaive
-
-Laminated Yari
-
-Spear
-
-Knife
-
-Bronze Glaive
-
-Trident
-
-Bronzed Falchion
-
-Bronzed Kryss
+Laminated Glaive, Laminated Yari ,Spear, Knife, Bronze Glaive, Trident ,Bronzed Falchion, Bronzed Kryss
 
 #### Indie Changes
+
+*Barbarians no longer look like Skwisgaar; they now wield battleaxes.
+
+*Ichtyid, Triton, Merman and Frog Clan poptypes now provide indie scouts.
+
+*Amphibious poptypes now provide better troops and shamans.
+
+*Various amphibious indies given non-ferric equipment.
 
 Hoburg Crossbows: 7->9 gold
 
@@ -1007,16 +1001,6 @@ Grey Kight, Lord: (base)rescost 25->19
 Holy Knight: (base)rescost 30->23
 
 Fire Lord: (base)rescost 20->15
-
-Azure Mage, Initiate: stone dagger->(UW) knife
-
-*Barbarians no longer look like Skwisgaar; they now wield battleaxes.
-
-*Ichtyid, Triton, Merman and Frog Clan poptypes now provide indie scouts.
-
-*Amphibious poptypes now provide better troops and shamans.
-
-*Various amphibious indies given non-ferric equipment.
 
 ### National Changes
 
@@ -1788,11 +1772,11 @@ Folds in LA Pythium overhaul mod. Troops slightly improved, but the main thing i
 
 All cults have their divine authority increased when endorsed. This might give them priest levels, remove heretic, and/or decrease a research malus.
 
-Serpent Cult gets more hydras and snakes as summons, while assassins and hydras stop being cult only. They can also shapeshift into monstrous snakes, and get a new magic item that can only be used when they are endorsed. Finally, they get access to Swamps of Pythia from CBM (thanks, llama!).
+Serpent Cult: gets more hydras and snakes and summons, while assassins and hydras stop being cult only. They can also shapeshift into monstrous snakes, and get a new magic item that can only be used when they are endorsed. Finally, they get access to Swamps of Pythia from CBM (thanks, llama!).
 
-Solar Cult gets cheaper and easier recruitment of their members, and gets a reclimit sacred. They get a new solar bull summon, and a ritual that can convert Leos into Helioperses, who are effective thugs, and the only unit that can wield the 4 new solar cult items. Casting second sun provides some freespawn. They also get an F2H3 buff that significantly increases the combat prowess of sacreds, but will severely burn sacreds who aren't members of the cult of the solar bull (fire resistance helps).
+Solar Cult: gets cheaper and easier recruitment of their members, and gets a reclimit sacred. They get a new Solar Bull summon, and a ritual that can convert Leos into Helioperses, who are effective thugs, and the only unit that can wield the 4 new solar cult items. Casting Second Sun provides some freespawn. They also get an F2H3 buff that significantly increases the combat prowess of sacreds, but will severely burn sacreds who aren't members of the cult of the solar bull (fire resistance helps).
 
-Fertility cult can convert casters into Galli, who are their clergy, and their main access to their rituals. They get very cheap assassination rituals that can send maenads, boars, or lions after an enemy, can shapechange into monstrous lions or boars, can throw bloody fertility rites and orgies, and inexpensively summon boars and lions with summerpower. They also get cheaper vine men.
+Fertility Cult: can convert casters into Galli, who are their clergy, and their main access to their rituals. They get very cheap assassination rituals that can send maenads, boars, or lions after an enemy, can shapechange into monstrous lions or boars, can throw bloody fertility rites and orgies, and inexpensively summon boars and lions with summerpower. They also get cheaper vine men.
 
 Reference is made to https://docs.google.com/document/d/1nkTDn9yhYQrRcN6k0dTjzs5DpuKxiauV76wA0zQnkTs for the full changelog.
 
