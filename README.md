@@ -525,7 +525,7 @@ Fata Morgana: A7->A6, 90->80 gems
 
 Forge of the Ancients: conj 7->9, 80->60 gems
 
-Ghost Ship Armada: 60->40 gems
+Ghost Ship Armada: 60->40 gems, (Torgrin hp 14->30, str 12->15, +invulnerablility 10, +onebattlespell Undead Horde)
 
 Guardians of the Deep: conj 8->6, 60->40 gems
 
@@ -697,7 +697,7 @@ Draconians: 45->40 gems (+talons attack, prot 9->12)
 
 Spring Hawks: 20->30 gems, summons 5+->12++ (prot 0->2)
 
-Watcher: can be transported to an adjacent province for the first month it exists, after which it becomes immobile.
+Watcher: +sone fist, +can be transported to an adjacent province for the first month it exists, after which it becomes immobile.
 
 Wyvern: (size 5->4, prot 12->13 +talons attack)
 
@@ -976,35 +976,45 @@ Bronzed Falchion
 
 Bronzed Kryss
 
-#### Indie changes
+#### Indie Changes
 
-Hoburg Crossbows: 7->9g
+Hoburg Crossbows: 7->9 gold
 
-Heavy Cavalry (Indie) 19, 20, 21: dropped cost to 25
+Horse Tribe Cavalry/Brother: 25->18 gold
 
-Knight (Indie) 22: cost 35->30
+Horse Tribe Chief/Brother(cmnd): 55->50 gold
 
-Light Cav (Indie) 24, 25, 26: dropped cost to 15; javelin light cav get light lances
+Jade Maiden 370: 50->45 gold
 
-Horse Tribe Chief/Brother: cost 55->45
+Nightmare 369: 80->70 gold
 
-Imperial Commander 2117: cost 65->55
+Light Cavalry 24, 25, 26: 25->18 gold, (javelin cavalry spear-> light lances)
 
-Horse Tribe Cavalry: cost 25->18
+Heavy Cavalry 19, 21 (3 attacks): 35->25 gold, (base)rescost 20->15
 
-Horse Brother: cost 25->18
+Heavy Cavalry 20 (2 attacks): 30->25
 
-Jade Maiden 370: cost 50->45
+Cataphract 1187: 40->35 gold
 
-Nightmare 369: cost 85->70
+Mounted Commander 44, 45: (base)rescost 20->15
 
-Cataphract 1187: cost 30->35
+Imperial Commander 2117: 65->55 gold
 
-Hog Knights: Rsize 2->1
+Knight: 35->30 gold, (base)rescost 20->15
 
-*Barbarians no longer look like Skwisgaar; they now wield axes.
+Knight Commander: (base)rescost 20->15
 
-*Ichtyid, Triton, Terman, Frog Clan poptypes now provide indie scouts.
+Grey Kight, Lord: (base)rescost 25->19
+
+Holy Knight: (base)rescost 30->23
+
+Fire Lord: (base)rescost 20->15
+
+Azure Mage, Initiate: stone dagger->(UW) knife
+
+*Barbarians no longer look like Skwisgaar; they now wield battleaxes.
+
+*Ichtyid, Triton, Merman and Frog Clan poptypes now provide indie scouts.
 
 *Amphibious poptypes now provide better troops and shamans.
 
@@ -1382,6 +1392,8 @@ Telkhine: +increase death scale
 
 *Starts at Cold 1.
 
+Knight of the Unholy Sepulchre: att 13->11, lance->light lance, kite shield->rusty kite shield
+
 Dusk Elders: slightly more resistant to magic duel (equivalent to having +S1)
 
 ##### Sceleria, The Reformed Empire
@@ -1544,7 +1556,7 @@ Spider Knights: 55->40 gold, size 5->4, +single-use light lance
 
 Spider Lord: 115->100 gold, size 5->4, +single-use light lance
 
-Hunter Spiders(sacred mounts) MR5->10, str 16->18, +fear weapon, +cost upkeep	
+Hunter Spiders(sacred mounts) MR5->10, str 16->18, +fear weapon, +cost upkeep	(Pretender: str 16->18, +fear weapon)
 
 Machaka Chief: +foreign recruit
 
@@ -1558,7 +1570,7 @@ Voices of the Lord:  115->105 gold, +slow-to-recruit, +foreign recruit
 
 Witchdoctors: 80->100 gold, F1D1N1->N1 +1.0FDN +1.0 FED, -4->-6 researchbonus, +forest recruit
 
-Sorceresses:  85->90 gold, 0.1FEDN->0.4 
+Sorceresses:  85->90 gold, 0.1FEDN->0.4, (Great Spider form size 5->4, str 11->16)
 
 Sorcerors: 195->180 gold, F1D1N2 +1.0FEDN -> F1D1N2 +1.0FED +0.25N +0.1FEDN
 
@@ -1710,6 +1722,8 @@ Kitsune: 30->23 gems
 ##### Ashdod, Reign of the Anakim
 
 ##### Nazca, Kingdom of the Sun
+
+Supaya: spectral spear mrnegates->hardmrneg
 
 ##### Xibalba, Flooded Caves
 
