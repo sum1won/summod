@@ -573,8 +573,6 @@ Raven Feast: A4->A3
 
 Bonds of Fire: thau 2->1
 
-?Bone Grinding: cripple 100%->50% of battlefield?
-
 Prison of Fire: thau 4->3
 
 Rain of Stones: 1->2 gems
@@ -1845,8 +1843,6 @@ Hochmeister: 120->110 gold
 Starting Army: City Guard->Pikeneers
 
 Flagellant: 10->9 gold
-
-?Goetic Masters: are stronger ritual casters
 
 Angel of Fury: 35->25 pearls, blood vengeance 4->0, +damage reflection 2, +self-blesses
 
