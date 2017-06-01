@@ -1492,7 +1492,7 @@ Tlahuelpuchi: B2->B2D2, 25->34 slaves
 
 Civateteo: B2D2->B2, (+douse 1)
 
-*From Xibalba changes
+*From EA Xibalba changes
 Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
 
 ##### T'ien Ch'i, Imperial Bureaucracy
@@ -2060,21 +2060,32 @@ Airya Seraphs: 225->260 gold, coldrec 1->2
 
 Obsidian Dart: ammo 4->6 (Zotz/Sak Muuch Dart Thrower)
 
-Zotz: lances->stone (recost +2)
+Zotz Dart Thrower: 7->9 gold 
 
-Beastbats 1.44 siege defense from 2.44, undisciplined, lower MR.
+Zotz Warrior: 7->8 gold, light lance->light stone lance (recost +2)
 
-Chilans Recruited in Caves are STR
+Zotz Guard: light lance->light stone lance (recost +2)
 
+Sak Muuch Warrior: stone->bronze spear
 
+Batab: +slow-to-recruit outside forts
 
-Zotz cost a minimum of 8 gold.
+Ah Ha': brone spear->(UW) knife
+
+Chilan: +slow-to-recruit outside forts
+
+*From EA Xibalba changes
+Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
 
 ##### Atlantis, Frozen Sea
 
+Mournful: Halberd->(UW) Halberd
+
 ##### R'lyeh, Dreamlands
-spawns occasional S1 sites on templed coastal provinces with sufficiently high dominion
+*Spawns occasional S1 sites on templed, coastal provinces with sufficiently high dominion.
 
-All freespawn is 0 upkeep
+*All freespawn is 0 upkeep.
 
-Create Voidrift: Thau 6 S5W2 10 pearl ritual that can create a site that allows void-summoning.
+*Ferrous equipment replaced with UW equivalents.
+
+(New Spell) Create Voidrift: thau 6, S5W2, 10 pearls, ritual that can create a site that allows void-summoning.
