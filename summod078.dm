@@ -1821,7 +1821,7 @@ These scouts will become commanders after recruitment."
 #rcost	34	
 #end  	-- Ragha Zhayedan Spahbed
 
-#selectmonster  	2687	
+#selectmonster  	2587	
 #rcost	34	
 #end  	-- Zhayedan
 
@@ -3855,7 +3855,7 @@ These scouts will become commanders after recruitment."
 #end
 #selectspell 682 --winterwolves
 #nreff 2004
-#fatiguecost 2004
+#fatiguecost 2000
 #descr "The caster summons and binds several Winter Wolves. The Winter Wolf is one of the four seasonal spirits. It is a large, ethereal wolf surrounded by an icy wind. It is a magical, mindless being that must be commanded by a mage."
 #end
 #selectmonster 511 
@@ -3895,8 +3895,8 @@ These scouts will become commanders after recruitment."
 #hp 260
 #end
 #selectmonster 996
-#shockres 3
-#fireres 3
+#shockres 5
+#fireres 5
 #acidshield 10 
 #slimer 1
 #pierceres
@@ -3948,6 +3948,7 @@ These scouts will become commanders after recruitment."
 #inanimate
 #neednoteat
 #noheal
+#amphibian
 #descr "A telestic animate is a wooden statue with a golden plate inscribed with holy names on its forehead.  The divine names grant the statue the ability to speak the Will of God.  It can only move for one month after being constructed."
 #mapmove 1
 #ap 1
@@ -3965,6 +3966,7 @@ These scouts will become commanders after recruitment."
 #inanimate
 #neednoteat
 #noheal
+#amphibian
 #descr "A telestic animate is a wooden statue with a golden plate inscribed with holy names on its forehead.  The divine names grant the statue the ability to speak the Will of God.  It can only move for one month after being constructed."
 #mapmove 1
 #ap 1
@@ -4017,7 +4019,7 @@ These scouts will become commanders after recruitment."
 #maxage 3000
 #pierceres
 #slashres
-#descr "A poison golem is a metal giant made of dark alloys from the Underworld. The poison golem is made for a single purpose, destruction, and its mere presence is harmful to the living. The very land in which it stays will slowly wither and die. The construct is always surrounded by sickly green flames of the Underworld, and can travel through the underwo outside of battle, improving its ability to avoid difficult terrain."
+#descr "A poison golem is a metal giant made of dark alloys from the Underworld. The poison golem is made for a single purpose, destruction, and its mere presence is harmful to the living. The very land in which it stays will slowly wither and die. The construct is always surrounded by sickly green flames of the Underworld, and can navigate that place's twisted byways to avoid difficult terrain outside of battle."
 #end
 #newmonster 6301
 #copystats 1099
@@ -14137,7 +14139,7 @@ Summod slightly changes Pangaea.  Some of your troops, primarily minotaurs, are 
 #end
 
 #selectmonster 1533--minotaur  5 gold discount
-#gcost 10035
+#gcost 10045
 #end
 
 #selectmonster 706 --Pan random increased to 30%
