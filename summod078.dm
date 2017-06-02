@@ -14133,7 +14133,7 @@ Summod slightly changes Pangaea.  Some of your troops, primarily minotaurs, are 
 #end
 
 #selectmonster 1533--minotaur  5 gold discount
-#gcost 10035
+#gcost 10045
 #end
 
 #selectmonster 706 --Pan random increased to 30%
