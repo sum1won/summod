@@ -3889,8 +3889,8 @@ These scouts will become commanders after recruitment."
 #hp 260
 #end
 #selectmonster 996
-#shockres 3
-#fireres 3
+#shockres 5
+#fireres 5
 #acidshield 10 
 #slimer 1
 #pierceres
