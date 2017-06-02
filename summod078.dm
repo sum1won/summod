@@ -4013,7 +4013,7 @@ These scouts will become commanders after recruitment."
 #maxage 3000
 #pierceres
 #slashres
-#descr "A poison golem is a metal giant made of dark alloys from the Underworld. The poison golem is made for a single purpose, destruction, and its mere presence is harmful to the living. The very land in which it stays will slowly wither and die. The construct is always surrounded by sickly green flames of the Underworld, and can travel through the underwo outside of battle, improving its ability to avoid difficult terrain."
+#descr "A poison golem is a metal giant made of dark alloys from the Underworld. The poison golem is made for a single purpose, destruction, and its mere presence is harmful to the living. The very land in which it stays will slowly wither and die. The construct is always surrounded by sickly green flames of the Underworld, and can navigate that place's twisted byways to avoid difficult terrain outside of battle."
 #end
 #newmonster 6301
 #copystats 1099
