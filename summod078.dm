@@ -3849,7 +3849,7 @@ These scouts will become commanders after recruitment."
 #end
 #selectspell 682 --winterwolves
 #nreff 2004
-#fatiguecost 2004
+#fatiguecost 2000
 #descr "The caster summons and binds several Winter Wolves. The Winter Wolf is one of the four seasonal spirits. It is a large, ethereal wolf surrounded by an icy wind. It is a magical, mindless being that must be commanded by a mage."
 #end
 #selectmonster 511 
