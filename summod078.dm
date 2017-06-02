@@ -1815,7 +1815,7 @@ These scouts will become commanders after recruitment."
 #rcost	34	
 #end  	-- Ragha Zhayedan Spahbed
 
-#selectmonster  	2687	
+#selectmonster  	2587	
 #rcost	34	
 #end  	-- Zhayedan
 
