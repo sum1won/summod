@@ -3942,6 +3942,7 @@ These scouts will become commanders after recruitment."
 #inanimate
 #neednoteat
 #noheal
+#amphibian
 #descr "A telestic animate is a wooden statue with a golden plate inscribed with holy names on its forehead.  The divine names grant the statue the ability to speak the Will of God.  It can only move for one month after being constructed."
 #mapmove 1
 #ap 1
@@ -3959,6 +3960,7 @@ These scouts will become commanders after recruitment."
 #inanimate
 #neednoteat
 #noheal
+#amphibian
 #descr "A telestic animate is a wooden statue with a golden plate inscribed with holy names on its forehead.  The divine names grant the statue the ability to speak the Will of God.  It can only move for one month after being constructed."
 #mapmove 1
 #ap 1
