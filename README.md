@@ -785,7 +785,7 @@ Construct Manikin: 12->20 gems, summons 10++->16++++
 
 Construct Mandragora: 10->8 gems
 
-Forest Giant: (+grab and swallow attack)
+Contact Forest Giant: (def 9->11, +grab and swallow attack)
 
 Forest Troll Tribe: 37->33 gems, (+stealthy 40)
 
