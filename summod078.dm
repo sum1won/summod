@@ -1,25 +1,25 @@
-#modname "Summod 0.77"
+#modname "Summod 0.78"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.77
+#version 0.78
 #icon "./summod/summodall.tga"
 
---This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
+--This is summod. Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
 
---Thanks to a variety of persons named in the dom4mods thread and elsewhere.
+--Thanks to a variety of people named in the dom4mods thread and elsewhere.
 
 --IDs used/reserved for growth
---Monsterids          6300-6999
---weapons             1400-1500
--- armor              600-700
--- Sites              1800-1900
---item      
---Nametypes           none
---montag              1300-1340
---Spell               none
---restricted item     1100-1200
---nation               -none
---mercenary            -none
---event                -none
+--Monsterids         6300-6999
+--weapons            1400-1500
+--Armor              600-700
+--Sites              1800-1900
+--Item      
+--Nametypes          none
+--Montag             1300-1340
+--Spell              none
+--Restricted item    1100-1200
+--Nation             -none
+--Mercenary          -none
+--Event             -none
 ----------------------
 
 
@@ -7459,6 +7459,26 @@ won't live more than a month or two."
 
 ---- Pelagia
 #selectnation 85 --pelagia
+#end
+
+#selectmonster 1293 --Turtle Chief, match helm and javelin to turtle warriors
+#clearweapons
+#cleararmor
+#weapon 31
+#weapon 640
+#armor 114
+#armor 134
+#armor 25
+#end
+
+#selectmonster 1294 --Turtle Chief coastal, match helm and javelin to turtle warriors
+#clearweapons
+#cleararmor
+#weapon 31
+#weapon 640
+#armor 114
+#armor 134
+#armor 25
 #end
 
 ---EA Oceania
