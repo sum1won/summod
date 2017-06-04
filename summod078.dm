@@ -759,7 +759,11 @@ These scouts will become commanders after recruitment."
 #end
 
 #selectarmor 85 -- Amber Shield
-#def 6 --From 4, make them actually better than regular turtle shield
+#def 4 -- a value of 4 raises original parry by one to make them actually better than a regular turtle shield
+#end
+
+#selectarmor 189 -- Pearl Shield
+#def 5 -- a value of 5 raises original parry by one to keep them 1 better than an amber shield
 #end
 
 #selectarmor 84 -- Amber Hauberk
@@ -2310,8 +2314,7 @@ These scouts will become commanders after recruitment."
 #mainlevel 1
 #end
 #selectarmor 42 --leadshield
-#def 7
-#enc 2
+#def 4 --a value of 4 raises original parry by one
 #end
 #selectitem 138 --luckyshield
 #mainlevel 1
