@@ -7449,6 +7449,27 @@ won't live more than a month or two."
 
 ---- Pelagia
 #selectnation 85 --pelagia
+
+#selectmonster 1293 --Turtle Chief, match helm and javelin to turtle warriors
+#clearweapons
+#cleararmor
+#weapon 31
+#weapon 640
+#armor 114
+#armor 134
+#armor 25
+#end
+
+#selectmonster 1293 --Turtle Chief coastal, match helm and javelin to turtle warriors
+#clearweapons
+#cleararmor
+#weapon 31
+#weapon 640
+#armor 114
+#armor 134
+#armor 25
+#end
+
 #end
 
 ---EA Oceania
