@@ -7460,7 +7460,7 @@ won't live more than a month or two."
 #armor 25
 #end
 
-#selectmonster 1293 --Turtle Chief coastal, match helm and javelin to turtle warriors
+#selectmonster 1294 --Turtle Chief coastal, match helm and javelin to turtle warriors
 #clearweapons
 #cleararmor
 #weapon 31
