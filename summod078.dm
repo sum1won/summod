@@ -5709,7 +5709,8 @@ Skies, the Devala, which automatically casts Celestial Music, and the Devata, wh
 #selectmonster 1335 --gandharva
 #weapon 1423
 #end
-#selectnation 11 --Machaka
+
+#selectnation 11 --EA MACHAKA
 #descr "Machaka is an old sacral kingdom divided into totemic clans. The clans follow their totemic spirits and worship
 them as bringers of civilization and tell myths about their interactions with men. For centuries the Lion Clan
 has dominated the others and formed a unified kingdom under their wise rule. The Lion Clan is blessed by
@@ -5737,7 +5738,7 @@ Machaka is improved by summod.  This generally involves cost decreases, but your
 #selectmonster 2298 --machaka milita
 #gcost 10007
 #end
-#selectmonster 2300 --machaka warrior -- cheaper, 
+#selectmonster 2300 --machaka warrior -- cheaper, given machaka spear 
 #gcost 10008
 #clearweapons
 #weapon 315
@@ -5745,13 +5746,13 @@ Machaka is improved by summod.  This generally involves cost decreases, but your
 #selectmonster 2301 --spiderclan archer
 #gcost 10013
 #end
-#selectweapon 519
+#selectweapon 519 -- poison tipped spear 4>3
 #rcost 3
 #end
 #selectmonster 2302 --spider clan warrior
 #armor 44
 #end
-#selectmonster 884 --great spider -- improve.
+#selectmonster 884 --great spider -- improve
 #gcost 20
 #size 4
 #str 16
@@ -5761,7 +5762,8 @@ Machaka is improved by summod.  This generally involves cost decreases, but your
 #size 4
 #gcost 10020
 #end
---EA Sauro
+
+--EA SAUROMATIA
 #selectmonster 1167 --lancer--3 gold discount
 #gcost 10002
 #end
@@ -5837,7 +5839,7 @@ Machaka is improved by summod.  This generally involves cost decreases, but your
 #heal
 #end
 
-#selectnation 29 --ea ur
+#selectnation 29 --EA UR
 #addrecunit 2162
 #addrecunit 2163
 #addrecunit 2164
@@ -10074,6 +10076,7 @@ which now scare the enemy."
 #weapon 313
 #weapon 357
 #weapon 262
+#weapon 23
 #end
 #selectmonster 886 --spider knight
 #size 4
