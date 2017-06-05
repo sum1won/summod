@@ -4328,6 +4328,9 @@ Xibalba is substantially nerfed by summod.  Bats are more expensive, foreign rec
 #selectmonster 2736 --onaqui
 #incunrest 70
 #end
+#selectmonster 1360 --onaqui summoned version
+#incunrest 70
+#end
 
 ----EA: Buffed Nations------
 ----ea Abysia
