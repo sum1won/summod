@@ -7378,6 +7378,7 @@ Summod improves  Ur.  PD is better, your troops are generally better and/or chea
 #magicskill 2 1
 #custommagic 1664 100
 #custommagic 3200 50
+#clearweapons
 #weapon 31
 #armor 24
 #okleader
