@@ -1856,7 +1856,7 @@ These scouts will become commanders after recruitment."
 --- CHARIOTS	
 #selectmonster 	927 -- EA TC Noble
 #ressize  2
-#rcost 10
+#rcost 8
 #gcost 10025
 #end
 
@@ -1885,6 +1885,12 @@ These scouts will become commanders after recruitment."
 #ressize  2
 #rcost 8
 #gcost 10030
+#end
+
+#selectmonster 	1081 -- EA arco chariot commander
+#ressize  2
+#rcost 8
+#gcost 10020
 #end
 
 
