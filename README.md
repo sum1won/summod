@@ -944,6 +944,8 @@ Hammer: dmg 7->8 (MA Ulm, Claymen)
 
 Maul: dmg 9->10  (MA Ulm)
 
+Poison Tipped Spear: rescost 4->3 (EA Machaka)
+
 Machaka Spear: rescost 3->2, att -1->0 (EA/MA Machaka)
 
 Chakram: ammo 2->5 (Bandar Log, Patala)
@@ -956,9 +958,7 @@ Yari: rescost 1->2
 
 Wakizashi: rescost 4->2
 
-Added non-rust equipment from non-rust mod:
-
-Laminated Glaive, Laminated Yari ,Spear, Knife, Bronze Glaive, Trident ,Bronzed Falchion, Bronzed Kryss
+Added non-rust equipment from Non-rust Mod: Laminated Glaive, Laminated Yari ,Spear, Knife, Bronze Glaive, Trident, Bronzed Falchion, Bronzed Kryss
 
 #### Indie Changes
 
@@ -1052,9 +1052,9 @@ Daughter of Typhon: conj 9->8, 30->20 gems
 
 Horseman: 20->18 gold
 
-Noble: 50->40 gold, rescost(base) 25->10
+Noble: 50->40 gold, (base)rescost 25->10
 
-Noble Commander: 110->100 gold, rescost(base) 25->8
+Noble Commander: 110->100 gold, (base)rescost 25->8
 
 Celestial Servant: 3->2 gems (from MA T'ien Ch'i changes)
 
@@ -1111,7 +1111,7 @@ Summon Scorpion Man: conj 8->6, 12->10 gems, (+commander, +iron cap, +torso slot
 
 ##### C'tis, Lizard Kings
 
-Lizard Chariot: 50->40 gold, 26->20 rescost, (bronze scale mail cuiraiss->iron, bronze cap->iron)
+Lizard Chariot: 50->40 gold, (base)rescost 15->8, (bronze scale mail cuiraiss->iron, bronze cap->iron)
 
 Serpent Dancers: stronger weapons (snake staff: att 1->2, dmg 3->5, on-hit poison 5[weak]->15[strong])
 
@@ -1272,13 +1272,13 @@ Telkhine: +increase death scale (from EA Therodos changes)
 
 ##### Xibalba, Vigil of the Sun
 
-*Lances replaced with Stone lances, which are non-iron and +2 resources
+*Lances replaced with Stone lances, which are non-iron and +2 rescost
 
 Obsidian Dart: ammo 4->6 (Xibalban Dart Thrower)
 
 Xibalban Warrior: 7->8 gold
 
-Large Scorpion: rescost 1->34
+Large Scorpion: 1->34
 
 Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
 
@@ -1388,9 +1388,9 @@ Angelic Host: S5->S4F1, 50->40 pearls
 
 Heavenly Choir: S7F2->S5F3, 144->88 pearls, (Angels of the Heavenly Choir: +weak anti-undead/demon ranged attack)
 
-Serpent Cataphract: 60->45 gold, rescost 56->49
+Serpent Cataphract: 60->45 gold, (base)rescost 30->23
 
-Serpent Lord: 90->75 gold, rescost 56->49
+Serpent Lord: 90->75 gold, (base)rescost 30->23
 
 Hydra Hatchling: 35->28 gold, +recuperation (changes from EA Sauromatia)
 
@@ -1408,13 +1408,13 @@ Warden of Avalon: mapmove 1->2
 
 Lord Warden: mapmove 1->2, +H1
 
-Knight of Man: 45->35 gold, rescost(base) 20->15
+Knight of Man: 45->35 gold, (base)rescost 20->15
 
 (New Unit) Knight Commander of Man, 60 gold
 
-Knight of Avalon: 65->50 gold, rescost(base) 25->19, +recruitable in sufficiently magical forted forests
+Knight of Avalon: 65->50 gold, (base)rescost 25->19, +recruitable in sufficiently magical forted forests
 
-Knight Commander of Avalon: 126->115 gold, rescost(base) 25->19 
+Knight Commander of Avalon: 126->115 gold, (base)rescost 25->19 
 
 *Round Table Implementation (Knights of Avalon and Knight Commanders of Avalon can turn into Knights of the Round Table).
 
@@ -1448,9 +1448,9 @@ Fir Bolg: stone spear->bronze spear
 
 ##### Ulm, Forges of Ulm
 
-Black Knight: 50->40 gold, rescost(base) 25->19
+Black Knight: 50->40 gold, (base)rescost 25->19
 
-Black Lord: 110->100 gold, rescost(base) 25->19
+Black Lord: 110->100 gold, (base)rescost 25->19
 
 ##### Marignon, Fiery Justice
 
@@ -1458,17 +1458,17 @@ Flagellant: 10->9 gold
 
 Man at Arms: 14->13 gold 
 
-Royal Guard: 45->35 gold, rescost(base) 20->15
+Royal Guard: 45->35 gold, (base)rescost 20->15
 
-Knight of the Chalice: 55->45 gold, rescost(base) 25->19
+Knight of the Chalice: 55->45 gold, (base)rescost 25->19
 
-Paladin: 155->135 gold, rescost(base) 30->23
+Paladin: 155->135 gold, (base)rescost 30->23
 
 Witch Hunter: 185->175 gold, +0.1FAES 
 
-High Inquisitor: not slow-to-recruit, +0.5S 
+High Inquisitor: +not slow-to-recruit, +0.5S 
 
-*Members of the Inquisition (non-witch finders) can pillage in friendly provinces (with population) to generate flagellants.  More flagellants are generated the higher the rank of the inquisitor.  Higher dominion and the presence of a temple also provide bonuses.
+*Inquisitors and High Inquisitors can now pillage in friendly provinces (with population) to generate flagellants. More flagellants are generated depending on the rank of the inquisitor, level of dominion and the presence of a temple.
 
 *(From MA Ermor changes) Ermor receives a D1 site that spawns in provinces (not water provinces) they control with high dominion and low population. Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor.
 
@@ -2028,19 +2028,19 @@ Paighans: 8->9 gold, mor 9->8
 
 Airya Archers, Infantry, Light Infantry: 10->11 gold
 
-Savaran Cataphract, Saravan Guard: rescost(base) 15->13
+Savaran Cataphract, Saravan Guard: (base)rescost 15->13
 
 Turan Infantry 11->12 gold
 
 Turan Heavy Infantry 13->14 gold
 
-Turan Spahbed, Shah: rescost(base) 15->12
+Turan Spahbed, Shah: (base)rescost 15->12
 
 Turan War Elephants 100->110 gold
 
 Zhayedans: cost 40 gold each time they lose a rider
 
-Zhayedan Spahbed: rescost(base) 31->34
+Zhayedan Spahbed: (base)rescost 31->34
 
 Karapans: 100->110 gold
 
