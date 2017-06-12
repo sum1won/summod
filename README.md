@@ -184,8 +184,6 @@ Shadow Brand: const 6->4, D2E1->D1E1, dmg 12->8
 
 Smasher: E2->E1
 
-Snake Bladder Stick: AoE 4->5
-
 Star of Heroes: nratt 1->2
 
 Star of Thraldom: False Fetters AoE 1->5
