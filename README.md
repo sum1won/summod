@@ -230,7 +230,7 @@ Weightless Kite Shield: A2->A1, def 7->6, prot 21->19
 
 Bane Blade: +fear 3, dmg 9->12
 
-Banefire Crossbow: const 6->4, ammo 12->24
+Banefire Crossbow: ammo 12->24
 
 Bow of War: const 6->4, ammo 12->24, dmg 11->13
 
