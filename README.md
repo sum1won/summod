@@ -154,6 +154,8 @@ Enchanted Sword: +MR1
 
 Enchanted Spear: +MR1
 
+Faithful: E1S1->S1
+
 Fire Bola: nratt 1->3
 
 Fire Brand: primary dmg 12->8
