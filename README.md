@@ -1088,8 +1088,10 @@ Tlahuelpuchi: B2->B2D2, 25->34 slaves
 
 Civateteo: B2D2->B2, (+douse 1)
 
-*From Xibalba changes
-Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
+*From EA Xibalba changes
+Bind Beast Bats: (MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each))
+
+Contact Onaqui: (increase unrest 2->4/month)
 
 ##### Abysia, Children of Flame
 
@@ -1487,7 +1489,9 @@ Tlahuelpuchi: B2->B2D2, 25->34 slaves
 Civateteo: B2D2->B2, (+douse 1)
 
 *From EA Xibalba changes
-Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
+Bind Beast Bats: (MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each))
+
+Contact Onaqui: (increase unrest 2->4/month)
 
 ##### T'ien Ch'i, Imperial Bureaucracy
 
@@ -1846,8 +1850,10 @@ Tlahuelpuchi: B2->B2D2, 25->34 slaves
 
 Civateteo: B2D2->B2, (+douse 1)
 
-*From Xibalba changes
-Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
+*From EA Xibalba changes
+Bind Beast Bats: (MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each))
+
+Contact Onaqui: (increase unrest 2->4/month)
 
 ##### T'ien Ch'i, Barbarian Kings
 
@@ -2069,7 +2075,9 @@ Ah Ha': bronze spear->(UW) knife
 Chilan: +slow-to-recruit outside forts
 
 *From EA Xibalba changes
-Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
+Bind Beast Bats: (MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each))
+
+Contact Onaqui: (increase unrest 2->4/month)
 
 ##### Atlantis, Frozen Sea
 
