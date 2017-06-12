@@ -1278,8 +1278,6 @@ Obsidian Dart: ammo 4->6 (Xibalban Dart Thrower)
 
 Xibalban Warrior: 7->8 gold
 
-Large Scorpion: rescost 1->34
-
 Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
 
 Batab: +slow to recruit if recruited outside a fort
