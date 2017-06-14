@@ -1052,7 +1052,7 @@ Daughter of Typhon: conj 9->8, 30->20 gems
 
 Horseman: 20->18 gold
 
-Noble: 50->40 gold, rescost(base) 25->10
+Noble: 50->40 gold, rescost(base) 25->8
 
 Noble Commander: 110->100 gold, rescost(base) 25->8
 
