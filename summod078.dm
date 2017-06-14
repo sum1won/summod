@@ -907,6 +907,7 @@ These scouts will become commanders after recruitment."
 
 ---Modified Items
 #selectweapon 537 -- Flick Barbs
+
 #end
 
 #selectweapon 71 -- sleepvines
@@ -2285,6 +2286,7 @@ These scouts will become commanders after recruitment."
 #end
 #selectitem 50 --sword of swiftness
 #autospell "Quicken Self"
+#constlevel 6
 #end
 #selectweapon 106
 #def 1
@@ -2748,6 +2750,7 @@ These scouts will become commanders after recruitment."
 #secondarypath -1
 #secondarylevel 0
 #mainpath 5
+#darkvision 100
 #end
 
 #selectitem 284	 --	Champions Skull Insp 1, D2->D1
@@ -2917,6 +2920,7 @@ These scouts will become commanders after recruitment."
 -Carcator
 #selectitem 346
 #mainlevel 2
+#inspiringres 1
 #end
 -Draupnir
 #selectitem 375
@@ -3519,7 +3523,7 @@ These scouts will become commanders after recruitment."
 #nreff 1002
 #end
 #selectspell 908 --confusion
-#aoe 2
+#aoe 1003
 #end
 #selectspell 565 -- enfeeble
 #aoe 2006
@@ -4112,6 +4116,9 @@ These scouts will become commanders after recruitment."
 #end
 #selectspell 695-Forest Trolls
 #fatiguecost 700
+#end
+#selectspell 713 -Lamias
+#pathlevel 0 2
 #end
 #selectspell 715 -Lamia queen
 #fatiguecost 2000
@@ -14108,7 +14115,7 @@ Summod buffs Jomon.  Please observe your new Ashigaru archer, cheaper cavalry (n
 #custommagic 10112 20
 #end
 #selectspell 183 --meditation sign
-#damage 5015
+#damage 5020
 #end
 #selectspell 182
 #range 5010
@@ -17617,11 +17624,13 @@ may make the battlefield deadly even for the priest's allies."
 #gcost 10030
 #end
 
-#selectmonster 1850
+#selectmonster 1850 --Hydra
 #gcost 210
+#heal
 #end
-#selectmonster 1859
+#selectmonster 1859 --Hydra Hatchling
 #gcost 28
+#heal
 #end
 
 #selectmonster 1865 --limitane solaris
