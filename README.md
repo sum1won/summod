@@ -733,8 +733,11 @@ Yetis: 15->12 gems
 
 Abomination: conj 25->15 pearls
 
-Eater of the Dead: 8->6, D4S4->D3S2, 50->25 pearls, (+FR5, +SR5, +pierceresist
-acid shield at three highest levels, slimer at two highest levels, plague at the highest level)
+Eater of the Dead: conj 8->6, D4S4->D3S2, 50->25 pearls, 
+(baseform: hp 180->210, MR 18->20, +FR5, +SR5, +pierceresist)
+(secondform: hp 210->260, +acidshield 8, regen 10->12%)
+(thirdform: hp 260->350, acidshield 8->10, regen 12->15%, +slimer 1)
+(unfettered: hp 350->500, MR 20-22, acidshield 10->20, regen 15->20%, slimer 1->2 touch->wind of leprosy)
 
 Ether Gate: 90->65 pearls, (ether lord hp 25->30; ether warriors hp 22->25)
 
