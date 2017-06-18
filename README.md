@@ -2042,7 +2042,7 @@ Turan Spahbed, Shah: rescost(base) 15->12
 
 Turan War Elephants 100->110 gold
 
-Zhayedans: cost 40 gold each time they lose a rider
+Zhayedans: rescost(base) 31->34, +cost 40 gold each time they lose a rider
 
 Zhayedan Spahbed: rescost(base) 31->34
 
