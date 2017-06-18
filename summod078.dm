@@ -1672,6 +1672,14 @@ These scouts will become commanders after recruitment."
 #rcost	23	
 #end  	-- serpent ma pythium
 
+#selectmonster  	763	
+#rcost	23	
+#end  	-- serpent LA pythium
+
+#selectmonster  	765	 
+#rcost	23	
+#end  	-- serpent LA pythium
+
 #selectmonster  	19	
 #rcost	15	
 #end  	-- indie
