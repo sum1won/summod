@@ -1008,7 +1008,11 @@ Fire Lord: (base)rescost 20->15
 
 ##### Arcoscephale, Golden Era
 
-Chariot Archer: 55->45 gold
+Chariot: 45->35 gold, (base)rescost 8->10
+
+Chariot Archer: 55->45 gold, (base)rescost 8->10
+
+Chariot Commander: 75->55 gold, (base)rescost 8->10
 
 ##### Ermor, New Faith
 
