@@ -2331,6 +2331,7 @@ These scouts will become commanders after recruitment."
 #end
 #selectarmor 42 --leadshield
 #def 4 --a value of 4 raises original parry by one
+#mr 5
 #enc 2
 #end
 #selectitem 138 --luckyshield
