@@ -212,7 +212,7 @@ Golden Hoplon: F2->F1, FR15->10
 
 Lantern Shield: D2F1->D1F1
 
-Lead Shield: enc 3->2, def 3->7
+Lead Shield: MR4->5, enc 3->2, def 3->7
 
 Lucky Coin: S2->S1, parry 4->6
 
@@ -915,8 +915,6 @@ Heavy Samurai Armor: def -3->-2, enc 4->3 (Jomon, Yomi)*
 
 Basalt Armor: enc 6->4, rescost 30->25 (EA Atlantis)
 
-Hoplon: enc 1->2 (this fully offsets the benefits Therodos gets from the cuirass changes)
-
 Jingasa: rescost 2->1
 
 Coral Cuirass: prot 10->12, enc 2->1, rescost 7->10 (MA, LA Atlantis)*
@@ -935,7 +933,11 @@ Centaur Barding (Iron): prot 17->18, enc 3->2 (LA Pan)
 
 Amber Hauberk: rescost 18->15
 
-Amber Shield: def 4->6
+Amber Shield: def 4->5 (MA Pelagia)
+
+Pearl Shield: def 5->6 (EA Pelagia)
+
+Hoplon: enc 1->2 (this fully offsets the benefits Therodos gets from the cuirass changes)
 
 *Added Laminated Scale Mail
 
