@@ -1781,17 +1781,78 @@ Agema Companion 35->30 gold, (base)rescost 15->12
 Agema Commander 105->100 gold, (base)rescost 15->12
 
 ##### Pythium, Serpent Cult
-Folds in LA Pythium overhaul mod. Troops slightly improved, but the main thing is a mechanic that lets you switch between active cults, with different bonuses provided for any of the three possible choices.
+Folds in LA Pythium overhaul mod. Troops slightly improved, but the main thing is a mechanic that lets you switch between active cults, with different bonuses provided for any of the three possible choices.  This functions by prophetizing an appropriate member of that cult.  If no cult is active but you can't prophetize, this can be accomplished by ordering that cult leader to sitesearch in the capital instead.  All cults have their divine authority increased when endorsed. This might give them priest levels, remove heretic, and/or decrease a research malus.
 
-All cults have their divine authority increased when endorsed. This might give them priest levels, remove heretic, and/or decrease a research malus.
+General changes:
 
-Serpent Cult: gets more hydras and snakes and summons, while assassins and hydras stop being cult only. They can also shapeshift into monstrous snakes, and get a new magic item that can only be used when they are endorsed. Finally, they get access to Swamps of Pythia from CBM (thanks, llama!).
+Several units (detailed below) receive the Clipeus in place of the tower shield.  This reduces resource cost and encumberance, but provides 1 lower protection.
+Limitane, Limitane Primani, Limitane Solaris, Primani Solaris, Comitatense, Limitane Standard, and Standard
+
+Several units (detailed below) receive weighted darts in place of javelins.  Weighted Darts have 3 more ammo than javelins, have 3 better precision, and do 2 less damage.
+Limitane, Limitane Solaris, Comitatense, Limitane Standard, and Standard
+
+Limitane receives clipeus and weighted darts.  Defense 10->11.
+
+Limitane Primani receives clipeus.  Defense 11->12.  Gold cost 12->11.  Map Move 1->2.
+
+Limitane Solaris receives clipeus and weighted darts.  Goldcost 15->14
+
+Primani Solaris receives clipeus.  Goldcost 20->17.  Mapmove 1->2.
+
+Comitatense receives clipeus and weighted darts.  
+
+Palatine gold cost 22->19.
+
+Limitane Standard receives clipeus and weighted darts.  Defense 10->11.  Gold cost 20->18.  Map Move 1->2.
+
+Standard receives clipeus and weighted darts.   Gold cost 30->20.  
+
+Serpent Cataphracts are 70 -> 55 gold
+
+Hydras are 250->210 gold, recuperate.
+
+Hydra Hatchlings are 35->28 gold, recuperate.
+
+Serpent Cult: 
+
+When inactive, Serpent Priests are H2, and Serpent Acolytes are H0.  When active, Serpent Priests are H2, and Serpent Acolytes are H1.
+
+When active, Serpent Acolytes and Serpent Assassins are recruitable in all forts.  
+
+Spells:
+
+Summon Daughter of Typhon (Conj 7, N4D2, 20 n gems) (cult locations only)
+Summon Hydra (Conj 4, N3H1, 10 n gems) (cult locations only)
+Summon Hydra Hatchlings (Conj 3, N1H1, 5 n gems, 3 hydras) (cult locations only)
+Summon Serpent (Conj 2, N1H1, 1 n gem, 2 serpents) (cult locations only)
+Serpent Form: (Alt 4, N1H1, 5 n gems) transforms a serpent acolyte into a Large Serpent which can spit poison and casts poison ward (cult locations only)
+Greater Serpent Form: (Alt 5, N3H1, 10 n gems) transforms a serpent preist into a mighty Great Serpent which can spray poison and casts poison ward (cult locations only)
+Marshes of Pythia:  (Thau 6, N3H4, 3 n gems)  Battlefield spell which mimics Howl, but with snakes and hydras.
+
+
+Item: Enchanted Serpent Staff: (Const 4, 2H, N2).  Restricted to active cult members.  Transforms into a snake in battle, and protects allies from poison.
 
 Solar Cult: gets cheaper and easier recruitment of their members, and gets a reclimit sacred. They get a new Solar Bull summon, and a ritual that can convert Leos into Helioperses, who are effective thugs, and the only unit that can wield the 4 new solar cult items. Casting Second Sun provides some freespawn. They also get an F2H3 buff that significantly increases the combat prowess of sacreds, but will severely burn sacreds who aren't members of the cult of the solar bull (fire resistance helps).
 
+Units:
+
+Spells:  
+Tarboleum: (Alt 3, F1N1, 5 n gems) Transforms a leo into a helioperses (cult locations only)
+Summon Heliotaurus:  (Alt 3, F1N1, 5 n gems) Summons a magical, sacred, fiery bull (cult locations only)
+Sol Invictus:  (Thau 8, F2H3, 1 f gem): Sacreds are stronger, faster, have better attack, radiate heat, and are burned severely if not fire resistant.
+Second Sun: Remains the same, but generates freespawn cult members and bulls, also provides discounts to recruitable sacreds.
+
+Items:
+1
+2
+3
+4
+
 Fertility Cult: can convert casters into Galli, who are their clergy, and their main access to their rituals. They get very cheap assassination rituals that can send maenads, boars, or lions after an enemy, can shapechange into monstrous lions or boars, can throw bloody fertility rites and orgies, and inexpensively summon boars and lions with summerpower. They also get cheaper vine men.
 
-Reference is made to https://docs.google.com/document/d/1nkTDn9yhYQrRcN6k0dTjzs5DpuKxiauV76wA0zQnkTs for the full changelog.
+Units
+Spells
+Items
 
 ##### Lemuria, Soul Gates
 
