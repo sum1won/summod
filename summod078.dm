@@ -13846,11 +13846,13 @@ Xibalba is nerfed by summod.  Bats are more expensive.  Foreign recruit commande
 #addrecunit 2745
 #addrecunit 2746
 #forestcom 2751
-#forestcom 2674
+#forestcom 2782
 #forestrec 2738
 #forestrec 2739
 #caverec 2739
 #caverec 2738
+#cavecom 2750
+#cavecom 2782
 #uwunit1 2889
 #uwunit2 2890
 #uwcom1 2748
