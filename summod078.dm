@@ -817,8 +817,9 @@ These scouts will become commanders after recruitment."
 
 #newarmor 754  -- la pythium
 #name "Clipeus"
+#rcost 1
 #type 4
-#prot 13
+#prot 15
 #def 5
 #enc 1
 #end
