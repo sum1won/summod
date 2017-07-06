@@ -359,7 +359,7 @@ These scouts will become commanders after recruitment."
 #homemon  6496
 #end
 #selectsite  160
-#homemon  6496
+#homemon  6495
 #end
 #selectsite  159
 #homemon  6496
@@ -434,13 +434,13 @@ These scouts will become commanders after recruitment."
 #homemon  6496
 #end
 #selectsite  110
-#homemon  6496
+#homemon  6495
 #end
 #selectsite  107
 #homemon  6496
 #end
 #selectsite  106
-#homemon  6496
+#homemon  6495
 #end
 #selectsite  102
 #homemon  6496
@@ -467,6 +467,9 @@ These scouts will become commanders after recruitment."
 #homemon  6496
 #end
 #selectsite  92
+#homemon  6496
+#end
+#selectsite  91
 #homemon  6496
 #end
 #selectsite  87  
@@ -497,7 +500,7 @@ These scouts will become commanders after recruitment."
 #homemon  6496
 #end
 #selectsite  72
-#homemon  6496
+#homemon  6495
 #end
 #selectsite  71
 #homemon  6496
@@ -617,7 +620,7 @@ These scouts will become commanders after recruitment."
 #homemon  6496
 #end
 #selectsite  2  
-#homemon  6496
+#homemon  6495
 #end
 #selectsite  1  
 #homemon  6496
