@@ -735,7 +735,7 @@ These scouts will become commanders after recruitment."
 
 #selectarmor 22 --Coral Cuirass
 #prot 11 -- from 9
-#rcost 10  -- from 7
+#rcost 8  -- from 7
 #end
 
 #selectarmor 23 --Coral Hauberk
@@ -978,6 +978,12 @@ These scouts will become commanders after recruitment."
 #end
 
 --Spectral Weapons
+
+#newweapon 1422 -- supaya madness
+#copyweapon 280
+#name "Spectral Spear"
+#mrnegates
+#end
 
 
 #selectweapon 280 --spectral spear
@@ -1222,12 +1228,6 @@ These scouts will become commanders after recruitment."
 #bonus
 #rcost 1
 #norepel
-#end
-
-#newweapon 1422 -- supaya madness
-#copyweapon 280
-#name "Spectral Spear"
-#mrnegates
 #end
 
 #newmonster 6499
@@ -13817,6 +13817,8 @@ Ragha is nerfed by summod. Your units are generally more expensive, and if a Zha
 #end
 
 --xibalba
+
+
 #selectnation 81
 #descr "Xibalba is a vast realm of dark caverns beneath the forests of Mictlan. Living in the caverns were the bat people, Zotz, but
 that changed when the cavernous realm was struck by a great disaster. A star fell into the ocean and a great deluge
@@ -13830,49 +13832,15 @@ inhabit their ancestral home, but serve the divinities of subterranean waters an
 
 Xibalba is nerfed by summod.  Bats are more expensive.  Foreign recruit commanders are slow to recruit.  Beastbats are weaker."
 #clearrec
-#addreccom 2675
-#addreccom 2676
-#addreccom 2748
-#addreccom 2750
-#addreccom 2751
-#addreccom 2753
 #addreccom 6582
-#addreccom 6315
-#addrecunit 2738
-#addrecunit 2739
-#addrecunit 2740
-#addrecunit 2741
-#addrecunit 2742
-#addrecunit 2744
-#addrecunit 2745
-#addrecunit 2746
-#forestcom 2751
-#forestcom 2782
-#forestrec 2738
-#forestrec 2739
-#caverec 2739
-#caverec 2738
-#cavecom 2750
-#cavecom 2782
-#uwunit1 2889
-#uwunit2 2890
-#uwcom1 2748
-#uwcom2 2891
 #end
+
 #selectmonster 2674
 #slowrec
 #gcost 40
 #end
-#selectmonster 2750 --chilan cave
-#slowrec
-#gcost 180
-#end
-#newmonster 6315 --chilan fort
-#copystats 2750
-#noslowrec
-#copyspr 2750
-#gcost 180
-#end
+
+
 #selectmonster 2782 --batab cave or forest
 #slowrec
 #gcost 40
