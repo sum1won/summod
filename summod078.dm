@@ -14419,6 +14419,7 @@ Summod changes Rlyeh.  Your freespawn are upkeep free and can be stationed in pr
 #addsite 1818
 #end
 
+
 #newspell
 #name "Sunder Reality"
 #descr "A starspawn attempts to create a connection to the void, a dangerous ritual that can only happen in a fort where the Dream holds sway"
@@ -14428,9 +14429,10 @@ Summod changes Rlyeh.  Your freespawn are upkeep free and can be stationed in pr
 #path 0 4
 #path 1 2
 #pathlevel 0 5 -- change
-#pathlevel 1 2 --change
+#pathlevel 1 2 -- change
 #restricted 92
 #effect 10001
+#spec 276824064
 #provrange 1
 #nowatertrace 1
 #nolandtrace 1
@@ -14725,17 +14727,17 @@ for more detail."
 #end
 
 
-#newevent  --- if you can't name a prophet normally
-#rarity 5
-#req_fornation 61
-#nation -2
-#req_code -1100
-#req_monster 761
-#req_targorder 7
-#transform 6439
-#code -1102
-#msg "The new god has named a priest of the Serpent Cult to be his prophet! The Serpent Cult swells in power and authority, and their temples appear in every city.  Serpent Assassins and Hydras can be recruited in these temples, and, more importantly, they allow new rituals that either summon more Hydras or transform your priests into mighty Serpents."
-#end
+--#newevent  --- if you can't name a prophet normally
+--#rarity 5
+--#req_fornation 61
+--#nation -2
+--#req_code -1100
+--#req_monster 761
+--#req_targorder 7
+--#transform 6439
+--#code -1102
+--#msg "The new god has named a priest of the Serpent Cult to be his prophet! The Serpent Cult swells in power and authority, and their temples appear in every city.  Serpent Assassins and Hydras can be recruited in these temples, and, more importantly, they allow new rituals that either summon more Hydras or transform your priests into mighty Serpents."
+--#end
 
 #newevent
 #rarity 5
@@ -14797,17 +14799,17 @@ for more detail."
 #notext
 #end
 
-#newevent  --- if you can't name a prophet normally
-#rarity 5
-#req_fornation 61
-#nation -2
-#req_code -1100
-#req_monster 1873
-#req_targorder 7
-#transform 6414
-#code -1104
-#msg "The new god has named a Heliodromus to be his prophet! The Cult of the Solar Bull swells in power and authority, and Mithrea, temples to the god in his guise as the Solar Bull are erected in every city!  New rituals can be cast in those temples, which can summon the progeny of the Solar Bull, and transform Leos into mighty champions who are the only ones who can wield specially enchanted items.  Cultists can be recruited in these temples, and they will further increase in power if a Second Sun appears in the sky - a true sign of the Solar Bull."
-#end
+--#newevent  --- if you can't name a prophet normally
+--#rarity 5
+--#req_fornation 61
+--#nation -2
+--#req_code -1100
+--#req_monster 1873
+--#req_targorder 7
+--#transform 6414
+--#code -1104
+--#msg "The new god has named a Heliodromus to be his prophet! The Cult of the Solar Bull swells in power and authority, and Mithrea, temples to the god in his guise as the Solar Bull are erected in every city!  New rituals can be cast in those temples, which can summon the progeny of the Solar Bull, and transform Leos into mighty champions who are the only ones who can wield specially enchanted items.  Cultists can be recruited in these temples, and they will further increase in power if a Second Sun appears in the sky - a true sign of the Solar Bull."
+--#end
 
 #newevent --capital prophet
 #rarity 5
@@ -15038,33 +15040,33 @@ for more detail."
 #notext
 #end
 
-#newevent  --- if you can't name a prophet normally
-#rarity 5
-#req_fornation 61
-#nation -2
-#msg "nope"
-#req_code -1100
-#req_monster 1880 --reveler
-#req_nomnr 6415 --archgalli prophet
-#req_targorder 7
-#transform 6415
-#code -1106
-#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals."
-#end
+--#newevent  --- if you can't name a prophet normally
+--#rarity 5
+--#req_fornation 61
+--#nation -2
+--#msg "nope"
+--#req_code -1100
+--#req_monster 1880 --reveler
+--#req_nomnr 6415 --archgalli prophet
+--#req_targorder 7
+--#transform 6415
+--#code -1106
+--#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals."
+--#end
 
-#newevent  --- if you can't name a prophet normally
-#rarity 5
-#req_fornation 61
-#nation -2
-#msg "nope"
-#req_code -1100
-#req_monster 1875 --epoptes
-#req_nomnr 6415 --archgalli prophet
-#req_targorder 7
-#transform 6415
-#code -1106
-#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals."
-#end
+--#newevent  --- if you can't name a prophet normally
+--#rarity 5
+--#req_fornation 61
+--#nation -2
+--#msg "nope"
+--#req_code -1100
+--#req_monster 1875 --epoptes
+--#req_nomnr 6415 --archgalli prophet
+--#req_targorder 7
+--#transform 6415
+--#code -1106
+--#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals."
+--#end
 
 #newevent
 #rarity 5
