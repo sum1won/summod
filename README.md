@@ -1377,7 +1377,7 @@ Telkhine: +increase death scale
 ##### Arcoscephale, The Old Kingdom
 
 ##### Ermor, Ashen Empire
-*Ermor receives a D1 site that spawns in provinces (not water provinces) they control with high dominion and low population. Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor.
+*Ermor receives a D1 site that spawns in (non-water) provinces  they control with high dominion and low population. Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor.
 
 *Reduced capital income.
 
@@ -1390,6 +1390,8 @@ Knight of the Unholy Sepulchre: att 13->11, lance->light lance, kite shield->rus
 Dusk Elders: slightly more resistant to magic duel (equivalent to having +S1)
 
 ##### Sceleria, The Reformed Empire
+*Sceleria's indie priests have 2.5X upkeep costs. Will not display until turn after recruitment. Indie flavor text changed to reflect this.
+
 
 ##### Pythium, Emerald Empire
 
