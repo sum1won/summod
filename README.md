@@ -917,7 +917,7 @@ Basalt Armor: enc 6->4, rescost 30->25 (EA Atlantis)
 
 Jingasa: rescost 2->1
 
-Coral Cuirass: prot 10->12, enc 2->1, rescost 7->10 (MA, LA Atlantis)*
+Coral Cuirass: prot 10->12, enc 2->1, rescost 7->8 (MA, LA Atlantis)*
 
 Coral Hauberk: prot 12->14, def -2->-1, enc 3->2, rescost 10->15 (EA Pelagia, MA, LA Atlantis)*
 
@@ -1712,7 +1712,7 @@ Dai Oni: conj 8->7, 45->35 gems
 
 Kitsune: 30->23 gems
 
-(New Spell) Hide Heart: ench 5, D2F2, 16 gems, produces a 'Ritual Assistant' that, when alone with a Sorceror on a mountain that isn't already occupied, generates a hidden heart and makes the Sorceror immortal.  However, if the heart is destroyed, the Sorceror dies.
+(New Spell) Hide Heart: ench 5, D2F2, 10 gems, makes the caster into an immortal kizoku.
 
 ##### Ashdod, Reign of the Anakim
 
@@ -2142,7 +2142,7 @@ Batab: +slow-to-recruit outside forts
 
 Ah Ha': bronze spear->(UW) knife
 
-Chilan: +slow-to-recruit outside forts
+Chilan: +slow-to-recruit outside forts  -- doesn't currently work
 
 *From EA Xibalba changes
 Bind Beast Bats: (MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each))

@@ -1,25 +1,25 @@
-#modname "Summod 0.77"
+#modname "Summod 0.78"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.77
+#version 0.78
 #icon "./summod/summodall.tga"
 
---This is summod.  Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
+--This is summod. Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
 
---Thanks to a variety of persons named in the dom4mods thread and elsewhere.
+--Thanks to a variety of people named in the dom4mods thread and elsewhere.
 
 --IDs used/reserved for growth
---Monsterids          6300-6999
---weapons             1400-1500
--- armor              600-700
--- Sites              1800-1900
---item      
---Nametypes           none
---montag              1300-1340
---Spell               none
---restricted item     1100-1200
---nation               -none
---mercenary            -none
---event                -none
+--Monsterids         6300-6999
+--weapons            1400-1500
+--Armor              600-700
+--Sites              1800-1900
+--Item      
+--Nametypes          none
+--Montag             1300-1340
+--Spell              none
+--Restricted item    1100-1200
+--Nation             -none
+--Mercenary          -none
+--Event             -none
 ----------------------
 
 
@@ -735,7 +735,7 @@ These scouts will become commanders after recruitment."
 
 #selectarmor 22 --Coral Cuirass
 #prot 11 -- from 9
-#rcost 10  -- from 7
+#rcost 8  -- from 7
 #end
 
 #selectarmor 23 --Coral Hauberk
@@ -759,7 +759,11 @@ These scouts will become commanders after recruitment."
 #end
 
 #selectarmor 85 -- Amber Shield
-#def 6 --From 4, make them actually better than regular turtle shield
+#def 4 -- a value of 4 raises original parry by one to make them actually better than a regular turtle shield
+#end
+
+#selectarmor 189 -- Pearl Shield
+#def 5 -- a value of 5 raises original parry by one to keep them 1 better than an amber shield
 #end
 
 #selectarmor 84 -- Amber Hauberk
@@ -813,11 +817,18 @@ These scouts will become commanders after recruitment."
 
 #newarmor 754  -- la pythium
 #name "Clipeus"
+#rcost 1
 #type 4
-#prot 13
+#prot 15
 #def 5
 #enc 1
 #end
+
+#new armor 755
+#copystats 127
+#name "treated metal helm"
+#end
+
 
 
 
@@ -890,22 +901,14 @@ These scouts will become commanders after recruitment."
 #school -1
 #end
 
-#newspell
-#name "Current Command"
-#copyspell 779
-#name "Current Command"
-#school -1
-#nextspell 1077
-#descr "Shields the wielder from harm while friendly currents aid his allies."
-#end
 #selectitem 78 --wavebreaker
-#autospell "Current Command"
 #spell "Water Strike"
-#descr "The wielder of this trident will be able to command the currents of the sea. They will aid his friends, keep him from harm, allow him to breathe underwater, and strike his enemies at his command.  When used during battle, the Wave Breaker strikes with incredible speed."
+#descr "The wielder of this trident will be able to command the currents of the sea. They will aid his friends, and strike his enemies at his command.  When used during battle, the Wave Breaker strikes with incredible speed."
 #end
 
 ---Modified Items
 #selectweapon 537 -- Flick Barbs
+
 #end
 
 #selectweapon 71 -- sleepvines
@@ -975,6 +978,12 @@ These scouts will become commanders after recruitment."
 #end
 
 --Spectral Weapons
+
+#newweapon 1422 -- supaya madness
+#copyweapon 280
+#name "Spectral Spear"
+#mrnegates
+#end
 
 
 #selectweapon 280 --spectral spear
@@ -1219,12 +1228,6 @@ These scouts will become commanders after recruitment."
 #bonus
 #rcost 1
 #norepel
-#end
-
-#newweapon 1422 -- supaya madness
-#copyweapon 280
-#name "Spectral Spear"
-#mrnegates
 #end
 
 #newmonster 6499
@@ -1670,6 +1673,14 @@ These scouts will become commanders after recruitment."
 #rcost	23	
 #end  	-- serpent ma pythium
 
+#selectmonster  	763	
+#rcost	23	
+#end  	-- serpent LA pythium
+
+#selectmonster  	765	 
+#rcost	23	
+#end  	-- serpent LA pythium
+
 #selectmonster  	19	
 #rcost	15	
 #end  	-- indie
@@ -1824,7 +1835,7 @@ These scouts will become commanders after recruitment."
 #rcost	34	
 #end  	-- Ragha Zhayedan Spahbed
 
-#selectmonster  	2687	
+#selectmonster  	2587	
 #rcost	34	
 #end  	-- Zhayedan
 
@@ -1855,7 +1866,7 @@ These scouts will become commanders after recruitment."
 --- CHARIOTS	
 #selectmonster 	927 -- EA TC Noble
 #ressize  2
-#rcost 10
+#rcost 8
 #gcost 10025
 #end
 
@@ -1880,10 +1891,16 @@ These scouts will become commanders after recruitment."
 #gcost 10020
 #end
 
-#selectmonster 	1078 -- EA arco chariot archer
+#selectmonster 	1079 -- EA arco chariot archer
 #ressize  2
 #rcost 8
 #gcost 10030
+#end
+
+#selectmonster 	1081 -- EA arco chariot commander
+#ressize  2
+#rcost 8
+#gcost 10020
 #end
 
 
@@ -1982,7 +1999,7 @@ These scouts will become commanders after recruitment."
 #cleararmor
 #weapon 670 --Trident
 #armor 751 -- treated scale hauberk
-#armor 1524
+#armor 755
 #end
 
 #selectmonster 444 --traitor prince
@@ -2205,10 +2222,10 @@ These scouts will become commanders after recruitment."
 #mr 1
 #end
 
-#selectitem 56 --faithful
+#selectitem 26 --faithful
 #mainpath 4
-#secondarylevel 0
 #secondarypath -1
+#secondarylevel 0
 #end
 
 #selectweapon 301 --firebola
@@ -2267,7 +2284,7 @@ These scouts will become commanders after recruitment."
 #selectitem 21 --smasher
 #mainlevel 1
 #end
-#selectweapon 61 --snake bladder
+#selectweapon 183 --snake bladder
 #aoe 5
 #end
 #selectweapon 219 --falsefetters for star of thralldom
@@ -2278,6 +2295,7 @@ These scouts will become commanders after recruitment."
 #end
 #selectitem 50 --sword of swiftness
 #autospell "Quicken Self"
+#constlevel 6
 #end
 #selectweapon 106
 #def 1
@@ -2313,7 +2331,8 @@ These scouts will become commanders after recruitment."
 #mainlevel 1
 #end
 #selectarmor 42 --leadshield
-#def 7
+#def 4 --a value of 4 raises original parry by one
+#mr 5
 #enc 2
 #end
 #selectitem 138 --luckyshield
@@ -2359,7 +2378,7 @@ These scouts will become commanders after recruitment."
 #selectweapon 41
 #dmg 12
 #end
-#selectitem 83 --banefirexbow
+#selectitem 82 --banefirexbow
 #constlevel 4
 #end
 #selectweapon 434
@@ -2741,6 +2760,7 @@ These scouts will become commanders after recruitment."
 #secondarypath -1
 #secondarylevel 0
 #mainpath 5
+#darkvision 100
 #end
 
 #selectitem 284	 --	Champions Skull Insp 1, D2->D1
@@ -2835,7 +2855,7 @@ These scouts will become commanders after recruitment."
 #mainlevel 1
 #constlevel 6
 #giftofwater 80
-#descr "These pills grant waterbreathing ability to 40 soldiers."
+#descr "These pills grant waterbreathing ability to 80 soldiers."
 #end
 
 #selectitem 242	 --	Ring of Warning -> Patrol 25
@@ -2910,6 +2930,7 @@ These scouts will become commanders after recruitment."
 -Carcator
 #selectitem 346
 #mainlevel 2
+#inspiringres 1
 #end
 -Draupnir
 #selectitem 375
@@ -2983,6 +3004,7 @@ These scouts will become commanders after recruitment."
 #name "Unquenched Flames"
 #copyspell 716
 #name "Unquenched Flames"
+#school -1
 #nextspell 823
 #end
 #selectitem 94
@@ -3511,7 +3533,7 @@ These scouts will become commanders after recruitment."
 #nreff 1002
 #end
 #selectspell 908 --confusion
-#aoe 2
+#aoe 1003
 #end
 #selectspell 565 -- enfeeble
 #aoe 2006
@@ -3857,7 +3879,7 @@ These scouts will become commanders after recruitment."
 #end
 #selectspell 682 --winterwolves
 #nreff 2004
-#fatiguecost 2004
+#fatiguecost 2000
 #descr "The caster summons and binds several Winter Wolves. The Winter Wolf is one of the four seasonal spirits. It is a large, ethereal wolf surrounded by an icy wind. It is a magical, mindless being that must be commanded by a mage."
 #end
 #selectmonster 511 
@@ -3897,8 +3919,8 @@ These scouts will become commanders after recruitment."
 #hp 260
 #end
 #selectmonster 996
-#shockres 3
-#fireres 3
+#shockres 5
+#fireres 5
 #acidshield 10 
 #slimer 1
 #pierceres
@@ -3950,6 +3972,7 @@ These scouts will become commanders after recruitment."
 #inanimate
 #neednoteat
 #noheal
+#amphibian
 #descr "A telestic animate is a wooden statue with a golden plate inscribed with holy names on its forehead.  The divine names grant the statue the ability to speak the Will of God.  It can only move for one month after being constructed."
 #mapmove 1
 #ap 1
@@ -3967,6 +3990,7 @@ These scouts will become commanders after recruitment."
 #inanimate
 #neednoteat
 #noheal
+#amphibian
 #descr "A telestic animate is a wooden statue with a golden plate inscribed with holy names on its forehead.  The divine names grant the statue the ability to speak the Will of God.  It can only move for one month after being constructed."
 #mapmove 1
 #ap 1
@@ -4019,7 +4043,7 @@ These scouts will become commanders after recruitment."
 #maxage 3000
 #pierceres
 #slashres
-#descr "A poison golem is a metal giant made of dark alloys from the Underworld. The poison golem is made for a single purpose, destruction, and its mere presence is harmful to the living. The very land in which it stays will slowly wither and die. The construct is always surrounded by sickly green flames of the Underworld, and can travel through the underwo outside of battle, improving its ability to avoid difficult terrain."
+#descr "A poison golem is a metal giant made of dark alloys from the Underworld. The poison golem is made for a single purpose, destruction, and its mere presence is harmful to the living. The very land in which it stays will slowly wither and die. The construct is always surrounded by sickly green flames of the Underworld, and can navigate that place's twisted byways to avoid difficult terrain outside of battle."
 #end
 #newmonster 6301
 #copystats 1099
@@ -4102,6 +4126,9 @@ These scouts will become commanders after recruitment."
 #end
 #selectspell 695-Forest Trolls
 #fatiguecost 700
+#end
+#selectspell 713 -Lamias
+#pathlevel 0 2
 #end
 #selectspell 715 -Lamia queen
 #fatiguecost 2000
@@ -4322,6 +4349,9 @@ Xibalba is substantially nerfed by summod.  Bats are more expensive, foreign rec
 #incunrest 40
 #end
 #selectmonster 2736 --onaqui
+#incunrest 70
+#end
+#selectmonster 1360 --onaqui summoned version
 #incunrest 70
 #end
 
@@ -5696,7 +5726,8 @@ Skies, the Devala, which automatically casts Celestial Music, and the Devata, wh
 #selectmonster 1335 --gandharva
 #weapon 1423
 #end
-#selectnation 11 --Machaka
+
+#selectnation 11 --EA MACHAKA
 #descr "Machaka is an old sacral kingdom divided into totemic clans. The clans follow their totemic spirits and worship
 them as bringers of civilization and tell myths about their interactions with men. For centuries the Lion Clan
 has dominated the others and formed a unified kingdom under their wise rule. The Lion Clan is blessed by
@@ -5724,7 +5755,7 @@ Machaka is improved by summod.  This generally involves cost decreases, but your
 #selectmonster 2298 --machaka milita
 #gcost 10007
 #end
-#selectmonster 2300 --machaka warrior -- cheaper, 
+#selectmonster 2300 --machaka warrior -- cheaper, given machaka spear 
 #gcost 10008
 #clearweapons
 #weapon 315
@@ -5732,13 +5763,13 @@ Machaka is improved by summod.  This generally involves cost decreases, but your
 #selectmonster 2301 --spiderclan archer
 #gcost 10013
 #end
-#selectweapon 519
+#selectweapon 519 -- poison tipped spear 4>3
 #rcost 3
 #end
 #selectmonster 2302 --spider clan warrior
 #armor 44
 #end
-#selectmonster 884 --great spider -- improve.
+#selectmonster 884 --great spider -- improve
 #gcost 20
 #size 4
 #str 16
@@ -5748,7 +5779,8 @@ Machaka is improved by summod.  This generally involves cost decreases, but your
 #size 4
 #gcost 10020
 #end
---EA Sauro
+
+--EA SAUROMATIA
 #selectmonster 1167 --lancer--3 gold discount
 #gcost 10002
 #end
@@ -5824,7 +5856,7 @@ Machaka is improved by summod.  This generally involves cost decreases, but your
 #heal
 #end
 
-#selectnation 29 --ea ur
+#selectnation 29 --EA UR
 #addrecunit 2162
 #addrecunit 2163
 #addrecunit 2164
@@ -7374,6 +7406,7 @@ Summod improves  Ur.  PD is better, your troops are generally better and/or chea
 #magicskill 2 1
 #custommagic 1664 100
 #custommagic 3200 50
+#clearweapons
 #weapon 31
 #armor 24
 #okleader
@@ -7455,6 +7488,26 @@ won't live more than a month or two."
 
 ---- Pelagia
 #selectnation 85 --pelagia
+#end
+
+#selectmonster 1293 --Turtle Chief, match helm and javelin to turtle warriors
+#clearweapons
+#cleararmor
+#weapon 31
+#weapon 640
+#armor 114
+#armor 134
+#armor 25
+#end
+
+#selectmonster 1294 --Turtle Chief coastal, match helm and javelin to turtle warriors
+#clearweapons
+#cleararmor
+#weapon 31
+#weapon 640
+#armor 114
+#armor 134
+#armor 25
 #end
 
 ---EA Oceania
@@ -10041,6 +10094,7 @@ which now scare the enemy."
 #weapon 313
 #weapon 357
 #weapon 262
+#weapon 23
 #end
 #selectmonster 886 --spider knight
 #size 4
@@ -10123,11 +10177,12 @@ provides useful crosspaths and smithing."
 #spr2 "./summod/iceenchanter_2.tga"
 #name "Ice Enchanter"
 #descr "Ice Enchanters are the elite of the Ice Crafters, who are Caelian craftsmen and mages of frozen water.  They make the magical ice used in Caelum, and build palaces, weapons, armor, and common tools from it.  The most talented become Enchanters, who forge other magical items and even use the lore of other clans. Ice Enchanters use fewer magical gems when forging magical items."
-#gcost 10040
+#gcost 10050
 #clearmagic
 #magicskill 2 2
 #custommagic 6272 100
 #custommagic 2816 100
+#slowrec
 #iceforging 7
 #end
 -------Bandar Log
@@ -10196,29 +10251,14 @@ Bakemono Kings and the Awakening God.
 
 Summod buffs Shinuyama by improving the Bakemono, improving summon cost, and granting new abilities.  
 Notably, Bakameno shamans are more interesting recruits, kappa mages can be recruited underwater, and 
-Bakemono Sorcerors can summon a ritual assistant.  By traveling with the assistant to a mountain not 
-yet claimed by another sorceror, the Bakemono sorceror can hide his heart, gaining a sort of 
-immortality and enhanced abilities."
+Bakemono Sorcerors can become immortal."
 #uwcom1 1530
 #startunittype1 1390
 #startunittype2 1391
 #startunitnbrs2 15
 #startunitnbrs1 15
 #end
-#newmonster 6352--summonchecker
-#copystats 1396
-#spr1 "./summod/ritualhelp1.tga"
-#spr2 "./summod/ritualhelp2.tga"
-#name "Ritual Assistant"
-#descr "This bakemono has been chosen for his loyalty, desperation, and unimportance.  He will travel with a Bakemono Sorceror to a hidden place on a mountain, where he will aid the Sorceror in the heart-hiding ritual, after which he has been promised his reward."
-#clearweapons
-#weapon 1
-#size 3
-#cleararmor
-#armor 44
-#stealthy 0
-#gcost 10
-#end
+
 #selectmonster 1530
 #gcost 45
 #end
@@ -10315,55 +10355,20 @@ immortality and enhanced abilities."
 #school 4
 #researchlevel 5 --change
 #path 0 5
-#pathlevel 0 2
+#pathlevel 0 3
 #path 1 0
 #pathlevel 1 2
-#fatiguecost 1600 --change
-#effect 10001
-#damage 6352
-#end
-#newsite 1801
-#name "Hiding Place"
-#rarity 5
-#level 4
-#path 8
+#fatiguecost 1000 --change
+#effect 10127
+#damage 6380
 #end
 
-#newmonster 6353
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
+
 #newmonster 6380  	
 #name "Bakemono Kizoku"
 #size 3 
 #immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
+#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart and achieved immortality." 
 #spr1 "./summod/bakemonokizoku1.tga" 
 #spr2 "./summod/bakemonokizoku2.tga" 
 #gcost 395 
@@ -10383,7 +10388,6 @@ immortality and enhanced abilities."
 #armor 129 
 #holy 
 #darkvision 50 
-#unique 
 #magicskill 0 2 
 #magicskill 2 1 
 #magicskill 3 2
@@ -10392,2383 +10396,7 @@ immortality and enhanced abilities."
 #custommagic 5760 100 
 #custommagic 5760 10 
 #end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6380  
-#req_nomnr 6353
-#stealthcom 6353
-#killmon 6352
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6353 
-#req_monster 6380
-#killcom 6380 
-#nolog
-#end  
-#newmonster 6354	
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile  
-#end 	
-#newmonster 6381		
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6381
-#req_nomnr 6354
-#stealthcom 6354
-#killmon 6353
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6354
-#req_monster 6381
-#killcom 6381
-#nolog
-#end  
-#newmonster 6355
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6382		
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6382
-#req_nomnr 6355
-#stealthcom 6355
-#killmon 6354
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6355
-#req_monster 6382
-#killcom 6382
-#nolog
-#end  
-#newmonster 6356	
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6383		
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6383
-#req_nomnr 6356
-#stealthcom 6356
-#killmon 6355
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6356
-#req_monster 6383
-#killcom 6383
-#nolog
-#end  
-#newmonster 6357
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6384		
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6384
-#req_nomnr 6357
-#stealthcom 6357
-#killmon 6356
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6357
-#req_monster 6384
-#killcom 6384
-#nolog
-#end  
-#newmonster 6358
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6385		
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6385
-#req_nomnr 6358
-#stealthcom 6358
-#killmon 6357
-#nolog 
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6358
-#req_monster 6385
-#killcom 6385
-#nolog
-#end  
-#newmonster 6359
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6386		
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6386
-#req_nomnr 6359
-#stealthcom 6359
-#killmon 6358
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6359
-#req_monster 6386
-#killcom 6386
-#nolog
-#end  
-#newmonster 6360
-#spr1 "./summod/heart.tga"
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart"
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1
-#hp 2
-#gcost 0
-#rcost 1
-#unique
-#mor 50
-#noleader
-#mr 14
-#maxage 495
-#heal
-#str 1
-#prot 0
-#att 0
-#def 0
-#prec 0
-#enc 1
-#ap 1
-#blind
-#weapon 575
-#stealthy 40
-#neednoteat
-#itemslots 4096
-#mapmove 0
-#immobile 
-#end 	
-#newmonster 6387		
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6387
-#req_nomnr 6360
-#stealthcom 6360
-#killmon 6359
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6360
-#req_monster 6387
-#killcom 6387
-#nolog
-#end  
-#newmonster 6361
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6388
-#name "Bakemono Kizoku"
-#size 3
-#immortal
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn."
-#spr1 "./summod/bakemonokizoku1.tga"
-#spr2 "./summod/bakemonokizoku2.tga"
-#gcost 395
-#hp 33
-#prot 7
-#mr 17
-#mor 16
-#str 18
-#att 12
-#def 12
-#prec 10
-#enc 2
-#maxage 250
-#startage 50
-#mountainsurvival
-#weapon 379
-#armor 129
-#holy
-#darkvision 50
-#unique
-#magicskill 0 2
-#magicskill 2 1
-#magicskill 3 2
-#magicskill 5 3
-#magicskill 8 1
-#custommagic 5760 100
-#custommagic 5760 10 
-#end	
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6388
-#req_nomnr 6361
-#stealthcom 6361
-#killmon 6360
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6361
-#req_monster 6388
-#killcom 6388
-#nolog
-#end  
-#newmonster 6362
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6389		
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6389
-#req_nomnr 6362
-#stealthcom 6362
-#killmon 6361
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6362
-#req_monster 6389
-#killcom 6389
-#nolog
-#end  
-#newmonster 6363
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6390		
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6390
-#req_nomnr 6363
-#stealthcom 6363
-#killmon 6362
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6363
-#req_monster 6390
-#killcom 6390
-#nolog
-#end  
-#newmonster 6364
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6391		
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6391
-#req_nomnr 6364
-#stealthcom 6364
-#killmon 6363
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6364
-#req_monster 6391
-#killcom 6391
-#nolog
-#end  
-#newmonster 6365
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6392		
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6392
-#req_nomnr 6365
-#stealthcom 6365
-#killmon 6364
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6365
-#req_monster 6392
-#killcom 6392
-#nolog
-#end  
-#newmonster 6366
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6393		
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6393
-#req_nomnr 6366
-#stealthcom 6366
-#killmon 6365
-#nolog 
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6366
-#req_monster 6393
-#killcom 6393
-#nolog 
-#end  
-#newmonster 6367
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6394		
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6394
-#req_nomnr 6367
-#stealthcom 6367
-#killmon 6366
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6367
-#req_monster 6394
-#killcom 6394
-#nolog
-#end  
-#newmonster 6368
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6395		
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6395
-#req_nomnr 6368
-#stealthcom 6368
-#killmon 6367
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6368
-#req_monster 6395
-#killcom 6395
-#nolog
-#end  
-#newmonster 6369
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6396		
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6396
-#req_nomnr 6369
-#stealthcom 6369
-#killmon 6368
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6369
-#req_monster 6396
-#killcom 6396
-#nolog
-#end  
-#newmonster 6370
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6397	
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6397
-#req_nomnr 6370
-#stealthcom 6370
-#killmon 6369
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6370
-#req_monster 6397
-#killcom 6397
-#nolog
-#end  
-#newmonster
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6398		
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6398
-#req_nomnr 6371
-#stealthcom 6371
-#killmon 6370
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6371
-#req_monster 6398
-#killcom 6398
-#nolog
-#end  
-#newmonster 6372
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6399	
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6399
-#req_nomnr 6372
-#stealthcom 6372
-#killmon 6371
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6372
-#req_monster 6399
-#killcom 6399
-#nolog
-#end  
-#newmonster 6373
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6400	
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end	
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6400
-#req_nomnr 6373
-#stealthcom 6373
-#killmon 6372
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6373
-#req_monster 6400
-#killcom 6400
-#nolog
-#end  
-#newmonster 6374
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6401	
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6401
-#req_nomnr 6374
-#stealthcom 6374
-#killmon 6373
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6374
-#req_monster 6401
-#killcom 6401
-#nolog
-#end  
-#newmonster 6375
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6402	
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end	
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6402
-#req_nomnr 6375
-#stealthcom 6375
-#killmon 6374
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6375
-#req_monster 6402
-#killcom 6402
-#nolog
-#end  
-#newmonster 6376
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6403	
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6403
-#req_nomnr 6376
-#stealthcom 6376
-#killmon 6375
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6376
-#req_monster 6403
-#killcom 6403
-#nolog
-#end  
-#newmonster 6377
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6404	
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6404
-#req_nomnr 6377
-#stealthcom 6377
-#killmon 6376
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6377
-#req_monster 6404
-#killcom 6404
-#nolog
-#end  
-#newmonster 6378
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6405	
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6405
-#req_nomnr 6378
-#stealthcom 6378
-#killmon 6377
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6378
-#req_monster 6405
-#killcom 6405
-#nolog
-#end  
-#newmonster 6379
-#spr1 "./summod/heart.tga" 
-#spr2 "./summod/heart2.tga" 
-#name "Sorceror Heart" 
-#descr "This is the heart of a Bakemono Sorceror. It has been hidden in a secret place on an isolated mountain shrine. So long as it remains safe, he cannot truly die, but if it is destroyed, he dies with it. No more than one heart can exist per province."
-#size 1 
-#hp 2 
-#gcost 0 
-#rcost 1 
-#unique 
-#mor 50 
-#noleader
-#mr 14 
-#maxage 495
-#heal
-#str 1 
-#prot 0 
-#att 0 
-#def 0 
-#prec 0
-#enc 1 
-#ap 1 
-#blind 
-#weapon 575
-#stealthy 40
-#neednoteat 
-#itemslots 4096
-#mapmove 0 
-#immobile 
-#end 	
-#newmonster 6406	
-#name "Bakemono Kizoku"
-#size 3 
-#immortal 
-#descr "The Bakemono Kizoku is a Bakemono Sorceror who has recently hidden his heart in a secret place on an isolated mountain. So long as it exists, he cannot be truly killed, but is instead reborn." 
-#spr1 "./summod/bakemonokizoku1.tga" 
-#spr2 "./summod/bakemonokizoku2.tga" 
-#gcost 395 
-#hp 33 
-#prot 7 
-#mr 17 
-#mor 16 
-#str 18 
-#att 12 
-#def 12 
-#prec 10 
-#enc 2 
-#maxage 250 
-#startage 50 
-#mountainsurvival 
-#weapon 379 
-#armor 129 
-#holy 
-#darkvision 50 
-#unique 
-#magicskill 0 2 
-#magicskill 2 1 
-#magicskill 3 2
-#magicskill 5 3 
-#magicskill 8 1 
-#custommagic 5760 100 
-#custommagic 5760 10 
-#end	
-#newevent
-#req_mountain 1
-#req_pop0ok
-#req_freesites 1
-#nation -2
-#rarity 5 
-#req_site 0
-#hiddensite -1 
-#msg "The Sorceror Successfully hid his heart, and provided his assistant with a reward appropriate to maintain the secrecy of the Hiding Place. [Hiding Place]." 
-#req_nomonster "Sorceror Heart"
-#req_monster 6352 
-#req_targmnr 1427
-#transform 6406
-#req_nomnr 6379
-#stealthcom 6379
-#killmon 6378
-#nolog
-#end 
-#newevent
-#msg "With the destruction of his heart, the Kizoku dies!"#nation -2
-#rarity 5
-#req_pop0ok
-#req_nomnr 6379
-#req_monster 6406
-#killcom 6406
-#nolog
-#end  	
-#newevent
-#nation -2
-#rarity 5
-#req_pop0ok 
-#req_site 1
-#msg "Site removed [Hiding Place]."
-#notext
-#removesite 1801
-#nolog
-#end
+
 
 ------MA Man
 #selectnation 37
@@ -13039,6 +10667,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #msg "This knight has become a ranking member of the Knights of the Glade!"
 #req_rare 30
 #addequip 1
+#pathboost 6
 #transform 6464
 #end
 #newevent --11--
@@ -13063,6 +10692,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #msg "This knight has become a ranking member of the Knights of the Glade!"
 #req_rare 30
 #addequip 1
+#pathboost 8 
 #transform 6466
 #end
 #newevent --13--
@@ -13193,7 +10823,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #spr2 "./summod/roundgala_2.tga"
 #size 3
 #holy
-#magicskill 8 2
+#magicboost 8 1
 #descr "A Knight of the Glade, gallant and bold, entrusted with special duties and honours, the Pious Knight is among the holiest of his company."
 #end
 #newmonster 6463 --7 Bors--
@@ -13760,6 +11390,8 @@ Ragha is nerfed by summod. Your units are generally more expensive, and if a Zha
 #end
 
 --xibalba
+
+
 #selectnation 81
 #descr "Xibalba is a vast realm of dark caverns beneath the forests of Mictlan. Living in the caverns were the bat people, Zotz, but
 that changed when the cavernous realm was struck by a great disaster. A star fell into the ocean and a great deluge
@@ -13773,47 +11405,15 @@ inhabit their ancestral home, but serve the divinities of subterranean waters an
 
 Xibalba is nerfed by summod.  Bats are more expensive.  Foreign recruit commanders are slow to recruit.  Beastbats are weaker."
 #clearrec
-#addreccom 2675
-#addreccom 2676
-#addreccom 2748
-#addreccom 2750
-#addreccom 2751
-#addreccom 2753
 #addreccom 6582
-#addreccom 6315
-#addrecunit 2738
-#addrecunit 2739
-#addrecunit 2740
-#addrecunit 2741
-#addrecunit 2742
-#addrecunit 2744
-#addrecunit 2745
-#addrecunit 2746
-#forestcom 2751
-#forestcom 2674
-#forestrec 2738
-#forestrec 2739
-#caverec 2739
-#caverec 2738
-#uwunit1 2889
-#uwunit2 2890
-#uwcom1 2748
-#uwcom2 2891
 #end
+
 #selectmonster 2674
 #slowrec
 #gcost 40
 #end
-#selectmonster 2750 --chilan cave
-#slowrec
-#gcost 180
-#end
-#newmonster 6315 --chilan fort
-#copystats 2750
-#noslowrec
-#copyspr 2750
-#gcost 180
-#end
+
+
 #selectmonster 2782 --batab cave or forest
 #slowrec
 #gcost 40
@@ -14068,7 +11668,7 @@ Summod buffs Jomon.  Please observe your new Ashigaru archer, cheaper cavalry (n
 #custommagic 10112 20
 #end
 #selectspell 183 --meditation sign
-#damage 5015
+#damage 5020
 #end
 #selectspell 182
 #range 5010
@@ -14136,7 +11736,7 @@ Summod slightly changes Pangaea.  Some of your troops, primarily minotaurs, are 
 #end
 
 #selectmonster 1533--minotaur  5 gold discount
-#gcost 10035
+#gcost 10045
 #end
 
 #selectmonster 706 --Pan random increased to 30%
@@ -14360,6 +11960,7 @@ Summod changes Rlyeh.  Your freespawn are upkeep free and can be stationed in pr
 #addsite 1818
 #end
 
+
 #newspell
 #name "Sunder Reality"
 #descr "A starspawn attempts to create a connection to the void, a dangerous ritual that can only happen in a fort where the Dream holds sway"
@@ -14369,9 +11970,10 @@ Summod changes Rlyeh.  Your freespawn are upkeep free and can be stationed in pr
 #path 0 4
 #path 1 2
 #pathlevel 0 5 -- change
-#pathlevel 1 2 --change
+#pathlevel 1 2 -- change
 #restricted 92
 #effect 10001
+#spec 276824064
 #provrange 1
 #nowatertrace 1
 #nolandtrace 1
@@ -14666,17 +12268,17 @@ for more detail."
 #end
 
 
-#newevent  --- if you can't name a prophet normally
-#rarity 5
-#req_fornation 61
-#nation -2
-#req_code -1100
-#req_monster 761
-#req_targorder 7
-#transform 6439
-#code -1102
-#msg "The new god has named a priest of the Serpent Cult to be his prophet! The Serpent Cult swells in power and authority, and their temples appear in every city.  Serpent Assassins and Hydras can be recruited in these temples, and, more importantly, they allow new rituals that either summon more Hydras or transform your priests into mighty Serpents."
-#end
+--#newevent  --- if you can't name a prophet normally
+--#rarity 5
+--#req_fornation 61
+--#nation -2
+--#req_code -1100
+--#req_monster 761
+--#req_targorder 7
+--#transform 6439
+--#code -1102
+--#msg "The new god has named a priest of the Serpent Cult to be his prophet! The Serpent Cult swells in power and authority, and their temples appear in every city.  Serpent Assassins and Hydras can be recruited in these temples, and, more importantly, they allow new rituals that either summon more Hydras or transform your priests into mighty Serpents."
+--#end
 
 #newevent
 #rarity 5
@@ -14738,17 +12340,17 @@ for more detail."
 #notext
 #end
 
-#newevent  --- if you can't name a prophet normally
-#rarity 5
-#req_fornation 61
-#nation -2
-#req_code -1100
-#req_monster 1873
-#req_targorder 7
-#transform 6414
-#code -1104
-#msg "The new god has named a Heliodromus to be his prophet! The Cult of the Solar Bull swells in power and authority, and Mithrea, temples to the god in his guise as the Solar Bull are erected in every city!  New rituals can be cast in those temples, which can summon the progeny of the Solar Bull, and transform Leos into mighty champions who are the only ones who can wield specially enchanted items.  Cultists can be recruited in these temples, and they will further increase in power if a Second Sun appears in the sky - a true sign of the Solar Bull."
-#end
+--#newevent  --- if you can't name a prophet normally
+--#rarity 5
+--#req_fornation 61
+--#nation -2
+--#req_code -1100
+--#req_monster 1873
+--#req_targorder 7
+--#transform 6414
+--#code -1104
+--#msg "The new god has named a Heliodromus to be his prophet! The Cult of the Solar Bull swells in power and authority, and Mithrea, temples to the god in his guise as the Solar Bull are erected in every city!  New rituals can be cast in those temples, which can summon the progeny of the Solar Bull, and transform Leos into mighty champions who are the only ones who can wield specially enchanted items.  Cultists can be recruited in these temples, and they will further increase in power if a Second Sun appears in the sky - a true sign of the Solar Bull."
+--#end
 
 #newevent --capital prophet
 #rarity 5
@@ -14979,33 +12581,33 @@ for more detail."
 #notext
 #end
 
-#newevent  --- if you can't name a prophet normally
-#rarity 5
-#req_fornation 61
-#nation -2
-#msg "nope"
-#req_code -1100
-#req_monster 1880 --reveler
-#req_nomnr 6415 --archgalli prophet
-#req_targorder 7
-#transform 6415
-#code -1106
-#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals."
-#end
+--#newevent  --- if you can't name a prophet normally
+--#rarity 5
+--#req_fornation 61
+--#nation -2
+--#msg "nope"
+--#req_code -1100
+--#req_monster 1880 --reveler
+--#req_nomnr 6415 --archgalli prophet
+--#req_targorder 7
+--#transform 6415
+--#code -1106
+--#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals."
+--#end
 
-#newevent  --- if you can't name a prophet normally
-#rarity 5
-#req_fornation 61
-#nation -2
-#msg "nope"
-#req_code -1100
-#req_monster 1875 --epoptes
-#req_nomnr 6415 --archgalli prophet
-#req_targorder 7
-#transform 6415
-#code -1106
-#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals."
-#end
+--#newevent  --- if you can't name a prophet normally
+--#rarity 5
+--#req_fornation 61
+--#nation -2
+--#msg "nope"
+--#req_code -1100
+--#req_monster 1875 --epoptes
+--#req_nomnr 6415 --archgalli prophet
+--#req_targorder 7
+--#transform 6415
+--#code -1106
+--#msg "The new god has named a member of the Cult of Fertility to be his prophet! The Cult of Fertility swells in power and authority, and temples to the god in his aspect of Fertility are erected in every city!  This will allow you to cast the rituals of Fertility and transform Epoptes and Revelers into Galli, who can cast yet more powerful rituals."
+--#end
 
 #newevent
 #rarity 5
@@ -17577,11 +15179,13 @@ may make the battlefield deadly even for the priest's allies."
 #gcost 10030
 #end
 
-#selectmonster 1850
+#selectmonster 1850 --Hydra
 #gcost 210
+#heal
 #end
-#selectmonster 1859
+#selectmonster 1859 --Hydra Hatchling
 #gcost 28
+#heal
 #end
 
 #selectmonster 1865 --limitane solaris
