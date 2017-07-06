@@ -154,6 +154,8 @@ Enchanted Sword: +MR1
 
 Enchanted Spear: +MR1
 
+Faithful: E1S1->S1
+
 Fire Bola: nratt 1->3
 
 Fire Brand: primary dmg 12->8
@@ -184,6 +186,8 @@ Shadow Brand: const 6->4, D2E1->D1E1, dmg 12->8
 
 Smasher: E2->E1
 
+Snake Bladder Stick: AoE 4->5
+
 Star of Heroes: nratt 1->2
 
 Star of Thraldom: False Fetters AoE 1->5
@@ -208,7 +212,7 @@ Golden Hoplon: F2->F1, FR15->10
 
 Lantern Shield: D2F1->D1F1
 
-Lead Shield: enc 3->2, def 3->7
+Lead Shield: MR4->5, enc 3->2, def 3->7
 
 Lucky Coin: S2->S1, parry 4->6
 
@@ -228,7 +232,7 @@ Weightless Kite Shield: A2->A1, def 7->6, prot 21->19
 
 Bane Blade: +fear 3, dmg 9->12
 
-Banefire Crossbow: ammo 12->24
+Banefire Crossbow: const 6->4, ammo 12->24
 
 Bow of War: const 6->4, ammo 12->24, dmg 11->13
 
@@ -729,8 +733,11 @@ Yetis: 15->12 gems
 
 Abomination: conj 25->15 pearls
 
-Eater of the Dead: 8->6, D4S4->D3S2, 50->25 pearls, (+FR5, +SR5, +pierceresist
-acid shield at three highest levels, slimer at two highest levels, plague at the highest level)
+Eater of the Dead: conj 8->6, D4S4->D3S2, 50->25 pearls, 
+(baseform: hp 180->210, MR 18->20, +FR5, +SR5, +pierceresist)
+(secondform: hp 210->260, +acidshield 8, regen 10->12%)
+(thirdform: hp 260->350, acidshield 8->10, regen 12->15%, +slimer 1)
+(unfettered: hp 350->500, MR 20-22, acidshield 10->20, regen 15->20%, slimer 1->2 touch->wind of leprosy)
 
 Ether Gate: 90->65 pearls, (ether lord hp 25->30; ether warriors hp 22->25)
 
@@ -908,8 +915,6 @@ Heavy Samurai Armor: def -3->-2, enc 4->3 (Jomon, Yomi)*
 
 Basalt Armor: enc 6->4, rescost 30->25 (EA Atlantis)
 
-Hoplon: enc 1->2 (this fully offsets the benefits Therodos gets from the cuirass changes)
-
 Jingasa: rescost 2->1
 
 Coral Cuirass: prot 10->12, enc 2->1, rescost 7->10 (MA, LA Atlantis)*
@@ -928,7 +933,11 @@ Centaur Barding (Iron): prot 17->18, enc 3->2 (LA Pan)
 
 Amber Hauberk: rescost 18->15
 
-Amber Shield: def 4->6
+Amber Shield: def 4->5 (MA Pelagia)
+
+Pearl Shield: def 5->6 (EA Pelagia)
+
+Hoplon: enc 1->2 (this fully offsets the benefits Therodos gets from the cuirass changes)
 
 *Added Laminated Scale Mail
 
@@ -942,8 +951,6 @@ Hammer: dmg 7->8 (MA Ulm, Claymen)
 
 Maul: dmg 9->10  (MA Ulm)
 
-Poison Tipped Spear: rescost 4->3 (EA Machaka)
-
 Machaka Spear: rescost 3->2, att -1->0 (EA/MA Machaka)
 
 Chakram: ammo 2->5 (Bandar Log, Patala)
@@ -956,7 +963,9 @@ Yari: rescost 1->2
 
 Wakizashi: rescost 4->2
 
-Added non-rust equipment from Non-rust Mod: Laminated Glaive, Laminated Yari ,Spear, Knife, Bronze Glaive, Trident, Bronzed Falchion, Bronzed Kryss
+Added non-rust equipment from non-rust mod:
+
+Laminated Glaive, Laminated Yari ,Spear, Knife, Bronze Glaive, Trident ,Bronzed Falchion, Bronzed Kryss
 
 #### Indie Changes
 
@@ -1006,7 +1015,11 @@ Fire Lord: (base)rescost 20->15
 
 ##### Arcoscephale, Golden Era
 
-Chariot Archer: 55->45 gold
+Chariot: 45->35 gold, (base)rescost 8->10
+
+Chariot Archer: 55->45 gold, (base)rescost 8->10
+
+Chariot Commander: 75->55 gold, (base)rescost 8->10
 
 ##### Ermor, New Faith
 
@@ -1050,9 +1063,9 @@ Daughter of Typhon: conj 9->8, 30->20 gems
 
 Horseman: 20->18 gold
 
-Noble: 50->40 gold, (base)rescost 25->10
+Noble: 50->40 gold, rescost(base) 25->8
 
-Noble Commander: 110->100 gold, (base)rescost 25->8
+Noble Commander: 110->100 gold, rescost(base) 25->8
 
 Celestial Servant: 3->2 gems (from MA T'ien Ch'i changes)
 
@@ -1086,8 +1099,10 @@ Tlahuelpuchi: B2->B2D2, 25->34 slaves
 
 Civateteo: B2D2->B2, (+douse 1)
 
-*From Xibalba changes
-Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
+*From EA Xibalba changes
+Bind Beast Bats: (MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each))
+
+Contact Onaqui: (increase unrest 2->4/month)
 
 ##### Abysia, Children of Flame
 
@@ -1109,7 +1124,7 @@ Summon Scorpion Man: conj 8->6, 12->10 gems, (+commander, +iron cap, +torso slot
 
 ##### C'tis, Lizard Kings
 
-Lizard Chariot: 50->40 gold, (base)rescost 15->8, (bronze scale mail cuiraiss->iron, bronze cap->iron)
+Lizard Chariot: 50->40 gold, 26->20 rescost, (bronze scale mail cuiraiss->iron, bronze cap->iron)
 
 Serpent Dancers: stronger weapons (snake staff: att 1->2, dmg 3->5, on-hit poison 5[weak]->15[strong])
 
@@ -1270,13 +1285,11 @@ Telkhine: +increase death scale (from EA Therodos changes)
 
 ##### Xibalba, Vigil of the Sun
 
-*Lances replaced with Stone lances, which are non-iron and +2 rescost
+*Lances replaced with Stone lances, which are non-iron and +2 resources
 
 Obsidian Dart: ammo 4->6 (Xibalban Dart Thrower)
 
 Xibalban Warrior: 7->8 gold
-
-Large Scorpion: 1->34
 
 Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
 
@@ -1386,9 +1399,9 @@ Angelic Host: S5->S4F1, 50->40 pearls
 
 Heavenly Choir: S7F2->S5F3, 144->88 pearls, (Angels of the Heavenly Choir: +weak anti-undead/demon ranged attack)
 
-Serpent Cataphract: 60->45 gold, (base)rescost 30->23
+Serpent Cataphract: 60->45 gold, rescost 56->49
 
-Serpent Lord: 90->75 gold, (base)rescost 30->23
+Serpent Lord: 90->75 gold, rescost 56->49
 
 Hydra Hatchling: 35->28 gold, +recuperation (changes from EA Sauromatia)
 
@@ -1406,13 +1419,13 @@ Warden of Avalon: mapmove 1->2
 
 Lord Warden: mapmove 1->2, +H1
 
-Knight of Man: 45->35 gold, (base)rescost 20->15
+Knight of Man: 45->35 gold, rescost(base) 20->15
 
 (New Unit) Knight Commander of Man, 60 gold
 
-Knight of Avalon: 65->50 gold, (base)rescost 25->19, +recruitable in sufficiently magical forted forests
+Knight of Avalon: 65->50 gold, rescost(base) 25->19, +recruitable in sufficiently magical forted forests
 
-Knight Commander of Avalon: 126->115 gold, (base)rescost 25->19 
+Knight Commander of Avalon: 126->115 gold, rescost(base) 25->19 
 
 *Round Table Implementation (Knights of Avalon and Knight Commanders of Avalon can turn into Knights of the Round Table).
 
@@ -1446,9 +1459,9 @@ Fir Bolg: stone spear->bronze spear
 
 ##### Ulm, Forges of Ulm
 
-Black Knight: 50->40 gold, (base)rescost 25->19
+Black Knight: 50->40 gold, rescost(base) 25->19
 
-Black Lord: 110->100 gold, (base)rescost 25->19
+Black Lord: 110->100 gold, rescost(base) 25->19
 
 ##### Marignon, Fiery Justice
 
@@ -1456,17 +1469,17 @@ Flagellant: 10->9 gold
 
 Man at Arms: 14->13 gold 
 
-Royal Guard: 45->35 gold, (base)rescost 20->15
+Royal Guard: 45->35 gold, rescost(base) 20->15
 
-Knight of the Chalice: 55->45 gold, (base)rescost 25->19
+Knight of the Chalice: 55->45 gold, rescost(base) 25->19
 
-Paladin: 155->135 gold, (base)rescost 30->23
+Paladin: 155->135 gold, rescost(base) 30->23
 
 Witch Hunter: 185->175 gold, +0.1FAES 
 
-High Inquisitor: +not slow-to-recruit, +0.5S 
+High Inquisitor: not slow-to-recruit, +0.5S 
 
-*Inquisitors and High Inquisitors can now pillage in friendly provinces (with population) to generate flagellants. More flagellants are generated depending on the rank of the inquisitor, level of dominion and the presence of a temple.
+*Members of the Inquisition (non-witch finders) can pillage in friendly provinces (with population) to generate flagellants.  More flagellants are generated the higher the rank of the inquisitor.  Higher dominion and the presence of a temple also provide bonuses.
 
 *(From MA Ermor changes) Ermor receives a D1 site that spawns in provinces (not water provinces) they control with high dominion and low population. Marignon can convert these sites into S1 sites by sufficient preaching with an inquisitor.
 
@@ -1485,7 +1498,9 @@ Tlahuelpuchi: B2->B2D2, 25->34 slaves
 Civateteo: B2D2->B2, (+douse 1)
 
 *From EA Xibalba changes
-Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
+Bind Beast Bats: (MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each))
+
+Contact Onaqui: (increase unrest 2->4/month)
 
 ##### T'ien Ch'i, Imperial Bureaucracy
 
@@ -1766,17 +1781,78 @@ Agema Companion 35->30 gold, (base)rescost 15->12
 Agema Commander 105->100 gold, (base)rescost 15->12
 
 ##### Pythium, Serpent Cult
-Folds in LA Pythium overhaul mod. Troops slightly improved, but the main thing is a mechanic that lets you switch between active cults, with different bonuses provided for any of the three possible choices.
+Folds in LA Pythium overhaul mod. Troops slightly improved, but the main thing is a mechanic that lets you switch between active cults, with different bonuses provided for any of the three possible choices.  This functions by prophetizing an appropriate member of that cult.  If no cult is active but you can't prophetize, this can be accomplished by ordering that cult leader to sitesearch in the capital instead.  All cults have their divine authority increased when endorsed. This might give them priest levels, remove heretic, and/or decrease a research malus.
 
-All cults have their divine authority increased when endorsed. This might give them priest levels, remove heretic, and/or decrease a research malus.
+General changes:
 
-Serpent Cult: gets more hydras and snakes and summons, while assassins and hydras stop being cult only. They can also shapeshift into monstrous snakes, and get a new magic item that can only be used when they are endorsed. Finally, they get access to Swamps of Pythia from CBM (thanks, llama!).
+Several units (detailed below) receive the Clipeus in place of the tower shield.  This reduces resource cost and encumberance, but provides 1 lower protection.
+Limitane, Limitane Primani, Limitane Solaris, Primani Solaris, Comitatense, Limitane Standard, and Standard
+
+Several units (detailed below) receive weighted darts in place of javelins.  Weighted Darts have 3 more ammo than javelins, have 3 better precision, and do 2 less damage.
+Limitane, Limitane Solaris, Comitatense, Limitane Standard, and Standard
+
+Limitane receives clipeus and weighted darts.  Defense 10->11.
+
+Limitane Primani receives clipeus.  Defense 11->12.  Gold cost 12->11.  Map Move 1->2.
+
+Limitane Solaris receives clipeus and weighted darts.  Goldcost 15->14
+
+Primani Solaris receives clipeus.  Goldcost 20->17.  Mapmove 1->2.
+
+Comitatense receives clipeus and weighted darts.  
+
+Palatine gold cost 22->19.
+
+Limitane Standard receives clipeus and weighted darts.  Defense 10->11.  Gold cost 20->18.  Map Move 1->2.
+
+Standard receives clipeus and weighted darts.   Gold cost 30->20.  
+
+Serpent Cataphracts are 70 -> 55 gold
+
+Hydras are 250->210 gold, recuperate.
+
+Hydra Hatchlings are 35->28 gold, recuperate.
+
+Serpent Cult: 
+
+When inactive, Serpent Priests are H2, and Serpent Acolytes are H0.  When active, Serpent Priests are H2, and Serpent Acolytes are H1.
+
+When active, Serpent Acolytes and Serpent Assassins are recruitable in all forts.  
+
+Spells:
+
+Summon Daughter of Typhon (Conj 7, N4D2, 20 n gems) (cult locations only)
+Summon Hydra (Conj 4, N3H1, 10 n gems) (cult locations only)
+Summon Hydra Hatchlings (Conj 3, N1H1, 5 n gems, 3 hydras) (cult locations only)
+Summon Serpent (Conj 2, N1H1, 1 n gem, 2 serpents) (cult locations only)
+Serpent Form: (Alt 4, N1H1, 5 n gems) transforms a serpent acolyte into a Large Serpent which can spit poison and casts poison ward (cult locations only)
+Greater Serpent Form: (Alt 5, N3H1, 10 n gems) transforms a serpent preist into a mighty Great Serpent which can spray poison and casts poison ward (cult locations only)
+Marshes of Pythia:  (Thau 6, N3H4, 3 n gems)  Battlefield spell which mimics Howl, but with snakes and hydras.
+
+
+Item: Enchanted Serpent Staff: (Const 4, 2H, N2).  Restricted to active cult members.  Transforms into a snake in battle, and protects allies from poison.
 
 Solar Cult: gets cheaper and easier recruitment of their members, and gets a reclimit sacred. They get a new Solar Bull summon, and a ritual that can convert Leos into Helioperses, who are effective thugs, and the only unit that can wield the 4 new solar cult items. Casting Second Sun provides some freespawn. They also get an F2H3 buff that significantly increases the combat prowess of sacreds, but will severely burn sacreds who aren't members of the cult of the solar bull (fire resistance helps).
 
+Units:
+
+Spells:  
+Tarboleum: (Alt 3, F1N1, 5 n gems) Transforms a leo into a helioperses (cult locations only)
+Summon Heliotaurus:  (Alt 3, F1N1, 5 n gems) Summons a magical, sacred, fiery bull (cult locations only)
+Sol Invictus:  (Thau 8, F2H3, 1 f gem): Sacreds are stronger, faster, have better attack, radiate heat, and are burned severely if not fire resistant.
+Second Sun: Remains the same, but generates freespawn cult members and bulls, also provides discounts to recruitable sacreds.
+
+Items:
+1
+2
+3
+4
+
 Fertility Cult: can convert casters into Galli, who are their clergy, and their main access to their rituals. They get very cheap assassination rituals that can send maenads, boars, or lions after an enemy, can shapechange into monstrous lions or boars, can throw bloody fertility rites and orgies, and inexpensively summon boars and lions with summerpower. They also get cheaper vine men.
 
-Reference is made to https://docs.google.com/document/d/1nkTDn9yhYQrRcN6k0dTjzs5DpuKxiauV76wA0zQnkTs for the full changelog.
+Units
+Spells
+Items
 
 ##### Lemuria, Soul Gates
 
@@ -1844,8 +1920,10 @@ Tlahuelpuchi: B2->B2D2, 25->34 slaves
 
 Civateteo: B2D2->B2, (+douse 1)
 
-*From Xibalba changes
-Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
+*From EA Xibalba changes
+Bind Beast Bats: (MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each))
+
+Contact Onaqui: (increase unrest 2->4/month)
 
 ##### T'ien Ch'i, Barbarian Kings
 
@@ -2026,19 +2104,19 @@ Paighans: 8->9 gold, mor 9->8
 
 Airya Archers, Infantry, Light Infantry: 10->11 gold
 
-Savaran Cataphract, Saravan Guard: (base)rescost 15->13
+Savaran Cataphract, Saravan Guard: rescost(base) 15->13
 
 Turan Infantry 11->12 gold
 
 Turan Heavy Infantry 13->14 gold
 
-Turan Spahbed, Shah: (base)rescost 15->12
+Turan Spahbed, Shah: rescost(base) 15->12
 
 Turan War Elephants 100->110 gold
 
-Zhayedans: cost 40 gold each time they lose a rider
+Zhayedans: rescost(base) 31->34, +cost 40 gold each time they lose a rider
 
-Zhayedan Spahbed: (base)rescost 31->34
+Zhayedan Spahbed: rescost(base) 31->34
 
 Karapans: 100->110 gold
 
@@ -2067,7 +2145,9 @@ Ah Ha': bronze spear->(UW) knife
 Chilan: +slow-to-recruit outside forts
 
 *From EA Xibalba changes
-Beast Bat: MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each)
+Bind Beast Bats: (MR15->11, def 13->11, +animal, +undisciplined, -1 siege/defense (total siege/defense of 2.44->1.44 each))
+
+Contact Onaqui: (increase unrest 2->4/month)
 
 ##### Atlantis, Frozen Sea
 
