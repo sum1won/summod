@@ -1955,7 +1955,7 @@ Mounted Gokenin: 55->45 gold, +longbow
 
 Hatamoto: 85->75 gold, +longbows
 
-Daimyo: 125-125 gold
+Daimyo: 125->115 gold
 
 Monk of the Fivefold Path: 1.00FAWEN->1.20 
 
