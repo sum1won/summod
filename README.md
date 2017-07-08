@@ -1011,6 +1011,10 @@ Fire Lord: (base)rescost 20->15
 
 ### National Changes
 
+#### All Ages
+
+Scoutmod fully implemented for all nations.  This will display as a recruitable, STR scout unit in the capital of most nations.  On recruiting it, it will become a commander.
+
 #### Early Age
 
 ##### Arcoscephale, Golden Era
