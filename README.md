@@ -9,7 +9,7 @@ The mod's purpose is a general "gameplay improvement mod." This primarily involv
 
 RANGES USED:   Units 6300-6999;  Weapons 1400-1500;  Armor 750-780;  Sites 1800-1850;  Nametypes   ; Montag 1300-1320;  Item 700-799;  Spell; restrictitem 1100-1150;  Nations;  mercenary; event; Sprites: 118
 ****************************************************************************************************************
-Changelog (v0.77)
+Changelog (v0.78)
 
 Table of Contents
 
