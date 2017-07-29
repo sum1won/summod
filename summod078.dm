@@ -505,21 +505,6 @@ These scouts will become commanders after recruitment."
 #selectsite  71
 #homemon  6496
 #end
-#selectsite  69
-#homemon  6496
-#end
-#selectsite  68  
-#homemon  6496
-#end
-#selectsite  67
-#homemon  6496
-#end
-#selectsite  66  
-#homemon  6496
-#end
-#selectsite  65
-#homemon  6496
-#end
 #selectsite  64
 #homemon  6496
 #end
@@ -563,12 +548,6 @@ These scouts will become commanders after recruitment."
 #homemon  6496
 #end
 #selectsite  39
-#homemon  6496
-#end
-#selectsite  37
-#homemon  6496
-#end
-#selectsite  36
 #homemon  6496
 #end
 #selectsite  34
@@ -2858,7 +2837,7 @@ These scouts will become commanders after recruitment."
 #mainlevel 1
 #constlevel 6
 #giftofwater 80
-#descr "These pills grant waterbreathing ability to 80 soldiers."
+#descr "These pills grant waterbreathing ability to 40 soldiers."
 #end
 
 #selectitem 242	 --	Ring of Warning -> Patrol 25
