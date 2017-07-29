@@ -1,4 +1,4 @@
-#modname "Summod 0.78"
+#modname "Summod 0.78a"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
 #version 0.78
 #icon "./summod/summodall.tga"
