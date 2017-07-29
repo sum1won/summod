@@ -5952,7 +5952,8 @@ Summod improves  Ur.  PD is better, your troops are generally better and/or chea
 #copyspr   	120
 #cleanshape
 #homerealm 0 
-#end	  
+#end
+
 #newmonster 	6501	 
 #copystats	120	
 #copyspr   	120	
@@ -7306,11 +7307,12 @@ Summod improves  Ur.  PD is better, your troops are generally better and/or chea
 ---Add mass airbreathing item spell
 ---Mass Airbreathing spell ---
 #newmonster 6344
-#copystats 168
+#copystats 1065
 #name "sacrement of limne"
 #descr "this unit exists only to provide sacrement to limne"
 #immobile
 #end
+
 #newspell
 #name "Blessing of Limne"
 #restricted 84
@@ -7366,6 +7368,7 @@ Summod improves  Ur.  PD is better, your troops are generally better and/or chea
 #notext
 #nolog
 #end
+
 #newevent
 #rarity 5
 #req_monster 6344
@@ -7376,6 +7379,7 @@ Summod improves  Ur.  PD is better, your troops are generally better and/or chea
 #nolog
 #killmon 6344
 #end
+
 ---atlantis ea
 #newmonster 6350 --Sorceror of the Shallows
 #copystats 1692
