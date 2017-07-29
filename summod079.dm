@@ -10721,7 +10721,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #name "Knight of the Glade"
 #descr "A Knight of the Glade, gallant and bold, entrusted with special duties and honours.  Knights of the Glade who are commanders are eligible for a special seat if one is open."
 #spr1 "./summod/roundgeneric_1.tga"
-#spr1 "./summod/roundgeneric_2.tga"
+#spr2 "./summod/roundgeneric_2.tga"
 #hp 20
 #size 3
 #gcost 70
@@ -10729,6 +10729,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #mor 18
 #att 14
 #def 14
+#str 13
 #enc 4
 #mapmove 3
 #goodleader
