@@ -1,6 +1,6 @@
-#modname "Summod 0.78a"
+#modname "Summod 0.79"
 #description "Overhaul mod with the goal of increasing gameplay diversity"
-#version 0.78
+#version 0.79
 #icon "./summod/summodall.tga"
 
 --This is summod. Feel free to use chunks from it in your own mods, as it originated by combining features from three or four different mods I enjoyed.
@@ -3407,17 +3407,17 @@ These scouts will become commanders after recruitment."
 #selectspell 540
 #end
 #selectspell 603
-#aoe 2005-- Iron Warriors scales, but differently
+#aoe 2005--
 #end
-#selectspell 562
-#fatiguecost 40
-#aoe 1000
+#selectspell 562 --iron warriors
+--#fatiguecost 40
+--#aoe 1000
 #end
 
 -- Wooden Warriors --
--- +1 AoE per caster level
+-- +2 AoE per caster level
 #selectspell 568
-#aoe 1004
+#aoe 2002
 #end
 
 -- Army of Giants --
@@ -9131,258 +9131,178 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #startunitnbrs1 15
 #startunitnbrs2 15
 #end
+
 #newevent 
 #nation -2
 #nolog
 #notext
 #msg "flags"
 #rarity 5
-#req_minpop 100
+#req_fornation 40
+#req_minpop 250
 #req_dominion 1
-#req_targmnr 149
+#req_targpath2 8
 #req_targorder 30
 #1d6units 217
 #end
-#newevent 
-#nation -2
-#nolog
-#notext
-#msg "flags"
-#rarity 5
-#req_minpop 100
-#req_dominion 1
-#req_targmnr 149
-#req_targorder 30
-#1d3units 217
-#end
+
+
 #newevent 
 #nation -2
 #rarity 5
 #nolog
 #notext
 #msg "flags"
+#req_fornation 40
 #req_minpop 250
 #req_temple 1
-#req_targmnr 149
+#req_targpath2 8
 #req_targorder 30
 #1d3units 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
 #nolog
 #notext
 #msg "flags"
-#req_minpop 200
+#req_fornation 40
+#req_minpop 250
 #req_dominion 4
-#req_targmnr 149
+#req_targpath2 8
 #req_targorder 30
 #1unit 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
 #nolog
 #notext
+#req_fornation 40
 #msg "flags"
 #req_minpop 150
 #req_dominion 7
-#req_targmnr 149
+#req_targpath2 8
 #req_targorder 30
 #1unit 217
 #end
+
 #newevent 
 #nation -2
 #rarity 5
 #nolog
 #notext
+#req_fornation 40
 #msg "flags"
 #req_minpop 100
 #req_dominion 10
-#req_targmnr 149
+#req_targpath2 8
 #req_targorder 30
 #1unit 217
 #end
+
+#newevent 
+#nation -2
+#rarity 5
+#nolog
+#notext
+#req_fornation 40
+#msg "flags"
+#req_minpop 1000
+#req_dominion 4
+#req_targpath2 8
+#req_targorder 30
+#1unit 217
+#end
+
+#newevent 
+#nation -2
+#rarity 5
+#req_fornation 40
+#nolog
+#notext
+#msg "flags"
+#req_minpop 1500
+#req_dominion 4
+#req_targpath2 8
+#req_targorder 30
+#1unit 217
+#end
+
+
 #newevent 
 #nation -2
 #nolog
 #notext
+#req_fornation 40
 #msg "flags"
 #rarity 5
-#req_minpop 100
+#req_minpop 250
 #req_dominion 1
 #req_targmnr 589
 #req_targorder 30
-#2d6units 217
+#1d6units 217
 #end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 250
-#req_temple 1
-#req_targmnr 589
-#req_targorder 30
-#1d3units 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 200
-#req_dominion 4
-#req_targmnr 589
-#req_targorder 30
-#1unit 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 150
-#req_dominion 7
-#req_targmnr 589
-#req_targorder 30
-#1unit 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 100
-#req_dominion 10
-#req_targmnr 589
-#req_targorder 30
-#1unit 217
-#end
+
 #newevent 
 #nation -2
 #nolog
 #notext
+#req_fornation 40
 #msg "flags"
 #rarity 5
-#req_minpop 100
+#req_minpop 300
 #req_dominion 1
-#req_targmnr 222
-#req_targorder 30
-#3d6units 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 250
-#req_temple 1
-#req_targmnr 222
+#req_targpath3 8
 #req_targorder 30
 #1d3units 217
 #end
+
 #newevent 
 #nation -2
-#rarity 5
 #nolog
 #notext
 #msg "flags"
-#req_minpop 200
-#req_dominion 4
-#req_targmnr 222
+#req_fornation 40
+#rarity 5
+#req_minpop 300
+#req_dominion 1
+#req_targpath3 8
 #req_targorder 30
-#1unit 217
+#1d3units 217
 #end
+
 #newevent 
 #nation -2
-#rarity 5
 #nolog
 #notext
+#req_fornation 40
 #msg "flags"
-#req_minpop 150
-#req_dominion 7
-#req_targmnr 222
+#rarity 5
+#req_minpop 300
+#req_dominion 1
+#req_targpath4 8
 #req_targorder 30
-#1unit 217
+#1d3units 217
 #end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 100
-#req_dominion 10
-#req_targmnr 222
-#req_targorder 30
-#1unit 217
-#end
+
 #newevent 
 #nation -2
 #nolog
 #notext
 #msg "flags"
 #rarity 5
-#req_minpop 100
+#req_fornation 40
+#req_minpop 500
 #req_dominion 1
 #req_targmnr 583
 #req_targorder 30
-#4d6units 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 250
-#req_temple 1
-#req_targmnr 583
-#req_targorder 30
-#1d3units 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 200
-#req_dominion 4
-#req_targmnr 583
-#req_targorder 30
+#1d6units 217
 #1unit 217
 #end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 150
-#req_dominion 7
-#req_targmnr 583
-#req_targorder 30
-#1unit 217
-#end
-#newevent 
-#nation -2
-#rarity 5
-#nolog
-#notext
-#msg "flags"
-#req_minpop 100
-#req_dominion 10
-#req_targmnr 583
-#req_targorder 30
-#1unit 217
-#end
+
 --marignon pillage.  Pillage order is 30.
 #selectmonster 149 --inquisitor
 #end
@@ -9409,7 +9329,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #selectmonster 223 --grandmaster
 #end
 #selectmonster 217 --flagellant
-#gcost 10007
+--#gcost 10007
 #end
 ----Angel Changes
 #newspell
