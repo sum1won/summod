@@ -4271,7 +4271,6 @@ Summod changes Lanka substantially.  Atavi and Bandar are slightly better, Dakin
 #newevent ---Bribe
 #rarity 5
 #nation -2
-#req_fornation 34
 #req_fornation 35
 #req_fornation 26
 #req_monster 240
@@ -4282,6 +4281,14 @@ Summod changes Lanka substantially.  Atavi and Bandar are slightly better, Dakin
 #notext
 #end
 --- Xibalba
+#newmonster 6346 --slow rec batab
+#copystats 2674
+#copyspr 2674
+#size 2
+#gcost 40
+#slowrec
+#end
+
 #selectnation 31 --ea xibalba
 #descr "Xibalba is a vast realm of dark caverns beneath the forests of Mictlan. According to legend, the sun and the moon passed
 through the labyrinthine caverns on their daily journey to the eastern horizon. On this journey they were guarded by the bat
@@ -4296,28 +4303,55 @@ being guides of the sun, their skills in solar magic is limited. The Zotz are nu
 colonies. Numbers rather than strength make them win their battles.
 
 Xibalba is substantially nerfed by summod.  Bats are more expensive, foreign recruit is slower, and beast bats are much worse in combat and at sieges.  Consult the changelog for more detail."
-#addreccom 6346
+#addreccom 2674
+#addreccom 2680
+#addreccom 2677
+#addreccom 2679
+#addreccom 2675
+#addreccom 2647
+#addreccom 2681
+#addreccom 2678
+#addreccom 2691
+
+#addrecunit 2669
+#addrecunit 2668
+#addrecunit 2671
+#addrecunit 2670
+
+#addrecunit 2689
+#addrecunit 2687
+#addrecunit 2688
+
+#forestcom 6436
+#forestrec 2669
+#forestrec 2668
+#cavecom 6436
+--#cavecom    --ea cave chilan
+#caverec 2668
+#caverec 2689
 #end
-#selectmonster 2674
-#slowrec
-#gcost 40
-#end
-#newmonster 6346 --not slow recruit batab
-#copystats 2674
-#copyspr 2674
-#size 2
-#gcost 40
-#noslowrec
-#end
+
+
+
+
+
 #selectmonster 2668 --Xibalban Warrior (EA)
 #gcost 8
 #clearweapons
 #weapon 1415
+#att 10
+#def 10
 #end
-
 #selectmonster 2669
 #gcost 8
+#att 10
+#def 10
 #end
+#selectmonster 2671
+#att 11
+#def 11
+#end
+
 #selectmonster 1357 --beastbat
 #castledef -1
 #siegebonus -1
@@ -11003,7 +11037,15 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #restricteditem 1102
 #spell "Bewitchment"
 #end
--------Xibalba
+-------ma Xibalba
+
+#newmonster 6353  -camazotz sub
+#copystats 2719
+#copyspr 2719
+#slowrec
+#gcost 170
+#end
+
 #selectnation 58
 #descr "Xibalba is a vast realm of dark water-filled caverns beneath the forests of Mictlan. According to legend, the sun and the
 moon passed through the cavernous realm on their daily journey to the eastern horizon. On this journey they were guarded
@@ -11019,9 +11061,43 @@ in dried-out caves and forced them into servitude. Now Xibalba is a Muuch kingdo
 population.
 
 Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds recruitable in any fort while discounting them."
+
+#clearrec
+#addrecunit 2721
+#addrecunit 2722
+#addrecunit 2723
+#addrecunit 2724
+#addrecunit 2725
+#addrecunit 2726
+#addrecunitc 2727
+
 #addrecunit 2731
 #addrecunit 2730
+
+#addreccom 2715
+#addreccom 2716
+#addreccom 2717
+#addreccom 2718
+
+#forestrec 2727
+#forestrec 2735
+#forestrec 2734
+#forestcom 2682
+#forestcom 2733
+#forestcom 2720
+
+#caverec 2734
+#caverec 2735
+#cavecom 2733
+#cavecom 6353
+
+#uwunit1 2887
+#uwunit2 2888
+#uwcom1 2717
+#uwcom2 2715
+#uwcom3 2716
 #end
+
 #selectsite 177
 #clear
 #name "The Sacred Cenote"
@@ -11031,16 +11107,29 @@ Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds r
 #gems 2 1
 #homecom 2732
 #end
+
 #selectmonster 2730 --poison dart thrower 
 #end
 #selectweapon 620 --poisondart
 #ammo 6
 #end
+
 #selectweapon 624
 #dmg 50
 #end
+
+#selectmonster 2682 --way
+#slowrec
+#gcost 140
+#end
+
+#selectmonster 2733 --batab
+#slowrec
+#gcost 40
+#end
+
 #selectmonster 2731 --Obsidian Warrior
-#gcost 10017
+#gcost 10016
 #end
 #selectmonster 2716 --Muuch Kuhul
 #gcost 10000
@@ -11057,9 +11146,13 @@ Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds r
 #gcost 8
 #clearweapons
 #weapon 1415
+#att 10
+#def 10
 #end
 #selectmonster 2735 --zotz
 #gcost 8
+#att 10
+#def 10
 #end
 #selectweapon 619 --obs dart
 #ammo 6
@@ -11072,13 +11165,13 @@ Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds r
 #selectmonster 2724 --light obsword muuch
 #end
 #selectmonster 2725 --bronze spear muuch
-#gcost 10013
+#gcost 10012
 #att 11
 #def 10
 #mor 11
 #end
 #selectmonster 2726 --bronze obsword muuch
-#gcost 10013
+#gcost 10012
 #att 11
 #def 10
 #mor 11
@@ -11176,6 +11269,7 @@ Summod improves Siren paths and improves the cost of icthytaurs, and the cost an
 #mapmove 2
 #gcost 10011
 #end
+
 ---------Abysia
 #selectnation 45
 #descr "Abysia is a hot wasteland, at the center of which lies a great volcano whose lava-lit caverns are inhabited by
@@ -11191,6 +11285,7 @@ Abysia is buffed by summod.  Your heavy armor is less encumbering, fire mages ar
 you can summon magma children, and cast a new, special crossbreeding spell.  The unafflicted demonspawn are especially 
 useful if made into commanders.  Also check out the new battefield wide fire boosting spell at conjuration 5."
 #end
+
 ---------Ashdod
 #selectnation 55
 #end
@@ -11296,7 +11391,21 @@ Ragha is nerfed by summod. Your units are generally more expensive, and if a Zha
 #gcost 10011
 #end
 
---xibalba
+--la xibalba
+
+#newmonster 6315 --slow rec way
+#copystats 2751
+#copyspr 2751
+#slowrec
+#gcost 150
+#end
+#newmonster 6352
+#copystats 2750
+#copyspr 2750
+#slowrec
+#gcost 200
+#end
+
 
 
 #selectnation 81
@@ -11310,44 +11419,65 @@ into the flooded city and fell into a centennial torpor. When the caves begun to
 In the still waterfilled depths of Xibalba the Zotz priests found and unwittingly awoke the Bacabob. Now the Zotz once more
 inhabit their ancestral home, but serve the divinities of subterranean waters and the Awakening God.
 
-Xibalba is nerfed by summod.  Bats are more expensive.  Foreign recruit commanders are slow to recruit.  Beastbats are weaker."
-#clearrec
-#addreccom 6582
+Xibalba is nerfed by summod.  Bats are more expensive and worse.  Foreign recruit commanders are slow to recruit.  Beastbats are weaker."
+#addreccom 2675
+#addreccom 2676
+#addreccom 2748
+#addreccom 2750
+#addreccom 2751
+#addreccom 2753
+#addreccom 2782
+
+#addrecunit 2738
+#addrecunit 2739
+#addrecunit 2740
+#addrecunit 2741
+#addrecunit 2742
+#addrecunit 2744
+#addrecunit 2745
+#addrecunit 2746
+
+#forestcom 6436
+#forestcom 6315
+#forestrec 2738
+#forestrec 2739
+#cavecom 6436
+#cavecom 6352
+#caverec 2738
+#caverec 2739
+#uwunit1 2889
+#uwunit2 2890
+#uwcom1 2748
+#uwcom2 2891
 #end
 
-#selectmonster 2674
-#slowrec
-#gcost 40
+
+#selectmonster 2739
+#att 10
+#def 10
+#gcost 10008
 #end
 
-
-#selectmonster 2782 --batab cave or forest
-#slowrec
-#gcost 40
-#end
-#newmonster 6582 --Batab fort
-#copystats 2782
-#copyspr 2782
-#noslowrec
-#gcost 40
-#end
 #selectmonster 2738
 #clearweapons
 #weapon 1415
+#att 10
+#def 10
 #gcost 10008
 #end
-#selectmonster 2739
-#gcost 10008
-#end
-#selectmonster 2740
-#gcost 10009
-#end
+
 #selectmonster 2741
 #clearweapons
 #weapon 1415
+#att 11
+#def 11
 #end
-#selectnation 71
+
+#selectmonster 2742
+#att 11
+#def 11
 #end
+
 
 --la abysia
 #selectnation 71
