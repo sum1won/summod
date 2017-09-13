@@ -4281,9 +4281,14 @@ Summod changes Lanka substantially.  Atavi and Bandar are slightly better, Dakin
 #notext
 #end
 --- Xibalba
-#newmonster 6346 --slow rec batab
+#newmonster 6346 -- not slow rec batab
 #copystats 2674
 #copyspr 2674
+#size 2
+#gcost 40
+#end
+
+#selectmonster 2674 --slow rec batab
 #size 2
 #gcost 40
 #slowrec
@@ -4303,12 +4308,12 @@ being guides of the sun, their skills in solar magic is limited. The Zotz are nu
 colonies. Numbers rather than strength make them win their battles.
 
 Xibalba is substantially nerfed by summod.  Bats are more expensive, foreign recruit is slower, and beast bats are much worse in combat and at sieges.  Consult the changelog for more detail."
-#addreccom 2674
+#clearrec
+#addreccom 6346
 #addreccom 2680
 #addreccom 2677
 #addreccom 2679
 #addreccom 2675
-#addreccom 2647
 #addreccom 2681
 #addreccom 2678
 #addreccom 2691
@@ -4322,10 +4327,10 @@ Xibalba is substantially nerfed by summod.  Bats are more expensive, foreign rec
 #addrecunit 2687
 #addrecunit 2688
 
-#forestcom 6436
+#forestcom 2674
 #forestrec 2669
 #forestrec 2668
-#cavecom 6436
+#cavecom 2674
 --#cavecom    --ea cave chilan
 #caverec 2668
 #caverec 2689
@@ -9177,7 +9182,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_dominion 1
 #req_targpath2 8
 #req_targorder 30
-#1d6units 217
+#1d3units 217
 #end
 
 
@@ -9188,11 +9193,11 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #notext
 #msg "flags"
 #req_fornation 40
-#req_minpop 250
+#req_minpop 200
 #req_temple 1
 #req_targpath2 8
 #req_targorder 30
-#1d3units 217
+#1unit 217
 #end
 
 #newevent 
@@ -9277,7 +9282,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_dominion 1
 #req_targmnr 589
 #req_targorder 30
-#1d6units 217
+#1d3units 217
 #end
 
 #newevent 
@@ -9305,7 +9310,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_dominion 1
 #req_targpath3 8
 #req_targorder 30
-#1d3units 217
+#1unit 217
 #end
 
 #newevent 
@@ -9319,7 +9324,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_dominion 1
 #req_targpath4 8
 #req_targorder 30
-#1d3units 217
+#1unit 217
 #end
 
 #newevent 
@@ -9333,7 +9338,7 @@ self-blessing.  Conquering Ermorian deadlands allows you to convert them to pear
 #req_dominion 1
 #req_targmnr 583
 #req_targorder 30
-#1d6units 217
+#1d3units 217
 #1unit 217
 #end
 
@@ -11042,9 +11047,33 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 #newmonster 6353  -camazotz sub
 #copystats 2719
 #copyspr 2719
-#slowrec
-#gcost 170
+#gcost 160
 #end
+
+#selectmonster 2719 --camazotz sub
+#slowrec
+#gcost 160
+#end
+
+
+#newmonster 6354  -way sub
+#copystats 2682
+#copyspr 2682
+#gcost 140
+#end
+
+
+#selectmonster 2682 --way
+#slowrec
+#gcost 150
+#end
+
+
+#selectmonster 2733 --batab
+#slowrec
+#gcost 40
+#end
+
 
 #selectnation 58
 #descr "Xibalba is a vast realm of dark water-filled caverns beneath the forests of Mictlan. According to legend, the sun and the
@@ -11069,7 +11098,7 @@ Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds r
 #addrecunit 2724
 #addrecunit 2725
 #addrecunit 2726
-#addrecunitc 2727
+#addrecunit 2727
 
 #addrecunit 2731
 #addrecunit 2730
@@ -11085,11 +11114,12 @@ Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds r
 #forestcom 2682
 #forestcom 2733
 #forestcom 2720
+#forestcom 2728
 
 #caverec 2734
 #caverec 2735
 #cavecom 2733
-#cavecom 6353
+#cavecom 2719
 
 #uwunit1 2887
 #uwunit2 2888
@@ -11106,7 +11136,20 @@ Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds r
 #rarity 5
 #gems 2 1
 #homecom 2732
+#homecom 6346
 #end
+
+#selectsite 179
+#clear
+#name "The Cave of Perpetual Darkness"
+#path 2
+#level 0
+#rarity 5
+#gems 5 1
+#homecom 6353
+#homecom 6354
+#end
+
 
 #selectmonster 2730 --poison dart thrower 
 #end
@@ -11118,14 +11161,8 @@ Summod buffs Xibalba by improving Muuch statlines and making red Muuch sacreds r
 #dmg 50
 #end
 
-#selectmonster 2682 --way
-#slowrec
-#gcost 140
-#end
-
-#selectmonster 2733 --batab
-#slowrec
-#gcost 40
+#selectmonster 2728
+#forestsurvival
 #end
 
 #selectmonster 2731 --Obsidian Warrior
@@ -11396,17 +11433,31 @@ Ragha is nerfed by summod. Your units are generally more expensive, and if a Zha
 #newmonster 6315 --slow rec way
 #copystats 2751
 #copyspr 2751
+#gcost 140
+#end
+
+#selectmonster 2751
 #slowrec
 #gcost 150
 #end
+
 #newmonster 6352
 #copystats 2750
 #copyspr 2750
-#slowrec
-#gcost 200
+#gcost 180
 #end
 
 
+#selectmonster 2750
+#slowrec
+#gcost 190
+#end
+
+
+#selectmonster 2782
+#slowrec
+#gcost 40
+#end
 
 #selectnation 81
 #descr "Xibalba is a vast realm of dark caverns beneath the forests of Mictlan. Living in the caverns were the bat people, Zotz, but
@@ -11420,13 +11471,14 @@ In the still waterfilled depths of Xibalba the Zotz priests found and unwittingl
 inhabit their ancestral home, but serve the divinities of subterranean waters and the Awakening God.
 
 Xibalba is nerfed by summod.  Bats are more expensive and worse.  Foreign recruit commanders are slow to recruit.  Beastbats are weaker."
+#clearrec
 #addreccom 2675
 #addreccom 2676
 #addreccom 2748
-#addreccom 2750
-#addreccom 2751
+#addreccom 6352
+#addreccom 6315
 #addreccom 2753
-#addreccom 2782
+#addreccom 6346
 
 #addrecunit 2738
 #addrecunit 2739
@@ -11437,12 +11489,12 @@ Xibalba is nerfed by summod.  Bats are more expensive and worse.  Foreign recrui
 #addrecunit 2745
 #addrecunit 2746
 
-#forestcom 6436
-#forestcom 6315
+#forestcom 2782
+#forestcom 2751
 #forestrec 2738
 #forestrec 2739
-#cavecom 6436
-#cavecom 6352
+#cavecom 2782
+#cavecom 2750
 #caverec 2738
 #caverec 2739
 #uwunit1 2889
