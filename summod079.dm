@@ -11065,7 +11065,7 @@ with. Mothers of Avalon will occasionally bond rangers, which may improve their 
 
 #selectmonster 2682 --way
 #slowrec
-#gcost 150
+#gcost 140
 #end
 
 
